@@ -63,6 +63,8 @@ async function loadSamples() {
 // QUERY & RESULTS
 // ============================================
 
+let lastResult = null;
+
 /**
  * Submit query for threat analysis
  */
@@ -113,6 +115,7 @@ async function submitQuery() {
  * Display query results with formatting
  */
 function displayResults(result) {
+    lastResult = result;
     const confidence = result.confidence || 0;
     const confidencePercent = (confidence * 100).toFixed(1);
     
@@ -257,9 +260,15 @@ function setRating(rating) {
  */
 async function submitFeedback() {
     const ratingStars = document.getElementById('rating-stars');
-    const rating = ratingStars?.querySelector('.star-btn.active')
-        ? parseInt(ratingStars.querySelector('.star-btn.active:last-of-type').getAttribute('data-rating'))
-        : null;
+    let rating = null;
+    if (ratingStars) {
+        const activeStars = Array.from(ratingStars.querySelectorAll('.star-btn.active'));
+        if (activeStars.length > 0) {
+            rating = Math.max(
+                ...activeStars.map(btn => parseInt(btn.getAttribute('data-rating'), 10)).filter(n => !Number.isNaN(n))
+            );
+        }
+    }
 
     const feedback = {
         rating,
@@ -268,7 +277,13 @@ async function submitFeedback() {
         completeness: document.getElementById('feedback-completeness').value,
         comments: document.getElementById('feedback-comments').value,
         corrections: document.getElementById('feedback-corrections').value,
-        timestamp: new Date().toISOString()
+        timestamp: new Date().toISOString(),
+        query: lastResult?.query || null,
+        answer: lastResult?.answer || null,
+        trace_id: lastResult?.trace_id || null,
+        model: lastResult?.model || null,
+        source_count: typeof lastResult?.source_count === 'number' ? lastResult.source_count : null,
+        confidence: typeof lastResult?.confidence === 'number' ? lastResult.confidence : null
     };
 
     try {

@@ -222,6 +222,11 @@ def submit_feedback():
         
         feedback_data = {
             'query': data.get('query'),
+            'answer': data.get('answer'),
+            'trace_id': data.get('trace_id'),
+            'model': data.get('model'),
+            'source_count': data.get('source_count'),
+            'confidence': data.get('confidence'),
             'response_id': data.get('response_id'),
             'rating': data.get('rating', 0),
             'relevance': data.get('relevance'),
