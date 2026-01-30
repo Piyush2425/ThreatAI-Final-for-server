@@ -155,7 +155,7 @@ def process_query(query_text: str) -> dict:
 
 # ==================== WEB UI ROUTES ====================
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static', static_url_path='/static')
 app.config['JSON_SORT_KEYS'] = False
 
 
@@ -210,6 +210,40 @@ def samples():
         "What infrastructure does Turla use?"
     ]
     return jsonify({'samples': samples_list})
+
+
+@app.route('/api/feedback', methods=['POST'])
+def submit_feedback():
+    """Submit feedback for a query response."""
+    try:
+        data = request.json
+        
+        from feedback.store import FeedbackStore
+        
+        feedback_data = {
+            'query': data.get('query'),
+            'response_id': data.get('response_id'),
+            'rating': data.get('rating', 0),
+            'relevance': data.get('relevance'),
+            'accuracy': data.get('accuracy'),
+            'completeness': data.get('completeness'),
+            'comments': data.get('comments'),
+            'corrections': data.get('corrections')
+        }
+        
+        feedback_store = FeedbackStore()
+        feedback_id = feedback_store.store_feedback(feedback_data)
+        
+        logger.info(f"Feedback submitted: {feedback_id}")
+        return jsonify({
+            'success': True,
+            'feedback_id': feedback_id,
+            'message': 'Thank you for your feedback!'
+        })
+        
+    except Exception as e:
+        logger.error(f"Error submitting feedback: {e}")
+        return jsonify({'error': str(e)}), 500
 
 
 # ==================== CLI INTERFACE ====================

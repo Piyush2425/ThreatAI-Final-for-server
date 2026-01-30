@@ -3,515 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Threat-AI - Threat Intelligence with Local LLM</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
-            color: #333;
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        header {
-            background: white;
-            border-radius: 12px;
-            padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            background: linear-gradient(135deg, #1e3a8a, #1e40af);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .subtitle {
-            color: #666;
-            font-size: 1.1em;
-            margin-bottom: 20px;
-        }
-
-        .status-bar {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-top: 20px;
-        }
-
-        .status-item {
-            background: #f3f4f6;
-            padding: 15px;
-            border-radius: 8px;
-            border-left: 4px solid #1e40af;
-        }
-
-        .status-label {
-            font-size: 0.9em;
-            color: #666;
-            text-transform: uppercase;
-            font-weight: 600;
-        }
-
-        .status-value {
-            font-size: 1.1em;
-            color: #1e40af;
-            margin-top: 5px;
-            font-weight: 500;
-        }
-
-        .main-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-
-        .query-section {
-            background: white;
-            border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .query-section h2 {
-            font-size: 1.5em;
-            margin-bottom: 20px;
-            color: #1e3a8a;
-        }
-
-        .form-group {
-            margin-bottom: 20px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: 600;
-            color: #333;
-        }
-
-        textarea {
-            width: 100%;
-            padding: 12px;
-            border: 2px solid #e5e7eb;
-            border-radius: 8px;
-            font-family: inherit;
-            font-size: 1em;
-            resize: vertical;
-            min-height: 100px;
-            transition: border-color 0.3s;
-        }
-
-        textarea:focus {
-            outline: none;
-            border-color: #1e40af;
-            background: #f9fafb;
-        }
-
-        .samples {
-            margin-top: 15px;
-        }
-
-        .sample-btn {
-            display: inline-block;
-            background: #f3f4f6;
-            border: 1px solid #d1d5db;
-            padding: 8px 12px;
-            margin: 5px 5px 5px 0;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 0.9em;
-            transition: all 0.3s;
-        }
-
-        .sample-btn:hover {
-            background: #1e40af;
-            color: white;
-            border-color: #1e40af;
-        }
-
-        button {
-            background: linear-gradient(135deg, #1e3a8a, #1e40af);
-            color: white;
-            border: none;
-            padding: 12px 30px;
-            border-radius: 8px;
-            font-size: 1em;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s;
-            width: 100%;
-        }
-
-        button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(30, 58, 138, 0.3);
-        }
-
-        button:active {
-            transform: translateY(0);
-        }
-
-        button:disabled {
-            opacity: 0.6;
-            cursor: not-allowed;
-        }
-
-        .results-section {
-            background: white;
-            border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .results-section h2 {
-            font-size: 1.5em;
-            margin-bottom: 20px;
-            color: #1e3a8a;
-        }
-
-        .loading {
-            text-align: center;
-            padding: 40px;
-            color: #666;
-        }
-
-        .spinner {
-            border: 4px solid #f3f4f6;
-            border-top: 4px solid #1e40af;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 20px;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        .result-card {
-            background: #f9fafb;
-            border: 2px solid #e5e7eb;
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-
-        .result-query {
-            font-weight: 600;
-            color: #1e3a8a;
-            margin-bottom: 15px;
-            padding-bottom: 15px;
-            border-bottom: 2px solid #e5e7eb;
-        }
-
-        .result-answer {
-            line-height: 1.6;
-            color: #333;
-            margin-bottom: 20px;
-            padding: 15px;
-            background: white;
-            border-left: 4px solid #1e40af;
-            border-radius: 4px;
-        }
-
-        .confidence-score {
-            display: inline-block;
-            padding: 8px 16px;
-            background: #dbeafe;
-            border: 2px solid #0284c7;
-            border-radius: 6px;
-            color: #0c4a6e;
-            font-weight: 600;
-            margin-bottom: 15px;
-        }
-
-        .evidence-section {
-            margin-top: 20px;
-        }
-
-        .evidence-section h3 {
-            font-size: 1.1em;
-            color: #1e3a8a;
-            margin-bottom: 15px;
-            font-weight: 600;
-        }
-
-        .evidence-item {
-            background: white;
-            border: 1px solid #e5e7eb;
-            border-radius: 6px;
-            padding: 15px;
-            margin-bottom: 10px;
-        }
-
-        .evidence-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 8px;
-        }
-
-        .evidence-source {
-            font-weight: 600;
-            color: #1e40af;
-            font-size: 0.9em;
-        }
-
-        .evidence-score {
-            background: #ecfdf5;
-            color: #065f46;
-            padding: 4px 10px;
-            border-radius: 4px;
-            font-size: 0.85em;
-            font-weight: 600;
-        }
-
-        .evidence-text {
-            color: #555;
-            font-size: 0.95em;
-            line-height: 1.5;
-        }
-
-        .metadata {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 10px;
-            margin-top: 15px;
-            padding-top: 15px;
-            border-top: 1px solid #e5e7eb;
-        }
-
-        .metadata-item {
-            font-size: 0.9em;
-            color: #666;
-        }
-
-        .metadata-label {
-            font-weight: 600;
-            color: #333;
-        }
-
-        .error {
-            background: #fee2e2;
-            border: 2px solid #ef4444;
-            color: #991b1b;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-
-        .empty-state {
-            text-align: center;
-            padding: 40px 20px;
-            color: #999;
-        }
-
-        .empty-state-icon {
-            font-size: 3em;
-            margin-bottom: 10px;
-        }
-
-        @media (max-width: 768px) {
-            .main-content {
-                grid-template-columns: 1fr;
-            }
-
-            h1 {
-                font-size: 1.8em;
-            }
-
-            .status-bar {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-    </style>
+    <title>Threat-AI | Cybersecurity Intelligence Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <div class="container">
+        <!-- Header -->
         <header>
-            <h1>🔐 Threat-AI</h1>
-            <p class="subtitle">Evidence-Based Threat Intelligence with Local LLM</p>
+            <div class="header-content">
+                <div class="brand">
+                    <div class="logo">🛡️</div>
+                    <div class="brand-text">
+                        <h1>Threat-AI</h1>
+                        <p>Evidence-Based Cybersecurity Intelligence Platform</p>
+                    </div>
+                </div>
+            </div>
+
             <div class="status-bar">
-                <div class="status-item">
-                    <div class="status-label">LLM Mode</div>
-                    <div class="status-value" id="status-llm">Loading...</div>
+                <div class="status-card">
+                    <div class="status-label">LLM Engine</div>
+                    <div class="status-value">
+                        <span id="status-llm">Loading...</span>
+                    </div>
                 </div>
-                <div class="status-item">
+                <div class="status-card">
                     <div class="status-label">Model</div>
-                    <div class="status-value" id="status-model">Loading...</div>
+                    <div class="status-value">
+                        <span id="status-model">Loading...</span>
+                    </div>
                 </div>
-                <div class="status-item">
-                    <div class="status-label">Status</div>
-                    <div class="status-value" id="status-init">Loading...</div>
+                <div class="status-card">
+                    <div class="status-label">System Status</div>
+                    <div class="status-value">
+                        <span id="status-init">Loading...</span>
+                    </div>
                 </div>
             </div>
         </header>
 
-        <div class="main-content">
-            <div class="query-section">
-                <h2>Threat Query</h2>
-                <div class="form-group">
-                    <label for="query">Ask about threat actors, tactics, or malware:</label>
-                    <textarea id="query" placeholder="E.g., What are APT28's primary tactics?"></textarea>
+        <!-- Main Content -->
+        <div class="main-grid">
+            <!-- Query Panel -->
+            <div class="panel">
+                <div class="panel-header">
+                    <div class="panel-icon">🔍</div>
+                    <h2 class="panel-title">Threat Analysis</h2>
                 </div>
 
-                <button id="submit-btn" onclick="submitQuery()">🔍 Analyze Threat</button>
+                <div class="panel-content">
+                    <div class="form-group">
+                        <label for="query">Enter Threat Intelligence Query</label>
+                        <textarea 
+                            id="query" 
+                            placeholder="Ask about threat actors, TTPs, malware, vulnerabilities, or attack campaigns...&#10;&#10;Example: What are APT28's primary tactics?"
+                        ></textarea>
+                    </div>
 
-                <div class="samples">
-                    <label style="font-size: 0.9em; color: #666; margin: 15px 0 10px;">Quick Examples:</label>
-                    <div id="sample-buttons"></div>
+                    <button class="btn btn-primary" id="submit-btn" onclick="submitQuery()">
+                        <span>🚀</span>
+                        <span>Analyze Threat</span>
+                    </button>
+
+                    <div class="samples">
+                        <span class="samples-label">📌 Quick Examples</span>
+                        <div class="sample-grid" id="sample-buttons"></div>
+                    </div>
                 </div>
             </div>
 
-            <div class="results-section">
-                <h2>Analysis Results</h2>
-                <div id="results">
-                    <div class="empty-state">
-                        <div class="empty-state-icon">🎯</div>
-                        <p>Enter a query to see threat intelligence analysis with evidence</p>
+            <!-- Results Panel -->
+            <div class="panel">
+                <div class="panel-header">
+                    <div class="panel-icon">📊</div>
+                    <h2 class="panel-title">Intelligence Report</h2>
+                </div>
+
+                <div class="panel-content">
+                    <div class="results-container" id="results">
+                        <div class="empty-state">
+                            <div class="empty-icon">🎯</div>
+                            <div class="empty-text">
+                                Enter a threat intelligence query to receive<br>
+                                AI-powered analysis with evidence-based insights
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Feedback Section (add inside results panel-content after results-container) -->
+        <div id="feedback-section" class="feedback-section" style="display: none;">
+            <div class="feedback-label">
+                📝 Feedback
+            </div>
+
+            <div style="display: grid; gap: 16px;">
+                <!-- Rating -->
+                <div class="rating-group">
+                    <span class="rating-label">Rate Response:</span>
+                    <div style="display: flex; gap: 4px;" id="rating-stars">
+                        <button class="star-btn" data-rating="1" onclick="setRating(1)" title="Poor">★</button>
+                        <button class="star-btn" data-rating="2" onclick="setRating(2)" title="Fair">★</button>
+                        <button class="star-btn" data-rating="3" onclick="setRating(3)" title="Good">★</button>
+                        <button class="star-btn" data-rating="4" onclick="setRating(4)" title="Very Good">★</button>
+                        <button class="star-btn" data-rating="5" onclick="setRating(5)" title="Excellent">★</button>
+                    </div>
+                </div>
+
+                <!-- Relevance -->
+                <div class="feedback-form-group">
+                    <label for="feedback-relevance">Relevance:</label>
+                    <select id="feedback-relevance">
+                        <option value="">Select...</option>
+                        <option value="not_relevant">Not Relevant</option>
+                        <option value="somewhat_relevant">Somewhat Relevant</option>
+                        <option value="relevant">Relevant</option>
+                        <option value="highly_relevant">Highly Relevant</option>
+                    </select>
+                </div>
+
+                <!-- Accuracy -->
+                <div class="feedback-form-group">
+                    <label for="feedback-accuracy">Accuracy:</label>
+                    <select id="feedback-accuracy">
+                        <option value="">Select...</option>
+                        <option value="inaccurate">Inaccurate</option>
+                        <option value="partially_accurate">Partially Accurate</option>
+                        <option value="accurate">Accurate</option>
+                        <option value="unknown">Unknown</option>
+                    </select>
+                </div>
+
+                <!-- Completeness -->
+                <div class="feedback-form-group">
+                    <label for="feedback-completeness">Completeness:</label>
+                    <select id="feedback-completeness">
+                        <option value="">Select...</option>
+                        <option value="incomplete">Incomplete</option>
+                        <option value="partial">Partial</option>
+                        <option value="complete">Complete</option>
+                    </select>
+                </div>
+
+                <!-- Comments -->
+                <div class="feedback-form-group">
+                    <label for="feedback-comments">Comments (optional):</label>
+                    <textarea id="feedback-comments" placeholder="Share your thoughts..."></textarea>
+                </div>
+
+                <!-- Corrections -->
+                <div class="feedback-form-group">
+                    <label for="feedback-corrections">Corrections (if needed):</label>
+                    <textarea id="feedback-corrections" placeholder="Suggest corrections..."></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button onclick="submitFeedback()" class="feedback-submit">
+                    ✓ Submit Feedback
+                </button>
+            </div>
+        </div>
     </div>
 
-    <script>
-        // Load status
-        async function loadStatus() {
-            try {
-                const response = await fetch('/api/status');
-                const status = await response.json();
-                document.getElementById('status-llm').textContent = status.llm_mode;
-                document.getElementById('status-model').textContent = status.model;
-                document.getElementById('status-init').textContent = status.initialized ? '✓ Ready' : '✗ Error';
-            } catch (error) {
-                console.error('Error loading status:', error);
-            }
-        }
-
-        // Load sample queries
-        async function loadSamples() {
-            try {
-                const response = await fetch('/api/samples');
-                const data = await response.json();
-                const container = document.getElementById('sample-buttons');
-                data.samples.forEach(sample => {
-                    const btn = document.createElement('button');
-                    btn.className = 'sample-btn';
-                    btn.textContent = sample;
-                    btn.type = 'button';
-                    btn.onclick = (e) => {
-                        e.preventDefault();
-                        document.getElementById('query').value = sample;
-                    };
-                    container.appendChild(btn);
-                });
-            } catch (error) {
-                console.error('Error loading samples:', error);
-            }
-        }
-
-        // Submit query
-        async function submitQuery() {
-            const query = document.getElementById('query').value.trim();
-            if (!query) {
-                alert('Please enter a query');
-                return;
-            }
-
-            const btn = document.getElementById('submit-btn');
-            const resultsDiv = document.getElementById('results');
-
-            btn.disabled = true;
-            resultsDiv.innerHTML = '<div class="loading"><div class="spinner"></div><p>Analyzing threat...</p></div>';
-
-            try {
-                const response = await fetch('/api/query', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ query })
-                });
-
-                const result = await response.json();
-
-                if (!response.ok) {
-                    resultsDiv.innerHTML = `<div class="error">❌ Error: ${result.error || 'Unknown error'}</div>`;
-                    return;
-                }
-
-                // Format results
-                let html = '<div class="result-card">';
-                html += `<div class="result-query">Q: ${escapeHtml(result.query)}</div>`;
-                html += `<div class="confidence-score">Confidence: ${(result.confidence * 100).toFixed(1)}%</div>`;
-                html += `<div class="result-answer">${escapeHtml(result.answer)}</div>`;
-
-                if (result.evidence && result.evidence.length > 0) {
-                    html += '<div class="evidence-section">';
-                    html += `<h3>📚 Evidence (${result.evidence.length} sources)</h3>`;
-                    result.evidence.forEach((e, i) => {
-                        html += `<div class="evidence-item">`;
-                        html += `<div class="evidence-header">`;
-                        html += `<span class="evidence-source">[${i+1}] ${escapeHtml(e.source)}</span>`;
-                        html += `<span class="evidence-score">Score: ${e.score}</span>`;
-                        html += `</div>`;
-                        html += `<div class="evidence-text">${escapeHtml(e.text)}</div>`;
-                        html += `</div>`;
-                    });
-                    html += '</div>';
-                }
-
-                html += '<div class="metadata">';
-                html += `<div class="metadata-item"><span class="metadata-label">Model:</span> ${escapeHtml(result.model)}</div>`;
-                html += `<div class="metadata-item"><span class="metadata-label">Sources:</span> ${result.source_count}</div>`;
-                html += `<div class="metadata-item"><span class="metadata-label">Time:</span> ${new Date(result.timestamp).toLocaleTimeString()}</div>`;
-                html += '</div>';
-                html += '</div>';
-
-                resultsDiv.innerHTML = html;
-
-            } catch (error) {
-                resultsDiv.innerHTML = `<div class="error">❌ Error: ${error.message}</div>`;
-            } finally {
-                btn.disabled = false;
-            }
-        }
-
-        function escapeHtml(text) {
-            const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' };
-            return text.replace(/[&<>"']/g, m => map[m]);
-        }
-
-        // Initialize
-        document.addEventListener('DOMContentLoaded', () => {
-            loadStatus();
-            loadSamples();
-        });
-
-        // Allow Enter to submit
-        document.getElementById('query')?.addEventListener('keypress', (e) => {
-            if (e.ctrlKey && e.key === 'Enter') {
-                submitQuery();
-            }
-        });
-    </script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>
 </html>
