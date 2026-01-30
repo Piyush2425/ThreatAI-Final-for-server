@@ -1,0 +1,46 @@
+app:
+  name: Threat-AI
+  version: 0.1.0
+  debug: false
+
+data:
+  raw_path: data/raw/threat_actor_profiles.json
+  canonical_path: data/canonical/actors.json
+  chunks_path: data/derived/semantic_chunks.jsonl
+  schema_path: data/derived/chunk_schema.json
+
+chunking:
+  chunk_size: 512
+  chunk_overlap: 128
+  min_chunk_length: 50
+
+embeddings:
+  model: sentence-transformers/all-MiniLM-L6-v2
+  embedding_dim: 384
+  batch_size: 32
+
+vector_store:
+  type: chroma
+  persist_directory: data/chroma_db
+  collection_name: threat_actors
+
+retrieval:
+  top_k: 5
+  similarity_threshold: 0.6
+
+agent:
+  temperature: 0.3
+  max_tokens: 1024
+  confidence_threshold: 0.7
+
+ollama:
+  enabled: true
+  model: llama3:8b
+  host: http://localhost:11434
+  timeout: 120
+  temperature: 0.3
+  max_tokens: 512
+
+evaluation:
+  enable_audit_trail: true
+  enable_confidence_scoring: true

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "feedback_id": {
+      "type": "string",
+      "description": "Unique feedback identifier"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When feedback was submitted"
+    },
+    "query": {
+      "type": "string",
+      "description": "Original query"
+    },
+    "response_id": {
+      "type": "string",
+      "description": "ID of the response being evaluated"
+    },
+    "rating": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "User rating (1-5)"
+    },
+    "relevance": {
+      "type": "string",
+      "enum": ["not_relevant", "somewhat_relevant", "relevant", "highly_relevant"],
+      "description": "Relevance assessment"
+    },
+    "accuracy": {
+      "type": "string",
+      "enum": ["inaccurate", "partially_accurate", "accurate", "unknown"],
+      "description": "Accuracy assessment"
+    },
+    "completeness": {
+      "type": "string",
+      "enum": ["incomplete", "partial", "complete"],
+      "description": "Completeness assessment"
+    },
+    "comments": {
+      "type": "string",
+      "description": "Analyst comments"
+    },
+    "corrections": {
+      "type": "string",
+      "description": "Any corrections to the response"
+    },
+    "analyst_id": {
+      "type": "string",
+      "description": "Analyst providing feedback"
+    }
+  },
+  "required": ["feedback_id", "timestamp", "query", "rating"]
+}

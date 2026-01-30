@@ -1,0 +1,34 @@
+version: 1
+disable_existing_loggers: false
+
+formatters:
+  standard:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  verbose:
+    format: '%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s'
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: standard
+    stream: ext://sys.stdout
+  file:
+    class: logging.FileHandler
+    level: DEBUG
+    formatter: verbose
+    filename: logs/threat-ai.log
+
+root:
+  level: DEBUG
+  handlers:
+    - console
+    - file
+
+loggers:
+  threat_ai:
+    level: DEBUG
+    handlers:
+      - console
+      - file
+    propagate: false
