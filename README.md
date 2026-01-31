@@ -322,3 +322,11 @@ threat-ai/
 ├── app.py                           # CLI entrypoint (MVP)
 └── .gitignore
 
+
+
+
+Query History (5-10% effort, high value)
+Analytics Dashboard (15-20% effort, good insights)
+Export to PDF/CSV (10% effort, essential)
+Search Suggestions (10% effort, UX improvement)
+RBAC/User System (20% effort, security critical)

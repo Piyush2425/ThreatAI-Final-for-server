@@ -7,9 +7,10 @@ import sys
 import argparse
 import webbrowser
 import time
+import io
 from pathlib import Path
 from datetime import datetime
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, send_file
 
 # Configure logging
 logging.basicConfig(
@@ -248,6 +249,58 @@ def submit_feedback():
         
     except Exception as e:
         logger.error(f"Error submitting feedback: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/export/pdf', methods=['POST'])
+def export_pdf():
+    """Export query result as PDF."""
+    try:
+        from export.report_generator import ReportGenerator
+        
+        data = request.json
+        result = data.get('result', {})
+        
+        if not result:
+            return jsonify({'error': 'No result data provided'}), 400
+        
+        pdf_bytes = ReportGenerator.generate_pdf(result)
+        
+        return send_file(
+            io.BytesIO(pdf_bytes),
+            mimetype='application/pdf',
+            as_attachment=True,
+            download_name=f"threat-intelligence-report-{datetime.now().strftime('%Y%m%d-%H%M%S')}.pdf"
+        )
+        
+    except Exception as e:
+        logger.error(f"Error exporting PDF: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/export/csv', methods=['POST'])
+def export_csv():
+    """Export query result as CSV."""
+    try:
+        from export.report_generator import ReportGenerator
+        
+        data = request.json
+        result = data.get('result', {})
+        
+        if not result:
+            return jsonify({'error': 'No result data provided'}), 400
+        
+        csv_data = ReportGenerator.generate_csv(result)
+        
+        return send_file(
+            io.BytesIO(csv_data.encode('utf-8')),
+            mimetype='text/csv',
+            as_attachment=True,
+            download_name=f"threat-intelligence-report-{datetime.now().strftime('%Y%m%d-%H%M%S')}.csv"
+        )
+        
+    except Exception as e:
+        logger.error(f"Error exporting CSV: {e}")
         return jsonify({'error': str(e)}), 500
 
 

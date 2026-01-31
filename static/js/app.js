@@ -181,6 +181,9 @@ function displayResults(result) {
     html += '</div>';
     
     document.getElementById('results').innerHTML = html;
+    
+    // Add export buttons after results
+    addExportButtons();
 }
 
 /**
@@ -196,6 +199,107 @@ function showError(message) {
         </div>
     `;
     document.getElementById('results').innerHTML = html;
+}
+
+// ============================================
+// EXPORT FUNCTIONALITY
+// ============================================
+
+/**
+ * Add export buttons below results
+ */
+function addExportButtons() {
+    const resultsContainer = document.getElementById('results');
+    if (!resultsContainer) return;
+    
+    const exportDiv = document.createElement('div');
+    exportDiv.id = 'export-buttons';
+    exportDiv.className = 'export-buttons';
+    exportDiv.innerHTML = `
+        <button onclick="exportPDF()" class="export-btn export-btn-pdf" title="Download as PDF">
+            📄 Export as PDF
+        </button>
+        <button onclick="exportCSV()" class="export-btn export-btn-csv" title="Download as CSV">
+            📊 Export as CSV
+        </button>
+    `;
+    resultsContainer.appendChild(exportDiv);
+}
+
+/**
+ * Export results as PDF
+ */
+async function exportPDF() {
+    if (!lastResult) {
+        alert('No results to export');
+        return;
+    }
+    
+    try {
+        const response = await fetch('/api/export/pdf', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ result: lastResult })
+        });
+        
+        if (!response.ok) {
+            const error = await response.json();
+            alert('Error exporting PDF: ' + error.error);
+            return;
+        }
+        
+        const blob = await response.blob();
+        downloadFile(blob, 'threat-intelligence-report.pdf', 'application/pdf');
+        
+    } catch (error) {
+        alert('Error exporting PDF: ' + error.message);
+    }
+}
+
+/**
+ * Export results as CSV
+ */
+async function exportCSV() {
+    if (!lastResult) {
+        alert('No results to export');
+        return;
+    }
+    
+    try {
+        const response = await fetch('/api/export/csv', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ result: lastResult })
+        });
+        
+        if (!response.ok) {
+            const error = await response.json();
+            alert('Error exporting CSV: ' + error.error);
+            return;
+        }
+        
+        const blob = await response.blob();
+        downloadFile(blob, 'threat-intelligence-report.csv', 'text/csv');
+        
+    } catch (error) {
+        alert('Error exporting CSV: ' + error.message);
+    }
+}
+
+/**
+ * Helper function to download file
+ */
+function downloadFile(blob, filename, mimeType) {
+    const url = window.URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    a.style.display = 'none';
+    
+    document.body.appendChild(a);
+    a.click();
+    window.URL.revokeObjectURL(url);
+    document.body.removeChild(a);
 }
 
 // ============================================

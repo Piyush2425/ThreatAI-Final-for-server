@@ -14,17 +14,23 @@ logger = logging.getLogger(__name__)
 class FeedbackStore:
     """Manage feedback storage and retrieval."""
     
-    def __init__(self, storage_path: str = "data/feedback.jsonl", csv_path: str = "data/feedback.csv", json_path: str = "data/feedback.json"):
+    def __init__(self, storage_path: str = "data/feedback/feedback.jsonl", csv_path: str = "data/feedback/feedback.csv", json_path: str = "data/feedback/feedback.json"):
         """
         Initialize feedback store.
         
         Args:
             storage_path: Path to feedback storage file
+            csv_path: Path to CSV feedback file
+            json_path: Path to JSON feedback file
         """
         self.storage_path = Path(storage_path)
         self.csv_path = Path(csv_path)
         self.json_path = Path(json_path)
+        
+        # Create feedback directory if it doesn't exist
         self.storage_path.parent.mkdir(parents=True, exist_ok=True)
+        self.csv_path.parent.mkdir(parents=True, exist_ok=True)
+        self.json_path.parent.mkdir(parents=True, exist_ok=True)
     
     def store_feedback(self, feedback: Dict[str, Any]) -> str:
         """
