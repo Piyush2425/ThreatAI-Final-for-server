@@ -4,6 +4,22 @@
  */
 
 // ============================================
+// GLOBAL STATE
+// ============================================
+
+let lastResult = null;
+let historyCache = [];
+
+/**
+ * Escape HTML special characters to prevent injection
+ */
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+// ============================================
 // STATUS & INITIALIZATION
 // ============================================
 
@@ -49,8 +65,11 @@ async function loadSamples() {
             btn.type = 'button';
             btn.onclick = (e) => {
                 e.preventDefault();
-                document.getElementById('query').value = sample;
-                document.getElementById('query').focus();
+                const queryInput = document.getElementById('query');
+                if (queryInput) {
+                    queryInput.value = sample;
+                    queryInput.focus();
+                }
             };
             container.appendChild(btn);
         });
@@ -62,8 +81,6 @@ async function loadSamples() {
 // ============================================
 // QUERY & RESULTS
 // ============================================
-
-let lastResult = null;
 
 /**
  * Submit query for threat analysis
@@ -118,6 +135,13 @@ function displayResults(result) {
     lastResult = result;
     const confidence = result.confidence || 0;
     const confidencePercent = (confidence * 100).toFixed(1);
+    
+    // Hide center container and show results area
+    const centerContainer = document.getElementById('center-container');
+    const resultsArea = document.getElementById('results-area');
+    
+    if (centerContainer) centerContainer.style.display = 'none';
+    if (resultsArea) resultsArea.style.display = 'block';
     
     let html = '<div class="result-card">';
     
@@ -332,14 +356,21 @@ function hideFeedbackSection() {
  * Reset feedback form to default state
  */
 function resetFeedbackForm() {
-    document.getElementById('rating-stars')?.querySelectorAll('.star-btn').forEach(btn => {
-        btn.classList.remove('active');
-    });
-    document.getElementById('feedback-relevance').value = '';
-    document.getElementById('feedback-accuracy').value = '';
-    document.getElementById('feedback-completeness').value = '';
-    document.getElementById('feedback-comments').value = '';
-    document.getElementById('feedback-corrections').value = '';
+    const ratingStars = document.getElementById('rating-stars');
+    if (ratingStars) {
+        ratingStars.querySelectorAll('.star-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+    }
+    
+    const relevance = document.getElementById('feedback-relevance');
+    if (relevance) relevance.value = '';
+    
+    const accuracy = document.getElementById('feedback-accuracy');
+    if (accuracy) accuracy.value = '';
+    
+    const comments = document.getElementById('feedback-comments');
+    if (comments) comments.value = '';
 }
 
 /**
@@ -434,6 +465,7 @@ function escapeHtml(text) {
 document.addEventListener('DOMContentLoaded', () => {
     loadStatus();
     loadSamples();
+    loadQueryHistory();
     
     // Keyboard shortcut: Ctrl+Enter to submit
     const queryTextarea = document.getElementById('query');
@@ -445,4 +477,239 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+    
+    // History search
+    const historySearch = document.getElementById('history-search');
+    if (historySearch) {
+        historySearch.addEventListener('input', debounce((e) => {
+            const term = e.target.value.trim();
+            if (term) {
+                searchHistory(term);
+            } else {
+                loadQueryHistory();
+            }
+        }, 300));
+    }
 });
+
+// ============================================
+// QUERY HISTORY FUNCTIONS
+// ============================================
+
+/**
+ * Load query history from backend
+ */
+async function loadQueryHistory() {
+    try {
+        const response = await fetch('/api/history');
+        const data = await response.json();
+        
+        historyCache = data.queries;
+        displayHistory(historyCache);
+        updateHistoryStats(data.stats);
+        
+    } catch (error) {
+        console.error('Error loading history:', error);
+    }
+}
+
+/**
+ * Display query history in sidebar
+ */
+function displayHistory(queries) {
+    const historyList = document.getElementById('history-list');
+    if (!historyList) return;
+    
+    if (queries.length === 0) {
+        historyList.innerHTML = '<div class="empty-history">No queries yet</div>';
+        return;
+    }
+    
+    historyList.innerHTML = queries.map(q => `
+        <div class="history-item" onclick="loadQueryFromHistory('${q.query_id}', '${escapeHtml(q.query).replace(/'/g, "\\'")}')">
+            <div style="font-weight: 600; margin-bottom: 2px;">${escapeHtml(q.query.substring(0, 40))}</div>
+            <div style="font-size: 11px; opacity: 0.7;">
+                ${new Date(q.timestamp).toLocaleDateString()}
+            </div>
+        </div>
+    `).join('');
+}
+
+/**
+ * Update history statistics
+ */
+function updateHistoryStats(stats) {
+    const statsDiv = document.getElementById('history-stats');
+    if (statsDiv) {
+        statsDiv.innerHTML = `
+            <p>Total: ${stats.total_queries}</p>
+            <p>Size: ${stats.storage_size_kb} KB</p>
+        `;
+    }
+}
+
+/**
+ * Search query history
+ */
+async function searchHistory(term) {
+    try {
+        const response = await fetch(`/api/history/search?q=${encodeURIComponent(term)}`);
+        const data = await response.json();
+        displayHistory(data.queries);
+    } catch (error) {
+        console.error('Error searching history:', error);
+    }
+}
+
+/**
+ * Load query from history
+ */
+function loadQueryFromHistory(queryId, query) {
+    const queryInput = document.getElementById('query');
+    if (queryInput) {
+        queryInput.value = query;
+        queryInput.focus();
+    }
+}
+
+/**
+ * New query - clear form
+ */
+function newQuery() {
+    // Clear query input
+    const queryInput = document.getElementById('query');
+    if (queryInput) {
+        queryInput.value = '';
+    }
+    
+    // Hide results area and show center container
+    const resultsArea = document.getElementById('results-area');
+    const centerContainer = document.getElementById('center-container');
+    
+    if (resultsArea) resultsArea.style.display = 'none';
+    if (centerContainer) centerContainer.style.display = 'flex';
+    
+    // Hide feedback
+    hideFeedbackSection();
+    
+    // Focus query input
+    if (queryInput) queryInput.focus();
+}
+
+/**
+ * Clear all history
+ */
+async function clearHistory() {
+    if (!confirm('Are you sure you want to clear all query history?')) {
+        return;
+    }
+    
+    try {
+        const response = await fetch('/api/history/clear', {
+            method: 'POST'
+        });
+        
+        if (response.ok) {
+            historyCache = [];
+            displayHistory([]);
+            updateHistoryStats({ total_queries: 0, storage_size_kb: 0 });
+        }
+    } catch (error) {
+        console.error('Error clearing history:', error);
+        alert('Error clearing history: ' + error.message);
+    }
+}
+
+/**
+ * Debounce helper function
+ */
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
+// ============================================
+// UI INTERACTION FUNCTIONS
+// ============================================
+
+/**
+ * Toggle quick examples display
+ */
+function toggleSamples() {
+    const examples = document.getElementById('quick-examples');
+    if (examples.style.display === 'none') {
+        examples.style.display = 'block';
+    } else {
+        examples.style.display = 'none';
+    }
+}
+
+/**
+ * Toggle history panel in sidebar
+ */
+function toggleHistory() {
+    const historyPanel = document.getElementById('history-panel');
+    const navBtns = document.querySelectorAll('.nav-btn');
+    
+    if (historyPanel.style.display === 'none') {
+        historyPanel.style.display = 'block';
+        // Mark history button as active
+        navBtns.forEach(btn => {
+            if (btn.textContent.includes('History')) {
+                btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
+            }
+        });
+        loadQueryHistory();
+    } else {
+        historyPanel.style.display = 'none';
+        navBtns[0].classList.add('active');
+    }
+}
+
+/**
+ * Show discover view (placeholder)
+ */
+function showDiscover() {
+    alert('Discover feature coming soon!');
+}
+
+/**
+ * Show settings view (placeholder)
+ */
+function showSettings() {
+    alert('Settings feature coming soon!');
+}
+
+/**
+ * Show export options
+ */
+function showExportOptions() {
+    if (!lastResult) {
+        alert('No results to export. Please run a query first.');
+        return;
+    }
+    const choice = confirm('Export as PDF? (Cancel for CSV)');
+    if (choice) {
+        exportPDF();
+    } else {
+        exportCSV();
+    }
+}
+
+/**
+ * Attach file (placeholder)
+ */
+function attachFile() {
+    alert('File attachment feature coming soon!');
+}
+
+

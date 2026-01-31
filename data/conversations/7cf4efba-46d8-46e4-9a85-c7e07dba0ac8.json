@@ -1,0 +1,57 @@
+{
+  "id": "7cf4efba-46d8-46e4-9a85-c7e07dba0ac8",
+  "title": "Tell me About Financial Frauds from 2020 to 2022",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Tell me About Financial Frauds from 2020 to 2022",
+      "timestamp": "2026-01-31T15:00:08.767892",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on description data: This illicit behavior has been identified by the United Nations (UN) DPRK Panel of Experts as evasion of UN Security Council resolutions, as it generates substantial revenue for North Korea. North Korea can use these funds for its UN-prohibited nuclear weapons and ballistic missile programs. Additionally, this activity poses significant operational risk to the Financial Services sector and erodes the integrity of the financial system. (Supporting evidence from 4 additional sources)",
+      "timestamp": "2026-01-31T15:00:09.010148",
+      "metadata": {
+        "confidence": 0.7322244465351104,
+        "evidence": [
+          {
+            "text": "This illicit behavior has been identified by the United Nations (UN) DPRK Panel of Experts as evasion of UN Security Council resolutions, as it generates substantial revenue for North Korea. North Korea can use these funds for its UN-prohibited nuclear weapons and ballistic missile programs. Additionally, this activity poses significant operational risk to the Financial Services sector and erodes the integrity of the financial system.",
+            "score": 0.7488,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "(Bank Info Security) The Infraud Organization ran an online forum dedicated to criminal activity that federal prosecutors claim had more than 10,000 members in March 2017. The site used the slogan 'In Fraud We Trust,' according to the Justice Department. The gang that operated Infraud engaged in a variety of identity theft and financial fraud from October 2010 to February 2018, prosecutors say.",
+            "score": 0.7487,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "Although their operations continue through the present day, in many ways FIN13’s intrusions are like a time capsule of traditional financial cybercrime from days past. Instead of today’s prevalent “smash and grab” ransomware groups, FIN13 takes their time to gather information to perform fraudulent money transfers.",
+            "score": 0.7318,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "An analysis of the campaign has revealed that the initial infections were achieved using spear phishing emails that appeared to be legitimate banking communications, with Microsoft Word 97 – 2003 (. doc) and Control Panel Applet (. CPL) files attached. We believe that the attackers also redirected to exploit kits website traffic that related to financial activity.",
+            "score": 0.7191,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "(Mandiant) Today, Mandiant Intelligence is releasing a comprehensive report detailing FIN12, an aggressive, financially motivated threat actor behind prolific ransomware attacks since at least October 2018. FIN12 is unique among many tracked ransomware-focused actors today because they do not typically engage in multi-faceted extortion and have disproportionately impacted the healthcare sector.",
+            "score": 0.7128,
+            "source": "description",
+            "actor": "unknown"
+          }
+        ],
+        "trace_id": "c34ed11c-7a81-4f30-860c-182df71b249a",
+        "model": "fallback",
+        "source_count": 5
+      }
+    }
+  ],
+  "created_at": "2026-01-31T14:59:34.826829",
+  "updated_at": "2026-01-31T15:00:09.010148"
+}

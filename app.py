@@ -25,6 +25,7 @@ retriever = None
 interpreter = None
 audit = None
 config = None
+conversation_manager = None
 
 
 def load_config(config_path: str = "config/settings.yaml") -> dict:
@@ -37,7 +38,7 @@ def load_config(config_path: str = "config/settings.yaml") -> dict:
 
 def initialize_components():
     """Initialize all system components."""
-    global vector_store, retriever, interpreter, audit, config
+    global vector_store, retriever, interpreter, audit, config, conversation_manager
     
     logger.info("Initializing components...")
     
@@ -81,6 +82,11 @@ def initialize_components():
         # Initialize audit trail
         audit = AuditTrail()
         logger.info("✓ Audit trail initialized")
+        
+        # Initialize conversation manager
+        from conversation import ConversationManager
+        conversation_manager = ConversationManager()
+        logger.info("✓ Conversation manager initialized")
         
         return True
         
@@ -162,7 +168,13 @@ app.config['JSON_SORT_KEYS'] = False
 
 @app.route('/')
 def index():
-    """Main web interface."""
+    """Main chat interface."""
+    return render_template('chat.html')
+
+
+@app.route('/old')
+def old_interface():
+    """Old Q&A interface."""
     return render_template('index.html')
 
 
@@ -176,6 +188,11 @@ def web_query():
         
         if 'error' in result:
             return jsonify(result), 400 if 'empty' in result.get('error', '') else 500
+        
+        # Save to query history
+        from history import QueryHistory
+        history = QueryHistory()
+        history.save_query(user_query, result)
         
         return jsonify(result)
         
@@ -301,6 +318,214 @@ def export_csv():
         
     except Exception as e:
         logger.error(f"Error exporting CSV: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+# ==================== QUERY HISTORY ROUTES ====================
+
+@app.route('/api/history', methods=['GET'])
+def get_history():
+    """Get query history."""
+    try:
+        from history import QueryHistory
+        
+        limit = request.args.get('limit', 50, type=int)
+        offset = request.args.get('offset', 0, type=int)
+        
+        history = QueryHistory()
+        queries = history.get_all_queries(limit=limit, offset=offset)
+        stats = history.get_stats()
+        
+        return jsonify({
+            'queries': queries,
+            'stats': stats
+        })
+    except Exception as e:
+        logger.error(f"Error fetching history: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/history/search', methods=['GET'])
+def search_history():
+    """Search query history."""
+    try:
+        from history import QueryHistory
+        
+        search_term = request.args.get('q', '').strip()
+        if not search_term:
+            return jsonify({'error': 'Search term required'}), 400
+        
+        history = QueryHistory()
+        queries = history.search_queries(search_term)
+        
+        return jsonify({'queries': queries})
+    except Exception as e:
+        logger.error(f"Error searching history: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/history/<query_id>', methods=['GET'])
+def get_query_detail(query_id):
+    """Get specific query from history."""
+    try:
+        from history import QueryHistory
+        
+        history = QueryHistory()
+        query = history.get_query(query_id)
+        
+        if not query:
+            return jsonify({'error': 'Query not found'}), 404
+        
+        return jsonify(query)
+    except Exception as e:
+        logger.error(f"Error fetching query: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/history/<query_id>', methods=['DELETE'])
+def delete_query_history(query_id):
+    """Delete query from history."""
+    try:
+        from history import QueryHistory
+        
+        history = QueryHistory()
+        deleted = history.delete_query(query_id)
+        
+        if not deleted:
+            return jsonify({'error': 'Query not found'}), 404
+        
+        return jsonify({'success': True, 'message': 'Query deleted'})
+    except Exception as e:
+        logger.error(f"Error deleting query: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/history/clear', methods=['POST'])
+def clear_history():
+    """Clear all query history."""
+    try:
+        from history import QueryHistory
+        
+        history = QueryHistory()
+        history.clear_all()
+        
+        return jsonify({'success': True, 'message': 'History cleared'})
+    except Exception as e:
+        logger.error(f"Error clearing history: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+# ==================== CONVERSATION API ROUTES ====================
+
+@app.route('/api/conversations', methods=['POST'])
+def create_conversation():
+    """Create a new conversation."""
+    try:
+        data = request.json or {}
+        title = data.get('title', 'New Chat')
+        
+        conv_id = conversation_manager.create_conversation(title)
+        return jsonify({'conversation_id': conv_id, 'title': title})
+    except Exception as e:
+        logger.error(f"Error creating conversation: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/conversations', methods=['GET'])
+def list_conversations():
+    """List all conversations."""
+    try:
+        limit = int(request.args.get('limit', 50))
+        conversations = conversation_manager.list_conversations(limit)
+        return jsonify({'conversations': conversations})
+    except Exception as e:
+        logger.error(f"Error listing conversations: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/conversations/<conv_id>', methods=['GET'])
+def get_conversation(conv_id):
+    """Get a specific conversation with full history."""
+    try:
+        conversation = conversation_manager.get_conversation(conv_id)
+        if not conversation:
+            return jsonify({'error': 'Conversation not found'}), 404
+        
+        return jsonify(conversation.to_dict())
+    except Exception as e:
+        logger.error(f"Error getting conversation: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/conversations/<conv_id>', methods=['DELETE'])
+def delete_conversation(conv_id):
+    """Delete a conversation."""
+    try:
+        success = conversation_manager.delete_conversation(conv_id)
+        if success:
+            return jsonify({'success': True, 'message': 'Conversation deleted'})
+        return jsonify({'error': 'Conversation not found'}), 404
+    except Exception as e:
+        logger.error(f"Error deleting conversation: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/conversations/<conv_id>/message', methods=['POST'])
+def send_message(conv_id):
+    """Send a message in a conversation and get AI response."""
+    try:
+        data = request.json
+        user_message = data.get('message', '').strip()
+        
+        if not user_message:
+            return jsonify({'error': 'Message cannot be empty'}), 400
+        
+        # Get or create conversation
+        conversation = conversation_manager.get_conversation(conv_id)
+        if not conversation:
+            return jsonify({'error': 'Conversation not found'}), 404
+        
+        # Add user message to conversation
+        conversation.add_message('user', user_message)
+        
+        # Get context from conversation history
+        context_messages = conversation.get_context_messages(max_messages=10)
+        
+        # Process query with context
+        result = process_query(user_message)
+        
+        if 'error' in result:
+            return jsonify(result), 400 if 'empty' in result.get('error', '') else 500
+        
+        # Add assistant response to conversation with metadata
+        conversation.add_message('assistant', result['answer'], {
+            'confidence': result.get('confidence'),
+            'evidence': result.get('evidence', []),
+            'trace_id': result.get('trace_id'),
+            'model': result.get('model'),
+            'source_count': result.get('source_count')
+        })
+        
+        # Save conversation
+        conversation_manager.save_conversation(conv_id)
+        
+        # Return the full response
+        return jsonify({
+            'conversation_id': conv_id,
+            'user_message': user_message,
+            'assistant_message': result['answer'],
+            'metadata': {
+                'confidence': result.get('confidence'),
+                'evidence': result.get('evidence', []),
+                'trace_id': result.get('trace_id'),
+                'model': result.get('model'),
+                'source_count': result.get('source_count'),
+                'timestamp': result.get('timestamp')
+            }
+        })
+        
+    except Exception as e:
+        logger.error(f"Error sending message: {e}")
         return jsonify({'error': str(e)}), 500
 
 

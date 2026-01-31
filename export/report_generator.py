@@ -17,6 +17,18 @@ logger = logging.getLogger(__name__)
 
 class ReportGenerator:
     """Generate reports in different formats."""
+
+    @staticmethod
+    def _parse_timestamp(value: str) -> datetime:
+        """Parse ISO timestamps, including Z suffix."""
+        if not value:
+            return datetime.now()
+        try:
+            if isinstance(value, str) and value.endswith('Z'):
+                value = value[:-1] + '+00:00'
+            return datetime.fromisoformat(value)
+        except Exception:
+            return datetime.now()
     
     @staticmethod
     def generate_pdf(result: Dict[str, Any]) -> bytes:
@@ -77,7 +89,7 @@ class ReportGenerator:
             story.append(Spacer(1, 0.2*inch))
             
             # Metadata
-            timestamp = datetime.fromisoformat(result.get('timestamp', datetime.now().isoformat()))
+            timestamp = ReportGenerator._parse_timestamp(result.get('timestamp'))
             metadata = [
                 ['Generated:', timestamp.strftime('%Y-%m-%d %H:%M:%S')],
                 ['Trace ID:', result.get('trace_id', 'N/A')[:16] + '...'],
@@ -168,7 +180,7 @@ class ReportGenerator:
             writer.writerow([])
             
             # Metadata
-            timestamp = datetime.fromisoformat(result.get('timestamp', datetime.now().isoformat()))
+            timestamp = ReportGenerator._parse_timestamp(result.get('timestamp'))
             writer.writerow(['Report Metadata'])
             writer.writerow(['Generated', timestamp.strftime('%Y-%m-%d %H:%M:%S')])
             writer.writerow(['Trace ID', result.get('trace_id', 'N/A')])

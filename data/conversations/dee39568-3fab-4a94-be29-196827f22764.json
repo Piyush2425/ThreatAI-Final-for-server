@@ -1,0 +1,143 @@
+{
+  "id": "dee39568-3fab-4a94-be29-196827f22764",
+  "title": "What are common tactics used by APT28?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What are common tactics used by APT28?",
+      "timestamp": "2026-01-31T14:54:02.009964",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on description data: (FireEye) APT39 was created to bring together previous activities and methods used by this actor, and its activities largely align with a group publicly referred to as “Chafer. ” However, there are differences in what has been publicly reported due to the variances in how organizations track activity. APT39 primarily leverages the SEAWEED and CACHEMONEY backdoors along with a specific variant of the POWBAT backdoor. While APT39’s targeting scope is global, its activities are concentrated in the Middle East. (Supporting evidence from 2 additional sources)",
+      "timestamp": "2026-01-31T14:54:02.540471",
+      "metadata": {
+        "confidence": 0.7988497614860535,
+        "evidence": [
+          {
+            "text": "(FireEye) APT39 was created to bring together previous activities and methods used by this actor, and its activities largely align with a group publicly referred to as “Chafer. ” However, there are differences in what has been publicly reported due to the variances in how organizations track activity. APT39 primarily leverages the SEAWEED and CACHEMONEY backdoors along with a specific variant of the POWBAT backdoor. While APT39’s targeting scope is global, its activities are concentrated in the Middle East.",
+            "score": 0.8096,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "Along with custom malware used for espionage purposes, APT37 also has access to destructive malware.",
+            "score": 0.7965,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "APT 28 is a threat group that has been attributed to Russia’s Main Intelligence Directorate of the Russian General Staff by a July 2018 U. S. Department of Justice indictment. This group reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U. S. presidential election. APT 28 has been active since at least January 2007.",
+            "score": 0.7904,
+            "source": "description",
+            "actor": "unknown"
+          }
+        ],
+        "trace_id": "7e6c1d3e-106c-4590-9601-ac11b3feaef2",
+        "model": "fallback",
+        "source_count": 3
+      }
+    },
+    {
+      "role": "user",
+      "content": "Who is Zeus Panda ?",
+      "timestamp": "2026-01-31T14:54:40.037880",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on description data: Zeus Panda, Panda Banker, or Panda is a variant of the original Zeus under the banking Trojan category. Its discovery was in 2016 in Brazil around the time of the Olympic Games. The majority of the code is derived from the original Zeus trojan, and maintains the coding to carry out man-in-the-browser, keystroke logging, and form grabbing attacks. (Supporting evidence from 4 additional sources)",
+      "timestamp": "2026-01-31T14:54:40.338221",
+      "metadata": {
+        "confidence": 0.7842036664485932,
+        "evidence": [
+          {
+            "text": "Zeus Panda, Panda Banker, or Panda is a variant of the original Zeus under the banking Trojan category. Its discovery was in 2016 in Brazil around the time of the Olympic Games. The majority of the code is derived from the original Zeus trojan, and maintains the coding to carry out man-in-the-browser, keystroke logging, and form grabbing attacks.",
+            "score": 0.872,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "Zeus Panda has been observed to be distributed by Emotet (operated by {{Mummy Spider, TA542}}), Smoke Loader (operated by {{Smoky Spider}}), Cutwail (operated by {{Narwhal Spider}}) and Kelihos (operated by {{Zombie Spider}}).",
+            "score": 0.8246,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "ZeuS Panda launches attack campaigns with a variety of exploit kits and loaders by way of drive-by downloads and phishing emails, and also hooking internet search results to infected pages. Stealth capabilities make not only detecting but analyzing the malware difficult. GozNym has been observed to be distributed via the {{Avalanche}} botnet.",
+            "score": 0.7571,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "(CrowdStrike) AQUATIC PANDA is a China-based targeted intrusion adversary with a dual mission of intelligence collection and industrial espionage. It has likely operated since at least May 2020. AQUATIC PANDA operations have primarily focused on entities in the telecommunications, technology and government sectors. AQUATIC PANDA relies heavily on Cobalt Strike, and its toolset includes the unique Cobalt Strike downloader tracked as FishMaster.",
+            "score": 0.7435,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "Kelihos has been observed to distribute TrickBot ({{Wizard Spider, Gold Blackburn}}) and Zeus Panda ({{Bamboo Spider, TA544}}).",
+            "score": 0.7238,
+            "source": "description",
+            "actor": "unknown"
+          }
+        ],
+        "trace_id": "fb210599-edaa-42b6-81ee-8ed3ba8824eb",
+        "model": "fallback",
+        "source_count": 5
+      }
+    },
+    {
+      "role": "user",
+      "content": "Make A downloadable report about Zeus Panda .",
+      "timestamp": "2026-01-31T14:55:34.201913",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on description data: Zeus Panda has been observed to be distributed by Emotet (operated by {{Mummy Spider, TA542}}), Smoke Loader (operated by {{Smoky Spider}}), Cutwail (operated by {{Narwhal Spider}}) and Kelihos (operated by {{Zombie Spider}}). (Supporting evidence from 4 additional sources)",
+      "timestamp": "2026-01-31T14:55:34.258435",
+      "metadata": {
+        "confidence": 0.7807323038578033,
+        "evidence": [
+          {
+            "text": "Zeus Panda has been observed to be distributed by Emotet (operated by {{Mummy Spider, TA542}}), Smoke Loader (operated by {{Smoky Spider}}), Cutwail (operated by {{Narwhal Spider}}) and Kelihos (operated by {{Zombie Spider}}).",
+            "score": 0.8375,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "Zeus Panda, Panda Banker, or Panda is a variant of the original Zeus under the banking Trojan category. Its discovery was in 2016 in Brazil around the time of the Olympic Games. The majority of the code is derived from the original Zeus trojan, and maintains the coding to carry out man-in-the-browser, keystroke logging, and form grabbing attacks.",
+            "score": 0.8324,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "ZeuS Panda launches attack campaigns with a variety of exploit kits and loaders by way of drive-by downloads and phishing emails, and also hooking internet search results to infected pages. Stealth capabilities make not only detecting but analyzing the malware difficult. GozNym has been observed to be distributed via the {{Avalanche}} botnet.",
+            "score": 0.7611,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "(CrowdStrike) AQUATIC PANDA is a China-based targeted intrusion adversary with a dual mission of intelligence collection and industrial espionage. It has likely operated since at least May 2020. AQUATIC PANDA operations have primarily focused on entities in the telecommunications, technology and government sectors. AQUATIC PANDA relies heavily on Cobalt Strike, and its toolset includes the unique Cobalt Strike downloader tracked as FishMaster.",
+            "score": 0.742,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "Heavy activity was observed in the late spring and early summer of 2014 when tensions between China and other Southeast Asian nations were high, due to conflict over territory in the South China Sea. Goblin Panda targets have been primarily observed in the defense, energy, and government sectors.",
+            "score": 0.7305,
+            "source": "description",
+            "actor": "unknown"
+          }
+        ],
+        "trace_id": "18a04313-3d5e-4073-93ff-6e578f215de1",
+        "model": "fallback",
+        "source_count": 5
+      }
+    }
+  ],
+  "created_at": "2026-01-31T14:53:54.012113",
+  "updated_at": "2026-01-31T14:55:34.258435"
+}

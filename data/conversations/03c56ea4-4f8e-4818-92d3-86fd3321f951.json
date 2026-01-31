@@ -1,0 +1,106 @@
+{
+  "id": "03c56ea4-4f8e-4818-92d3-86fd3321f951",
+  "title": "How does Emotet propagate?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "How does Emotet propagate?",
+      "timestamp": "2026-01-31T15:04:33.555441",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on description data: QakBot has been observed to be distributed by Emotet (operated by {{Mummy Spider, TA542}}). (Supporting evidence from 4 additional sources)",
+      "timestamp": "2026-01-31T15:04:33.789153",
+      "metadata": {
+        "confidence": 0.6651786983013153,
+        "evidence": [
+          {
+            "text": "QakBot has been observed to be distributed by Emotet (operated by {{Mummy Spider, TA542}}).",
+            "score": 0.7049,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "Therefore, it is highly likely that Emotet is operated solely for use by Mummy Spider or with a small trusted group of customers. Emotet has been observed to distribute BokBot ({{Lunar Spider}}), Dridex ({{Indrik Spider}}), DoppelPaymer ({{Doppel Spider}}), Zeus Panda ({{Bamboo Spider, TA544}}) and Trickbot ({{Wizard Spider, Gold Blackburn}}), as well as QakBot ({{Mallard Spider}}).",
+            "score": 0.7046,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "The primary modules perform reconnaissance on victim machines, drop freeware tools for credential collection from web browsers and mail clients and a spam plugin for self-propagation. The malware is also issuing commands to download and execute other malware families such as the banking Trojans Dridex and Qakbot. Mummy Spider advertised Emotet on underground forums until 2015, at which time it became private.",
+            "score": 0.6826,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "The attack shows how an intelligent attacker does not need to be particularly technically skilled in order to steal the information they are after. The attack begins, as is often the case, with an email sent to the victim. A malicious document is attached to the email, which, when loaded, activates the malware. The attackers use tailored emails to encourage the victim to open the email. For example, one email sent to an academic claimed to be a call for papers for a conference (CFP).",
+            "score": 0.6174,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "(Volexity) In December 2021, through its Network Security Monitoring service, Volexity identified a series of targeted spear-phishing campaigns against one of its customers from a threat actor it tracks as TEMP_Heretic. Analysis of the emails from these spear phishing campaigns led to a discovery: the attacker was attempting to exploit a zero-day cross-site scripting (XSS) vulnerability in the Zimbra email platform.",
+            "score": 0.6164,
+            "source": "description",
+            "actor": "unknown"
+          }
+        ],
+        "trace_id": "55b3e982-7331-4402-99ac-ecaa9c8a6574",
+        "model": "fallback",
+        "source_count": 5
+      }
+    },
+    {
+      "role": "user",
+      "content": "Make APT 17  report",
+      "timestamp": "2026-01-31T15:09:51.150012",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on description data: The full published report covers APT42’s recent and historical activity dating back to at least 2015, the group’s tactics, techniques, and procedures, targeting patterns, and elucidates historical connections to {{Magic Hound, APT 35, Cobalt Illusion, Charming Kitten}}. APT42 partially coincides with public reporting on {{ITG18}}. (Supporting evidence from 4 additional sources)",
+      "timestamp": "2026-01-31T15:09:51.375582",
+      "metadata": {
+        "confidence": 0.6958314001560211,
+        "evidence": [
+          {
+            "text": "The full published report covers APT42’s recent and historical activity dating back to at least 2015, the group’s tactics, techniques, and procedures, targeting patterns, and elucidates historical connections to {{Magic Hound, APT 35, Cobalt Illusion, Charming Kitten}}. APT42 partially coincides with public reporting on {{ITG18}}.",
+            "score": 0.7026,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "APT 19 is a Chinese-based threat group that has targeted a variety of industries, including defense, finance, energy, pharmaceutical, telecommunications, high tech, education, manufacturing, and legal services. In 2017, a phishing campaign was used to target seven law and investment firms. Some analysts track APT19, {{DarkHydrus, LazyMeerkat}}, {{Turbine Panda, APT 26, Shell Crew, WebMasters, KungFu Kittens}} as the same group, but it is unclear from open source information if the groups are the same.",
+            "score": 0.6957,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "These are reported APT activities attributed to a country, but not to an individual threat group.",
+            "score": 0.6936,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "These are reported APT activities attributed to a country, but not to an individual threat group.",
+            "score": 0.6936,
+            "source": "description",
+            "actor": "unknown"
+          },
+          {
+            "text": "These are reported APT activities attributed to a country, but not to an individual threat group.",
+            "score": 0.6936,
+            "source": "description",
+            "actor": "unknown"
+          }
+        ],
+        "trace_id": "0abdd81b-c3be-4ac4-a1ad-2b99c3c4db54",
+        "model": "fallback",
+        "source_count": 5
+      }
+    }
+  ],
+  "created_at": "2026-01-31T15:04:30.915620",
+  "updated_at": "2026-01-31T15:09:51.375582"
+}

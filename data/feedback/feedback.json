@@ -15,5 +15,39 @@
     "corrections": "improve Retrieval . ",
     "feedback_id": "da0fd52a-a597-480e-8d09-c58ca0255fe2",
     "timestamp": "2026-01-31T02:47:56.469089"
+  },
+  {
+    "query": "Chat message",
+    "answer": "Based on description data: QakBot has been observed to be distributed by Emotet (operated by {{Mummy Spider, TA542}}). (Supporting evidence from 4 additional sources)",
+    "trace_id": "55b3e982-7331-4402-99ac-ecaa9c8a6574",
+    "model": null,
+    "source_count": null,
+    "confidence": null,
+    "response_id": null,
+    "rating": 5,
+    "relevance": "relevant",
+    "accuracy": "",
+    "completeness": null,
+    "comments": "Quick feedback: positive",
+    "corrections": null,
+    "feedback_id": "35268e8f-6113-4baf-a2c5-6d05234e728a",
+    "timestamp": "2026-01-31T09:34:36.669611"
+  },
+  {
+    "query": "Chat message",
+    "answer": "Based on description data: QakBot has been observed to be distributed by Emotet (operated by {{Mummy Spider, TA542}}). (Supporting evidence from 4 additional sources)",
+    "trace_id": "55b3e982-7331-4402-99ac-ecaa9c8a6574",
+    "model": null,
+    "source_count": null,
+    "confidence": null,
+    "response_id": null,
+    "rating": 4,
+    "relevance": "somewhat_relevant",
+    "accuracy": "partially_accurate",
+    "completeness": null,
+    "comments": "Great",
+    "corrections": null,
+    "feedback_id": "ad128388-1c26-45fe-ab47-767797046655",
+    "timestamp": "2026-01-31T09:34:56.323873"
   }
 ]

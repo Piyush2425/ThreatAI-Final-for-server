@@ -8,164 +8,187 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <div class="container">
-        <!-- Header -->
-        <header>
-            <div class="header-content">
-                <div class="brand">
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- Logo -->
+            <div class="sidebar-header">
+                <div class="logo-section">
                     <div class="logo">🛡️</div>
-                    <div class="brand-text">
+                    <div class="logo-text">
                         <h1>Threat-AI</h1>
-                        <p>Evidence-Based Cybersecurity Intelligence Platform</p>
                     </div>
                 </div>
             </div>
 
-            <div class="status-bar">
-                <div class="status-card">
-                    <div class="status-label">LLM Engine</div>
-                    <div class="status-value">
-                        <span id="status-llm">Loading...</span>
-                    </div>
+            <!-- Navigation -->
+            <nav class="sidebar-nav">
+                <button class="nav-btn active" onclick="newQuery()" title="New Query">
+                    <span class="nav-icon">➕</span>
+                    <span class="nav-label">New</span>
+                </button>
+                <button class="nav-btn" onclick="toggleHistory()" title="History">
+                    <span class="nav-icon">🕐</span>
+                    <span class="nav-label">History</span>
+                </button>
+                <button class="nav-btn" onclick="showDiscover()" title="Discover">
+                    <span class="nav-icon">📚</span>
+                    <span class="nav-label">Discover</span>
+                </button>
+                <button class="nav-btn" onclick="showSettings()" title="Settings">
+                    <span class="nav-icon">⚙️</span>
+                    <span class="nav-label">Settings</span>
+                </button>
+            </nav>
+
+            <!-- History Panel (Hidden by default) -->
+            <div class="history-panel" id="history-panel" style="display: none;">
+                <div class="panel-header-small">
+                    <h3>Recent Queries</h3>
+                    <button class="clear-btn" onclick="clearHistory()">Clear</button>
                 </div>
-                <div class="status-card">
-                    <div class="status-label">Model</div>
-                    <div class="status-value">
-                        <span id="status-model">Loading...</span>
-                    </div>
-                </div>
-                <div class="status-card">
-                    <div class="status-label">System Status</div>
-                    <div class="status-value">
-                        <span id="status-init">Loading...</span>
-                    </div>
+                <input type="text" id="history-search" placeholder="Search history..." class="history-search">
+                <div class="history-list" id="history-list">
+                    <div class="empty-history">No queries yet</div>
                 </div>
             </div>
-        </header>
+
+            <!-- Stats Footer -->
+            <div class="sidebar-footer">
+                <div class="status-indicator">
+                    <div class="status-dot" id="status-dot"></div>
+                    <span id="status-text">Ready</span>
+                </div>
+                <div class="history-stats" id="history-stats">
+                    <p>0 queries</p>
+                </div>
+            </div>
+        </aside>
 
         <!-- Main Content -->
-        <div class="main-grid">
-            <!-- Query Panel -->
-            <div class="panel">
-                <div class="panel-header">
-                    <div class="panel-icon">🔍</div>
-                    <h2 class="panel-title">Threat Analysis</h2>
-                </div>
-
-                <div class="panel-content">
-                    <div class="form-group">
-                        <label for="query">Enter Threat Intelligence Query</label>
-                        <textarea 
-                            id="query" 
-                            placeholder="Ask about threat actors, TTPs, malware, vulnerabilities, or attack campaigns...&#10;&#10;Example: What are APT28's primary tactics?"
-                        ></textarea>
-                    </div>
-
-                    <button class="btn btn-primary" id="submit-btn" onclick="submitQuery()">
-                        <span>🚀</span>
-                        <span>Analyze Threat</span>
-                    </button>
-
-                    <div class="samples">
-                        <span class="samples-label">📌 Quick Examples</span>
-                        <div class="sample-grid" id="sample-buttons"></div>
-                    </div>
-                </div>
+        <main class="main-content">
+            <!-- Top Status Bar -->
+            <div class="top-status-bar">
+                <div class="status-badge" id="status-llm">Loading...</div>
+                <div class="status-badge" id="status-model">Loading...</div>
+                <div class="status-badge" id="status-init">●</div>
             </div>
 
-            <!-- Results Panel -->
-            <div class="panel">
-                <div class="panel-header">
-                    <div class="panel-icon">📊</div>
-                    <h2 class="panel-title">Intelligence Report</h2>
+            <!-- Centered Query Interface -->
+            <div class="center-container" id="center-container">
+                <!-- Brand Title -->
+                <div class="brand-title">
+                    <h1>threat-ai</h1>
+                    <p class="brand-subtitle">Intelligence Analysis Platform</p>
                 </div>
 
-                <div class="panel-content">
-                    <div class="results-container" id="results">
-                        <div class="empty-state">
-                            <div class="empty-icon">🎯</div>
-                            <div class="empty-text">
-                                Enter a threat intelligence query to receive<br>
-                                AI-powered analysis with evidence-based insights
-                            </div>
+                <!-- Query Input Box -->
+                <div class="query-box">
+                    <textarea 
+                        id="query" 
+                        placeholder="Ask about threat actors, TTPs, malware, vulnerabilities, or attack campaigns. Type / for quick examples..."
+                        rows="3"
+                    ></textarea>
+                    
+                    <!-- Input Toolbar -->
+                    <div class="input-toolbar">
+                        <div class="toolbar-left">
+                            <button class="toolbar-btn" onclick="toggleSamples()" title="Quick Examples">
+                                <span>🔍</span>
+                            </button>
+                            <button class="toolbar-btn" onclick="toggleHistory()" title="View History">
+                                <span>🕐</span>
+                            </button>
+                            <button class="toolbar-btn" onclick="showExportOptions()" title="Export Options">
+                                <span>📄</span>
+                            </button>
+                            <button class="toolbar-btn" onclick="attachFile()" title="Attach File">
+                                <span>📎</span>
+                            </button>
+                        </div>
+                        <div class="toolbar-right">
+                            <button class="submit-btn-main" id="submit-btn" onclick="submitQuery()" title="Analyze Threat">
+                                <span>🚀</span>
+                            </button>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- Feedback Section (add inside results panel-content after results-container) -->
-        <div id="feedback-section" class="feedback-section" style="display: none;">
-            <div class="feedback-label">
-                📝 Feedback
+                <!-- Quick Examples (Toggle) -->
+                <div class="quick-examples" id="quick-examples" style="display: none;">
+                    <div class="examples-header">📌 Quick Examples</div>
+                    <div class="sample-grid" id="sample-buttons"></div>
+                </div>
             </div>
 
-            <div style="display: grid; gap: 16px;">
-                <!-- Rating -->
-                <div class="rating-group">
-                    <span class="rating-label">Rate Response:</span>
-                    <div style="display: flex; gap: 4px;" id="rating-stars">
-                        <button class="star-btn" data-rating="1" onclick="setRating(1)" title="Poor">★</button>
-                        <button class="star-btn" data-rating="2" onclick="setRating(2)" title="Fair">★</button>
-                        <button class="star-btn" data-rating="3" onclick="setRating(3)" title="Good">★</button>
-                        <button class="star-btn" data-rating="4" onclick="setRating(4)" title="Very Good">★</button>
-                        <button class="star-btn" data-rating="5" onclick="setRating(5)" title="Excellent">★</button>
+            <!-- Results Area (Slides in after query) -->
+            <div class="results-area" id="results-area" style="display: none;">
+                <div class="results-header">
+                    <button class="back-btn" onclick="newQuery()">← New Query</button>
+                    <h2>Intelligence Report</h2>
+                </div>
+                <div class="results-wrapper">
+                    <div class="results-container" id="results"></div>
+                </div>
+            </div>
+
+            <!-- Feedback Section -->
+            <div id="feedback-section" class="feedback-section" style="display: none;">
+                <div class="feedback-container">
+                    <div class="feedback-header">
+                        <h3>📝 Feedback</h3>
+                        <button class="close-feedback-btn" onclick="hideFeedbackSection()">×</button>
+                    </div>
+
+                    <div class="feedback-content">
+                        <!-- Rating -->
+                        <div class="rating-group">
+                            <span class="rating-label">Rate Response:</span>
+                            <div class="rating-stars" id="rating-stars">
+                                <button class="star-btn" data-rating="1" onclick="setRating(1)" title="Poor">★</button>
+                                <button class="star-btn" data-rating="2" onclick="setRating(2)" title="Fair">★</button>
+                                <button class="star-btn" data-rating="3" onclick="setRating(3)" title="Good">★</button>
+                                <button class="star-btn" data-rating="4" onclick="setRating(4)" title="Very Good">★</button>
+                                <button class="star-btn" data-rating="5" onclick="setRating(5)" title="Excellent">★</button>
+                            </div>
+                        </div>
+
+                        <!-- Relevance -->
+                        <div class="feedback-form-group">
+                            <label for="feedback-relevance">Relevance:</label>
+                            <select id="feedback-relevance">
+                                <option value="">Select...</option>
+                                <option value="not_relevant">Not Relevant</option>
+                                <option value="somewhat_relevant">Somewhat Relevant</option>
+                                <option value="relevant">Relevant</option>
+                                <option value="highly_relevant">Highly Relevant</option>
+                            </select>
+                        </div>
+
+                        <!-- Accuracy -->
+                        <div class="feedback-form-group">
+                            <label for="feedback-accuracy">Accuracy:</label>
+                            <select id="feedback-accuracy">
+                                <option value="">Select...</option>
+                                <option value="inaccurate">Inaccurate</option>
+                                <option value="partially_accurate">Partially Accurate</option>
+                                <option value="accurate">Accurate</option>
+                                <option value="unknown">Unknown</option>
+                            </select>
+                        </div>
+
+                        <!-- Comments -->
+                        <div class="feedback-form-group">
+                            <label for="feedback-comments">Comments (optional):</label>
+                            <textarea id="feedback-comments" placeholder="Share your thoughts..." rows="3"></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button class="btn btn-primary" onclick="submitFeedback()">Submit Feedback</button>
                     </div>
                 </div>
-
-                <!-- Relevance -->
-                <div class="feedback-form-group">
-                    <label for="feedback-relevance">Relevance:</label>
-                    <select id="feedback-relevance">
-                        <option value="">Select...</option>
-                        <option value="not_relevant">Not Relevant</option>
-                        <option value="somewhat_relevant">Somewhat Relevant</option>
-                        <option value="relevant">Relevant</option>
-                        <option value="highly_relevant">Highly Relevant</option>
-                    </select>
-                </div>
-
-                <!-- Accuracy -->
-                <div class="feedback-form-group">
-                    <label for="feedback-accuracy">Accuracy:</label>
-                    <select id="feedback-accuracy">
-                        <option value="">Select...</option>
-                        <option value="inaccurate">Inaccurate</option>
-                        <option value="partially_accurate">Partially Accurate</option>
-                        <option value="accurate">Accurate</option>
-                        <option value="unknown">Unknown</option>
-                    </select>
-                </div>
-
-                <!-- Completeness -->
-                <div class="feedback-form-group">
-                    <label for="feedback-completeness">Completeness:</label>
-                    <select id="feedback-completeness">
-                        <option value="">Select...</option>
-                        <option value="incomplete">Incomplete</option>
-                        <option value="partial">Partial</option>
-                        <option value="complete">Complete</option>
-                    </select>
-                </div>
-
-                <!-- Comments -->
-                <div class="feedback-form-group">
-                    <label for="feedback-comments">Comments (optional):</label>
-                    <textarea id="feedback-comments" placeholder="Share your thoughts..."></textarea>
-                </div>
-
-                <!-- Corrections -->
-                <div class="feedback-form-group">
-                    <label for="feedback-corrections">Corrections (if needed):</label>
-                    <textarea id="feedback-corrections" placeholder="Suggest corrections..."></textarea>
-                </div>
-
-                <!-- Submit Button -->
-                <button onclick="submitFeedback()" class="feedback-submit">
-                    ✓ Submit Feedback
-                </button>
             </div>
-        </div>
+        </main>
     </div>
 
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>

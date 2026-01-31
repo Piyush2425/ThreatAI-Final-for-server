@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threat-AI | Chat Interface</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/chat.css') }}">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- Logo -->
+            <div class="sidebar-header">
+                <div class="logo-section">
+                    <div class="logo">🛡️</div>
+                    <div class="logo-text">
+                        <h1>Threat-AI</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New Chat Button -->
+            <button class="new-chat-btn" onclick="createNewChat()">
+                <span class="btn-icon">➕</span>
+                <span class="btn-label">New Chat</span>
+            </button>
+
+            <!-- Conversations List -->
+            <div class="conversations-section">
+                <h3 class="section-title">Recent Chats</h3>
+                <div class="conversations-list" id="conversations-list">
+                    <div class="empty-conversations">No conversations yet</div>
+                </div>
+            </div>
+
+            <!-- Stats Footer -->
+            <div class="sidebar-footer">
+                <div class="status-indicator">
+                    <div class="status-dot" id="status-dot"></div>
+                    <span id="status-text">Ready</span>
+                </div>
+                <div class="model-info" id="model-info">
+                    <span id="model-name">Loading...</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-main">
+            <!-- Top Bar -->
+            <div class="top-bar">
+                <div class="conversation-title" id="conversation-title">
+                    <h2>Threat Intelligence Chat</h2>
+                </div>
+                <div class="top-actions">
+                    <button class="icon-btn" onclick="toggleSidebar()" title="Toggle Sidebar">
+                        <span>☰</span>
+                    </button>
+                    <button class="icon-btn" onclick="showSettings()" title="Settings">
+                        <span>⚙️</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Chat Messages Area -->
+            <div class="chat-container" id="chat-container">
+                <!-- Welcome Screen (shown when no messages) -->
+                <div class="welcome-screen" id="welcome-screen">
+                    <div class="welcome-content">
+                        <div class="welcome-logo">🛡️</div>
+                        <h1>threat-ai</h1>
+                        <p class="welcome-subtitle">Your AI-Powered Threat Intelligence Assistant</p>
+                        
+                        <div class="example-prompts">
+                            <h3>Try asking:</h3>
+                            <div class="prompt-grid" id="example-prompts"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Messages Container -->
+                <div class="messages-container" id="messages-container" style="display: none;">
+                    <!-- Messages will be dynamically inserted here -->
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area">
+                <div class="input-container">
+                    <textarea 
+                        id="message-input" 
+                        placeholder="Ask about threat actors, TTPs, malware, vulnerabilities..."
+                        rows="1"
+                    ></textarea>
+                    <button class="send-btn" id="send-btn" onclick="sendMessage()">
+                        <span id="send-icon">🚀</span>
+                    </button>
+                </div>
+                <div class="input-footer">
+                    <span class="input-hint">Press Enter to send, Shift+Enter for new line</span>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Feedback Modal -->
+    <div class="feedback-modal" id="feedback-modal" style="display: none;">
+        <div class="feedback-modal-overlay" onclick="closeFeedbackModal()"></div>
+        <div class="feedback-modal-content">
+            <div class="feedback-modal-header">
+                <h3>📝 Provide Feedback</h3>
+                <button class="close-modal-btn" onclick="closeFeedbackModal()">×</button>
+            </div>
+            
+            <div class="feedback-modal-body">
+                <!-- Quick Rating -->
+                <div class="feedback-group">
+                    <label class="feedback-label">How helpful was this response?</label>
+                    <div class="rating-stars" id="modal-rating-stars">
+                        <button class="star-btn" data-rating="1" onclick="setModalRating(1)">★</button>
+                        <button class="star-btn" data-rating="2" onclick="setModalRating(2)">★</button>
+                        <button class="star-btn" data-rating="3" onclick="setModalRating(3)">★</button>
+                        <button class="star-btn" data-rating="4" onclick="setModalRating(4)">★</button>
+                        <button class="star-btn" data-rating="5" onclick="setModalRating(5)">★</button>
+                    </div>
+                </div>
+
+                <!-- Relevance -->
+                <div class="feedback-group">
+                    <label class="feedback-label">Relevance</label>
+                    <select id="modal-relevance" class="feedback-select">
+                        <option value="">Select...</option>
+                        <option value="not_relevant">Not Relevant</option>
+                        <option value="somewhat_relevant">Somewhat Relevant</option>
+                        <option value="relevant">Relevant</option>
+                        <option value="highly_relevant">Highly Relevant</option>
+                    </select>
+                </div>
+
+                <!-- Accuracy -->
+                <div class="feedback-group">
+                    <label class="feedback-label">Accuracy</label>
+                    <select id="modal-accuracy" class="feedback-select">
+                        <option value="">Select...</option>
+                        <option value="inaccurate">Inaccurate</option>
+                        <option value="partially_accurate">Partially Accurate</option>
+                        <option value="accurate">Accurate</option>
+                        <option value="very_accurate">Very Accurate</option>
+                    </select>
+                </div>
+
+                <!-- Comments -->
+                <div class="feedback-group">
+                    <label class="feedback-label">Additional Comments (Optional)</label>
+                    <textarea id="modal-comments" class="feedback-textarea" placeholder="Share your thoughts, suggestions, or report issues..." rows="4"></textarea>
+                </div>
+            </div>
+
+            <div class="feedback-modal-footer">
+                <button class="btn-secondary" onclick="closeFeedbackModal()">Cancel</button>
+                <button class="btn-primary" onclick="submitFeedback()">Submit Feedback</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>
