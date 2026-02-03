@@ -1,0 +1,186 @@
+{
+  "id": "8c495b98-e33a-4189-898e-a1e727d7d3a2",
+  "title": "APT 28",
+  "messages": [
+    {
+      "role": "user",
+      "content": "APT 28",
+      "timestamp": "2026-02-01T13:00:34.333197",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on entity_profile data: Threat Actor: Sofacy, APT 28, Fancy Bear, Sednit Primary Name: Sofacy Also known as: Sofacy, APT 28, Fancy Bear, Sednit, Group 74, TG-4127, Pawn Storm, Tsar Team, Strontium, Swallowtail, SIG40, Snakemackerel, Iron Twilight, ATK 5, T-APT-12, ITG05, TAG-0700, UAC-0028, FROZENLAKE, Grey-Cloud, Grizzly Steppe, Forest Blizzard, GruesomeLarch, BlueDelta, TA422, Fighting Ursa, Blue Athena, UAC-0063, TAG-110, G0007 Origin: Russia Description: APT 28 is a threat group that has been attributed to Russia’s Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. This group reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. APT 28 has been active since at least January 2007.\n\n(FireEye) APT28 likely seeks to collect intelligence about Georgia’s security and political dynamics by targeting officials working for the Ministry of Internal Affairs and the Ministry of Defense.\n\nAPT28 has demonstrated interest in Eastern European governments and security organizations. These victims would provide the Russian government with an ability to predict policymaker intentions and gauge its ability to influence public opinion.\n\nAPT28 appeared to target individuals affiliated with European security organizations and global multilateral institutions. The Russian government has long cited European security organizations like NATO and the OSCE as existential threats, particularly during periods of increased tension in Europe.\n\nSofacy may be related to {{Hades}}, but it could be a false flag as well. (Supporting evidence from 1 additional sources)",
+      "timestamp": "2026-02-01T13:00:35.378483",
+      "metadata": {
+        "confidence": 0.2779710733890533,
+        "evidence": [
+          {
+            "text": "Threat Actor: Sofacy, APT 28, Fancy Bear, Sednit Primary Name: Sofacy Also known as: Sofacy, APT 28, Fancy Bear, Sednit, Group 74, TG-4127, Pawn Storm, Tsar Team, Strontium, Swallowtail, SIG40, Snakemackerel, Iron Twilight, ATK 5, T-APT-12, ITG05, TAG-0700, UAC-0028, FROZENLAKE, Grey-Cloud, Grizzly Steppe, Forest Blizzard, GruesomeLarch, BlueDelta, TA422, Fighting Ursa, Blue Athena, UAC-0063, TAG-110, G0007 Origin: Russia Description: APT 28 is a threat group that has been attributed to Russia’s Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. This group reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. APT 28 has been active since at least January 2007.\n\n(FireEye) APT28 likely seeks to collect intelligence about Georgia’s security and political dynamics by targeting officials working for the Ministry of Internal Affairs and the Ministry of Defense.\n\nAPT28 has demonstrated interest in Eastern European governments and security organizations. These victims would provide the Russian government with an ability to predict policymaker intentions and gauge its ability to influence public opinion.\n\nAPT28 appeared to target individuals affiliated with European security organizations and global multilateral institutions. The Russian government has long cited European security organizations like NATO and the OSCE as existential threats, particularly during periods of increased tension in Europe.\n\nSofacy may be related to {{Hades}}, but it could be a false flag as well.",
+            "score": 0.4942,
+            "source": "entity_profile",
+            "actor": "Sofacy, APT 28, Fancy Bear, Sednit",
+            "links": [
+              "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
+              "http://download.bitdefender.com/resources/media/materials/white-papers/en/Bitdefender_In-depth_analysis_of_APT28%E2%80%93The_Political_Cyber-Espionage.pdf",
+              "https://securelist.com/a-slice-of-2017-sofacy-activity/83930/",
+              "https://www.symantec.com/blogs/election-security/apt28-espionage-military-government",
+              "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
+              "https://threatvector.cylance.com/en_us/home/flirting-with-ida-and-apt28.html",
+              "https://threatvector.cylance.com/en_us/home/inside-the-apt28-dll-backdoor-blitz.html",
+              "https://securelist.com/zebrocys-multilanguage-malware-salad/90680/",
+              "https://marcoramilli.com/2019/12/05/apt28-attacks-evolution/",
+              "https://www.cisa.gov/sites/default/files/publications/JAR_16-20296A_GRIZZLY%20STEPPE-2016-1229.pdf",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://exchange.xforce.ibmcloud.com/threat-group/guid:f7b33aa456eb38053abd85968f78833a",
+              "https://en.wikipedia.org/wiki/Fancy_Bear",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/",
+              "https://www.microsoft.com/en-us/security/blog/2024/02/14/staying-ahead-of-threat-actors-in-the-age-of-ai/",
+              "https://www.trendmicro.com/en_us/research/24/e/router-roulette.html",
+              "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141a",
+              "https://www.cyfirma.com/research/apt-profile-fancy-bear-2/"
+            ]
+          },
+          {
+            "text": "Sofacy, APT 28, Fancy Bear, Sednit Sofacy Sofacy APT 28 Fancy Bear Sednit Group 74 TG-4127 Pawn Storm Tsar Team Strontium Swallowtail SIG40 Snakemackerel Iron Twilight ATK 5 T-APT-12 ITG05 TAG-0700 UAC-0028 FROZENLAKE Grey-Cloud Grizzly Steppe Forest Blizzard GruesomeLarch BlueDelta TA422 Fighting Ursa Blue Athena UAC-0063 TAG-110 G0007 Russia APT 28 is a threat group that has been attributed to Russia’s Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. This group reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. APT 28 has been active since at least January 2007.\n\n(FireEye) APT28 likely seeks to collect intelligence about Georgia’s security and political dynamics by targeting officials working for the Ministry of Internal Affairs and the Ministry of Defense.\n\nAPT28 has demonstrated interest in Eastern European governments and security organizations. These victims would provide the Russian government with an ability to predict policymaker intentions and gauge its ability to influence public opinion.\n\nAPT28 appeared to target individuals affiliated with European security organizations and global multilateral institutions. The Russian government has long cited European security organizations like NATO and the OSCE as existential threats, particularly during periods of increased tension in Europe.\n\nSofacy may be related to {{Hades}}, but it could be a false flag as well.",
+            "score": 0.3,
+            "source": "bm25",
+            "actor": "Sofacy, APT 28, Fancy Bear, Sednit",
+            "links": [
+              "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
+              "http://download.bitdefender.com/resources/media/materials/white-papers/en/Bitdefender_In-depth_analysis_of_APT28%E2%80%93The_Political_Cyber-Espionage.pdf",
+              "https://securelist.com/a-slice-of-2017-sofacy-activity/83930/",
+              "https://www.symantec.com/blogs/election-security/apt28-espionage-military-government",
+              "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
+              "https://threatvector.cylance.com/en_us/home/flirting-with-ida-and-apt28.html",
+              "https://threatvector.cylance.com/en_us/home/inside-the-apt28-dll-backdoor-blitz.html",
+              "https://securelist.com/zebrocys-multilanguage-malware-salad/90680/",
+              "https://marcoramilli.com/2019/12/05/apt28-attacks-evolution/",
+              "https://www.cisa.gov/sites/default/files/publications/JAR_16-20296A_GRIZZLY%20STEPPE-2016-1229.pdf",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://exchange.xforce.ibmcloud.com/threat-group/guid:f7b33aa456eb38053abd85968f78833a",
+              "https://en.wikipedia.org/wiki/Fancy_Bear",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/",
+              "https://www.microsoft.com/en-us/security/blog/2024/02/14/staying-ahead-of-threat-actors-in-the-age-of-ai/",
+              "https://www.trendmicro.com/en_us/research/24/e/router-roulette.html",
+              "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141a",
+              "https://www.cyfirma.com/research/apt-profile-fancy-bear-2/"
+            ]
+          }
+        ],
+        "trace_id": "79434ab3-1337-4f6f-b460-eb350689d630",
+        "model": "fallback",
+        "source_count": 2
+      }
+    },
+    {
+      "role": "user",
+      "content": "Write a report on APT 28 in detail in 1000 words with its resources and all..",
+      "timestamp": "2026-02-01T13:01:28.340125",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on entity_profile data: Threat Actor: Sofacy, APT 28, Fancy Bear, Sednit Primary Name: Sofacy Also known as: Sofacy, APT 28, Fancy Bear, Sednit, Group 74, TG-4127, Pawn Storm, Tsar Team, Strontium, Swallowtail, SIG40, Snakemackerel, Iron Twilight, ATK 5, T-APT-12, ITG05, TAG-0700, UAC-0028, FROZENLAKE, Grey-Cloud, Grizzly Steppe, Forest Blizzard, GruesomeLarch, BlueDelta, TA422, Fighting Ursa, Blue Athena, UAC-0063, TAG-110, G0007 Origin: Russia Description: APT 28 is a threat group that has been attributed to Russia’s Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. This group reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. APT 28 has been active since at least January 2007.\n\n(FireEye) APT28 likely seeks to collect intelligence about Georgia’s security and political dynamics by targeting officials working for the Ministry of Internal Affairs and the Ministry of Defense.\n\nAPT28 has demonstrated interest in Eastern European governments and security organizations. These victims would provide the Russian government with an ability to predict policymaker intentions and gauge its ability to influence public opinion.\n\nAPT28 appeared to target individuals affiliated with European security organizations and global multilateral institutions. The Russian government has long cited European security organizations like NATO and the OSCE as existential threats, particularly during periods of increased tension in Europe.\n\nSofacy may be related to {{Hades}}, but it could be a false flag as well. (Supporting evidence from 4 additional sources)",
+      "timestamp": "2026-02-01T13:01:28.396273",
+      "metadata": {
+        "confidence": 0.33976001024246216,
+        "evidence": [
+          {
+            "text": "Threat Actor: Sofacy, APT 28, Fancy Bear, Sednit Primary Name: Sofacy Also known as: Sofacy, APT 28, Fancy Bear, Sednit, Group 74, TG-4127, Pawn Storm, Tsar Team, Strontium, Swallowtail, SIG40, Snakemackerel, Iron Twilight, ATK 5, T-APT-12, ITG05, TAG-0700, UAC-0028, FROZENLAKE, Grey-Cloud, Grizzly Steppe, Forest Blizzard, GruesomeLarch, BlueDelta, TA422, Fighting Ursa, Blue Athena, UAC-0063, TAG-110, G0007 Origin: Russia Description: APT 28 is a threat group that has been attributed to Russia’s Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. This group reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. APT 28 has been active since at least January 2007.\n\n(FireEye) APT28 likely seeks to collect intelligence about Georgia’s security and political dynamics by targeting officials working for the Ministry of Internal Affairs and the Ministry of Defense.\n\nAPT28 has demonstrated interest in Eastern European governments and security organizations. These victims would provide the Russian government with an ability to predict policymaker intentions and gauge its ability to influence public opinion.\n\nAPT28 appeared to target individuals affiliated with European security organizations and global multilateral institutions. The Russian government has long cited European security organizations like NATO and the OSCE as existential threats, particularly during periods of increased tension in Europe.\n\nSofacy may be related to {{Hades}}, but it could be a false flag as well.",
+            "score": 0.4988,
+            "source": "entity_profile",
+            "actor": "Sofacy, APT 28, Fancy Bear, Sednit",
+            "links": [
+              "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
+              "http://download.bitdefender.com/resources/media/materials/white-papers/en/Bitdefender_In-depth_analysis_of_APT28%E2%80%93The_Political_Cyber-Espionage.pdf",
+              "https://securelist.com/a-slice-of-2017-sofacy-activity/83930/",
+              "https://www.symantec.com/blogs/election-security/apt28-espionage-military-government",
+              "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
+              "https://threatvector.cylance.com/en_us/home/flirting-with-ida-and-apt28.html",
+              "https://threatvector.cylance.com/en_us/home/inside-the-apt28-dll-backdoor-blitz.html",
+              "https://securelist.com/zebrocys-multilanguage-malware-salad/90680/",
+              "https://marcoramilli.com/2019/12/05/apt28-attacks-evolution/",
+              "https://www.cisa.gov/sites/default/files/publications/JAR_16-20296A_GRIZZLY%20STEPPE-2016-1229.pdf",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://exchange.xforce.ibmcloud.com/threat-group/guid:f7b33aa456eb38053abd85968f78833a",
+              "https://en.wikipedia.org/wiki/Fancy_Bear",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/",
+              "https://www.microsoft.com/en-us/security/blog/2024/02/14/staying-ahead-of-threat-actors-in-the-age-of-ai/",
+              "https://www.trendmicro.com/en_us/research/24/e/router-roulette.html",
+              "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141a",
+              "https://www.cyfirma.com/research/apt-profile-fancy-bear-2/"
+            ]
+          },
+          {
+            "text": "Sofacy, APT 28, Fancy Bear, Sednit Sofacy Sofacy APT 28 Fancy Bear Sednit Group 74 TG-4127 Pawn Storm Tsar Team Strontium Swallowtail SIG40 Snakemackerel Iron Twilight ATK 5 T-APT-12 ITG05 TAG-0700 UAC-0028 FROZENLAKE Grey-Cloud Grizzly Steppe Forest Blizzard GruesomeLarch BlueDelta TA422 Fighting Ursa Blue Athena UAC-0063 TAG-110 G0007 Russia APT 28 is a threat group that has been attributed to Russia’s Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. This group reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. APT 28 has been active since at least January 2007.\n\n(FireEye) APT28 likely seeks to collect intelligence about Georgia’s security and political dynamics by targeting officials working for the Ministry of Internal Affairs and the Ministry of Defense.\n\nAPT28 has demonstrated interest in Eastern European governments and security organizations. These victims would provide the Russian government with an ability to predict policymaker intentions and gauge its ability to influence public opinion.\n\nAPT28 appeared to target individuals affiliated with European security organizations and global multilateral institutions. The Russian government has long cited European security organizations like NATO and the OSCE as existential threats, particularly during periods of increased tension in Europe.\n\nSofacy may be related to {{Hades}}, but it could be a false flag as well.",
+            "score": 0.3,
+            "source": "bm25",
+            "actor": "Sofacy, APT 28, Fancy Bear, Sednit",
+            "links": [
+              "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
+              "http://download.bitdefender.com/resources/media/materials/white-papers/en/Bitdefender_In-depth_analysis_of_APT28%E2%80%93The_Political_Cyber-Espionage.pdf",
+              "https://securelist.com/a-slice-of-2017-sofacy-activity/83930/",
+              "https://www.symantec.com/blogs/election-security/apt28-espionage-military-government",
+              "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
+              "https://threatvector.cylance.com/en_us/home/flirting-with-ida-and-apt28.html",
+              "https://threatvector.cylance.com/en_us/home/inside-the-apt28-dll-backdoor-blitz.html",
+              "https://securelist.com/zebrocys-multilanguage-malware-salad/90680/",
+              "https://marcoramilli.com/2019/12/05/apt28-attacks-evolution/",
+              "https://www.cisa.gov/sites/default/files/publications/JAR_16-20296A_GRIZZLY%20STEPPE-2016-1229.pdf",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://exchange.xforce.ibmcloud.com/threat-group/guid:f7b33aa456eb38053abd85968f78833a",
+              "https://en.wikipedia.org/wiki/Fancy_Bear",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/",
+              "https://www.microsoft.com/en-us/security/blog/2024/02/14/staying-ahead-of-threat-actors-in-the-age-of-ai/",
+              "https://www.trendmicro.com/en_us/research/24/e/router-roulette.html",
+              "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141a",
+              "https://www.cyfirma.com/research/apt-profile-fancy-bear-2/"
+            ]
+          },
+          {
+            "text": "Bookworm Bookworm China (Palo Alto) Threat actors have delivered Bookworm as a payload in attacks on targets in Thailand. Readers who are interested in this campaign should start with our first blog that lays out the overall functionality of the malware and introduces its many components.\n\nUnit 42 does not have detailed targeting information for all known Bookworm samples, but we are aware of attempted attacks on at least two branches of government in Thailand. We speculate that other attacks delivering Bookworm were also targeting organizations in Thailand based on the contents of the associated decoys documents, as well as several of the dynamic DNS domain names used to host C2 servers that contain the words “Thai” or “Thailand”. Analysis of compromised systems seen communicating with Bookworm C2 servers also confirms our speculation on targeting with a majority of systems existing within Thailand.",
+            "score": 0.3,
+            "source": "bm25",
+            "actor": "Bookworm",
+            "links": [
+              "https://unit42.paloaltonetworks.com/attack-campaign-on-the-government-of-thailand-delivers-bookworm-trojan/",
+              "https://unit42.paloaltonetworks.com/bookworm-trojan-a-model-of-modular-architecture/"
+            ]
+          },
+          {
+            "text": "CloudSorcerer CloudSorcerer Unknown (Kaspersky) In May 2024, we discovered a new advanced persistent threat (APT) targeting Russian government entities that we dubbed CloudSorcerer. It’s a sophisticated cyberespionage tool used for stealth monitoring, data collection, and exfiltration via Microsoft Graph, Yandex Cloud, and Dropbox cloud infrastructure. The malware leverages cloud resources as its command and control (C2) servers, accessing them through APIs using authentication tokens. Additionally, CloudSorcerer uses GitHub as its initial C2 server.\n\nCloudSorcerer’s modus operandi is reminiscent of the CloudWizard APT ({{Bad Magic, RedStinger}}) that we reported on in 2023. However, the malware code is completely different. We presume that CloudSorcerer is a new actor that has adopted a similar method of interacting with public cloud services.",
+            "score": 0.3,
+            "source": "bm25",
+            "actor": "CloudSorcerer",
+            "links": [
+              "https://securelist.com/cloudsorcerer-new-apt-cloud-actor/113056/"
+            ]
+          },
+          {
+            "text": "Transparent Tribe, APT 36 Transparent Tribe Transparent Tribe APT 36 ProjectM Mythic Leopard TEMP.Lapis Copper Fieldstone Earth Karkaddan STEPPY-KAVACH Green Havildar APT-C-56 Storm-0156 Opaque Draco G0134 Pakistan (Proofpoint) Proofpoint researchers recently uncovered evidence of an advanced persistent threat (APT) against Indian diplomatic and military resources. Our investigation began with malicious emails sent to Indian embassies in Saudi Arabia and Kazakstan but turned up connections to watering hole sites focused on Indian military personnel and designed to drop a remote access Trojan (RAT) with a variety of data exfiltration functions. Our analysis shows that many of the campaigns and attacks appear related by common IOCs, vectors, payloads, and language, but the exact nature and attribution associated with this APT remain under investigation.\nAt this time, the background and analysis in this paper provide useful forensics and detail our current thinking on the malware that we have dubbed “MSIL/Crimson”.\n\nTransparent Tribe may be related to {{Gorgon Group}} and {{SideCopy}}.\n\nTheir malicious infrastructure was infiltrated by {{Turla, Waterbug, Venomous Bear}} in 2022.\n\nTransparant Tribe has been observed to use the Andromeda botnet (operated by {{Andromeda Spider}}).",
+            "score": 0.3,
+            "source": "bm25",
+            "actor": "Transparent Tribe, APT 36",
+            "links": [
+              "https://www.fireeye.com/blog/threat-research/2016/06/apt_group_sends_spea.html",
+              "https://www.crowdstrike.com/blog/adversary-of-the-month-for-may/",
+              "https://cyberstanc.com/blog/a-look-into-apt36-transparent-tribe/",
+              "https://blog.talosintelligence.com/2021/05/transparent-tribe-infra-and-targeting.html",
+              "https://blog.talosintelligence.com/2022/02/whats-with-shared-vba-code.html"
+            ]
+          }
+        ],
+        "trace_id": "e6a84c06-93a1-43d4-a9eb-9a3dc4145797",
+        "model": "fallback",
+        "source_count": 5
+      }
+    }
+  ],
+  "created_at": "2026-02-01T13:00:18.345710",
+  "updated_at": "2026-02-01T13:01:28.396273"
+}

@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 class SemanticChunker:
     """Convert threat actor JSON into semantic chunks."""
     
-    def __init__(self, chunk_size: int = 512, chunk_overlap: int = 128, min_length: int = 50):
+    def __init__(self, chunk_size: int = 800, chunk_overlap: int = 128, min_length: int = 50, entity_level: bool = True):
         """
         Initialize chunker.
         
@@ -19,10 +19,12 @@ class SemanticChunker:
             chunk_size: Target size for text chunks
             chunk_overlap: Number of overlapping characters between chunks
             min_length: Minimum chunk length
+            entity_level: If True, create one chunk per actor (recommended)
         """
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap
         self.min_length = min_length
+        self.entity_level = entity_level
     
     def chunk_actor(self, actor: Dict[str, Any]) -> List[Dict[str, Any]]:
         """
@@ -34,18 +36,103 @@ class SemanticChunker:
         Returns:
             List of semantic chunks with metadata
         """
+        if self.entity_level:
+            return self._chunk_actor_entity_level(actor)
+        else:
+            return self._chunk_actor_field_level(actor)
+    
+    def _chunk_actor_entity_level(self, actor: Dict[str, Any]) -> List[Dict[str, Any]]:
+        """
+        Create one comprehensive chunk per actor with all metadata.
+        Best for precise entity matching.
+        """
+        actor_id = actor.get('id', 'unknown')
+        name = actor.get('name', 'Unknown')
+        primary_name = actor.get('primary_name', name)
+        aliases = actor.get('aliases', [])
+        countries = actor.get('countries', [])
+        description = actor.get('description', '')
+        information_sources = actor.get('information_sources', [])
+        
+        # Build comprehensive text representation
+        text_parts = []
+        text_parts.append(f"Threat Actor: {name}")
+        
+        if primary_name and primary_name != name:
+            text_parts.append(f"Primary Name: {primary_name}")
+        
+        if aliases:
+            text_parts.append(f"Also known as: {', '.join(aliases)}")
+        
+        if countries:
+            text_parts.append(f"Origin: {', '.join(countries)}")
+        
+        if description:
+            text_parts.append(f"Description: {description}")
+        
+        # Add other important fields
+        for field in ['first_seen', 'last_seen', 'motivations', 'targets']:
+            value = actor.get(field)
+            if value:
+                if isinstance(value, list):
+                    text_parts.append(f"{field}: {', '.join(str(v) for v in value)}")
+                else:
+                    text_parts.append(f"{field}: {value}")
+        
+        full_text = ' '.join(text_parts)
+        
+        # Create single comprehensive chunk
+        chunk = {
+            'chunk_id': str(uuid.uuid4()),
+            'actor_id': actor_id,
+            'text': full_text,
+            'metadata': {
+                'source_field': 'entity_profile',
+                'chunk_type': 'entity_level',
+                'chunk_index': 0,
+                'actor_name': name,
+                'primary_name': primary_name,
+                'aliases': aliases,
+                'countries': countries,
+                'information_sources': information_sources
+            }
+        }
+        
+        return [chunk]
+    
+    def _chunk_actor_field_level(self, actor: Dict[str, Any]) -> List[Dict[str, Any]]:
+        """
+        Legacy field-by-field chunking.
+        """
         chunks = []
         actor_id = actor.get('id', 'unknown')
+        actor_name = actor.get('name', 'Unknown')
+        primary_name = actor.get('primary_name', actor_name)
+        aliases = actor.get('aliases', [])
         
         for field_name, field_value in actor.items():
             field_type = ChunkingRules.get_field_type(field_name)
             
             if field_type == 'atomic':
-                chunks.append(self._create_atomic_chunk(actor_id, field_name, field_value))
+                chunk = self._create_atomic_chunk(actor_id, field_name, field_value)
+                chunk['metadata']['actor_name'] = actor_name
+                chunk['metadata']['primary_name'] = primary_name
+                chunk['metadata']['aliases'] = aliases
+                chunks.append(chunk)
             elif field_type == 'list':
-                chunks.extend(self._chunk_list_field(actor_id, field_name, field_value))
+                field_chunks = self._chunk_list_field(actor_id, field_name, field_value)
+                for chunk in field_chunks:
+                    chunk['metadata']['actor_name'] = actor_name
+                    chunk['metadata']['primary_name'] = primary_name
+                    chunk['metadata']['aliases'] = aliases
+                chunks.extend(field_chunks)
             elif field_type == 'text':
-                chunks.extend(self._chunk_text_field(actor_id, field_name, field_value))
+                text_chunks = self._chunk_text_field(actor_id, field_name, field_value)
+                for chunk in text_chunks:
+                    chunk['metadata']['actor_name'] = actor_name
+                    chunk['metadata']['primary_name'] = primary_name
+                    chunk['metadata']['aliases'] = aliases
+                chunks.extend(text_chunks)
         
         return chunks
     

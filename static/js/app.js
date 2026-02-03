@@ -19,6 +19,22 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
+function formatEvidenceLinks(links) {
+    if (!Array.isArray(links) || links.length === 0) return '';
+    const safeLinks = links
+        .filter((l) => typeof l === 'string' && l.startsWith('http'))
+        .slice(0, 3);
+    if (safeLinks.length === 0) return '';
+    const html = safeLinks
+        .map((l) => {
+            const url = encodeURI(l);
+            const label = escapeHtml(l);
+            return `<a class="evidence-link" href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+        })
+        .join('');
+    return `<div class="evidence-links">${html}</div>`;
+}
+
 // ============================================
 // STATUS & INITIALIZATION
 // ============================================
@@ -154,17 +170,32 @@ function displayResults(result) {
     html += `<span>${confidencePercent}%</span>`;
     html += `</div>`;
     html += '</div>';
+
+    // Badges
+    html += '<div class="result-badges">';
+    if (result.response_mode) {
+        html += `<span class="badge badge-mode">${escapeHtml(result.response_mode)}</span>`;
+    }
+    html += `<span class="badge badge-sources">${result.source_count || 0} sources</span>`;
+    html += '</div>';
     
     // Answer
     html += `<div class="result-answer">${escapeHtml(result.answer)}</div>`;
+
+    // Quick actions
+    html += '<div class="result-actions">';
+    html += '<button class="action-btn-sm" onclick="copyAnswer()" title="Copy answer to clipboard">📋 Copy Answer</button>';
+    html += '</div>';
     
     // Evidence
     if (result.evidence && result.evidence.length > 0) {
         html += '<div class="evidence-section">';
-        html += '<div class="evidence-header">';
+        html += '<details class="evidence-details">';
+        html += '<summary class="evidence-summary">';
         html += '<span>📚 Evidence Sources</span>';
         html += `<span class="evidence-count">${result.evidence.length}</span>`;
-        html += '</div>';
+        html += '<span class="evidence-toggle">Show</span>';
+        html += '</summary>';
         html += '<div class="evidence-list">';
         
         result.evidence.forEach((e, i) => {
@@ -173,11 +204,12 @@ function displayResults(result) {
             html += `<span class="evidence-source">[${i+1}] ${escapeHtml(e.actor || 'Unknown')} • ${escapeHtml(e.source)}</span>`;
             html += `<span class="evidence-score">Score: ${e.score.toFixed(3)}</span>`;
             html += '</div>';
+            html += `${formatEvidenceLinks(e.links)}`;
             html += `<div class="evidence-text">${escapeHtml(e.text)}</div>`;
             html += '</div>';
         });
         
-        html += '</div></div>';
+        html += '</div></details></div>';
     }
     
     // Metadata
@@ -208,6 +240,24 @@ function displayResults(result) {
     
     // Add export buttons after results
     addExportButtons();
+}
+
+/**
+ * Copy latest answer to clipboard
+ */
+function copyAnswer() {
+    if (!lastResult || !lastResult.answer) return;
+    const text = lastResult.answer;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).catch(() => {});
+    } else {
+        const temp = document.createElement('textarea');
+        temp.value = text;
+        document.body.appendChild(temp);
+        temp.select();
+        try { document.execCommand('copy'); } catch (e) {}
+        document.body.removeChild(temp);
+    }
 }
 
 /**

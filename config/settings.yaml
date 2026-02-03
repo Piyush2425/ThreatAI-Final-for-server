@@ -10,9 +10,10 @@ data:
   schema_path: data/derived/chunk_schema.json
 
 chunking:
-  chunk_size: 512
+  chunk_size: 800
   chunk_overlap: 128
   min_chunk_length: 50
+  entity_level: true  # Use entity-level chunking (one chunk per actor)
 
 embeddings:
   model: sentence-transformers/all-MiniLM-L6-v2
@@ -26,7 +27,11 @@ vector_store:
 
 retrieval:
   top_k: 5
-  similarity_threshold: 0.6
+  similarity_threshold: 0.3  # Lowered from 0.6 for better recall
+  bm25_weight: 0.3  # Weight for BM25 keyword matching
+  vector_weight: 0.7  # Weight for vector similarity
+  use_hybrid: true  # Enable hybrid BM25 + vector search
+  use_metadata_filter: true  # Enable metadata filtering for specific actors
 
 agent:
   temperature: 0.3
@@ -35,7 +40,7 @@ agent:
 
 ollama:
   enabled: true
-  model: llama3:8b
+  model: llama3.2:3b
   host: http://localhost:11434
   timeout: 120
   temperature: 0.3

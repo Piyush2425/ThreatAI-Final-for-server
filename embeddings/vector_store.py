@@ -1,7 +1,7 @@
 """Vector store using Chroma DB for semantic search."""
 
 import logging
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Any, Tuple, Optional
 import chromadb
 import uuid
 import os
@@ -75,13 +75,26 @@ class VectorStore:
                 embeddings.append(chunk['embedding'])
                 documents.append(chunk['text'])
                 
-                # Store metadata
+                # Store comprehensive metadata for filtering
                 metadata = {
                     'actor_id': chunk.get('actor_id', ''),
                     'source_field': chunk['metadata'].get('source_field', ''),
                     'chunk_type': chunk['metadata'].get('chunk_type', ''),
                     'chunk_index': str(chunk['metadata'].get('chunk_index', 0)),
+                    'actor_name': chunk['metadata'].get('actor_name', ''),
+                    'primary_name': chunk['metadata'].get('primary_name', ''),
                 }
+                
+                # Store aliases as comma-separated string (Chroma doesn't support lists in metadata)
+                aliases = chunk['metadata'].get('aliases', [])
+                if aliases:
+                    metadata['aliases'] = ','.join(str(a) for a in aliases if a)
+                
+                # Store countries
+                countries = chunk['metadata'].get('countries', [])
+                if countries:
+                    metadata['countries'] = ','.join(str(c) for c in countries if c)
+                
                 metadatas.append(metadata)
             
             # Add to collection
@@ -100,23 +113,30 @@ class VectorStore:
             logger.error(f"Error adding chunks to vector store: {e}")
             raise
     
-    def search(self, query_embedding: List[float], k: int = 5) -> List[Tuple[Dict[str, Any], float]]:
+    def search(self, query_embedding: List[float], k: int = 5, where: Optional[Dict[str, Any]] = None) -> List[Tuple[Dict[str, Any], float]]:
         """
-        Search for similar chunks.
+        Search for similar chunks with optional metadata filtering.
         
         Args:
             query_embedding: Query embedding vector
             k: Number of results to return
+            where: Optional metadata filter (e.g., {"actor_name": "APT28"})
             
         Returns:
             List of (chunk, similarity) tuples
         """
         try:
-            results = self.collection.query(
-                query_embeddings=[query_embedding],
-                n_results=k,
-                include=["embeddings", "documents", "metadatas", "distances"]
-            )
+            query_params = {
+                'query_embeddings': [query_embedding],
+                'n_results': k,
+                'include': ["embeddings", "documents", "metadatas", "distances"]
+            }
+            
+            # Add metadata filter if provided
+            if where:
+                query_params['where'] = where
+            
+            results = self.collection.query(**query_params)
             
             if not results or not results['ids'] or len(results['ids']) == 0:
                 return []
@@ -134,6 +154,16 @@ class VectorStore:
                 # Chroma returns cosine distance (0-2), convert to similarity (0-1)
                 similarity = 1 - (distance / 2)
                 
+                # Reconstruct aliases list from comma-separated string
+                aliases = []
+                if metadata.get('aliases'):
+                    aliases = [a.strip() for a in metadata['aliases'].split(',') if a.strip()]
+                
+                # Reconstruct countries list
+                countries = []
+                if metadata.get('countries'):
+                    countries = [c.strip() for c in metadata['countries'].split(',') if c.strip()]
+                
                 chunk = {
                     'chunk_id': chunk_id,
                     'actor_id': metadata.get('actor_id', ''),
@@ -142,6 +172,10 @@ class VectorStore:
                         'source_field': metadata.get('source_field', ''),
                         'chunk_type': metadata.get('chunk_type', ''),
                         'chunk_index': int(metadata.get('chunk_index', 0)),
+                        'actor_name': metadata.get('actor_name', ''),
+                        'primary_name': metadata.get('primary_name', ''),
+                        'aliases': aliases,
+                        'countries': countries
                     }
                 }
                 

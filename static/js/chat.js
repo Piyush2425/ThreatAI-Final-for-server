@@ -354,18 +354,22 @@ function appendAssistantMessage(content, metadata = {}, timestamp = null) {
     if (metadata.evidence && metadata.evidence.length > 0) {
         messageHTML += `
             <div class="message-evidence">
-                <div class="evidence-header">
-                    <span>📚 Evidence Sources</span>
-                    <span class="evidence-count">${metadata.evidence.length}</span>
-                </div>
-                <div class="evidence-list">
-                    ${metadata.evidence.slice(0, 3).map((e, i) => `
-                        <div class="evidence-item">
-                            <div class="evidence-source">[${i+1}] ${escapeHtml(e.actor || 'Unknown')} • ${escapeHtml(e.source)}</div>
-                            <div class="evidence-text">${escapeHtml(e.text)}</div>
-                        </div>
-                    `).join('')}
-                </div>
+                <details class="evidence-details">
+                    <summary class="evidence-summary">
+                        <span>📚 Evidence Sources</span>
+                        <span class="evidence-count">${metadata.evidence.length}</span>
+                        <span class="evidence-toggle">Show</span>
+                    </summary>
+                    <div class="evidence-list">
+                        ${metadata.evidence.slice(0, 3).map((e, i) => `
+                            <div class="evidence-item">
+                                <div class="evidence-source">[${i+1}] ${escapeHtml(e.actor || 'Unknown')} • ${escapeHtml(e.source)}</div>
+                                ${formatEvidenceLinks(e.links)}
+                                <div class="evidence-text">${escapeHtml(e.text)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </details>
             </div>
         `;
     }
@@ -375,6 +379,9 @@ function appendAssistantMessage(content, metadata = {}, timestamp = null) {
                 <div class="message-actions">
                     <button class="action-btn feedback-btn" onclick="openFeedbackModal('${messageId}')" title="Provide Feedback">
                         💬 Feedback
+                    </button>
+                    <button class="action-btn" onclick="copyMessageAnswer('${messageId}')" title="Copy answer">
+                        📋 Copy
                     </button>
                     <button class="action-btn" onclick="exportMessagePDF('${messageId}')" title="Export as PDF">
                         📄 PDF
@@ -481,6 +488,22 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
+function formatEvidenceLinks(links) {
+    if (!Array.isArray(links) || links.length === 0) return '';
+    const safeLinks = links
+        .filter((l) => typeof l === 'string' && l.startsWith('http'))
+        .slice(0, 3);
+    if (safeLinks.length === 0) return '';
+    const html = safeLinks
+        .map((l) => {
+            const url = encodeURI(l);
+            const label = escapeHtml(l);
+            return `<a class="evidence-link" href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+        })
+        .join('');
+    return `<div class="evidence-links">${html}</div>`;
+}
+
 /**
  * Toggle sidebar (mobile)
  */
@@ -498,6 +521,25 @@ function showSettings() {
 // ============================================
 // EXPORT FUNCTIONALITY
 // ============================================
+
+/**
+ * Copy assistant answer to clipboard
+ */
+function copyMessageAnswer(messageId) {
+    const entry = window.messageMetadata?.[messageId];
+    if (!entry || !entry.content) return;
+    const text = entry.content;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).catch(() => {});
+    } else {
+        const temp = document.createElement('textarea');
+        temp.value = text;
+        document.body.appendChild(temp);
+        temp.select();
+        try { document.execCommand('copy'); } catch (e) {}
+        document.body.removeChild(temp);
+    }
+}
 
 /**
  * Export message as PDF

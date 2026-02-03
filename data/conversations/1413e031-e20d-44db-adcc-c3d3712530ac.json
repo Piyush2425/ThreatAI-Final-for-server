@@ -1,0 +1,193 @@
+{
+  "id": "1413e031-e20d-44db-adcc-c3d3712530ac",
+  "title": "Write A report On Sofacy .",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Write A report On Sofacy .",
+      "timestamp": "2026-02-01T11:46:46.977003",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on entity_profile data: Threat Actor: Sofacy, APT 28, Fancy Bear, Sednit Primary Name: Sofacy Also known as: Sofacy, APT 28, Fancy Bear, Sednit, Group 74, TG-4127, Pawn Storm, Tsar Team, Strontium, Swallowtail, SIG40, Snakemackerel, Iron Twilight, ATK 5, T-APT-12, ITG05, TAG-0700, UAC-0028, FROZENLAKE, Grey-Cloud, Grizzly Steppe, Forest Blizzard, GruesomeLarch, BlueDelta, TA422, Fighting Ursa, Blue Athena, UAC-0063, TAG-110, G0007 Origin: Russia Description: APT 28 is a threat group that has been attributed to Russia’s Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. This group reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. APT 28 has been active since at least January 2007.\n\n(FireEye) APT28 likely seeks to collect intelligence about Georgia’s security and political dynamics by targeting officials working for the Ministry of Internal Affairs and the Ministry of Defense.\n\nAPT28 has demonstrated interest in Eastern European governments and security organizations. These victims would provide the Russian government with an ability to predict policymaker intentions and gauge its ability to influence public opinion.\n\nAPT28 appeared to target individuals affiliated with European security organizations and global multilateral institutions. The Russian government has long cited European security organizations like NATO and the OSCE as existential threats, particularly during periods of increased tension in Europe.\n\nSofacy may be related to {{Hades}}, but it could be a false flag as well. (Supporting evidence from 1 additional sources)",
+      "timestamp": "2026-02-01T11:46:47.235264",
+      "metadata": {
+        "confidence": 0.2628710417449474,
+        "evidence": [
+          {
+            "text": "Threat Actor: Sofacy, APT 28, Fancy Bear, Sednit Primary Name: Sofacy Also known as: Sofacy, APT 28, Fancy Bear, Sednit, Group 74, TG-4127, Pawn Storm, Tsar Team, Strontium, Swallowtail, SIG40, Snakemackerel, Iron Twilight, ATK 5, T-APT-12, ITG05, TAG-0700, UAC-0028, FROZENLAKE, Grey-Cloud, Grizzly Steppe, Forest Blizzard, GruesomeLarch, BlueDelta, TA422, Fighting Ursa, Blue Athena, UAC-0063, TAG-110, G0007 Origin: Russia Description: APT 28 is a threat group that has been attributed to Russia’s Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. This group reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. APT 28 has been active since at least January 2007.\n\n(FireEye) APT28 likely seeks to collect intelligence about Georgia’s security and political dynamics by targeting officials working for the Ministry of Internal Affairs and the Ministry of Defense.\n\nAPT28 has demonstrated interest in Eastern European governments and security organizations. These victims would provide the Russian government with an ability to predict policymaker intentions and gauge its ability to influence public opinion.\n\nAPT28 appeared to target individuals affiliated with European security organizations and global multilateral institutions. The Russian government has long cited European security organizations like NATO and the OSCE as existential threats, particularly during periods of increased tension in Europe.\n\nSofacy may be related to {{Hades}}, but it could be a false flag as well.",
+            "score": 0.4511,
+            "source": "entity_profile",
+            "actor": "Sofacy, APT 28, Fancy Bear, Sednit"
+          },
+          {
+            "text": "Sofacy, APT 28, Fancy Bear, Sednit Sofacy Sofacy APT 28 Fancy Bear Sednit Group 74 TG-4127 Pawn Storm Tsar Team Strontium Swallowtail SIG40 Snakemackerel Iron Twilight ATK 5 T-APT-12 ITG05 TAG-0700 UAC-0028 FROZENLAKE Grey-Cloud Grizzly Steppe Forest Blizzard GruesomeLarch BlueDelta TA422 Fighting Ursa Blue Athena UAC-0063 TAG-110 G0007 Russia APT 28 is a threat group that has been attributed to Russia’s Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. This group reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. APT 28 has been active since at least January 2007.\n\n(FireEye) APT28 likely seeks to collect intelligence about Georgia’s security and political dynamics by targeting officials working for the Ministry of Internal Affairs and the Ministry of Defense.\n\nAPT28 has demonstrated interest in Eastern European governments and security organizations. These victims would provide the Russian government with an ability to predict policymaker intentions and gauge its ability to influence public opinion.\n\nAPT28 appeared to target individuals affiliated with European security organizations and global multilateral institutions. The Russian government has long cited European security organizations like NATO and the OSCE as existential threats, particularly during periods of increased tension in Europe.\n\nSofacy may be related to {{Hades}}, but it could be a false flag as well.",
+            "score": 0.3,
+            "source": "bm25",
+            "actor": "Sofacy, APT 28, Fancy Bear, Sednit"
+          }
+        ],
+        "trace_id": "ba6b8bab-019b-42e0-b8ca-96bab2f80ace",
+        "model": "fallback",
+        "source_count": 2
+      }
+    },
+    {
+      "role": "user",
+      "content": "2. \"What are tactics of APT 28?\"",
+      "timestamp": "2026-02-01T11:47:51.449765",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on entity_profile data: Threat Actor: Sofacy, APT 28, Fancy Bear, Sednit Primary Name: Sofacy Also known as: Sofacy, APT 28, Fancy Bear, Sednit, Group 74, TG-4127, Pawn Storm, Tsar Team, Strontium, Swallowtail, SIG40, Snakemackerel, Iron Twilight, ATK 5, T-APT-12, ITG05, TAG-0700, UAC-0028, FROZENLAKE, Grey-Cloud, Grizzly Steppe, Forest Blizzard, GruesomeLarch, BlueDelta, TA422, Fighting Ursa, Blue Athena, UAC-0063, TAG-110, G0007 Origin: Russia Description: APT 28 is a threat group that has been attributed to Russia’s Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. This group reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. APT 28 has been active since at least January 2007.\n\n(FireEye) APT28 likely seeks to collect intelligence about Georgia’s security and political dynamics by targeting officials working for the Ministry of Internal Affairs and the Ministry of Defense.\n\nAPT28 has demonstrated interest in Eastern European governments and security organizations. These victims would provide the Russian government with an ability to predict policymaker intentions and gauge its ability to influence public opinion.\n\nAPT28 appeared to target individuals affiliated with European security organizations and global multilateral institutions. The Russian government has long cited European security organizations like NATO and the OSCE as existential threats, particularly during periods of increased tension in Europe.\n\nSofacy may be related to {{Hades}}, but it could be a false flag as well.",
+      "timestamp": "2026-02-01T11:47:51.505532",
+      "metadata": {
+        "confidence": 0.3357990992069244,
+        "evidence": [
+          {
+            "text": "Threat Actor: Sofacy, APT 28, Fancy Bear, Sednit Primary Name: Sofacy Also known as: Sofacy, APT 28, Fancy Bear, Sednit, Group 74, TG-4127, Pawn Storm, Tsar Team, Strontium, Swallowtail, SIG40, Snakemackerel, Iron Twilight, ATK 5, T-APT-12, ITG05, TAG-0700, UAC-0028, FROZENLAKE, Grey-Cloud, Grizzly Steppe, Forest Blizzard, GruesomeLarch, BlueDelta, TA422, Fighting Ursa, Blue Athena, UAC-0063, TAG-110, G0007 Origin: Russia Description: APT 28 is a threat group that has been attributed to Russia’s Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. This group reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. APT 28 has been active since at least January 2007.\n\n(FireEye) APT28 likely seeks to collect intelligence about Georgia’s security and political dynamics by targeting officials working for the Ministry of Internal Affairs and the Ministry of Defense.\n\nAPT28 has demonstrated interest in Eastern European governments and security organizations. These victims would provide the Russian government with an ability to predict policymaker intentions and gauge its ability to influence public opinion.\n\nAPT28 appeared to target individuals affiliated with European security organizations and global multilateral institutions. The Russian government has long cited European security organizations like NATO and the OSCE as existential threats, particularly during periods of increased tension in Europe.\n\nSofacy may be related to {{Hades}}, but it could be a false flag as well.",
+            "score": 0.4797,
+            "source": "entity_profile",
+            "actor": "Sofacy, APT 28, Fancy Bear, Sednit"
+          }
+        ],
+        "trace_id": "ed883785-78e2-4f4c-824d-ba76b6f44149",
+        "model": "fallback",
+        "source_count": 1
+      }
+    },
+    {
+      "role": "user",
+      "content": "\"Big Panda profile\"",
+      "timestamp": "2026-02-01T11:49:53.724032",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on entity_profile data: Threat Actor: Big Panda Origin: China Description: A threat actor mentioned in a summary report only, so we don't know who they are yet. (Supporting evidence from 1 additional sources)",
+      "timestamp": "2026-02-01T11:49:53.780431",
+      "metadata": {
+        "confidence": 0.35532496228814126,
+        "evidence": [
+          {
+            "text": "Threat Actor: Big Panda Origin: China Description: A threat actor mentioned in a summary report only, so we don't know who they are yet.",
+            "score": 0.5598,
+            "source": "entity_profile",
+            "actor": "Big Panda"
+          },
+          {
+            "text": "Threat Actor: TA428 Also known as: Panda, ThunderCats Origin: China Description: (Proofpoint) Proofpoint researchers initially identified email campaigns with malicious RTF document attachments targeting East Asian government agencies in March 2019. These campaigns originated from adversary-operated free email sender accounts at yahoo[.]co[.].jp and yahoo[.]com. Sender addresses often imitated common names found in the languages of targeted entities. Spear phishing emails included malicious .doc attachments that were actually RTF files saved with .doc file extensions.\n\nThe lures used in the subjects, attachment names, and attachment content in several cases utilized information technology themes specific to Asia such as governmental or public training documents relating to IT. On one specific occasion an email utilized the subject “ITU Asia-Pacific Online CoE Training Course on ‘Conformity & Interoperability in 5G’ for the Asia-Pacific Region, 15-26 April 2019” and the attachment name “190315_annex 1 online_course_agenda_coei_c&i.doc”. The conference referenced in the lure was an actual event likely selected due to its relevance to potential victims. This is significant as countries in the APAC region continue to adopt Chinese 5G technology in government as well as heavy equipment industries.\n\nThis actor worked together with {{Emissary Panda, APT 27, LuckyMouse, Bronze Union}} in Operation StealthyTrident.",
+            "score": 0.4555,
+            "source": "entity_profile",
+            "actor": "TA428"
+          }
+        ],
+        "trace_id": "4dd67d4c-79e7-4c2c-a806-d95033ced1d9",
+        "model": "fallback",
+        "source_count": 2
+      }
+    },
+    {
+      "role": "user",
+      "content": "\"List Chinese threat actors\"",
+      "timestamp": "2026-02-01T11:50:20.601238",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on entity_profile data: Threat Actor: [Unnamed groups: China] Origin: China Description: These are reported APT activities attributed to a country, but not to an individual threat group. (Supporting evidence from 4 additional sources)",
+      "timestamp": "2026-02-01T11:50:20.651540",
+      "metadata": {
+        "confidence": 0.6059008544683456,
+        "evidence": [
+          {
+            "text": "Threat Actor: [Unnamed groups: China] Origin: China Description: These are reported APT activities attributed to a country, but not to an individual threat group.",
+            "score": 0.6285,
+            "source": "entity_profile",
+            "actor": "[Unnamed groups: China]"
+          },
+          {
+            "text": "Threat Actor: Gibberish Panda Origin: China Description: A threat actor mentioned in a summary report only, so we don't know who they are yet.",
+            "score": 0.6026,
+            "source": "entity_profile",
+            "actor": "Gibberish Panda"
+          },
+          {
+            "text": "Threat Actor: Spicy Panda Origin: China Description: A threat actor mentioned in a summary report only, so we don't know who they are yet.",
+            "score": 0.6003,
+            "source": "entity_profile",
+            "actor": "Spicy Panda"
+          },
+          {
+            "text": "Threat Actor: Test Panda Origin: China Description: A threat actor mentioned in a summary report only, so we don't know who they are yet.",
+            "score": 0.5992,
+            "source": "entity_profile",
+            "actor": "Test Panda"
+          },
+          {
+            "text": "Threat Actor: Eloquent Panda Origin: China Description: A threat actor mentioned in a summary report only, so we don't know who they are yet.",
+            "score": 0.5989,
+            "source": "entity_profile",
+            "actor": "Eloquent Panda"
+          }
+        ],
+        "trace_id": "ea0e4eb1-d177-454a-be21-0d89ec95caaa",
+        "model": "fallback",
+        "source_count": 5
+      }
+    },
+    {
+      "role": "user",
+      "content": "list 10 chinese threat Actors",
+      "timestamp": "2026-02-01T11:50:39.151252",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on entity_profile data: Threat Actor: [Unnamed groups: China] Origin: China Description: These are reported APT activities attributed to a country, but not to an individual threat group. (Supporting evidence from 4 additional sources)",
+      "timestamp": "2026-02-01T11:50:39.196832",
+      "metadata": {
+        "confidence": 0.6023255139589309,
+        "evidence": [
+          {
+            "text": "Threat Actor: [Unnamed groups: China] Origin: China Description: These are reported APT activities attributed to a country, but not to an individual threat group.",
+            "score": 0.6184,
+            "source": "entity_profile",
+            "actor": "[Unnamed groups: China]"
+          },
+          {
+            "text": "Threat Actor: Gibberish Panda Origin: China Description: A threat actor mentioned in a summary report only, so we don't know who they are yet.",
+            "score": 0.5998,
+            "source": "entity_profile",
+            "actor": "Gibberish Panda"
+          },
+          {
+            "text": "Threat Actor: Eloquent Panda Origin: China Description: A threat actor mentioned in a summary report only, so we don't know who they are yet.",
+            "score": 0.5986,
+            "source": "entity_profile",
+            "actor": "Eloquent Panda"
+          },
+          {
+            "text": "Threat Actor: Test Panda Origin: China Description: A threat actor mentioned in a summary report only, so we don't know who they are yet.",
+            "score": 0.5976,
+            "source": "entity_profile",
+            "actor": "Test Panda"
+          },
+          {
+            "text": "Threat Actor: Spicy Panda Origin: China Description: A threat actor mentioned in a summary report only, so we don't know who they are yet.",
+            "score": 0.5973,
+            "source": "entity_profile",
+            "actor": "Spicy Panda"
+          }
+        ],
+        "trace_id": "e65a94d0-4b6c-4aa0-91aa-313569344c3b",
+        "model": "fallback",
+        "source_count": 5
+      }
+    }
+  ],
+  "created_at": "2026-02-01T11:46:00.531742",
+  "updated_at": "2026-02-01T11:50:39.196832"
+}

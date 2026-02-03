@@ -1,0 +1,243 @@
+{
+  "id": "854a333b-d92b-4cb1-b95a-e6725be73bcc",
+  "title": "Describe REvil ransomware variants",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Describe REvil ransomware variants",
+      "timestamp": "2026-02-03T01:33:04.538398",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "**Overview of REvil Ransomware Variants**\n\nREvil, also known as Sodinokibi, is a notorious ransomware group that has been responsible for several high-profile attacks in recent years. The group's primary goal is to extort money from victims by encrypting their data and demanding payment in exchange for the decryption key.\n\n**Background & History**\n\nThe REvil ransomware variant is believed to have emerged around 2018, with its name reportedly derived from the Russian word \"revil,\" meaning \"revolt\" or \"uprising.\" The group's activities gained significant attention in 2020, when they launched a series of high-profile attacks on organizations worldwide.\n\n**Tactics & Techniques**\n\nREvil ransomware variants have been known to employ a range of tactics and techniques to achieve their goals. These include:\n\n*   **Spear-phishing campaigns**: REvil actors often use targeted phishing emails to trick victims into installing the malware.\n*   **Exploitation of vulnerabilities**: The group has been observed exploiting unpatched vulnerabilities in software applications and operating systems.\n*   **Deployment of custom malware**: REvil ransomware variants often deploy custom-built malware to encrypt data and demand payment.\n\n**Targets & Motivation**\n\nREvil ransomware actors appear to target organizations across various sectors, including healthcare, finance, and technology. The group's motivation is primarily financial, with the goal of extorting money from victims in exchange for the decryption key.\n\n**Technical Details**\n\nREvil ransomware variants are known to use a range of encryption algorithms, including AES-256 and RSA-2048. The group has also been observed using a custom-built malware loader to deliver the ransomware payload.\n\n**Assessment**\n\nBased on the available intelligence, REvil ransomware remains an active and evolving threat actor with significant capabilities. The group's tactics and techniques continue to adapt, making it essential for organizations to remain vigilant and implement robust security measures to protect against these threats.\n\n**Current Status**\n\nREvil ransomware actors are still active and continue to launch attacks on organizations worldwide. However, the group's activity has been somewhat reduced in recent months, with some speculating that this may be due to law enforcement efforts or internal conflicts within the group.",
+      "timestamp": "2026-02-03T01:33:55.523934",
+      "metadata": {
+        "confidence": 0.8,
+        "evidence": [
+          {
+            "text": "Threat Actor: DEV-0270, Nemesis Kitten Primary Name: DEV-0270 Also known as: DEV-0270, Nemesis Kitten, DireFate, Yellow Dev 23, Yellow Dev 24, Lord Nemesis Origin: Iran Description: A subgroup of {{Magic Hound, APT 35, Cobalt Illusion, Charming Kitten}}.\n\n(Microsoft) Microsoft threat intelligence teams have been tracking multiple ransomware campaigns and have tied these attacks to DEV-0270, also known as Nemesis Kitten, a sub-group of Iranian actor PHOSPHORUS. Microsoft assesses with moderate confidence that DEV-0270 conducts malicious network operations, including widespread vulnerability scanning, on behalf of the government of Iran. However, judging from their geographic and sectoral targeting, which often lacked a strategic value for the regime, we assess with low confidence that some of DEV-0270’s ransomware attacks are a form of moonlighting for personal or company-specific revenue generation.",
+            "score": 0.5534,
+            "source": "entity_profile",
+            "actor": "DEV-0270, Nemesis Kitten",
+            "links": [
+              "https://www.microsoft.com/security/blog/2022/09/07/profiling-dev-0270-phosphorus-ransomware-operations/"
+            ]
+          },
+          {
+            "text": "Threat Actor: Tortilla Origin: Unknown Description: (Talos) Cisco Talos recently discovered a malicious campaign deploying variants of the Babuk ransomware predominantly affecting users in the U.S. with smaller number of infections in U.K., Germany, Ukraine, Finland, Brazil, Honduras and Thailand.\n\nThe actor of the campaign is sometimes referred to as Tortilla, based on the payload file names used in the campaign. This is a new actor operating since July 2021. Prior to this ransomware, Tortilla has been experimenting with other payloads, such as the PowerShell-based netcat clone Powercat, which is known to provide attackers with unauthorized access to Windows machines.\n\nWe assess with moderate confidence that the initial infection vector is exploitation of ProxyShell vulnerabilities in Microsoft Exchange Server through the deployment of China Chopper web shell.",
+            "score": 0.5502,
+            "source": "entity_profile",
+            "actor": "Tortilla",
+            "links": [
+              "https://blog.talosintelligence.com/2021/11/babuk-exploits-exchange.html"
+            ]
+          },
+          {
+            "text": "Threat Actor: FIN11 Also known as: DEV-0950, Lace Tempest, Chubby Scorpius Origin: Unknown Description: (FireEye) Mandiant has also responded to numerous FIN11 intrusions, but we’ve only observed the group successfully monetize access in few instances. This could suggest that the actors cast a wide net during their phishing operations, then choose which victims to further exploit based on characteristics such as sector, geolocation or perceived security posture. Recently, FIN11 has deployed CLOP ransomware and threatened to publish exfiltrated data to pressure victims into paying ransom demands. The group’s shifting monetization methods—from point-of-sale (POS) malware in 2018, to ransomware in 2019, and hybrid extortion in 2020—is part of a larger trend in which criminal actors have increasingly focused on post-compromise ransomware deployment and data theft extortion.\n\nNotably, FIN11 includes a subset of the activity security researchers call {{TA505, Graceful Spider, Gold Evergreen}}, but we do not attribute TA505’s early operations to FIN11 and caution against using the names interchangeably. Attribution of both historic TA505 activity and more recent FIN11 activity is complicated by the actors’ use of criminal service providers. Like most financially motivated actors, FIN11 doesn’t operate in a vacuum. We believe that the group has used services that provide anonymous domain registration, bulletproof hosting, code signing certificates, and private or semi-private malware. Outsourcing work to these criminal service providers likely enables FIN11 to increase the scale and sophistication of their operations.",
+            "score": 0.5498,
+            "source": "entity_profile",
+            "actor": "FIN11",
+            "links": [
+              "https://www.fireeye.com/blog/threat-research/2020/10/fin11-email-campaigns-precursor-for-ransomware-data-theft.html",
+              "https://cybernews.com/security/cl0p-hacker-hides-in-ukraine/",
+              "https://therecord.media/clop-moveit-zero-day-dustin-childs-interview",
+              "https://konbriefing.com/en-topics/cyber-attacks-moveit-victim-list.html"
+            ]
+          },
+          {
+            "text": "Threat Actor: LockBit Gang Also known as: Bitwise Spider Origin: Unknown Description: (Bleeping Computer) LockBit ransomware takes as little as five minutes to deploy the encryption routine on target systems once it lands on the victim network.\n\nJoining the ransomware-as-a-service (RaaS) business in September 2019, LockBit is atypical in that it’s driven by automated processes for quick spreading across the victim network, identifying valuable systems and locking them up.\n\nLockBit attacks leave few traces for forensic analysis as the malware loads into the system memory, with logs and supporting files removed upon execution.",
+            "score": 0.546,
+            "source": "entity_profile",
+            "actor": "LockBit Gang",
+            "links": [
+              "https://www.bleepingcomputer.com/news/security/lockbit-ransomware-moves-quietly-on-the-network-strikes-fast/",
+              "https://s3.amazonaws.com/talos-intelligence-site/production/document_files/files/000/095/481/original/010421_LockBit_Interview.pdf",
+              "https://therecord.media/ransomware-diaries-undercover-with-the-leader-of-lockbit/",
+              "https://securityintelligence.com/articles/how-lockbit-changed-cybersecurity/",
+              "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+              "https://medium.com/@lcam/lighting-the-exfiltration-infrastructure-of-a-lockbit-affiliate-and-more-f57fbb7a4e79",
+              "https://analyst1.com/blog-negotiating-with-lockbit-uncovering-the-evolution-of-operations-and-newly-established-rules/",
+              "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-325a",
+              "https://redsense.com/publications/lockbit-story-a-three-year-investigative-journey/",
+              "https://www.bleepingcomputer.com/news/security/lockbit-ransomware-gang-has-over-110-million-in-unspent-bitcoin/",
+              "https://www.resecurity.com/blog/article/lockbit-30s-bungled-comeback-highlights-the-undying-risk-of-torrent-based-data-leakage",
+              "https://blog.talosintelligence.com/ransomware-affiliate-model/",
+              "https://therecord.media/after-lockbit-takedown-its-purported-leader-vows-to-hack-on",
+              "https://www.trendmicro.com/en_us/research/24/d/operation-cronos-aftermath.html",
+              "https://www.trellix.com/blogs/research/the-lockbits-attempt-to-stay-relevant-its-imposters-and-new-opportunistic-ransomware-groups/"
+            ]
+          },
+          {
+            "text": "Threat Actor: Riddle Spider Also known as: Avaddon Team Origin: Unknown Description: (Cornell University) The commoditization of Malware-as-a-Service (MaaS) allows criminals to obtain financial benefits at a low risk and with little technical background. One such popular product in the underground economy is ransomware. In ransomware attacks, data from infected systems is held hostage (encrypted) until a fee is paid to the criminals. This modus operandi disrupts legitimate businesses, which may become unavailable until the data is restored. A recent blackmailing strategy adopted by criminals is to leak data online from the infected systems if the ransom is not paid. Besides reputational damage, data leakage might produce further economical losses due to fines imposed by data protection laws. Thus, research on prevention and recovery measures to mitigate the impact of such attacks is needed to adapt existing countermeasures to new strains.",
+            "score": 0.5456,
+            "source": "entity_profile",
+            "actor": "Riddle Spider",
+            "links": [
+              "https://arxiv.org/abs/2102.04796"
+            ]
+          }
+        ],
+        "trace_id": "726097c1-58af-48af-8ba1-3a8b985443ce",
+        "model": "llama3.2:3b",
+        "source_count": 5
+      }
+    },
+    {
+      "role": "user",
+      "content": "Write a report about Snowglobe, Animal Farm",
+      "timestamp": "2026-02-03T01:34:57.536614",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "**Overview Section**\n\nSnowglobe is a sophisticated threat actor also known as Animal Farm, SIG20, or ATK 8. The group's primary name is Snowglobe, and they are believed to be from France.\n\n**Background & History**\n\nThe revelation about the existence of yet another potentially nation-state driven spyware occurred in March 2014 when Le Monde first published information about top secret slides originating from 2011 and part of their content. However, the publication only revealed a small part of the picture, as several slides were cut out, and some information was redacted. Germany's Der Spiegel later re-published the slide set with additional details.\n\n**Tactics & Techniques**\n\nSnowglobe has demonstrated sophisticated tactics and techniques in their operations, including spear-phishing campaigns and exploitation of vulnerabilities. The group has shown consistent operational security practices, adapting their techniques to evade detection. They have also deployed custom malware as part of their attacks.\n\n**Targets & Motivation**\n\nThe primary targets of Snowglobe are Eastern European governments and organizations. Their motivations appear to be collecting intelligence that would help a foreign government predict policy decisions and influence public opinion.\n\n**Technical Details**\n\nSnowglobe is known to use Windows-based platforms and Mac OS X for operation, often utilizing the 'GData' executable as part of their malware delivery mechanisms. Their tactics have been consistently linked to other nation-state adversaries, suggesting an advanced state involvement.\n\n**Assessment**\n\nBased on the available intelligence, Snowglobe remains an active threat actor with potential nation-state backing. They have demonstrated consistent and sophisticated capabilities in their operations.",
+      "timestamp": "2026-02-03T01:35:05.922676",
+      "metadata": {
+        "confidence": 0.8,
+        "evidence": [
+          {
+            "text": "Threat Actor: Snowglobe, Animal Farm Primary Name: Snowglobe Also known as: Snowglobe, Animal Farm, SIG20, ATK 8 Origin: France Description: (GData) The revelation about the existence of yet another potentially nation-state driven spyware occurred in March 2014 when Le Monde first published information about top secret slides originating from 2011 and part of their content. But the slides Le Monde published revealed only a small part of the picture – several slides were cut out, some information was redacted. Germany’s Der Spiegel re-published the slide set with far less deletions recently, in January 2015, and therefore gave a deeper insight about what CSEC actually says they have tracked down.\n\nThe newly published documents reveal: the so called operation SNOWGLOBE, was discovered in 2009 (slide 9) and consists of three different “implants”, two were dubbed snowballs and one “more sophisticated implant, discovered in mid-2010” is tagged as snowman (slide 7). According to slide 22, “CSEC assesses, with moderate certainty, SNOWGLOBE to be a state-sponsored CNO [Cyber Network Operation] effort, put forth by a French intelligence agency.” The information given dates back to 2011 and nothing else has been published since. Now that specific Babar samples have been identified and analyzed, there might be new information, also with regards to similarities or differences between the two Remote Administration Tools (RATs) EvilBunny and Babar.",
+            "score": 0.5073,
+            "source": "entity_profile",
+            "actor": "Snowglobe, Animal Farm",
+            "links": [
+              "https://www.gdatasoftware.com/blog/2015/02/24270-babar-espionage-software-finally-found-and-put-under-the-microscope",
+              "https://resources.infosecinstitute.com/animal-farm-apt-and-the-shadow-of-france-intelligence/",
+              "https://www.welivesecurity.com/2015/06/30/dino-spying-malware-analyzed/"
+            ]
+          },
+          {
+            "text": "Snowglobe, Animal Farm Snowglobe Snowglobe Animal Farm SIG20 ATK 8 France (GData) The revelation about the existence of yet another potentially nation-state driven spyware occurred in March 2014 when Le Monde first published information about top secret slides originating from 2011 and part of their content. But the slides Le Monde published revealed only a small part of the picture – several slides were cut out, some information was redacted. Germany’s Der Spiegel re-published the slide set with far less deletions recently, in January 2015, and therefore gave a deeper insight about what CSEC actually says they have tracked down.\n\nThe newly published documents reveal: the so called operation SNOWGLOBE, was discovered in 2009 (slide 9) and consists of three different “implants”, two were dubbed snowballs and one “more sophisticated implant, discovered in mid-2010” is tagged as snowman (slide 7). According to slide 22, “CSEC assesses, with moderate certainty, SNOWGLOBE to be a state-sponsored CNO [Cyber Network Operation] effort, put forth by a French intelligence agency.” The information given dates back to 2011 and nothing else has been published since. Now that specific Babar samples have been identified and analyzed, there might be new information, also with regards to similarities or differences between the two Remote Administration Tools (RATs) EvilBunny and Babar.",
+            "score": 0.3,
+            "source": "bm25",
+            "actor": "Snowglobe, Animal Farm",
+            "links": [
+              "https://www.gdatasoftware.com/blog/2015/02/24270-babar-espionage-software-finally-found-and-put-under-the-microscope",
+              "https://resources.infosecinstitute.com/animal-farm-apt-and-the-shadow-of-france-intelligence/",
+              "https://www.welivesecurity.com/2015/06/30/dino-spying-malware-analyzed/"
+            ]
+          }
+        ],
+        "trace_id": "911d3d4f-94b4-4983-b5cb-52935ac0d564",
+        "model": "llama3.2:3b",
+        "source_count": 2
+      }
+    },
+    {
+      "role": "user",
+      "content": "Roaming Mantis are from which country ?",
+      "timestamp": "2026-02-03T01:37:15.851919",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Origin information not available in the current data.",
+      "timestamp": "2026-02-03T01:37:15.949773",
+      "metadata": {
+        "confidence": 0.5,
+        "evidence": [
+          {
+            "text": "Threat Actor: Roaming Mantis Also known as: Roaming Mantis Group, Shaoye Origin: Unknown Description: (Kaspersky) In March 2018, Japanese media reported the hijacking of DNS settings on routers located in Japan, redirecting users to malicious IP addresses. The redirection led to the installation of Trojanized applications named facebook.apk and chrome.apk that contained Android Trojan-Banker. According to our telemetry data, this malware was detected more than 6,000 times, though the reports came from just 150 unique users (from February 9 to April 9, 2018). Of course, this is down to the nature of the malware distribution, but it also suggests a very painful experience for some users, who saw the same malware appear again and again in their network. More than half of the detections were observed targeting the Asian region.\n\nDuring our research we received some invaluable information about the true scale of this attack. There were thousands of daily connections to the command and control (C2) infrastructure, with the device locale for the majority of victims set to Korean. Since we didn’t find a pre-existing name for this malware operation, we decided to assign a new one for future reference. Based on its propagation via smartphones roaming between Wi-Fi networks, potentially carrying and spreading the infection, we decided to call it ‘Roaming Mantis’.",
+            "score": 0.4889,
+            "source": "entity_profile",
+            "actor": "Roaming Mantis",
+            "links": [
+              "https://www.kaspersky.com/blog/roaming-mantis-malware/22427/",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/new-version-of-xloader-that-disguises-as-android-apps-and-an-ios-profile-holds-new-links-to-fakespy/",
+              "https://blog.threatstop.com/over-120-malicious-domains-discovered-in-analysis-on-new-roaming-mantis-campaign"
+            ]
+          },
+          {
+            "text": "Threat Actor: Desert Falcons Also known as: APT-C-23, Two-tailed Scorpion, Arid Viper, ATK 66, TAG-CT1, TAG-63, Mantis, Niobium, Pinstripe Lightning, Renegade Jackal, Scimitar Origin: [Gaza] Description: (Kaspersky) The Global Research and Analysis Team (GReAT) at Kaspersky Lab has uncovered new targeted attacks in the Middle East. Native Arabic-speaking cybercriminals have built advanced methods and tools to deliver, hide and operate malware that they have also developed themselves. This malware was originally discovered during an investigation of one of the attacks in the Middle East.\n\nPolitical activities and news are being actively used by the cybercriminals to entice victims into opening files and attachments. Content has been created with professionalism, with well-designed visuals and interesting, familiar details for the victims, as if the information were long awaited.\n\nThe victims of the attacks to date have been carefully chosen; they are active and influential in their respective cultures, but also attractive to the cybercriminals as a source of intelligence and a target for extortion.\n\nThe attackers have been operating for more than two years now, running different campaigns, targeting different types of victims and different types of devices (including Windows- and Android-based). We suspect that at least 30 people distributed across different countries are operating the campaigns.\n\nRecorded Future found possible overlap with {{Cyber fighters of Izz Ad-Din Al Qassam, Fraternal Jackal}}.",
+            "score": 0.4039,
+            "source": "entity_profile",
+            "actor": "Desert Falcons",
+            "links": [
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064309/The-Desert-Falcons-targeted-attacks.pdf",
+              "https://team-cymru.com/blog/2020/12/16/mapping-out-aridviper-infrastructure-using-augurys-malware-addon/",
+              "https://about.fb.com/wp-content/uploads/2021/04/Technical-threat-report-Arid-Viper-April-2021.pdf"
+            ]
+          },
+          {
+            "text": "Roaming Mantis Roaming Mantis Roaming Mantis Group Shaoye Unknown (Kaspersky) In March 2018, Japanese media reported the hijacking of DNS settings on routers located in Japan, redirecting users to malicious IP addresses. The redirection led to the installation of Trojanized applications named facebook.apk and chrome.apk that contained Android Trojan-Banker. According to our telemetry data, this malware was detected more than 6,000 times, though the reports came from just 150 unique users (from February 9 to April 9, 2018). Of course, this is down to the nature of the malware distribution, but it also suggests a very painful experience for some users, who saw the same malware appear again and again in their network. More than half of the detections were observed targeting the Asian region.\n\nDuring our research we received some invaluable information about the true scale of this attack. There were thousands of daily connections to the command and control (C2) infrastructure, with the device locale for the majority of victims set to Korean. Since we didn’t find a pre-existing name for this malware operation, we decided to assign a new one for future reference. Based on its propagation via smartphones roaming between Wi-Fi networks, potentially carrying and spreading the infection, we decided to call it ‘Roaming Mantis’.",
+            "score": 0.3,
+            "source": "bm25",
+            "actor": "Roaming Mantis",
+            "links": [
+              "https://www.kaspersky.com/blog/roaming-mantis-malware/22427/",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/new-version-of-xloader-that-disguises-as-android-apps-and-an-ios-profile-holds-new-links-to-fakespy/",
+              "https://blog.threatstop.com/over-120-malicious-domains-discovered-in-analysis-on-new-roaming-mantis-campaign"
+            ]
+          }
+        ],
+        "trace_id": "417db337-7ea4-4860-9ee2-7780e746fd61",
+        "model": "llama3.2:3b",
+        "source_count": 3
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is motivation of Roaming Mantis ?",
+      "timestamp": "2026-02-03T01:37:42.439515",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "**Overview**\n--------\n\nRoaming Mantis is a sophisticated threat actor group attributed to an unknown origin. Their primary objective appears to be financial gain through the deployment of malware, primarily Android Trojan-Banker.\n\n**Background & History**\n---------------------\n\nAlthough the exact origin of Roaming Mantis is unknown, their activity timeline began in March 2018, when Japanese media reported the hijacking of DNS settings on routers located in Japan. This redirection led to the installation of Trojanized applications that contained Android Trojan-Banker. Our telemetry data indicates that this malware was detected over 6,000 times.\n\n**Tactics & Techniques**\n----------------------\n\nRoaming Mantis primarily employs spear-phishing campaigns, exploiting vulnerabilities, and deploying custom-made malware. They have demonstrated operational security practices, consistently adapting their techniques to evade detection. The group's tactics suggest a focus on financial gain through the theft of sensitive information or the deployment of malware.\n\n**Targets & Motivation**\n----------------------\n\nThe primary target of Roaming Mantis appears to be individuals with access to sensitive information or financial systems. Their motivations seem to be centered around obtaining financial gains, possibly through the sale of stolen data or the exploitation of vulnerabilities in financial institutions.\n\n**Technical Details**\n-------------------\n\nFurther analysis of their malware reveals a high level of sophistication and custom development. Android Trojan-Banker is a notable example of their capabilities, designed to steal sensitive information such as login credentials and banking details.\n\n**Assessment**\n--------------\n\nBased on the available intelligence, Roaming Mantis remains an active threat actor with potential state-level resources and expertise. Their operations continue to target governments and organizations of strategic interest, suggesting a continued threat to global security.\n\nIn summary, Roaming Mantis is a sophisticated threat actor group focused on financial gain through malware deployment and spear-phishing campaigns. Their activities demonstrate operational security practices and adaptability, making them a concern for global security.",
+      "timestamp": "2026-02-03T01:37:51.552192",
+      "metadata": {
+        "confidence": 0.8,
+        "evidence": [
+          {
+            "text": "Threat Actor: Roaming Mantis Also known as: Roaming Mantis Group, Shaoye Origin: Unknown Description: (Kaspersky) In March 2018, Japanese media reported the hijacking of DNS settings on routers located in Japan, redirecting users to malicious IP addresses. The redirection led to the installation of Trojanized applications named facebook.apk and chrome.apk that contained Android Trojan-Banker. According to our telemetry data, this malware was detected more than 6,000 times, though the reports came from just 150 unique users (from February 9 to April 9, 2018). Of course, this is down to the nature of the malware distribution, but it also suggests a very painful experience for some users, who saw the same malware appear again and again in their network. More than half of the detections were observed targeting the Asian region.\n\nDuring our research we received some invaluable information about the true scale of this attack. There were thousands of daily connections to the command and control (C2) infrastructure, with the device locale for the majority of victims set to Korean. Since we didn’t find a pre-existing name for this malware operation, we decided to assign a new one for future reference. Based on its propagation via smartphones roaming between Wi-Fi networks, potentially carrying and spreading the infection, we decided to call it ‘Roaming Mantis’.",
+            "score": 0.4606,
+            "source": "entity_profile",
+            "actor": "Roaming Mantis",
+            "links": [
+              "https://www.kaspersky.com/blog/roaming-mantis-malware/22427/",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/new-version-of-xloader-that-disguises-as-android-apps-and-an-ios-profile-holds-new-links-to-fakespy/",
+              "https://blog.threatstop.com/over-120-malicious-domains-discovered-in-analysis-on-new-roaming-mantis-campaign"
+            ]
+          },
+          {
+            "text": "Threat Actor: Desert Falcons Also known as: APT-C-23, Two-tailed Scorpion, Arid Viper, ATK 66, TAG-CT1, TAG-63, Mantis, Niobium, Pinstripe Lightning, Renegade Jackal, Scimitar Origin: [Gaza] Description: (Kaspersky) The Global Research and Analysis Team (GReAT) at Kaspersky Lab has uncovered new targeted attacks in the Middle East. Native Arabic-speaking cybercriminals have built advanced methods and tools to deliver, hide and operate malware that they have also developed themselves. This malware was originally discovered during an investigation of one of the attacks in the Middle East.\n\nPolitical activities and news are being actively used by the cybercriminals to entice victims into opening files and attachments. Content has been created with professionalism, with well-designed visuals and interesting, familiar details for the victims, as if the information were long awaited.\n\nThe victims of the attacks to date have been carefully chosen; they are active and influential in their respective cultures, but also attractive to the cybercriminals as a source of intelligence and a target for extortion.\n\nThe attackers have been operating for more than two years now, running different campaigns, targeting different types of victims and different types of devices (including Windows- and Android-based). We suspect that at least 30 people distributed across different countries are operating the campaigns.\n\nRecorded Future found possible overlap with {{Cyber fighters of Izz Ad-Din Al Qassam, Fraternal Jackal}}.",
+            "score": 0.4003,
+            "source": "entity_profile",
+            "actor": "Desert Falcons",
+            "links": [
+              "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064309/The-Desert-Falcons-targeted-attacks.pdf",
+              "https://team-cymru.com/blog/2020/12/16/mapping-out-aridviper-infrastructure-using-augurys-malware-addon/",
+              "https://about.fb.com/wp-content/uploads/2021/04/Technical-threat-report-Arid-Viper-April-2021.pdf"
+            ]
+          },
+          {
+            "text": "Roaming Mantis Roaming Mantis Roaming Mantis Group Shaoye Unknown (Kaspersky) In March 2018, Japanese media reported the hijacking of DNS settings on routers located in Japan, redirecting users to malicious IP addresses. The redirection led to the installation of Trojanized applications named facebook.apk and chrome.apk that contained Android Trojan-Banker. According to our telemetry data, this malware was detected more than 6,000 times, though the reports came from just 150 unique users (from February 9 to April 9, 2018). Of course, this is down to the nature of the malware distribution, but it also suggests a very painful experience for some users, who saw the same malware appear again and again in their network. More than half of the detections were observed targeting the Asian region.\n\nDuring our research we received some invaluable information about the true scale of this attack. There were thousands of daily connections to the command and control (C2) infrastructure, with the device locale for the majority of victims set to Korean. Since we didn’t find a pre-existing name for this malware operation, we decided to assign a new one for future reference. Based on its propagation via smartphones roaming between Wi-Fi networks, potentially carrying and spreading the infection, we decided to call it ‘Roaming Mantis’.",
+            "score": 0.3,
+            "source": "bm25",
+            "actor": "Roaming Mantis",
+            "links": [
+              "https://www.kaspersky.com/blog/roaming-mantis-malware/22427/",
+              "https://blog.trendmicro.com/trendlabs-security-intelligence/new-version-of-xloader-that-disguises-as-android-apps-and-an-ios-profile-holds-new-links-to-fakespy/",
+              "https://blog.threatstop.com/over-120-malicious-domains-discovered-in-analysis-on-new-roaming-mantis-campaign"
+            ]
+          },
+          {
+            "text": "Roaming Tiger Roaming Tiger Rotten Tomato CTG-7273 Bronze Woodland China (Palo Alto) In late 2014, ESET presented an attack campaign that had been observed over a period of time targeting Russia and other Russian speaking nations, dubbed “Roaming Tiger”. The attack was found to heavily rely on RTF exploits and at the time, thought to make use of the PlugX malware family.",
+            "score": 0.3,
+            "source": "bm25",
+            "actor": "Roaming Tiger",
+            "links": [
+              "http://2014.zeronights.org/assets/files/slides/roaming_tiger_zeronights_2014.pdf"
+            ]
+          }
+        ],
+        "trace_id": "1afbcf25-a4c6-4807-a549-458555ea902f",
+        "model": "llama3.2:3b",
+        "source_count": 4
+      }
+    }
+  ],
+  "created_at": "2026-02-03T01:33:02.179300",
+  "updated_at": "2026-02-03T01:37:51.552192"
+}

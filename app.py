@@ -11,6 +11,8 @@ import io
 from pathlib import Path
 from datetime import datetime
 from flask import Flask, render_template, request, jsonify, send_file
+from functools import lru_cache
+import hashlib
 
 # Configure logging
 logging.basicConfig(
@@ -26,6 +28,9 @@ interpreter = None
 audit = None
 config = None
 conversation_manager = None
+
+# Simple query cache (for development - consider Redis for production)
+query_cache = {}
 
 
 def load_config(config_path: str = "config/settings.yaml") -> dict:
@@ -67,9 +72,15 @@ def initialize_components():
         )
         logger.info("✓ Embedder initialized")
         
-        # Initialize retriever
-        retriever = EvidenceRetriever(vector_store, embedder)
-        logger.info("✓ Retriever initialized")
+        # Initialize retriever with hybrid search weights
+        retrieval_config = config.get('retrieval', {})
+        retriever = EvidenceRetriever(
+            vector_store, 
+            embedder,
+            bm25_weight=retrieval_config.get('bm25_weight', 0.3),
+            vector_weight=retrieval_config.get('vector_weight', 0.7)
+        )
+        logger.info("✓ Retriever initialized (hybrid mode)")
         
         # Initialize interpreter
         ollama_config = config.get('ollama', {})
@@ -95,8 +106,11 @@ def initialize_components():
         return False
 
 
-def process_query(query_text: str) -> dict:
+def process_query(query_text: str, use_cache: bool = True) -> dict:
     """Process a query and return results."""
+    import time
+    start_time = time.time()
+    
     try:
         if not query_text.strip():
             return {'error': 'Query cannot be empty'}
@@ -104,33 +118,64 @@ def process_query(query_text: str) -> dict:
         if not retriever or not interpreter:
             return {'error': 'System not initialized'}
         
+        # Check cache first
+        cache_key = hashlib.md5(query_text.lower().strip().encode()).hexdigest()
+        if use_cache and cache_key in query_cache:
+            cached_result = query_cache[cache_key]
+            # Check if cache is fresh (less than 1 hour old)
+            cache_age = time.time() - cached_result.get('cached_at', 0)
+            if cache_age < 3600:  # 1 hour
+                logger.info(f"⚡ Cache hit! Returning cached result (age: {cache_age:.0f}s)")
+                cached_result['from_cache'] = True
+                cached_result['processing_time'] = time.time() - start_time
+                return cached_result
+        
         logger.info(f"Processing query: {query_text}")
         
-        # Retrieve evidence
+        # Retrieve evidence (returns dict with evidence, response_mode, parsed_query)
+        retrieval_start = time.time()
         ret_config = config.get('retrieval', {})
-        evidence = retriever.retrieve(
+        retrieval_result = retriever.retrieve(
             query_text,
             top_k=ret_config.get('top_k', 5),
-            similarity_threshold=ret_config.get('similarity_threshold', 0.6)
+            similarity_threshold=ret_config.get('similarity_threshold', 0.3)
         )
+        retrieval_time = time.time() - retrieval_start
+        logger.info(f"⏱️ Retrieval completed in {retrieval_time:.2f}s")
+        
+        evidence = retrieval_result.get('evidence', [])
+        response_mode = retrieval_result.get('response_mode', 'adaptive')
         
         if not evidence:
-            return {
+            result = {
                 'query': query_text,
                 'answer': 'No relevant threat intelligence found for this query.',
                 'evidence': [],
                 'confidence': 0.0,
                 'source_count': 0,
                 'model': 'N/A',
-                'timestamp': datetime.now().isoformat()
+                'timestamp': datetime.now().isoformat(),
+                'response_mode': response_mode,
+                'processing_time': time.time() - start_time,
+                'from_cache': False
             }
+            return result
         
-        # Generate answer
-        result = interpreter.explain(query_text, evidence)
+        # Generate answer with adaptive response mode
+        generation_start = time.time()
+        result = interpreter.explain(query_text, evidence, response_mode=response_mode)
+        generation_time = time.time() - generation_start
+        logger.info(f"⏱️ Answer generation completed in {generation_time:.2f}s")
         
-        # Log to audit trail
+        # Log to audit trail (do this asynchronously to not block response)
+        audit_start = time.time()
         trace_id = audit.log_query(query_text, result.get('query_type', 'general'), evidence)
         audit.log_response(trace_id, result)
+        audit_time = time.time() - audit_start
+        logger.info(f"⏱️ Audit logging completed in {audit_time:.2f}s")
+        
+        total_time = time.time() - start_time
+        logger.info(f"⏱️ Total query processing time: {total_time:.2f}s")
         
         # Format response
         response = {
@@ -141,16 +186,39 @@ def process_query(query_text: str) -> dict:
             'model': result.get('model', 'N/A'),
             'timestamp': datetime.now().isoformat(),
             'trace_id': trace_id,
+            'response_mode': response_mode,
+            'processing_time': total_time,
+            'from_cache': False,
+            'timings': {
+                'retrieval': retrieval_time,
+                'generation': generation_time,
+                'audit': audit_time,
+                'total': total_time
+            },
             'evidence': [
                 {
                     'text': e['text'],
                     'score': round(e.get('similarity_score', 0), 4),
                     'source': e['metadata'].get('source_field', 'unknown'),
-                    'actor': e['metadata'].get('actor_name', 'unknown')
+                    'actor': e['metadata'].get('actor_name', 'unknown'),
+                    'links': e['metadata'].get('information_sources', [])
                 }
                 for e in evidence
             ]
         }
+        
+        # Cache the result (limit cache size to prevent memory issues)
+        if use_cache:
+            response['cached_at'] = time.time()
+            query_cache[cache_key] = response.copy()
+            
+            # Keep cache size reasonable (max 100 queries)
+            if len(query_cache) > 100:
+                # Remove oldest entry
+                oldest_key = min(query_cache.keys(), 
+                               key=lambda k: query_cache[k].get('cached_at', 0))
+                del query_cache[oldest_key]
+                logger.info("🗑️ Cache cleaned - removed oldest entry")
         
         logger.info("✓ Query processed successfully")
         return response

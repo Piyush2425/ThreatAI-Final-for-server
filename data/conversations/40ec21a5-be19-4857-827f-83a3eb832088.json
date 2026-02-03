@@ -1,0 +1,44 @@
+{
+  "id": "40ec21a5-be19-4857-827f-83a3eb832088",
+  "title": "What are common tactics used by APT28?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What are common tactics used by APT28?",
+      "timestamp": "2026-02-01T10:38:58.720814",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "No relevant threat intelligence found for this query.",
+      "timestamp": "2026-02-01T10:38:59.221823",
+      "metadata": {
+        "confidence": 0.0,
+        "evidence": [],
+        "trace_id": null,
+        "model": "N/A",
+        "source_count": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "Big Panda",
+      "timestamp": "2026-02-01T10:39:10.216376",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "No relevant threat intelligence found for this query.",
+      "timestamp": "2026-02-01T10:39:10.297370",
+      "metadata": {
+        "confidence": 0.0,
+        "evidence": [],
+        "trace_id": null,
+        "model": "N/A",
+        "source_count": 0
+      }
+    }
+  ],
+  "created_at": "2026-02-01T10:38:55.029432",
+  "updated_at": "2026-02-01T10:39:10.297370"
+}

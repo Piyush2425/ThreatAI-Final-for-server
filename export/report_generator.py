@@ -2,12 +2,13 @@
 
 import csv
 import io
+import re
 from datetime import datetime
 from typing import Dict, Any, List
 from reportlab.lib.pagesizes import letter, A4
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import inch
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, Image
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, Image, HRFlowable
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_JUSTIFY
 import logging
@@ -29,6 +30,107 @@ class ReportGenerator:
             return datetime.fromisoformat(value)
         except Exception:
             return datetime.now()
+
+    @staticmethod
+    def _build_summary(answer: str) -> str:
+        """Create a short, human-readable summary from the answer text."""
+        if not answer:
+            return "No summary available."
+        # Remove markdown formatting for summary
+        text = re.sub(r'\*\*([^*]+)\*\*', r'\1', answer)  # Remove bold
+        text = re.sub(r'\*([^*]+)\*', r'\1', text)  # Remove italic
+        text = " ".join(text.strip().split())
+        sentences = re.split(r"(?<=[.!?])\s+", text)
+        summary = " ".join(sentences[:2]).strip()
+        return summary if summary else text[:200]
+    
+    @staticmethod
+    def _format_answer_for_pdf(answer: str, styles) -> List:
+        """Convert markdown-formatted answer to PDF elements."""
+        if not answer:
+            return [Paragraph("No answer available.", styles['BodyText'])]
+        
+        elements = []
+        
+        # Split by double newlines for paragraphs
+        sections = answer.split('\n\n')
+        
+        for section in sections:
+            section = section.strip()
+            if not section:
+                continue
+            
+            # Check if it's a heading (starts with **)
+            if section.startswith('**') and section.count('**') >= 2:
+                # Extract heading text
+                heading_match = re.match(r'\*\*([^*]+)\*\*:?(.*)', section)
+                if heading_match:
+                    heading_text = heading_match.group(1)
+                    rest_text = heading_match.group(2).strip()
+                    
+                    # Add as subheading
+                    subheading_style = ParagraphStyle(
+                        'SubHeading',
+                        parent=styles['Heading3'],
+                        fontSize=12,
+                        textColor=colors.HexColor('#1f2937'),
+                        spaceAfter=8,
+                        spaceBefore=12,
+                        fontName='Helvetica-Bold'
+                    )
+                    elements.append(Paragraph(heading_text, subheading_style))
+                    
+                    if rest_text:
+                        # Format the rest of the text
+                        formatted_text = ReportGenerator._format_inline_markdown(rest_text)
+                        elements.append(Paragraph(formatted_text, styles['BodyText']))
+                    continue
+            
+            # Check if it's a bullet list
+            if re.match(r'^\d+\.|\-|\*', section):
+                # Split into list items
+                lines = section.split('\n')
+                list_items = []
+                
+                for line in lines:
+                    line = line.strip()
+                    if re.match(r'^(\d+\.|[\-\*])\s+', line):
+                        # Remove bullet/number
+                        item_text = re.sub(r'^(\d+\.|[\-\*])\s+', '', line)
+                        item_text = ReportGenerator._format_inline_markdown(item_text)
+                        list_items.append(item_text)
+                
+                if list_items:
+                    # Create formatted list
+                    for item in list_items:
+                        bullet_style = ParagraphStyle(
+                            'BulletItem',
+                            parent=styles['BodyText'],
+                            fontSize=10,
+                            leftIndent=20,
+                            bulletIndent=10,
+                            spaceAfter=6
+                        )
+                        elements.append(Paragraph(f"• {item}", bullet_style))
+                continue
+            
+            # Regular paragraph
+            formatted_text = ReportGenerator._format_inline_markdown(section)
+            elements.append(Paragraph(formatted_text, styles['BodyText']))
+            elements.append(Spacer(1, 0.1*inch))
+        
+        return elements
+    
+    @staticmethod
+    def _format_inline_markdown(text: str) -> str:
+        """Format inline markdown (bold, italic) for ReportLab."""
+        # Convert **bold** to <b>bold</b>
+        text = re.sub(r'\*\*([^*]+)\*\*', r'<b>\1</b>', text)
+        # Convert *italic* to <i>italic</i>
+        text = re.sub(r'\*([^*]+)\*', r'<i>\1</i>', text)
+        # Escape special characters
+        text = text.replace('&', '&amp;').replace('<b>', '<b>').replace('</b>', '</b>')
+        return text
     
     @staticmethod
     def generate_pdf(result: Dict[str, Any]) -> bytes:
@@ -60,8 +162,18 @@ class ReportGenerator:
                 'CustomTitle',
                 parent=styles['Heading1'],
                 fontSize=24,
-                textColor=colors.HexColor('#00d9ff'),
+                textColor=colors.HexColor('#0f172a'),
                 spaceAfter=30,
+                alignment=TA_CENTER,
+                fontName='Helvetica-Bold'
+            )
+
+            company_style = ParagraphStyle(
+                'CompanyTitle',
+                parent=styles['Heading2'],
+                fontSize=14,
+                textColor=colors.HexColor('#0f172a'),
+                spaceAfter=6,
                 alignment=TA_CENTER,
                 fontName='Helvetica-Bold'
             )
@@ -70,7 +182,7 @@ class ReportGenerator:
                 'CustomHeading',
                 parent=styles['Heading2'],
                 fontSize=14,
-                textColor=colors.HexColor('#7c3aed'),
+                textColor=colors.HexColor('#1f2937'),
                 spaceAfter=12,
                 spaceBefore=12,
                 fontName='Helvetica-Bold'
@@ -80,47 +192,99 @@ class ReportGenerator:
                 'CustomBody',
                 parent=styles['BodyText'],
                 fontSize=10,
+                textColor=colors.HexColor('#111827'),
                 alignment=TA_JUSTIFY,
                 spaceAfter=10
             )
             
-            # Title
-            story.append(Paragraph("THREAT-AI Intelligence Report", title_style))
-            story.append(Spacer(1, 0.2*inch))
-            
-            # Metadata
-            timestamp = ReportGenerator._parse_timestamp(result.get('timestamp'))
-            metadata = [
-                ['Generated:', timestamp.strftime('%Y-%m-%d %H:%M:%S')],
-                ['Trace ID:', result.get('trace_id', 'N/A')[:16] + '...'],
-                ['Model:', result.get('model', 'N/A')],
-                ['Confidence:', f"{(result.get('confidence', 0) * 100):.1f}%"],
-                ['Sources Used:', str(result.get('source_count', 0))]
-            ]
-            
-            meta_table = Table(metadata, colWidths=[1.5*inch, 4*inch])
-            meta_table.setStyle(TableStyle([
-                ('BACKGROUND', (0, 0), (0, -1), colors.HexColor('#1a1f3a')),
-                ('TEXTCOLOR', (0, 0), (-1, -1), colors.HexColor('#e2e8f0')),
-                ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
-                ('FONTNAME', (0, 0), (0, -1), 'Helvetica-Bold'),
-                ('FONTSIZE', (0, 0), (-1, -1), 9),
-                ('BOTTOMPADDING', (0, 0), (-1, -1), 6),
-                ('TOPPADDING', (0, 0), (-1, -1), 6),
-                ('GRID', (0, 0), (-1, -1), 0.5, colors.HexColor('#2d3748')),
-            ]))
-            story.append(meta_table)
+            # Title Section with better spacing
+            story.append(Paragraph("THREAT INTELLIGENCE REPORT", title_style))
+            story.append(Paragraph("ThreatAI Platform", company_style))
             story.append(Spacer(1, 0.3*inch))
             
-            # Query Section
-            story.append(Paragraph("QUERY", heading_style))
-            story.append(Paragraph(result.get('query', 'N/A'), body_style))
+            # Add a horizontal line
+            from reportlab.platypus import HRFlowable
+            story.append(HRFlowable(
+                width="100%",
+                thickness=2,
+                color=colors.HexColor('#3b82f6'),
+                spaceBefore=0,
+                spaceAfter=20
+            ))
+            
+            # Metadata Section with improved layout
+            timestamp = ReportGenerator._parse_timestamp(result.get('timestamp'))
+            metadata = [
+                ['Report Generated:', timestamp.strftime('%B %d, %Y at %H:%M:%S')],
+                ['Query Trace ID:', result.get('trace_id', 'N/A')[:20] + '...'],
+                ['AI Model:', result.get('model', 'N/A')],
+                ['Confidence Level:', f"{(result.get('confidence', 0) * 100):.1f}%"],
+                ['Evidence Sources:', str(result.get('source_count', 0))],
+                ['Query Intent:', result.get('intent', 'general').upper()]
+            ]
+            
+            meta_table = Table(metadata, colWidths=[1.8*inch, 4.5*inch])
+            meta_table.setStyle(TableStyle([
+                ('BACKGROUND', (0, 0), (0, -1), colors.HexColor('#eff6ff')),
+                ('BACKGROUND', (1, 0), (1, -1), colors.white),
+                ('TEXTCOLOR', (0, 0), (-1, -1), colors.HexColor('#111827')),
+                ('ALIGN', (0, 0), (0, -1), 'RIGHT'),
+                ('ALIGN', (1, 0), (1, -1), 'LEFT'),
+                ('FONTNAME', (0, 0), (0, -1), 'Helvetica-Bold'),
+                ('FONTNAME', (1, 0), (1, -1), 'Helvetica'),
+                ('FONTSIZE', (0, 0), (-1, -1), 10),
+                ('BOTTOMPADDING', (0, 0), (-1, -1), 8),
+                ('TOPPADDING', (0, 0), (-1, -1), 8),
+                ('GRID', (0, 0), (-1, -1), 1, colors.HexColor('#d1d5db')),
+                ('LINEBELOW', (0, -1), (-1, -1), 2, colors.HexColor('#3b82f6')),
+            ]))
+            story.append(meta_table)
+            story.append(Spacer(1, 0.4*inch))
+            
+            # Query Section with box
+            query_box_style = ParagraphStyle(
+                'QueryBox',
+                parent=styles['BodyText'],
+                fontSize=11,
+                textColor=colors.HexColor('#1e40af'),
+                fontName='Helvetica-Bold',
+                leftIndent=10,
+                rightIndent=10,
+                spaceAfter=10
+            )
+            story.append(Paragraph("USER QUERY", heading_style))
+            
+            # Create a box around the query
+            query_table = Table([[Paragraph(result.get('query', 'N/A'), query_box_style)]], 
+                              colWidths=[6.5*inch])
+            query_table.setStyle(TableStyle([
+                ('BACKGROUND', (0, 0), (-1, -1), colors.HexColor('#f0f9ff')),
+                ('BOX', (0, 0), (-1, -1), 2, colors.HexColor('#3b82f6')),
+                ('TOPPADDING', (0, 0), (-1, -1), 12),
+                ('BOTTOMPADDING', (0, 0), (-1, -1), 12),
+                ('LEFTPADDING', (0, 0), (-1, -1), 12),
+                ('RIGHTPADDING', (0, 0), (-1, -1), 12),
+            ]))
+            story.append(query_table)
+            story.append(Spacer(1, 0.3*inch))
+
+            # Executive Summary
+            story.append(Paragraph("EXECUTIVE SUMMARY", heading_style))
+            summary_text = ReportGenerator._build_summary(result.get('answer', ''))
+            story.append(Paragraph(summary_text, body_style))
             story.append(Spacer(1, 0.2*inch))
             
             # Answer Section
-            story.append(Paragraph("ANALYSIS & ANSWER", heading_style))
-            story.append(Paragraph(result.get('answer', 'N/A'), body_style))
-            story.append(Spacer(1, 0.2*inch))
+            story.append(Paragraph("DETAILED ANALYSIS", heading_style))
+            
+            # Use the new markdown-aware formatter
+            answer_elements = ReportGenerator._format_answer_for_pdf(
+                result.get('answer', 'N/A'), 
+                styles
+            )
+            story.extend(answer_elements)
+            
+            story.append(Spacer(1, 0.3*inch))
             
             # Evidence Section
             evidence = result.get('evidence', [])
@@ -133,11 +297,30 @@ class ReportGenerator:
                         'EvidenceHeader',
                         parent=styles['BodyText'],
                         fontSize=9,
-                        textColor=colors.HexColor('#00d9ff'),
+                        textColor=colors.HexColor('#111827'),
                         fontName='Helvetica-Bold'
                     )))
+                    links = e.get('links', [])
+                    if links:
+                        safe_links = [l for l in links if isinstance(l, str) and l.startswith('http')]
+                        if safe_links:
+                            links_html = "<br/>".join([f"<link href='{l}'>{l}</link>" for l in safe_links])
+                            story.append(Paragraph(f"Sources:<br/>{links_html}", body_style))
                     story.append(Paragraph(e.get('text', 'N/A'), body_style))
                     story.append(Spacer(1, 0.1*inch))
+
+                # References section
+                all_links = []
+                for e in evidence:
+                    links = e.get('links', [])
+                    if links:
+                        all_links.extend([l for l in links if isinstance(l, str) and l.startswith('http')])
+                unique_links = list(dict.fromkeys(all_links))
+                if unique_links:
+                    story.append(Spacer(1, 0.2*inch))
+                    story.append(Paragraph("REFERENCES", heading_style))
+                    refs_html = "<br/>".join([f"<link href='{l}'>{l}</link>" for l in unique_links])
+                    story.append(Paragraph(refs_html, body_style))
             
             story.append(Spacer(1, 0.2*inch))
             story.append(Paragraph("_" * 80, body_style))
@@ -148,7 +331,7 @@ class ReportGenerator:
                 'Footer',
                 parent=styles['Normal'],
                 fontSize=8,
-                textColor=colors.HexColor('#64748b'),
+                textColor=colors.HexColor('#6b7280'),
                 alignment=TA_CENTER
             )))
             
@@ -176,7 +359,7 @@ class ReportGenerator:
             writer = csv.writer(output)
             
             # Header
-            writer.writerow(['Threat-AI Intelligence Report'])
+            writer.writerow(['ThreatAI Intelligence Report'])
             writer.writerow([])
             
             # Metadata
@@ -194,6 +377,12 @@ class ReportGenerator:
             writer.writerow([result.get('query', 'N/A')])
             writer.writerow([])
             
+            # Executive Summary
+            writer.writerow(['EXECUTIVE SUMMARY'])
+            summary_text = ReportGenerator._build_summary(result.get('answer', ''))
+            writer.writerow([summary_text])
+            writer.writerow([])
+
             # Answer
             writer.writerow(['ANALYSIS & ANSWER'])
             writer.writerow([result.get('answer', 'N/A')])
@@ -203,16 +392,32 @@ class ReportGenerator:
             evidence = result.get('evidence', [])
             if evidence:
                 writer.writerow(['EVIDENCE SOURCES'])
-                writer.writerow(['#', 'Actor', 'Source', 'Score', 'Text'])
+                writer.writerow(['#', 'Actor', 'Source', 'Score', 'Text', 'Links'])
                 for i, e in enumerate(evidence, 1):
+                    links = e.get('links', [])
+                    link_str = " | ".join([l for l in links if isinstance(l, str)])
                     writer.writerow([
                         i,
                         e.get('actor', 'Unknown'),
                         e.get('source', 'Unknown'),
                         f"{e.get('score', 0):.3f}",
-                        e.get('text', 'N/A')
+                        e.get('text', 'N/A'),
+                        link_str
                     ])
                 writer.writerow([])
+
+                # References section
+                all_links = []
+                for e in evidence:
+                    links = e.get('links', [])
+                    if links:
+                        all_links.extend([l for l in links if isinstance(l, str)])
+                unique_links = list(dict.fromkeys(all_links))
+                if unique_links:
+                    writer.writerow(['REFERENCES'])
+                    for link in unique_links:
+                        writer.writerow([link])
+                    writer.writerow([])
             
             writer.writerow(['---'])
             writer.writerow(['Generated by Threat-AI Intelligence Platform'])
