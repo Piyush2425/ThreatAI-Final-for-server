@@ -120,6 +120,39 @@ class EvidenceRetriever:
                 
                 if len(evidence) >= top_k:
                     break
+
+        # Ensure last_updated is included for matched actors when available
+        if parsed_query and parsed_query.get('actors') and self.alias_resolver:
+            for actor in parsed_query.get('actors', []):
+                primary_name = actor.get('primary_name')
+                if not primary_name:
+                    continue
+                already_present = any(
+                    (chunk.get('metadata', {}).get('source_field') == 'last_updated'
+                     and chunk.get('metadata', {}).get('primary_name') == primary_name)
+                    for chunk in evidence
+                )
+                if already_present:
+                    continue
+                last_updated = self.alias_resolver.get_last_updated(primary_name)
+                if last_updated:
+                    evidence.append({
+                        'chunk_id': f"last_updated::{primary_name}",
+                        'actor_id': actor.get('actor_id', ''),
+                        'text': str(last_updated),
+                        'metadata': {
+                            'source_field': 'last_updated',
+                            'chunk_type': 'atomic',
+                            'chunk_index': 0,
+                            'actor_name': actor.get('matched_text', primary_name),
+                            'primary_name': primary_name,
+                            'aliases': [],
+                            'countries': []
+                        },
+                        'similarity_score': 0.95,
+                        'query_type': query_type.value,
+                        'matched_actors': parsed_query.get('actors', [])
+                    })
         
         logger.info(f"Retrieved {len(evidence)} evidence chunks (vector={len(vector_results)}, bm25={len(bm25_results)})")
         

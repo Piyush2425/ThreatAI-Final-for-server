@@ -59,7 +59,11 @@ class QueryClassifier:
         ],
         QueryIntent.TIMELINE: [
             "when", "timeline", "first seen", "active since", "history",
-            "started", "began", "period", "emerged", "discovered"
+            "started", "began", "period", "emerged", "discovered",
+            "last updated", "last update", "recent update", "recent updates",
+            "latest update", "update date", "last card change", "last-card-change",
+            "last change", "last active", "last activity", "last known activity",
+            "last seen"
         ],
         QueryIntent.ALIASES: [
             "alias", "aliases", "also known as", "aka", "other names",

@@ -51,6 +51,11 @@ class BM25Retriever:
                 countries = actor.get('countries', [])
                 description = actor.get('description', '')
                 information_sources = actor.get('information_sources', [])
+                last_updated = (
+                    actor.get('last_updated')
+                    or actor.get('last_card_change')
+                    or actor.get('last-card-change')
+                )
                 
                 # Build searchable text
                 text_parts = [name, primary_name]
@@ -66,6 +71,9 @@ class BM25Retriever:
                             text_parts.extend([str(v) for v in value])
                         else:
                             text_parts.append(str(value))
+
+                if last_updated:
+                    text_parts.append(str(last_updated))
                 
                 full_text = ' '.join(str(p) for p in text_parts if p)
                 

@@ -53,6 +53,11 @@ class SemanticChunker:
         countries = actor.get('countries', [])
         description = actor.get('description', '')
         information_sources = actor.get('information_sources', [])
+        last_updated = (
+            actor.get('last_updated')
+            or actor.get('last_card_change')
+            or actor.get('last-card-change')
+        )
         
         # Build comprehensive text representation
         text_parts = []
@@ -69,6 +74,9 @@ class SemanticChunker:
         
         if description:
             text_parts.append(f"Description: {description}")
+
+        if last_updated:
+            text_parts.append(f"Last Known Activity: {last_updated}")
         
         # Add other important fields
         for field in ['first_seen', 'last_seen', 'motivations', 'targets']:
@@ -97,8 +105,25 @@ class SemanticChunker:
                 'information_sources': information_sources
             }
         }
-        
-        return [chunk]
+        chunks = [chunk]
+
+        if last_updated:
+            chunks.append({
+                'chunk_id': str(uuid.uuid4()),
+                'actor_id': actor_id,
+                'text': str(last_updated),
+                'metadata': {
+                    'source_field': 'last_updated',
+                    'chunk_type': 'atomic',
+                    'chunk_index': 0,
+                    'actor_name': name,
+                    'primary_name': primary_name,
+                    'aliases': aliases,
+                    'countries': countries,
+                }
+            })
+
+        return chunks
     
     def _chunk_actor_field_level(self, actor: Dict[str, Any]) -> List[Dict[str, Any]]:
         """

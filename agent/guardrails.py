@@ -102,7 +102,7 @@ class UncertaintyHandler:
             'actor_profile': ['name', 'description', 'origins'],
             'ttp_analysis': ['ttps', 'description'],
             'target_analysis': ['targets', 'description'],
-            'timeline_analysis': ['first_seen', 'last_seen'],
+            'timeline_analysis': ['first_seen', 'last_seen', 'last_updated'],
         }
         
         expected = set(expected_fields.get(query_type, []))

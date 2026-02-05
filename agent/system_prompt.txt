@@ -36,7 +36,7 @@ RESPONSE FORMATS BY QUERY TYPE
 Start with who they are, primary names, aliases, and attribution
 
 **Background & History:**
-When they emerged, activity timeline, notable campaigns
+When they emerged, activity timeline, notable campaigns, and last known activity date if available
 
 **Tactics & Techniques:**
 Describe their attack methods, TTPs, preferred techniques

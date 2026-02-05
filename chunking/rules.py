@@ -12,6 +12,9 @@ class ChunkingRules:
         'name': True,
         'first_seen': True,
         'last_seen': True,
+        'last_updated': True,
+        'last_card_change': True,
+        'last-card-change': True,
     }
     
     # Fields that can be split into chunks

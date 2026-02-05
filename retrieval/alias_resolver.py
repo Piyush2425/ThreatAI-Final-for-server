@@ -24,6 +24,7 @@ class AliasResolver:
         self.primary_to_aliases: Dict[str, Set[str]] = {}
         self.actor_id_map: Dict[str, str] = {}
         self.primary_to_sources: Dict[str, List[str]] = {}
+        self.primary_to_last_updated: Dict[str, str] = {}
         self._build_alias_mappings()
     
     def _build_alias_mappings(self):
@@ -43,6 +44,11 @@ class AliasResolver:
                 name = actor.get('name', '')
                 aliases = actor.get('aliases', [])
                 information_sources = actor.get('information_sources', [])
+                last_updated = (
+                    actor.get('last_updated')
+                    or actor.get('last_card_change')
+                    or actor.get('last-card-change')
+                )
                 
                 if not primary_name:
                     continue
@@ -89,6 +95,10 @@ class AliasResolver:
                 # Store information sources by primary name
                 if primary_name not in self.primary_to_sources:
                     self.primary_to_sources[primary_name] = list(information_sources) if information_sources else []
+
+                # Store last updated by primary name
+                if last_updated and primary_name not in self.primary_to_last_updated:
+                    self.primary_to_last_updated[primary_name] = str(last_updated)
                 
                 # Add all aliases
                 for alias in aliases:
@@ -189,6 +199,21 @@ class AliasResolver:
             return []
         primary = self.resolve(name) or name
         return self.primary_to_sources.get(primary, [])
+
+    def get_last_updated(self, name: str) -> Optional[str]:
+        """
+        Get last updated date for an actor name or alias.
+        
+        Args:
+            name: Actor name or alias
+            
+        Returns:
+            Last updated date string, or None
+        """
+        if not name:
+            return None
+        primary = self.resolve(name) or name
+        return self.primary_to_last_updated.get(primary)
     
     def extract_actors_from_query(self, query: str) -> List[Dict[str, str]]:
         """

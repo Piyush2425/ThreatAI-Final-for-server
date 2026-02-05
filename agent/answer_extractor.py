@@ -322,7 +322,8 @@ class AnswerExtractor:
         timeline_info = {
             'first_seen': None,
             'activity_periods': [],
-            'last_updated': None
+            'last_updated': None,
+            'last_seen': None
         }
         
         for chunk in evidence:
@@ -345,8 +346,29 @@ class AnswerExtractor:
                     timeline_info['activity_periods'].append(match)
             
             # Check last_updated from metadata
-            if metadata.get('source_field') == 'last_updated':
-                timeline_info['last_updated'] = text
+            source_field = metadata.get('source_field')
+            if source_field in ['last_updated', 'last_card_change', 'last-card-change']:
+                cleaned = text
+                if ':' in cleaned:
+                    cleaned = cleaned.split(':', 1)[1].strip()
+                timeline_info['last_updated'] = cleaned
+
+            if source_field == 'last_seen':
+                cleaned = text
+                if ':' in cleaned:
+                    cleaned = cleaned.split(':', 1)[1].strip()
+                timeline_info['last_seen'] = cleaned
+
+            # Check embedded last-updated markers in entity profile text
+            if not timeline_info['last_updated']:
+                embedded_match = re.search(r'(?:Last Updated|Last Card Change|Last Known Activity)\s*:\s*([^\n]+)', text, re.IGNORECASE)
+                if embedded_match:
+                    timeline_info['last_updated'] = embedded_match.group(1).strip()
+
+            if not timeline_info['last_seen']:
+                embedded_last_seen = re.search(r'(?:Last Seen)\s*:\s*([^\n]+)', text, re.IGNORECASE)
+                if embedded_last_seen:
+                    timeline_info['last_seen'] = embedded_last_seen.group(1).strip()
         
         summary = self._format_timeline_summary(timeline_info, query)
         
@@ -549,8 +571,18 @@ class AnswerExtractor:
     
     def _format_timeline_summary(self, timeline: Dict, query: str) -> str:
         """Format timeline into a summary."""
-        if timeline['first_seen']:
-            return f"**Active Since:** {timeline['first_seen']}"
+        parts = []
+
+        if timeline.get('first_seen'):
+            parts.append(f"**Active Since:** {timeline['first_seen']}")
+
+        last_activity = timeline.get('last_seen') or timeline.get('last_updated')
+        if last_activity:
+            parts.append(f"**Last Known Activity:** {last_activity}")
+
+        if parts:
+            return "\n".join(parts)
+
         return "Timeline information not available."
     
     def _format_aliases_summary(self, primary: str, aliases: List[str], query: str) -> str:

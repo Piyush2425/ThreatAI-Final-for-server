@@ -1,6 +1,7 @@
 """LLM-based question answering with evidence grounding."""
 
 import logging
+import re
 from typing import Dict, Any, List
 import requests
 from .query_classifier import QueryClassifier, QueryIntent
@@ -224,6 +225,18 @@ class EvidenceBasedInterpreter:
                 answer = self._generate_with_ollama(query, evidence_text, response_mode)
             else:
                 answer = self._generate_summary(query, evidence)
+
+        # Ensure last known activity is included when available
+        last_activity = self._extract_last_activity(evidence)
+        if last_activity and answer:
+            answer_lower = answer.lower()
+            if all(term not in answer_lower for term in [
+                "last known activity",
+                "last card change",
+                "last updated",
+                "last seen",
+            ]):
+                answer = f"{answer}\n\n**Last Known Activity:** {last_activity}"
         
         return {
             'query': query,
@@ -247,11 +260,101 @@ class EvidenceBasedInterpreter:
             source = chunk['metadata'].get('source_field', 'unknown')
             score = chunk.get('similarity_score', 0.0)
             text = chunk['text']
+            if source in ['last_updated', 'last_card_change', 'last-card-change']:
+                text = f"Last Known Activity: {text}"
             if len(text) > max_chars:
                 text = text[:max_chars].rstrip() + "..."
             formatted.append(f"[{i}] ({source}, score: {score:.2f}): {text}")
         
         return "\n".join(formatted)
+
+    def _extract_last_activity(self, evidence: List[Dict[str, Any]]) -> str:
+        """Extract last known activity date from evidence when available."""
+        if not evidence:
+            return ""
+
+        last_seen = ""
+        last_updated = ""
+
+        for chunk in evidence:
+            metadata = chunk.get('metadata', {})
+            source = metadata.get('source_field')
+            text = chunk.get('text', '')
+
+            if source == 'last_seen' and not last_seen:
+                last_seen = text.split(':', 1)[1].strip() if ':' in text else text.strip()
+                continue
+
+            if source in ['last_updated', 'last_card_change', 'last-card-change'] and not last_updated:
+                last_updated = text.split(':', 1)[1].strip() if ':' in text else text.strip()
+
+            if not last_seen:
+                embedded_last_seen = re.search(r'(?:Last Seen)\s*:\s*([^\n]+)', text, re.IGNORECASE)
+                if embedded_last_seen:
+                    last_seen = embedded_last_seen.group(1).strip()
+
+            if not last_updated:
+                embedded_last_updated = re.search(r'(?:Last Known Activity|Last Updated|Last Card Change)\s*:\s*([^\n]+)', text, re.IGNORECASE)
+                if embedded_last_updated:
+                    last_updated = embedded_last_updated.group(1).strip()
+
+        return last_seen or last_updated
+
+    def _parse_entity_profile_text(self, text: str) -> Dict[str, Any]:
+        """Parse entity profile chunk text into structured fields."""
+        if not text:
+            return {}
+
+        fields = {}
+        labels = [
+            "Threat Actor",
+            "Primary Name",
+            "Also known as",
+            "Origin",
+            "Description",
+            "Last Known Activity",
+            "Last Updated",
+            "Last Card Change",
+            "first_seen",
+            "last_seen",
+            "motivations",
+            "targets",
+            "tools",
+        ]
+
+        pattern = r"(?:" + "|".join(re.escape(lbl) for lbl in labels) + r")\s*:\s*"
+        matches = list(re.finditer(pattern, text, re.IGNORECASE))
+
+        for idx, match in enumerate(matches):
+            label = match.group(0).split(':', 1)[0].strip().lower()
+            start = match.end()
+            end = matches[idx + 1].start() if idx + 1 < len(matches) else len(text)
+            value = text[start:end].strip()
+            if not value:
+                continue
+
+            if label == 'threat actor':
+                fields['name'] = value
+            elif label == 'primary name':
+                fields['primary_name'] = value
+            elif label == 'also known as':
+                fields['aliases'] = [v.strip() for v in value.split(',') if v.strip()]
+            elif label == 'origin':
+                fields['countries'] = [v.strip() for v in value.split(',') if v.strip()]
+            elif label == 'description':
+                fields['description'] = value
+            elif label in ['last known activity', 'last updated', 'last card change']:
+                fields['last_updated'] = value
+            elif label == 'first_seen':
+                fields['first_seen'] = value
+            elif label == 'last_seen':
+                fields['last_seen'] = value
+            elif label == 'motivations':
+                fields['motivations'] = [v.strip() for v in value.split(',') if v.strip()]
+            elif label == 'targets':
+                fields['targets'] = [v.strip() for v in value.split(',') if v.strip()]
+        
+        return fields
     
     def _generate_targeted_answer(self, query: str, evidence_text: str, intent: QueryIntent, extraction_result: Dict) -> str:
         """Generate a targeted answer based on query intent and extracted information."""
@@ -271,7 +374,7 @@ class EvidenceBasedInterpreter:
             QueryIntent.TOOLS: "Answer specifically about tools, malware, and infrastructure used. Describe the technical capabilities in detail.",
             QueryIntent.CAMPAIGNS: "Answer specifically about campaigns and operations. Describe the notable incidents with context and impact.",
             QueryIntent.ORIGIN: "Answer specifically about origin, attribution, and sponsorship. Be direct about where they're from with supporting details.",
-            QueryIntent.TIMELINE: "Answer specifically about timeline and activity periods. State when they were first seen and their activity history.",
+            QueryIntent.TIMELINE: "Answer specifically about timeline and activity periods. State when they were first seen and include the last known activity date if provided (last updated / last card change).",
         }
         
         instruction = intent_instructions.get(intent, "Answer the specific question asked with appropriate detail.")
@@ -382,6 +485,30 @@ RESPONSE:
                 if field not in by_field:
                     by_field[field] = []
                 by_field[field].append(chunk['text'])
+
+            # If we only have entity-level chunks, parse them into fields
+            if 'entity_profile' in by_field:
+                parsed = self._parse_entity_profile_text(by_field['entity_profile'][0])
+                if parsed.get('name') and 'name' not in by_field:
+                    by_field['name'] = [parsed['name']]
+                if parsed.get('primary_name') and 'primary_name' not in by_field:
+                    by_field['primary_name'] = [parsed['primary_name']]
+                if parsed.get('aliases') and 'aliases' not in by_field:
+                    by_field['aliases'] = parsed['aliases']
+                if parsed.get('countries') and 'countries' not in by_field:
+                    by_field['countries'] = parsed['countries']
+                if parsed.get('description') and 'description' not in by_field:
+                    by_field['description'] = [parsed['description']]
+                if parsed.get('first_seen') and 'first_seen' not in by_field:
+                    by_field['first_seen'] = [parsed['first_seen']]
+                if parsed.get('last_seen') and 'last_seen' not in by_field:
+                    by_field['last_seen'] = [parsed['last_seen']]
+                if parsed.get('last_updated') and 'last_updated' not in by_field:
+                    by_field['last_updated'] = [parsed['last_updated']]
+                if parsed.get('motivations') and 'motivation' not in by_field:
+                    by_field['motivation'] = parsed['motivations']
+                if parsed.get('targets') and 'targets' not in by_field:
+                    by_field['targets'] = parsed['targets']
             
             # Header section
             if 'primary_name' in by_field or 'name' in by_field:
@@ -399,6 +526,19 @@ RESPONSE:
             if 'first_seen' in by_field or 'first-seen' in by_field:
                 first_seen = by_field.get('first_seen', by_field.get('first-seen', ['Unknown']))[0]
                 summary_parts.append(f"**First Seen:** {first_seen}\n")
+
+            if 'last_seen' in by_field or 'last_updated' in by_field or 'last-card-change' in by_field or 'last_card_change' in by_field:
+                last_activity_list = (
+                    by_field.get(
+                        'last_seen',
+                        by_field.get(
+                            'last_updated',
+                            by_field.get('last-card-change', by_field.get('last_card_change', ['Unknown']))
+                        )
+                    )
+                )
+                last_activity = last_activity_list[0] if last_activity_list else 'Unknown'
+                summary_parts.append(f"**Last Known Activity:** {last_activity}\n")
             
             if 'aliases' in by_field and len(by_field['aliases']) > 0:
                 aliases = ', '.join(by_field['aliases'][:12])
