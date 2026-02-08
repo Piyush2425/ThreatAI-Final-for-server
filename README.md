@@ -120,6 +120,24 @@ ollama:
 
 If Ollama is not running, Threat-AI falls back to a built-in summary generator.
 
+### 🔁 How to Change Models
+
+1. Pull the model you want:
+```bash
+ollama pull mistral
+```
+
+2. Update the model name in `config/settings.yaml`:
+```yaml
+ollama:
+  model: mistral
+```
+
+3. Restart the app:
+```bash
+python app.py
+```
+
 ## 📈 Architecture
 
 ```
