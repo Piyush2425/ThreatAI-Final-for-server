@@ -1,6 +1,6 @@
 # Threat-AI: Evidence-Based Threat Intelligence with Local LLM
 
-**Production-ready threat intelligence analysis system with Ollama LLM, Chroma vector database, and web UI.**
+**Evidence-based threat intelligence analysis system with Ollama LLM, Chroma vector database, and web UI.**
 
 ![Status](https://img.shields.io/badge/status-ready-brightgreen) ![Python](https://img.shields.io/badge/python-3.10+-blue) ![Model](https://img.shields.io/badge/model-llama3%3A8b-success)
 
@@ -12,14 +12,24 @@
 ollama serve
 ```
 
-### 2. Start Web UI
+### 2. Install Dependencies
 ```bash
-python start_ui.py
+pip install -r requirements.txt
+```
+
+### 3. Build/Refresh Vector Store
+```bash
+python rebuild_vectorstore.py
+```
+
+### 4. Start Web UI
+```bash
+python app.py
 ```
 
 Then open: **http://localhost:5000**
 
-### 3. Interactive CLI (Alternative)
+### 5. Interactive CLI (Alternative)
 ```bash
 python app.py
 ```
@@ -27,7 +37,7 @@ python app.py
 ## 📊 System Status
 
 ```
-✅ Data: 503 threat actors → 1,267 semantic chunks
+✅ Data: 503 threat actors → semantic chunks (after rebuild)
 ✅ Vector DB: Chroma (8.9MB, <100ms search)
 ✅ LLM: llama3:8b (Ollama, local inference)
 ✅ Embeddings: 384-dim (sentence-transformers)
@@ -41,6 +51,7 @@ python app.py
 - **Live Results**: Real-time analysis with evidence
 - **Confidence Scoring**: 0-100% reliability metric
 - **Evidence Display**: Cited sources with similarity scores
+- **Last Known Activity**: Shows last card change/last seen when available
 - **Sample Queries**: Pre-populated examples
 - **System Status**: LLM mode, model info
 
@@ -48,11 +59,12 @@ python app.py
 
 ```
 threat-ai/
-├── web_ui.py              # Flask web server
-├── start_ui.py            # Startup script
+├── app.py                 # Flask web UI + CLI
+├── rebuild_vectorstore.py # Rebuild Chroma index
 ├── templates/
-│   └── index.html         # Web UI interface
-├── app.py                 # CLI application
+│   ├── chat.html          # Main chat UI
+│   └── index.html         # Legacy UI
+├── static/                # Frontend assets
 ├── config/
 │   └── settings.yaml      # Configuration
 ├── data/
@@ -84,6 +96,30 @@ ollama:
   max_tokens: 512
 ```
 
+## 🧠 Local LLM (Ollama) Setup
+
+1. Install Ollama from https://ollama.ai and start the service:
+```bash
+ollama serve
+```
+
+2. Pull or verify the model you want to use (example):
+```bash
+ollama pull llama3:8b
+```
+
+3. Point Threat-AI to your Ollama host/model in `config/settings.yaml`:
+```yaml
+ollama:
+  model: llama3:8b
+  host: http://localhost:11434
+  timeout: 120
+  temperature: 0.3
+  max_tokens: 512
+```
+
+If Ollama is not running, Threat-AI falls back to a built-in summary generator.
+
 ## 📈 Architecture
 
 ```
@@ -104,7 +140,7 @@ Response with Evidence
 
 **Test Web UI:**
 ```bash
-python start_ui.py
+python app.py
 # Navigate to http://localhost:5000
 ```
 
@@ -153,8 +189,7 @@ pip install -r requirements.txt
 
 ## 🎓 Documentation
 
-- [SYSTEM_SUMMARY.md](SYSTEM_SUMMARY.md) - Architecture overview
-- [OLLAMA_SETUP.md](OLLAMA_SETUP.md) - Ollama installation & configuration
+This README is the primary documentation. Configuration lives in `config/settings.yaml`, and the key entry points are `app.py` (web UI + CLI) and `rebuild_vectorstore.py` (index rebuild).
 
 ## ✨ Key Features
 
@@ -174,6 +209,7 @@ Query: What vulnerabilities does Lazarus Group exploit?
 
 Response:
   Lazarus Group is known for exploiting zero-day vulnerabilities in...
+  Last Known Activity: 2025-08-16
   
 Confidence: 84.5%
 
@@ -222,6 +258,12 @@ Lower `similarity_threshold` in settings.yaml:
 ```yaml
 retrieval:
   similarity_threshold: 0.4  # Was 0.6
+```
+
+**Missing new data fields (e.g., last known activity):**
+Rebuild the vector store after data or code changes:
+```bash
+python rebuild_vectorstore.py
 ```
 
 ## 📚 Model Information
