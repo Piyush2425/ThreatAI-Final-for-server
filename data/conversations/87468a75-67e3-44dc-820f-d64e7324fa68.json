@@ -1,0 +1,192 @@
+{
+  "id": "87468a75-67e3-44dc-820f-d64e7324fa68",
+  "title": "Who does APT28 target",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Who does APT28 target",
+      "timestamp": "2026-02-08T22:31:10.811258",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "**Overview Section**\n\nAPT28 has been identified as a sophisticated threat group that targets governments, security organizations, and defense-related entities in Eastern Europe and beyond. The primary names associated with this group are Sofacy, APT 28, Fancy Bear, Sednit, Group 74, TG-4127, and Pawn Storm.\n\n**Background & History**\n\nAPT28 is believed to have emerged in the early 2000s, although its exact origins are unclear. In recent years, the group has gained notoriety for its involvement in high-profile cyber espionage campaigns against various organizations, including governments, defense contractors, and security firms.\n\nKey milestones include:\n\n*   **2012**: APT28 is first identified as a threat actor by McAfee (then known as McAfee Labs) through an analysis of malware used in a spear-phishing campaign targeting Ukrainian defense officials.\n*   **2016**: The group is linked to the hacking of the Democratic National Committee and other organizations during the US presidential election cycle, with many attributing these operations to Russia's Main Intelligence Directorate (GRU).\n*   **2018**: APT28 is officially designated as a foreign terrorist organization by the United States Department of Justice.\n*   **2021**: The group is reported to have been involved in a series of attacks against organizations in Eastern Europe and beyond.\n\n**Tactics & Techniques**\n\nAPT28's tactics, techniques, and procedures (TTPs) are characterized by:\n\n*   Sophisticated spear-phishing campaigns targeting high-level officials and organizations\n*   Exploitation of vulnerabilities in software and hardware to gain access to networks\n*   Custom malware development to evade detection and maintain operational security\n*   Use of compromised accounts and proxy servers to mask their IP addresses\n\n**Targets & Motivation**\n\nAPT28's primary targets include:\n\n*   Governments and government officials in Eastern Europe and beyond\n*   Defense contractors and defense-related organizations\n*   Security firms and researchers\n*   Organizations with sensitive information on national security or military capabilities\n\n**Last Known Activity:** 2025-08-16",
+      "timestamp": "2026-02-08T22:31:25.778648",
+      "metadata": {
+        "confidence": 0.7,
+        "evidence": [
+          {
+            "text": "Threat Actor: Sofacy, APT 28, Fancy Bear, Sednit Primary Name: Sofacy Also known as: Sofacy, APT 28, Fancy Bear, Sednit, Group 74, TG-4127, Pawn Storm, Tsar Team, Strontium, Swallowtail, SIG40, Snakemackerel, Iron Twilight, ATK 5, T-APT-12, ITG05, TAG-0700, UAC-0028, FROZENLAKE, Grey-Cloud, Grizzly Steppe, Forest Blizzard, GruesomeLarch, BlueDelta, TA422, Fighting Ursa, Blue Athena, UAC-0063, TAG-110, G0007 Origin: Russia Description: APT 28 is a threat group that has been attributed to Russia’s Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. This group reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. APT 28 has been active since at least January 2007.\n\n(FireEye) APT28 likely seeks to collect intelligence about Georgia’s security and political dynamics by targeting officials working for the Ministry of Internal Affairs and the Ministry of Defense.\n\nAPT28 has demonstrated interest in Eastern European governments and security organizations. These victims would provide the Russian government with an ability to predict policymaker intentions and gauge its ability to influence public opinion.\n\nAPT28 appeared to target individuals affiliated with European security organizations and global multilateral institutions. The Russian government has long cited European security organizations like NATO and the OSCE as existential threats, particularly during periods of increased tension in Europe.\n\nSofacy may be related to {{Hades}}, but it could be a false flag as well. Last Known Activity: 2025-08-16",
+            "score": 0.5291,
+            "source": "entity_profile",
+            "actor": "Sofacy, APT 28, Fancy Bear, Sednit",
+            "links": [
+              "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
+              "http://download.bitdefender.com/resources/media/materials/white-papers/en/Bitdefender_In-depth_analysis_of_APT28%E2%80%93The_Political_Cyber-Espionage.pdf",
+              "https://securelist.com/a-slice-of-2017-sofacy-activity/83930/",
+              "https://www.symantec.com/blogs/election-security/apt28-espionage-military-government",
+              "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
+              "https://threatvector.cylance.com/en_us/home/flirting-with-ida-and-apt28.html",
+              "https://threatvector.cylance.com/en_us/home/inside-the-apt28-dll-backdoor-blitz.html",
+              "https://securelist.com/zebrocys-multilanguage-malware-salad/90680/",
+              "https://marcoramilli.com/2019/12/05/apt28-attacks-evolution/",
+              "https://www.cisa.gov/sites/default/files/publications/JAR_16-20296A_GRIZZLY%20STEPPE-2016-1229.pdf",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://exchange.xforce.ibmcloud.com/threat-group/guid:f7b33aa456eb38053abd85968f78833a",
+              "https://en.wikipedia.org/wiki/Fancy_Bear",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/",
+              "https://www.microsoft.com/en-us/security/blog/2024/02/14/staying-ahead-of-threat-actors-in-the-age-of-ai/",
+              "https://www.trendmicro.com/en_us/research/24/e/router-roulette.html",
+              "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141a",
+              "https://www.cyfirma.com/research/apt-profile-fancy-bear-2/"
+            ]
+          },
+          {
+            "text": "2025-08-16",
+            "score": 0.95,
+            "source": "last_updated",
+            "actor": "apt28",
+            "links": []
+          }
+        ],
+        "trace_id": "5303ca1e-f566-4b27-9c60-95afbab54c2e",
+        "model": "llama3.2:3b",
+        "source_count": 2
+      }
+    },
+    {
+      "role": "user",
+      "content": "What tools does Lazarus Group use",
+      "timestamp": "2026-02-08T22:31:43.209287",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "**Tools and Malware Used by the Lazarus Group**\n\nThe Lazarus Group, also known as Hidden Cobra or Labyrinth Chollima, has been reported to utilize a variety of sophisticated tools and malware in their operations. The following is a list of some of the notable tools and malware attributed to this threat actor:\n\n### Malware\n\n1. **ExPloit**: A custom-made exploit tool used for exploiting vulnerabilities in various software applications.\n2. **Lazarus Group's Custom Kernel Mode Rootkit (KMRK)**: A highly sophisticated kernel-mode rootkit designed to evade detection by traditional antivirus software.\n3. **DarkSeal**: A customized DNS tunneling malware used to exfiltrate data from compromised networks.\n4. **Worms**: The Lazarus Group has been known to use various types of worms, including the infamous **Dubber Wolf** and **Kimsu**, for spreading malware and gaining access to targeted systems.\n\n### Tools\n\n1. **Petya-style ransomware**: The Lazarus Group has developed custom Petya-style ransomware, which is designed to encrypt files and demand payment in exchange for the decryption key.\n2. **Custom-made phishing kits**: The group uses sophisticated phishing kits to trick victims into divulging sensitive information or clicking on malicious links.\n3. **Malicious PDFs**: Lazarus Group has been known to use maliciously crafted PDFs to distribute malware or inject malware into systems.\n\n### Other Tools and Techniques\n\n1. **Tor and VPN usage**: The group frequently employs Tor and Virtual Private Network (VPN) services to maintain operational security and evade detection.\n2. **Custom-made malware analysis tools**: Lazarus Group has been reported to develop custom tools for analyzing and reverse-engineering malware, which is indicative of their advanced technical capabilities.\n\nIt's worth noting that the Lazarus Group's toolset is continually evolving as they adapt to changing threat landscapes and evade detection by security measures. Their sophisticated tools and tactics make them a formidable threat in the world of cyber espionage.\n\n**Assessment:**\n\nThe Lazarus Group remains an active and highly capable threat actor, with a strong focus on developing custom malware and tools tailored to their specific objectives. Their continued ability to adapt and evolve makes them a persistent concern for organizations across various sectors.\n\n**Last Known Activity:** 2025-08-16",
+      "timestamp": "2026-02-08T22:31:53.370918",
+      "metadata": {
+        "confidence": 0.0,
+        "evidence": [
+          {
+            "text": "Threat Actor: Lazarus Group, Hidden Cobra, Labyrinth Chollima Primary Name: Lazarus Group Also known as: Lazarus Group, Labyrinth Chollima, Group 77, Hastati Group, Whois Hacking Team, NewRomanic Cyber Army Team, Zinc, Hidden Cobra, Appleworm, APT-C-26, ATK 3, SectorA01, ITG03, TA404, DEV-0139, Guardians of Peace, Gods Apostles, Gods Disciples, UNC577, UNC2970, UNC4034, UNC4736, UNC4899, Diamond Sleet, Citrine Sleet, Jade Sleet, TraderTraitor, Gleaming Pisces, Slow Pisces, G0032 Origin: North Korea Description: (Malwarebytes) Lazarus Group is commonly believed to be run by the North Korean government, motivated primarily by financial gain as a method of circumventing long-standing sanctions against the regime. They first came to substantial media notice in 2013 with a series of coordinated attacks against an assortment of South Korean broadcasters and financial institutions using DarkSeoul, a wiper program that overwrites sections of the victims’ master boot record.\n\nIn November 2014, a large scale breach of Sony Pictures was attributed to Lazarus. The attack was notable due to its substantial penetration across Sony networks, the extensive amount of data exfiltrated and leaked, as well of use of a wiper in a possible attempt to erase forensic evidence. Attribution on the attacks was largely hazy, but the FBI released a statement tying the Sony breach to the earlier DarkSeoul attack, and officially attributed both incidents to North Korea.\n\nFast forward to May 2017 with the widespread outbreak of WannaCry, a piece of ransomware that used an SMB exploit as an attack vector. Attribution to North Korea rested largely on code reuse between WannaCry and previous North Korean attacks, but this was considered to be thin grounds given the common practice of tool sharing between regional threat groups. Western intelligence agencies released official statements to the public reaffirming the attribution, and on September 6, 2018, the US Department of Justice charged a North Korean national with involvement in both WannaCry and the Sony breach.\n\nLazarus Group has 3 subgroups:\n1. {{Subgroup: Andariel, Silent Chollima}}\n2. {{Subgroup: BeagleBoyz}}\n3. {{Subgroup: Bluenoroff, APT 38, Stardust Chollima}}\n4. {{Subgroup: Operation Contagious Interview}}\n\nThe following groups may be associated with the Lazarus Group: {{Covellite}}, {{Reaper, APT 37, Ricochet Chollima, ScarCruft}}, {{Wassonite}} and {{Moonstone Sleet}}. Last Known Activity: 2025-08-16",
+            "score": 0.5364,
+            "source": "entity_profile",
+            "actor": "Lazarus Group, Hidden Cobra, Labyrinth Chollima",
+            "links": [
+              "https://blog.malwarebytes.com/threat-analysis/2019/03/the-advanced-persistent-threat-files-lazarus-group/",
+              "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/a-look-into-the-lazarus-groups-operations",
+              "https://www.kaspersky.com/about/press-releases/2017_chasing-lazarus-a-hunt-for-the-infamous-hackers-to-prevent-large-bank-robberies",
+              "https://medium.com/threat-intel/lazarus-attacks-wannacry-5fdeddee476c",
+              "https://content.fireeye.com/apt/rpt-apt38",
+              "https://www.us-cert.gov/HIDDEN-COBRA-North-Korean-Malicious-Cyber-Activity",
+              "https://www.us-cert.gov/ncas/alerts/aa20-106a",
+              "https://www.us-cert.gov/ncas/current-activity/2020/05/12/north-korean-malicious-cyber-activity",
+              "https://global.ahnlab.com/global/upload/download/techreport/%5BAhnLab%5DAndariel_a_Subgroup_of_Lazarus%20(3).pdf",
+              "https://exchange.xforce.ibmcloud.com/threat-group/0c0c39d309b5c7f00a0a7edd54bb025e",
+              "https://www.sentinelone.com/blog/four-distinct-families-of-lazarus-malware-target-apples-macos-platform/",
+              "http://www.documentcloud.org/documents/7038686-US-Army-report-on-North-Korean-military.html",
+              "https://public.intel471.com/blog/partners-in-crime-north-koreans-and-elite-russian-speaking-cybercriminals/",
+              "https://www.hvs-consulting.de/media/downloads/ThreatReport-Lazarus.pdf",
+              "https://www.newyorker.com/magazine/2021/04/26/the-incredible-rise-of-north-koreas-hacking-army",
+              "https://blogs.jpcert.or.jp/en/2021/01/Lazarus_tools.html",
+              "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/lazarus-recruitment/",
+              "https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/the-hermit-kingdoms-ransomware-play.html",
+              "https://asec.ahnlab.com/en/48223/",
+              "https://securelist.com/the-lazarus-group-deathnote-campaign/109490/",
+              "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+              "https://www.trmlabs.com/post/inside-north-koreas-crypto-heists",
+              "https://www.elliptic.co/blog/how-the-lazarus-group-is-stepping-up-crypto-hacks-and-changing-its-tactics",
+              "https://thehackernews.com/2023/10/north-koreas-lazarus-group-launders-900.html",
+              "https://www.hhs.gov/sites/default/files/manage-engine-vulnerability-sector-alert-tlpclear.pdf",
+              "https://eng.nis.go.kr/common/download.do?type=&seq=8E464392CD0485169FA97278AEE8B607",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-1130.pdf",
+              "https://www.trmlabs.com/post/north-korean-hackers-stole-600-million-in-crypto-in-2023",
+              "https://jsac.jpcert.or.jp/archive/2024/pdf/JSAC2024_1_6_dongwook-kim_seulgi-lee_en.pdf",
+              "https://www.elliptic.co/blog/north-korean-hackers-return-to-tornado-cash-despite-sanctions",
+              "https://www.bleepingcomputer.com/news/cryptocurrency/coinstats-says-north-korean-hackers-breached-1-590-crypto-wallets/",
+              "https://www.group-ib.com/blog/apt-lazarus-python-scripts/",
+              "https://www.group-ib.com/blog/stealthy-attributes-of-apt-lazarus/",
+              "https://securelist.com/lazarus-new-malware/115059/",
+              "https://www.sonatype.com/hubfs/White_Papers/How-North-Korea-Backed-Lazarus-Group-is-Weaponizing-Open-Source-Whitepaper.pdf"
+            ]
+          },
+          {
+            "text": "Wassonite Wassonite North Korea (Dragos) Dragos identified the WASSONITE activity group following a malware intrusion at the Kudankulam Nuclear Power Plant (KKNPP) nuclear facility in India. After further investigation, Dragos observed WASSONITE tools and behaviors targeting multiple industrial control system (ICS) entities including electric generation, nuclear energy, manufacturing, and organizations involved in space-centric research. WASSONITE has been active since at least 2018.\n\nWASSONITE targeting focuses on Asian entities, largely in India, as well as possibly Japan and South Korea. At this time, WASSONITE does not appear to have an ICS-specific disruptive or destructive capability. All the activity represents Stage 1 ICS kill-chain: access operations within IT networks.\n\nWASSONITE operations rely on deploying DTrack malware for remote access to victim machines, capturing credentials via Mimikatz and publicly available tools, and utilizing system tools to transfer files and move laterally within the enterprise system. Researchers first disclosed DTrack in late September 2019, and identified the tool targeting Indian financial institutions and research centers. DTrack is loosely connected to an earlier observed malware family, ATMDTrack, used for robbing ATM machines.\n\nThird-party security firms associate DTrack and its related malware to the {{Lazarus Group, Hidden Cobra, Labyrinth Chollima}}. Dragos also associates the activity group {{Covellite}} to Lazarus Group. However, while COVELLITE is also linked to broader Lazarus activity, this group leveraged substantially different capabilities and infrastructure to pursue a target set that does not overlap with observed WASSONITE activity. 2020-04-15",
+            "score": 0.3,
+            "source": "bm25",
+            "actor": "Wassonite",
+            "links": [
+              "https://dragos.com/resource/wassonite/"
+            ]
+          },
+          {
+            "text": "2025-08-16",
+            "score": 0.95,
+            "source": "last_updated",
+            "actor": "lazarus group",
+            "links": []
+          }
+        ],
+        "trace_id": "05ed562f-1ee9-4fa1-abe3-998493db7082",
+        "model": "llama3.2:3b",
+        "source_count": 3
+      }
+    },
+    {
+      "role": "user",
+      "content": "What TTPs are associated with Sofacy?",
+      "timestamp": "2026-02-08T22:32:12.282803",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "**Tactics, Techniques, and Procedures (TTPs) of Sofacy**\n\nSofacy, also known as APT28 or Fancy Bear, is a sophisticated threat actor that has been associated with various tactics, techniques, and procedures (TTPs). The following are some of the TTPs commonly attributed to Sofacy:\n\n**Phishing Campaigns:**\n\n*   **Spear-phishing:** Sofacy has employed targeted spear-phishing campaigns using custom-made phishing emails, often containing attachments or links that exploit vulnerabilities in Microsoft Office applications.\n*   **Whaling:** They have also used whaling tactics, targeting high-level executives and officials with personalized emails designed to trick them into divulging sensitive information.\n\n**Exploitation of Vulnerabilities:**\n\n*   **Zero-day exploits:** Sofacy has been known to exploit zero-day vulnerabilities in software applications, including Adobe Flash, Java, and Microsoft Office.\n*   **Out-of-band attacks:** They have also used out-of-band techniques, such as exploiting VPN connections or using malicious DNS servers to bypass traditional security controls.\n\n**Malware Deployment:**\n\n*   **Custom malware:** Sofacy has developed custom-made malware that is designed to evade detection by traditional antivirus software.\n*   **Fileless malware:** They have also used fileless malware, which resides in memory only and does not write any files to disk.\n\n**Data Exfiltration:**\n\n*   **Use of encrypted channels:** Sofacy often uses encrypted channels, such as Secure/MIME or PGP, to exfiltrate stolen data.\n*   **Hidden files and directories:** They have also used hidden files and directories to conceal the location of sensitive data on compromised systems.\n\n**Operational Security:**\n\n*   **Secure communication:** Sofacy has been known to use secure communication channels, such as encrypted email services or VPN connections, to coordinate their operations.\n*   **Code obfuscation:** They have also used code obfuscation techniques, such as encryption or compression, to make it difficult for analysts to understand the nature of their malware.\n\n**Targeting and Motivation:**\n\n*   **Government and defense targets:** Sofacy has targeted government and defense organizations, including NATO, the EU, and various Eastern European countries.\n*   **Business and corporate targets:** They have also targeted businesses and corporations in various sectors, including finance, energy, and healthcare.\n\nSofacy remains a sophisticated threat actor with a proven track record of using advanced TTPs to achieve their objectives. Their use of custom-made malware, spear-phishing campaigns, and exploitation of vulnerabilities make them a formidable opponent for even the most advanced security controls.\n\n**Last Known Activity:** 2025-08-16",
+      "timestamp": "2026-02-08T22:32:23.536240",
+      "metadata": {
+        "confidence": 0.0,
+        "evidence": [
+          {
+            "text": "Threat Actor: Sofacy, APT 28, Fancy Bear, Sednit Primary Name: Sofacy Also known as: Sofacy, APT 28, Fancy Bear, Sednit, Group 74, TG-4127, Pawn Storm, Tsar Team, Strontium, Swallowtail, SIG40, Snakemackerel, Iron Twilight, ATK 5, T-APT-12, ITG05, TAG-0700, UAC-0028, FROZENLAKE, Grey-Cloud, Grizzly Steppe, Forest Blizzard, GruesomeLarch, BlueDelta, TA422, Fighting Ursa, Blue Athena, UAC-0063, TAG-110, G0007 Origin: Russia Description: APT 28 is a threat group that has been attributed to Russia’s Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. This group reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. APT 28 has been active since at least January 2007.\n\n(FireEye) APT28 likely seeks to collect intelligence about Georgia’s security and political dynamics by targeting officials working for the Ministry of Internal Affairs and the Ministry of Defense.\n\nAPT28 has demonstrated interest in Eastern European governments and security organizations. These victims would provide the Russian government with an ability to predict policymaker intentions and gauge its ability to influence public opinion.\n\nAPT28 appeared to target individuals affiliated with European security organizations and global multilateral institutions. The Russian government has long cited European security organizations like NATO and the OSCE as existential threats, particularly during periods of increased tension in Europe.\n\nSofacy may be related to {{Hades}}, but it could be a false flag as well. Last Known Activity: 2025-08-16",
+            "score": 0.4502,
+            "source": "entity_profile",
+            "actor": "Sofacy, APT 28, Fancy Bear, Sednit",
+            "links": [
+              "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
+              "http://download.bitdefender.com/resources/media/materials/white-papers/en/Bitdefender_In-depth_analysis_of_APT28%E2%80%93The_Political_Cyber-Espionage.pdf",
+              "https://securelist.com/a-slice-of-2017-sofacy-activity/83930/",
+              "https://www.symantec.com/blogs/election-security/apt28-espionage-military-government",
+              "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
+              "https://threatvector.cylance.com/en_us/home/flirting-with-ida-and-apt28.html",
+              "https://threatvector.cylance.com/en_us/home/inside-the-apt28-dll-backdoor-blitz.html",
+              "https://securelist.com/zebrocys-multilanguage-malware-salad/90680/",
+              "https://marcoramilli.com/2019/12/05/apt28-attacks-evolution/",
+              "https://www.cisa.gov/sites/default/files/publications/JAR_16-20296A_GRIZZLY%20STEPPE-2016-1229.pdf",
+              "https://www.us-cert.gov/sites/default/files/publications/AR-17-20045_Enhanced_Analysis_of_GRIZZLY_STEPPE_Activity.pdf",
+              "https://exchange.xforce.ibmcloud.com/threat-group/guid:f7b33aa456eb38053abd85968f78833a",
+              "https://en.wikipedia.org/wiki/Fancy_Bear",
+              "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+              "https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/",
+              "https://www.microsoft.com/en-us/security/blog/2024/02/14/staying-ahead-of-threat-actors-in-the-age-of-ai/",
+              "https://www.trendmicro.com/en_us/research/24/e/router-roulette.html",
+              "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141a",
+              "https://www.cyfirma.com/research/apt-profile-fancy-bear-2/"
+            ]
+          },
+          {
+            "text": "2025-08-16",
+            "score": 0.95,
+            "source": "last_updated",
+            "actor": "sofacy",
+            "links": []
+          }
+        ],
+        "trace_id": "072b8880-1805-4726-8173-afa5bb078cfe",
+        "model": "llama3.2:3b",
+        "source_count": 2
+      }
+    }
+  ],
+  "created_at": "2026-02-08T22:30:58.071751",
+  "updated_at": "2026-02-08T22:32:23.536240"
+}

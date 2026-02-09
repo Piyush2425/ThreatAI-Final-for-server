@@ -50,9 +50,18 @@ class SemanticChunker:
         name = actor.get('name', 'Unknown')
         primary_name = actor.get('primary_name', name)
         aliases = actor.get('aliases', [])
+        alias_givers = actor.get('alias_givers', [])
         countries = actor.get('countries', [])
+        observed_sectors = actor.get('observed_sectors') or actor.get('observed-sectors') or []
+        observed_countries = actor.get('observed_countries') or actor.get('observed-countries') or []
+        tools = actor.get('tools') or []
+        ttps = actor.get('ttps') or actor.get('tactics') or []
+        targets = actor.get('targets') or []
+        campaigns = actor.get('campaigns') or actor.get('operations') or []
         description = actor.get('description', '')
         information_sources = actor.get('information_sources', [])
+        sponsor = actor.get('sponsor') or actor.get('sponsorship')
+        name_giver = actor.get('name_giver') or actor.get('name-giver')
         last_updated = (
             actor.get('last_updated')
             or actor.get('last_card_change')
@@ -68,9 +77,36 @@ class SemanticChunker:
         
         if aliases:
             text_parts.append(f"Also known as: {', '.join(aliases)}")
+
+        if name_giver:
+            text_parts.append(f"Name Giver: {name_giver}")
+
+        if alias_givers:
+            text_parts.append(f"Alias Givers: {', '.join(alias_givers)}")
         
         if countries:
             text_parts.append(f"Origin: {', '.join(countries)}")
+
+        if observed_sectors:
+            text_parts.append(f"Observed Sectors: {', '.join(observed_sectors)}")
+
+        if observed_countries:
+            text_parts.append(f"Observed Countries: {', '.join(observed_countries)}")
+
+        if targets:
+            text_parts.append(f"Targets: {', '.join(str(t) for t in targets)}")
+
+        if tools:
+            text_parts.append(f"Tools: {', '.join(str(t) for t in tools)}")
+
+        if ttps:
+            text_parts.append(f"TTPs: {', '.join(str(t) for t in ttps)}")
+
+        if campaigns:
+            text_parts.append(f"Campaigns: {' | '.join(str(c) for c in campaigns)}")
+
+        if sponsor:
+            text_parts.append(f"Sponsorship: {sponsor}")
         
         if description:
             text_parts.append(f"Description: {description}")
@@ -79,7 +115,7 @@ class SemanticChunker:
             text_parts.append(f"Last Known Activity: {last_updated}")
         
         # Add other important fields
-        for field in ['first_seen', 'last_seen', 'motivations', 'targets']:
+        for field in ['first_seen', 'last_seen', 'motivations']:
             value = actor.get(field)
             if value:
                 if isinstance(value, list):
@@ -87,7 +123,7 @@ class SemanticChunker:
                 else:
                     text_parts.append(f"{field}: {value}")
         
-        full_text = ' '.join(text_parts)
+        full_text = '\n'.join(text_parts)
         
         # Create single comprehensive chunk
         chunk = {
@@ -115,6 +151,51 @@ class SemanticChunker:
                 'metadata': {
                     'source_field': 'last_updated',
                     'chunk_type': 'atomic',
+                    'chunk_index': 0,
+                    'actor_name': name,
+                    'primary_name': primary_name,
+                    'aliases': aliases,
+                    'countries': countries,
+                }
+            })
+
+        if sponsor:
+            chunks.append({
+                'chunk_id': str(uuid.uuid4()),
+                'actor_id': actor_id,
+                'text': str(sponsor),
+                'metadata': {
+                    'source_field': 'sponsor',
+                    'chunk_type': 'atomic',
+                    'chunk_index': 0,
+                    'actor_name': name,
+                    'primary_name': primary_name,
+                    'aliases': aliases,
+                    'countries': countries,
+                }
+            })
+
+        for field_name, values in [
+            ('observed_sectors', observed_sectors),
+            ('observed_countries', observed_countries),
+            ('targets', targets),
+            ('tools', tools),
+            ('ttps', ttps),
+            ('campaigns', campaigns),
+            ('alias_givers', alias_givers),
+        ]:
+            if not values:
+                continue
+            if not isinstance(values, list):
+                values = [values]
+            joiner = ' | ' if field_name == 'campaigns' else ', '
+            chunks.append({
+                'chunk_id': str(uuid.uuid4()),
+                'actor_id': actor_id,
+                'text': joiner.join(str(v) for v in values),
+                'metadata': {
+                    'source_field': field_name,
+                    'chunk_type': 'list',
                     'chunk_index': 0,
                     'actor_name': name,
                     'primary_name': primary_name,

@@ -56,9 +56,52 @@ class AnswerExtractor:
         """Extract tactics, techniques, and procedures (TTPs)."""
         tactics = []
         seen = set()
+
+        def split_items(text: str) -> List[str]:
+            if not text:
+                return []
+            parts = re.split(r'\s*[;,]\s*|\s*\|\s*', text)
+            return [part.strip() for part in parts if part.strip()]
+
+        def is_noise_tactic(value: str) -> bool:
+            cleaned = value.strip()
+            if not cleaned:
+                return True
+            lowered = cleaned.lower()
+            if lowered.startswith('//') or 'http://' in lowered or 'https://' in lowered:
+                return True
+            if len(cleaned) > 80:
+                return True
+            if re.search(r'\b20\d{2}\b', cleaned) and ' - ' in cleaned:
+                return True
+            if re.match(r'^[^a-zA-Z0-9]+$', cleaned):
+                return True
+            return False
+
+        def add_tactic(value: str, source: str, evidence_text: str):
+            cleaned = value.strip()
+            if is_noise_tactic(cleaned):
+                return
+            if cleaned and cleaned.lower() not in seen:
+                tactics.append({
+                    'tactic': cleaned,
+                    'evidence': evidence_text[:200] + '...' if len(evidence_text) > 200 else evidence_text,
+                    'source': source
+                })
+                seen.add(cleaned.lower())
         
         for chunk in evidence:
             text = chunk['text'].lower()
+            metadata = chunk.get('metadata', {})
+
+            if metadata.get('source_field') in ['ttps', 'tactics']:
+                for item in split_items(chunk['text']):
+                    add_tactic(item, metadata.get('source_field', 'description'), chunk['text'])
+
+            embedded_ttps = re.search(r'TTPs\s*:\s*([^\n]+)', chunk['text'], re.IGNORECASE)
+            if embedded_ttps:
+                for item in split_items(embedded_ttps.group(1)):
+                    add_tactic(item, 'entity_profile', chunk['text'])
             
             # Look for common TTP patterns
             patterns = [
@@ -78,13 +121,8 @@ class AnswerExtractor:
             ]
             
             for pattern, tactic in patterns:
-                if re.search(pattern, text) and tactic not in seen:
-                    tactics.append({
-                        'tactic': tactic,
-                        'evidence': chunk['text'][:200] + '...' if len(chunk['text']) > 200 else chunk['text'],
-                        'source': chunk['metadata'].get('source_field', 'description')
-                    })
-                    seen.add(tactic)
+                if re.search(pattern, text) and tactic.lower() not in seen:
+                    add_tactic(tactic, metadata.get('source_field', 'description'), chunk['text'])
         
         summary = self._format_tactics_summary(tactics, query)
         
@@ -165,10 +203,37 @@ class AnswerExtractor:
             'organizations': set(),
             'context': []
         }
+
+        def split_items(text: str) -> List[str]:
+            return [item.strip() for item in text.split(',') if item.strip()]
         
         for chunk in evidence:
             text = chunk['text']
             text_lower = text.lower()
+            metadata = chunk.get('metadata', {})
+
+            source_field = metadata.get('source_field')
+            if source_field in ['observed_sectors', 'observed-sectors']:
+                targets['sectors'].update(split_items(text))
+            elif source_field in ['observed_countries', 'observed-countries']:
+                targets['regions'].update(split_items(text))
+            elif source_field == 'targets':
+                targets['sectors'].update(split_items(text))
+            elif source_field in ['countries']:
+                # Avoid treating origin as target regions
+                continue
+
+            embedded_sectors = re.search(r'Observed Sectors\s*:\s*([^\n]+)', text, re.IGNORECASE)
+            if embedded_sectors:
+                targets['sectors'].update(split_items(embedded_sectors.group(1)))
+
+            embedded_countries = re.search(r'Observed Countries\s*:\s*([^\n]+)', text, re.IGNORECASE)
+            if embedded_countries:
+                targets['regions'].update(split_items(embedded_countries.group(1)))
+
+            embedded_targets = re.search(r'Targets\s*:\s*([^\n]+)', text, re.IGNORECASE)
+            if embedded_targets:
+                targets['sectors'].update(split_items(embedded_targets.group(1)))
             
             # Sectors/Industries
             sector_keywords = {
@@ -187,14 +252,15 @@ class AnswerExtractor:
                 if any(kw in text_lower for kw in keywords):
                     targets['sectors'].add(sector)
             
-            # Regions/Countries
-            region_matches = re.findall(
-                r'\b(Russia|China|Iran|North Korea|United States|Europe|Asia|Middle East|'
-                r'Eastern Europe|NATO|Ukraine|Georgia|Syria|Afghanistan|Taiwan|'
-                r'South Korea|Japan|India|Pakistan|Israel|Saudi Arabia|UAE)\b',
-                text
-            )
-            targets['regions'].update(region_matches)
+            # Regions/Countries (only when targeting context is present)
+            if re.search(r'target|victim|attack', text_lower) and 'origin:' not in text_lower:
+                region_matches = re.findall(
+                    r'\b(Russia|China|Iran|North Korea|United States|Europe|Asia|Middle East|'
+                    r'Eastern Europe|NATO|Ukraine|Georgia|Syria|Afghanistan|Taiwan|'
+                    r'South Korea|Japan|India|Pakistan|Israel|Saudi Arabia|UAE)\b',
+                    text
+                )
+                targets['regions'].update(region_matches)
             
             # Extract targeting context
             if re.search(r'target|victim|attack', text_lower):
@@ -213,9 +279,29 @@ class AnswerExtractor:
         """Extract malware, tools, and infrastructure information."""
         tools = []
         seen = set()
+
+        def add_tool(value: str, source: str):
+            cleaned = value.strip()
+            if cleaned and cleaned.lower() not in seen:
+                tools.append({
+                    'tool': cleaned,
+                    'type': 'malware/tool',
+                    'source': source
+                })
+                seen.add(cleaned.lower())
         
         for chunk in evidence:
             text = chunk['text']
+            metadata = chunk.get('metadata', {})
+
+            if metadata.get('source_field') == 'tools':
+                for item in [t.strip() for t in text.split(',') if t.strip()]:
+                    add_tool(item, metadata.get('source_field', 'tools'))
+
+            embedded_tools = re.search(r'Tools\s*:\s*([^\n]+)', text, re.IGNORECASE)
+            if embedded_tools:
+                for item in [t.strip() for t in embedded_tools.group(1).split(',') if t.strip()]:
+                    add_tool(item, 'entity_profile')
             
             # Look for malware names (typically capitalized unique terms)
             malware_patterns = [
@@ -230,13 +316,8 @@ class AnswerExtractor:
                 for match in matches:
                     if isinstance(match, tuple):
                         match = match[0] if match[0] else match[1]
-                    if match and match not in seen and len(match) > 2:
-                        tools.append({
-                            'tool': match,
-                            'type': 'malware/tool',
-                            'source': chunk['metadata'].get('source_field', 'description')
-                        })
-                        seen.add(match)
+                    if match and len(match) > 2:
+                        add_tool(match, metadata.get('source_field', 'description'))
         
         summary = self._format_tools_summary(tools, query)
         
@@ -251,6 +332,7 @@ class AnswerExtractor:
         origin_info = {
             'country': None,
             'attribution': [],
+            'sponsor': [],
             'confidence_level': 'unknown'
         }
         
@@ -263,6 +345,10 @@ class AnswerExtractor:
                 origin_info['country'] = text
                 origin_info['confidence_level'] = 'high'
                 continue
+
+            if metadata.get('source_field') == 'sponsor':
+                if text and text not in origin_info['sponsor']:
+                    origin_info['sponsor'].append(text)
             
             # Look for attribution statements
             attribution_patterns = [
@@ -276,6 +362,27 @@ class AnswerExtractor:
                 matches = re.findall(pattern, text, re.IGNORECASE)
                 for match in matches:
                     origin_info['attribution'].append(match.strip())
+
+            # Look for explicit origin or sponsorship markers in entity text
+            if not origin_info['country']:
+                origin_match = re.search(r'Origin\s*:\s*([^\n]+)', text, re.IGNORECASE)
+                if origin_match:
+                    origin_info['country'] = origin_match.group(1).strip()
+
+            sponsor_patterns = [
+                r'sponsored by ([^,.]+)',
+                r'run by (?:the )?([^,.]+)',
+                r'backed by ([^,.]+)',
+                r'state-sponsored(?:,| by)?\s*([^,.]+)?',
+            ]
+            for pattern in sponsor_patterns:
+                matches = re.findall(pattern, text, re.IGNORECASE)
+                for match in matches:
+                    if isinstance(match, tuple):
+                        match = next((m for m in match if m), '')
+                    sponsor_value = (match or 'State-sponsored').strip()
+                    if sponsor_value and sponsor_value not in origin_info['sponsor']:
+                        origin_info['sponsor'].append(sponsor_value)
         
         summary = self._format_origin_summary(origin_info, query)
         
@@ -288,9 +395,27 @@ class AnswerExtractor:
     def _extract_campaigns(self, evidence: List[Dict[str, Any]], query: str) -> Dict[str, Any]:
         """Extract campaign/operation information."""
         campaigns = []
+
+        def add_campaign(value: str, context: str):
+            cleaned = value.strip()
+            if cleaned:
+                campaigns.append({
+                    'campaign': cleaned,
+                    'context': context[:250] + '...' if len(context) > 250 else context
+                })
         
         for chunk in evidence:
             text = chunk['text']
+            metadata = chunk.get('metadata', {})
+
+            if metadata.get('source_field') in ['campaigns', 'operations']:
+                for item in [c.strip() for c in text.split(',') if c.strip()]:
+                    add_campaign(item, text)
+
+            embedded_campaigns = re.search(r'Campaigns\s*:\s*([^\n]+)', text, re.IGNORECASE)
+            if embedded_campaigns:
+                for item in [c.strip() for c in embedded_campaigns.group(1).split(',') if c.strip()]:
+                    add_campaign(item, text)
             
             # Look for operation/campaign names
             patterns = [
@@ -304,10 +429,7 @@ class AnswerExtractor:
                 matches = re.findall(pattern, text)
                 for match in matches:
                     if len(match) > 3:
-                        campaigns.append({
-                            'campaign': match.strip(),
-                            'context': text[:250] + '...' if len(text) > 250 else text
-                        })
+                        add_campaign(match, text)
         
         summary = self._format_campaigns_summary(campaigns, query)
         
@@ -483,11 +605,10 @@ class AnswerExtractor:
         if not tactics:
             return "No specific tactics or techniques were found in the available data."
         
-        summary = "Common tactics used:\n"
-        for i, tactic in enumerate(tactics[:5], 1):  # Limit to top 5
-            summary += f"{i}. **{tactic['tactic']}**\n"
-        
-        return summary.strip()
+        summary_lines = ["**Tactics & Techniques (evidence-based):**"]
+        for tactic in tactics[:8]:
+            summary_lines.append(f"- {tactic['tactic']}")
+        return "\n".join(summary_lines).strip()
     
     def _format_associations_summary(self, associations: List[Dict], query: str, full_context: List[str] = None) -> str:
         """Format associations into a summary."""
@@ -556,7 +677,11 @@ class AnswerExtractor:
             summary = f"**Origin:** {origin['country']}"
             if origin['attribution']:
                 summary += f"\n**Attribution:** {origin['attribution'][0]}"
+            if origin['sponsor']:
+                summary += f"\n**Sponsorship:** {origin['sponsor'][0]}"
             return summary
+        if origin['sponsor']:
+            return f"**Sponsorship:** {origin['sponsor'][0]}"
         return "Origin information not available in the current data."
     
     def _format_campaigns_summary(self, campaigns: List[Dict], query: str) -> str:

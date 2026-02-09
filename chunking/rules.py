@@ -15,15 +15,28 @@ class ChunkingRules:
         'last_updated': True,
         'last_card_change': True,
         'last-card-change': True,
+        'sponsor': True,
+        'sponsorship': True,
+        'name_giver': True,
+        'name-giver': True,
     }
     
     # Fields that can be split into chunks
     LIST_FIELDS = {
         'aliases': True,
         'ttps': True,
+        'tactics': True,
         'targets': True,
+        'tools': True,
+        'campaigns': True,
+        'operations': True,
+        'alias_givers': True,
         'origins': True,
         'motivations': True,
+        'observed_sectors': True,
+        'observed-sectors': True,
+        'observed_countries': True,
+        'observed-countries': True,
     }
     
     # Fields that should be text-chunked

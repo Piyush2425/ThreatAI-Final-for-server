@@ -90,6 +90,18 @@ class EvidenceRetriever:
         else:
             # Only use BM25 if no specific actor filter OR if vector search had results
             bm25_results = self._bm25_search(query, retrieval_plan['top_k'] * 2) if self.bm25_retriever else []
+
+        # If a specific actor was requested, filter BM25 results to that actor
+        if bm25_results and parsed_query and parsed_query.get('actors'):
+            allowed_primaries = {
+                actor.get('primary_name') for actor in parsed_query.get('actors', []) if actor.get('primary_name')
+            }
+            if allowed_primaries:
+                bm25_results = [
+                    (chunk, score)
+                    for chunk, score in bm25_results
+                    if chunk.get('primary_name') in allowed_primaries
+                ]
         
         logger.info(f"Retrieved {len(vector_results)} vector results, {len(bm25_results)} BM25 results")
         
@@ -97,8 +109,24 @@ class EvidenceRetriever:
         combined_results = self._hybrid_rerank(vector_results, bm25_results, top_k)
         
         # Filter by threshold
+        allowed_names = set()
+        if parsed_query and parsed_query.get('actors'):
+            for actor in parsed_query.get('actors', []):
+                primary = actor.get('primary_name')
+                matched = actor.get('matched_text')
+                if primary:
+                    allowed_names.add(primary.lower())
+                if matched:
+                    allowed_names.add(matched.lower())
+
         evidence = []
         for chunk, score in combined_results:
+            if allowed_names:
+                metadata = chunk.get('metadata', {}) if isinstance(chunk, dict) else {}
+                primary_name = (metadata.get('primary_name') or '').lower()
+                actor_name = (metadata.get('actor_name') or '').lower()
+                if primary_name not in allowed_names and actor_name not in allowed_names:
+                    continue
             if score >= similarity_threshold:
                 chunk_with_score = chunk.copy()
                 chunk_with_score['similarity_score'] = score

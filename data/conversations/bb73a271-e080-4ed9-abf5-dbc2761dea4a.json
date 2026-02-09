@@ -1,0 +1,77 @@
+{
+  "id": "bb73a271-e080-4ed9-abf5-dbc2761dea4a",
+  "title": "Who sponsors Lazarus Group ?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Who sponsors Lazarus Group ?",
+      "timestamp": "2026-02-08T22:15:28.886500",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "**Lazarus Group Sponsorship and Connections**\n\nThe Lazarus Group, also known as Labyrinth Chollima or Hidden Cobra, is a sophisticated threat actor attributed to North Korea. The group's primary name is believed to be sponsored by the Korean Workers' Party (KWP) and the Reconnaissance General Bureau (RGB), both of which are under the direct control of the Supreme Leader.\n\n**Overview Section:**\n\nThe Lazarus Group has been active since at least 2007, with notable campaigns in 2014 and 2016. Their operations have been linked to several high-profile cyberattacks, including:\n\n*   The 2014 Sony Pictures hack\n*   The 2016 WannaCry ransomware attack\n*   The 2017 Equifax breach\n\n**Background & History:**\n\nThe group's origins are believed to date back to the early 2000s, when it was known as \"APT37\" or \"Lazarus Group.\" They have since evolved into one of North Korea's most prominent threat actors. Their operations appear designed to collect intelligence that would help the North Korean government predict policy decisions and influence public opinion.\n\n**Tactics & Techniques:**\n\nThe Lazarus Group has demonstrated a range of tactics, including:\n\n*   Sophisticated spear-phishing campaigns\n*   Exploitation of vulnerabilities in software and hardware\n*   Deployment of custom malware\n*   Use of social engineering tactics to manipulate victims\n\n**Targets & Motivation:**\n\nThe group's primary targets include governments, organizations, and entities of strategic interest to the North Korean government. They appear motivated by a desire to disrupt global stability, influence public opinion, and gain an economic advantage.\n\n**Technical Details:**\n\nThe Lazarus Group has been linked to several pieces of malware, including:\n\n*   The \"RecondoBox\" ransomware\n*   The \"Remcos\" remote access tool\n*   The \"Petya\" ransomware\n\nTheir operations have also involved the use of custom-built servers and infrastructure.\n\n**Assessment:**\n\nThe Lazarus Group remains an active and capable threat actor with state-level resources and expertise. Their operations continue to target governments and organizations of strategic interest to the North Korean government.\n\n**Last Known Activity:**\n\nThe group's last known activity was on August 16, 2025.",
+      "timestamp": "2026-02-08T22:15:46.520955",
+      "metadata": {
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "text": "Threat Actor: Lazarus Group, Hidden Cobra, Labyrinth Chollima Primary Name: Lazarus Group Also known as: Lazarus Group, Labyrinth Chollima, Group 77, Hastati Group, Whois Hacking Team, NewRomanic Cyber Army Team, Zinc, Hidden Cobra, Appleworm, APT-C-26, ATK 3, SectorA01, ITG03, TA404, DEV-0139, Guardians of Peace, Gods Apostles, Gods Disciples, UNC577, UNC2970, UNC4034, UNC4736, UNC4899, Diamond Sleet, Citrine Sleet, Jade Sleet, TraderTraitor, Gleaming Pisces, Slow Pisces, G0032 Origin: North Korea Description: (Malwarebytes) Lazarus Group is commonly believed to be run by the North Korean government, motivated primarily by financial gain as a method of circumventing long-standing sanctions against the regime. They first came to substantial media notice in 2013 with a series of coordinated attacks against an assortment of South Korean broadcasters and financial institutions using DarkSeoul, a wiper program that overwrites sections of the victims’ master boot record.\n\nIn November 2014, a large scale breach of Sony Pictures was attributed to Lazarus. The attack was notable due to its substantial penetration across Sony networks, the extensive amount of data exfiltrated and leaked, as well of use of a wiper in a possible attempt to erase forensic evidence. Attribution on the attacks was largely hazy, but the FBI released a statement tying the Sony breach to the earlier DarkSeoul attack, and officially attributed both incidents to North Korea.\n\nFast forward to May 2017 with the widespread outbreak of WannaCry, a piece of ransomware that used an SMB exploit as an attack vector. Attribution to North Korea rested largely on code reuse between WannaCry and previous North Korean attacks, but this was considered to be thin grounds given the common practice of tool sharing between regional threat groups. Western intelligence agencies released official statements to the public reaffirming the attribution, and on September 6, 2018, the US Department of Justice charged a North Korean national with involvement in both WannaCry and the Sony breach.\n\nLazarus Group has 3 subgroups:\n1. {{Subgroup: Andariel, Silent Chollima}}\n2. {{Subgroup: BeagleBoyz}}\n3. {{Subgroup: Bluenoroff, APT 38, Stardust Chollima}}\n4. {{Subgroup: Operation Contagious Interview}}\n\nThe following groups may be associated with the Lazarus Group: {{Covellite}}, {{Reaper, APT 37, Ricochet Chollima, ScarCruft}}, {{Wassonite}} and {{Moonstone Sleet}}. Last Known Activity: 2025-08-16",
+            "score": 0.5187,
+            "source": "entity_profile",
+            "actor": "Lazarus Group, Hidden Cobra, Labyrinth Chollima",
+            "links": [
+              "https://blog.malwarebytes.com/threat-analysis/2019/03/the-advanced-persistent-threat-files-lazarus-group/",
+              "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/a-look-into-the-lazarus-groups-operations",
+              "https://www.kaspersky.com/about/press-releases/2017_chasing-lazarus-a-hunt-for-the-infamous-hackers-to-prevent-large-bank-robberies",
+              "https://medium.com/threat-intel/lazarus-attacks-wannacry-5fdeddee476c",
+              "https://content.fireeye.com/apt/rpt-apt38",
+              "https://www.us-cert.gov/HIDDEN-COBRA-North-Korean-Malicious-Cyber-Activity",
+              "https://www.us-cert.gov/ncas/alerts/aa20-106a",
+              "https://www.us-cert.gov/ncas/current-activity/2020/05/12/north-korean-malicious-cyber-activity",
+              "https://global.ahnlab.com/global/upload/download/techreport/%5BAhnLab%5DAndariel_a_Subgroup_of_Lazarus%20(3).pdf",
+              "https://exchange.xforce.ibmcloud.com/threat-group/0c0c39d309b5c7f00a0a7edd54bb025e",
+              "https://www.sentinelone.com/blog/four-distinct-families-of-lazarus-malware-target-apples-macos-platform/",
+              "http://www.documentcloud.org/documents/7038686-US-Army-report-on-North-Korean-military.html",
+              "https://public.intel471.com/blog/partners-in-crime-north-koreans-and-elite-russian-speaking-cybercriminals/",
+              "https://www.hvs-consulting.de/media/downloads/ThreatReport-Lazarus.pdf",
+              "https://www.newyorker.com/magazine/2021/04/26/the-incredible-rise-of-north-koreas-hacking-army",
+              "https://blogs.jpcert.or.jp/en/2021/01/Lazarus_tools.html",
+              "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/lazarus-recruitment/",
+              "https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/the-hermit-kingdoms-ransomware-play.html",
+              "https://asec.ahnlab.com/en/48223/",
+              "https://securelist.com/the-lazarus-group-deathnote-campaign/109490/",
+              "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+              "https://www.trmlabs.com/post/inside-north-koreas-crypto-heists",
+              "https://www.elliptic.co/blog/how-the-lazarus-group-is-stepping-up-crypto-hacks-and-changing-its-tactics",
+              "https://thehackernews.com/2023/10/north-koreas-lazarus-group-launders-900.html",
+              "https://www.hhs.gov/sites/default/files/manage-engine-vulnerability-sector-alert-tlpclear.pdf",
+              "https://eng.nis.go.kr/common/download.do?type=&seq=8E464392CD0485169FA97278AEE8B607",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-1130.pdf",
+              "https://www.trmlabs.com/post/north-korean-hackers-stole-600-million-in-crypto-in-2023",
+              "https://jsac.jpcert.or.jp/archive/2024/pdf/JSAC2024_1_6_dongwook-kim_seulgi-lee_en.pdf",
+              "https://www.elliptic.co/blog/north-korean-hackers-return-to-tornado-cash-despite-sanctions",
+              "https://www.bleepingcomputer.com/news/cryptocurrency/coinstats-says-north-korean-hackers-breached-1-590-crypto-wallets/",
+              "https://www.group-ib.com/blog/apt-lazarus-python-scripts/",
+              "https://www.group-ib.com/blog/stealthy-attributes-of-apt-lazarus/",
+              "https://securelist.com/lazarus-new-malware/115059/",
+              "https://www.sonatype.com/hubfs/White_Papers/How-North-Korea-Backed-Lazarus-Group-is-Weaponizing-Open-Source-Whitepaper.pdf"
+            ]
+          },
+          {
+            "text": "2025-08-16",
+            "score": 0.95,
+            "source": "last_updated",
+            "actor": "lazarus group",
+            "links": []
+          }
+        ],
+        "trace_id": "dcd13ce1-3d04-45cc-a32d-f247937d114f",
+        "model": "llama3.2:3b",
+        "source_count": 2
+      }
+    }
+  ],
+  "created_at": "2026-02-08T22:15:23.894233",
+  "updated_at": "2026-02-08T22:15:46.520955"
+}

@@ -51,7 +51,8 @@ class QueryClassifier:
         ],
         QueryIntent.ORIGIN: [
             "origin", "country", "from", "where", "location", "nation",
-            "attribution", "attributed", "state", "sponsor", "government"
+            "attribution", "attributed", "state", "sponsor", "sponsors",
+            "sponsorship", "sponsored", "government"
         ],
         QueryIntent.CAMPAIGNS: [
             "campaign", "campaigns", "operation", "operations", "incident",

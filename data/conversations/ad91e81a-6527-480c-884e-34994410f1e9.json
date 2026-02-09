@@ -1,0 +1,335 @@
+{
+  "id": "ad91e81a-6527-480c-884e-34994410f1e9",
+  "title": "Who sponsors Lazarus Group",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Who sponsors Lazarus Group",
+      "timestamp": "2026-02-08T23:13:58.549808",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "**Origin:** North Korea\n**Attribution:** Lazarus\n**Sponsorship:** North Korean government\n\n**Last Known Activity:** 2025-08-16",
+      "timestamp": "2026-02-08T23:13:58.705967",
+      "metadata": {
+        "confidence": 0.9,
+        "evidence": [
+          {
+            "text": "Threat Actor: Lazarus Group, Hidden Cobra, Labyrinth Chollima\nPrimary Name: Lazarus Group\nAlso known as: Lazarus Group, Labyrinth Chollima, Group 77, Hastati Group, Whois Hacking Team, NewRomanic Cyber Army Team, Zinc, Hidden Cobra, Appleworm, APT-C-26, ATK 3, SectorA01, ITG03, TA404, DEV-0139, Guardians of Peace, Gods Apostles, Gods Disciples, UNC577, UNC2970, UNC4034, UNC4736, UNC4899, Diamond Sleet, Citrine Sleet, Jade Sleet, TraderTraitor, Gleaming Pisces, Slow Pisces, G0032\nName Giver: Kaspersky\nAlias Givers: Labyrinth Chollima (CrowdStrike), Group 77 (Talos), Hastati Group (SecureWorks), Whois Hacking Team (McAfee), NewRomanic Cyber Army Team (McAfee), Zinc (Microsoft), Hidden Cobra (Trend Micro), Appleworm (Symantec), APT-C-26 (Qihoo 360), ATK 3 (Thales), SectorA01 (ThreatRecon), ITG03 (IBM), TA404 (Proofpoint), DEV-0139 (Microsoft), Guardians of Peace (self given), Gods Apostles (self given), Gods Disciples (self given), UNC577 (Mandiant), UNC2970 (Mandiant), UNC4034 (Mandiant), UNC4736 (Mandiant), UNC4899 (Mandiant), Diamond Sleet (Microsoft), Citrine Sleet (Microsoft), Jade Sleet (Microsoft), TraderTraitor (CISA), Gleaming Pisces (Palo Alto), Slow Pisces (Palo Alto), G0032 (MITRE)\nOrigin: North Korea\nObserved Sectors: Aerospace, Defense, Energy, Engineering, Financial, Government, Healthcare, Media, Shipping and Logistics, Technology, BitCoin exchanges\nObserved Countries: Australia, Bangladesh, Belgium, Brazil, Canada, Chile, China, Ecuador, France, Germany, Guatemala, Hong Kong, India, Israel, Japan, Mexico, Netherlands, Philippines, Poland, Russia, South Africa, South Korea, Taiwan, Thailand, UK, USA, Vietnam, Worldwide (WannaCry)\nTools: 3proxy, 3Rat Client, Andaratm, AppleJeus, ARTFULPIE, Aryan, ATMDtrack, AuditCred, BADCALL, Bankshot, BanSwift, BISTROMATH, Bitsran, BLINDINGCAN, BlindToad, Bookcode, BootWreck, BottomLoader, Brambul, BTC Changer, BUFFETLINE, Castov, CheeseTray, CleanToad, ClientTraficForwarder, COLDCAT, CollectionRAT, Concealment Troy, Contopee, CookieTime, Dacls RAT, DarkComet, DAVESHELL, DBLL Dropper, DeltaCharlie, Destover, DLRAT, Dozer, DoublePulsar, DRATzarus, Dtrack, Duuzer, DyePack, ELECTRICFISH, EternalBlue, FALLCHILL, Fimlis, FudModule, Gh0st RAT, Gopuram, HARDRAIN, Hawup, Hermes, HLOADER, HOOKSHOT, HOPLIGHT, HotelAlfa, HOTCROISSANT, Hotwax, HtDnDownLoader, Http Dr0pper, HTTP Troy, ICONICSTEALER, Joanap, Jokra, KANDYKORN, KEYMARBLE, KillDisk, Koredos, Lazarus, LightlessCan, LIGHTSHIFT, LIGHTSHOW, MagicRAT, MATA, Mimikatz, Mydoom, NachoCheese, NestEgg, NickelLoader, NineRAT, NukeSped, OpBlockBuster, PEBBLEDASH, PhanDoor, PLANKWALK, Plink, PondRAT, POOLRAT, PowerBrace, PowerRatankba, PowerShell RAT, PowerSpritz, PowerTask, ProcDump, Proxysvc, PSLogger, Quickcafe, QuiteRAT, Ratankba, RatankbaPOS, RawDisk, Recon, RedShawl, Rifdoor, Rising Sun, Romeos, RomeoAlfa, RomeoBravo, RomeoCharlie, RomeoDelta, RomeoEcho, RomeoFoxtrot, RomeoGolf, RomeoHotel, RomeoMike, RomeoNovember, RomeoWhiskey, RustBucket, Scout, SHARPKNOT, SheepRAT, SIDESHOW, SierraAlfa, SierraCharlie, SIGFLIP, SLICKSHOES, SmallTiger, Stunnel, SUDDENICON, SUGARLOADER, TAINTEDSCRIBE, TAXHAUL, Tdrop, Tdrop2, TFlower, ThreatNeedle, TigerRAT, TOUCHKEY, TOUCHMOVE, TOUCHSHIFT, TOUCHSHOT, Troy, TYPEFRAME, ValeforBeta, VEILEDSIGNAL, VHD, Volgmer, VSingle, Vyveva, WannaCry, WbBot, WinorDLL64, WolfRAT, Wormhole, YamaBot, Yort, Living off the Land\nCampaigns: Operation “Flame”\nTarget: South Korean government.\nMethod: Disruption and sabotage., Operation “Troy”\nNorth Korean hackers are suspected of launching a cyber-attack on some of the most important government offices in the US and South Korea in recent days, including the White House, the Pentagon, the New York Stock Exchange and the presidential Blue House in Seoul.\nThe attack took out some of South Korea’s most important websites, including those of the Blue House, the defense ministry, the national assembly, Shinhan bank, Korea Exchange bank and the top internet portal Naver.\nTarget: Government, financial and media institutions in South Korea and USA.\nMethod: DdoS attacks.\nhttps://www.theguardian.com/world/2009/jul/08/south-korea-cyber-attack, Attack on South Korean banks and media\nRecent Distributed Denial of Service (DdoS) attacks on a number South Korean websites have been in news for the past week. The threat responsible for carrying out these attacks is Trojan.Koredos.\nTarget: South Korean organizations.\nMethod: DdoS attacks and destruction of infected machines.\nhttps://www.symantec.com/connect/blogs/trojankoredos-comes-unwelcomed-surprise, Operation “Ten Days of Rain” / ”DarkSeoul”\nComputer networks running three major South Korean banks and the country’s two largest broadcasters were paralyzed Wednesday in attacks that some experts suspected originated in North Korea, which has consistently threatened to cripple its far richer neighbor.\nThe attacks, which left many South Koreans unable to withdraw money from A.T.M.’s and news broadcasting crews staring at blank computer screens, came as the North’s official Korean Central News Agency quoted the country’s leader, Kim Jong-un, as threatening to destroy government installations in the South, along with American bases in the Pacific.\nTarget: Three broadcasting stations and a bank in South Korea.\nMethod: Infecting with viruses, stealing and wiping information.\nhttps://www.nytimes.com/2013/03/21/world/asia/south-korea-computer-network-crashes.html, South Korean Financial Companies Targeted by Castov\nIn the past few months we have been actively monitoring an exploit kit, called Gongda, which is mainly targeting South Korea. Interestingly, we have come across a piece of malware, known as Castov, being delivered by this exploit kit that targets specific South Korean financial companies and their customers. The cybercriminals in this case have done their research on the South Korean online financial landscape.\nhttps://www.symantec.com/connect/blogs/south-korean-financial-companies-targeted-castov, DarkSeoul Cyberattacks Against South Korea Continue on Anniversary of Korean War\nYesterday, June 25, the Korean peninsula observed a series of cyberattacks coinciding with the 63rd anniversary of the start of the Korean War. While multiple attacks were conducted by multiple perpetrators, one of the distributed denial-of-service (DdoS) attacks observed yesterday against South Korean government websites can be directly linked to the DarkSeoul gang and Trojan.Castov.\nhttps://www.symantec.com/connect/blogs/four-years-darkseoul-cyberattacks-against-south-korea-continue-anniversary-korean-war, Operation “Blockbuster”: Breach of Sony Pictures Entertainment\nThe attack on Sony Pictures became public knowledge on November 24, 2014, when Sony employees turned on their computers to be greeted with the sight of a neon red skeleton and the words “Hacked by GOP”, which stood for “Guardians of the Peace”. The message also threatened to release data later that day if an unspecified request was not met. Over the following weeks, huge swathes of information stolen from Sony were released, including: personal information about employees and their families; email correspondence between employees at the company; information about company salaries, unreleased Sony films, and other information.\nTarget: Sony Pictures Entertainment (released the “Interview” movie, ridiculing the North Korean leader).\nMethod: Infecting with malware, stealing and wiping data of the company’s employees, correspondence, copies of unreleased films.\nhttps://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/the-hack-of-sony-pictures-what-you-need-to-know\nhttps://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf, Using the Palo Alto Networks AutoFocus threat intelligence platform, we identified several samples of malicious code with behavior similar to the aforementioned Operation Troy campaign dating back to June 2015, over two years after the original attacks in South Korea. Session data revealed a live attack targeting the transportation and logistics sector in Europe.\nhttps://unit42.paloaltonetworks.com/tdrop2-attacks-suggest-dark-seoul-attackers-return/, The Blockbuster Sequel\nThis recently identified activity is targeting Korean speaking individuals, while the threat actors behind the attack likely speak both Korean and English. This blog will detail the recently discovered samples, their functionality, and their ties to the threat group behind Operation Blockbuster.\nhttps://unit42.paloaltonetworks.com/unit42-the-blockbuster-sequel/, WannaCry ransomware\nThaiCERT's whitepaper:\nhttps://www.dropbox.com/s/hpr9fas9xbzo2uz/Whitepaper WannaCry Ransomware.pdf?dl=0, We analyzed a new RATANKBA variant (BKDR_RATANKBA.ZAEL–A), discovered in June 2017, that uses a PowerShell script instead of its more traditional PE executable form—a version that other researchers also recently identified.\nhttps://blog.trendmicro.com/trendlabs-security-intelligence/lazarus-campaign-targeting-cryptocurrencies-reveals-remote-controller-tool-evolved-ratankba/, The Blockbuster Saga Continues\nUnit 42 researchers at Palo Alto Networks have discovered new attack activity targeting individuals involved with United States defense contractors.\nhttps://unit42.paloaltonetworks.com/unit42-blockbuster-saga-continues/, Several financial sector and a casino breaches using KillDisk wiping malware in Latin America and USA.\nhttps://blog.trendmicro.com/trendlabs-security-intelligence/new-killdisk-variant-hits-financial-organizations-in-latin-america/\nhttps://www.welivesecurity.com/2018/04/03/lazarus-killdisk-central-american-casino/, Cryptocurrency attacks on South Korean exchanges.\nhttps://www.proofpoint.com/sites/default/files/pfpt-us-wp-north-korea-bitten-by-bitcoin-bug.pdf\nhttps://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/, F-Secure’s investigation revealed that a system administrator from the target organization received a phishing document via their personal LinkedIn account. The document masqueraded as a legitimate job advert for a role in a blockchain technology company that matched the employee’s skills.\nhttps://labs.f-secure.com/assets/BlogFiles/f-secureLABS-tlp-white-lazarus-threat-intel-report2.pdf, APT attack on Turkish Financial Sector.\nTarget: Turkish Financial Sector.\nMethod: Spear-phishing with Bankshot implant.\nhttps://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/hidden-cobra-targets-turkish-financial-sector-new-bankshot-implant/, Operation “GhostSecret”\nTarget: The impacted organizations are in industries such as telecommunications, health, finance, critical infrastructure, and entertainment.\nMethod: Spear-phishing with Destover-like implant.\nhttps://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/analyzing-operation-ghostsecret-attack-seeks-to-steal-data-worldwide/, The first artefacts we found relating to MATA were used around April 2018. After that, the actor behind this advanced malware framework used it aggressively to infiltrate corporate entities around the world.\nhttps://securelist.com/mata-multi-platform-targeted-malware-framework/97746/, Operation “AppleJeus”\nTarget: Cryptocurrency exchange.\nMethod: Fake installer and macOS malware.\nhttps://securelist.com/operation-applejeus/87553/, Operation “CryptoCore”\nOperation “Dangerous Password”\nOperation “Leery Turtle”\nhttps://www.clearskysec.com/wp-content/uploads/2020/06/CryptoCore_Group.pdf\nhttps://www.clearskysec.com/wp-content/uploads/2021/05/CryptoCore-Lazarus-Clearsky.pdf, Our investigation into the Dtrack RAT actually began with a different activity. In the late summer of 2018, we discovered ATMDtrack, a piece of banking malware targeting Indian banks. Further analysis showed that the malware was designed to be planted on the victim’s ATMs, where it could read and store the data of cards that were inserted into the machines.\nhttps://securelist.com/my-name-is-dtrack/93338/, Operation “Sharpshooter”\nTarget: 87 organizations in many different sectors (majority Government and Defense) across the globe, predominantly in the United States.\nMethod: Rising Sun implant to gather intelligence.\nhttps://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/operation-sharpshooter-targets-global-defense-critical-infrastructure/, More Attacks on Cryptocurrency Businesses\nTarget: Some of the documents (for instance one entitled “sample document for business plan evaluation of venture company”) were prepared in Korean, presumably to target South Korean businesses. Another contains a business overview of what seems to be a Chinese technology consulting group named LAFIZ (“we couldn’t confirm if it’s a legitimate business or another fake company made up by Lazarus,” Kaspersky Lab researchers said). Yet another provided information for coin listings with a translation in Korean, researchers said.\nMethod: Documents containing weaponized macros, “carefully prepared to attract the attention of cryptocurrency professionals.” It utilizes PowerShell to control Windows systems and macOS malware for Apple users.\nhttps://securelist.com/cryptocurrency-businesses-still-being-targeted-by-lazarus/90019/, The infamous Lazarus threat actor group has been found targeting an Israeli defense company, according to new research outlined by a cybersecurity firm ClearSky. The campaign is carried out with an intention to steal military and commercial secrets.\nhttps://cyware.com/news/lazarus-hacking-group-expand-their-attack-horizon-by-targeting-an-israeli-defense-company-02e2ec77, Operation “AppleJeus sequel”\nAs a result of our ongoing efforts, we identified significant changes to the group’s attack methodology.\nhttps://securelist.com/operation-applejeus-sequel/95596/, “Hoplight” Malware Campaign\nKnown as “Hoplight,” the malware is a collection of nine files, though most of those are designed to work as obfuscation layers to keep admins and security software from spotting the attack.\nhttps://www.theregister.co.uk/2019/04/10/lazarus_group_malware/, North Korean Tunneling Tool: ELECTRICFISH\nThis report provides analysis of one malicious 32-bit Windows executable file. The malware implements a custom protocol that allows traffic to be funneled between a source and a destination Internet Protocol (IP) address. The malware continuously attempts to reach out to the source and the designation system, which allows either side to initiate a funneling session. The malware can be configured with a proxy server/port and proxy username and password. This feature allows connectivity to a system sitting inside of a proxy server, which allows the actor to bypass the compromised system’s required authentication to reach outside of the network.\nhttps://www.us-cert.gov/ncas/analysis-reports/AR19-129A, Hackers associated with the APT Lazarus/HIDDEN COBRA group were found to be breaking into online stores of large US retailers and planting payment skimmers as early as May 2019.\nhttps://sansec.io/research/north-korea-magecart, Operation “In(ter)caption”\nOperation “In(ter)caption”\nAt the end of last year, we discovered targeted attacks against aerospace and military companies in Europe and the Middle East, active from September to December 2019. A collaborative investigation with two of the affected European companies allowed us to gain insight into the operation and uncover previously undocumented malware.\nhttps://www.welivesecurity.com/wp-content/uploads/2020/06/ESET_Operation_Interception.pdf, Lazarus Group’s MATA Framework Leveraged to Deploy TFlower Ransomware\nhttps://www.sygnia.co/mata-framework, Dacls, the Dual platform RAT\nhttps://blog.netlab.360.com/dacls-the-dual-platform-rat-en/, The Deadly Planeswalker: How The TrickBot Group United High-Tech Crimeware & APT\nhttps://labs.sentinelone.com/the-deadly-planeswalker-how-the-trickbot-group-united-high-tech-crimeware-apt/, Operation “North Star”\nIn this 2020 campaign McAfee ATR discovered a series of malicious documents containing job postings taken from leading defense contractors to be used as lures, in a very targeted fashion.\nhttps://www.mcafee.com/blogs/other-blogs/mcafee-labs/operation-north-star-a-job-offer-thats-too-good-to-be-true/\nhttps://www.mcafee.com/blogs/other-blogs/mcafee-labs/operation-north-star-summary-of-our-latest-analysis/\nhttps://www.mcafee.com/blogs/other-blogs/mcafee-labs/operation-north-star-behind-the-scenes/, Operation “Dream Job”\nUpon infection, the attackers collected intelligence regarding the company’s activity, and also its financial affairs, probably in order to try and steal some money from it.\nhttps://www.clearskysec.com/wp-content/uploads/2020/08/Dream-Job-Campaign.pdf, Lazarus BTC Changer\nhttps://www.group-ib.com/blog/btc_changer, Lazarus on the hunt for big game\nhttps://securelist.com/lazarus-on-the-hunt-for-big-game/97757/, New Mac variant of Lazarus Dacls RAT distributed via Trojanized 2FA app\nhttps://blog.malwarebytes.com/threat-analysis/2020/05/new-mac-variant-of-lazarus-dacls-rat-distributed-via-trojanized-2fa-app/, We discovered another malware cluster named CookieTime used in a campaign mainly focused on the defense industry.\nhttps://securelist.com/apt-trends-report-q1-2021/101967/, Covid-19 Relief: North Korea Hackers Lazarus Planning Massive Attack on US, UK, Japan, Singapore, India, South Korea?\nhttps://www.ibtimes.sg/covid-19-relief-north-korea-hackers-lazarus-planning-massive-attack-us-uk-japan-singapore-47072, ESET researchers have discovered a previously undocumented Lazarus backdoor, which they have dubbed Vyveva, being used to attack a freight logistics company in South Africa.\nhttps://www.welivesecurity.com/2021/04/08/are-you-afreight-dark-watch-out-vyveva-new-lazarus-backdoor/, Lazarus targets defense industry with ThreatNeedle\nhttps://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-Lazarus-targets-defense-industry-with-Threatneedle-En.pdf, North Korean hackers are targeting Israel's defense sector, Israel Ministry of Defense claims\nhttps://www.cyberscoop.com/north-korea-hackers-lazarus-group-israel-defense/, ESET researchers uncover a novel Lazarus supply-chain attack leveraging WIZVERA VeraPort software\nhttps://www.welivesecurity.com/2020/11/16/lazarus-supply-chain-attack-south-korea/, As the COVID-19 crisis grinds on, some threat actors are trying to speed up vaccine development by any means available. We have found evidence that actors, such as the Lazarus group, are going after intelligence that could help these efforts by attacking entities related to COVID-19 research.\nhttps://securelist.com/lazarus-covets-covid-19-related-intelligence/99906/, New campaign targeting security researchers\nhttps://blog.google/threat-analysis-group/new-campaign-targeting-security-researchers/\nhttps://www.zdnet.com/article/google-north-korean-hackers-have-targeted-security-researchers-via-social-media/\nhttps://www.microsoft.com/security/blog/2021/01/28/zinc-attacks-against-security-researchers/, Lazarus Attack Activities Targeting Japan (VSingle/ValeforBeta)\nhttps://blogs.jpcert.or.jp/en/2021/03/Lazarus_malware3.html, Update on campaign targeting security researchers\nhttps://blog.google/threat-analysis-group/update-campaign-targeting-security-researchers/, Lazarus campaign TTPs and evolution\nhttps://cybersecurity.att.com/blogs/labs-research/lazarus-campaign-ttps-and-evolution, Amazon‑themed campaigns of Lazarus in the Netherlands and Belgium\nhttps://www.welivesecurity.com/2022/09/30/amazon-themed-campaigns-lazarus-netherlands-belgium/, APT actor Lazarus attacks defense industry, develops supply chain attack capabilities\nhttps://usa.kaspersky.com/about/press-releases/2021_apt-actor-lazarus-attacks-defense-industry-develops-supply-chain-attack-capabilities, Lazarus hackers target researchers with trojanized IDA Pro\nhttps://www.bleepingcomputer.com/news/security/lazarus-hackers-target-researchers-with-trojanized-ida-pro/, Lazarus Trojanized DeFi app for delivering malware\nhttps://securelist.com/lazarus-trojanized-defi-app/106195/, Analysis Report on Lazarus Threat Group’s Volgmer and Scout Malware\nhttps://asec.ahnlab.com/en/57685/, North Korea’s Lazarus APT leverages Windows Update client, GitHub in latest campaign\nhttps://blog.malwarebytes.com/threat-intelligence/2022/01/north-koreas-lazarus-apt-leverages-windows-update-client-github-in-latest-campaign/, Lazarus Targets Chemical Sector\nhttps://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/lazarus-dream-job-chemical, Operation “LolZarus”\nQualys Threat Research has identified a new Lazarus campaign using employment phishing lures targeting the defence sector.\nhttps://blog.qualys.com/vulnerabilities-threat-research/2022/02/08/lolzarus-lazarus-group-incorporating-lolbins-into-campaigns, On February 10, Threat Analysis Group discovered two distinct North Korean government-backed attacker groups exploiting a remote code execution vulnerability in Chrome, CVE-2022-0609.\nhttps://blog.google/threat-analysis-group/countering-threats-north-korea/, Tracing State-Aligned Activity Targeting Journalists, Media\nhttps://www.proofpoint.com/us/blog/threat-insight/above-fold-and-your-inbox-tracing-state-aligned-activity-targeting-journalists, Lazarus and the tale of three RATs\nhttps://blog.talosintelligence.com/2022/09/lazarus-three-rats.html, MagicRAT: Lazarus’ latest gateway into victim networks\nhttps://blog.talosintelligence.com/2022/09/lazarus-magicrat.html, A hacker stole $625 million from the blockchain behind NFT game Axie Infinity\nhttps://www.theverge.com/2022/3/29/23001620/sky-mavis-axie-infinity-ronin-blockchain-validation-defi-hack-nft\nhttps://www.cisa.gov/uscert/ncas/alerts/aa22-108a, Lazarus Group Exploiting Log4Shell Vulnerability (NukeSped)\nhttps://asec.ahnlab.com/en/34461/, Lazarus Group Exploits Zero-Day Vulnerability to Hack South Korean Financial Entity\nhttps://thehackernews.com/2023/03/lazarus-group-exploits-zero-day.html, North Korea accused of orchestrating $100 million Harmony crypto hack\nhttps://therecord.media/north-korea-accused-of-orchestrating-100-million-harmony-crypto-hack/, Stealing the LIGHTSHOW\nhttps://www.mandiant.com/resources/blog/lightshow-north-korea-unc2970\nhttps://www.mandiant.com/resources/blog/lightshift-and-lightshow, ZINC weaponizing open-source software\nhttps://www.microsoft.com/en-us/security/blog/2022/09/29/zinc-weaponizing-open-source-software/, ₿uyer ₿eware: Fake Cryptocurrency Applications Serving as Front for AppleJeus Malware\nhttps://www.volexity.com/blog/2022/12/01/buyer-beware-fake-cryptocurrency-applications-serving-as-front-for-applejeus-malware/\nhttps://www.microsoft.com/en-us/security/blog/2022/12/06/dev-0139-launches-targeted-attacks-against-the-cryptocurrency-industry/, Lazarus and the tale of three RATs\nhttps://blog.talosintelligence.com/lazarus-three-rats/, deBridge Finance crypto platform targeted by Lazarus hackers\nhttps://www.bleepingcomputer.com/news/security/debridge-finance-crypto-platform-targeted-by-lazarus-hackers/, Lazarus ‘Operation In(ter)ception’ Targets macOS Users Dreaming of Jobs in Crypto\nhttps://www.sentinelone.com/blog/lazarus-operation-interception-targets-macos-users-dreaming-of-jobs-in-crypto/, Operation “No Pineapple!”\nNorth Korean hackers stole research data in two-month-long breach\nhttps://www.bleepingcomputer.com/news/security/north-korean-hackers-stole-research-data-in-two-month-long-breach/, SlowMist: Investigation of North Korean APT’s Large-Scale Phishing Attack on NFT Users\nhttps://slowmist.medium.com/slowmist-our-in-depth-investigation-of-north-korean-apts-large-scale-phishing-attack-on-nft-users-362117600519, Lazarus and the FudModule Rootkit: Beyond BYOVD with an Admin-to-Kernel Zero-Day\nhttps://decoded.avast.io/janvojtesek/lazarus-and-the-fudmodule-rootkit-beyond-byovd-with-an-admin-to-kernel-zero-day/, DPRK Using Unpatched Zimbra Devices to Spy on Researchers\nhttps://www.darkreading.com/remote-workforce/dprk-using-unpatched-zimbra-devices-to-spy-on-researchers-, 3CX Software Supply Chain Compromise Initiated by a Prior Software Supply Chain Compromise; Suspected North Korean Actor Responsible\nhttps://www.mandiant.com/resources/blog/3cx-software-supply-chain-compromise\nhttps://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/xtrader-3cx-supply-chain, North Korean hackers linked to defense sector supply-chain attack\nhttps://www.bleepingcomputer.com/news/security/north-korean-hackers-linked-to-defense-sector-supply-chain-attack/, DPRK hacking groups breach South Korean defense contractors\nhttps://www.bleepingcomputer.com/news/security/dprk-hacking-groups-breach-south-korean-defense-contractors/, Lazarus Group's infrastructure reuse leads to discovery of new malware\nhttps://blog.talosintelligence.com/lazarus-collectionrat/, Lazarus Group exploits ManageEngine vulnerability to deploy QuiteRAT\nhttps://blog.talosintelligence.com/lazarus-quiterat/, More evidence links 3CX supply-chain attack to North Korean hacking group\nhttps://therecord.media/3cx-attack-north-korea-lazarus-group\nhttps://securelist.com/gopuram-backdoor-deployed-through-3cx-supply-chain-attack/109344/\nhttps://www.3cx.com/blog/news/mandiant-initial-results/, Linux malware strengthens links between Lazarus and the 3CX supply‑chain attack\nhttps://www.welivesecurity.com/2023/04/20/linux-malware-strengthens-links-lazarus-3cx-supply-chain-attack/, Lazarus luring employees with trojanized coding challenges: The case of a Spanish aerospace company\nhttps://www.welivesecurity.com/en/eset-research/lazarus-luring-employees-trojanized-coding-challenges-case-spanish-aerospace-company/, Lazarus Group Targeting Windows IIS Web Servers\nhttps://asec.ahnlab.com/en/53132/, North Korea’s Lazarus Group Likely Responsible For $35 Million Atomic Crypto Theft\nhttps://hub.elliptic.co/analysis/north-korea-s-lazarus-group-likely-responsible-for-35-million-atomic-crypto-theft/, Lazarus Threat Group Exploiting Vulnerability of Korean Finance Security Solution\nhttps://asec.ahnlab.com/en/54195/, North Korea Leverages SaaS Provider in a Targeted Supply Chain Attack\nhttps://www.mandiant.com/resources/blog/north-korea-supply-chain, Security alert: social engineering campaign targets technology industry employees\nhttps://github.blog/2023-07-18-security-alert-social-engineering-campaign-targets-technology-industry-employees/, Lazarus Threat Group Attacking Windows Servers to Use as Malware Distribution Points\nhttps://asec.ahnlab.com/en/55369/, CoinsPaid blames Lazarus hackers for theft of $37,300,000 in crypto\nhttps://www.bleepingcomputer.com/news/security/coinspaid-blames-lazarus-hackers-for-theft-of-37-300-000-in-crypto/, Lazarus hackers linked to $60 million Alphapo cryptocurrency heist\nhttps://www.bleepingcomputer.com/news/security/lazarus-hackers-linked-to-60-million-alphapo-cryptocurrency-heist/, A cascade of compromise: unveiling Lazarus’ new campaign\nhttps://securelist.com/unveiling-lazarus-new-campaign/110888/, VMConnect: Malicious PyPI packages imitate popular open source modules\nhttps://www.reversinglabs.com/blog/vmconnect-malicious-pypi-packages-imitate-popular-open-source-modules\nhttps://www.reversinglabs.com/blog/vmconnect-supply-chain-campaign-continues, FBI Identifies Lazarus Group Cyber Actors as Responsible for Theft of $41 Million from Stake.com\nhttps://www.fbi.gov/news/press-releases/fbi-identifies-lazarus-group-cyber-actors-as-responsible-for-theft-of-41-million-from-stakecom, CoinEx confirms hack after $31 million in cryptocurrency allegedly stolen from exchange\nhttps://therecord.media/coinex-confirms-hack-after-31-million-allegedly-stolen\nhttps://therecord.media/coinex-cryptocurrency-heist-north-korea, Multiple North Korean threat actors exploiting the TeamCity CVE-2023-42793 vulnerability\nhttps://www.microsoft.com/en-us/security/blog/2023/10/18/multiple-north-korean-threat-actors-exploiting-the-teamcity-cve-2023-42793-vulnerability/, Operation “Dream Magic”\nhttps://asec.ahnlab.com/en/57736/, Elastic catches DPRK passing out KANDYKORN\nhttps://www.elastic.co/security-labs/elastic-catches-dprk-passing-out-kandykorn\nhttps://www.sentinelone.com/blog/dprk-crypto-theft-macos-rustbucket-droppers-pivot-to-deliver-kandykorn-payloads/, Diamond Sleet supply chain compromise distributes a modified CyberLink installer\nhttps://www.microsoft.com/en-us/security/blog/2023/11/22/diamond-sleet-supply-chain-compromise-distributes-a-modified-cyberlink-installer/, Lazarus Group Uses the DLL Side-Loading Technique\nhttps://asec.ahnlab.com/en/60792/, New Malicious PyPI Packages used by Lazarus\nhttps://blogs.jpcert.or.jp/en/2024/02/lazarus_pypi.html, Slow Pisces Targets Developers With Coding Challenges and Introduces New Customized Python Malware\nhttps://unit42.paloaltonetworks.com/slow-pisces-new-custom-malware/, The Crypto Game of Lazarus APT: Investors vs. Zero-days\nhttps://securelist.com/lazarus-apt-steals-crypto-with-a-tank-game/114282/, FBI links North Korean hackers to $308 million crypto heist\nhttps://www.bleepingcomputer.com/news/security/fbi-links-north-korean-hackers-to-308-million-crypto-heist/, Fake recruiter coding tests target devs with malicious Python packages\nhttps://www.reversinglabs.com/blog/fake-recruiter-coding-tests-target-devs-with-malicious-python-packages, An Offer You Can Refuse: UNC2970 Backdoor Deployment Using Trojanized PDF Reader\nhttps://cloud.google.com/blog/topics/threat-intelligence/unc2970-backdoor-trojanized-pdf-reader, North Korean threat actor Citrine Sleet exploiting Chromium zero-day\nhttps://www.microsoft.com/en-us/security/blog/2024/08/30/north-korean-threat-actor-citrine-sleet-exploiting-chromium-zero-day/, Gleaming Pisces Poisoned Python Packages Campaign Delivers PondRAT Linux and MacOS Backdoors\nhttps://unit42.paloaltonetworks.com/gleaming-pisces-applejeus-poolrat-and-pondrat/, Radiant links $50 million crypto heist to North Korean hackers\nhttps://www.bleepingcomputer.com/news/security/radiant-links-50-million-crypto-heist-to-north-korean-hackers/, Operation “SyncHole”\nOperation SyncHole: Lazarus APT goes back to the well\nhttps://securelist.com/operation-synchole-watering-hole-attacks-by-lazarus/116326/, Operation “99”\nNorth Korean State Sponsored Supply Chain Attack on Tech Innovation\nhttps://securityscorecard.com/wp-content/uploads/2025/01/Report_011325_Strike_Operation99.pdf, Operation “Phantom Circuit”\nOperation Phantom Circuit: North Korea’s Global Data Exfiltration Campaign\nhttps://securityscorecard.com/wp-content/uploads/2025/01/Operation-Phantom-Circuit-Report_012725_03.pdf, Operation “Marstech Mayhem”\nLazarus Group’s Open-Source Trap: North Korea’s New Malware Tactic Targeting Developers and Crypto Wallets\nhttps://securityscorecard.com/wp-content/uploads/2025/02/Operation-Marstech-Mayhem-Report_021025_03.pdf, North Korean hackers linked to $1.5 billion ByBit crypto heist\nhttps://www.bleepingcomputer.com/news/security/north-korean-hackers-linked-to-15-billion-bybit-crypto-heist/\nhttps://therecord.media/north-koreans-initial-laundering-bybit-hack, Beyond the Pond Phish: Unraveling Lazarus Group’s Evolving Tactics\nhttps://blog.bitmex.com/bitmex-busts-lazarus-group/, BitoPro exchange links Lazarus hackers to $11 million crypto heist\nhttps://www.bleepingcomputer.com/news/security/bitopro-exchange-links-lazarus-hackers-to-11-million-crypto-heist/\nSponsorship: State-sponsored, Bureau/Unit 211\nDescription: (Malwarebytes) Lazarus Group is commonly believed to be run by the North Korean government, motivated primarily by financial gain as a method of circumventing long-standing sanctions against the regime. They first came to substantial media notice in 2013 with a series of coordinated attacks against an assortment of South Korean broadcasters and financial institutions using DarkSeoul, a wiper program that overwrites sections of the victims’ master boot record.\n\nIn November 2014, a large scale breach of Sony Pictures was attributed to Lazarus. The attack was notable due to its substantial penetration across Sony networks, the extensive amount of data exfiltrated and leaked, as well of use of a wiper in a possible attempt to erase forensic evidence. Attribution on the attacks was largely hazy, but the FBI released a statement tying the Sony breach to the earlier DarkSeoul attack, and officially attributed both incidents to North Korea.\n\nFast forward to May 2017 with the widespread outbreak of WannaCry, a piece of ransomware that used an SMB exploit as an attack vector. Attribution to North Korea rested largely on code reuse between WannaCry and previous North Korean attacks, but this was considered to be thin grounds given the common practice of tool sharing between regional threat groups. Western intelligence agencies released official statements to the public reaffirming the attribution, and on September 6, 2018, the US Department of Justice charged a North Korean national with involvement in both WannaCry and the Sony breach.\n\nLazarus Group has 3 subgroups:\n1. {{Subgroup: Andariel, Silent Chollima}}\n2. {{Subgroup: BeagleBoyz}}\n3. {{Subgroup: Bluenoroff, APT 38, Stardust Chollima}}\n4. {{Subgroup: Operation Contagious Interview}}\n\nThe following groups may be associated with the Lazarus Group: {{Covellite}}, {{Reaper, APT 37, Ricochet Chollima, ScarCruft}}, {{Wassonite}} and {{Moonstone Sleet}}.\nLast Known Activity: 2025-08-16\nfirst_seen: 2007\nmotivations: Information theft and espionage, Sabotage and destruction, Financial crime",
+            "score": 0.4872,
+            "source": "entity_profile",
+            "actor": "Lazarus Group, Hidden Cobra, Labyrinth Chollima",
+            "links": [
+              "https://blog.malwarebytes.com/threat-analysis/2019/03/the-advanced-persistent-threat-files-lazarus-group/",
+              "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/a-look-into-the-lazarus-groups-operations",
+              "https://www.kaspersky.com/about/press-releases/2017_chasing-lazarus-a-hunt-for-the-infamous-hackers-to-prevent-large-bank-robberies",
+              "https://medium.com/threat-intel/lazarus-attacks-wannacry-5fdeddee476c",
+              "https://content.fireeye.com/apt/rpt-apt38",
+              "https://www.us-cert.gov/HIDDEN-COBRA-North-Korean-Malicious-Cyber-Activity",
+              "https://www.us-cert.gov/ncas/alerts/aa20-106a",
+              "https://www.us-cert.gov/ncas/current-activity/2020/05/12/north-korean-malicious-cyber-activity",
+              "https://global.ahnlab.com/global/upload/download/techreport/%5BAhnLab%5DAndariel_a_Subgroup_of_Lazarus%20(3).pdf",
+              "https://exchange.xforce.ibmcloud.com/threat-group/0c0c39d309b5c7f00a0a7edd54bb025e",
+              "https://www.sentinelone.com/blog/four-distinct-families-of-lazarus-malware-target-apples-macos-platform/",
+              "http://www.documentcloud.org/documents/7038686-US-Army-report-on-North-Korean-military.html",
+              "https://public.intel471.com/blog/partners-in-crime-north-koreans-and-elite-russian-speaking-cybercriminals/",
+              "https://www.hvs-consulting.de/media/downloads/ThreatReport-Lazarus.pdf",
+              "https://www.newyorker.com/magazine/2021/04/26/the-incredible-rise-of-north-koreas-hacking-army",
+              "https://blogs.jpcert.or.jp/en/2021/01/Lazarus_tools.html",
+              "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/lazarus-recruitment/",
+              "https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/the-hermit-kingdoms-ransomware-play.html",
+              "https://asec.ahnlab.com/en/48223/",
+              "https://securelist.com/the-lazarus-group-deathnote-campaign/109490/",
+              "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+              "https://www.trmlabs.com/post/inside-north-koreas-crypto-heists",
+              "https://www.elliptic.co/blog/how-the-lazarus-group-is-stepping-up-crypto-hacks-and-changing-its-tactics",
+              "https://thehackernews.com/2023/10/north-koreas-lazarus-group-launders-900.html",
+              "https://www.hhs.gov/sites/default/files/manage-engine-vulnerability-sector-alert-tlpclear.pdf",
+              "https://eng.nis.go.kr/common/download.do?type=&seq=8E464392CD0485169FA97278AEE8B607",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-1130.pdf",
+              "https://www.trmlabs.com/post/north-korean-hackers-stole-600-million-in-crypto-in-2023",
+              "https://jsac.jpcert.or.jp/archive/2024/pdf/JSAC2024_1_6_dongwook-kim_seulgi-lee_en.pdf",
+              "https://www.elliptic.co/blog/north-korean-hackers-return-to-tornado-cash-despite-sanctions",
+              "https://www.bleepingcomputer.com/news/cryptocurrency/coinstats-says-north-korean-hackers-breached-1-590-crypto-wallets/",
+              "https://www.group-ib.com/blog/apt-lazarus-python-scripts/",
+              "https://www.group-ib.com/blog/stealthy-attributes-of-apt-lazarus/",
+              "https://securelist.com/lazarus-new-malware/115059/",
+              "https://www.sonatype.com/hubfs/White_Papers/How-North-Korea-Backed-Lazarus-Group-is-Weaponizing-Open-Source-Whitepaper.pdf"
+            ]
+          },
+          {
+            "text": "State-sponsored, Bureau/Unit 211",
+            "score": 0.4311,
+            "source": "sponsor",
+            "actor": "Lazarus Group, Hidden Cobra, Labyrinth Chollima",
+            "links": [
+              "https://blog.malwarebytes.com/threat-analysis/2019/03/the-advanced-persistent-threat-files-lazarus-group/",
+              "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/a-look-into-the-lazarus-groups-operations",
+              "https://www.kaspersky.com/about/press-releases/2017_chasing-lazarus-a-hunt-for-the-infamous-hackers-to-prevent-large-bank-robberies",
+              "https://medium.com/threat-intel/lazarus-attacks-wannacry-5fdeddee476c",
+              "https://content.fireeye.com/apt/rpt-apt38",
+              "https://www.us-cert.gov/HIDDEN-COBRA-North-Korean-Malicious-Cyber-Activity",
+              "https://www.us-cert.gov/ncas/alerts/aa20-106a",
+              "https://www.us-cert.gov/ncas/current-activity/2020/05/12/north-korean-malicious-cyber-activity",
+              "https://global.ahnlab.com/global/upload/download/techreport/%5BAhnLab%5DAndariel_a_Subgroup_of_Lazarus%20(3).pdf",
+              "https://exchange.xforce.ibmcloud.com/threat-group/0c0c39d309b5c7f00a0a7edd54bb025e",
+              "https://www.sentinelone.com/blog/four-distinct-families-of-lazarus-malware-target-apples-macos-platform/",
+              "http://www.documentcloud.org/documents/7038686-US-Army-report-on-North-Korean-military.html",
+              "https://public.intel471.com/blog/partners-in-crime-north-koreans-and-elite-russian-speaking-cybercriminals/",
+              "https://www.hvs-consulting.de/media/downloads/ThreatReport-Lazarus.pdf",
+              "https://www.newyorker.com/magazine/2021/04/26/the-incredible-rise-of-north-koreas-hacking-army",
+              "https://blogs.jpcert.or.jp/en/2021/01/Lazarus_tools.html",
+              "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/lazarus-recruitment/",
+              "https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/the-hermit-kingdoms-ransomware-play.html",
+              "https://asec.ahnlab.com/en/48223/",
+              "https://securelist.com/the-lazarus-group-deathnote-campaign/109490/",
+              "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+              "https://www.trmlabs.com/post/inside-north-koreas-crypto-heists",
+              "https://www.elliptic.co/blog/how-the-lazarus-group-is-stepping-up-crypto-hacks-and-changing-its-tactics",
+              "https://thehackernews.com/2023/10/north-koreas-lazarus-group-launders-900.html",
+              "https://www.hhs.gov/sites/default/files/manage-engine-vulnerability-sector-alert-tlpclear.pdf",
+              "https://eng.nis.go.kr/common/download.do?type=&seq=8E464392CD0485169FA97278AEE8B607",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-1130.pdf",
+              "https://www.trmlabs.com/post/north-korean-hackers-stole-600-million-in-crypto-in-2023",
+              "https://jsac.jpcert.or.jp/archive/2024/pdf/JSAC2024_1_6_dongwook-kim_seulgi-lee_en.pdf",
+              "https://www.elliptic.co/blog/north-korean-hackers-return-to-tornado-cash-despite-sanctions",
+              "https://www.bleepingcomputer.com/news/cryptocurrency/coinstats-says-north-korean-hackers-breached-1-590-crypto-wallets/",
+              "https://www.group-ib.com/blog/apt-lazarus-python-scripts/",
+              "https://www.group-ib.com/blog/stealthy-attributes-of-apt-lazarus/",
+              "https://securelist.com/lazarus-new-malware/115059/",
+              "https://www.sonatype.com/hubfs/White_Papers/How-North-Korea-Backed-Lazarus-Group-is-Weaponizing-Open-Source-Whitepaper.pdf"
+            ]
+          },
+          {
+            "text": "Labyrinth Chollima (CrowdStrike), Group 77 (Talos), Hastati Group (SecureWorks), Whois Hacking Team (McAfee), NewRomanic Cyber Army Team (McAfee), Zinc (Microsoft), Hidden Cobra (Trend Micro), Appleworm (Symantec), APT-C-26 (Qihoo 360), ATK 3 (Thales), SectorA01 (ThreatRecon), ITG03 (IBM), TA404 (Proofpoint), DEV-0139 (Microsoft), Guardians of Peace (self given), Gods Apostles (self given), Gods Disciples (self given), UNC577 (Mandiant), UNC2970 (Mandiant), UNC4034 (Mandiant), UNC4736 (Mandiant), UNC4899 (Mandiant), Diamond Sleet (Microsoft), Citrine Sleet (Microsoft), Jade Sleet (Microsoft), TraderTraitor (CISA), Gleaming Pisces (Palo Alto), Slow Pisces (Palo Alto), G0032 (MITRE)",
+            "score": 0.4272,
+            "source": "alias_givers",
+            "actor": "Lazarus Group, Hidden Cobra, Labyrinth Chollima",
+            "links": [
+              "https://blog.malwarebytes.com/threat-analysis/2019/03/the-advanced-persistent-threat-files-lazarus-group/",
+              "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/a-look-into-the-lazarus-groups-operations",
+              "https://www.kaspersky.com/about/press-releases/2017_chasing-lazarus-a-hunt-for-the-infamous-hackers-to-prevent-large-bank-robberies",
+              "https://medium.com/threat-intel/lazarus-attacks-wannacry-5fdeddee476c",
+              "https://content.fireeye.com/apt/rpt-apt38",
+              "https://www.us-cert.gov/HIDDEN-COBRA-North-Korean-Malicious-Cyber-Activity",
+              "https://www.us-cert.gov/ncas/alerts/aa20-106a",
+              "https://www.us-cert.gov/ncas/current-activity/2020/05/12/north-korean-malicious-cyber-activity",
+              "https://global.ahnlab.com/global/upload/download/techreport/%5BAhnLab%5DAndariel_a_Subgroup_of_Lazarus%20(3).pdf",
+              "https://exchange.xforce.ibmcloud.com/threat-group/0c0c39d309b5c7f00a0a7edd54bb025e",
+              "https://www.sentinelone.com/blog/four-distinct-families-of-lazarus-malware-target-apples-macos-platform/",
+              "http://www.documentcloud.org/documents/7038686-US-Army-report-on-North-Korean-military.html",
+              "https://public.intel471.com/blog/partners-in-crime-north-koreans-and-elite-russian-speaking-cybercriminals/",
+              "https://www.hvs-consulting.de/media/downloads/ThreatReport-Lazarus.pdf",
+              "https://www.newyorker.com/magazine/2021/04/26/the-incredible-rise-of-north-koreas-hacking-army",
+              "https://blogs.jpcert.or.jp/en/2021/01/Lazarus_tools.html",
+              "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/lazarus-recruitment/",
+              "https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/the-hermit-kingdoms-ransomware-play.html",
+              "https://asec.ahnlab.com/en/48223/",
+              "https://securelist.com/the-lazarus-group-deathnote-campaign/109490/",
+              "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+              "https://www.trmlabs.com/post/inside-north-koreas-crypto-heists",
+              "https://www.elliptic.co/blog/how-the-lazarus-group-is-stepping-up-crypto-hacks-and-changing-its-tactics",
+              "https://thehackernews.com/2023/10/north-koreas-lazarus-group-launders-900.html",
+              "https://www.hhs.gov/sites/default/files/manage-engine-vulnerability-sector-alert-tlpclear.pdf",
+              "https://eng.nis.go.kr/common/download.do?type=&seq=8E464392CD0485169FA97278AEE8B607",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-1130.pdf",
+              "https://www.trmlabs.com/post/north-korean-hackers-stole-600-million-in-crypto-in-2023",
+              "https://jsac.jpcert.or.jp/archive/2024/pdf/JSAC2024_1_6_dongwook-kim_seulgi-lee_en.pdf",
+              "https://www.elliptic.co/blog/north-korean-hackers-return-to-tornado-cash-despite-sanctions",
+              "https://www.bleepingcomputer.com/news/cryptocurrency/coinstats-says-north-korean-hackers-breached-1-590-crypto-wallets/",
+              "https://www.group-ib.com/blog/apt-lazarus-python-scripts/",
+              "https://www.group-ib.com/blog/stealthy-attributes-of-apt-lazarus/",
+              "https://securelist.com/lazarus-new-malware/115059/",
+              "https://www.sonatype.com/hubfs/White_Papers/How-North-Korea-Backed-Lazarus-Group-is-Weaponizing-Open-Source-Whitepaper.pdf"
+            ]
+          },
+          {
+            "text": "Australia, Bangladesh, Belgium, Brazil, Canada, Chile, China, Ecuador, France, Germany, Guatemala, Hong Kong, India, Israel, Japan, Mexico, Netherlands, Philippines, Poland, Russia, South Africa, South Korea, Taiwan, Thailand, UK, USA, Vietnam, Worldwide (WannaCry)",
+            "score": 0.4098,
+            "source": "observed_countries",
+            "actor": "Lazarus Group, Hidden Cobra, Labyrinth Chollima",
+            "links": [
+              "https://blog.malwarebytes.com/threat-analysis/2019/03/the-advanced-persistent-threat-files-lazarus-group/",
+              "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/a-look-into-the-lazarus-groups-operations",
+              "https://www.kaspersky.com/about/press-releases/2017_chasing-lazarus-a-hunt-for-the-infamous-hackers-to-prevent-large-bank-robberies",
+              "https://medium.com/threat-intel/lazarus-attacks-wannacry-5fdeddee476c",
+              "https://content.fireeye.com/apt/rpt-apt38",
+              "https://www.us-cert.gov/HIDDEN-COBRA-North-Korean-Malicious-Cyber-Activity",
+              "https://www.us-cert.gov/ncas/alerts/aa20-106a",
+              "https://www.us-cert.gov/ncas/current-activity/2020/05/12/north-korean-malicious-cyber-activity",
+              "https://global.ahnlab.com/global/upload/download/techreport/%5BAhnLab%5DAndariel_a_Subgroup_of_Lazarus%20(3).pdf",
+              "https://exchange.xforce.ibmcloud.com/threat-group/0c0c39d309b5c7f00a0a7edd54bb025e",
+              "https://www.sentinelone.com/blog/four-distinct-families-of-lazarus-malware-target-apples-macos-platform/",
+              "http://www.documentcloud.org/documents/7038686-US-Army-report-on-North-Korean-military.html",
+              "https://public.intel471.com/blog/partners-in-crime-north-koreans-and-elite-russian-speaking-cybercriminals/",
+              "https://www.hvs-consulting.de/media/downloads/ThreatReport-Lazarus.pdf",
+              "https://www.newyorker.com/magazine/2021/04/26/the-incredible-rise-of-north-koreas-hacking-army",
+              "https://blogs.jpcert.or.jp/en/2021/01/Lazarus_tools.html",
+              "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/lazarus-recruitment/",
+              "https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/the-hermit-kingdoms-ransomware-play.html",
+              "https://asec.ahnlab.com/en/48223/",
+              "https://securelist.com/the-lazarus-group-deathnote-campaign/109490/",
+              "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+              "https://www.trmlabs.com/post/inside-north-koreas-crypto-heists",
+              "https://www.elliptic.co/blog/how-the-lazarus-group-is-stepping-up-crypto-hacks-and-changing-its-tactics",
+              "https://thehackernews.com/2023/10/north-koreas-lazarus-group-launders-900.html",
+              "https://www.hhs.gov/sites/default/files/manage-engine-vulnerability-sector-alert-tlpclear.pdf",
+              "https://eng.nis.go.kr/common/download.do?type=&seq=8E464392CD0485169FA97278AEE8B607",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-1130.pdf",
+              "https://www.trmlabs.com/post/north-korean-hackers-stole-600-million-in-crypto-in-2023",
+              "https://jsac.jpcert.or.jp/archive/2024/pdf/JSAC2024_1_6_dongwook-kim_seulgi-lee_en.pdf",
+              "https://www.elliptic.co/blog/north-korean-hackers-return-to-tornado-cash-despite-sanctions",
+              "https://www.bleepingcomputer.com/news/cryptocurrency/coinstats-says-north-korean-hackers-breached-1-590-crypto-wallets/",
+              "https://www.group-ib.com/blog/apt-lazarus-python-scripts/",
+              "https://www.group-ib.com/blog/stealthy-attributes-of-apt-lazarus/",
+              "https://securelist.com/lazarus-new-malware/115059/",
+              "https://www.sonatype.com/hubfs/White_Papers/How-North-Korea-Backed-Lazarus-Group-is-Weaponizing-Open-Source-Whitepaper.pdf"
+            ]
+          },
+          {
+            "text": "3proxy, 3Rat Client, Andaratm, AppleJeus, ARTFULPIE, Aryan, ATMDtrack, AuditCred, BADCALL, Bankshot, BanSwift, BISTROMATH, Bitsran, BLINDINGCAN, BlindToad, Bookcode, BootWreck, BottomLoader, Brambul, BTC Changer, BUFFETLINE, Castov, CheeseTray, CleanToad, ClientTraficForwarder, COLDCAT, CollectionRAT, Concealment Troy, Contopee, CookieTime, Dacls RAT, DarkComet, DAVESHELL, DBLL Dropper, DeltaCharlie, Destover, DLRAT, Dozer, DoublePulsar, DRATzarus, Dtrack, Duuzer, DyePack, ELECTRICFISH, EternalBlue, FALLCHILL, Fimlis, FudModule, Gh0st RAT, Gopuram, HARDRAIN, Hawup, Hermes, HLOADER, HOOKSHOT, HOPLIGHT, HotelAlfa, HOTCROISSANT, Hotwax, HtDnDownLoader, Http Dr0pper, HTTP Troy, ICONICSTEALER, Joanap, Jokra, KANDYKORN, KEYMARBLE, KillDisk, Koredos, Lazarus, LightlessCan, LIGHTSHIFT, LIGHTSHOW, MagicRAT, MATA, Mimikatz, Mydoom, NachoCheese, NestEgg, NickelLoader, NineRAT, NukeSped, OpBlockBuster, PEBBLEDASH, PhanDoor, PLANKWALK, Plink, PondRAT, POOLRAT, PowerBrace, PowerRatankba, PowerShell RAT, PowerSpritz, PowerTask, ProcDump, Proxysvc, PSLogger, Quickcafe, QuiteRAT, Ratankba, RatankbaPOS, RawDisk, Recon, RedShawl, Rifdoor, Rising Sun, Romeos, RomeoAlfa, RomeoBravo, RomeoCharlie, RomeoDelta, RomeoEcho, RomeoFoxtrot, RomeoGolf, RomeoHotel, RomeoMike, RomeoNovember, RomeoWhiskey, RustBucket, Scout, SHARPKNOT, SheepRAT, SIDESHOW, SierraAlfa, SierraCharlie, SIGFLIP, SLICKSHOES, SmallTiger, Stunnel, SUDDENICON, SUGARLOADER, TAINTEDSCRIBE, TAXHAUL, Tdrop, Tdrop2, TFlower, ThreatNeedle, TigerRAT, TOUCHKEY, TOUCHMOVE, TOUCHSHIFT, TOUCHSHOT, Troy, TYPEFRAME, ValeforBeta, VEILEDSIGNAL, VHD, Volgmer, VSingle, Vyveva, WannaCry, WbBot, WinorDLL64, WolfRAT, Wormhole, YamaBot, Yort, Living off the Land",
+            "score": 0.3836,
+            "source": "tools",
+            "actor": "Lazarus Group, Hidden Cobra, Labyrinth Chollima",
+            "links": [
+              "https://blog.malwarebytes.com/threat-analysis/2019/03/the-advanced-persistent-threat-files-lazarus-group/",
+              "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/a-look-into-the-lazarus-groups-operations",
+              "https://www.kaspersky.com/about/press-releases/2017_chasing-lazarus-a-hunt-for-the-infamous-hackers-to-prevent-large-bank-robberies",
+              "https://medium.com/threat-intel/lazarus-attacks-wannacry-5fdeddee476c",
+              "https://content.fireeye.com/apt/rpt-apt38",
+              "https://www.us-cert.gov/HIDDEN-COBRA-North-Korean-Malicious-Cyber-Activity",
+              "https://www.us-cert.gov/ncas/alerts/aa20-106a",
+              "https://www.us-cert.gov/ncas/current-activity/2020/05/12/north-korean-malicious-cyber-activity",
+              "https://global.ahnlab.com/global/upload/download/techreport/%5BAhnLab%5DAndariel_a_Subgroup_of_Lazarus%20(3).pdf",
+              "https://exchange.xforce.ibmcloud.com/threat-group/0c0c39d309b5c7f00a0a7edd54bb025e",
+              "https://www.sentinelone.com/blog/four-distinct-families-of-lazarus-malware-target-apples-macos-platform/",
+              "http://www.documentcloud.org/documents/7038686-US-Army-report-on-North-Korean-military.html",
+              "https://public.intel471.com/blog/partners-in-crime-north-koreans-and-elite-russian-speaking-cybercriminals/",
+              "https://www.hvs-consulting.de/media/downloads/ThreatReport-Lazarus.pdf",
+              "https://www.newyorker.com/magazine/2021/04/26/the-incredible-rise-of-north-koreas-hacking-army",
+              "https://blogs.jpcert.or.jp/en/2021/01/Lazarus_tools.html",
+              "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/lazarus-recruitment/",
+              "https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/the-hermit-kingdoms-ransomware-play.html",
+              "https://asec.ahnlab.com/en/48223/",
+              "https://securelist.com/the-lazarus-group-deathnote-campaign/109490/",
+              "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+              "https://www.trmlabs.com/post/inside-north-koreas-crypto-heists",
+              "https://www.elliptic.co/blog/how-the-lazarus-group-is-stepping-up-crypto-hacks-and-changing-its-tactics",
+              "https://thehackernews.com/2023/10/north-koreas-lazarus-group-launders-900.html",
+              "https://www.hhs.gov/sites/default/files/manage-engine-vulnerability-sector-alert-tlpclear.pdf",
+              "https://eng.nis.go.kr/common/download.do?type=&seq=8E464392CD0485169FA97278AEE8B607",
+              "https://go.recordedfuture.com/hubfs/reports/cta-2023-1130.pdf",
+              "https://www.trmlabs.com/post/north-korean-hackers-stole-600-million-in-crypto-in-2023",
+              "https://jsac.jpcert.or.jp/archive/2024/pdf/JSAC2024_1_6_dongwook-kim_seulgi-lee_en.pdf",
+              "https://www.elliptic.co/blog/north-korean-hackers-return-to-tornado-cash-despite-sanctions",
+              "https://www.bleepingcomputer.com/news/cryptocurrency/coinstats-says-north-korean-hackers-breached-1-590-crypto-wallets/",
+              "https://www.group-ib.com/blog/apt-lazarus-python-scripts/",
+              "https://www.group-ib.com/blog/stealthy-attributes-of-apt-lazarus/",
+              "https://securelist.com/lazarus-new-malware/115059/",
+              "https://www.sonatype.com/hubfs/White_Papers/How-North-Korea-Backed-Lazarus-Group-is-Weaponizing-Open-Source-Whitepaper.pdf"
+            ]
+          },
+          {
+            "text": "2025-08-16",
+            "score": 0.95,
+            "source": "last_updated",
+            "actor": "lazarus group",
+            "links": []
+          }
+        ],
+        "trace_id": "09232f97-8a16-4569-bc48-7880d6f3010a",
+        "model": "llama3.2:3b",
+        "source_count": 6
+      }
+    },
+    {
+      "role": "user",
+      "content": "Which regions does Big Panda target",
+      "timestamp": "2026-02-08T23:14:19.067998",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "**Target Sectors:** Government, design bureaus and research institutes, government, industrial plants, technology\n**Target Regions:** Afghanistan, Asia, Belarus, China, East Asia, Mongolia, Russia, Ukraine\n\n**Last Known Activity:** 2020-04-19",
+      "timestamp": "2026-02-08T23:14:19.133806",
+      "metadata": {
+        "confidence": 0.7,
+        "evidence": [
+          {
+            "text": "Threat Actor: Big Panda\nAlso known as: Big Panda\nName Giver: CrowdStrike\nOrigin: China\nDescription: A threat actor mentioned in a summary report only, so we don't know who they are yet.\nLast Known Activity: 2020-04-19",
+            "score": 0.5483,
+            "source": "entity_profile",
+            "actor": "Big Panda",
+            "links": [
+              "http://www.darkreading.com/attacks-and-breaches/crowdstrike-falcon-traces-attacks-back-to-hackers/d/d-id/1110402"
+            ]
+          },
+          {
+            "text": "Panda (NTT), ThunderCats (SentinelLabs)",
+            "score": 0.5237,
+            "source": "alias_givers",
+            "actor": "TA428",
+            "links": [
+              "https://www.proofpoint.com/us/threat-insight/post/chinese-apt-operation-lagtime-it-targets-government-information-technology",
+              "https://st.drweb.com/static/new-www/news/2021/april/drweb_research_attacks_on_russian_research_institutes_en.pdf",
+              "https://labs.sentinelone.com/thundercats-hack-the-fsb-your-taxes-didnt-pay-for-this-op/"
+            ]
+          },
+          {
+            "text": "Threat Actor: TA428\nAlso known as: Panda, ThunderCats, TA428\nName Giver: Proofpoint\nAlias Givers: Panda (NTT), ThunderCats (SentinelLabs)\nOrigin: China\nObserved Sectors: Government, industrial plants, design bureaus and research institutes\nObserved Countries: Afghanistan, Belarus, Mongolia, Russia, Ukraine, East Asia\nTools: 8.t Dropper, Albaniiutas, Cotx RAT, CoughingDown, PhantomNet, PlugX, Poison Ivy, TManger\nCampaigns: Operation “LagTime IT”\nAttackers relied on Microsoft Equation Editor exploit CVE-2018-0798 to deliver a custom malware that Proofpoint researchers have dubbed Cotx RAT.\nAdditionally, this APT group utilizes Poison Ivy payloads that share overlapping command and control (C&C) infrastructure with the newly identified Cotx campaigns.\nhttps://www.proofpoint.com/us/threat-insight/post/chinese-apt-operation-lagtime-it-targets-government-information-technology\nhttps://insight-jp.nttsecurity.com/post/102gi9b/pandas-new-arsenal-part-1-tmanger, Operation “StealthyTrident”\nESET researchers discovered that chat software called Able Desktop, part of a business management suite popular in Mongolia and used by 430 government agencies in Mongolia.\nhttps://www.welivesecurity.com/2020/12/10/luckymouse-ta428-compromise-able-desktop/\nhttps://decoded.avast.io/luigicamastra/apt-group-targeting-governmental-agencies-in-east-asia/, China-linked TA428 Continues to Target Russia and Mongolia IT Companies\nhttps://www.recordedfuture.com/china-linked-ta428-threat-group/, ThunderCats Hack the FSB\nhttps://labs.sentinelone.com/thundercats-hack-the-fsb-your-taxes-didnt-pay-for-this-op/\nhttps://blog.group-ib.com/task, Targeted attack on industrial enterprises and public institutions\nhttps://securelist.com/targeted-attack-on-industrial-enterprises-and-public-institutions/107054/\nDescription: (Proofpoint) Proofpoint researchers initially identified email campaigns with malicious RTF document attachments targeting East Asian government agencies in March 2019. These campaigns originated from adversary-operated free email sender accounts at yahoo[.]co[.].jp and yahoo[.]com. Sender addresses often imitated common names found in the languages of targeted entities. Spear phishing emails included malicious .doc attachments that were actually RTF files saved with .doc file extensions.\n\nThe lures used in the subjects, attachment names, and attachment content in several cases utilized information technology themes specific to Asia such as governmental or public training documents relating to IT. On one specific occasion an email utilized the subject “ITU Asia-Pacific Online CoE Training Course on ‘Conformity & Interoperability in 5G’ for the Asia-Pacific Region, 15-26 April 2019” and the attachment name “190315_annex 1 online_course_agenda_coei_c&i.doc”. The conference referenced in the lure was an actual event likely selected due to its relevance to potential victims. This is significant as countries in the APAC region continue to adopt Chinese 5G technology in government as well as heavy equipment industries.\n\nThis actor worked together with {{Emissary Panda, APT 27, LuckyMouse, Bronze Union}} in Operation StealthyTrident.\nLast Known Activity: 2022-09-12\nfirst_seen: 2013\nmotivations: Information theft and espionage",
+            "score": 0.4744,
+            "source": "entity_profile",
+            "actor": "TA428",
+            "links": [
+              "https://www.proofpoint.com/us/threat-insight/post/chinese-apt-operation-lagtime-it-targets-government-information-technology",
+              "https://st.drweb.com/static/new-www/news/2021/april/drweb_research_attacks_on_russian_research_institutes_en.pdf",
+              "https://labs.sentinelone.com/thundercats-hack-the-fsb-your-taxes-didnt-pay-for-this-op/"
+            ]
+          },
+          {
+            "text": "Operation “LagTime IT”\nAttackers relied on Microsoft Equation Editor exploit CVE-2018-0798 to deliver a custom malware that Proofpoint researchers have dubbed Cotx RAT.\nAdditionally, this APT group utilizes Poison Ivy payloads that share overlapping command and control (C&C) infrastructure with the newly identified Cotx campaigns.\nhttps://www.proofpoint.com/us/threat-insight/post/chinese-apt-operation-lagtime-it-targets-government-information-technology\nhttps://insight-jp.nttsecurity.com/post/102gi9b/pandas-new-arsenal-part-1-tmanger, Operation “StealthyTrident”\nESET researchers discovered that chat software called Able Desktop, part of a business management suite popular in Mongolia and used by 430 government agencies in Mongolia.\nhttps://www.welivesecurity.com/2020/12/10/luckymouse-ta428-compromise-able-desktop/\nhttps://decoded.avast.io/luigicamastra/apt-group-targeting-governmental-agencies-in-east-asia/, China-linked TA428 Continues to Target Russia and Mongolia IT Companies\nhttps://www.recordedfuture.com/china-linked-ta428-threat-group/, ThunderCats Hack the FSB\nhttps://labs.sentinelone.com/thundercats-hack-the-fsb-your-taxes-didnt-pay-for-this-op/\nhttps://blog.group-ib.com/task, Targeted attack on industrial enterprises and public institutions\nhttps://securelist.com/targeted-attack-on-industrial-enterprises-and-public-institutions/107054/",
+            "score": 0.4549,
+            "source": "campaigns",
+            "actor": "TA428",
+            "links": [
+              "https://www.proofpoint.com/us/threat-insight/post/chinese-apt-operation-lagtime-it-targets-government-information-technology",
+              "https://st.drweb.com/static/new-www/news/2021/april/drweb_research_attacks_on_russian_research_institutes_en.pdf",
+              "https://labs.sentinelone.com/thundercats-hack-the-fsb-your-taxes-didnt-pay-for-this-op/"
+            ]
+          },
+          {
+            "text": "Afghanistan, Belarus, Mongolia, Russia, Ukraine, East Asia",
+            "score": 0.4298,
+            "source": "observed_countries",
+            "actor": "TA428",
+            "links": [
+              "https://www.proofpoint.com/us/threat-insight/post/chinese-apt-operation-lagtime-it-targets-government-information-technology",
+              "https://st.drweb.com/static/new-www/news/2021/april/drweb_research_attacks_on_russian_research_institutes_en.pdf",
+              "https://labs.sentinelone.com/thundercats-hack-the-fsb-your-taxes-didnt-pay-for-this-op/"
+            ]
+          },
+          {
+            "text": "2020-04-19",
+            "score": 0.95,
+            "source": "last_updated",
+            "actor": "big panda",
+            "links": []
+          },
+          {
+            "text": "2022-09-12",
+            "score": 0.95,
+            "source": "last_updated",
+            "actor": "panda",
+            "links": []
+          }
+        ],
+        "trace_id": "d7b4c56b-8bbd-4447-974a-27094032773d",
+        "model": "llama3.2:3b",
+        "source_count": 7
+      }
+    }
+  ],
+  "created_at": "2026-02-08T23:13:52.792582",
+  "updated_at": "2026-02-08T23:14:19.133806"
+}

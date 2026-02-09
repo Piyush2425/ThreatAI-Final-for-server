@@ -228,6 +228,7 @@ class AliasResolver:
         query_lower = query.lower()
         matched_actors = []
         seen_primaries = set()
+        matched_aliases = []
         
         # Sort aliases by length (longest first) to match "APT28" before "APT"
         sorted_aliases = sorted(self.alias_to_primary.keys(), key=len, reverse=True)
@@ -243,6 +244,9 @@ class AliasResolver:
                 after_ok = after_idx >= len(query_lower) or not query_lower[after_idx].isalnum()
                 
                 if before_ok and after_ok:
+                    # Skip aliases that are contained in an already matched alias
+                    if any(alias in matched_alias for matched_alias in matched_aliases):
+                        continue
                     primary = self.alias_to_primary[alias]
                     if primary not in seen_primaries:
                         seen_primaries.add(primary)
@@ -251,6 +255,7 @@ class AliasResolver:
                             'primary_name': primary,
                             'actor_id': self.actor_id_map.get(alias, '')
                         })
+                        matched_aliases.append(alias)
         
         return matched_actors
     

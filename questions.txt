@@ -1,0 +1,61 @@
+Here are good question types your dataset supports, plus feature ideas to grow the project.
+
+Question types you can ask now
+
+Profile/overview: “Tell me about APT28” or “Report on Sofacy”
+Origin/attribution: “Where is APT28 from?” “Who sponsors Lazarus Group?”
+Aliases: “What are the aliases of APT29?”
+Timeline: “When was APT28 first seen?” “Last known activity of Fancy Bear?”
+Targets: “Who does APT28 target?” “Which sectors are targeted by Lazarus?”
+TTPs/tools (if present): “What tools does APT28 use?” “Common tactics of APT29?”
+Campaigns/operations: “What notable campaigns are linked to APT28?”
+Associations: “What actors are related to APT28?”
+Sources: “What are the sources for APT28?”
+Feature ideas to add next
+
+Actor comparison: side‑by‑side diffs for origin, targets, tools, timeline.
+Timeline view: render a concise activity timeline from first/last seen.
+Confidence breakdown: show why a confidence score is high/low.
+Source credibility tags: rank sources (vendor, gov, blog) and show in evidence.
+Evidence clustering: group evidence by category (origin, TTPs, targets).
+Entity linking: auto-expand aliases and related actors in the UI.
+Query templates: one‑click questions for a selected actor.
+Export improvements: JSON/CSV with structured fields (origin, last activity, etc.).
+
+
+
+Targets (Who they target / sectors / regions)
+Tactics & techniques (TTPs)
+Tools/malware
+Campaigns/operations
+Associations/related actors
+
+
+
+
+
+
+
+
+“Where is APT28 from?”
+“Who sponsors Lazarus Group?”
+“When was APT28 first seen?”
+“What is the last known activity of APT28?”
+“Who does APT28 target?”
+“Which regions does APT28 target?”
+“What tools does Lazarus Group use?”
+“What TTPs are associated with Sofacy?”
+“Notable campaigns of APT28?”
+“What actors are related to Lazarus Group?”
+
+
+
+
+
+
+
+
+
+I can refine the Results view layout with a more report-like grid and executive summary card.
+I can add a compact “Key Facts” rail on the right for quick scanning.
+I can tune mobile spacing and sidebar behavior for smaller screens.

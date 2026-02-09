@@ -19,7 +19,23 @@ def normalize_actor(actor: Dict[str, Any]) -> Dict[str, Any]:
     normalized = actor.copy()
     
     # Ensure list fields are lists
-    for field in ['aliases', 'ttps', 'targets', 'origins', 'motivations']:
+    for field in [
+        'aliases',
+        'alias_givers',
+        'ttps',
+        'tactics',
+        'targets',
+        'tools',
+        'campaigns',
+        'operations',
+        'observed_sectors',
+        'observed-sectors',
+        'observed_countries',
+        'observed-countries',
+        'origins',
+        'motivations',
+        'information_sources',
+    ]:
         if field in normalized:
             if isinstance(normalized[field], str):
                 normalized[field] = [normalized[field]]

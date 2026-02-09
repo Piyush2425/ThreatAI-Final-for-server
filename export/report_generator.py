@@ -45,6 +45,42 @@ class ReportGenerator:
         return summary if summary else text[:200]
     
     @staticmethod
+    def _format_section_content(text: str, styles) -> List:
+        """Format a section body into PDF elements."""
+        elements = []
+        if not text:
+            return elements
+
+        # Check if it's a bullet or numbered list
+        if re.match(r'^(\d+\.\s+|[\-\*]\s+)', text):
+            lines = text.split('\n')
+            list_items = []
+            for line in lines:
+                line = line.strip()
+                if re.match(r'^(\d+\.|[\-\*])\s+', line):
+                    item_text = re.sub(r'^(\d+\.|[\-\*])\s+', '', line)
+                    item_text = ReportGenerator._format_inline_markdown(item_text)
+                    list_items.append(item_text)
+
+            if list_items:
+                for item in list_items:
+                    bullet_style = ParagraphStyle(
+                        'BulletItem',
+                        parent=styles['BodyText'],
+                        fontSize=10,
+                        leftIndent=20,
+                        bulletIndent=10,
+                        spaceAfter=6
+                    )
+                    elements.append(Paragraph(f"• {item}", bullet_style))
+            return elements
+
+        formatted_text = ReportGenerator._format_inline_markdown(text.replace('\n', '<br/>'))
+        elements.append(Paragraph(formatted_text, styles['BodyText']))
+        elements.append(Spacer(1, 0.1*inch))
+        return elements
+
+    @staticmethod
     def _format_answer_for_pdf(answer: str, styles) -> List:
         """Convert markdown-formatted answer to PDF elements."""
         if not answer:
@@ -63,10 +99,13 @@ class ReportGenerator:
             # Check if it's a heading (starts with **)
             if section.startswith('**') and section.count('**') >= 2:
                 # Extract heading text
-                heading_match = re.match(r'\*\*([^*]+)\*\*:?(.*)', section)
+                heading_match = re.match(r'^\*\*([^*]+)\*\*:?[\s]*(.*)', section, re.DOTALL)
                 if heading_match:
                     heading_text = heading_match.group(1)
                     rest_text = heading_match.group(2).strip()
+                    if not rest_text:
+                        lines = section.split('\n')
+                        rest_text = "\n".join(lines[1:]).strip() if len(lines) > 1 else ""
                     
                     # Add as subheading
                     subheading_style = ParagraphStyle(
@@ -81,43 +120,10 @@ class ReportGenerator:
                     elements.append(Paragraph(heading_text, subheading_style))
                     
                     if rest_text:
-                        # Format the rest of the text
-                        formatted_text = ReportGenerator._format_inline_markdown(rest_text)
-                        elements.append(Paragraph(formatted_text, styles['BodyText']))
+                        elements.extend(ReportGenerator._format_section_content(rest_text, styles))
                     continue
             
-            # Check if it's a bullet list
-            if re.match(r'^\d+\.|\-|\*', section):
-                # Split into list items
-                lines = section.split('\n')
-                list_items = []
-                
-                for line in lines:
-                    line = line.strip()
-                    if re.match(r'^(\d+\.|[\-\*])\s+', line):
-                        # Remove bullet/number
-                        item_text = re.sub(r'^(\d+\.|[\-\*])\s+', '', line)
-                        item_text = ReportGenerator._format_inline_markdown(item_text)
-                        list_items.append(item_text)
-                
-                if list_items:
-                    # Create formatted list
-                    for item in list_items:
-                        bullet_style = ParagraphStyle(
-                            'BulletItem',
-                            parent=styles['BodyText'],
-                            fontSize=10,
-                            leftIndent=20,
-                            bulletIndent=10,
-                            spaceAfter=6
-                        )
-                        elements.append(Paragraph(f"• {item}", bullet_style))
-                continue
-            
-            # Regular paragraph
-            formatted_text = ReportGenerator._format_inline_markdown(section)
-            elements.append(Paragraph(formatted_text, styles['BodyText']))
-            elements.append(Spacer(1, 0.1*inch))
+            elements.extend(ReportGenerator._format_section_content(section, styles))
         
         return elements
     

@@ -19,6 +19,116 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
+function extractSummary(answer) {
+    if (!answer) return 'No summary available.';
+    const cleaned = answer
+        .replace(/\*\*([^*]+)\*\*/g, '$1')
+        .replace(/\*([^*]+)\*/g, '$1')
+        .replace(/\s+/g, ' ')
+        .trim();
+    const sentences = cleaned.match(/[^.!?]+[.!?]+/g);
+    if (sentences && sentences.length) {
+        return sentences.slice(0, 2).join(' ').trim();
+    }
+    return cleaned.slice(0, 220);
+}
+
+function findLastKnownActivity(answer) {
+    if (!answer) return '';
+    const match = answer.match(/Last Known Activity\s*:\s*([^\n]+)/i);
+    if (match && match[1]) return match[1].trim();
+    const fallback = answer.match(/Last (?:Updated|Seen|Card Change)\s*:\s*([^\n]+)/i);
+    return fallback && fallback[1] ? fallback[1].trim() : '';
+}
+
+function buildDetailedAnalysisHtml(answer) {
+    if (!answer) {
+        return {
+            tocHtml: '',
+            contentHtml: '<div class="analysis-body">No analysis available.</div>'
+        };
+    }
+
+    const headingRegex = /^\s*\*\*([^*]+)\*\*\s*$/gm;
+    const matches = [];
+    let match;
+
+    while ((match = headingRegex.exec(answer)) !== null) {
+        matches.push({
+            title: match[1].trim(),
+            start: match.index,
+            end: headingRegex.lastIndex
+        });
+    }
+
+    if (matches.length === 0) {
+        const body = escapeHtml(answer).replace(/\n/g, '<br>');
+        return {
+            tocHtml: '',
+            contentHtml: `<div class="analysis-section"><div class="analysis-body">${body}</div></div>`
+        };
+    }
+
+    const sections = [];
+    let preamble = answer.slice(0, matches[0].start).trim();
+    if (preamble) {
+        sections.push({ title: 'Overview', content: preamble });
+    }
+
+    for (let i = 0; i < matches.length; i += 1) {
+        const current = matches[i];
+        const nextStart = i + 1 < matches.length ? matches[i + 1].start : answer.length;
+        const content = answer.slice(current.end, nextStart).trim();
+        sections.push({ title: current.title, content });
+    }
+
+    const usedIds = new Map();
+    const makeId = (title) => {
+        const base = title
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '') || 'section';
+        const count = (usedIds.get(base) || 0) + 1;
+        usedIds.set(base, count);
+        return count === 1 ? base : `${base}-${count}`;
+    };
+
+    const tocLinks = [];
+    const bodyParts = [];
+
+    sections.forEach((section, index) => {
+        const id = makeId(section.title);
+        const title = escapeHtml(section.title);
+        const content = section.content
+            ? escapeHtml(section.content).replace(/\n/g, '<br>')
+            : '<span class="analysis-muted">No details provided.</span>';
+
+        tocLinks.push(`<a href="#${id}" class="analysis-toc-link">${title}</a>`);
+        bodyParts.push(
+            `<div class="analysis-section" id="${id}">` +
+                `<div class="analysis-heading"><a href="#${id}">${title}</a></div>` +
+                `<div class="analysis-body">${content}</div>` +
+            `</div>`
+        );
+
+        if (index < sections.length - 1) {
+            bodyParts.push('<div class="analysis-divider"></div>');
+        }
+    });
+
+    const tocHtml = `
+        <div class="analysis-toc">
+            <div class="analysis-toc-title">On this report</div>
+            <div class="analysis-toc-links">${tocLinks.join('')}</div>
+        </div>
+    `;
+
+    return {
+        tocHtml,
+        contentHtml: bodyParts.join('')
+    };
+}
+
 function formatEvidenceLinks(links) {
     if (!Array.isArray(links) || links.length === 0) return '';
     const safeLinks = links
@@ -151,6 +261,12 @@ function displayResults(result) {
     lastResult = result;
     const confidence = result.confidence || 0;
     const confidencePercent = (confidence * 100).toFixed(1);
+    const summary = extractSummary(result.answer);
+    const lastActivity = findLastKnownActivity(result.answer);
+    const timestamp = result.timestamp ? new Date(result.timestamp).toLocaleString() : 'N/A';
+    const responseMode = result.response_mode ? escapeHtml(result.response_mode) : 'adaptive';
+    const intent = result.intent ? escapeHtml(result.intent) : 'general';
+    const analysis = buildDetailedAnalysisHtml(result.answer || '');
     
     // Hide center container and show results area
     const centerContainer = document.getElementById('center-container');
@@ -159,7 +275,8 @@ function displayResults(result) {
     if (centerContainer) centerContainer.style.display = 'none';
     if (resultsArea) resultsArea.style.display = 'block';
     
-    let html = '<div class="result-card">';
+    let html = '<div class="result-card report-grid">';
+    html += '<div class="report-main">';
     
     // Header
     html += '<div class="result-header">';
@@ -171,16 +288,25 @@ function displayResults(result) {
     html += `</div>`;
     html += '</div>';
 
-    // Badges
+    // Executive Summary
+    html += '<div class="summary-card">';
+    html += '<div class="summary-header">';
+    html += '<span>Executive Summary</span>';
+    html += '<span class="summary-chip">Evidence-based</span>';
+    html += '</div>';
+    html += `<div class="summary-text">${escapeHtml(summary)}</div>`;
     html += '<div class="result-badges">';
-    if (result.response_mode) {
-        html += `<span class="badge badge-mode">${escapeHtml(result.response_mode)}</span>`;
-    }
+    html += `<span class="badge badge-mode">${responseMode}</span>`;
     html += `<span class="badge badge-sources">${result.source_count || 0} sources</span>`;
     html += '</div>';
-    
+    html += '</div>';
+
     // Answer
-    html += `<div class="result-answer">${escapeHtml(result.answer)}</div>`;
+    html += '<div class="report-section">';
+    html += '<div class="section-title">Detailed Analysis</div>';
+    html += analysis.tocHtml;
+    html += `<div class="result-answer">${analysis.contentHtml}</div>`;
+    html += '</div>';
 
     // Quick actions
     html += '<div class="result-actions">';
@@ -212,28 +338,29 @@ function displayResults(result) {
         html += '</div></details></div>';
     }
     
-    // Metadata
-    html += '<div class="metadata">';
-    html += `<div class="metadata-item">`;
-    html += `<span class="metadata-label">Model</span>`;
-    html += `<span class="metadata-value">${escapeHtml(result.model)}</span>`;
-    html += `</div>`;
-    html += `<div class="metadata-item">`;
-    html += `<span class="metadata-label">Sources</span>`;
-    html += `<span class="metadata-value">${result.source_count}</span>`;
-    html += `</div>`;
-    html += `<div class="metadata-item">`;
-    html += `<span class="metadata-label">Timestamp</span>`;
-    html += `<span class="metadata-value">${new Date(result.timestamp).toLocaleTimeString()}</span>`;
-    html += `</div>`;
+    html += '</div>';
+
+    // Key Facts rail
+    html += '<aside class="report-rail">';
+    html += '<div class="rail-card">';
+    html += '<div class="rail-title">Key Facts</div>';
+    html += '<div class="rail-list">';
+    html += `<div class="rail-item"><span class="rail-label">Confidence</span><span class="rail-value">${confidencePercent}%</span></div>`;
+    html += `<div class="rail-item"><span class="rail-label">Sources</span><span class="rail-value">${result.source_count || 0}</span></div>`;
+    html += `<div class="rail-item"><span class="rail-label">Mode</span><span class="rail-value">${responseMode}</span></div>`;
+    html += `<div class="rail-item"><span class="rail-label">Intent</span><span class="rail-value">${intent}</span></div>`;
+    html += `<div class="rail-item"><span class="rail-label">Model</span><span class="rail-value">${escapeHtml(result.model || 'N/A')}</span></div>`;
+    html += `<div class="rail-item"><span class="rail-label">Timestamp</span><span class="rail-value">${timestamp}</span></div>`;
+    if (lastActivity) {
+        html += `<div class="rail-item"><span class="rail-label">Last Known Activity</span><span class="rail-value">${escapeHtml(lastActivity)}</span></div>`;
+    }
     if (result.trace_id) {
-        html += `<div class="metadata-item">`;
-        html += `<span class="metadata-label">Trace ID</span>`;
-        html += `<span class="metadata-value">${result.trace_id.substring(0, 8)}</span>`;
-        html += `</div>`;
+        html += `<div class="rail-item"><span class="rail-label">Trace ID</span><span class="rail-value">${escapeHtml(result.trace_id.substring(0, 8))}</span></div>`;
     }
     html += '</div>';
-    
+    html += '</div>';
+    html += '</aside>';
+
     html += '</div>';
     
     document.getElementById('results').innerHTML = html;

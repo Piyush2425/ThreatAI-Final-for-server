@@ -9,6 +9,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from ingestion.load_raw import load_raw_actors
 from ingestion.normalize import normalize_actors
+from ingestion.merge import merge_canonical_with_raw
 from chunking.chunker import SemanticChunker
 from embeddings.embedder import LocalEmbedder
 from embeddings.vector_store import VectorStore
@@ -38,16 +39,23 @@ def rebuild_vector_store():
     config = load_config()
     
     # Step 1: Load and normalize actors
-    logger.info("\n[1/5] Loading raw actor data...")
+    logger.info("\n[1/6] Loading canonical actor data...")
     actors = load_raw_actors(config['data']['canonical_path'])
-    logger.info(f"Loaded {len(actors)} actors")
-    
-    logger.info("\n[2/5] Normalizing actor data...")
+    logger.info(f"Loaded {len(actors)} canonical actors")
+
+    raw_path = config['data'].get('raw_path')
+    if raw_path:
+        logger.info("\n[2/6] Loading raw actor data for merge...")
+        raw_actors = load_raw_actors(raw_path)
+        logger.info(f"Loaded {len(raw_actors)} raw actors")
+        actors = merge_canonical_with_raw(actors, raw_actors)
+
+    logger.info("\n[3/6] Normalizing actor data...")
     actors = normalize_actors(actors)
     logger.info(f"Normalized {len(actors)} actors")
     
     # Step 2: Create new chunker with entity-level strategy
-    logger.info("\n[3/5] Chunking actors (entity-level strategy)...")
+    logger.info("\n[4/6] Chunking actors (entity-level strategy)...")
     chunking_config = config['chunking']
     chunker = SemanticChunker(
         chunk_size=chunking_config.get('chunk_size', 800),
@@ -65,7 +73,7 @@ def rebuild_vector_store():
     logger.info(f"Average chunks per actor: {len(all_chunks) / len(actors):.2f}")
     
     # Step 3: Generate embeddings
-    logger.info("\n[4/5] Generating embeddings...")
+    logger.info("\n[5/6] Generating embeddings...")
     emb_config = config['embeddings']
     embedder = LocalEmbedder(
         model_name=emb_config.get('model', 'sentence-transformers/all-MiniLM-L6-v2'),
@@ -76,7 +84,7 @@ def rebuild_vector_store():
     logger.info(f"Generated embeddings for {len(chunks_with_embeddings)} chunks")
     
     # Step 4: Rebuild vector store
-    logger.info("\n[5/5] Rebuilding vector store...")
+    logger.info("\n[6/6] Rebuilding vector store...")
     vs_config = config['vector_store']
     
     # Delete old collection

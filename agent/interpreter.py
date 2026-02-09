@@ -193,7 +193,10 @@ class EvidenceBasedInterpreter:
         
         # For OVERVIEW intent (comprehensive reports), always use LLM if available
         if intent == QueryIntent.OVERVIEW:
-            if self.use_ollama:
+            if response_mode == 'report':
+                logger.info("Report mode requested, using evidence-only summary")
+                answer = self._generate_summary(query, evidence)
+            elif self.use_ollama and not self._is_sparse_evidence(evidence):
                 logger.info("Generating comprehensive report with LLM")
                 answer = self._generate_with_ollama(query, evidence_text, 'report')
                 
@@ -202,7 +205,7 @@ class EvidenceBasedInterpreter:
                     logger.warning("LLM generation failed or returned short response, using enhanced fallback")
                     answer = self._generate_summary(query, evidence)
             else:
-                logger.warning("LLM not available, using fallback summary")
+                logger.warning("Using fallback summary for sparse evidence")
                 answer = self._generate_summary(query, evidence)
         
         # For specific extraction intents with results
@@ -210,17 +213,21 @@ class EvidenceBasedInterpreter:
             # Use extracted summary as base
             answer = extraction_result['summary']
             
-            # Enhance with LLM for certain intents if available
-            if self.use_ollama and intent in [QueryIntent.TACTICS, QueryIntent.ASSOCIATIONS, 
-                                              QueryIntent.TARGETS, QueryIntent.TOOLS, 
-                                              QueryIntent.CAMPAIGNS, QueryIntent.MOTIVATION]:
-                logger.info(f"Enhancing {intent.value} answer with LLM")
-                llm_answer = self._generate_targeted_answer(query, evidence_text, intent, extraction_result)
-                answer = llm_answer if llm_answer and len(llm_answer) > 50 else answer
+            # Do not enhance extraction-based answers with LLM to avoid hallucinations
+            if self.use_ollama and intent in [QueryIntent.TACTICS, QueryIntent.ASSOCIATIONS,
+                                              QueryIntent.TARGETS, QueryIntent.TOOLS,
+                                              QueryIntent.CAMPAIGNS, QueryIntent.MOTIVATION,
+                                              QueryIntent.ORIGIN, QueryIntent.TIMELINE]:
+                logger.info(f"Using extraction summary for {intent.value} without LLM enhancement")
         
         # Fallback: use LLM or summary
         else:
-            if self.use_ollama:
+            if intent in [QueryIntent.TACTICS, QueryIntent.ASSOCIATIONS, QueryIntent.TARGETS,
+                          QueryIntent.TOOLS, QueryIntent.CAMPAIGNS, QueryIntent.MOTIVATION,
+                          QueryIntent.ORIGIN, QueryIntent.TIMELINE]:
+                logger.info("No extraction result, using evidence-based summary")
+                answer = self._generate_summary(query, evidence)
+            elif self.use_ollama:
                 logger.info("No extraction result, generating with LLM")
                 answer = self._generate_with_ollama(query, evidence_text, response_mode)
             else:
@@ -300,6 +307,142 @@ class EvidenceBasedInterpreter:
 
         return last_seen or last_updated
 
+    def _is_sparse_evidence(self, evidence: List[Dict[str, Any]]) -> bool:
+        """Check if evidence is too sparse for LLM report generation."""
+        if not evidence:
+            return True
+
+        allowed_fields = {
+            'entity_profile',
+            'bm25',
+            'last_updated',
+            'last_card_change',
+            'last-card-change',
+            'name_giver',
+            'name-giver',
+            'alias_givers',
+            'aliases',
+            'sponsor',
+            'countries',
+        }
+
+        rich_fields = {
+            'tools',
+            'targets',
+            'observed_sectors',
+            'observed-sectors',
+            'observed_countries',
+            'observed-countries',
+            'ttps',
+            'campaigns',
+            'operations',
+            'motivations',
+            'motivation',
+        }
+
+        has_rich_fields = False
+        for chunk in evidence:
+            source_field = chunk.get('metadata', {}).get('source_field')
+            if source_field in rich_fields:
+                has_rich_fields = True
+                break
+
+        for chunk in evidence:
+            source_field = chunk.get('metadata', {}).get('source_field')
+            if source_field and source_field not in allowed_fields:
+                return False
+
+        # If we only have minimal fields, check for sparse descriptions
+        for chunk in evidence:
+            text = chunk.get('text', '').lower()
+            if any(
+                phrase in text
+                for phrase in [
+                    'mentioned in a summary report only',
+                    'not much is known',
+                    "we don't know who they are",
+                ]
+            ) and not has_rich_fields:
+                return True
+
+        return len(evidence) <= 1
+
+    def _split_campaigns(self, campaigns: List[str], recent_count: int, older_count: int) -> tuple:
+        """Split campaigns into recent and older lists based on parsed dates."""
+        parsed = [self._parse_campaign_item(item) for item in campaigns]
+        dated = [item for item in parsed if item['sort_key'] != (0, 0, 0)]
+        undated = [item for item in parsed if item['sort_key'] == (0, 0, 0)]
+        dated.sort(key=lambda item: item['sort_key'], reverse=True)
+        recent = dated[:recent_count]
+        older = dated[recent_count:recent_count + older_count]
+        if len(recent) < recent_count:
+            remaining = recent_count - len(recent)
+            recent.extend(undated[:remaining])
+            undated = undated[remaining:]
+        if len(older) < older_count:
+            remaining = older_count - len(older)
+            older.extend(undated[:remaining])
+        return recent, older
+
+    def _parse_campaign_item(self, item: str) -> Dict[str, Any]:
+        """Parse a campaign item into date, activity, link, and sort key."""
+        text = item.strip()
+        date = "Unknown"
+        activity = text
+        link = ""
+
+        match = re.match(r'\s*([0-9]{4}(?:[-/][0-9]{2}|\s*Early|/\d{4})?)\s*-\s*(.+)', text)
+        if match:
+            date = match.group(1).strip()
+            activity = match.group(2).strip()
+
+        link_match = re.search(r'(https?://\S+)', activity)
+        if link_match:
+            link = link_match.group(1).rstrip(').,]')
+
+        activity_clean = re.sub(r'https?://\S+', '', activity).strip()
+        activity_clean = re.sub(r'\s+', ' ', activity_clean)
+
+        sort_key = self._date_sort_key(date)
+
+        return {
+            'date': date,
+            'activity': activity_clean,
+            'link': link,
+            'sort_key': sort_key,
+        }
+
+    def _date_sort_key(self, date_value: str) -> tuple:
+        """Create a sortable key for date strings."""
+        year_match = re.search(r'(\d{4})', date_value)
+        if not year_match:
+            return (0, 0, 0)
+        year = int(year_match.group(1))
+        month_match = re.search(r'\d{4}[-/](\d{2})', date_value)
+        month = int(month_match.group(1)) if month_match else 0
+        return (year, month, 0)
+
+    def _format_campaign_summaries(self, items: List[Dict[str, Any]]) -> str:
+        """Format recent campaign items into short summaries."""
+        lines = []
+        for item in items:
+            summary = item['activity']
+            if len(summary) > 180:
+                summary = summary[:177].rstrip() + '...'
+            lines.append(f"- {item['date']}: {summary}")
+        return '\n'.join(lines) if lines else "- No recent campaigns listed."
+
+    def _format_campaign_table(self, items: List[Dict[str, Any]]) -> str:
+        """Format campaign items into a markdown table."""
+        lines = ["| Date | Activity | Link |", "| --- | --- | --- |"]
+        for item in items:
+            activity = item['activity']
+            if len(activity) > 160:
+                activity = activity[:157].rstrip() + '...'
+            link = item['link'] if item['link'] else ''
+            lines.append(f"| {item['date']} | {activity} | {link} |")
+        return '\n'.join(lines)
+
     def _parse_entity_profile_text(self, text: str) -> Dict[str, Any]:
         """Parse entity profile chunk text into structured fields."""
         if not text:
@@ -311,6 +454,13 @@ class EvidenceBasedInterpreter:
             "Primary Name",
             "Also known as",
             "Origin",
+            "Sponsorship",
+            "Observed Sectors",
+            "Observed Countries",
+            "Targets",
+            "Tools",
+            "TTPs",
+            "Campaigns",
             "Description",
             "Last Known Activity",
             "Last Updated",
@@ -341,6 +491,23 @@ class EvidenceBasedInterpreter:
                 fields['aliases'] = [v.strip() for v in value.split(',') if v.strip()]
             elif label == 'origin':
                 fields['countries'] = [v.strip() for v in value.split(',') if v.strip()]
+            elif label == 'sponsorship':
+                fields['sponsor'] = value
+            elif label == 'observed sectors':
+                fields['observed_sectors'] = [v.strip() for v in value.split(',') if v.strip()]
+            elif label == 'observed countries':
+                fields['observed_countries'] = [v.strip() for v in value.split(',') if v.strip()]
+            elif label == 'targets':
+                fields['targets'] = [v.strip() for v in value.split(',') if v.strip()]
+            elif label == 'tools':
+                fields['tools'] = [v.strip() for v in value.split(',') if v.strip()]
+            elif label == 'ttps':
+                fields['ttps'] = [v.strip() for v in value.split(',') if v.strip()]
+            elif label == 'campaigns':
+                if ' | ' in value:
+                    fields['campaigns'] = [v.strip() for v in value.split(' | ') if v.strip()]
+                else:
+                    fields['campaigns'] = [v.strip() for v in value.split(',') if v.strip()]
             elif label == 'description':
                 fields['description'] = value
             elif label in ['last known activity', 'last updated', 'last card change']:
@@ -499,6 +666,18 @@ RESPONSE:
                     by_field['countries'] = parsed['countries']
                 if parsed.get('description') and 'description' not in by_field:
                     by_field['description'] = [parsed['description']]
+                if parsed.get('sponsor') and 'sponsor' not in by_field:
+                    by_field['sponsor'] = [parsed['sponsor']]
+                if parsed.get('observed_sectors') and 'observed_sectors' not in by_field:
+                    by_field['observed_sectors'] = parsed['observed_sectors']
+                if parsed.get('observed_countries') and 'observed_countries' not in by_field:
+                    by_field['observed_countries'] = parsed['observed_countries']
+                if parsed.get('tools') and 'tools' not in by_field:
+                    by_field['tools'] = parsed['tools']
+                if parsed.get('ttps') and 'ttps' not in by_field:
+                    by_field['ttps'] = parsed['ttps']
+                if parsed.get('campaigns') and 'campaigns' not in by_field:
+                    by_field['campaigns'] = parsed['campaigns']
                 if parsed.get('first_seen') and 'first_seen' not in by_field:
                     by_field['first_seen'] = [parsed['first_seen']]
                 if parsed.get('last_seen') and 'last_seen' not in by_field:
@@ -510,19 +689,22 @@ RESPONSE:
                 if parsed.get('targets') and 'targets' not in by_field:
                     by_field['targets'] = parsed['targets']
             
-            # Header section
-            if 'primary_name' in by_field or 'name' in by_field:
-                name = by_field.get('primary_name', by_field.get('name', ['Unknown']))[0]
-                summary_parts.append(f"**Threat Actor: {name}**\n")
-            
+            # Overview section
+            name = by_field.get('primary_name', by_field.get('name', ['Unknown']))[0]
+            summary_parts.append(f"**Threat Actor:** {name}\n")
+
+            if 'aliases' in by_field and len(by_field['aliases']) > 0:
+                aliases = ', '.join(by_field['aliases'][:12])
+                summary_parts.append(f"**Also Known As:** {aliases}\n")
+
             if 'countries' in by_field:
                 origin = by_field['countries'][0]
                 summary_parts.append(f"**Origin:** {origin}\n")
-            
+
             if 'sponsor' in by_field:
                 sponsor = by_field['sponsor'][0]
                 summary_parts.append(f"**Sponsorship:** {sponsor}\n")
-            
+
             if 'first_seen' in by_field or 'first-seen' in by_field:
                 first_seen = by_field.get('first_seen', by_field.get('first-seen', ['Unknown']))[0]
                 summary_parts.append(f"**First Seen:** {first_seen}\n")
@@ -539,11 +721,7 @@ RESPONSE:
                 )
                 last_activity = last_activity_list[0] if last_activity_list else 'Unknown'
                 summary_parts.append(f"**Last Known Activity:** {last_activity}\n")
-            
-            if 'aliases' in by_field and len(by_field['aliases']) > 0:
-                aliases = ', '.join(by_field['aliases'][:12])
-                summary_parts.append(f"**Also Known As:** {aliases}\n")
-            
+
             # Background / Profile
             if 'description' in by_field:
                 summary_parts.append("\n**Background & History**\n")
@@ -555,28 +733,58 @@ RESPONSE:
                             summary_parts.append(f"{para.strip()}\n")
                 else:
                     summary_parts.append(f"{description}\n")
-            
+
             # Motivation
             if 'motivation' in by_field:
                 motivations = ', '.join(by_field['motivation'][:8])
                 summary_parts.append(f"\n**Motivation**\n{motivations}\n")
-            
-            # Targets / Sectors
+
+            # Observed Sectors
             if 'observed_sectors' in by_field or 'observed-sectors' in by_field:
                 sectors = by_field.get('observed_sectors', by_field.get('observed-sectors', []))
                 if sectors:
                     summary_parts.append("\n**Observed Sectors**\n" + ', '.join(sectors[:12]) + "\n")
-            
+
+            # Observed Regions
             if 'observed_countries' in by_field or 'observed-countries' in by_field:
                 countries = by_field.get('observed_countries', by_field.get('observed-countries', []))
                 if countries:
-                    summary_parts.append("\n**Observed Countries**\n" + ', '.join(countries[:15]) + "\n")
-            
-            # Tools / Malware
+                    summary_parts.append("\n**Observed Regions**\n" + ', '.join(countries[:15]) + "\n")
+
+            # Known Tools & Malware
             if 'tools' in by_field:
-                tools = ', '.join(by_field['tools'][:12])
-                summary_parts.append(f"\n**Known Tools & Malware**\n{tools}\n")
-            
+                tools = [t for t in by_field['tools'] if t]
+                if tools:
+                    summary_parts.append("\n**Known Tools & Malware**\n")
+                    summary_parts.append("\n".join(f"- {t}" for t in tools[:15]) + "\n")
+
+            # TTPs (only if present in dataset)
+            if 'ttps' in by_field:
+                ttps_items = [
+                    t for t in by_field['ttps']
+                    if t and not re.match(r'^(https?://|//)', t.strip())
+                ]
+                if ttps_items:
+                    ttps = ', '.join(ttps_items[:12])
+                    summary_parts.append(f"\n**TTPs**\n{ttps}\n")
+
+            # Campaigns / Operations (only if present in dataset)
+            if 'campaigns' in by_field:
+                campaigns = []
+                for c in by_field['campaigns']:
+                    if not c:
+                        continue
+                    if ' | ' in c:
+                        campaigns.extend([item.strip() for item in c.split(' | ') if item.strip()])
+                    else:
+                        campaigns.append(c)
+                if campaigns:
+                    recent, older = self._split_campaigns(campaigns, recent_count=5, older_count=15)
+                    summary_parts.append("\n**Campaigns & Operations (Recent 5)**\n")
+                    summary_parts.append(self._format_campaign_summaries(recent) + "\n")
+                    summary_parts.append("\n**Campaigns & Operations (Recent 5 + Older 15)**\n")
+                    summary_parts.append(self._format_campaign_table(recent + older) + "\n")
+
             # Sources
             if 'information' in by_field:
                 sources = by_field['information'][:5]
