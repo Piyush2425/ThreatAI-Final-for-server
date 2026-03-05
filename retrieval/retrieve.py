@@ -1,6 +1,7 @@
 """Evidence selection and retrieval with hybrid search."""
 
 import logging
+import re
 from typing import List, Dict, Any, Tuple, Optional
 from .router import QueryRouter
 from .alias_resolver import AliasResolver
@@ -73,13 +74,19 @@ class EvidenceRetriever:
                     logger.info(f"Using metadata filter: {metadata_filter}")
             except Exception as e:
                 logger.warning(f"Query parsing failed: {e}")
+
+        normalized_query = query
+        if parsed_query and parsed_query.get('actors'):
+            normalized_query = self._normalize_query_for_actors(query, parsed_query.get('actors', []))
+            if normalized_query != query:
+                logger.info(f"Normalized query for retrieval: {normalized_query}")
         
         # Classify query for retrieval plan
         query_type = QueryRouter.classify_query(query)
         retrieval_plan = QueryRouter.get_retrieval_plan(query_type)
         
         # Get results from both retrievers
-        vector_results = self._vector_search(query, retrieval_plan['top_k'] * 2, metadata_filter)
+        vector_results = self._vector_search(normalized_query, retrieval_plan['top_k'] * 2, metadata_filter)
         
         # If metadata filter was applied and returned nothing, it means specific actor was requested but not found
         # In this case, do NOT fall back to BM25 (would mix in other actors)
@@ -89,7 +96,7 @@ class EvidenceRetriever:
             bm25_results = []
         else:
             # Only use BM25 if no specific actor filter OR if vector search had results
-            bm25_results = self._bm25_search(query, retrieval_plan['top_k'] * 2) if self.bm25_retriever else []
+            bm25_results = self._bm25_search(normalized_query, retrieval_plan['top_k'] * 2) if self.bm25_retriever else []
 
         # If a specific actor was requested, filter BM25 results to that actor
         if bm25_results and parsed_query and parsed_query.get('actors'):
@@ -193,6 +200,20 @@ class EvidenceRetriever:
             'response_mode': response_mode,
             'parsed_query': parsed_query
         }
+
+    def _normalize_query_for_actors(self, query: str, actors: List[Dict[str, str]]) -> str:
+        """Replace matched actor aliases in the query with canonical primary names."""
+        normalized = query
+        for actor in actors:
+            matched = actor.get('matched_text') or ''
+            primary = actor.get('primary_name') or ''
+            if not matched or not primary:
+                continue
+            if matched.lower() != primary.lower():
+                logger.info(f"Alias normalized: '{matched}' -> '{primary}'")
+            pattern = rf'(?<!\w){re.escape(matched)}(?!\w)'
+            normalized = re.sub(pattern, primary, normalized, flags=re.IGNORECASE)
+        return normalized
     
     def _vector_search(self, query: str, k: int, metadata_filter: Optional[Dict] = None) -> List[Tuple[Dict[str, Any], float]]:
         """Perform vector similarity search."""

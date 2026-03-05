@@ -35,3 +35,10 @@ Recommendations for Future Research:
 * Conduct further analysis of THUNDERCATS campaigns attributed to TA428
 * Investigate the potential connections between Big Panda and other Chinese-speaking nation-state threat actors
 * Gather more information on the Harvester group's toolset and operations to better understand potential relationships with Big Panda",73752351-5a4d-4712-817e-bd0206a0e333,,,,,5,relevant,,,Quick feedback: positive,
+ff95761c-7379-4b9c-9e0e-449fc2a01c6f,2026-02-09T07:51:43.200114,Chat message,"**Connection Found:**
+
+According to Cylance research, Snake Wine was discovered while investigating APT28's infrastructure. Snake Wine used similar name server registration patterns to APT28, though their malware differs. This suggests possible infrastructure overlap or mimicry.
+
+**Related Actors Mentioned:** Sofacy, APT 28, Fancy Bear, Sednit, Cyber Caliphate Army (CCA), United Cyber Caliphate (UCC), APT 29, Cozy Bear, The Dukes
+
+**Last Known Activity:** 2020-04-15",e4d0c436-3d06-40b0-97fc-c98cff07ab55,,,,,4,,partially_accurate,,This output is not associated with question .,

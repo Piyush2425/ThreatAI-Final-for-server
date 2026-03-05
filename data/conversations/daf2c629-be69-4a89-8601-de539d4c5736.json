@@ -1,0 +1,141 @@
+{
+  "id": "daf2c629-be69-4a89-8601-de539d4c5736",
+  "title": "who is Apt 33 ?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "who is Apt 33 ?",
+      "timestamp": "2026-02-09T16:20:57.277346",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "**Confidence:** High\n**Rationale:** 4 sources\n\n**Who is APT 33?**\nAlso known as: APT 33, Elfin, Magnallium, Holmium, ATK 35, Refined Kitten, TA451, Cobalt Trinity.\n\n**Core Profile**\n- Type: Nation-state aligned threat actor\n- Origin: Iran\n- Sponsorship: State-sponsored, Iranian Islamic Revolutionary Guard Corps (IRGC)\n- Primary motive: Information theft and espionage, Sabotage and destruction\n- Active since: 2013\n- Last known activity: 2025-08-16\n\n**Common Targets**\n- Aviation\n- Defense\n- Education\n- Energy\n- Financial\n- Government\n\n**Known Characteristics**\n- Techniques: //www.microsoft.com/en-us/security/blog/2024/08/28/peach-sandstorm-deploys-new-custom-tickler-malware-in-long-running-intelligence-gathering-operations/\n- Tooling: AutoIt backdoor, DarkComet, DistTrack, EmpireProject, FalseFont, Filerase\n\nImportant: Attribution in cyber threat intel is probabilistic; vendors may disagree. (Supporting evidence from 3 additional sources)\n\n**Sources**\n- [S1] www.fireeye.com (2025) - https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html\n- [S2] en.wikipedia.org (2025) - https://en.wikipedia.org/wiki/Elfin_Team",
+      "timestamp": "2026-02-09T16:20:57.541698",
+      "metadata": {
+        "confidence": 0.8,
+        "evidence": [
+          {
+            "text": "Threat Actor: APT 33, Elfin, Magnallium\nPrimary Name: APT 33\nAlso known as: APT 33, Elfin, Magnallium, Holmium, ATK 35, Refined Kitten, TA451, Cobalt Trinity, Peach Sandstorm, Yellow Orc, Curious Serpens, G0064\nName Giver: Mandiant\nAlias Givers: Elfin (Symantec), Magnallium (Dragos), Holmium (Microsoft), ATK 35 (Thales), Refined Kitten (CrowdStrike), TA451 (Proofpoint), Cobalt Trinity (SecureWorks), Peach Sandstorm (Microsoft), Yellow Orc (PWC), Curious Serpens (Palo Alto), G0064 (MITRE)\nOrigin: Iran\nObserved Sectors: Aviation, Defense, Education, Energy, Financial, Government, Healthcare, High-Tech, Manufacturing, Media, Oil and gas, Petrochemical, Telecommunications, others\nObserved Countries: Iran, Iraq, Israel, Saudi Arabia, South Korea, UAE, UK, USA\nTools: AutoIt backdoor, DarkComet, DistTrack, EmpireProject, FalseFont, Filerase, JuicyPotato, LaZagne, Mimikatz, NanoCore RAT, NetWire RC, PoshC2, PowerBand, PowerSploit, POWERTON, PsList, PupyRAT, QuasarRAT, RemcosRAT, Ruler, SHAPESHIFT, StoneDrill, Tickler, TURNEDUP, Living off the Land\nCampaigns: 2019-03 - Attacks on Multiple Organizations in Saudi Arabia and U.S.\nThe Elfin espionage group (aka APT33) has remained highly active over the past three years, attacking at least 50 organizations in Saudi Arabia, the United States, and a range of other countries.\nhttps://www.symantec.com/blogs/threat-intelligence/elfin-apt33-espionage | 2019-07 - US Cyber Command has issued an alert via Twitter today about threat actors abusing an Outlook vulnerability to plant malware on government networks.\nThe vulnerability is CVE-2017-11774, a security bug that Microsoft patched in Outlook in the October 2017 Patch Tuesday.\nhttps://www.zdnet.com/article/us-cyber-command-issues-alert-about-hackers-exploiting-outlook-vulnerability/ | 2019-11 - More than a Dozen Obfuscated APT33 Botnets Used for Extreme Narrow Targeting\nhttps://blog.trendmicro.com/trendlabs-security-intelligence/more-than-a-dozen-obfuscated-apt33-botnets-used-for-extreme-narrow-targeting/ | 2023-02 - Peach Sandstorm password spray campaigns enable intelligence collection at high-value targets\nhttps://www.microsoft.com/en-us/security/blog/2023/09/14/peach-sandstorm-password-spray-campaigns-enable-intelligence-collection-at-high-value-targets/ | 2023-11 - Microsoft: Hackers target defense firms with new FalseFont malware\nhttps://www.bleepingcomputer.com/news/security/microsoft-hackers-target-defense-firms-with-new-falsefont-malware/ | 2024-04 - Peach Sandstorm deploys new custom Tickler malware in long-running intelligence gathering operations\nhttps://www.microsoft.com/en-us/security/blog/2024/08/28/peach-sandstorm-deploys-new-custom-tickler-malware-in-long-running-intelligence-gathering-operations/\nSponsorship: State-sponsored, Iranian Islamic Revolutionary Guard Corps (IRGC)\nDescription: (FireEye) When discussing suspected Middle Eastern hacker groups with destructive capabilities, many automatically think of the suspected Iranian group that previously used SHAMOON – aka Disttrack – to target organizations in the Persian Gulf. However, over the past few years, we have been tracking a separate, less widely known suspected Iranian group with potential destructive capabilities, whom we call APT33. Our analysis reveals that APT33 is a capable group that has carried out cyber espionage operations since at least 2013. We assess APT33 works at the behest of the Iranian government.\n\nAPT33 has targeted organizations – spanning multiple industries – headquartered in the United States, Saudi Arabia and South Korea. APT33 has shown particular interest in organizations in the aviation sector involved in both military and commercial capacities, as well as organizations in the energy sector with ties to petrochemical production.\n\nAPT 33 seems to be closely related to {{OilRig, APT 34, Helix Kitten, Chrysene}} since at least 2017.\nLast Known Activity: 2025-08-16\nfirst_seen: 2013\nmotivations: Information theft and espionage, Sabotage and destruction",
+            "score": 0.5098,
+            "source": "entity_profile",
+            "actor": "APT 33, Elfin, Magnallium",
+            "links": [
+              "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
+              "https://en.wikipedia.org/wiki/Elfin_Team"
+            ]
+          },
+          {
+            "text": "2019-03 - Attacks on Multiple Organizations in Saudi Arabia and U.S.\nThe Elfin espionage group (aka APT33) has remained highly active over the past three years, attacking at least 50 organizations in Saudi Arabia, the United States, and a range of other countries.\nhttps://www.symantec.com/blogs/threat-intelligence/elfin-apt33-espionage | 2019-07 - US Cyber Command has issued an alert via Twitter today about threat actors abusing an Outlook vulnerability to plant malware on government networks.\nThe vulnerability is CVE-2017-11774, a security bug that Microsoft patched in Outlook in the October 2017 Patch Tuesday.\nhttps://www.zdnet.com/article/us-cyber-command-issues-alert-about-hackers-exploiting-outlook-vulnerability/ | 2019-11 - More than a Dozen Obfuscated APT33 Botnets Used for Extreme Narrow Targeting\nhttps://blog.trendmicro.com/trendlabs-security-intelligence/more-than-a-dozen-obfuscated-apt33-botnets-used-for-extreme-narrow-targeting/ | 2023-02 - Peach Sandstorm password spray campaigns enable intelligence collection at high-value targets\nhttps://www.microsoft.com/en-us/security/blog/2023/09/14/peach-sandstorm-password-spray-campaigns-enable-intelligence-collection-at-high-value-targets/ | 2023-11 - Microsoft: Hackers target defense firms with new FalseFont malware\nhttps://www.bleepingcomputer.com/news/security/microsoft-hackers-target-defense-firms-with-new-falsefont-malware/ | 2024-04 - Peach Sandstorm deploys new custom Tickler malware in long-running intelligence gathering operations\nhttps://www.microsoft.com/en-us/security/blog/2024/08/28/peach-sandstorm-deploys-new-custom-tickler-malware-in-long-running-intelligence-gathering-operations/",
+            "score": 0.4921,
+            "source": "campaigns",
+            "actor": "APT 33, Elfin, Magnallium",
+            "links": [
+              "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
+              "https://en.wikipedia.org/wiki/Elfin_Team"
+            ]
+          },
+          {
+            "text": "2025-08-16",
+            "score": 0.418,
+            "source": "last_updated",
+            "actor": "APT 33, Elfin, Magnallium",
+            "links": [
+              "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
+              "https://en.wikipedia.org/wiki/Elfin_Team"
+            ]
+          },
+          {
+            "text": "Elfin (Symantec), Magnallium (Dragos), Holmium (Microsoft), ATK 35 (Thales), Refined Kitten (CrowdStrike), TA451 (Proofpoint), Cobalt Trinity (SecureWorks), Peach Sandstorm (Microsoft), Yellow Orc (PWC), Curious Serpens (Palo Alto), G0064 (MITRE)",
+            "score": 0.4163,
+            "source": "alias_givers",
+            "actor": "APT 33, Elfin, Magnallium",
+            "links": [
+              "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
+              "https://en.wikipedia.org/wiki/Elfin_Team"
+            ]
+          },
+          {
+            "text": "AutoIt backdoor, DarkComet, DistTrack, EmpireProject, FalseFont, Filerase, JuicyPotato, LaZagne, Mimikatz, NanoCore RAT, NetWire RC, PoshC2, PowerBand, PowerSploit, POWERTON, PsList, PupyRAT, QuasarRAT, RemcosRAT, Ruler, SHAPESHIFT, StoneDrill, Tickler, TURNEDUP, Living off the Land",
+            "score": 0.4147,
+            "source": "tools",
+            "actor": "APT 33, Elfin, Magnallium",
+            "links": [
+              "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
+              "https://en.wikipedia.org/wiki/Elfin_Team"
+            ]
+          }
+        ],
+        "trace_id": "15f09e56-19df-4ed3-85bf-ac80b226c816",
+        "model": "fallback",
+        "source_count": 4
+      }
+    },
+    {
+      "role": "user",
+      "content": "report about SunCrypt Gang",
+      "timestamp": "2026-02-09T16:21:57.633443",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "**Confidence:** High\n**Rationale:** 4 sources\n\n**Key Attributes**\n\n- **Threat Actor:** SunCrypt Gang\n\n- **Also Known As:** SunCrypt Gang\nName Giver: ? [S1]\n\n- **Origin:** Unknown [S1]\n\n- **First Seen:** 2019 [S1]\n\n- **Last Known Activity:** 2021-05-15 [S1]\n\n\n**Key Highlights**\n- Origin: Unknown\n- Last Known Activity: 2021-05-15\n- Top Tools: SunCrypt, WARPRISM\n\n\n**Motivation**\nFinancial gain [S1]\n\n\n**Capabilities**\n\n- **Tools & Malware:** SunCrypt, WARPRISM [S1]\n\n\n**Campaigns & Operations**\n\n| Date | Activity |\n| --- | --- |\n| 2020-10 | Ransomware gang attacks Texas unit of global steel conglomerate |\n| 2020-09 | University Hospital New Jersey hit by SunCrypt ransomware, data leaked |\n| 2020-09 | Ransomware gangs add DDoS attacks to their extortion arsenal |\n| 2020-08 | SunCrypt Ransomware shuts down North Carolina school district |\n| 2020-08 | SunCrypt Ransomware sheds light on the Maze ransomware cartel |\n| 2020-05 | MU Health Care Phishing Attack Impacts 5,000 Patients | [S1]\n\n\n*(Supporting evidence from 3 additional sources)*",
+      "timestamp": "2026-02-09T16:21:57.751442",
+      "metadata": {
+        "confidence": 0.8,
+        "evidence": [
+          {
+            "text": "SunCrypt, WARPRISM",
+            "score": 0.5824,
+            "source": "tools",
+            "actor": "SunCrypt Gang",
+            "links": [
+              "https://www.acronis.com/en-us/blog/posts/suncrypt-adopts-attacking-techniques-netwalker-and-maze-ransomware"
+            ]
+          },
+          {
+            "text": "Threat Actor: SunCrypt Gang\nAlso known as: SunCrypt Gang\nName Giver: ?\nOrigin: Unknown\nTools: SunCrypt, WARPRISM\nCampaigns: 2020-05 - MU Health Care Phishing Attack Impacts 5,000 Patients\nhttps://www.hipaajournal.com/mu-health-care-phishing-attack-impacts-5000-patients/ | 2020-08 - SunCrypt Ransomware shuts down North Carolina school district\nhttps://www.bleepingcomputer.com/news/security/suncrypt-ransomware-shuts-down-north-carolina-school-district/ | 2020-08 - SunCrypt Ransomware sheds light on the Maze ransomware cartel\nhttps://www.bleepingcomputer.com/news/security/suncrypt-ransomware-sheds-light-on-the-maze-ransomware-cartel/ | 2020-09 - University Hospital New Jersey hit by SunCrypt ransomware, data leaked\nhttps://www.bleepingcomputer.com/news/security/university-hospital-new-jersey-hit-by-suncrypt-ransomware-data-leaked/ | 2020-09 - Ransomware gangs add DDoS attacks to their extortion arsenal\nhttps://www.bleepingcomputer.com/news/security/ransomware-gangs-add-ddos-attacks-to-their-extortion-arsenal/ | 2020-10 - Ransomware gang attacks Texas unit of global steel conglomerate\nhttps://itwire.com/security/ransomware-gang-attacks-texas-unit-of-global-steel-conglomerate.html\nDescription: (Acronis) This ransomware family was first spotted in October 2019, but it was not very active at that time. The group behind it was independent in the beginning, but they recently joined the so-called Maze cartel – combining forces to rob individuals and companies around the world.\nLast Known Activity: 2021-05-15\nfirst_seen: 2019\nmotivations: Financial gain",
+            "score": 0.569,
+            "source": "entity_profile",
+            "actor": "SunCrypt Gang",
+            "links": [
+              "https://www.acronis.com/en-us/blog/posts/suncrypt-adopts-attacking-techniques-netwalker-and-maze-ransomware"
+            ]
+          },
+          {
+            "text": "2020-05 - MU Health Care Phishing Attack Impacts 5,000 Patients\nhttps://www.hipaajournal.com/mu-health-care-phishing-attack-impacts-5000-patients/ | 2020-08 - SunCrypt Ransomware shuts down North Carolina school district\nhttps://www.bleepingcomputer.com/news/security/suncrypt-ransomware-shuts-down-north-carolina-school-district/ | 2020-08 - SunCrypt Ransomware sheds light on the Maze ransomware cartel\nhttps://www.bleepingcomputer.com/news/security/suncrypt-ransomware-sheds-light-on-the-maze-ransomware-cartel/ | 2020-09 - University Hospital New Jersey hit by SunCrypt ransomware, data leaked\nhttps://www.bleepingcomputer.com/news/security/university-hospital-new-jersey-hit-by-suncrypt-ransomware-data-leaked/ | 2020-09 - Ransomware gangs add DDoS attacks to their extortion arsenal\nhttps://www.bleepingcomputer.com/news/security/ransomware-gangs-add-ddos-attacks-to-their-extortion-arsenal/ | 2020-10 - Ransomware gang attacks Texas unit of global steel conglomerate\nhttps://itwire.com/security/ransomware-gang-attacks-texas-unit-of-global-steel-conglomerate.html",
+            "score": 0.5084,
+            "source": "campaigns",
+            "actor": "SunCrypt Gang",
+            "links": [
+              "https://www.acronis.com/en-us/blog/posts/suncrypt-adopts-attacking-techniques-netwalker-and-maze-ransomware"
+            ]
+          },
+          {
+            "text": "2021-05-15",
+            "score": 0.3937,
+            "source": "last_updated",
+            "actor": "SunCrypt Gang",
+            "links": [
+              "https://www.acronis.com/en-us/blog/posts/suncrypt-adopts-attacking-techniques-netwalker-and-maze-ransomware"
+            ]
+          },
+          {
+            "text": "SunCrypt Gang SunCrypt Gang Unknown (Acronis) This ransomware family was first spotted in October 2019, but it was not very active at that time. The group behind it was independent in the beginning, but they recently joined the so-called Maze cartel – combining forces to rob individuals and companies around the world. 2021-05-15",
+            "score": 0.3,
+            "source": "bm25",
+            "actor": "SunCrypt Gang",
+            "links": [
+              "https://www.acronis.com/en-us/blog/posts/suncrypt-adopts-attacking-techniques-netwalker-and-maze-ransomware"
+            ]
+          }
+        ],
+        "trace_id": "5e7a84ef-cc6d-4cec-b980-cff670dbd292",
+        "model": "fallback",
+        "source_count": 4
+      }
+    }
+  ],
+  "created_at": "2026-02-09T16:20:45.573208",
+  "updated_at": "2026-02-09T16:21:57.751442"
+}

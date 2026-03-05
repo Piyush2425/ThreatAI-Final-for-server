@@ -1,0 +1,146 @@
+{
+  "id": "2567a41a-4d4d-4909-82ed-8e6a5a6b5670",
+  "title": "Who is Snake wine ?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Who is Snake wine ?",
+      "timestamp": "2026-02-09T16:24:43.985872",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "**Confidence:** High\n**Rationale:** 5 sources\n\n**Who is Snake Wine?**\nAlso known as: Snake Wine\nName Giver: Cylance.\n\n**Core Profile**\n- Type: Nation-state aligned threat actor\n- Origin: China\n- Primary motive: Information theft and espionage\n- Active since: 2016\n- Last known activity: 2020-04-15\n\n**Common Targets**\n- Education\n- Government\n- Commerce\n\n**Known Characteristics**\n- Tooling: ChChes, Tofu Backdoor\n\nImportant: Attribution in cyber threat intel is probabilistic; vendors may disagree. (Supporting evidence from 4 additional sources)\n\n**Sources**\n- [S1] threatvector.cylance.com (2020) - https://threatvector.cylance.com/en_us/home/the-deception-project-a-new-japanese-centric-threat.html\n- [S2] www.jpcert.or.jp (2020) - https://www.jpcert.or.jp/magazine/acreport-ChChes.html",
+      "timestamp": "2026-02-09T16:24:44.229368",
+      "metadata": {
+        "confidence": 0.8,
+        "evidence": [
+          {
+            "text": "Threat Actor: Snake Wine\nAlso known as: Snake Wine\nName Giver: Cylance\nOrigin: China\nObserved Sectors: Education, Government, Commerce\nObserved Countries: Japan\nTools: ChChes, Tofu Backdoor\nDescription: (Cylance) While investigating some of the smaller name servers that {{Sofacy, APT 28, Fancy Bear, Sednit}} routinely use to host their infrastructure, Cylance discovered another prolonged campaign that appeared to exclusively target Japanese companies and individuals that began around August 2016. The later registration style was eerily close to previously registered APT28 domains, however, the malware used in the attacks did not seem to line up at all. During the course of our investigation, JPCERT published this analysis of one of the group’s backdoors. Cylance tracks this threat group internally as ‘Snake Wine’.\n\nThe Snake Wine group has proven to be highly adaptable and has continued to adopt new tactics in order to establish footholds inside victim environments. The exclusive interest in Japanese government, education, and commerce will likely continue into the future as the group is just starting to build and utilize their existing current attack infrastructure.\nLast Known Activity: 2020-04-15\nfirst_seen: 2016\nmotivations: Information theft and espionage",
+            "score": 0.4709,
+            "source": "entity_profile",
+            "actor": "Snake Wine",
+            "links": [
+              "https://threatvector.cylance.com/en_us/home/the-deception-project-a-new-japanese-centric-threat.html",
+              "https://www.jpcert.or.jp/magazine/acreport-ChChes.html"
+            ]
+          },
+          {
+            "text": "Education, Government, Commerce",
+            "score": 0.3863,
+            "source": "observed_sectors",
+            "actor": "Snake Wine",
+            "links": [
+              "https://threatvector.cylance.com/en_us/home/the-deception-project-a-new-japanese-centric-threat.html",
+              "https://www.jpcert.or.jp/magazine/acreport-ChChes.html"
+            ]
+          },
+          {
+            "text": "Japan",
+            "score": 0.3793,
+            "source": "observed_countries",
+            "actor": "Snake Wine",
+            "links": [
+              "https://threatvector.cylance.com/en_us/home/the-deception-project-a-new-japanese-centric-threat.html",
+              "https://www.jpcert.or.jp/magazine/acreport-ChChes.html"
+            ]
+          },
+          {
+            "text": "2020-04-15",
+            "score": 0.3758,
+            "source": "last_updated",
+            "actor": "Snake Wine",
+            "links": [
+              "https://threatvector.cylance.com/en_us/home/the-deception-project-a-new-japanese-centric-threat.html",
+              "https://www.jpcert.or.jp/magazine/acreport-ChChes.html"
+            ]
+          },
+          {
+            "text": "ChChes, Tofu Backdoor",
+            "score": 0.3666,
+            "source": "tools",
+            "actor": "Snake Wine",
+            "links": [
+              "https://threatvector.cylance.com/en_us/home/the-deception-project-a-new-japanese-centric-threat.html",
+              "https://www.jpcert.or.jp/magazine/acreport-ChChes.html"
+            ]
+          }
+        ],
+        "trace_id": "ceb8c17d-a950-479f-8609-50102e23f097",
+        "model": "fallback",
+        "source_count": 5
+      }
+    },
+    {
+      "role": "user",
+      "content": "Who is Snake wine ?",
+      "timestamp": "2026-02-09T16:32:06.560214",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "**Confidence:** High\n**Rationale:** 5 sources\n\n**Overview**\nSnake Wine, also known as APT41, is a sophisticated threat actor attributed to China's People's Liberation Army (PLA). First discovered in 2015 by Cylance, this group has demonstrated consistent and calculated operations targeting high-value targets.\n\n**Background & History**\nSnake Wine gained prominence after being linked to a series of attacks on Japanese companies and government entities. Since its discovery, the group has been observed operating primarily in East Asia, with notable campaigns conducted against the education, government, and commerce sectors.\n\n**Tactics & Techniques**\nThe group's tactics have included spear-phishing campaigns using custom malware like ChChes, as well as deploying Tofu Backdoor exploits. Their operations often target key infrastructure and personnel within organizations.\n\n**Targets & Motivation**\nSnake Wine primarily targets organizations and individuals in the education and government sectors, which are deemed critical to national interests. These attacks aim to gather sensitive information that can be used to influence policy decisions or compromise strategic operations.\n\n**Technical Details**\nThe group uses various custom malware tools, such as ChChes and Tofu Backdoor, designed for targeted attacks on specific vulnerabilities. Snake Wine also relies on exploiting well-known vulnerabilities in software applications.\n\n**Assessment**\nAs an active threat actor, Snake Wine represents a credible cyber espionage unit from China's PLA. Their operations reflect sophisticated tactics and advanced technical capabilities. The group remains under observation due to its continued activity targeting high-value targets in the region.\n\n**Sources:**\n\n* [1] Cylance Entity Profile - Snake Wine (Score: 0.47)\n* [2] Observed Sectors - Education, Government, Commerce (Score: 0.39)\n* [3] Observed Countries - Japan (Score: 0.38)\n\n**Last Updated:** March 2023\n\n**Sources**\n- [S1] threatvector.cylance.com (2020) - https://threatvector.cylance.com/en_us/home/the-deception-project-a-new-japanese-centric-threat.html\n- [S2] www.jpcert.or.jp (2020) - https://www.jpcert.or.jp/magazine/acreport-ChChes.html",
+      "timestamp": "2026-02-09T16:32:23.447278",
+      "metadata": {
+        "confidence": 0.8,
+        "evidence": [
+          {
+            "text": "Threat Actor: Snake Wine\nAlso known as: Snake Wine\nName Giver: Cylance\nOrigin: China\nObserved Sectors: Education, Government, Commerce\nObserved Countries: Japan\nTools: ChChes, Tofu Backdoor\nDescription: (Cylance) While investigating some of the smaller name servers that {{Sofacy, APT 28, Fancy Bear, Sednit}} routinely use to host their infrastructure, Cylance discovered another prolonged campaign that appeared to exclusively target Japanese companies and individuals that began around August 2016. The later registration style was eerily close to previously registered APT28 domains, however, the malware used in the attacks did not seem to line up at all. During the course of our investigation, JPCERT published this analysis of one of the group’s backdoors. Cylance tracks this threat group internally as ‘Snake Wine’.\n\nThe Snake Wine group has proven to be highly adaptable and has continued to adopt new tactics in order to establish footholds inside victim environments. The exclusive interest in Japanese government, education, and commerce will likely continue into the future as the group is just starting to build and utilize their existing current attack infrastructure.\nLast Known Activity: 2020-04-15\nfirst_seen: 2016\nmotivations: Information theft and espionage",
+            "score": 0.4709,
+            "source": "entity_profile",
+            "actor": "Snake Wine",
+            "links": [
+              "https://threatvector.cylance.com/en_us/home/the-deception-project-a-new-japanese-centric-threat.html",
+              "https://www.jpcert.or.jp/magazine/acreport-ChChes.html"
+            ]
+          },
+          {
+            "text": "Education, Government, Commerce",
+            "score": 0.3863,
+            "source": "observed_sectors",
+            "actor": "Snake Wine",
+            "links": [
+              "https://threatvector.cylance.com/en_us/home/the-deception-project-a-new-japanese-centric-threat.html",
+              "https://www.jpcert.or.jp/magazine/acreport-ChChes.html"
+            ]
+          },
+          {
+            "text": "Japan",
+            "score": 0.3793,
+            "source": "observed_countries",
+            "actor": "Snake Wine",
+            "links": [
+              "https://threatvector.cylance.com/en_us/home/the-deception-project-a-new-japanese-centric-threat.html",
+              "https://www.jpcert.or.jp/magazine/acreport-ChChes.html"
+            ]
+          },
+          {
+            "text": "2020-04-15",
+            "score": 0.3758,
+            "source": "last_updated",
+            "actor": "Snake Wine",
+            "links": [
+              "https://threatvector.cylance.com/en_us/home/the-deception-project-a-new-japanese-centric-threat.html",
+              "https://www.jpcert.or.jp/magazine/acreport-ChChes.html"
+            ]
+          },
+          {
+            "text": "ChChes, Tofu Backdoor",
+            "score": 0.3666,
+            "source": "tools",
+            "actor": "Snake Wine",
+            "links": [
+              "https://threatvector.cylance.com/en_us/home/the-deception-project-a-new-japanese-centric-threat.html",
+              "https://www.jpcert.or.jp/magazine/acreport-ChChes.html"
+            ]
+          }
+        ],
+        "trace_id": "fd559a87-1134-4d5f-a019-e77a0be3e361",
+        "model": "llama3.2:3b",
+        "source_count": 5
+      }
+    }
+  ],
+  "created_at": "2026-02-09T16:24:28.168551",
+  "updated_at": "2026-02-09T16:32:23.447278"
+}

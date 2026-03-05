@@ -37,6 +37,31 @@ class AliasResolver:
             
             with open(path, 'r', encoding='utf-8') as f:
                 actors = json.load(f)
+
+            def add_alias_variants(alias_value: str, primary_name: str, actor_id: str):
+                if not alias_value:
+                    return
+                base = alias_value.strip()
+                if not base:
+                    return
+                spaced = re.sub(r'([a-z])([A-Z])', r'\1 \2', base)
+                spaced = re.sub(r'([A-Za-z])([0-9])', r'\1 \2', spaced)
+                spaced = re.sub(r'([0-9])([A-Za-z])', r'\1 \2', spaced)
+                spaced = re.sub(r'[\-_\/]+', ' ', spaced)
+                spaced = re.sub(r'\s+', ' ', spaced).strip()
+
+                variants = {base.lower()}
+                if spaced:
+                    variants.add(spaced.lower())
+                no_space = re.sub(r'[\s\-_\/]+', '', base.lower())
+                if no_space:
+                    variants.add(no_space)
+
+                for variant in variants:
+                    if len(variant) < 4:
+                        continue
+                    self.alias_to_primary[variant] = primary_name
+                    self.actor_id_map[variant] = actor_id
             
             for actor in actors:
                 actor_id = actor.get('id', '')
@@ -59,6 +84,7 @@ class AliasResolver:
                 # Map primary name to itself
                 self.alias_to_primary[primary_lower] = primary_name
                 self.actor_id_map[primary_lower] = actor_id
+                add_alias_variants(primary_name, primary_name, actor_id)
                 
                 # Add space normalization for primary name (APT 28 <-> APT28)
                 if 'apt' in primary_lower and any(c.isdigit() for c in primary_lower):
@@ -75,6 +101,7 @@ class AliasResolver:
                 if name and name.lower() != primary_lower:
                     self.alias_to_primary[name.lower()] = primary_name
                     self.actor_id_map[name.lower()] = actor_id
+                    add_alias_variants(name, primary_name, actor_id)
                     
                     # Add space normalization for regular name
                     name_lower = name.lower()
@@ -107,6 +134,7 @@ class AliasResolver:
                         self.alias_to_primary[alias_lower] = primary_name
                         self.primary_to_aliases[primary_name].add(alias)
                         self.actor_id_map[alias_lower] = actor_id
+                        add_alias_variants(alias, primary_name, actor_id)
                         
                         # Add space normalization variants (APT 28 <-> APT28)
                         if 'apt' in alias_lower and any(c.isdigit() for c in alias_lower):
@@ -233,6 +261,7 @@ class AliasResolver:
         # Sort aliases by length (longest first) to match "APT28" before "APT"
         sorted_aliases = sorted(self.alias_to_primary.keys(), key=len, reverse=True)
         
+        # First pass: exact word boundary matching
         for alias in sorted_aliases:
             # Check if alias appears as whole word (not substring)
             # Use simple word boundary check
@@ -256,6 +285,65 @@ class AliasResolver:
                             'actor_id': self.actor_id_map.get(alias, '')
                         })
                         matched_aliases.append(alias)
+        
+        # Second pass: fuzzy matching for partial names
+        # Only if we found 0 or 1 actor and query looks like a comparison
+        is_comparison_query = any(phrase in query_lower for phrase in [
+            'same', 'identical', 'equivalent', 'and', 'vs', 'versus', 'or'
+        ])
+        
+        if len(seen_primaries) < 2 and is_comparison_query:
+            # Extract potential actor words (capitalized or common threat actor patterns)
+            import re
+            # Look for capitalized words or APT patterns
+            potential_names = re.findall(r'\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*\b|\bAPT[\s-]?\d+\b|\b[A-Z]{3,}\b', query)
+            
+            for name in potential_names:
+                name_lower = name.lower()
+                if name_lower in seen_primaries or name_lower in [m['matched_text'] for m in matched_actors]:
+                    continue
+                
+                # Try fuzzy matching with strict rules
+                for alias, primary in self.alias_to_primary.items():
+                    if primary in seen_primaries:
+                        continue
+                    
+                    matched = False
+                    
+                    # Special handling for APT groups - require exact number match
+                    apt_pattern = re.search(r'apt[\s-]?(\d+)', name_lower)
+                    if apt_pattern:
+                        # For APT groups, check if the alias has the same number
+                        apt_alias_pattern = re.search(r'apt[\s-]?(\d+)', alias)
+                        if apt_alias_pattern and apt_pattern.group(1) == apt_alias_pattern.group(1):
+                            matched = True
+                    else:
+                        # For non-APT names, do word-based matching
+                        name_words = set(name_lower.split())
+                        alias_words = set(alias.split())
+                        
+                        # Check if at least one significant word (4+ chars) matches
+                        significant_name_words = {w for w in name_words if len(w) >= 4}
+                        significant_alias_words = {w for w in alias_words if len(w) >= 4}
+                        
+                        if significant_name_words and significant_alias_words:
+                            # At least one significant word must match
+                            if significant_name_words & significant_alias_words:
+                                matched = True
+                        elif len(name_lower) >= 6 and len(alias) >= 6:
+                            # For longer names without clear words, check if one is contained in the other
+                            # But only for reasonably long strings to avoid false positives
+                            if name_lower in alias or alias in name_lower:
+                                matched = True
+                    
+                    if matched:
+                        seen_primaries.add(primary)
+                        matched_actors.append({
+                            'matched_text': name,
+                            'primary_name': primary,
+                            'actor_id': self.actor_id_map.get(alias, '')
+                        })
+                        break
         
         return matched_actors
     

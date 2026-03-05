@@ -133,6 +133,10 @@ def merge_canonical_with_raw(canonical: List[Dict[str, Any]], raw: List[Dict[str
         merged['targets'] = _merge_list(merged.get('targets'), raw_actor.get('targets'))
         merged['campaigns'] = _merge_list(merged.get('campaigns'), raw_actor.get('campaigns'))
         merged['operations'] = _merge_list(merged.get('operations'), raw_actor.get('operations'))
+        merged['counter_operations'] = _merge_list(
+            merged.get('counter_operations'),
+            raw_actor.get('counter-operations')
+        )
 
         merged_actors.append(merged)
 

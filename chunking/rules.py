@@ -30,6 +30,8 @@ class ChunkingRules:
         'tools': True,
         'campaigns': True,
         'operations': True,
+        'counter_operations': True,
+        'counter-operations': True,
         'alias_givers': True,
         'origins': True,
         'motivations': True,

@@ -28,6 +28,8 @@ def normalize_actor(actor: Dict[str, Any]) -> Dict[str, Any]:
         'tools',
         'campaigns',
         'operations',
+        'counter_operations',
+        'counter-operations',
         'observed_sectors',
         'observed-sectors',
         'observed_countries',

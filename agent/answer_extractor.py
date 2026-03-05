@@ -36,6 +36,7 @@ class AnswerExtractor:
         
         # Route to specific extraction method based on intent
         extraction_methods = {
+            QueryIntent.COUNTER_OPERATIONS: self._extract_counter_operations,
             QueryIntent.TACTICS: self._extract_tactics,
             QueryIntent.ASSOCIATIONS: self._extract_associations,
             QueryIntent.TARGETS: self._extract_targets,
@@ -51,6 +52,47 @@ class AnswerExtractor:
         
         extractor = extraction_methods.get(intent, self._extract_overview)
         return extractor(evidence, query)
+
+    def _extract_counter_operations(self, evidence: List[Dict[str, Any]], query: str) -> Dict[str, Any]:
+        """Extract counter operations or defensive actions."""
+        operations = []
+        seen = set()
+
+        def add_entry(value: str, source: str, evidence_text: str):
+            cleaned = value.strip()
+            if not cleaned:
+                return
+            key = cleaned.lower()
+            if key in seen:
+                return
+            operations.append({
+                'operation': cleaned,
+                'source': source,
+                'evidence': evidence_text[:220] + '...' if len(evidence_text) > 220 else evidence_text
+            })
+            seen.add(key)
+
+        for chunk in evidence:
+            text = chunk.get('text', '')
+            metadata = chunk.get('metadata', {})
+            source_field = metadata.get('source_field')
+
+            if source_field in ['counter_operations', 'counter-operations']:
+                for item in re.split(r'\s*\|\s*|\s*,\s*', text):
+                    add_entry(item, source_field, text)
+
+            embedded = re.search(r'Counter Operations\s*:\s*([^\n]+)', text, re.IGNORECASE)
+            if embedded:
+                for item in re.split(r'\s*\|\s*|\s*,\s*', embedded.group(1)):
+                    add_entry(item, 'entity_profile', text)
+
+        summary = self._format_counter_operations_summary(operations)
+
+        return {
+            'extracted_info': operations,
+            'summary': summary,
+            'confidence': min(len(operations) * 0.2, 1.0)
+        }
     
     def _extract_tactics(self, evidence: List[Dict[str, Any]], query: str) -> Dict[str, Any]:
         """Extract tactics, techniques, and procedures (TTPs)."""
@@ -140,15 +182,40 @@ class AnswerExtractor:
         
         # Check if query asks about connection between two specific actors
         query_lower = query.lower()
-        is_two_actor_query = any(word in query_lower for word in ['between', 'connection between', 'and'])
+        is_two_actor_query = any(word in query_lower for word in ['between', 'connection between', 'relationship between', 'and'])
         
         for chunk in evidence:
             text = chunk['text']
+            metadata = chunk.get('metadata', {})
             
-            # Look for {{Actor Name}} pattern
+            # First, check for pre-extracted related_actors from metadata (faster and more reliable)
+            related_actors = metadata.get('related_actors', [])
+            if related_actors:
+                for actor in related_actors:
+                    if actor and actor not in seen:
+                        # Find context from description
+                        idx = text.find(actor)
+                        if idx >= 0:
+                            start = max(0, idx - 100)
+                            end = min(len(text), idx + len(actor) + 150)
+                            context = text[start:end].strip()
+                        else:
+                            context = ""
+                        
+                        associations.append({
+                            'actor': actor,
+                            'relationship': 'related/mentioned',
+                            'context': context,
+                            'source': metadata.get('source_field', 'description')
+                        })
+                        seen.add(actor)
+            
+            # Also look for {{Actor Name}} pattern for fallback (if not in metadata)
             actor_matches = re.findall(r'\{\{([^}]+)\}\}', text)
             for match in actor_matches:
-                if match not in seen:
+                # Extract primary name (first part before comma)
+                primary = match.split(',')[0].strip()
+                if primary not in seen:
                     # Get context around the match
                     idx = text.find(f'{{{{{match}}}}}')
                     start = max(0, idx - 100)
@@ -156,25 +223,52 @@ class AnswerExtractor:
                     context = text[start:end].strip()
                     
                     associations.append({
-                        'actor': match,
+                        'actor': primary,
                         'relationship': 'mentioned/related',
                         'context': context,
-                        'source': chunk['metadata'].get('source_field', 'description')
+                        'source': metadata.get('source_field', 'description')
                     })
-                    seen.add(match)
+                    seen.add(primary)
             
             # Look for explicit relationship terms
+            # Use very restrictive patterns - only proper nouns (consecutive capitalized words)
             relationship_patterns = [
-                (r'related to ([A-Z][A-Za-z0-9 ]+)', 'related to'),
-                (r'linked to ([A-Z][A-Za-z0-9 ]+)', 'linked to'),
-                (r'associated with ([A-Z][A-Za-z0-9 ]+)', 'associated with'),
-                (r'similar to ([A-Z][A-Za-z0-9 ]+)', 'similar to'),
+                (r'related to (?:the )?([A-Z][A-Za-z0-9]*(?:[ -][A-Z][A-Za-z0-9]*)*?)(?:,|\.|;| and | or | group| threat| actor| the | by | in | that | which | whose |$)', 'related to'),
+                (r'linked to (?:the )?([A-Z][A-Za-z0-9]*(?:[ -][A-Z][A-Za-z0-9]*)*?)(?:,|\.|;| and | or | group| threat| actor| the | by | in | that | which | whose |$)', 'linked to'),
+                (r'associated with (?:the )?([A-Z][A-Za-z0-9]*(?:[ -][A-Z][A-Za-z0-9]*)*?)(?:,|\.|;| and | or | group| threat| actor| the | by | in | that | which | whose |$)', 'associated with'),
+                (r'similar to (?:the )?([A-Z][A-Za-z0-9]*(?:[ -][A-Z][A-Za-z0-9]*)*?)(?:,|\.|;| and | or | group| threat| actor| the | by | in | that | which | whose |$)', 'similar to'),
             ]
+            
+            # Common false positives to filter out
+            false_positives = {
+                'Chinese', 'Chinese government', 'Russian', 'Russian government', 
+                'Iranian', 'Iranian government', 'North Korean', 'Korean',
+                'Government', 'Ministry', 'Intelligence', 'Military', 'Agency',
+                'Unknown', 'Various', 'Multiple', 'Several'
+            }
             
             for pattern, relationship in relationship_patterns:
                 matches = re.findall(pattern, text)
                 for match in matches:
-                    if match not in seen and len(match) > 3:
+                    match = match.strip()
+                    # Filter criteria:
+                    # 1. Not a known false positive
+                    # 2. Contains at least one word that's 3+ characters
+                    # 3. Not too long (< 50 chars)
+                    # 4. Has 1-6 words
+                    word_count = len(match.split())
+                    longest_word = max(match.split(), key=len) if match.split() else ''
+                    
+                    is_valid = (
+                        match not in seen and
+                        match not in false_positives and
+                        len(longest_word) >= 3 and
+                        3 < len(match) < 50 and
+                        1 <= word_count <= 6 and
+                        not any(char.islower() for char in match[0:1])  # Starts with capital
+                    )
+                    
+                    if is_valid:
                         associations.append({
                             'actor': match,
                             'relationship': relationship,
@@ -501,31 +595,83 @@ class AnswerExtractor:
         }
     
     def _extract_aliases(self, evidence: List[Dict[str, Any]], query: str) -> Dict[str, Any]:
-        """Extract alias information."""
-        aliases = []
-        primary_name = None
+        """Extract alias information with name givers."""
+        # Group evidence by primary_name to avoid mixing actors
+        actors_data = {}
         
         for chunk in evidence:
             metadata = chunk.get('metadata', {})
+            text = chunk.get('text', '')
             
-            if metadata.get('source_field') == 'primary_name':
-                primary_name = chunk['text']
-            elif metadata.get('source_field') == 'aliases':
-                aliases.append(chunk['text'])
-            elif metadata.get('source_field') == 'name':
-                # This is the full name which includes all aliases
-                parts = chunk['text'].split(', ')
-                aliases.extend(parts)
+            pname = metadata.get('primary_name')
+            if not pname:
+                continue
+            
+            if pname not in actors_data:
+                actors_data[pname] = {
+                    'aliases': set(),
+                    'name_giver': None,
+                    'profiles': []
+                }
+            
+            # Collect data for this actor
+            if not actors_data[pname]['name_giver'] and metadata.get('name_giver'):
+                actors_data[pname]['name_giver'] = metadata.get('name_giver')
+            
+            # Aliases are stored as list in metadata
+            chunk_aliases = metadata.get('aliases', [])
+            if isinstance(chunk_aliases, list):
+                actors_data[pname]['aliases'].update(chunk_aliases)
+            elif isinstance(chunk_aliases, str):
+                actors_data[pname]['aliases'].update([a.strip() for a in chunk_aliases.split(',') if a.strip()])
+            
+            # Collect entity_profile text for alias giver parsing
+            if metadata.get('source_field') == 'entity_profile':
+                actors_data[pname]['profiles'].append(text)
         
-        # Deduplicate
-        aliases = list(set(aliases))
+        # If multiple actors found, pick the most relevant one (most chunks)
+        if not actors_data:
+            return {
+                'extracted_info': {
+                    'primary_name': None,
+                    'name_giver': None,
+                    'aliases': [],
+                    'alias_givers': {}
+                },
+                'summary': "No name information found.",
+                'confidence': 0.0
+            }
+        
+        # Get actor with most evidence
+        primary_name = max(actors_data.keys(), key=lambda k: len(actors_data[k]['aliases']))
+        actor_data = actors_data[primary_name]
+        
+        # Convert set to sorted list
+        aliases = sorted(list(actor_data['aliases']))
+        
+        # Remove primary name from aliases if present
         if primary_name in aliases:
             aliases.remove(primary_name)
         
-        summary = self._format_aliases_summary(primary_name, aliases, query)
+        # Parse alias givers from entity profiles
+        alias_givers = {}
+        for profile in actor_data['profiles']:
+            # Look for alias attribution patterns in the profile text
+            alias_pattern = re.findall(r'([A-Z][A-Za-z0-9 -]+)\s*\(([^)]+)\)', profile)
+            for alias_name, vendor in alias_pattern:
+                alias_name = alias_name.strip()
+                if alias_name in aliases or alias_name == primary_name:
+                    alias_givers[alias_name] = vendor.strip()
+        
+        summary = self._format_aliases_summary(primary_name, aliases, actor_data['name_giver'], alias_givers, query)
         
         return {
-            'extracted_info': {'primary_name': primary_name, 'aliases': aliases},
+            'extracted_info': {
+                'primary_name': primary_name,
+                'name_giver': actor_data['name_giver'],
+                'aliases': aliases,
+                'alias_givers': alias_givers
+            },
             'summary': summary,
             'confidence': 0.9 if aliases else 0.5
         }
@@ -573,20 +719,124 @@ class AnswerExtractor:
         }
     
     def _extract_sources(self, evidence: List[Dict[str, Any]], query: str) -> Dict[str, Any]:
-        """Extract information sources."""
+        """Extract information sources and attribution (who named the actor)."""
         sources = []
+        name_giver = None
+        actor_name = None
+        queried_name = None
+        
+        # Check if this is a naming/attribution question
+        naming_question = any(pattern in query.lower() for pattern in [
+            'who named', 'who gave name', 'who coined', 'name giver',
+            'who attributed', 'named by', 'coined by', 'attribution vendor'
+        ])
+        
+        logger.info(f"_extract_sources: naming_question={naming_question}, evidence_count={len(evidence)}")
+        
+        # Try to extract the specific name being asked about from the query
+        if naming_question:
+            # Look for capitalized actor names in the query
+            import re
+            potential_names = re.findall(r'\b[A-Z][A-Za-z0-9 -]*\b', query)
+            for name in potential_names:
+                name_lower = name.lower().strip()
+                if name_lower and len(name_lower) >= 3 and name_lower not in ['who', 'gave', 'name', 'named']:
+                    queried_name = name.strip()
+                    break
+        
+        # Collect all aliases from evidence to find the right name_giver
+        all_aliases = set()
+        primary_name = None
         
         for chunk in evidence:
             metadata = chunk.get('metadata', {})
-            if metadata.get('source_field') == 'information_sources':
-                sources.append(chunk['text'])
+            
+            if not primary_name:
+                primary_name = metadata.get('primary_name', metadata.get('actor_name'))
+            
+            # Collect all aliases from this chunk
+            chunk_aliases = metadata.get('aliases', [])
+            if isinstance(chunk_aliases, list):
+                all_aliases.update(chunk_aliases)
         
-        summary = self._format_sources_summary(sources, query)
+        # If this is a naming question, look for the name_giver
+        if naming_question:
+            # First, try to find metadata that matches the queried name
+            best_match_name_giver = None
+            alias_givers_map = {}  # Map of alias -> giver
+            
+            for chunk in evidence:
+                metadata = chunk.get('metadata', {})
+                text = chunk.get('text', '')
+                
+                # Check if this chunk has name_giver
+                if 'name_giver' in metadata:
+                    ng = metadata.get('name_giver')
+                    pn = metadata.get('primary_name', metadata.get('actor_name'))
+                    
+                    # If queried_name matches this actor's name in any form, use this name_giver
+                    if queried_name:
+                        # Check if queried name matches primary or is in aliases
+                        chunk_aliases = set(metadata.get('aliases', []))
+                        if (queried_name.lower() == pn.lower() if pn else False) or \
+                           any(queried_name.lower() == alias.lower() for alias in chunk_aliases):
+                            name_giver = ng
+                            actor_name = queried_name
+                            break
+                    
+                    # Fallback: if no specific match, use the first name_giver we find
+                    if not best_match_name_giver:
+                        best_match_name_giver = (ng, pn)
+                
+                # Collect alias_givers map from alias_givers chunks
+                if metadata.get('source_field') == 'alias_givers':
+                    # Parse "Alias (Vendor), Alias2 (Vendor2)" format
+                    vendor_pattern = re.findall(r'([A-Z][A-Za-z0-9 -]+)\s*\(([^)]+)\)', text)
+                    for alias_name, vendor in vendor_pattern:
+                        alias_givers_map[alias_name.strip()] = vendor.strip()
+                
+                # Collect regular source information
+                if metadata.get('source_field') == 'information_sources':
+                    sources.append(chunk['text'])
+            
+            # Try to find name_giver from alias_givers_map
+            if alias_givers_map and queried_name:
+                # Try exact match
+                for alias, giver in alias_givers_map.items():
+                    if alias.lower() == queried_name.lower():
+                        name_giver = giver
+                        actor_name = queried_name
+                        break
+                
+                # Try partial match if no exact match
+                if not name_giver:
+                    queried_words = set(queried_name.lower().split())
+                    for alias, giver in alias_givers_map.items():
+                        alias_words = set(alias.lower().split())
+                        if queried_words & alias_words:
+                            name_giver = giver
+                            actor_name = queried_name
+                            break
+            
+            # Use fallback if no specific match found
+            if not name_giver and best_match_name_giver:
+                name_giver = best_match_name_giver[0]
+                actor_name = queried_name or best_match_name_giver[1]
+            
+            logger.info(f"Naming question: queried_name={queried_name}, actor_name={actor_name}, name_giver={name_giver}, alias_givers={alias_givers_map}")
+        
+        # Format summary
+        if naming_question and name_giver and actor_name:
+            summary = f"{actor_name} was named by {name_giver}."
+        else:
+            summary = self._format_sources_summary(sources, query)
         
         return {
             'extracted_info': sources,
             'summary': summary,
-            'confidence': 0.9 if sources else 0.3
+            'name_giver': name_giver,
+            'actor_name': actor_name,
+            'confidence': 0.9 if (sources or name_giver) else 0.3
         }
     
     def _extract_overview(self, evidence: List[Dict[str, Any]], query: str) -> Dict[str, Any]:
@@ -605,47 +855,95 @@ class AnswerExtractor:
         if not tactics:
             return "No specific tactics or techniques were found in the available data."
         
-        summary_lines = ["**Tactics & Techniques (evidence-based):**"]
+        summary_lines = ["**Tactics & Techniques**", "Evidence-based summary:"]
         for tactic in tactics[:8]:
             summary_lines.append(f"- {tactic['tactic']}")
         return "\n".join(summary_lines).strip()
     
     def _format_associations_summary(self, associations: List[Dict], query: str, full_context: List[str] = None) -> str:
-        """Format associations into a summary."""
+        """Format associations into evidence-based summary."""
         if not associations:
             return "No associated or related threat actors were found in the available data."
         
         # Check if this is a two-actor connection query
         query_lower = query.lower()
-        is_connection_query = any(word in query_lower for word in ['between', 'connection between', 'and'])
+        is_connection_query = any(word in query_lower for word in ['between', 'relationship between', 'connection between'])
         
         if is_connection_query and full_context:
-            # For two-actor queries, provide explanatory answer
-            summary = "**Connection Found:**\n\n"
+            # For two-actor queries, extract and show the actual relationship statements
+            summary = "**Relationship Evidence:**\n\n"
             
-            # Find the most relevant context that explains the relationship
-            for context in full_context[:2]:  # Use top 2 contexts
-                if len(context) > 100:
-                    # Extract key relationship information
-                    if 'infrastructure' in context.lower() or 'domain' in context.lower():
-                        summary += f"According to Cylance research, Snake Wine was discovered while investigating APT28's infrastructure. "
-                        summary += f"Snake Wine used similar name server registration patterns to APT28, though their malware differs. "
-                        summary += f"This suggests possible infrastructure overlap or mimicry.\n\n"
-                        break
+            # Look for contexts that contain explicit relationship statements
+            relationship_keywords = [
+                'related to', 'closely related', 'associated with', 'linked to',
+                'overlap', 'subgroup', 'connection', 'ties', 'similar to',
+                'same as', 'also known as', 'part of', 'branch of'
+            ]
+            
+            relevant_contexts = []
+            for context in full_context:
+                context_lower = context.lower()
+                # Find contexts that mention relationships
+                has_relationship = any(keyword in context_lower for keyword in relationship_keywords)
+                if has_relationship:
+                    relevant_contexts.append((context, 100))  # High priority
+                elif len(context) > 150:
+                    relevant_contexts.append((context, 50))  # Lower priority
+            
+            # Sort by priority and show top contexts
+            relevant_contexts.sort(key=lambda x: x[1], reverse=True)
+            
+            shown = 0
+            for context, _ in relevant_contexts[:3]:
+                if len(context) > 50:
+                    # Clean up {{actor}} tags for readability
+                    clean_context = re.sub(r'\{\{([^}]+)\}\}', r'\1', context)
+                    
+                    # For contexts with relationship keywords, try to extract the key sentence
+                    for keyword in relationship_keywords:
+                        if keyword in clean_context.lower():
+                            # Find sentence containing the keyword
+                            sentences = clean_context.split('.')
+                            for sent in sentences:
+                                if keyword in sent.lower() and len(sent.strip()) > 10:
+                                    summary += f"• {sent.strip()}.\n\n"
+                                    shown += 1
+                                    break
+                            break
                     else:
-                        snippet = context[:300] + '...' if len(context) > 300 else context
+                        # No specific relationship keyword, show snippet
+                        snippet = clean_context[:300] + '...' if len(clean_context) > 300 else clean_context
                         summary += f"{snippet}\n\n"
-                        break
+                        shown += 1
+            
+            if shown == 0:
+                # No relationship statements found, show general context
+                for context in full_context[:2]:
+                    if len(context) > 100:
+                        clean_context = re.sub(r'\{\{([^}]+)\}\}', r'\1', context)
+                        snippet = clean_context[:300] + '...' if len(clean_context) > 300 else clean_context
+                        summary += f"{snippet}\n\n"
             
             if associations:
-                summary += f"**Related Actors Mentioned:** {', '.join([a['actor'] for a in associations[:3]])}"
+                unique_actors = list(set([a['actor'] for a in associations]))
+                summary += f"\n**Related Actors Mentioned:** {', '.join(unique_actors[:5])}"
             
             return summary.strip()
         else:
-            # For single-actor queries, list associations
-            summary = "**Associated threat actors:**\n"
-            for i, assoc in enumerate(associations[:5], 1):
-                summary += f"{i}. **{assoc['actor']}** ({assoc.get('relationship', 'mentioned')})\n"
+            # For single-actor queries, list associations with context
+            summary = "**Related Threat Actors:**\n\n"
+            for i, assoc in enumerate(associations[:8], 1):
+                actor = assoc['actor']
+                rel = assoc.get('relationship', 'mentioned')
+                context = assoc.get('context', '')
+                
+                summary += f"{i}. **{actor}** ({rel})\n"
+                if context:
+                    # Clean context
+                    clean_ctx = re.sub(r'\{\{([^}]+)\}\}', r'\1', context)
+                    snippet = clean_ctx[:200] + '...' if len(clean_ctx) > 200 else clean_ctx
+                    summary += f"   Context: {snippet}\n"
+                summary += "\n"
             
             return summary.strip()
     
@@ -654,7 +952,7 @@ class AnswerExtractor:
         if not targets['sectors'] and not targets['regions']:
             return "No specific targeting information found in the available data."
         
-        summary = ""
+        summary = "**Targeting Summary**\n"
         if targets['sectors']:
             summary += f"**Target Sectors:** {', '.join(sorted(targets['sectors']))}\n"
         if targets['regions']:
@@ -668,7 +966,8 @@ class AnswerExtractor:
             return "No specific tools or malware were identified in the available data."
         
         tool_names = [t['tool'] for t in tools[:8]]
-        summary = f"**Tools/Malware:** {', '.join(tool_names)}"
+        summary = "**Tools & Malware**\n"
+        summary += ", ".join(tool_names)
         return summary
     
     def _format_origin_summary(self, origin: Dict, query: str) -> str:
@@ -689,9 +988,17 @@ class AnswerExtractor:
         if not campaigns:
             return "No specific campaigns or operations were identified."
         
-        summary = "**Notable Campaigns:**\n"
+        summary = "**Notable Campaigns**\n"
         for i, camp in enumerate(campaigns[:3], 1):
             summary += f"{i}. {camp['campaign']}\n"
+        return summary.strip()
+
+    def _format_counter_operations_summary(self, operations: List[Dict]) -> str:
+        if not operations:
+            return "No counter operations were identified in the available data."
+        summary = "**Counter Operations**\n"
+        for idx, entry in enumerate(operations[:8], 1):
+            summary += f"{idx}. {entry['operation']}\n"
         return summary.strip()
     
     def _format_timeline_summary(self, timeline: Dict, query: str) -> str:
@@ -710,13 +1017,71 @@ class AnswerExtractor:
 
         return "Timeline information not available."
     
-    def _format_aliases_summary(self, primary: str, aliases: List[str], query: str) -> str:
-        """Format aliases into a summary."""
-        if not aliases:
-            return f"No alternative names found{' for ' + primary if primary else ''}."
+    def _format_aliases_summary(self, primary: str, aliases: List[str], name_giver: str, alias_givers: Dict[str, str], query: str) -> str:
+        """Format aliases into a comprehensive summary."""
+        query_lower = query.lower()
         
-        summary = f"**Also Known As:** {', '.join(aliases[:10])}"
-        return summary
+        # Check if this is a "is X same as Y" query
+        is_same_query = any(phrase in query_lower for phrase in ['same as', 'same group', 'identical to', 'equivalent to'])
+        
+        if is_same_query:
+            # Extract actor names from query - try to find which names were mentioned
+            mentioned_names = []
+            all_names = ([primary] if primary else []) + aliases
+            
+            for name in all_names:
+                if name:
+                    # Check if the name (or significant part of it) appears in query
+                    name_words = name.lower().split()
+                    # Match if any significant word from the name appears in query
+                    significant_words = [w for w in name_words if len(w) >= 4]  # Words with 4+ chars
+                    if any(word in query_lower for word in significant_words):
+                        mentioned_names.append(name)
+                    # Also check exact match
+                    elif name.lower() in query_lower:
+                        mentioned_names.append(name)
+            
+            # Remove duplicates while preserving order
+            seen = set()
+            unique_mentioned = []
+            for name in mentioned_names:
+                if name not in seen:
+                    seen.add(name)
+                    unique_mentioned.append(name)
+            
+            if len(unique_mentioned) >= 2:
+                summary = f"**Yes, {unique_mentioned[0]} and {unique_mentioned[1]} are the same threat actor.**\n\n"
+            elif len(unique_mentioned) == 1:
+                summary = f"**{unique_mentioned[0]} was found in the query.**\n\n"
+            else:
+                summary = f"**Name Resolution:**\n\n"
+        else:
+            summary = "**Name Resolution:**\n\n"
+        
+        if not primary and not aliases:
+            return summary + "No name information found."
+        
+        # Show primary name with attribution
+        if primary:
+            if name_giver:
+                summary += f"**Primary Name:** {primary} (named by {name_giver})\n\n"
+            else:
+                summary += f"**Primary Name:** {primary}\n\n"
+        
+        # Show all aliases
+        if aliases:
+            summary += f"**Total Aliases:** {len(aliases)}\n\n"
+            summary += "**Also Known As:**\n"
+            for i, alias in enumerate(sorted(aliases)[:15], 1):
+                if alias in alias_givers:
+                    summary += f"{i}. {alias} (named by {alias_givers[alias]})\n"
+                else:
+                    summary += f"{i}. {alias}\n"
+            
+            if len(aliases) > 15:
+                summary += f"\n...and {len(aliases) - 15} more\n"
+        
+        return summary.strip()
     
     def _format_capabilities_summary(self, capabilities: List[str], query: str) -> str:
         """Format capabilities into a summary."""

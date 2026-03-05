@@ -69,6 +69,10 @@
         <main class="main-content">
             <!-- Top Status Bar -->
             <div class="top-status-bar">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" onclick="toggleTheme()">
+                    <span class="theme-icon" id="theme-icon">🌙</span>
+                    <span class="theme-label" id="theme-label">Dark</span>
+                </button>
                 <div class="status-badge" id="status-llm">Loading...</div>
                 <div class="status-badge" id="status-model">Loading...</div>
                 <div class="status-badge" id="status-init">●</div>
@@ -78,8 +82,13 @@
             <div class="center-container" id="center-container">
                 <!-- Brand Title -->
                 <div class="brand-title">
-                    <h1>threat-ai</h1>
-                    <p class="brand-subtitle">Intelligence Analysis Platform</p>
+                    <h1>THREAT-AI</h1>
+                    <p class="brand-subtitle">Threat Intelligence Copilot</p>
+                    <div class="brand-pills">
+                        <span class="pill pill-primary">Live Intel</span>
+                        <span class="pill pill-outline">Evidence-First</span>
+                        <span class="pill pill-ghost">Zero Hallucinations</span>
+                    </div>
                 </div>
 
                 <!-- Query Input Box -->

@@ -8,11 +8,34 @@
 // ============================================
 let currentConversationId = null;
 let isWaitingForResponse = false;
+const THEME_KEY = 'threat-ai-theme';
+
+// ============================================
+// THEME MANAGEMENT
+// ============================================
+function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem(THEME_KEY, theme);
+    const icon = document.getElementById('theme-icon');
+    if (icon) icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+}
+
+function toggleTheme() {
+    const current = document.documentElement.getAttribute('data-theme') || 'light';
+    applyTheme(current === 'dark' ? 'light' : 'dark');
+}
+
+function initTheme() {
+    const stored = localStorage.getItem(THEME_KEY);
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    applyTheme(stored || (prefersDark ? 'dark' : 'light'));
+}
 
 // ============================================
 // INITIALIZATION
 // ============================================
 document.addEventListener('DOMContentLoaded', () => {
+    initTheme();
     loadSystemStatus();
     loadConversations();
     loadExamplePrompts();
@@ -27,8 +50,6 @@ async function loadSystemStatus() {
     try {
         const response = await fetch('/api/status');
         const status = await response.json();
-        
-        document.getElementById('model-name').textContent = status.model || 'N/A';
         
         const statusDot = document.getElementById('status-dot');
         const statusText = document.getElementById('status-text');
@@ -344,7 +365,7 @@ function appendAssistantMessage(content, metadata = {}, timestamp = null) {
             <div class="message-avatar">🛡️</div>
             <div class="message-content">
                 <div class="message-header">
-                    <span class="message-role">Threat-AI</span>
+                    <span class="message-role">THREAT-AI</span>
                     <span class="message-time">${time}</span>
                 </div>
                 <div class="message-text">${escapeHtml(content)}</div>
@@ -560,7 +581,6 @@ async function exportMessagePDF(messageId) {
                     answer: msgData.content,
                     evidence: msgData.metadata.evidence || [],
                     confidence: msgData.metadata.confidence || 0,
-                    model: msgData.metadata.model || 'Unknown',
                     trace_id: msgData.metadata.trace_id || '',
                     source_count: msgData.metadata.source_count || 0,
                     timestamp: new Date().toISOString()
@@ -600,7 +620,6 @@ async function exportMessageCSV(messageId) {
                     answer: msgData.content,
                     evidence: msgData.metadata.evidence || [],
                     confidence: msgData.metadata.confidence || 0,
-                    model: msgData.metadata.model || 'Unknown',
                     trace_id: msgData.metadata.trace_id || '',
                     source_count: msgData.metadata.source_count || 0,
                     timestamp: new Date().toISOString()

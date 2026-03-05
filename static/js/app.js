@@ -9,6 +9,35 @@
 
 let lastResult = null;
 let historyCache = [];
+const THEME_KEY = 'threat-ai-theme';
+
+function syncThemeToggle(theme) {
+    const icon = document.getElementById('theme-icon');
+    const label = document.getElementById('theme-label');
+    if (!icon || !label) return;
+    const isDark = theme === 'dark';
+    icon.textContent = isDark ? '☀️' : '🌙';
+    label.textContent = isDark ? 'Light' : 'Dark';
+}
+
+function applyTheme(theme) {
+    const nextTheme = theme === 'dark' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', nextTheme);
+    localStorage.setItem(THEME_KEY, nextTheme);
+    syncThemeToggle(nextTheme);
+}
+
+function toggleTheme() {
+    const current = document.documentElement.getAttribute('data-theme') || 'light';
+    applyTheme(current === 'dark' ? 'light' : 'dark');
+}
+
+function initTheme() {
+    const stored = localStorage.getItem(THEME_KEY);
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const initial = stored || (prefersDark ? 'dark' : 'light');
+    applyTheme(initial);
+}
 
 /**
  * Escape HTML special characters to prevent injection
@@ -39,6 +68,115 @@ function findLastKnownActivity(answer) {
     if (match && match[1]) return match[1].trim();
     const fallback = answer.match(/Last (?:Updated|Seen|Card Change)\s*:\s*([^\n]+)/i);
     return fallback && fallback[1] ? fallback[1].trim() : '';
+}
+
+function findFirstSeen(answer) {
+    if (!answer) return '';
+    const match = answer.match(/First Seen\s*:\s*([^\n]+)/i);
+    return match && match[1] ? match[1].trim() : '';
+}
+
+function extractYears(text) {
+    if (!text) return [];
+    const matches = text.match(/\b(19\d{2}|20\d{2})\b/g) || [];
+    return matches.map((y) => parseInt(y, 10)).filter((y) => !Number.isNaN(y));
+}
+
+function computePeakYear(evidence, answer) {
+    const yearCounts = new Map();
+    if (Array.isArray(evidence)) {
+        evidence.forEach((item) => {
+            extractYears(item.text).forEach((year) => {
+                yearCounts.set(year, (yearCounts.get(year) || 0) + 1);
+            });
+        });
+    }
+    extractYears(answer).forEach((year) => {
+        yearCounts.set(year, (yearCounts.get(year) || 0) + 1);
+    });
+    if (!yearCounts.size) return '';
+    let bestYear = null;
+    let bestCount = -1;
+    yearCounts.forEach((count, year) => {
+        if (count > bestCount || (count === bestCount && year > bestYear)) {
+            bestYear = year;
+            bestCount = count;
+        }
+    });
+    return bestYear ? String(bestYear) : '';
+}
+
+function buildTimelineHtml(result) {
+    const firstSeen = findFirstSeen(result.answer) || 'Unknown';
+    const lastKnown = findLastKnownActivity(result.answer) || 'Unknown';
+    const peakYear = computePeakYear(result.evidence || [], result.answer || '') || 'Unknown';
+    return `
+        <div class="timeline-card">
+            <div class="section-title">Timeline</div>
+            <div class="timeline-track">
+                <div class="timeline-node">
+                    <div class="timeline-label">First Seen</div>
+                    <div class="timeline-value">${escapeHtml(firstSeen)}</div>
+                </div>
+                <div class="timeline-node">
+                    <div class="timeline-label">Peak Activity</div>
+                    <div class="timeline-value">${escapeHtml(peakYear)}</div>
+                </div>
+                <div class="timeline-node">
+                    <div class="timeline-label">Last Known</div>
+                    <div class="timeline-value">${escapeHtml(lastKnown)}</div>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+function buildEvidenceTableHtml(evidence) {
+    if (!Array.isArray(evidence) || evidence.length === 0) return '';
+    const maxRows = 12;
+    const rows = evidence.slice(0, maxRows).map((item, idx) => {
+        const links = Array.isArray(item.links) ? item.links.filter((l) => typeof l === 'string') : [];
+        const link = links.length ? links[0] : '';
+        const linkHtml = link
+            ? `<a href="${encodeURI(link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(link)}</a>`
+            : 'N/A';
+        return `
+            <tr>
+                <td>${idx + 1}</td>
+                <td>${escapeHtml(item.actor || 'Unknown')}</td>
+                <td>${escapeHtml(item.source || 'Unknown')}</td>
+                <td>${typeof item.score === 'number' ? item.score.toFixed(3) : '0.000'}</td>
+                <td class="evidence-link-cell">${linkHtml}</td>
+            </tr>
+        `;
+    }).join('');
+
+    const note = evidence.length > maxRows
+        ? `<div class="evidence-note">Showing ${maxRows} of ${evidence.length} sources.</div>`
+        : '';
+
+    return `
+        <div class="report-section">
+            <div class="section-title">Appendix: Evidence Table</div>
+            <div class="evidence-table-wrapper">
+                <table class="evidence-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Actor</th>
+                            <th>Source</th>
+                            <th>Score</th>
+                            <th>Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${rows}
+                    </tbody>
+                </table>
+            </div>
+            ${note}
+        </div>
+    `;
 }
 
 function buildDetailedAnalysisHtml(answer) {
@@ -267,6 +405,13 @@ function displayResults(result) {
     const responseMode = result.response_mode ? escapeHtml(result.response_mode) : 'adaptive';
     const intent = result.intent ? escapeHtml(result.intent) : 'general';
     const analysis = buildDetailedAnalysisHtml(result.answer || '');
+    const primaryActors = Array.isArray(result.primary_actors)
+        ? result.primary_actors.filter(Boolean)
+        : [];
+    const displayTitle = primaryActors.length
+        ? `Threat Actor: ${primaryActors.join(', ')}`
+        : result.query;
+    const displaySub = primaryActors.length ? escapeHtml(result.query) : '';
     
     // Hide center container and show results area
     const centerContainer = document.getElementById('center-container');
@@ -280,7 +425,12 @@ function displayResults(result) {
     
     // Header
     html += '<div class="result-header">';
-    html += `<div class="result-query">${escapeHtml(result.query)}</div>`;
+    html += '<div class="result-query">';
+    html += `<div class="result-query-title">${escapeHtml(displayTitle)}</div>`;
+    if (displaySub) {
+        html += `<div class="result-query-sub">${displaySub}</div>`;
+    }
+    html += '</div>';
     html += `<div class="confidence-badge">`;
     html += `<span>Confidence</span>`;
     html += `<div class="confidence-bar"><div class="confidence-fill" style="width: ${confidencePercent}%"></div></div>`;
@@ -300,6 +450,9 @@ function displayResults(result) {
     html += `<span class="badge badge-sources">${result.source_count || 0} sources</span>`;
     html += '</div>';
     html += '</div>';
+
+    // Timeline visual
+    html += buildTimelineHtml(result);
 
     // Answer
     html += '<div class="report-section">';
@@ -337,6 +490,8 @@ function displayResults(result) {
         
         html += '</div></details></div>';
     }
+
+    html += buildEvidenceTableHtml(result.evidence || []);
     
     html += '</div>';
 
@@ -345,6 +500,9 @@ function displayResults(result) {
     html += '<div class="rail-card">';
     html += '<div class="rail-title">Key Facts</div>';
     html += '<div class="rail-list">';
+    if (primaryActors.length) {
+        html += `<div class="rail-item"><span class="rail-label">Primary Actor</span><span class="rail-value">${escapeHtml(primaryActors.join(', '))}</span></div>`;
+    }
     html += `<div class="rail-item"><span class="rail-label">Confidence</span><span class="rail-value">${confidencePercent}%</span></div>`;
     html += `<div class="rail-item"><span class="rail-label">Sources</span><span class="rail-value">${result.source_count || 0}</span></div>`;
     html += `<div class="rail-item"><span class="rail-label">Mode</span><span class="rail-value">${responseMode}</span></div>`;
@@ -640,6 +798,7 @@ function escapeHtml(text) {
  * Initialize application on DOM load
  */
 document.addEventListener('DOMContentLoaded', () => {
+    initTheme();
     loadStatus();
     loadSamples();
     loadQueryHistory();

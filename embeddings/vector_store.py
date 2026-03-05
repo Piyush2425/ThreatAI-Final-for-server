@@ -85,6 +85,10 @@ class VectorStore:
                     'primary_name': chunk['metadata'].get('primary_name', ''),
                 }
                 
+                # Add name_giver if present
+                if 'name_giver' in chunk['metadata']:
+                    metadata['name_giver'] = chunk['metadata']['name_giver']
+                
                 # Store aliases as comma-separated string (Chroma doesn't support lists in metadata)
                 aliases = chunk['metadata'].get('aliases', [])
                 if aliases:
@@ -94,6 +98,16 @@ class VectorStore:
                 countries = chunk['metadata'].get('countries', [])
                 if countries:
                     metadata['countries'] = ','.join(str(c) for c in countries if c)
+                
+                # Store information_sources
+                info_sources = chunk['metadata'].get('information_sources', [])
+                if info_sources:
+                    metadata['information_sources'] = ','.join(str(s) for s in info_sources if s)
+                
+                # Store related_actors
+                related_actors = chunk['metadata'].get('related_actors', [])
+                if related_actors:
+                    metadata['related_actors'] = ','.join(str(r) for r in related_actors if r)
                 
                 metadatas.append(metadata)
             
@@ -164,6 +178,16 @@ class VectorStore:
                 if metadata.get('countries'):
                     countries = [c.strip() for c in metadata['countries'].split(',') if c.strip()]
                 
+                # Reconstruct information_sources list
+                info_sources = []
+                if metadata.get('information_sources'):
+                    info_sources = [s.strip() for s in metadata['information_sources'].split(',') if s.strip()]
+                
+                # Reconstruct related_actors list
+                related_actors = []
+                if metadata.get('related_actors'):
+                    related_actors = [r.strip() for r in metadata['related_actors'].split(',') if r.strip()]
+                
                 chunk = {
                     'chunk_id': chunk_id,
                     'actor_id': metadata.get('actor_id', ''),
@@ -175,9 +199,15 @@ class VectorStore:
                         'actor_name': metadata.get('actor_name', ''),
                         'primary_name': metadata.get('primary_name', ''),
                         'aliases': aliases,
-                        'countries': countries
+                        'countries': countries,
+                        'information_sources': info_sources,
+                        'related_actors': related_actors
                     }
                 }
+                
+                # Add name_giver if present
+                if 'name_giver' in metadata:
+                    chunk['metadata']['name_giver'] = metadata['name_giver']
                 
                 matches.append((chunk, similarity))
             

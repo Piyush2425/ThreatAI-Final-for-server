@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Threat-AI | Chat Interface</title>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <title>THREAT-AI | Threat Intelligence Copilot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/chat.css') }}">
 </head>
 <body>
@@ -14,9 +14,13 @@
             <!-- Logo -->
             <div class="sidebar-header">
                 <div class="logo-section">
-                    <div class="logo">🛡️</div>
+                    <div class="logo">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
                     <div class="logo-text">
-                        <h1>Threat-AI</h1>
+                        <h1>THREAT<span class="logo-accent">-AI</span></h1>
                     </div>
                 </div>
             </div>
@@ -41,9 +45,7 @@
                     <div class="status-dot" id="status-dot"></div>
                     <span id="status-text">Ready</span>
                 </div>
-                <div class="model-info" id="model-info">
-                    <span id="model-name">Loading...</span>
-                </div>
+
             </div>
         </aside>
 
@@ -55,6 +57,9 @@
                     <h2>Threat Intelligence Chat</h2>
                 </div>
                 <div class="top-actions">
+                    <button class="theme-toggle-btn" id="theme-toggle" onclick="toggleTheme()" title="Toggle Theme">
+                        <span class="theme-icon" id="theme-icon">🌙</span>
+                    </button>
                     <button class="icon-btn" onclick="toggleSidebar()" title="Toggle Sidebar">
                         <span>☰</span>
                     </button>
@@ -69,9 +74,19 @@
                 <!-- Welcome Screen (shown when no messages) -->
                 <div class="welcome-screen" id="welcome-screen">
                     <div class="welcome-content">
-                        <div class="welcome-logo">🛡️</div>
-                        <h1>threat-ai</h1>
-                        <p class="welcome-subtitle">Your AI-Powered Threat Intelligence Assistant</p>
+                        <div class="welcome-logo">
+                            <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="url(#logo-grad)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <defs><linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient></defs>
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h1 class="welcome-title">THREAT<span class="title-accent">-AI</span></h1>
+                        <p class="welcome-subtitle">Threat Intelligence Copilot</p>
+                        <div class="welcome-pills">
+                            <span class="wpill wpill-glow">Evidence-First</span>
+                            <span class="wpill">Live Intel</span>
+                            <span class="wpill">Zero Hallucinations</span>
+                        </div>
                         
                         <div class="example-prompts">
                             <h3>Try asking:</h3>

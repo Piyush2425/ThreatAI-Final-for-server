@@ -145,6 +145,21 @@ def process_query(query_text: str, use_cache: bool = True) -> dict:
         
         evidence = retrieval_result.get('evidence', [])
         response_mode = retrieval_result.get('response_mode', 'adaptive')
+        parsed_query = retrieval_result.get('parsed_query') or {}
+        primary_actors = [
+            actor.get('primary_name')
+            for actor in parsed_query.get('actors', [])
+            if actor.get('primary_name')
+        ]
+        if not primary_actors and evidence:
+            seen = set()
+            ordered = []
+            for chunk in evidence:
+                primary = chunk.get('metadata', {}).get('primary_name')
+                if primary and primary not in seen:
+                    seen.add(primary)
+                    ordered.append(primary)
+            primary_actors = ordered
         
         if not evidence:
             result = {
@@ -156,6 +171,7 @@ def process_query(query_text: str, use_cache: bool = True) -> dict:
                 'model': 'N/A',
                 'timestamp': datetime.now().isoformat(),
                 'response_mode': response_mode,
+                'primary_actors': primary_actors,
                 'processing_time': time.time() - start_time,
                 'from_cache': False
             }
@@ -187,6 +203,7 @@ def process_query(query_text: str, use_cache: bool = True) -> dict:
             'timestamp': datetime.now().isoformat(),
             'trace_id': trace_id,
             'response_mode': response_mode,
+            'primary_actors': primary_actors,
             'processing_time': total_time,
             'from_cache': False,
             'timings': {

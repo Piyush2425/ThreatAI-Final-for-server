@@ -130,13 +130,166 @@ class ReportGenerator:
     @staticmethod
     def _format_inline_markdown(text: str) -> str:
         """Format inline markdown (bold, italic) for ReportLab."""
+        if not text:
+            return text
+        br_token = "__BR__TOKEN__"
+        text = text.replace('<br/>', br_token)
+        # Escape special characters first
+        text = text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
         # Convert **bold** to <b>bold</b>
         text = re.sub(r'\*\*([^*]+)\*\*', r'<b>\1</b>', text)
         # Convert *italic* to <i>italic</i>
         text = re.sub(r'\*([^*]+)\*', r'<i>\1</i>', text)
-        # Escape special characters
-        text = text.replace('&', '&amp;').replace('<b>', '<b>').replace('</b>', '</b>')
+        text = text.replace(br_token, '<br/>')
         return text
+
+    @staticmethod
+    def _extract_headings(answer: str) -> List[str]:
+        """Extract section headings from markdown answer."""
+        if not answer:
+            return []
+        headings = []
+        for match in re.finditer(r'^\*\*([^*]+)\*\*', answer, re.MULTILINE):
+            heading = match.group(1).strip()
+            if heading and heading not in headings:
+                headings.append(heading)
+        return headings
+
+    @staticmethod
+    def _build_evidence_table(evidence: List[Dict[str, Any]], styles) -> List:
+        """Build an appendix evidence table for PDF."""
+        if not evidence:
+            return []
+        data = [['#', 'Actor', 'Source', 'Score', 'Link']]
+        for idx, item in enumerate(evidence, 1):
+            link = ''
+            links = item.get('links', [])
+            if links:
+                for l in links:
+                    if isinstance(l, str) and l.startswith('http'):
+                        link = l
+                        break
+            data.append([
+                str(idx),
+                item.get('actor', 'Unknown'),
+                item.get('source', 'Unknown'),
+                f"{item.get('score', 0):.3f}",
+                link or 'N/A'
+            ])
+
+        table = Table(data, colWidths=[0.4*inch, 1.4*inch, 1.2*inch, 0.7*inch, 2.6*inch])
+        table.setStyle(TableStyle([
+            ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#e2e8f0')),
+            ('TEXTCOLOR', (0, 0), (-1, 0), colors.HexColor('#111827')),
+            ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+            ('FONTSIZE', (0, 0), (-1, -1), 8),
+            ('GRID', (0, 0), (-1, -1), 0.5, colors.HexColor('#d1d5db')),
+            ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+            ('ROWBACKGROUNDS', (0, 1), (-1, -1), [colors.white, colors.HexColor('#f8fafc')]),
+        ]))
+        return [table]
+
+    @staticmethod
+    def _extract_campaign_table(answer: str) -> List[Dict[str, str]]:
+        """Extract campaign rows from a markdown table in the answer."""
+        if not answer:
+            return []
+        lines = [line.strip() for line in answer.split('\n')]
+        rows = []
+        table_started = False
+        for idx, line in enumerate(lines):
+            if line.startswith('| Date ') and '| Activity ' in line:
+                table_started = True
+                continue
+            if table_started:
+                if not line.startswith('|'):
+                    break
+                if set(line.replace('|', '').strip()) <= set('- '):
+                    continue
+                parts = [part.strip() for part in line.strip('|').split('|')]
+                if len(parts) < 2:
+                    continue
+                rows.append({
+                    'date': parts[0],
+                    'activity': parts[1],
+                })
+        return rows
+
+    @staticmethod
+    def _extract_counter_operations_table(answer: str) -> List[Dict[str, str]]:
+        """Extract counter operations rows from a markdown table in the answer."""
+        if not answer:
+            return []
+        lines = [line.strip() for line in answer.split('\n')]
+        rows = []
+        table_started = False
+        for line in lines:
+            line_lower = line.lower()
+            if line_lower.startswith('| sr ') and '| date ' in line_lower and '| activity ' in line_lower:
+                table_started = True
+                continue
+            if table_started:
+                if not line.startswith('|'):
+                    break
+                if set(line.replace('|', '').strip()) <= set('- '):
+                    continue
+                parts = [part.strip() for part in line.strip('|').split('|')]
+                if len(parts) < 3:
+                    continue
+                rows.append({
+                    'sr': parts[0],
+                    'date': parts[1],
+                    'activity': parts[2],
+                })
+        return rows
+
+    @staticmethod
+    def _build_campaign_table(rows: List[Dict[str, str]]) -> List:
+        """Build a structured campaign table for PDF."""
+        if not rows:
+            return []
+        data = [['#', 'Date', 'Activity']]
+        for idx, row in enumerate(rows, 1):
+            data.append([
+                str(idx),
+                row.get('date', 'Unknown'),
+                row.get('activity', ''),
+            ])
+        table = Table(data, colWidths=[0.4*inch, 1.1*inch, 4.6*inch])
+        table.setStyle(TableStyle([
+            ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#e2e8f0')),
+            ('TEXTCOLOR', (0, 0), (-1, 0), colors.HexColor('#111827')),
+            ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+            ('FONTSIZE', (0, 0), (-1, -1), 8),
+            ('GRID', (0, 0), (-1, -1), 0.5, colors.HexColor('#d1d5db')),
+            ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+            ('ROWBACKGROUNDS', (0, 1), (-1, -1), [colors.white, colors.HexColor('#f8fafc')]),
+        ]))
+        return [table]
+
+    @staticmethod
+    def _build_counter_operations_table(rows: List[Dict[str, str]]) -> List:
+        """Build a structured counter operations table for PDF."""
+        if not rows:
+            return []
+        data = [['Sr', 'Date', 'Activity']]
+        for idx, row in enumerate(rows, 1):
+            data.append([
+                row.get('sr', str(idx)),
+                row.get('date', 'Unknown'),
+                row.get('activity', ''),
+            ])
+        table = Table(data, colWidths=[0.6*inch, 1.1*inch, 4.4*inch])
+        table.setStyle(TableStyle([
+            ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#e2e8f0')),
+            ('TEXTCOLOR', (0, 0), (-1, 0), colors.HexColor('#111827')),
+            ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+            ('FONTSIZE', (0, 0), (-1, -1), 8),
+            ('GRID', (0, 0), (-1, -1), 0.5, colors.HexColor('#d1d5db')),
+            ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+            ('ROWBACKGROUNDS', (0, 1), (-1, -1), [colors.white, colors.HexColor('#f8fafc')]),
+        ]))
+        return [table]
     
     @staticmethod
     def generate_pdf(result: Dict[str, Any]) -> bytes:
@@ -223,7 +376,6 @@ class ReportGenerator:
             metadata = [
                 ['Report Generated:', timestamp.strftime('%B %d, %Y at %H:%M:%S')],
                 ['Query Trace ID:', result.get('trace_id', 'N/A')[:20] + '...'],
-                ['AI Model:', result.get('model', 'N/A')],
                 ['Confidence Level:', f"{(result.get('confidence', 0) * 100):.1f}%"],
                 ['Evidence Sources:', str(result.get('source_count', 0))],
                 ['Query Intent:', result.get('intent', 'general').upper()]
@@ -279,6 +431,14 @@ class ReportGenerator:
             summary_text = ReportGenerator._build_summary(result.get('answer', ''))
             story.append(Paragraph(summary_text, body_style))
             story.append(Spacer(1, 0.2*inch))
+
+            # Table of Contents
+            toc_entries = ReportGenerator._extract_headings(result.get('answer', ''))
+            if toc_entries:
+                story.append(Paragraph("TABLE OF CONTENTS", heading_style))
+                for entry in toc_entries:
+                    story.append(Paragraph(f"• {entry}", styles['BodyText']))
+                story.append(Spacer(1, 0.2*inch))
             
             # Answer Section
             story.append(Paragraph("DETAILED ANALYSIS", heading_style))
@@ -291,6 +451,18 @@ class ReportGenerator:
             story.extend(answer_elements)
             
             story.append(Spacer(1, 0.3*inch))
+
+            campaign_rows = ReportGenerator._extract_campaign_table(result.get('answer', ''))
+            if campaign_rows:
+                story.append(Paragraph("CAMPAIGNS & OPERATIONS", heading_style))
+                story.extend(ReportGenerator._build_campaign_table(campaign_rows))
+                story.append(Spacer(1, 0.3*inch))
+
+            counter_rows = ReportGenerator._extract_counter_operations_table(result.get('answer', ''))
+            if counter_rows:
+                story.append(Paragraph("COUNTER OPERATIONS", heading_style))
+                story.extend(ReportGenerator._build_counter_operations_table(counter_rows))
+                story.append(Spacer(1, 0.3*inch))
             
             # Evidence Section
             evidence = result.get('evidence', [])
@@ -327,6 +499,10 @@ class ReportGenerator:
                     story.append(Paragraph("REFERENCES", heading_style))
                     refs_html = "<br/>".join([f"<link href='{l}'>{l}</link>" for l in unique_links])
                     story.append(Paragraph(refs_html, body_style))
+
+                story.append(Spacer(1, 0.2*inch))
+                story.append(Paragraph("APPENDIX: SOURCES TABLE", heading_style))
+                story.extend(ReportGenerator._build_evidence_table(evidence, styles))
             
             story.append(Spacer(1, 0.2*inch))
             story.append(Paragraph("_" * 80, body_style))
@@ -373,7 +549,6 @@ class ReportGenerator:
             writer.writerow(['Report Metadata'])
             writer.writerow(['Generated', timestamp.strftime('%Y-%m-%d %H:%M:%S')])
             writer.writerow(['Trace ID', result.get('trace_id', 'N/A')])
-            writer.writerow(['Model', result.get('model', 'N/A')])
             writer.writerow(['Confidence', f"{(result.get('confidence', 0) * 100):.1f}%"])
             writer.writerow(['Sources Used', result.get('source_count', 0)])
             writer.writerow([])

@@ -66,5 +66,22 @@
     "corrections": null,
     "feedback_id": "b9ff928b-7f88-43a3-ae51-6f038af8a370",
     "timestamp": "2026-02-03T09:29:41.904421"
+  },
+  {
+    "query": "Chat message",
+    "answer": "**Connection Found:**\n\nAccording to Cylance research, Snake Wine was discovered while investigating APT28's infrastructure. Snake Wine used similar name server registration patterns to APT28, though their malware differs. This suggests possible infrastructure overlap or mimicry.\n\n**Related Actors Mentioned:** Sofacy, APT 28, Fancy Bear, Sednit, Cyber Caliphate Army (CCA), United Cyber Caliphate (UCC), APT 29, Cozy Bear, The Dukes\n\n**Last Known Activity:** 2020-04-15",
+    "trace_id": "e4d0c436-3d06-40b0-97fc-c98cff07ab55",
+    "model": null,
+    "source_count": null,
+    "confidence": null,
+    "response_id": null,
+    "rating": 4,
+    "relevance": "",
+    "accuracy": "partially_accurate",
+    "completeness": null,
+    "comments": "This output is not associated with question .",
+    "corrections": null,
+    "feedback_id": "ff95761c-7379-4b9c-9e0e-449fc2a01c6f",
+    "timestamp": "2026-02-09T07:51:43.200114"
   }
 ]

@@ -2,6 +2,7 @@
 
 import logging
 import uuid
+import re
 from typing import Dict, Any, List
 from .rules import ChunkingRules
 
@@ -25,6 +26,33 @@ class SemanticChunker:
         self.chunk_overlap = chunk_overlap
         self.min_length = min_length
         self.entity_level = entity_level
+    
+    def _extract_related_actors(self, description: str) -> List[str]:
+        """
+        Extract related actor references from description.
+        Pattern: {{Actor Name, Alias1, Alias2}}
+        
+        Args:
+            description: Actor description text
+            
+        Returns:
+            List of related actor primary names
+        """
+        if not description:
+            return []
+        
+        # Pattern to match {{Actor Name, Alias1, Alias2}}
+        pattern = r'\{\{([^}]+)\}\}'
+        matches = re.findall(pattern, description)
+        
+        related = []
+        for match in matches:
+            # Split by comma and take first element as primary name
+            parts = [p.strip() for p in match.split(',')]
+            if parts:
+                related.append(parts[0])
+        
+        return list(set(related))  # Remove duplicates
     
     def chunk_actor(self, actor: Dict[str, Any]) -> List[Dict[str, Any]]:
         """
@@ -58,6 +86,7 @@ class SemanticChunker:
         ttps = actor.get('ttps') or actor.get('tactics') or []
         targets = actor.get('targets') or []
         campaigns = actor.get('campaigns') or actor.get('operations') or []
+        counter_operations = actor.get('counter_operations') or actor.get('counter-operations') or []
         description = actor.get('description', '')
         information_sources = actor.get('information_sources', [])
         sponsor = actor.get('sponsor') or actor.get('sponsorship')
@@ -67,6 +96,9 @@ class SemanticChunker:
             or actor.get('last_card_change')
             or actor.get('last-card-change')
         )
+        
+        # Extract related actors from description
+        related_actors = self._extract_related_actors(description)
         
         # Build comprehensive text representation
         text_parts = []
@@ -105,6 +137,9 @@ class SemanticChunker:
         if campaigns:
             text_parts.append(f"Campaigns: {' | '.join(str(c) for c in campaigns)}")
 
+        if counter_operations:
+            text_parts.append(f"Counter Operations: {' | '.join(str(c) for c in counter_operations)}")
+
         if sponsor:
             text_parts.append(f"Sponsorship: {sponsor}")
         
@@ -141,10 +176,14 @@ class SemanticChunker:
                 'information_sources': information_sources
             }
         }
+        if name_giver:
+            chunk['metadata']['name_giver'] = name_giver
+        if related_actors:
+            chunk['metadata']['related_actors'] = related_actors
         chunks = [chunk]
 
         if last_updated:
-            chunks.append({
+            last_updated_chunk = {
                 'chunk_id': str(uuid.uuid4()),
                 'actor_id': actor_id,
                 'text': str(last_updated),
@@ -157,10 +196,13 @@ class SemanticChunker:
                     'aliases': aliases,
                     'countries': countries,
                 }
-            })
+            }
+            if name_giver:
+                last_updated_chunk['metadata']['name_giver'] = name_giver
+            chunks.append(last_updated_chunk)
 
         if sponsor:
-            chunks.append({
+            sponsor_chunk = {
                 'chunk_id': str(uuid.uuid4()),
                 'actor_id': actor_id,
                 'text': str(sponsor),
@@ -173,7 +215,10 @@ class SemanticChunker:
                     'aliases': aliases,
                     'countries': countries,
                 }
-            })
+            }
+            if name_giver:
+                sponsor_chunk['metadata']['name_giver'] = name_giver
+            chunks.append(sponsor_chunk)
 
         for field_name, values in [
             ('observed_sectors', observed_sectors),
@@ -182,6 +227,7 @@ class SemanticChunker:
             ('tools', tools),
             ('ttps', ttps),
             ('campaigns', campaigns),
+            ('counter_operations', counter_operations),
             ('alias_givers', alias_givers),
         ]:
             if not values:
@@ -189,7 +235,7 @@ class SemanticChunker:
             if not isinstance(values, list):
                 values = [values]
             joiner = ' | ' if field_name == 'campaigns' else ', '
-            chunks.append({
+            list_chunk = {
                 'chunk_id': str(uuid.uuid4()),
                 'actor_id': actor_id,
                 'text': joiner.join(str(v) for v in values),
@@ -202,7 +248,10 @@ class SemanticChunker:
                     'aliases': aliases,
                     'countries': countries,
                 }
-            })
+            }
+            if name_giver:
+                list_chunk['metadata']['name_giver'] = name_giver
+            chunks.append(list_chunk)
 
         return chunks
     
@@ -215,6 +264,7 @@ class SemanticChunker:
         actor_name = actor.get('name', 'Unknown')
         primary_name = actor.get('primary_name', actor_name)
         aliases = actor.get('aliases', [])
+        name_giver = actor.get('name_giver') or actor.get('name-giver')
         
         for field_name, field_value in actor.items():
             field_type = ChunkingRules.get_field_type(field_name)
@@ -224,6 +274,8 @@ class SemanticChunker:
                 chunk['metadata']['actor_name'] = actor_name
                 chunk['metadata']['primary_name'] = primary_name
                 chunk['metadata']['aliases'] = aliases
+                if name_giver:
+                    chunk['metadata']['name_giver'] = name_giver
                 chunks.append(chunk)
             elif field_type == 'list':
                 field_chunks = self._chunk_list_field(actor_id, field_name, field_value)
@@ -231,6 +283,8 @@ class SemanticChunker:
                     chunk['metadata']['actor_name'] = actor_name
                     chunk['metadata']['primary_name'] = primary_name
                     chunk['metadata']['aliases'] = aliases
+                    if name_giver:
+                        chunk['metadata']['name_giver'] = name_giver
                 chunks.extend(field_chunks)
             elif field_type == 'text':
                 text_chunks = self._chunk_text_field(actor_id, field_name, field_value)
@@ -238,6 +292,8 @@ class SemanticChunker:
                     chunk['metadata']['actor_name'] = actor_name
                     chunk['metadata']['primary_name'] = primary_name
                     chunk['metadata']['aliases'] = aliases
+                    if name_giver:
+                        chunk['metadata']['name_giver'] = name_giver
                 chunks.extend(text_chunks)
         
         return chunks

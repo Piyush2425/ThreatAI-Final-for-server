@@ -22,6 +22,7 @@ class QueryIntent(Enum):
     CAPABILITIES = "capabilities"  # Technical sophistication
     MOTIVATION = "motivation"  # Goals, objectives
     SOURCES = "sources"  # Information sources, references
+    COUNTER_OPERATIONS = "counter_operations"  # Counter operations / defensive actions
 
 
 class QueryClassifier:
@@ -29,6 +30,11 @@ class QueryClassifier:
     
     # Keywords for each intent type
     INTENT_KEYWORDS = {
+        QueryIntent.COUNTER_OPERATIONS: [
+            "counter operation", "counter operations", "counter-operation", "counter-operations",
+            "defensive operation", "defensive operations", "takedown", "disruption",
+            "countermeasure", "countermeasures", "response action"
+        ],
         QueryIntent.TACTICS: [
             "tactic", "tactics", "ttp", "ttps", "technique", "techniques",
             "method", "methods", "procedure", "procedures", "attack",
@@ -37,7 +43,10 @@ class QueryClassifier:
         QueryIntent.ASSOCIATIONS: [
             "associated", "association", "related", "connection", "linked",
             "tied to", "work with", "collaborate", "partnership", "group",
-            "similar to", "connected to", "affiliate", "between", "and"
+            "similar to", "connected to", "affiliate", "between", "and",
+            "relationship", "relationships", "overlap", "overlaps with",
+            "connected with", "linked to", "related to", "ties with",
+            "subgroup", "subgroups", "parent group"
         ],
         QueryIntent.TARGETS: [
             "target", "targets", "victim", "victims", "sector", "sectors",
@@ -81,7 +90,10 @@ class QueryClassifier:
         QueryIntent.SOURCES: [
             "source", "sources", "reference", "references", 
             "research paper", "documentation", "citation", "bibliography",
-            "where did", "where does this come from"
+            "where did", "where does this come from",
+            "who named", "who gave the name", "who gave name", "who coined",
+            "who created the name", "name giver", "named by", "attribution vendor",
+            "who attributed", "who attributes", "coined by"
         ],
     }
     
@@ -101,13 +113,85 @@ class QueryClassifier:
         """
         query_lower = query.lower()
         
+        # Special case: explicit counter operations
+        if any(phrase in query_lower for phrase in [
+            "counter operation", "counter operations", "counter-operation", "counter-operations",
+            "countermeasure", "countermeasures"
+        ]):
+            logger.info("Classified query as: counter_operations (explicit phrase matched)")
+            return {
+                'primary_intent': QueryIntent.COUNTER_OPERATIONS,
+                'secondary_intents': [],
+                'confidence': 0.9,
+                'all_scores': {QueryIntent.COUNTER_OPERATIONS: 9}
+            }
+
+        # Special case: Check for naming/attribution questions first
+        naming_patterns = [
+            'who named', 'who gave the name', 'who gave name', 'who coined',
+            'who attributed', 'who attributes', 'named by', 'coined by',
+            'name giver', 'attribution vendor'
+        ]
+        
+        if any(pattern in query_lower for pattern in naming_patterns):
+            logger.info("Classified query as: sources (naming/attribution question detected)")
+            return {
+                'primary_intent': QueryIntent.SOURCES,
+                'secondary_intents': [],
+                'confidence': 0.9,
+                'all_scores': {QueryIntent.SOURCES: 9}
+            }
+        
+        # Special case: Check for relationship questions BEFORE overview triggers
+        relationship_patterns = [
+            'relationship between', 'connection between', 'related to',
+            'relationship with', 'connected to', 'linked to',
+            'ties between', 'overlap between', 'association between',
+            'how are', 'relate to each other'
+        ]
+        
+        if any(pattern in query_lower for pattern in relationship_patterns):
+            logger.info("Classified query as: associations (relationship question detected)")
+            return {
+                'primary_intent': QueryIntent.ASSOCIATIONS,
+                'secondary_intents': [],
+                'confidence': 0.9,
+                'all_scores': {QueryIntent.ASSOCIATIONS: 9}
+            }
+        
+        # Special case: Check for alias/name resolution questions
+        alias_patterns = [
+            'is ', 'are ', 'same as', 'same group',
+            'what are all names', 'what are the names', 'all names for',
+            'all aliases', 'aliases of', 'aliases for',
+            'also known as', 'aka', 'other names for'
+        ]
+        
+        # Check for comparison patterns like "is X the same as Y"
+        same_as_pattern = re.search(r'\b(is|are)\b.*(same|identical|equivalent)', query_lower)
+        has_alias_keyword = any(pattern in query_lower for pattern in alias_patterns)
+        
+        if same_as_pattern or (has_alias_keyword and ('name' in query_lower or 'alias' in query_lower)):
+            logger.info("Classified query as: aliases (name resolution question detected)")
+            return {
+                'primary_intent': QueryIntent.ALIASES,
+                'secondary_intents': [],
+                'confidence': 0.9,
+                'all_scores': {QueryIntent.ALIASES: 9}
+            }
+        
         # Special case: "write a report", "tell me about", "overview of" should be OVERVIEW
+        # But be specific - "who is" only matches identity questions, not "who is named" etc.
         overview_triggers = [
             'write a report', 'write report', 'generate report', 'create report',
-            'tell me about', 'tell me everything', 'what is', 'who is',
+            'tell me about', 'tell me everything', 'what is',
             'overview of', 'profile of', 'information about', 'describe',
             'give me info', 'explain'
         ]
+        
+        # "who is" but NOT if it's followed by naming keywords
+        if 'who is' in query_lower and not any(p in query_lower for p in naming_patterns):
+            overview_triggers.append('who is')
         
         if any(trigger in query_lower for trigger in overview_triggers):
             logger.info(f"Classified query as: overview (special trigger matched)")
@@ -174,6 +258,14 @@ class QueryClassifier:
             Dict with extraction guidance
         """
         hints = {
+            QueryIntent.COUNTER_OPERATIONS: {
+                'focus_on': ['counter operations', 'defensive actions', 'takedowns', 'disruptions'],
+                'look_for_patterns': [
+                    r'counter operation', r'counter-operation', r'takedown',
+                    r'disruption', r'mitigation', r'defensive'
+                ],
+                'response_format': 'list'
+            },
             QueryIntent.TACTICS: {
                 'focus_on': ['methods', 'techniques', 'attack vectors', 'phishing', 'exploits'],
                 'look_for_patterns': [
