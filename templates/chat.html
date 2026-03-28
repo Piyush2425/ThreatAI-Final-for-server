@@ -27,7 +27,12 @@
 
             <!-- New Chat Button -->
             <button class="new-chat-btn" onclick="createNewChat()">
-                <span class="btn-icon">➕</span>
+                <span class="btn-icon" aria-hidden="true">
+                    <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 5v14"></path>
+                        <path d="M5 12h14"></path>
+                    </svg>
+                </span>
                 <span class="btn-label">New Chat</span>
             </button>
 
@@ -57,14 +62,13 @@
                     <h2>Threat Intelligence Chat</h2>
                 </div>
                 <div class="top-actions">
-                    <button class="theme-toggle-btn" id="theme-toggle" onclick="toggleTheme()" title="Toggle Theme">
-                        <span class="theme-icon" id="theme-icon">🌙</span>
-                    </button>
-                    <button class="icon-btn" onclick="toggleSidebar()" title="Toggle Sidebar">
-                        <span>☰</span>
-                    </button>
                     <button class="icon-btn" onclick="showSettings()" title="Settings">
-                        <span>⚙️</span>
+                        <span aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="3"></circle>
+                                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82L4.21 7.1a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h.01a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.01a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                            </svg>
+                        </span>
                     </button>
                 </div>
             </div>
@@ -81,13 +85,8 @@
                             </svg>
                         </div>
                         <h1 class="welcome-title">THREAT<span class="title-accent">-AI</span></h1>
-                        <p class="welcome-subtitle">Threat Intelligence Copilot</p>
-                        <div class="welcome-pills">
-                            <span class="wpill wpill-glow">Evidence-First</span>
-                            <span class="wpill">Live Intel</span>
-                            <span class="wpill">Zero Hallucinations</span>
-                        </div>
-                        
+                        <p class="welcome-subtitle">Threat Intelligence System</p>
+
                         <div class="example-prompts">
                             <h3>Try asking:</h3>
                             <div class="prompt-grid" id="example-prompts"></div>
@@ -110,11 +109,17 @@
                         rows="1"
                     ></textarea>
                     <button class="send-btn" id="send-btn" onclick="sendMessage()">
-                        <span id="send-icon">🚀</span>
+                        <span id="send-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 2L11 13"></path>
+                                <path d="M22 2l-7 20-4-9-9-4 20-7z"></path>
+                            </svg>
+                        </span>
                     </button>
                 </div>
                 <div class="input-footer">
                     <span class="input-hint">Press Enter to send, Shift+Enter for new line</span>
+                    <span class="input-warning">AI-generated responses can make mistakes. Please verify critical information with trusted sources.</span>
                 </div>
             </div>
         </main>
@@ -125,7 +130,7 @@
         <div class="feedback-modal-overlay" onclick="closeFeedbackModal()"></div>
         <div class="feedback-modal-content">
             <div class="feedback-modal-header">
-                <h3>📝 Provide Feedback</h3>
+                <h3>Provide Feedback</h3>
                 <button class="close-modal-btn" onclick="closeFeedbackModal()">×</button>
             </div>
             
@@ -180,6 +185,69 @@
         </div>
     </div>
 
-    <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+    <!-- Settings Modal -->
+    <div class="settings-modal" id="settings-modal" style="display: none;">
+        <div class="settings-modal-overlay" onclick="closeSettings()"></div>
+        <div class="settings-modal-content">
+            <div class="settings-modal-header">
+                <h3>Appearance Settings</h3>
+                <button class="close-modal-btn" onclick="closeSettings()">×</button>
+            </div>
+            <div class="settings-modal-body">
+                <div class="settings-field">
+                    <label class="settings-label" for="settings-theme-select">Theme</label>
+                    <select id="settings-theme-select" class="settings-select">
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
+                    </select>
+                    <p class="settings-help">Choose your preferred interface theme.</p>
+                </div>
+            </div>
+            <div class="settings-modal-footer">
+                <button class="btn-secondary" onclick="closeSettings()">Cancel</button>
+                <button class="btn-primary" onclick="saveSettings()">Save</button>
+            </div>
+        </div>
+    </div>
+
+        <!-- Bundled TypeScript App -->
+        <script src="{{ url_for('static', filename='dist/app.js') }}"></script>
+    
+        <!-- Global function wrappers for DOM event handlers -->
+        <script>
+            // These functions are called from HTML event handlers
+            // They delegate to the global window objects set by main.ts
+            function createNewChat() {
+                if (window.chatManager) window.chatManager.createNewChat();
+            }
+      
+            function loadConversation(convId) {
+                if (window.chatManager) window.chatManager.loadConversation(convId);
+            }
+      
+            function deleteConversation(convId) {
+                if (window.chatManager) window.chatManager.deleteConversation(convId);
+            }
+      
+            function sendMessage() {
+                if (window.chatManager) window.chatManager.sendMessage();
+            }
+      
+            function showSettings() {
+                if (window.uiManager) window.uiManager.openSettings();
+            }
+
+            function closeSettings() {
+                if (window.uiManager) window.uiManager.closeSettings();
+            }
+
+            function saveSettings() {
+                if (window.uiManager) window.uiManager.saveSettings();
+            }
+      
+            function useExample(example) {
+                if (window.chatManager) window.chatManager.useExample(example);
+            }
+        </script>
 </body>
 </html>

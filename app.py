@@ -8,11 +8,30 @@ import argparse
 import webbrowser
 import time
 import io
+import json
+import re
 from pathlib import Path
 from datetime import datetime
 from flask import Flask, render_template, request, jsonify, send_file
 from functools import lru_cache
 import hashlib
+
+# Import intent detection from dedicated module
+from agent.intent_detector import (
+    is_report_request,
+    contains_threat_context_terms,
+    is_short_report_followup,
+    is_simple_confirmation,
+    get_latest_substantive_user_query,
+    last_assistant_message_had_report_suggestion,
+    should_offer_report_suggestion,
+)
+
+# Import follow-up question suggester
+from agent.follow_up_suggester import generate_followup_questions
+
+# Import response streaming for token-by-token progressive reveal
+from agent.response_streamer import ResponseStreamer
 
 # Configure logging
 logging.basicConfig(
@@ -31,6 +50,42 @@ conversation_manager = None
 
 # Simple query cache (for development - consider Redis for production)
 query_cache = {}
+
+
+def _extract_focus_actor(query_text: str, result: dict) -> str:
+    """Extract a best-effort primary actor for report CTA wording."""
+    if result:
+        primary_actors = result.get('primary_actors') or []
+        if isinstance(primary_actors, list) and primary_actors:
+            actor = primary_actors[0]
+            if isinstance(actor, str) and actor.strip():
+                return actor.strip()
+
+        for item in result.get('evidence', []) or []:
+            actor = (item.get('actor') or '').strip() if isinstance(item, dict) else ''
+            if actor and actor.lower() != 'unknown':
+                return actor
+
+    query = query_text or ''
+    apt_match = re.search(r'\bapt\s*-?\s*(\d+)\b', query, flags=re.IGNORECASE)
+    if apt_match:
+        return f"APT{apt_match.group(1)}"
+
+    return ''
+
+
+def build_report_suggestion_text(query_text: str, result: dict) -> str:
+    """Build contextual report suggestion text anchored to the detected actor."""
+    focus_actor = _extract_focus_actor(query_text, result)
+    if focus_actor:
+        return (
+            f"Can I generate a full profile report on {focus_actor}? "
+            "Reply with: yes generate report."
+        )
+    return (
+        'Would you like me to generate a downloadable report from this answer? '
+        'Reply with: yes generate report.'
+    )
 
 
 def load_config(config_path: str = "config/settings.yaml") -> dict:
@@ -561,6 +616,7 @@ def send_message(conv_id):
     try:
         data = request.json
         user_message = data.get('message', '').strip()
+        report_requested = is_report_request(user_message)
         
         if not user_message:
             return jsonify({'error': 'Message cannot be empty'}), 400
@@ -573,22 +629,78 @@ def send_message(conv_id):
         # Add user message to conversation
         conversation.add_message('user', user_message)
         
-        # Get context from conversation history
-        context_messages = conversation.get_context_messages(max_messages=10)
+        # For short report confirmations, reuse the previous substantive query.
+        fallback_query = get_latest_substantive_user_query(conversation, user_message)
+        
+        # Check if this is a report request (explicit or via simple confirmation after suggestion)
+        last_had_suggestion = last_assistant_message_had_report_suggestion(conversation)
+        is_simple_confirm = is_simple_confirmation(user_message)
+        implicit_report_request = is_simple_confirm and last_had_suggestion
+        
+        use_context_query_for_report = (
+            (report_requested or implicit_report_request)
+            and (is_short_report_followup(user_message) or is_simple_confirm or not contains_threat_context_terms(user_message))
+            and bool(fallback_query)
+        )
+        effective_query = fallback_query if use_context_query_for_report else user_message
+        
+        # Elevate implicit report to explicit for consistent processing downstream
+        if implicit_report_request and not report_requested:
+            report_requested = True
         
         # Process query with context
-        result = process_query(user_message)
+        result = process_query(effective_query)
         
         if 'error' in result:
             return jsonify(result), 400 if 'empty' in result.get('error', '') else 500
         
+        assistant_message = result['answer']
+        if report_requested and use_context_query_for_report:
+            focus_actor = _extract_focus_actor(effective_query, result)
+            if focus_actor:
+                assistant_message = (
+                    f"Understood. I prepared this report context for {focus_actor}.\n\n{result['answer']}"
+                )
+            else:
+                assistant_message = (
+                    f"Understood. I used your previous request to prepare this report context.\n\n{result['answer']}"
+                )
+
+        report_suggestion_text = build_report_suggestion_text(effective_query, result)
+        focus_actor = _extract_focus_actor(effective_query, result)
+        report_suggestion = (
+            (not report_requested and bool(focus_actor))
+            or should_offer_report_suggestion(result, report_requested)
+        )
+
+        asked_user_messages = [
+            (msg.get('content') or '')
+            for msg in getattr(conversation, 'messages', [])
+            if msg.get('role') == 'user'
+        ]
+        
+        # Generate follow-up questions based ONLY on retrieved evidence
+        followup_questions = generate_followup_questions(
+            user_query=effective_query,
+            evidence=result.get('evidence', []),
+            answer=assistant_message,
+            max_questions=3,
+            asked_user_messages=asked_user_messages,
+        )
+
         # Add assistant response to conversation with metadata
-        conversation.add_message('assistant', result['answer'], {
+        conversation.add_message('assistant', assistant_message, {
             'confidence': result.get('confidence'),
             'evidence': result.get('evidence', []),
             'trace_id': result.get('trace_id'),
             'model': result.get('model'),
-            'source_count': result.get('source_count')
+            'source_count': result.get('source_count'),
+            'report_requested': report_requested,
+            'report_suggestion': report_suggestion,
+            'report_suggestion_text': report_suggestion_text,
+            'effective_query': effective_query,
+            'used_context_query': use_context_query_for_report,
+            'followup_questions': followup_questions,
         })
         
         # Save conversation
@@ -598,13 +710,19 @@ def send_message(conv_id):
         return jsonify({
             'conversation_id': conv_id,
             'user_message': user_message,
-            'assistant_message': result['answer'],
+            'assistant_message': assistant_message,
             'metadata': {
                 'confidence': result.get('confidence'),
                 'evidence': result.get('evidence', []),
                 'trace_id': result.get('trace_id'),
                 'model': result.get('model'),
                 'source_count': result.get('source_count'),
+                'report_requested': report_requested,
+                'report_suggestion': report_suggestion,
+                'report_suggestion_text': report_suggestion_text,
+                'effective_query': effective_query,
+                'used_context_query': use_context_query_for_report,
+                'followup_questions': followup_questions,
                 'timestamp': result.get('timestamp')
             }
         })
@@ -612,6 +730,144 @@ def send_message(conv_id):
     except Exception as e:
         logger.error(f"Error sending message: {e}")
         return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/conversations/<conv_id>/message/stream', methods=['POST'])
+def stream_message(conv_id):
+    """Stream a message response token-by-token with progressive reveal.
+    
+    Returns: Server-Sent Events (SSE) stream with:
+    - 'token' events: Individual tokens with configurable delay
+    - 'complete' event: Full metadata and follow-up questions when done
+    """
+    from flask import Response
+    
+    # Extract request data BEFORE generator (while request context is active)
+    data = request.json or {}
+    user_message = data.get('message', '').strip()
+    
+    def generate_stream():
+        try:
+            report_requested = is_report_request(user_message)
+            
+            if not user_message:
+                yield f"data: {json.dumps({'error': 'Message cannot be empty'})}\n\n"
+                return
+            
+            # Get or create conversation
+            conversation = conversation_manager.get_conversation(conv_id)
+            if not conversation:
+                yield f"data: {json.dumps({'error': 'Conversation not found'})}\n\n"
+                return
+            
+            # Add user message to conversation
+            conversation.add_message('user', user_message)
+            
+            # For short report confirmations, reuse the previous substantive query
+            fallback_query = get_latest_substantive_user_query(conversation, user_message)
+            last_had_suggestion = last_assistant_message_had_report_suggestion(conversation)
+            is_simple_confirm = is_simple_confirmation(user_message)
+            implicit_report_request = is_simple_confirm and last_had_suggestion
+            
+            use_context_query_for_report = (
+                (report_requested or implicit_report_request)
+                and (is_short_report_followup(user_message) or is_simple_confirm or not contains_threat_context_terms(user_message))
+                and bool(fallback_query)
+            )
+            effective_query = fallback_query if use_context_query_for_report else user_message
+            
+            if implicit_report_request and not report_requested:
+                report_requested = True
+            
+            # Process query once (complete answer)
+            result = process_query(effective_query)
+            
+            if 'error' in result:
+                yield f"data: {json.dumps(result)}\n\n"
+                return
+            
+            assistant_message = result['answer']
+            if report_requested and use_context_query_for_report:
+                focus_actor = _extract_focus_actor(effective_query, result)
+                if focus_actor:
+                    assistant_message = (
+                        f"Understood. I prepared this report context for {focus_actor}.\n\n{result['answer']}"
+                    )
+                else:
+                    assistant_message = (
+                        f"Understood. I used your previous request to prepare this report context.\n\n{result['answer']}"
+                    )
+            
+            report_suggestion_text = build_report_suggestion_text(effective_query, result)
+            focus_actor = _extract_focus_actor(effective_query, result)
+            report_suggestion = (
+                (not report_requested and bool(focus_actor))
+                or should_offer_report_suggestion(result, report_requested)
+            )
+
+            asked_user_messages = [
+                (msg.get('content') or '')
+                for msg in getattr(conversation, 'messages', [])
+                if msg.get('role') == 'user'
+            ]
+            
+            # Generate follow-up questions
+            followup_questions = generate_followup_questions(
+                user_query=effective_query,
+                evidence=result.get('evidence', []),
+                answer=assistant_message,
+                max_questions=3,
+                asked_user_messages=asked_user_messages,
+            )
+            
+            # Prepare metadata
+            metadata = {
+                'conversation_id': conv_id,
+                'user_message': user_message,
+                'confidence': result.get('confidence'),
+                'evidence': result.get('evidence', []),
+                'trace_id': result.get('trace_id'),
+                'model': result.get('model'),
+                'source_count': result.get('source_count'),
+                'report_requested': report_requested,
+                'report_suggestion': report_suggestion,
+                'report_suggestion_text': report_suggestion_text,
+                'effective_query': effective_query,
+                'used_context_query': use_context_query_for_report,
+                'timestamp': result.get('timestamp')
+            }
+            
+            # Create streaming chunks and yield them
+            for chunk in ResponseStreamer.create_stream_chunks(
+                answer_text=assistant_message,
+                followup_questions=followup_questions,
+                metadata=metadata
+            ):
+                stream_data = ResponseStreamer.serialize_stream_chunk(chunk)
+                yield f"data: {stream_data}\n\n"
+            
+            # Add to conversation after streaming completes
+            conversation.add_message('assistant', assistant_message, {
+                'confidence': result.get('confidence'),
+                'evidence': result.get('evidence', []),
+                'trace_id': result.get('trace_id'),
+                'model': result.get('model'),
+                'source_count': result.get('source_count'),
+                'report_requested': report_requested,
+                'report_suggestion': report_suggestion,
+                'report_suggestion_text': report_suggestion_text,
+                'effective_query': effective_query,
+                'used_context_query': use_context_query_for_report,
+                'followup_questions': followup_questions,
+            })
+            
+            conversation_manager.save_conversation(conv_id)
+            
+        except Exception as e:
+            logger.error(f"Error in stream_message: {e}")
+            yield f"data: {json.dumps({'error': str(e)})}\n\n"
+    
+    return Response(generate_stream(), mimetype='text/event-stream')
 
 
 # ==================== CLI INTERFACE ====================

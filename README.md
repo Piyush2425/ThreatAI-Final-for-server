@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ### 3. Build/Refresh Vector Store
 ```bash
-python rebuild_vectorstore.py
+python scripts/rebuild_vectorstore.py
 ```
 
 ### 4. Start Web UI
@@ -60,7 +60,11 @@ python app.py
 ```
 threat-ai/
 ├── app.py                 # Flask web UI + CLI
-├── rebuild_vectorstore.py # Rebuild Chroma index
+├── scripts/
+│   ├── rebuild_vectorstore.py # Rebuild Chroma index
+│   └── build.mjs              # Frontend build script
+├── docs/
+│   └── BUILD_SYSTEM.md        # Frontend build documentation
 ├── templates/
 │   ├── chat.html          # Main chat UI
 │   └── index.html         # Legacy UI
@@ -207,7 +211,7 @@ pip install -r requirements.txt
 
 ## 🎓 Documentation
 
-This README is the primary documentation. Configuration lives in `config/settings.yaml`, and the key entry points are `app.py` (web UI + CLI) and `rebuild_vectorstore.py` (index rebuild).
+This README is the primary documentation. Configuration lives in `config/settings.yaml`, and the key entry points are `app.py` (web UI + CLI) and `scripts/rebuild_vectorstore.py` (index rebuild).
 
 ## ✨ Key Features
 
@@ -281,7 +285,7 @@ retrieval:
 **Missing new data fields (e.g., last known activity):**
 Rebuild the vector store after data or code changes:
 ```bash
-python rebuild_vectorstore.py
+python scripts/rebuild_vectorstore.py
 ```
 
 ## 📚 Model Information

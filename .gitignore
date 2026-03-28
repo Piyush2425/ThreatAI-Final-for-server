@@ -1,2 +1,41 @@
-__pycache__
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.Python
+
+# Virtual environments
 ThreatAI/
+venv/
+env/
+ENV/
+
+# Node/JS
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Data & Logs (sensitive/large files)
+data/chroma_db/
+data/conversations/
+logs/
+*.log
+
+# IDEs
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
