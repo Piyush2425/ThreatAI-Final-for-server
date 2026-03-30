@@ -449,19 +449,17 @@ def process_query(query_text: str, use_cache: bool = True, conversation_id: str 
             conversation_manager.save_conversation(conversation)
             logger.info(f"💾 Conversation saved with {len(conversation.actors_mentioned)} actors")
         
-        # Cache the result (limit cache size to prevent memory issues)
-        if use_cache:
-            response['cached_at'] = time.time()
-            response['normalized_query'] = _normalize_cache_query(query_text)
-            query_cache[cache_key] = response.copy()
-            
-            # Keep cache size reasonable (max 100 queries)
-            if len(query_cache) > 100:
-                # Remove oldest entry
-                oldest_key = min(query_cache.keys(), 
-                               key=lambda k: query_cache[k].get('cached_at', 0))
-                del query_cache[oldest_key]
-                logger.info("🗑️ Cache cleaned - removed oldest entry")
+        # Always write back fresh answers into main cache.
+        # use_cache controls read behavior; writeback enables warm cache for future users.
+        response['cached_at'] = time.time()
+        response['normalized_query'] = _normalize_cache_query(query_text)
+        query_cache[cache_key] = response.copy()
+
+        # Keep cache size reasonable (max 1000 queries)
+        if len(query_cache) > 1000:
+            oldest_key = min(query_cache.keys(), key=lambda k: query_cache[k].get('cached_at', 0))
+            del query_cache[oldest_key]
+            logger.info("🗑️ Cache cleaned - removed oldest entry")
         
         logger.info("✓ Query processed successfully")
         return response
