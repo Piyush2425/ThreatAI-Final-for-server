@@ -4,8 +4,10 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 import threading
 import uuid
+from difflib import SequenceMatcher
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -86,6 +88,7 @@ class TrainingLabManager:
         self.root_dir = Path(root_dir)
         self.runtime_dir = self.root_dir / "runtime"
         self.runs_dir = self.runtime_dir / "runs"
+        self.cache_path = self.runtime_dir / "qa_cache.json"
         self.actors_path = Path(actors_path)
         self.runs_dir.mkdir(parents=True, exist_ok=True)
 
@@ -99,6 +102,110 @@ class TrainingLabManager:
         )
         self.default_model = default_model
         self.project_answer_fn = project_answer_fn
+        self.cache_only_mode = False
+        self._actor_name_index: Optional[List[str]] = None
+
+    def _normalize_question(self, question: str) -> str:
+        """Normalize user question for deterministic cache lookup."""
+        text = (question or "").strip().lower()
+        text = re.sub(r"\s+", " ", text)
+        text = re.sub(r"[\?\.!;:,]+$", "", text)
+        return text
+
+    def _normalize_text(self, text: str) -> str:
+        """Normalize generic text for fuzzy matching."""
+        value = (text or "").strip().lower()
+        value = re.sub(r"\s+", " ", value)
+        return value
+
+    def _load_actor_name_index(self) -> List[str]:
+        """Load actor names/aliases once for actor-aware cache matching."""
+        if self._actor_name_index is not None:
+            return self._actor_name_index
+
+        names = set()
+        for actor in self._load_actors():
+            primary = self._normalize_text(self._actor_name(actor))
+            if primary:
+                names.add(primary)
+            for alias in self._actor_aliases(actor):
+                a = self._normalize_text(alias)
+                if a:
+                    names.add(a)
+
+        self._actor_name_index = sorted(names)
+        return self._actor_name_index
+
+    def _detect_actor_hints(self, question: str) -> List[str]:
+        """Detect actor mentions from user question using actor names and aliases."""
+        q = self._normalize_text(question)
+        if not q:
+            return []
+
+        hints = []
+        for name in self._load_actor_name_index():
+            if name and name in q:
+                hints.append(name)
+        return hints
+
+    def _token_jaccard(self, a: str, b: str) -> float:
+        """Compute token-level Jaccard similarity."""
+        ta = set((a or "").split())
+        tb = set((b or "").split())
+        if not ta or not tb:
+            return 0.0
+        inter = len(ta & tb)
+        union = len(ta | tb)
+        return (inter / union) if union else 0.0
+
+    def _fuzzy_threshold(self, normalized_question: str) -> float:
+        """Choose threshold by question length to avoid over-matching short queries."""
+        length = len(normalized_question or "")
+        if length <= 18:
+            return 0.94
+        if length <= 35:
+            return 0.90
+        return 0.87
+
+    def _find_best_fuzzy_entry(
+        self,
+        normalized_question: str,
+        entries: Dict[str, Any],
+        actor_hints: List[str],
+    ) -> Optional[Dict[str, Any]]:
+        """Find the best fuzzy cache match with actor-aware filtering."""
+        best_key = None
+        best_entry = None
+        best_score = 0.0
+
+        for key, entry in entries.items():
+            entry_actor = self._normalize_text(entry.get("actor_name", ""))
+            if actor_hints and entry_actor and entry_actor not in actor_hints:
+                continue
+
+            char_score = SequenceMatcher(None, normalized_question, key).ratio()
+            token_score = self._token_jaccard(normalized_question, key)
+            score = (0.75 * char_score) + (0.25 * token_score)
+
+            if score > best_score:
+                best_score = score
+                best_key = key
+                best_entry = entry
+
+        if not best_entry:
+            return None
+
+        threshold = self._fuzzy_threshold(normalized_question)
+        if best_score < threshold:
+            return None
+
+        return {
+            "key": best_key,
+            "entry": best_entry,
+            "score": round(best_score, 4),
+            "threshold": threshold,
+            "match_type": "fuzzy",
+        }
 
     def _utc_now(self) -> str:
         return datetime.now(timezone.utc).isoformat()
@@ -135,6 +242,209 @@ class TrainingLabManager:
         path.parent.mkdir(parents=True, exist_ok=True)
         with path.open("a", encoding="utf-8") as f:
             f.write(json.dumps(record, ensure_ascii=True) + "\n")
+
+    def _read_cache(self) -> Dict[str, Any]:
+        payload = self._read_json(self.cache_path)
+        if not payload:
+            return {
+                "version": 1,
+                "created_at": self._utc_now(),
+                "updated_at": self._utc_now(),
+                "run_ids": [],
+                "total_entries": 0,
+                "entries": {},
+            }
+        payload.setdefault("entries", {})
+        payload.setdefault("run_ids", [])
+        payload.setdefault("total_entries", len(payload.get("entries", {})))
+        return payload
+
+    def _write_cache(self, payload: Dict[str, Any]) -> None:
+        payload["updated_at"] = self._utc_now()
+        payload["total_entries"] = len(payload.get("entries", {}))
+        self._write_json(self.cache_path, payload)
+
+    def cache_status(self) -> Dict[str, Any]:
+        cache = self._read_cache()
+        return {
+            "exists": self.cache_path.exists(),
+            "cache_only_mode": self.cache_only_mode,
+            "path": str(self.cache_path),
+            "run_ids": cache.get("run_ids", []),
+            "total_entries": cache.get("total_entries", 0),
+            "updated_at": cache.get("updated_at"),
+        }
+
+    def set_cache_only_mode(self, enabled: bool) -> Dict[str, Any]:
+        self.cache_only_mode = bool(enabled)
+        return {
+            "cache_only_mode": self.cache_only_mode,
+            "message": "Cache-only mode enabled" if self.cache_only_mode else "Cache-only mode disabled",
+        }
+
+    def lookup_cached_answer(self, question: str) -> Optional[Dict[str, Any]]:
+        """Lookup answer from QA cache by normalized question."""
+        normalized = self._normalize_question(question)
+        if not normalized:
+            return None
+
+        cache = self._read_cache()
+        entries = cache.get("entries", {})
+        entry = entries.get(normalized)
+        match_type = "exact"
+        match_score = 1.0
+
+        if not entry:
+            actor_hints = self._detect_actor_hints(question)
+            fuzzy = self._find_best_fuzzy_entry(normalized, entries, actor_hints)
+            if not fuzzy:
+                return None
+            entry = fuzzy["entry"]
+            match_type = fuzzy["match_type"]
+            match_score = fuzzy["score"]
+
+        return {
+            "query": question,
+            "answer": entry.get("answer", ""),
+            "confidence": float(entry.get("confidence", 1.0)),
+            "source_count": int(entry.get("source_count", 0)),
+            "model": entry.get("model", "training-cache"),
+            "timestamp": self._utc_now(),
+            "response_mode": "cached",
+            "query_type": "cached",
+            "primary_actors": [entry.get("actor_name")] if entry.get("actor_name") else [],
+            "processing_time": 0.0,
+            "from_cache": True,
+            "from_training_cache": True,
+            "cache_match_type": match_type,
+            "cache_match_score": match_score,
+            "trace_id": entry.get("trace_id", "training-cache"),
+            "evidence": entry.get("evidence", []),
+            "timings": {
+                "retrieval": 0.0,
+                "generation": 0.0,
+                "audit": 0.0,
+                "total": 0.0,
+            },
+        }
+
+    def build_qa_cache(self, run_id: Optional[str] = None, merge: bool = True) -> Dict[str, Any]:
+        """Build cache from a run's QA records; defaults to latest completed run."""
+        target_run = run_id
+        if not target_run:
+            runs = self.list_runs(limit=50)
+            completed = [r for r in runs if r.get("status") == "completed"]
+            if not completed:
+                return {"error": "No completed runs available to build cache"}
+            target_run = completed[0].get("run_id")
+
+        records_info = self.get_records(target_run, limit=1_000_000, offset=0)
+        records = records_info.get("records", [])
+        if not records:
+            return {"error": "No QA records found for this run", "run_id": target_run}
+
+        cache = self._read_cache() if merge else {
+            "version": 1,
+            "created_at": self._utc_now(),
+            "updated_at": self._utc_now(),
+            "run_ids": [],
+            "total_entries": 0,
+            "entries": {},
+        }
+
+        entries = cache.get("entries", {})
+        inserted = 0
+        skipped = 0
+
+        for rec in records:
+            answer = (rec.get("answer") or "").strip()
+            question = (rec.get("question") or "").strip()
+            if not question or not answer or answer.lower() == "no":
+                skipped += 1
+                continue
+
+            evaluation = rec.get("evaluation") or {}
+            if not evaluation.get("workable", False):
+                skipped += 1
+                continue
+
+            key = self._normalize_question(question)
+            if not key:
+                skipped += 1
+                continue
+
+            entry = {
+                "question": question,
+                "answer": answer,
+                "actor_name": rec.get("actor_name"),
+                "run_id": rec.get("run_id"),
+                "source_count": 0,
+                "confidence": max(0.5, min(1.0, float((evaluation.get("confidence", 80) or 80) / 100.0))),
+                "model": "training-cache",
+                "trace_id": f"training-cache-{rec.get('run_id', 'unknown')}",
+                "evidence": [],
+                "cached_at": self._utc_now(),
+            }
+            if key not in entries:
+                inserted += 1
+            entries[key] = entry
+
+        cache["entries"] = entries
+        run_ids = set(cache.get("run_ids", []))
+        run_ids.add(target_run)
+        cache["run_ids"] = sorted(run_ids)
+        self._write_cache(cache)
+
+        return {
+            "run_id": target_run,
+            "inserted": inserted,
+            "skipped": skipped,
+            "total_entries": len(entries),
+            "cache_path": str(self.cache_path),
+        }
+
+    def cache_answer_from_result(self, question: str, result: Dict[str, Any]) -> Dict[str, Any]:
+        """Store freshly generated answer to cache for future exact/fuzzy hits."""
+        normalized = self._normalize_question(question)
+        if not normalized:
+            return {"stored": False, "reason": "empty_question"}
+
+        answer = (result.get("answer") or "").strip()
+        if not answer:
+            return {"stored": False, "reason": "empty_answer"}
+
+        lowered = answer.lower()
+        deny_patterns = [
+            "no relevant threat intelligence found",
+            "please try a different search",
+            "insufficient evidence",
+        ]
+        if any(token in lowered for token in deny_patterns):
+            return {"stored": False, "reason": "non_answer"}
+
+        actors = result.get("primary_actors") or []
+        actor_name = actors[0] if actors else ""
+
+        cache = self._read_cache()
+        entries = cache.get("entries", {})
+        entries[normalized] = {
+            "question": question,
+            "answer": answer,
+            "actor_name": actor_name,
+            "run_id": "live",
+            "source_count": int(result.get("source_count", 0) or 0),
+            "confidence": float(result.get("confidence", 0.7) or 0.7),
+            "model": result.get("model", "main_project"),
+            "trace_id": result.get("trace_id", "live-cache"),
+            "evidence": result.get("evidence", []) or [],
+            "cached_at": self._utc_now(),
+        }
+        cache["entries"] = entries
+        run_ids = set(cache.get("run_ids", []))
+        run_ids.add("live")
+        cache["run_ids"] = sorted(run_ids)
+        self._write_cache(cache)
+        return {"stored": True, "key": normalized, "total_entries": len(entries)}
 
     def _load_actors(self) -> List[Dict[str, Any]]:
         with self.actors_path.open("r", encoding="utf-8") as f:
@@ -696,6 +1006,14 @@ class TrainingLabManager:
         state["last_updated"] = self._utc_now()
         self._update_state_metrics(state)
         self._write_json(state_path, state)
+
+        if bool(config.get("build_cache_on_complete", True)):
+            try:
+                cache_result = self.build_qa_cache(run_id=run_id, merge=True)
+                logger.info("Training cache build result for %s: %s", run_id, cache_result)
+            except Exception as exc:
+                logger.error("Failed to build QA cache for %s: %s", run_id, exc)
+
         logger.info("Training run completed: %s", run_id)
 
     def start_run(
@@ -704,6 +1022,8 @@ class TrainingLabManager:
         min_questions_per_actor: int = 3,
         max_questions_per_actor: int = 10,
         answer_source: str = "main_project",
+        exhaustive: bool = False,
+        build_cache_on_complete: bool = True,
     ) -> Dict[str, Any]:
         with self._lock:
             if self._worker_thread and self._worker_thread.is_alive():
@@ -717,12 +1037,18 @@ class TrainingLabManager:
             run_dir.mkdir(parents=True, exist_ok=True)
             self._questions_dir(run_id).mkdir(parents=True, exist_ok=True)
 
+            if exhaustive:
+                min_questions_per_actor = 12
+                max_questions_per_actor = 12
+
             config = {
                 "run_id": run_id,
                 "model": selected_model,
                 "min_questions_per_actor": max(1, int(min_questions_per_actor)),
                 "max_questions_per_actor": max(1, int(max_questions_per_actor)),
                 "answer_source": answer_source,
+                "exhaustive": bool(exhaustive),
+                "build_cache_on_complete": bool(build_cache_on_complete),
                 "created_at": self._utc_now(),
             }
             if config["max_questions_per_actor"] < config["min_questions_per_actor"]:
@@ -767,6 +1093,7 @@ class TrainingLabManager:
                 "status": "running",
                 "model": selected_model,
                 "answer_source": answer_source,
+                "exhaustive": bool(exhaustive),
                 "message": "Training run started",
             }
 

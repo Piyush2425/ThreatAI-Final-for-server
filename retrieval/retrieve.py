@@ -295,6 +295,170 @@ class EvidenceRetriever:
         
         return combined[:top_k]
     
+    def retrieve_actor_scoped(self, query: str, retrieval_mode: str = 'full_actor') -> Dict[str, Any]:
+        """
+        Retrieve ALL chunks for a specific actor (actor-scoped retrieval).
+        
+        This is the NEW recommended approach: if a specific actor is mentioned,
+        return ALL available chunks for that actor, filtered by intent if needed.
+        
+        Args:
+            query: Query string (should mention a specific actor)
+            retrieval_mode: 'full_actor' (all chunks) or 'intent_filtered' (only relevant fields)
+            
+        Returns:
+            Dict with evidence, response_mode, parsed_query, retrieval_mode
+        """
+        parsed_query = None
+        primary_actor = None
+        
+        # Parse query to extract actor
+        if self.query_parser:
+            try:
+                parsed_query = self.query_parser.parse(query)
+                actors = parsed_query.get('actors', [])
+                if actors:
+                    primary_actor = actors[0].get('primary_name')
+                    logger.info(f"Actor-scoped retrieval for: {primary_actor}")
+            except Exception as e:
+                logger.warning(f"Query parsing failed in actor_scoped: {e}")
+        
+        # If no specific actor found, fall back to hybrid retrieval
+        if not primary_actor:
+            logger.info("No specific actor found, falling back to hybrid retrieval")
+            result = self.retrieve(query)
+            result['retrieval_mode'] = 'hybrid_fallback'
+            return result
+        
+        # Get ALL chunks for this actor using Chroma where filter
+        try:
+            metadata_filter = {'primary_name': primary_actor}
+            logger.info(f"Fetching all chunks for actor: {primary_actor}")
+            
+            # Query with very large k to get everything (Chroma returns what exists)
+            all_chunks_raw = self.vector_store.collection.get(
+                where=metadata_filter,
+                include=['documents', 'metadatas', 'embeddings']
+            )
+            
+            all_chunks = []
+            if all_chunks_raw and all_chunks_raw.get('ids'):
+                for chunk_id, text, metadata in zip(
+                    all_chunks_raw['ids'],
+                    all_chunks_raw['documents'],
+                    all_chunks_raw['metadatas']
+                ):
+                    chunk = {
+                        'chunk_id': chunk_id,
+                        'actor_id': metadata.get('actor_id', ''),
+                        'text': text,
+                        'metadata': {
+                            'source_field': metadata.get('source_field', ''),
+                            'chunk_type': metadata.get('chunk_type', ''),
+                            'chunk_index': int(metadata.get('chunk_index', 0)),
+                            'actor_name': metadata.get('actor_name', ''),
+                            'primary_name': metadata.get('primary_name', ''),
+                            'aliases': [a.strip() for a in metadata.get('aliases', '').split(',') if a.strip()],
+                            'countries': [c.strip() for c in metadata.get('countries', '').split(',') if c.strip()],
+                            'information_sources': [s.strip() for s in metadata.get('information_sources', '').split(',') if s.strip()],
+                        }
+                    }
+                    if 'name_giver' in metadata:
+                        chunk['metadata']['name_giver'] = metadata['name_giver']
+                    all_chunks.append(chunk)
+            
+            logger.info(f"Retrieved {len(all_chunks)} chunks for {primary_actor}")
+            
+            # Apply intent-based filtering if requested
+            if retrieval_mode == 'intent_filtered':
+                intent = parsed_query.get('intent', 'general') if parsed_query else 'general'
+                all_chunks = self._filter_chunks_by_intent(all_chunks, intent, query)
+                logger.info(f"After intent filtering: {len(all_chunks)} chunks retained")
+            
+            # Add similarity scores (all get high score since they're all for the actor)
+            evidence = []
+            for chunk in all_chunks:
+                chunk['similarity_score'] = 0.95
+                chunk['query_type'] = 'actor_profile'
+                if parsed_query:
+                    chunk['matched_actors'] = parsed_query.get('actors', [])
+                evidence.append(chunk)
+            
+            # Sort by source_field priority (entity_profile first, then important fields)
+            field_priority = {
+                'entity_profile': 0,
+                'description': 1,
+                'aliases': 2,
+                'countries': 3,
+                'observed_sectors': 4,
+                'observed_countries': 5,
+                'targets': 6,
+                'tools': 7,
+                'ttps': 8,
+                'campaigns': 9,
+                'counter_operations': 10,
+                'last_updated': 11,
+                'sponsor': 12,
+            }
+            evidence.sort(key=lambda e: (
+                field_priority.get(e['metadata'].get('source_field', ''), 99),
+                e['metadata'].get('chunk_index', 0)
+            ))
+            
+            response_mode = parsed_query.get('response_mode', 'adaptive') if parsed_query else 'adaptive'
+            
+            return {
+                'evidence': evidence,
+                'response_mode': response_mode,
+                'parsed_query': parsed_query,
+                'retrieval_mode': 'actor_scoped_full' if retrieval_mode == 'full_actor' else 'actor_scoped_filtered',
+                'actor': primary_actor,
+            }
+        
+        except Exception as e:
+            logger.error(f"Error in actor_scoped retrieval: {e}")
+            # Fall back to hybrid retrieval
+            result = self.retrieve(query)
+            result['retrieval_mode'] = 'error_fallback'
+            return result
+    
+    def _filter_chunks_by_intent(self, chunks: List[Dict], intent: str, query: str) -> List[Dict]:
+        """
+        Filter chunks based on query intent to reduce noise.
+        
+        Args:
+            chunks: All chunks for the actor
+            intent: Query intent (profile, ttp_analysis, target_analysis, timeline, general)
+            query: Original query string
+            
+        Returns:
+            Filtered chunks
+        """
+        if intent == 'general' or not chunks:
+            return chunks
+        
+        # Intent-based field preferences
+        intent_fields = {
+            'timeline_analysis': ['last_updated', 'first_seen', 'last_seen', 'entity_profile'],
+            'ttp_analysis': ['ttps', 'tactics', 'tools', 'campaigns', 'entity_profile'],
+            'target_analysis': ['targets', 'observed_sectors', 'observed_countries', 'entity_profile'],
+            'actor_profile': ['entity_profile', 'description', 'aliases', 'countries', 'sponsor'],
+            'list': ['entity_profile', 'aliases', 'countries', 'observed_sectors', 'targets'],
+        }
+        
+        preferred_fields = intent_fields.get(intent, [])
+        if not preferred_fields:
+            return chunks
+        
+        # Keep entity_profile always, plus intent-specific fields
+        filtered = [
+            c for c in chunks
+            if c['metadata'].get('source_field') in preferred_fields
+        ]
+        
+        # If filtering removed everything, keep all
+        return filtered if filtered else chunks
+
     def format_evidence(self, evidence: List[Dict[str, Any]]) -> str:
         """
         Format evidence for presentation.

@@ -74,7 +74,7 @@ class ConversationManager:
 
 
 class Conversation:
-    """Represents a single conversation with message history."""
+    """Represents a single conversation with message history and actor context."""
     
     def __init__(self, conv_id: str, title: str = "New Chat"):
         self.id = conv_id
@@ -82,6 +82,11 @@ class Conversation:
         self.messages: List[Dict] = []
         self.created_at = datetime.now().isoformat()
         self.updated_at = self.created_at
+        
+        # Actor chunk caching for multi-turn conversations
+        self.actor_chunks_cache: Dict[str, List[Dict]] = {}  # {actor_name: chunks}
+        self.actors_mentioned: List[str] = []  # [APT28, TA558, ...]
+        self.current_actor: Optional[str] = None  # Most recent actor in context
     
     def add_message(self, role: str, content: str, metadata: Optional[Dict] = None):
         """Add a message to the conversation.
@@ -113,6 +118,44 @@ class Conversation:
         """Get all messages with metadata."""
         return self.messages.copy()
     
+    def cache_actor_chunks(self, actor_name: str, chunks: List[Dict]):
+        """Cache chunks for an actor.
+        
+        Args:
+            actor_name: Canonical actor name (e.g., 'Sofacy')
+            chunks: List of evidence chunks from retrieve_actor_scoped()
+        """
+        self.actor_chunks_cache[actor_name] = chunks
+        if actor_name not in self.actors_mentioned:
+            self.actors_mentioned.append(actor_name)
+        self.current_actor = actor_name
+    
+    def get_cached_chunks(self, actor_name: str) -> Optional[List[Dict]]:
+        """Get cached chunks for an actor, or None if not cached."""
+        return self.actor_chunks_cache.get(actor_name)
+    
+    def get_all_cached_chunks(self) -> Dict[str, List[Dict]]:
+        """Get all cached chunks for comparison queries."""
+        return self.actor_chunks_cache.copy()
+    
+    def has_actor_cached(self, actor_name: str) -> bool:
+        """Check if chunks for an actor are cached."""
+        return actor_name in self.actor_chunks_cache
+    
+    def clear_actor_cache(self, actor_name: Optional[str] = None):
+        """Clear cache for one actor or all actors.
+        
+        Args:
+            actor_name: Specific actor to clear, or None to clear all
+        """
+        if actor_name:
+            if actor_name in self.actor_chunks_cache:
+                del self.actor_chunks_cache[actor_name]
+        else:
+            self.actor_chunks_cache.clear()
+            self.actors_mentioned.clear()
+            self.current_actor = None
+    
     def to_dict(self) -> Dict:
         """Convert to dictionary for JSON serialization."""
         return {
@@ -120,7 +163,9 @@ class Conversation:
             'title': self.title,
             'messages': self.messages,
             'created_at': self.created_at,
-            'updated_at': self.updated_at
+            'updated_at': self.updated_at,
+            'actors_mentioned': self.actors_mentioned,
+            'current_actor': self.current_actor
         }
     
     def save_to_file(self, filepath: str):
@@ -138,4 +183,7 @@ class Conversation:
         conv.messages = data['messages']
         conv.created_at = data['created_at']
         conv.updated_at = data['updated_at']
+        conv.actors_mentioned = data.get('actors_mentioned', [])
+        conv.current_actor = data.get('current_actor')
+        # Note: actor_chunks_cache is NOT persisted (will be re-loaded on demand)
         return conv

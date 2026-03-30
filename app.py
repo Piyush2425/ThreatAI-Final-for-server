@@ -10,6 +10,7 @@ import time
 import io
 import json
 import re
+from difflib import SequenceMatcher
 from pathlib import Path
 from datetime import datetime
 from flask import Flask, render_template, request, jsonify, send_file
@@ -53,6 +54,98 @@ training_lab_manager = None
 
 # Simple query cache (for development - consider Redis for production)
 query_cache = {}
+CACHE_TTL_SECONDS = 3600
+
+
+def _normalize_cache_query(text: str) -> str:
+    """Normalize query text for exact/fuzzy cache matching."""
+    value = (text or '').strip().lower()
+    value = re.sub(r'\s+', ' ', value)
+    value = re.sub(r'[\?\.!;:,]+$', '', value)
+    return value
+
+
+def _token_jaccard(a: str, b: str) -> float:
+    """Token-level similarity to improve typo/paraphrase matching."""
+    sa = set((a or '').split())
+    sb = set((b or '').split())
+    if not sa or not sb:
+        return 0.0
+    union = len(sa | sb)
+    if union == 0:
+        return 0.0
+    return len(sa & sb) / union
+
+
+def _fuzzy_threshold(normalized_query: str) -> float:
+    """Dynamic threshold keeps short queries stricter."""
+    length = len(normalized_query or '')
+    if length <= 18:
+        return 0.92
+    if length <= 35:
+        return 0.86
+    return 0.84
+
+
+def _extract_actor_hint(text: str) -> str:
+    """Extract actor hint for safer fuzzy cache matching."""
+    if not text:
+        return ''
+    q = text.lower()
+    apt_match = re.search(r'\bapt\s*-?\s*(\d+)\b', q)
+    if apt_match:
+        return f"apt{apt_match.group(1)}"
+    ta_match = re.search(r'\bta\s*-?\s*(\d+)\b', q)
+    if ta_match:
+        return f"ta{ta_match.group(1)}"
+    return ''
+
+
+def _find_cached_response(query_text: str):
+    """Find cache hit by exact normalized query, then typo-tolerant fuzzy match."""
+    normalized_query = _normalize_cache_query(query_text)
+    actor_hint = _extract_actor_hint(query_text)
+    now = time.time()
+
+    # Exact normalized match first.
+    for item in query_cache.values():
+        cache_age = now - item.get('cached_at', 0)
+        if cache_age >= CACHE_TTL_SECONDS:
+            continue
+        if item.get('normalized_query') == normalized_query:
+            return item, 'exact', 1.0
+
+    # Fuzzy match for typos/near-duplicates.
+    best_item = None
+    best_score = 0.0
+    threshold = _fuzzy_threshold(normalized_query)
+
+    for item in query_cache.values():
+        cache_age = now - item.get('cached_at', 0)
+        if cache_age >= CACHE_TTL_SECONDS:
+            continue
+
+        candidate = item.get('normalized_query') or _normalize_cache_query(item.get('query', ''))
+        if not candidate:
+            continue
+
+        if actor_hint:
+            candidate_actor = _extract_actor_hint(item.get('query', ''))
+            if candidate_actor and candidate_actor != actor_hint:
+                continue
+
+        char_score = SequenceMatcher(None, normalized_query, candidate).ratio()
+        token_score = _token_jaccard(normalized_query, candidate)
+        score = max(char_score, (0.9 * char_score) + (0.1 * token_score))
+
+        if score > best_score:
+            best_score = score
+            best_item = item
+
+    if best_item and best_score >= threshold:
+        return best_item, 'fuzzy', round(best_score, 4)
+
+    return None, None, 0.0
 
 
 def _extract_focus_actor(query_text: str, result: dict) -> str:
@@ -174,9 +267,11 @@ def initialize_components():
         return False
 
 
-def process_query(query_text: str, use_cache: bool = True) -> dict:
-    """Process a query and return results."""
+def process_query(query_text: str, use_cache: bool = True, conversation_id: str = None) -> dict:
+    """Process a query and return results with conversation context."""
     import time
+    from agent.comparison_detector import ComparisonDetector
+    
     start_time = time.time()
     
     try:
@@ -186,30 +281,37 @@ def process_query(query_text: str, use_cache: bool = True) -> dict:
         if not retriever or not interpreter:
             return {'error': 'System not initialized'}
         
-        # Check cache first
-        cache_key = hashlib.md5(query_text.lower().strip().encode()).hexdigest()
-        if use_cache and cache_key in query_cache:
-            cached_result = query_cache[cache_key]
-            # Check if cache is fresh (less than 1 hour old)
-            cache_age = time.time() - cached_result.get('cached_at', 0)
-            if cache_age < 3600:  # 1 hour
-                logger.info(f"⚡ Cache hit! Returning cached result (age: {cache_age:.0f}s)")
+        # Main project cache: exact + typo-tolerant fuzzy matching.
+        cache_key = hashlib.md5(_normalize_cache_query(query_text).encode()).hexdigest()
+        if use_cache:
+            cached_result, match_type, match_score = _find_cached_response(query_text)
+            if cached_result:
+                logger.info(f"⚡ Main cache hit ({match_type}, score={match_score:.3f})")
                 cached_result['from_cache'] = True
+                cached_result['cache_match_type'] = match_type
+                cached_result['cache_match_score'] = match_score
                 cached_result['processing_time'] = time.time() - start_time
                 return cached_result
         
         logger.info(f"Processing query: {query_text}")
         
-        # Retrieve evidence (returns dict with evidence, response_mode, parsed_query)
+        # Manage conversation context for multi-turn support
+        conversation = None
+        if conversation_id and conversation_manager:
+            conversation = conversation_manager.load_or_create_conversation(conversation_id)
+            logger.info(f"📋 Loaded conversation: {conversation_id}")
+        
+        # Detect query type for routing
+        current_actor = conversation.current_actor if conversation else None
+        query_type = ComparisonDetector.get_query_type(query_text, current_actor)
+        logger.info(f"Query type: {query_type}")
+        
+        # Retrieve evidence using NEW actor-scoped approach (recommended)
+        # Falls back to hybrid search if no specific actor detected
         retrieval_start = time.time()
-        ret_config = config.get('retrieval', {})
-        retrieval_result = retriever.retrieve(
-            query_text,
-            top_k=ret_config.get('top_k', 5),
-            similarity_threshold=ret_config.get('similarity_threshold', 0.3)
-        )
+        retrieval_result = retriever.retrieve_actor_scoped(query_text, retrieval_mode='full_actor')
         retrieval_time = time.time() - retrieval_start
-        logger.info(f"⏱️ Retrieval completed in {retrieval_time:.2f}s")
+        logger.info(f"⏱️ Retrieval completed in {retrieval_time:.2f}s (mode: {retrieval_result.get('retrieval_mode', 'hybrid')})")
         
         evidence = retrieval_result.get('evidence', [])
         response_mode = retrieval_result.get('response_mode', 'adaptive')
@@ -229,6 +331,39 @@ def process_query(query_text: str, use_cache: bool = True) -> dict:
                     ordered.append(primary)
             primary_actors = ordered
         
+        # Cache actor chunks in conversation context for multi-turn support
+        if conversation and primary_actors:
+            for actor_name in primary_actors:
+                actor_chunks = [e for e in evidence if e.get('metadata', {}).get('primary_name') == actor_name]
+                if actor_chunks:
+                    conversation.cache_actor_chunks(actor_name, actor_chunks)
+                    conversation.actors_mentioned.append(actor_name) if actor_name not in conversation.actors_mentioned else None
+            
+            # Update current actor context
+            if primary_actors:
+                conversation.current_actor = primary_actors[0]
+                logger.info(f"💾 Cached {len(primary_actors)} actor(s) in conversation")
+        
+        # For comparison queries, ensure we have both actors' chunks
+        if query_type == 'comparison' and ComparisonDetector.is_comparison_query(query_text) and conversation:
+            from retrieval.alias_resolver import AliasResolver
+            
+            # Try to extract all actors from comparison query
+            alias_resolver = retriever.alias_resolver if hasattr(retriever, 'alias_resolver') else None
+            if alias_resolver:
+                all_actors = ComparisonDetector.extract_all_actors(query_text, alias_resolver)
+                for actor_info in all_actors:
+                    actor_name = actor_info.get('primary_name')
+                    if actor_name and not conversation.has_actor_cached(actor_name):
+                        # Retrieve chunks for this actor
+                        actor_retrieval = retriever.retrieve_actor_scoped(f"information about {actor_name}", retrieval_mode='full_actor')
+                        actor_chunks = actor_retrieval.get('evidence', [])
+                        if actor_chunks:
+                            conversation.cache_actor_chunks(actor_name, actor_chunks)
+                            if actor_name not in conversation.actors_mentioned:
+                                conversation.actors_mentioned.append(actor_name)
+                            logger.info(f"💾 Cached comparison actor: {actor_name}")
+        
         if not evidence:
             result = {
                 'query': query_text,
@@ -241,19 +376,33 @@ def process_query(query_text: str, use_cache: bool = True) -> dict:
                 'response_mode': response_mode,
                 'primary_actors': primary_actors,
                 'processing_time': time.time() - start_time,
-                'from_cache': False
+                'from_cache': False,
+                'query_type': query_type
             }
             return result
         
         # Generate answer with adaptive response mode
         generation_start = time.time()
-        result = interpreter.explain(query_text, evidence, response_mode=response_mode)
+        retrieval_mode = retrieval_result.get('retrieval_mode', 'hybrid')
+        
+        # For comparison queries, use cached actor chunks
+        if query_type == 'comparison' and conversation:
+            all_cached_chunks = conversation.get_all_cached_chunks()
+            if len(all_cached_chunks) > 1:
+                logger.info(f"Generating comparison answer for {len(all_cached_chunks)} actors")
+                result = interpreter.comparison_answer(query_text, all_cached_chunks)
+                response_mode = 'comparison'
+            else:
+                result = interpreter.explain(query_text, evidence, response_mode=response_mode, retrieval_mode=retrieval_mode)
+        else:
+            result = interpreter.explain(query_text, evidence, response_mode=response_mode, retrieval_mode=retrieval_mode)
+        
         generation_time = time.time() - generation_start
         logger.info(f"⏱️ Answer generation completed in {generation_time:.2f}s")
         
         # Log to audit trail (do this asynchronously to not block response)
         audit_start = time.time()
-        trace_id = audit.log_query(query_text, result.get('query_type', 'general'), evidence)
+        trace_id = audit.log_query(query_text, result.get('query_type', query_type), evidence)
         audit.log_response(trace_id, result)
         audit_time = time.time() - audit_start
         logger.info(f"⏱️ Audit logging completed in {audit_time:.2f}s")
@@ -271,6 +420,7 @@ def process_query(query_text: str, use_cache: bool = True) -> dict:
             'timestamp': datetime.now().isoformat(),
             'trace_id': trace_id,
             'response_mode': response_mode,
+            'query_type': query_type,
             'primary_actors': primary_actors,
             'processing_time': total_time,
             'from_cache': False,
@@ -291,10 +441,18 @@ def process_query(query_text: str, use_cache: bool = True) -> dict:
                 for e in evidence
             ]
         }
+
+        # Save conversation state if conversation context exists
+        if conversation:
+            conversation.add_message('user', query_text)
+            conversation.add_message('assistant', result['answer'])
+            conversation_manager.save_conversation(conversation)
+            logger.info(f"💾 Conversation saved with {len(conversation.actors_mentioned)} actors")
         
         # Cache the result (limit cache size to prevent memory issues)
         if use_cache:
             response['cached_at'] = time.time()
+            response['normalized_query'] = _normalize_cache_query(query_text)
             query_cache[cache_key] = response.copy()
             
             # Keep cache size reasonable (max 100 queries)
@@ -370,6 +528,8 @@ def training_start():
             min_questions_per_actor=int(data.get('min_questions_per_actor', 3)),
             max_questions_per_actor=int(data.get('max_questions_per_actor', 10)),
             answer_source=data.get('answer_source', 'main_project'),
+            exhaustive=bool(data.get('exhaustive', False)),
+            build_cache_on_complete=bool(data.get('build_cache_on_complete', True)),
         )
         if 'error' in result:
             return jsonify(result), 400
@@ -413,6 +573,53 @@ def training_resume():
         return jsonify(result)
     except Exception as e:
         logger.error(f"Error resuming training run: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/training/cache/build', methods=['POST'])
+def training_cache_build():
+    """Build QA cache from training run records."""
+    try:
+        if training_lab_manager is None:
+            return jsonify({'error': 'Training lab is not initialized'}), 500
+
+        data = request.json or {}
+        result = training_lab_manager.build_qa_cache(
+            run_id=data.get('run_id'),
+            merge=bool(data.get('merge', True)),
+        )
+        if 'error' in result:
+            return jsonify(result), 400
+        return jsonify(result)
+    except Exception as e:
+        logger.error(f"Error building training cache: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/training/cache/status', methods=['GET'])
+def training_cache_status():
+    """Get QA cache status and entry counts."""
+    try:
+        if training_lab_manager is None:
+            return jsonify({'error': 'Training lab is not initialized'}), 500
+        return jsonify(training_lab_manager.cache_status())
+    except Exception as e:
+        logger.error(f"Error getting training cache status: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/training/cache/mode', methods=['POST'])
+def training_cache_mode():
+    """Enable/disable strict cache-only query mode."""
+    try:
+        if training_lab_manager is None:
+            return jsonify({'error': 'Training lab is not initialized'}), 500
+
+        data = request.json or {}
+        enabled = bool(data.get('enabled', False))
+        return jsonify(training_lab_manager.set_cache_only_mode(enabled))
+    except Exception as e:
+        logger.error(f"Error updating training cache mode: {e}")
         return jsonify({'error': str(e)}), 500
 
 
@@ -466,11 +673,13 @@ def training_records():
 
 @app.route('/api/query', methods=['POST'])
 def web_query():
-    """Web API endpoint for queries."""
+    """Web API endpoint for queries with multi-turn conversation support."""
     try:
         data = request.json
         user_query = data.get('query', '').strip()
-        result = process_query(user_query)
+        conversation_id = data.get('conversation_id', None)
+        
+        result = process_query(user_query, conversation_id=conversation_id)
         
         if 'error' in result:
             return jsonify(result), 400 if 'empty' in result.get('error', '') else 500
@@ -479,6 +688,10 @@ def web_query():
         from history import QueryHistory
         history = QueryHistory()
         history.save_query(user_query, result)
+        
+        # Return conversation_id for client to use in follow-up queries
+        if conversation_id:
+            result['conversation_id'] = conversation_id
         
         return jsonify(result)
         

@@ -156,7 +156,7 @@ class EvidenceBasedInterpreter:
         self.answer_extractor = AnswerExtractor()
         logger.info("Initialized query classifier and answer extractor")
     
-    def explain(self, query: str, evidence: List[Dict[str, Any]], response_mode: str = 'adaptive') -> Dict[str, Any]:
+    def explain(self, query: str, evidence: List[Dict[str, Any]], response_mode: str = 'adaptive', retrieval_mode: str = 'hybrid') -> Dict[str, Any]:
         """
         Generate explanation based on evidence using Ollama with adaptive response mode.
         
@@ -164,6 +164,7 @@ class EvidenceBasedInterpreter:
             query: User query
             evidence: Retrieved evidence chunks
             response_mode: 'concise', 'report', 'comparison', or 'adaptive'
+            retrieval_mode: 'actor_scoped_full', 'actor_scoped_filtered', 'hybrid_fallback', or 'hybrid'
             
         Returns:
             Explanation response with metadata
@@ -310,6 +311,171 @@ class EvidenceBasedInterpreter:
             'intent': intent.value,
             'extracted_info': extraction_result['extracted_info']
         }
+    
+    def comparison_answer(self, query: str, actors_chunks_dict: Dict[str, List[Dict[str, Any]]]) -> Dict[str, Any]:
+        """
+        Generate comparison answer for multiple actors.
+        
+        Args:
+            query: User comparison query
+            actors_chunks_dict: Dict mapping actor names to their evidence chunks
+            
+        Returns:
+            Comparison answer with structured format
+        """
+        if not actors_chunks_dict or not query:
+            return {
+                'query': query,
+                'answer': 'Unable to generate comparison - no actor data available.',
+                'evidence': [],
+                'confidence': 0.0,
+                'source_count': 0,
+                'comparison_actors': [],
+            }
+        
+        logger.info(f"Generating comparison answer for {len(actors_chunks_dict)} actors")
+        
+        # Flatten evidence from all actors
+        all_evidence = []
+        actor_names = list(actors_chunks_dict.keys())
+        for actor_name, chunks in actors_chunks_dict.items():
+            all_evidence.extend(chunks)
+        
+        # Format comparison-specific prompt
+        comparison_sections = []
+        for actor_name in actor_names[:2]:  # Compare first 2 actors
+            chunks = actors_chunks_dict.get(actor_name, [])
+            if chunks:
+                section = f"\n**{actor_name}:**\n"
+                for chunk in chunks[:3]:  # Use top 3 chunks per actor
+                    text = chunk.get('text', '')
+                    if len(text) > 200:
+                        text = text[:200] + "..."
+                    source = chunk.get('metadata', {}).get('source_field', 'info')
+                    section += f"- ({source}) {text}\n"
+                comparison_sections.append(section)
+        
+        evidence_context = "".join(comparison_sections)
+        
+        # Build comparison prompt
+        comparison_prompt = f"""Compare the following threat actors based on the provided intelligence:
+
+{evidence_context}
+
+User Query: {query}
+
+Please provide a structured comparison covering:
+1. **Key Differences**: What distinguishes these actors?
+2. **Similarities**: What do they have in common?
+3. **Tactical Differences**: Different approaches or methods?
+4. **Overlap**: Any shared targeting, tools, or campaigns?
+5. **Assessment**: Overall relationship or distinction between them.
+
+Keep the answer factual and grounded in the provided intelligence."""
+        
+        if self.use_ollama:
+            logger.info("Generating LLM-based comparison answer")
+            answer = self.llm.generate(
+                comparison_prompt,
+                temperature=0.3,
+                max_tokens=1024,
+                timeout=90
+            )
+            
+            if not answer or len(answer.strip()) < 50:
+                logger.warning("LLM comparison failed, using summary-based comparison")
+                answer = self._generate_summary_comparison(query, actor_names, actors_chunks_dict)
+        else:
+            logger.info("Using summary-based comparison")
+            answer = self._generate_summary_comparison(query, actor_names, actors_chunks_dict)
+        
+        confidence = sum(
+            chunk.get('similarity_score', 0.5) for chunk in all_evidence
+        ) / len(all_evidence) if all_evidence else 0.5
+        
+        return {
+            'query': query,
+            'answer': answer,
+            'evidence': all_evidence[:6],
+            'confidence': min(confidence, 1.0),
+            'source_count': len(all_evidence),
+            'comparison_actors': actor_names,
+            'response_mode': 'comparison',
+            'model': self.llm.model if self.use_ollama else 'summary-based'
+        }
+    
+    def _generate_summary_comparison(self, query: str, actor_names: List[str], actors_chunks_dict: Dict[str, List[Dict]]) -> str:
+        """Generate comparison answer using evidence summary without LLM."""
+        lines = ["**Comparison Analysis**\n"]
+        
+        # Extract key facts for each actor
+        actor_profiles = {}
+        for actor_name in actor_names:
+            chunks = actors_chunks_dict.get(actor_name, [])
+            profile = {
+                'tools': set(),
+                'targets': set(),
+                'campaigns': set(),
+                'countries': set(),
+                'description': ''
+            }
+            
+            for chunk in chunks:
+                text = chunk.get('text', '').lower()
+                source = chunk.get('metadata', {}).get('source_field', '')
+                
+                if 'tool' in source:
+                    # Extract tools
+                    tools = chunk['text'].split(',')
+                    profile['tools'].update([t.strip() for t in tools if t.strip()])
+                elif 'target' in source or 'sector' in source:
+                    profile['targets'].add(chunk['text'][:100])
+                elif 'campaign' in source:
+                    profile['campaigns'].add(chunk['text'][:100])
+                elif 'origin' in source or 'country' in source:
+                    profile['countries'].add(chunk['text'][:100])
+                elif 'description' in source or source == 'entity_profile':
+                    profile['description'] = chunk['text'][:200]
+            
+            actor_profiles[actor_name] = profile
+        
+        # Generate comparison structure
+        if len(actor_names) >= 2:
+            actor1, actor2 = actor_names[0], actor_names[1]
+            profile1, profile2 = actor_profiles[actor1], actor_profiles[actor2]
+            
+            lines.append(f"**{actor1} vs {actor2}**\n")
+            
+            # Tooling comparison
+            unique_tools1 = profile1['tools'] - profile2['tools']
+            unique_tools2 = profile2['tools'] - profile1['tools']
+            shared_tools = profile1['tools'] & profile2['tools']
+            
+            if unique_tools1 or unique_tools2 or shared_tools:
+                lines.append("\n**Tooling:**")
+                if unique_tools1:
+                    lines.append(f"- {actor1} exclusive: {', '.join(list(unique_tools1)[:3])}")
+                if unique_tools2:
+                    lines.append(f"- {actor2} exclusive: {', '.join(list(unique_tools2)[:3])}")
+                if shared_tools:
+                    lines.append(f"- Shared tools: {', '.join(list(shared_tools)[:3])}")
+            
+            # Geographic comparison
+            if profile1['countries'] or profile2['countries']:
+                lines.append("\n**Geographic Focus:**")
+                if profile1['countries']:
+                    lines.append(f"- {actor1}: {', '.join(list(profile1['countries'])[:3])}")
+                if profile2['countries']:
+                    lines.append(f"- {actor2}: {', '.join(list(profile2['countries'])[:3])}")
+            
+            # Campaign overlap
+            shared_campaigns = profile1['campaigns'] & profile2['campaigns']
+            if shared_campaigns:
+                lines.append(f"\n**Shared Campaigns:** {', '.join(list(shared_campaigns)[:3])}")
+            
+            lines.append("\n*Note: This comparison is based on available intelligence. Complete operational relationships may not be visible.*")
+        
+        return "\n".join(lines)
     
     def _format_evidence_for_llm(self, evidence: List[Dict[str, Any]]) -> str:
         """Format evidence chunks for LLM input."""
