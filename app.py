@@ -16,6 +16,8 @@ from flask import Flask, render_template, request, jsonify, send_file
 from functools import lru_cache
 import hashlib
 
+from training_lab import TrainingLabManager
+
 # Import intent detection from dedicated module
 from agent.intent_detector import (
     is_report_request,
@@ -47,6 +49,7 @@ interpreter = None
 audit = None
 config = None
 conversation_manager = None
+training_lab_manager = None
 
 # Simple query cache (for development - consider Redis for production)
 query_cache = {}
@@ -98,7 +101,7 @@ def load_config(config_path: str = "config/settings.yaml") -> dict:
 
 def initialize_components():
     """Initialize all system components."""
-    global vector_store, retriever, interpreter, audit, config, conversation_manager
+    global vector_store, retriever, interpreter, audit, config, conversation_manager, training_lab_manager
     
     logger.info("Initializing components...")
     
@@ -153,6 +156,16 @@ def initialize_components():
         from conversation import ConversationManager
         conversation_manager = ConversationManager()
         logger.info("✓ Conversation manager initialized")
+
+        # Initialize training lab manager (resumable local-LLM evaluator)
+        training_lab_manager = TrainingLabManager(
+            root_dir=Path('training_lab'),
+            actors_path=Path('data/canonical/actors.json'),
+            ollama_base_url=ollama_config.get('host', 'http://localhost:11434'),
+            default_model=None,
+            project_answer_fn=lambda q: process_query(q, use_cache=False),
+        )
+        logger.info("✓ Training lab manager initialized")
         
         return True
         
@@ -316,6 +329,139 @@ def index():
 def old_interface():
     """Old Q&A interface."""
     return render_template('index.html')
+
+
+@app.route('/training-lab')
+def training_lab_dashboard():
+    """Training lab dashboard UI."""
+    dashboard_path = Path('training_lab') / 'dashboard.html'
+    return send_file(dashboard_path)
+
+
+@app.route('/api/training/models', methods=['GET'])
+def training_models():
+    """List available local models and recommended default for laptop-friendly runs."""
+    try:
+        if training_lab_manager is None:
+            return jsonify({'error': 'Training lab is not initialized'}), 500
+
+        return jsonify({
+            'available_models': training_lab_manager.available_models(),
+            'recommended_model': training_lab_manager.recommend_model(),
+            'answer_sources': training_lab_manager.available_answer_sources(),
+            'recommended_answer_source': 'main_project',
+            'note': 'Recommended order favors lightweight local models for laptop usage.'
+        })
+    except Exception as e:
+        logger.error(f"Error getting training models: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/training/start', methods=['POST'])
+def training_start():
+    """Start a new resumable training run."""
+    try:
+        if training_lab_manager is None:
+            return jsonify({'error': 'Training lab is not initialized'}), 500
+
+        data = request.json or {}
+        result = training_lab_manager.start_run(
+            model=data.get('model'),
+            min_questions_per_actor=int(data.get('min_questions_per_actor', 3)),
+            max_questions_per_actor=int(data.get('max_questions_per_actor', 10)),
+            answer_source=data.get('answer_source', 'main_project'),
+        )
+        if 'error' in result:
+            return jsonify(result), 400
+        return jsonify(result)
+    except Exception as e:
+        logger.error(f"Error starting training run: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/training/stop', methods=['POST'])
+def training_stop():
+    """Pause active training run. Resume continues from saved endpoint."""
+    try:
+        if training_lab_manager is None:
+            return jsonify({'error': 'Training lab is not initialized'}), 500
+
+        result = training_lab_manager.stop_run()
+        if 'error' in result:
+            return jsonify(result), 400
+        return jsonify(result)
+    except Exception as e:
+        logger.error(f"Error stopping training run: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/training/resume', methods=['POST'])
+def training_resume():
+    """Resume an existing paused run from saved actor/question position."""
+    try:
+        if training_lab_manager is None:
+            return jsonify({'error': 'Training lab is not initialized'}), 500
+
+        data = request.json or {}
+        run_id = (data.get('run_id') or '').strip()
+        if not run_id:
+            return jsonify({'error': 'run_id is required'}), 400
+
+        result = training_lab_manager.resume_run(run_id)
+        if 'error' in result:
+            return jsonify(result), 400
+        return jsonify(result)
+    except Exception as e:
+        logger.error(f"Error resuming training run: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/training/status', methods=['GET'])
+def training_status():
+    """Get active or latest training run status."""
+    try:
+        if training_lab_manager is None:
+            return jsonify({'error': 'Training lab is not initialized'}), 500
+
+        run_id = request.args.get('run_id')
+        result = training_lab_manager.get_state(run_id=run_id)
+        return jsonify(result)
+    except Exception as e:
+        logger.error(f"Error getting training status: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/training/runs', methods=['GET'])
+def training_runs():
+    """List recent training runs."""
+    try:
+        if training_lab_manager is None:
+            return jsonify({'error': 'Training lab is not initialized'}), 500
+
+        limit = int(request.args.get('limit', 20))
+        return jsonify({'runs': training_lab_manager.list_runs(limit=limit)})
+    except Exception as e:
+        logger.error(f"Error listing training runs: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/training/records', methods=['GET'])
+def training_records():
+    """Get stored question/answer/evaluation records for a run."""
+    try:
+        if training_lab_manager is None:
+            return jsonify({'error': 'Training lab is not initialized'}), 500
+
+        run_id = (request.args.get('run_id') or '').strip()
+        if not run_id:
+            return jsonify({'error': 'run_id is required'}), 400
+
+        limit = int(request.args.get('limit', 50))
+        offset = int(request.args.get('offset', 0))
+        return jsonify(training_lab_manager.get_records(run_id=run_id, limit=limit, offset=offset))
+    except Exception as e:
+        logger.error(f"Error getting training records: {e}")
+        return jsonify({'error': str(e)}), 500
 
 
 @app.route('/api/query', methods=['POST'])

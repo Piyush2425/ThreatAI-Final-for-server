@@ -23,6 +23,7 @@ data/chroma_db/
 data/conversations/
 logs/
 *.log
+training_lab/runtime/
 
 # IDEs
 .vscode/settings.json

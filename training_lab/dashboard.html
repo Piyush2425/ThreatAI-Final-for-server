@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Training Lab Dashboard</title>
+  <style>
+    :root {
+      --bg: #f3f6fb;
+      --surface: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --line: #dbe3ef;
+      --accent: #0f766e;
+      --accent-2: #0369a1;
+      --danger: #b91c1c;
+      --ok: #166534;
+      --warn: #92400e;
+      --mono: "JetBrains Mono", Consolas, monospace;
+      --sans: "Segoe UI", system-ui, -apple-system, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      background: radial-gradient(circle at 0% 0%, #dbeafe 0, transparent 45%), var(--bg);
+      color: var(--text);
+    }
+
+    .wrap {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 20px;
+      display: grid;
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 16px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+    }
+
+    h1, h2 {
+      margin: 0 0 10px 0;
+      letter-spacing: 0.2px;
+    }
+
+    .sub {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .controls {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    input, select, button {
+      border-radius: 10px;
+      border: 1px solid var(--line);
+      padding: 8px 10px;
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+      color: white;
+      border: none;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    }
+
+    button.secondary {
+      background: #334155;
+    }
+
+    button.danger {
+      background: var(--danger);
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 10px;
+    }
+
+    .metric {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 10px;
+      background: #f8fbff;
+    }
+
+    .metric .k {
+      font-size: 12px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+    }
+
+    .metric .v {
+      font-size: 20px;
+      font-weight: 700;
+      margin-top: 4px;
+    }
+
+    .good { color: var(--ok); }
+    .warn { color: var(--warn); }
+    .bad { color: var(--danger); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f8fafc;
+    }
+
+    .mono {
+      font-family: var(--mono);
+      word-break: break-word;
+    }
+
+    .status {
+      display: inline-flex;
+      padding: 4px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      background: #e2e8f0;
+      color: #0f172a;
+    }
+
+    .status.running { background: #dcfce7; color: #166534; }
+    .status.paused { background: #fef3c7; color: #92400e; }
+    .status.completed { background: #dbeafe; color: #1d4ed8; }
+
+    .footer-note {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 8px;
+    }
+
+    @media (max-width: 820px) {
+      .controls {
+        flex-direction: column;
+        align-items: stretch;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Training Lab Dashboard</h1>
+      <p class="sub">Resumable local-LLM evaluation for all threat actors. Uses analyst fields only (no internal ID fields). Strict no-answer mode enabled.</p>
+      <div class="controls" style="margin-top: 12px;">
+        <label>Model
+          <select id="modelSelect"></select>
+        </label>
+        <label>Answer Source
+          <select id="answerSourceSelect">
+            <option value="main_project">Main Project (RAG)</option>
+            <option value="local_llm">Local LLM (Direct)</option>
+          </select>
+        </label>
+        <label>Min Q/Actor
+          <input id="minQ" type="number" min="1" max="30" value="3" />
+        </label>
+        <label>Max Q/Actor
+          <input id="maxQ" type="number" min="1" max="30" value="10" />
+        </label>
+        <button id="startBtn">Start New Run</button>
+        <button id="stopBtn" class="danger">Pause</button>
+        <label>Resume Run ID
+          <input id="resumeRunId" type="text" placeholder="20260328-..." class="mono" />
+        </label>
+        <button id="resumeBtn" class="secondary">Resume</button>
+      </div>
+      <p class="footer-note" id="actionMsg"></p>
+    </div>
+
+    <div class="card">
+      <h2>Live Status</h2>
+      <div class="controls" style="margin-bottom: 10px;">
+        <div>Run: <span id="runId" class="mono">-</span></div>
+        <div>Status: <span id="runStatus" class="status">idle</span></div>
+        <button class="secondary" id="refreshBtn">Refresh</button>
+      </div>
+      <div class="metrics">
+        <div class="metric"><div class="k">Questions</div><div class="v" id="mQuestions">0</div></div>
+        <div class="metric"><div class="k">Answered</div><div class="v good" id="mAnswered">0</div></div>
+        <div class="metric"><div class="k">No Answer</div><div class="v warn" id="mNoAnswer">0</div></div>
+        <div class="metric"><div class="k">Hallucinated</div><div class="v bad" id="mHallucinated">0</div></div>
+        <div class="metric"><div class="k">Workable</div><div class="v good" id="mWorkable">0</div></div>
+        <div class="metric"><div class="k">Hallucination %</div><div class="v" id="mHallPct">0%</div></div>
+        <div class="metric"><div class="k">Eval Parse Failures</div><div class="v warn" id="mParseFailures">0</div></div>
+        <div class="metric"><div class="k">Parse Failure %</div><div class="v" id="mParseFailPct">0%</div></div>
+      </div>
+      <p class="footer-note" id="progressLine"></p>
+      <p class="footer-note">Hallucination % = hallucinated answered questions / total answered questions x 100.</p>
+    </div>
+
+    <div class="card">
+      <h2>Recent QA Records</h2>
+      <div class="grid">
+        <table>
+          <thead>
+            <tr>
+              <th>Actor</th>
+              <th>Question</th>
+              <th>Answer</th>
+              <th>Hallucinated</th>
+              <th>Workable</th>
+              <th>Reason</th>
+            </tr>
+          </thead>
+          <tbody id="recordsBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Runs</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Run ID</th>
+            <th>Status</th>
+            <th>Model</th>
+            <th>Answer Source</th>
+            <th>Questions</th>
+            <th>Answered</th>
+            <th>Hallucination %</th>
+          </tr>
+        </thead>
+        <tbody id="runsBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    let currentRunId = null;
+
+    const el = (id) => document.getElementById(id);
+
+    function setMsg(text, isError = false) {
+      const node = el('actionMsg');
+      node.textContent = text || '';
+      node.style.color = isError ? '#b91c1c' : '#334155';
+    }
+
+    async function api(path, options) {
+      const res = await fetch(path, options);
+      const data = await res.json();
+      if (!res.ok) {
+        throw new Error(data.error || data.message || 'Request failed');
+      }
+      return data;
+    }
+
+    function renderStatus(state) {
+      currentRunId = state.run_id || currentRunId;
+      el('runId').textContent = currentRunId || '-';
+      const st = (state.status || 'idle').toLowerCase();
+      const statusNode = el('runStatus');
+      statusNode.textContent = st;
+      statusNode.className = `status ${st}`;
+
+      const totals = state.totals || {};
+      el('mQuestions').textContent = totals.questions_total || 0;
+      el('mAnswered').textContent = totals.answered || 0;
+      el('mNoAnswer').textContent = totals.no_answer || 0;
+      el('mHallucinated').textContent = totals.hallucinated || 0;
+      el('mWorkable').textContent = totals.workable || 0;
+      el('mHallPct').textContent = `${totals.hallucination_percent || 0}%`;
+      el('mParseFailures').textContent = totals.evaluator_parse_failures || 0;
+      el('mParseFailPct').textContent = `${totals.evaluator_parse_failure_percent || 0}%`;
+
+      const actorIdx = state.current_actor_index || 0;
+      const totalActors = state.total_actors || 0;
+      const qIdx = state.current_question_index || 0;
+      el('progressLine').textContent = `Actor progress: ${actorIdx}/${totalActors} | Current question index: ${qIdx}`;
+    }
+
+    function renderRecords(records) {
+      const body = el('recordsBody');
+      if (!records.length) {
+        body.innerHTML = '<tr><td colspan="6">No records yet.</td></tr>';
+        return;
+      }
+      body.innerHTML = records.map((r) => {
+        const evalObj = r.evaluation || {};
+        return `
+          <tr>
+            <td class="mono">${escapeHtml(r.actor_name || '')}</td>
+            <td>${escapeHtml(r.question || '')}</td>
+            <td>${escapeHtml(r.answer || '')}</td>
+            <td>${evalObj.hallucinated ? 'yes' : 'no'}</td>
+            <td>${evalObj.workable ? 'yes' : 'no'}</td>
+            <td>${escapeHtml(evalObj.reason || '')}</td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function renderRuns(runs) {
+      const body = el('runsBody');
+      if (!runs.length) {
+        body.innerHTML = '<tr><td colspan="7">No runs yet.</td></tr>';
+        return;
+      }
+      body.innerHTML = runs.map((r) => {
+        const totals = r.totals || {};
+        return `
+          <tr>
+            <td class="mono">${escapeHtml(r.run_id || '')}</td>
+            <td><span class="status ${(r.status || '').toLowerCase()}">${escapeHtml(r.status || '')}</span></td>
+            <td class="mono">${escapeHtml(r.model || '')}</td>
+            <td>${escapeHtml(r.answer_source || 'main_project')}</td>
+            <td>${totals.questions_total || 0}</td>
+            <td>${totals.answered || 0}</td>
+            <td>${totals.hallucination_percent || 0}%</td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function escapeHtml(text) {
+      return String(text || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    async function loadModels() {
+      try {
+        const data = await api('/api/training/models');
+        const select = el('modelSelect');
+        const sourceSelect = el('answerSourceSelect');
+        const models = data.available_models || [];
+        const recommended = data.recommended_model || '';
+        const answerSources = data.answer_sources || [];
+        const recommendedSource = data.recommended_answer_source || 'main_project';
+
+        if (!models.length) {
+          select.innerHTML = `<option value="${recommended}">${recommended}</option>`;
+          return;
+        }
+
+        select.innerHTML = models.map((m) => `<option value="${m}">${m}</option>`).join('');
+        if (recommended) {
+          select.value = recommended;
+        }
+
+        if (answerSources.length) {
+          sourceSelect.innerHTML = answerSources.map((src) => {
+            const label = src === 'main_project' ? 'Main Project (RAG)' : 'Local LLM (Direct)';
+            return `<option value="${src}">${label}</option>`;
+          }).join('');
+          sourceSelect.value = recommendedSource;
+        }
+      } catch (err) {
+        setMsg(err.message, true);
+      }
+    }
+
+    async function refreshStatusAndData() {
+      try {
+        const state = await api('/api/training/status');
+        renderStatus(state);
+        if (state.run_id) {
+          const records = await api(`/api/training/records?run_id=${encodeURIComponent(state.run_id)}&limit=50&offset=0`);
+          renderRecords((records.records || []).slice().reverse());
+          el('resumeRunId').value = state.run_id;
+        } else {
+          renderRecords([]);
+        }
+
+        const runs = await api('/api/training/runs?limit=30');
+        renderRuns(runs.runs || []);
+      } catch (err) {
+        setMsg(err.message, true);
+      }
+    }
+
+    async function startRun() {
+      try {
+        const payload = {
+          model: el('modelSelect').value || null,
+          answer_source: el('answerSourceSelect').value || 'main_project',
+          min_questions_per_actor: Number(el('minQ').value || 3),
+          max_questions_per_actor: Number(el('maxQ').value || 10)
+        };
+        const data = await api('/api/training/start', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        setMsg(`Run started: ${data.run_id}`);
+        currentRunId = data.run_id;
+        await refreshStatusAndData();
+      } catch (err) {
+        setMsg(err.message, true);
+      }
+    }
+
+    async function stopRun() {
+      try {
+        const data = await api('/api/training/stop', { method: 'POST' });
+        setMsg(data.message || 'Pause requested');
+        await refreshStatusAndData();
+      } catch (err) {
+        setMsg(err.message, true);
+      }
+    }
+
+    async function resumeRun() {
+      try {
+        const runId = el('resumeRunId').value.trim();
+        if (!runId) {
+          setMsg('Enter run id to resume', true);
+          return;
+        }
+        const data = await api('/api/training/resume', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ run_id: runId })
+        });
+        setMsg(data.message || `Resumed ${runId}`);
+        currentRunId = runId;
+        await refreshStatusAndData();
+      } catch (err) {
+        setMsg(err.message, true);
+      }
+    }
+
+    el('startBtn').addEventListener('click', startRun);
+    el('stopBtn').addEventListener('click', stopRun);
+    el('resumeBtn').addEventListener('click', resumeRun);
+    el('refreshBtn').addEventListener('click', refreshStatusAndData);
+
+    loadModels().then(refreshStatusAndData);
+    setInterval(refreshStatusAndData, 4000);
+  </script>
+</body>
+</html>
