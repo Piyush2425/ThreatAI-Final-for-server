@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Help Net Security</title>
+	<atom:link href="https://www.helpnetsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.helpnetsecurity.com/</link>
+	<description>Daily information security news with a focus on enterprise security.</description>
+	<lastBuildDate>Wed, 01 Apr 2026 16:40:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.1</generator>
+
+<image>
+	<url>https://img.helpnetsecurity.com/wp-content/uploads/2019/09/09093400/cropped-hns2-32x32.png</url>
+	<title>Help Net Security</title>
+	<link>https://www.helpnetsecurity.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Trust, friction, and ROI: A CISO&#8217;s take on making security work for the business</title>
+		<link>https://www.helpnetsecurity.com/2026/04/02/john-orourke-ppg-security-as-business-strategy/</link>
+		
+		<dc:creator><![CDATA[Mirko Zorz]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 05:30:40 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[CISO]]></category>
+		<category><![CDATA[compliance]]></category>
+		<category><![CDATA[cyber risk]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[opinion]]></category>
+		<category><![CDATA[risk management]]></category>
+		<category><![CDATA[security ROI]]></category>
+		<category><![CDATA[strategy]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364596</guid>
+
+					<description><![CDATA[<p>In this Help Net Security interview, John O&#8217;Rourke, CISO at PPG, talks about what it means for security to drive business value. He explains how mature security programs reduce friction in sales cycles and M&#038;A processes, and how trust is built over time. O&#8217;Rourke also addresses how buyer sophistication has raised the bar for suppliers, why less-regulated industries lag behind their more-regulated counterparts, and which companies will benefit from foundational security investments. The interview covers &#8230; <a href="https://www.helpnetsecurity.com/2026/04/02/john-orourke-ppg-security-as-business-strategy/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/02/john-orourke-ppg-security-as-business-strategy/">Trust, friction, and ROI: A CISO&#8217;s take on making security work for the business</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Tracking drones with the 5G tower down the street</title>
+		<link>https://www.helpnetsecurity.com/2026/04/02/5g-drone-detection-system-research/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 05:00:14 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[drones]]></category>
+		<category><![CDATA[hardware]]></category>
+		<category><![CDATA[research]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364563</guid>
+
+					<description><![CDATA[<p>Drone detection in cities is expensive. Dedicated radar installations are cost-prohibitive at scale, cameras have limited range and stop working well at night, and LiDAR systems have the same cost problem as radar. A group of researchers at the University of Science and Technology of China spent the past year working on a different approach: using 5G-Advanced base stations that are already in the ground to do the job instead. The 5G-A base station Active &#8230; <a href="https://www.helpnetsecurity.com/2026/04/02/5g-drone-detection-system-research/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/02/5g-drone-detection-system-research/">Tracking drones with the 5G tower down the street</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft adds high-volume email sending to Exchange Online</title>
+		<link>https://www.helpnetsecurity.com/2026/04/02/exchange-online-high-volume-email-hve/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 04:30:47 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Microsoft Exchange]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364550</guid>
+
+					<description><![CDATA[<p>Organizations that rely on Exchange Online for internal communications have long needed a way to send large volumes of automated messages, such as payroll notifications, IT alerts, and security advisories, without running into the sending limits designed for person-to-person email. Microsoft has addressed that with the general availability of High Volume Email (HVE) in Exchange Online. What High Volume Email does HVE is a tenant-native capability built for application-to-person messaging within an organization. It uses &#8230; <a href="https://www.helpnetsecurity.com/2026/04/02/exchange-online-high-volume-email-hve/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/02/exchange-online-high-volume-email-hve/">Microsoft adds high-volume email sending to Exchange Online</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Your customer passed authentication. So why are they sending money to a scammer?</title>
+		<link>https://www.helpnetsecurity.com/2026/04/02/customer-identity-fraud-detection-video/</link>
+		
+		<dc:creator><![CDATA[Help Net Security]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 04:00:54 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Video]]></category>
+		<category><![CDATA[cybercrime]]></category>
+		<category><![CDATA[Feedzai]]></category>
+		<category><![CDATA[fraud]]></category>
+		<category><![CDATA[scams]]></category>
+		<category><![CDATA[video]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364130</guid>
+
+					<description><![CDATA[<p>In this Help Net Security video, Lenny Gusel, Head of Fraud Solutions in North America at Feedzai, explains how customer identity and access management has converged with digital fraud detection, and why treating them as separate systems creates real risk. The core idea is continuous, contextual trust. Where traditional IAM grants access at a single point in time, fraud systems track behavior throughout an entire session, reading device signals, network context, and how a user &#8230; <a href="https://www.helpnetsecurity.com/2026/04/02/customer-identity-fraud-detection-video/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/02/customer-identity-fraud-detection-video/">Your customer passed authentication. So why are they sending money to a scammer?</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Cybercriminals take aim at Hasbro, weeks of recovery ahead</title>
+		<link>https://www.helpnetsecurity.com/2026/04/01/hasbro-cyberattack-network-breach/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 16:25:56 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[breach]]></category>
+		<category><![CDATA[cybercrime]]></category>
+		<category><![CDATA[data breach]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364621</guid>
+
+					<description><![CDATA[<p>Hasbro, an American toy maker with more than 5,000 employees, confirmed a cyberattack and proactively took certain systems offline. The intrusion was detected on March 28, and the company promptly activated its incident response protocols. The company said the investigation is ongoing with support from third-party cybersecurity professionals as it works to determine the scope of the incident, while business continuity measures remain in place to support order processing, shipping, and other operations. “The need &#8230; <a href="https://www.helpnetsecurity.com/2026/04/01/hasbro-cyberattack-network-breach/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/01/hasbro-cyberattack-network-breach/">Cybercriminals take aim at Hasbro, weeks of recovery ahead</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>North Korean hackers linked to Axios npm supply chain compromise</title>
+		<link>https://www.helpnetsecurity.com/2026/04/01/north-korean-hackers-linked-to-axios-npm-supply-chain-compromise/</link>
+		
+		<dc:creator><![CDATA[Zeljka Zorz]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 14:26:49 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Arctic Wolf Networks]]></category>
+		<category><![CDATA[backdoor]]></category>
+		<category><![CDATA[cybercrime]]></category>
+		<category><![CDATA[Google Cloud]]></category>
+		<category><![CDATA[Mandiant]]></category>
+		<category><![CDATA[North Korea]]></category>
+		<category><![CDATA[supply chain attacks]]></category>
+		<category><![CDATA[supply chain compromise]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364583</guid>
+
+					<description><![CDATA[<p>The software supply chain attack that resulted in the compromise of npm packages of Axios, an extremely popular HTTP client library, is believed to be the work of financially-motivated North Korean attackers. Links to UNC1069 On March 31, 2026, unknown attackers managed to publish two backdoored Axios npm packages after gaining access to a maintainer’s npm account. The malicious versions introduced a hidden dependency containing a post-install script, and this script executed automatically during installation &#8230; <a href="https://www.helpnetsecurity.com/2026/04/01/north-korean-hackers-linked-to-axios-npm-supply-chain-compromise/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/01/north-korean-hackers-linked-to-axios-npm-supply-chain-compromise/">North Korean hackers linked to Axios npm supply chain compromise</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Exabeam expands ABA to detect AI agent threats across ChatGPT, Copilot, and Gemini</title>
+		<link>https://www.helpnetsecurity.com/2026/04/01/exabeam-expands-aba-to-detect-ai-agent-threats-across-chatgpt-copilot-and-gemini/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 13:20:40 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[Exabeam]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364552</guid>
+
+					<description><![CDATA[<p>Exabeam has announced the expansion of Exabeam Agent Behavior Analytics (ABA). Without direct visibility into how employees use AI assistants, what they query, what data they share, how frequently they interact, and from where, organizations cannot establish a baseline for normal AI behavior, investigate potential misuse, or detect emerging agentic insider threats. New support to detect agent behavior in OpenAI ChatGPT and Microsoft Copilot, alongside existing visibility into Google Gemini, transforms these agentic services into &#8230; <a href="https://www.helpnetsecurity.com/2026/04/01/exabeam-expands-aba-to-detect-ai-agent-threats-across-chatgpt-copilot-and-gemini/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/01/exabeam-expands-aba-to-detect-ai-agent-threats-across-chatgpt-copilot-and-gemini/">Exabeam expands ABA to detect AI agent threats across ChatGPT, Copilot, and Gemini</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>CIS Benchmarks March 2026 Update</title>
+		<link>https://www.helpnetsecurity.com/2026/04/01/cis-benchmarks-march-2026-update/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 13:00:44 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Center for Internet Security]]></category>
+		<category><![CDATA[Whitepapers and webinars]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364266</guid>
+
+					<description><![CDATA[<p>The following CIS Benchmarks and CIS Build Kits have been updated or recently released. The Center for Internet Security has highlighted the major updates below. Each Benchmark and Build Kit includes a changelog that references all changes. Updated CIS Benchmarks overview CIS Microsoft Windows 11 Enterprise Benchmark v5.0.0 CIS Oracle Cloud Infrastructure Foundations Benchmark v3.1.0 CIS Apache Cassandra 5.0 Benchmark v1.1.0 CIS Apache Cassandra 4.1 Benchmark v1.2.0 CIS Apache Cassandra 4.0 Benchmark v1.3.0 CIS Microsoft &#8230; <a href="https://www.helpnetsecurity.com/2026/04/01/cis-benchmarks-march-2026-update/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/01/cis-benchmarks-march-2026-update/">CIS Benchmarks March 2026 Update</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google fixes Chrome zero-day with in-the-wild exploit (CVE-2026-5281)</title>
+		<link>https://www.helpnetsecurity.com/2026/04/01/google-chrome-zero-day-cve-2026-5281/</link>
+		
+		<dc:creator><![CDATA[Zeljka Zorz]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 11:27:11 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[0-day]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[Microsoft Edge]]></category>
+		<category><![CDATA[Vivaldi]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364534</guid>
+
+					<description><![CDATA[<p>Google has fixed 21 vulnerabilities affecting its popular Chrome browser, among them a zero-day (CVE-2026-5281) with an in-the-wild exploit. About CVE-2026-5281 As per usual, information about the fixed zero-day is limited, and there&#8217;s no details about the exploit (or how/if it&#8217;s being used by attackers). CVE-2026-5281&#8217;s official description says it&#8217;s a use-after-free (UAF) vulnerability in Dawn, an open-source and cross-platform implementation of the WebGPU standard that&#8217;s used in Chromium and Chromium-based browsers. The vulnerability affects &#8230; <a href="https://www.helpnetsecurity.com/2026/04/01/google-chrome-zero-day-cve-2026-5281/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/01/google-chrome-zero-day-cve-2026-5281/">Google fixes Chrome zero-day with in-the-wild exploit (CVE-2026-5281)</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Egnyte expands Content Cloud with AI Governance and built-in Assistant</title>
+		<link>https://www.helpnetsecurity.com/2026/04/01/egnyte-ai-safeguards-ai-assistant/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 07:25:13 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[Egnyte]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364529</guid>
+
+					<description><![CDATA[<p>Egnyte has announced two major additions to the Egnyte Content Cloud: AI Safeguards, which give organizations granular control over how AI interacts with sensitive content, and an AI Assistant that acts as a built-in collaborator across Egnyte workspaces. AI Safeguards As organizations accelerate AI adoption, ungoverned access to sensitive content by AI systems represents a growing and underappreciated risk. Egnyte’s AI Safeguards addresses this directly by embedding AI controls into the same platform that already &#8230; <a href="https://www.helpnetsecurity.com/2026/04/01/egnyte-ai-safeguards-ai-assistant/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/01/egnyte-ai-safeguards-ai-assistant/">Egnyte expands Content Cloud with AI Governance and built-in Assistant</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

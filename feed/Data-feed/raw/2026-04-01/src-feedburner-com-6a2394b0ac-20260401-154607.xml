@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SecurityWeek</title>
+	<atom:link href="https://www.securityweek.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.securityweek.com/</link>
+	<description>Cybersecurity News, Insights &#38; Analysis</description>
+	<lastBuildDate>Wed, 01 Apr 2026 15:35:52 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg</url>
+	<title>SecurityWeek</title>
+	<link>https://www.securityweek.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Toy Giant Hasbro Hit by Cyberattack</title>
+		<link>https://www.securityweek.com/toy-giant-hasbro-hit-by-cyberattack/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 15:35:47 +0000</pubDate>
+				<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[cyberattack]]></category>
+		<category><![CDATA[Hasbro]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45926</guid>
+
+					<description><![CDATA[<p>The company is investigating the full scope of the incident, including whether any files have been compromised.</p>
+<p>The post <a href="https://www.securityweek.com/toy-giant-hasbro-hit-by-cyberattack/">Toy Giant Hasbro Hit by Cyberattack</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New DeepLoad Malware Dropped in ClickFix Attacks</title>
+		<link>https://www.securityweek.com/new-deepload-malware-dropped-in-clickfix-attacks/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 15:04:43 +0000</pubDate>
+				<category><![CDATA[Malware & Threats]]></category>
+		<category><![CDATA[ClickFix]]></category>
+		<category><![CDATA[DeepLoad]]></category>
+		<category><![CDATA[malware]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45925</guid>
+
+					<description><![CDATA[<p>The malware steals credentials, installs a malicious browser extension, and can spread via USB drives.</p>
+<p>The post <a href="https://www.securityweek.com/new-deepload-malware-dropped-in-clickfix-attacks/">New DeepLoad Malware Dropped in ClickFix Attacks</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Exploited Zero-Day Among 21 Vulnerabilities Patched in Chrome</title>
+		<link>https://www.securityweek.com/exploited-zero-day-among-21-vulnerabilities-patched-in-chrome/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 14:36:39 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[exploited]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Zero-Day]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45924</guid>
+
+					<description><![CDATA[<p>Google has announced fixes for CVE-2026-5281, a zero-day affecting Chrome’s Dawn component. </p>
+<p>The post <a href="https://www.securityweek.com/exploited-zero-day-among-21-vulnerabilities-patched-in-chrome/">Exploited Zero-Day Among 21 Vulnerabilities Patched in Chrome</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>FBI Warns of Data Security Risks From China-Made Mobile Apps</title>
+		<link>https://www.securityweek.com/fbi-warns-of-data-security-risks-from-china-made-mobile-apps/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 13:54:24 +0000</pubDate>
+				<category><![CDATA[Mobile & Wireless]]></category>
+		<category><![CDATA[alert]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[FBI]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45923</guid>
+
+					<description><![CDATA[<p>The agency has not named the problematic foreign-made applications, but TikTok and Temu come to mind.</p>
+<p>The post <a href="https://www.securityweek.com/fbi-warns-of-data-security-risks-from-china-made-mobile-apps/">FBI Warns of Data Security Risks From China-Made Mobile Apps</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>US Charges Uranium Crypto Exchange Hacker</title>
+		<link>https://www.securityweek.com/us-charges-uranium-crypto-exchange-hacker/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 13:30:19 +0000</pubDate>
+				<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[charged]]></category>
+		<category><![CDATA[hacker]]></category>
+		<category><![CDATA[Uranium]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45922</guid>
+
+					<description><![CDATA[<p>Jonathan Spalletta exploited smart contract vulnerabilities to steal approximately $55 million in cryptocurrency and cause Uranium to shut down.</p>
+<p>The post <a href="https://www.securityweek.com/us-charges-uranium-crypto-exchange-hacker/">US Charges Uranium Crypto Exchange Hacker</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Webinar Today: Agentic AI vs. Identity’s Last Mile Problem</title>
+		<link>https://www.securityweek.com/webinar-today-agentic-ai-vs-identitys-last-mile-problem/</link>
+		
+		<dc:creator><![CDATA[SecurityWeek News]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 13:14:47 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Identity & Access]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[identity]]></category>
+		<category><![CDATA[Webinar]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45920</guid>
+
+					<description><![CDATA[<p>Join the webcast as we explore what Agentic AI can and cannot solve today, and real world breach scenarios linked to disconnected applications.</p>
+<p>The post <a href="https://www.securityweek.com/webinar-today-agentic-ai-vs-identitys-last-mile-problem/">Webinar Today: Agentic AI vs. Identity’s Last Mile Problem</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Axios NPM Package Breached in North Korean Supply Chain Attack</title>
+		<link>https://www.securityweek.com/axios-npm-package-breached-in-north-korean-supply-chain-attack/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 08:45:47 +0000</pubDate>
+				<category><![CDATA[Application Security]]></category>
+		<category><![CDATA[Supply Chain Security]]></category>
+		<category><![CDATA[Axios]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[North Korea]]></category>
+		<category><![CDATA[NPM]]></category>
+		<category><![CDATA[supply chain attack]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45918</guid>
+
+					<description><![CDATA[<p>A long-lived NPM access token was used to bypass the GitHub Actions OIDC-based CI/CD publishing workflow and push backdoored package versions.</p>
+<p>The post <a href="https://www.securityweek.com/axios-npm-package-breached-in-north-korean-supply-chain-attack/">Axios NPM Package Breached in North Korean Supply Chain Attack</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google Addresses Vertex Security Issues After Researchers Weaponize AI Agents</title>
+		<link>https://www.securityweek.com/google-addresses-vertex-security-issues-after-researchers-weaponize-ai-agent/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 07:43:16 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[AI agent]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Google Cloud]]></category>
+		<category><![CDATA[Vertex]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45917</guid>
+
+					<description><![CDATA[<p>Palo Alto Networks has disclosed the details of its analysis of Google Cloud Platform’s Vertex AI.</p>
+<p>The post <a href="https://www.securityweek.com/google-addresses-vertex-security-issues-after-researchers-weaponize-ai-agent/">Google Addresses Vertex Security Issues After Researchers Weaponize AI Agents</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Censys Raises $70 Million for Internet Intelligence Platform</title>
+		<link>https://www.securityweek.com/censys-raises-70-million-for-internet-intelligence-platform/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 15:59:49 +0000</pubDate>
+				<category><![CDATA[Cybersecurity Funding]]></category>
+		<category><![CDATA[Censys]]></category>
+		<category><![CDATA[funding]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45915</guid>
+
+					<description><![CDATA[<p>The latest funding round brings the total venture capital investment in Censys to $149 million.</p>
+<p>The post <a href="https://www.securityweek.com/censys-raises-70-million-for-internet-intelligence-platform/">Censys Raises $70 Million for Internet Intelligence Platform</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The Next Cybersecurity Crisis Isn’t Breaches—It’s Data You Can’t Trust</title>
+		<link>https://www.securityweek.com/the-next-cybersecurity-crisis-isnt-breaches-its-data-you-cant-trust/</link>
+		
+		<dc:creator><![CDATA[Steve Durbin]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 15:35:33 +0000</pubDate>
+				<category><![CDATA[Data Protection]]></category>
+		<category><![CDATA[data protection]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45914</guid>
+
+					<description><![CDATA[<p>Data integrity shouldn’t be seen only through the prism of a technical concern but also as a leadership issue. </p>
+<p>The post <a href="https://www.securityweek.com/the-next-cybersecurity-crisis-isnt-breaches-its-data-you-cant-trust/">The Next Cybersecurity Crisis Isn’t Breaches—It’s Data You Can’t Trust</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

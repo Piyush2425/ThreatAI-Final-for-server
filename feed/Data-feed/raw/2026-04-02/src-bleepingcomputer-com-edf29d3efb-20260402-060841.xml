@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:atom="http://www.w3.org/2005/Atom"
+        >
+
+<channel>
+        <title>BleepingComputer</title>
+
+        <link>https://www.bleepingcomputer.com/</link>
+        <description>BleepingComputer - All Stories</description>
+        <pubDate>Thu, 02 Apr 2026 06:16:02 GMT</pubDate>
+        <generator>https://www.bleepingcomputer.com/</generator>
+        <language>en</language>
+        <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
+        
+ <item>
+        <title>New CrystalRAT malware adds RAT, stealer and prankware features</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-crystalrat-malware-adds-rat-stealer-and-prankware-features/</link>
+        <pubDate>Wed, 01 Apr 2026 19:17:09 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-crystalrat-malware-adds-rat-stealer-and-prankware-features/</guid>
+        <description><![CDATA[A new malware-as-a-service called CrystalRAT is being promoted on Telegram, offering remote access, data theft, keylogging, and clipboard hijacking capabilities. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Apple expands iOS 18 updates to more iPhones to block DarkSword attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/apple-expands-ios-18-updates-to-more-iphones-to-block-darksword-attacks/</link>
+        <pubDate>Wed, 01 Apr 2026 17:50:49 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/apple-expands-ios-18-updates-to-more-iphones-to-block-darksword-attacks/</guid>
+        <description><![CDATA[Apple has now made it possible for more iPhones still running iOS 18 to receive security updates that protect against the actively exploited DarkSword exploit kit. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Hackers exploit TrueConf zero-day to push malicious software updates</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-trueconf-zero-day-to-push-malicious-software-updates/</link>
+        <pubDate>Wed, 01 Apr 2026 17:35:47 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Government]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-trueconf-zero-day-to-push-malicious-software-updates/</guid>
+        <description><![CDATA[Hackers have targeted TrueConf conference servers in attacks that exploit a zero-day vulnerability, allowing them to execute arbitrary files on all connected endpoints. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New EvilTokens service fuels Microsoft device code phishing attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-eviltokens-service-fuels-microsoft-device-code-phishing-attacks/</link>
+        <pubDate>Wed, 01 Apr 2026 15:42:25 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-eviltokens-service-fuels-microsoft-device-code-phishing-attacks/</guid>
+        <description><![CDATA[A new malicious kit called EvilTokens integrates device code phishing capabilities, allowing attackers to hijack Microsoft accounts and provide advanced features for business email compromise attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>'NoVoice' Android malware on Google Play infected 2.3 million devices</title>
+        <link>https://www.bleepingcomputer.com/news/security/novoice-android-malware-on-google-play-infected-23-million-devices/</link>
+        <pubDate>Wed, 01 Apr 2026 14:07:21 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/novoice-android-malware-on-google-play-infected-23-million-devices/</guid>
+        <description><![CDATA[A new Android malware named NoVoice was found on Google Play, hidden in more than 50 apps that were downloaded at least 2.3 million times. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Routine Access Is Powering Modern Intrusions, a New Threat Report Finds</title>
+        <link>https://www.bleepingcomputer.com/news/security/routine-access-is-powering-modern-intrusions-a-new-threat-report-finds/</link>
+        <pubDate>Wed, 01 Apr 2026 10:05:15 -0400</pubDate>
+        <dc:creator>Sponsored by Blackpoint Cyber</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/routine-access-is-powering-modern-intrusions-a-new-threat-report-finds/</guid>
+        <description><![CDATA[Modern intrusions increasingly start with valid credentials and routine access, not exploits. Blackpoint Cyber's upcoming threat report shows how VPN abuse, RMM tools, and social engineering drive most incidents. [...]]]></description>
+ </item>
+
+ <item>
+        <title>FBI warns against using Chinese mobile apps due to privacy risks</title>
+        <link>https://www.bleepingcomputer.com/news/security/fbi-warns-against-using-chinese-mobile-apps-over-to-data-security-risks/</link>
+        <pubDate>Wed, 01 Apr 2026 07:39:10 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fbi-warns-against-using-chinese-mobile-apps-over-to-data-security-risks/</guid>
+        <description><![CDATA[The U.S. Federal Bureau of Investigation (FBI) warned Americans against using foreign-developed mobile applications, particularly those created by Chinese developers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Google fixes fourth Chrome zero-day exploited in attacks in 2026</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-fixes-fourth-chrome-zero-day-exploited-in-attacks-in-2026/</link>
+        <pubDate>Wed, 01 Apr 2026 06:25:36 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-fixes-fourth-chrome-zero-day-exploited-in-attacks-in-2026/</guid>
+        <description><![CDATA[Google has fixed the fourth Chrome vulnerability exploited in zero-day attacks since the start of the year. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Google Drive ransomware detection now on by default for paying users</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/</link>
+        <pubDate>Wed, 01 Apr 2026 02:35:34 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/</guid>
+        <description><![CDATA[Google announced that the AI-powered Google Drive ransomware detection feature has reached general availability and is now enabled by default for all paying users. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New Windows 11 emergency update fixes preview update install issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/new-windows-11-kb5086672-emergency-update-fixes-install-issues/</link>
+        <pubDate>Wed, 01 Apr 2026 01:33:43 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/new-windows-11-kb5086672-emergency-update-fixes-install-issues/</guid>
+        <description><![CDATA[Microsoft released an emergency update to fix the March 2026 KB5079391 non-security preview update, which was pulled over the weekend due to installation issues. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Claude Code source code accidentally leaked in NPM package</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/</link>
+        <pubDate>Tue, 31 Mar 2026 20:32:25 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/</guid>
+        <description><![CDATA[Anthropic says it accidentally leaked the source code for Claude Code, which is closed source, but the company says no customer data or credentials were exposed. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Google now allows you to change your @gmail.com address</title>
+        <link>https://www.bleepingcomputer.com/news/google/google-now-allows-you-to-change-your-gmailcom-address/</link>
+        <pubDate>Tue, 31 Mar 2026 19:13:56 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/google/google-now-allows-you-to-change-your-gmailcom-address/</guid>
+        <description><![CDATA[Google is rolling out a new feature in the U.S. that allows users to change their @gmail address or create a new alias. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Proton launches new "Meet" privacy-focused conferencing platform</title>
+        <link>https://www.bleepingcomputer.com/news/security/proton-launches-new-meet-privacy-focused-conferencing-platform/</link>
+        <pubDate>Tue, 31 Mar 2026 18:42:07 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/proton-launches-new-meet-privacy-focused-conferencing-platform/</guid>
+        <description><![CDATA[Proton has announced a new video conferencing service named Meet and positioned it as a privacy-focused alternative to mainstream services like Google Meet, Zoom, and Microsoft Teams. [...]]]></description>
+ </item>
+
+ <item>
+        <title>GIGABYTE Control Center vulnerable to arbitrary file write flaw</title>
+        <link>https://www.bleepingcomputer.com/news/security/gigabyte-control-center-vulnerable-to-arbitrary-file-write-flaw/</link>
+        <pubDate>Tue, 31 Mar 2026 18:28:02 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Hardware]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/gigabyte-control-center-vulnerable-to-arbitrary-file-write-flaw/</guid>
+        <description><![CDATA[The GIGABYTE Control Center is vulnerable to an arbitrary file-write flaw that could allow a remote, unauthenticated attacker to access files on vulnerable hosts. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Claude AI finds Vim, Emacs RCE bugs that trigger on file open</title>
+        <link>https://www.bleepingcomputer.com/news/security/claude-ai-finds-vim-emacs-rce-bugs-that-trigger-on-file-open/</link>
+        <pubDate>Tue, 31 Mar 2026 17:45:14 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/claude-ai-finds-vim-emacs-rce-bugs-that-trigger-on-file-open/</guid>
+        <description><![CDATA[Vulnerabilities in the Vim and GNU Emacs text editors, discovered using simple prompts with the Claude assistant, allow remote code execution simply by opening a file. [...]]]></description>
+ </item>
+
+</channel>
+</rss>

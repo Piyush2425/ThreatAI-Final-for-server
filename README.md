@@ -29,6 +29,11 @@ python app.py
 
 Then open: **http://localhost:5000**
 
+For server deployment, bind to all interfaces:
+```bash
+python app.py --web --host 0.0.0.0 --no-browser
+```
+
 ### 5. Interactive CLI (Alternative)
 ```bash
 python app.py
@@ -59,11 +64,13 @@ python app.py
 
 ```
 threat-ai/
-├── app.py                 # Flask web UI + CLI
+├── app.py                 # Bootstrap + Flask entrypoint
+├── services/              # Query orchestration + scheduler services
 ├── scripts/
 │   ├── rebuild_vectorstore.py # Rebuild Chroma index
 │   └── build.mjs              # Frontend build script
 ├── docs/
+│   ├── ARCHITECTURE.md        # Runtime boundary and deployment notes
 │   └── BUILD_SYSTEM.md        # Frontend build documentation
 ├── templates/
 │   ├── chat.html          # Main chat UI
@@ -75,7 +82,7 @@ threat-ai/
 │   ├── raw/               # 503 threat actor profiles
 │   ├── canonical/         # Normalized data
 │   └── chroma_db/         # Vector database
-├── ingestion/             # Data loading
+├── ingestion/             # Data loading for the actor corpus
 ├── chunking/              # Semantic segmentation
 ├── embeddings/            # Vector generation
 ├── retrieval/             # Semantic search
@@ -83,6 +90,8 @@ threat-ai/
 │   ├── interpreter.py     # Ollama integration ✨
 │   └── guardrails.py      # Confidence scoring
 ├── evaluation/            # Audit trails
+├── feeds/                 # Threat feed ingest, storage, and recent-news retrieval
+├── feed/                  # Feed storage and ingest state
 ├── requirements.txt       # Dependencies
 └── README.md
 ```

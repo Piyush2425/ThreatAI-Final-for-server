@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Canary Trap</title>
+	<atom:link href="https://canarytrap.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://canarytrap.com/</link>
+	<description>Vulnerability &#38; Penetration Testing</description>
+	<lastBuildDate>Wed, 01 Apr 2026 16:33:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+	<item>
+		<title>Canary Trap’s Bi-Weekly Cyber Roundup</title>
+		<link>https://canarytrap.com/cyber-roundup-april-1/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 16:33:34 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Canary Trap]]></category>
+		<category><![CDATA[Cyber Roundup]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[Digital Defense]]></category>
+		<category><![CDATA[Latest News]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3369</guid>
+
+					<description><![CDATA[<p>Welcome to the latest edition of the “Bi-Weekly Cyber Roundup” by Canary Trap. At Canary Trap, it is our mission to keep you up-to-date with the most crucial news in the world of cybersecurity and this bi-weekly publication is your gateway to the latest news. This week’s cybersecurity roundup highlights a series of high-impact incidents [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/cyber-roundup-april-1/">Canary Trap’s Bi-Weekly Cyber Roundup</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Welcome to the latest edition of the “Bi-Weekly Cyber Roundup” by Canary Trap. At Canary Trap, it is our mission to keep you up-to-date with the most crucial news in the world of cybersecurity and this bi-weekly publication is your gateway to the latest news.</span></p>
+<p><span style="font-weight: 400;">This week’s cybersecurity roundup highlights a series of high-impact incidents spanning data breaches, nation-state concerns, and evolving attack techniques. We cover the Navia breach affecting HackerOne employee data, new FCC restrictions on foreign-made routers, and a large-scale device code phishing campaign targeting Microsoft 365 environments. We also examine a critical TP-Link router vulnerability and review claims from Lapsus$ regarding a potential breach of AstraZeneca.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Recent Navia Data Breach Impacts HackerOne Employee Data</b></li>
+</ul>
+<p><span style="font-weight: 400;">A data breach at U.S.-based benefits provider Navia Benefit Solutions has exposed the personal information of nearly 300 employees of HackerOne, underscoring the ongoing risks associated with third-party service providers. The incident is part of a broader compromise affecting approximately 2.7 million individuals whose data was managed by Navia.</span></p>
+<p><span style="font-weight: 400;">According to Navia, unauthorized access to its systems occurred between December 22, 2025, and January 15, 2026, with suspicious activity detected on January 23. The breach has been attributed to a likely Broken Object Level Authorization (BOLA) vulnerability, which allowed attackers to access sensitive records. Exposed data may include names, dates of birth, Social Security numbers, contact details, and information related to employee benefit programs such as FSAs, HRAs, and COBRA enrollment. While Navia stated that no financial or claims data was compromised, the nature of the exposed information presents a heightened risk for phishing and social engineering attacks.</span></p>
+<p><span style="font-weight: 400;">HackerOne confirmed that 287 of its employees were impacted. However, the company raised concerns about delayed notification, noting that although Navia issued breach notices dated February 20, they were not received until March. This lag has drawn attention to gaps in incident communication and transparency, particularly critical when downstream organizations must respond quickly to protect affected individuals.</span></p>
+<p><span style="font-weight: 400;">In response, HackerOne has initiated its own investigation and is working with Navia to better understand the root cause and scope of the breach. The company is also reassessing Navia’s security posture and evaluating whether to continue the relationship, signaling a broader need for stricter vendor risk management practices.</span></p>
+<p><span style="font-weight: 400;">Navia has reported the incident to federal law enforcement, enhanced its internal security controls, and is offering 12 months of identity protection and credit monitoring services to those affected. While the company stated there is currently no evidence of misuse of the stolen data, such assurances are often preliminary and do not eliminate future risk.</span></p>
+<p><span style="font-weight: 400;">This incident highlights a persistent challenge in cybersecurity: even organizations with mature security programs remain exposed through third-party dependencies. It reinforces the importance of continuous monitoring, vendor due diligence, and timely breach disclosure to mitigate downstream impact.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>FCC Bans New Routers Made Outside the U.S. Over National Security Risks</b></li>
+</ul>
+<p><span style="font-weight: 400;">The U.S. Federal Communications Commission (FCC) has expanded its “Covered List” to include all foreign-manufactured consumer-grade routers, effectively prohibiting the authorization and future import of such devices into the United States. The move follows a determination by an Executive Branch, which concluded that routers produced outside the U.S. present significant national security and cybersecurity risks.</span></p>
+<p><span style="font-weight: 400;">At the core of this decision is concern over supply chain integrity. The assessment highlights that the overwhelming reliance on foreign-made routers in American homes introduces systemic vulnerabilities, including the potential for embedded backdoors, unauthorized access, and large-scale surveillance. Compromised devices could enable threat actors to conduct data exfiltration, launch botnet attacks, or gain footholds in sensitive networks, including those tied to government and critical infrastructure.</span></p>
+<p><span style="font-weight: 400;">The report also references activity from state-sponsored threat groups such as Flax Typhoon, Volt Typhoon, and Salt Typhoon, which have previously targeted U.S. sectors including energy, communications, transportation, and water systems. These campaigns underscore the strategic risk posed by insecure networking hardware at scale.</span></p>
+<p><span style="font-weight: 400;">Importantly, the FCC’s action is forward-looking. Devices already approved and currently in use are not affected. However, any new foreign-made consumer routers will no longer be eligible for FCC authorization, effectively barring their legal sale and import moving forward.</span></p>
+<p><span style="font-weight: 400;">There is a limited pathway for exceptions. Specific router models may still receive approval if vetted and cleared by agencies such as the Department of Homeland Security (DHS) or the Department of Defense, provided they meet stringent security requirements and are deemed not to pose unacceptable risks.</span></p>
+<p><span style="font-weight: 400;">Overall, the decision reflects a broader shift toward securing technology supply chains and reducing dependency on potentially untrusted foreign hardware, particularly in areas that underpin national infrastructure and digital resilience.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Device Code Phishing Hits 340+ Microsoft 365 Orgs Across Five Countries via OAuth Abuse</b></li>
+</ul>
+<p><span style="font-weight: 400;">Cybersecurity researchers have identified a large-scale device code phishing campaign targeting Microsoft 365 accounts across more than 340 organizations in the United States, Canada, Australia, New Zealand, and Germany. First observed on February 19, 2026, the activity has rapidly intensified, reflecting both the scalability and effectiveness of the technique.</span></p>
+<p><span style="font-weight: 400;">At the core of the campaign is the abuse of Microsoft’s OAuth device authorization flow. Unlike traditional credential phishing, this method tricks users into entering a legitimate device code on Microsoft’s official authentication page. Once the victim completes the login process, including multi-factor authentication, the attacker gains access and refresh tokens tied to the session. Critically, these tokens can remain valid even after a password reset, allowing persistent access to compromised accounts.</span></p>
+<p><span style="font-weight: 400;">Attackers are leveraging Cloudflare Workers to host intermediary phishing infrastructure and redirect victims through multiple layers of legitimate services, including Cisco, Trend Micro, and Mimecast redirect links, to evade detection. Ultimately, captured sessions are funneled to attacker-controlled infrastructure hosted on Railway, a platform-as-a-service provider, effectively transforming it into a credential harvesting backend.</span></p>
+<p><span style="font-weight: 400;">Victims are lured through a variety of pretexts, including construction bids, DocuSign-themed messages, voicemail alerts, and Microsoft Forms pages. Notably, instead of requiring users to manually enter a code provided in an email, some phishing pages dynamically generate and display the device code directly, streamlining the attack flow and increasing the likelihood of success.</span></p>
+<p><span style="font-weight: 400;">The campaign has impacted a broad range of sectors, including construction, financial services, healthcare, government, and legal organizations, suggesting opportunistic targeting rather than a focus on a specific industry. A significant portion of the malicious activity has been traced to a small cluster of Railway-hosted IP addresses, which account for the majority of observed authentication events.</span></p>
+<p><span style="font-weight: 400;">Researchers have linked this activity to a phishing-as-a-service (PhaaS) platform known as EvilTokens, which recently emerged on Telegram. The platform offers tooling to automate phishing campaigns, generate redirect links, and bypass spam filters, alongside operational support for affiliates, highlighting the continued commoditization of advanced attack techniques.</span></p>
+<p><span style="font-weight: 400;">This campaign aligns with a broader trend observed since early 2025, where threat actors, including several Russia-aligned groups, have increasingly adopted device code phishing due to its ability to exploit trusted authentication workflows.</span></p>
+<p><span style="font-weight: 400;">Given the use of legitimate Microsoft infrastructure and trusted cloud services, detection remains challenging. Organizations are advised to monitor authentication logs for suspicious sign-ins, particularly from Railway-associated IP addresses, revoke compromised tokens, and implement stricter access controls to mitigate risk.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>TP-Link Warns Users to Patch Critical Router Authentication Bypass Flaw</b></li>
+</ul>
+<p><span style="font-weight: 400;">TP-Link has released security updates addressing multiple vulnerabilities in its Archer NX router series, including a critical flaw that could allow attackers to bypass authentication and gain full control over affected devices.</span></p>
+<p><span style="font-weight: 400;">The most severe issue, tracked as CVE-2025-15517, impacts several models, including the Archer NX200, NX210, NX500, and NX600. The vulnerability stems from a missing authentication check within the router’s HTTP server, enabling unauthenticated attackers to access endpoints intended only for authorized users. Exploitation could allow malicious actors to perform privileged actions such as uploading firmware or modifying device configurations without credentials.</span></p>
+<p><span style="font-weight: 400;">In addition to this flaw, TP-Link patched a hardcoded cryptographic key vulnerability (CVE-2025-15605) that could allow authenticated users to decrypt and manipulate configuration files. Two further command injection vulnerabilities (CVE-2025-15518 and CVE-2025-15519) were also addressed, which could enable attackers with administrative access to execute arbitrary system commands.</span></p>
+<p><span style="font-weight: 400;">TP-Link has strongly urged users to update their firmware immediately, emphasizing that failure to do so leaves devices exposed to potential compromise.</span></p>
+<p><span style="font-weight: 400;">These issues follow a pattern of ongoing security concerns for the vendor. In September, TP-Link issued patches for a previously disclosed flaw that had gone unaddressed for months and allowed attackers to intercept traffic and manipulate DNS queries. Additionally, multiple TP-Link vulnerabilities have been cataloged by CISA as actively exploited, including older flaws leveraged by botnets to compromise routers at scale.</span></p>
+<p><span style="font-weight: 400;">The continued discovery of critical vulnerabilities, combined with regulatory scrutiny, including a lawsuit filed by the Texas Attorney General alleging misleading security claims, highlights the increasing pressure on network device manufacturers to improve security practices and timely patch management.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Cybercrime Group Lapsus$ Claims the Hack of Pharma Giant AstraZeneca</b></li>
+</ul>
+<p><span style="font-weight: 400;">The cybercrime group Lapsus$ has claimed responsibility for a breach of pharmaceutical giant AstraZeneca, alleging the theft of approximately 3GB of internal data. According to reports circulating on dark web forums and data leak sites associated with the group, the compromised information includes credentials, authentication tokens, internal source code (spanning technologies such as Java, Angular, and Python), and employee-related data. AstraZeneca has not yet confirmed the incident.</span></p>
+<p><span style="font-weight: 400;">While the presence of credentials and tokens raises immediate concerns, the broader risk lies in how such data could be operationalized. Even in the absence of plaintext passwords or patient data, exposure of internal codebases and infrastructure-related information can significantly aid threat actors in mapping environments, identifying vulnerabilities, and crafting targeted phishing or follow-on intrusion campaigns. This type of access can serve as a foundation for deeper compromise, including lateral movement and potential disruption of business-critical systems.</span></p>
+<p><span style="font-weight: 400;">Security analysts note that the structure and scope of the alleged dataset suggest more than a superficial leak. If validated, it would indicate meaningful internal exposure, potentially affecting development pipelines, access controls, and system architecture. For an organization like AstraZeneca, which operates in a highly sensitive sector involving intellectual property and critical research, such a breach could carry both operational and strategic implications.</span></p>
+<p><span style="font-weight: 400;">The claim aligns with Lapsus$’s known tactics, which often involve breaching high-profile organizations and leveraging stolen data for extortion or resale. The group has a history of targeting entities where reputational impact and data sensitivity increase pressure to respond.</span></p>
+<p><span style="font-weight: 400;">At this stage, the incident remains unverified, and caution is warranted in interpreting the claims. However, the situation underscores the continued targeting of healthcare and pharmaceutical organizations, not only for patient data but also for intellectual property and internal systems that can be exploited for financial or strategic gain.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">References:</span></p>
+<p><a href="https://securityaffairs.com/189969/data-breach/recent-navia-data-breach-impacts-hackerone-employee-data.html" target="_blank" rel="noopener"><span style="font-weight: 400;">https://securityaffairs.com/189969/data-breach/recent-navia-data-breach-impacts-hackerone-employee-data.html</span></a></p>
+<p><a href="https://www.securityweek.com/fcc-bans-new-foreign-made-consumer-routers-over-national-security-risks/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.securityweek.com/fcc-bans-new-foreign-made-consumer-routers-over-national-security-risks/</span></a></p>
+<p><a href="https://thehackernews.com/2026/03/device-code-phishing-hits-340-microsoft.html" target="_blank" rel="noopener"><span style="font-weight: 400;">https://thehackernews.com/2026/03/device-code-phishing-hits-340-microsoft.html</span></a></p>
+<p><a href="https://www.bleepingcomputer.com/news/security/tp-link-warns-users-to-patch-critical-router-auth-bypass-flaw/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.bleepingcomputer.com/news/security/tp-link-warns-users-to-patch-critical-router-auth-bypass-flaw/</span></a></p>
+<p><a href="https://securityaffairs.com/189936/data-breach/cybercrime-group-lapsus-claims-the-hack-of-pharma-giant-astrazeneca.html" target="_blank" rel="noopener"><span style="font-weight: 400;">https://securityaffairs.com/189936/data-breach/cybercrime-group-lapsus-claims-the-hack-of-pharma-giant-astrazeneca.html</span></a></p>
+<p>The post <a href="https://canarytrap.com/cyber-roundup-april-1/">Canary Trap’s Bi-Weekly Cyber Roundup</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Cyber Insurance Renewal: Prove It or Lose It</title>
+		<link>https://canarytrap.com/cyber-insurance-renewal/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Mon, 30 Mar 2026 16:03:24 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Cyber Insurance]]></category>
+		<category><![CDATA[Cyber Insurance Renewal]]></category>
+		<category><![CDATA[Cyber Resilience]]></category>
+		<category><![CDATA[Incident Response]]></category>
+		<category><![CDATA[Risk Management]]></category>
+		<category><![CDATA[Security Controls]]></category>
+		<category><![CDATA[Security Validation]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3365</guid>
+
+					<description><![CDATA[<p>Cyber insurance renewal is becoming more demanding as insurers shift from trust-based assessments to evidence-driven underwriting. Organizations can no longer rely on questionnaires and policy statements alone. Instead, they must demonstrate that their security controls are actively implemented, continuously maintained, and capable of withstanding real-world threats. Underwriters are now placing greater emphasis on operational maturity. [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/cyber-insurance-renewal/">Cyber Insurance Renewal: Prove It or Lose It</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Cyber insurance renewal is becoming more demanding as insurers shift from trust-based assessments to evidence-driven underwriting. Organizations can no longer rely on questionnaires and policy statements alone. Instead, they must demonstrate that their security controls are actively implemented, continuously maintained, and capable of withstanding real-world threats.</span></p>
+<p><span style="font-weight: 400;">Underwriters are now placing greater emphasis on operational maturity. It is not enough to have controls in place on paper. Organizations are expected to show how those controls function in day-to-day environments, including visibility into monitoring practices, incident response readiness, and recovery capabilities. This reflects a broader industry shift toward validating security effectiveness rather than assuming it.</span></p>
+<p><span style="font-weight: 400;">The renewal process is also becoming more technical, since insurers are requesting deeper insight into areas such as endpoint detection, identity and access management, backup integrity, and vulnerability management. In many cases, organizations must provide supporting evidence, logs, or third-party validation to confirm that these controls are working as intended.</span></p>
+<p><span style="font-weight: 400;">This evolution is driven by rising claims and increasingly sophisticated attack methods. As a result, insurers are tightening requirements and aligning coverage decisions with measurable risk. Organizations that can’t demonstrate strong security posture may face higher premiums, reduced coverage, or even denial of renewal.</span></p>
+<p><span style="font-weight: 400;">Preparing for cyber insurance renewal now requires a proactive approach. Security teams must move beyond compliance-focused checklists and adopt continuous validation of their defenses. Demonstrating resilience, not just intent, has become essential to securing and maintaining coverage.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Thomas, Connor. 2026. “Your 2026 Cyber Insurance Renewal: What Auditors Expect This Year.” </span><i><span style="font-weight: 400;">ITC Service.</span></i><span style="font-weight: 400;"> January 29. </span></p>
+<p>&nbsp;</p>
+<p><b>READ: </b><a href="https://bit.ly/4sqaKsw" target="_blank" rel="noopener"><b>https://bit.ly/4sqaKsw</b></a></p>
+<p>The post <a href="https://canarytrap.com/cyber-insurance-renewal/">Cyber Insurance Renewal: Prove It or Lose It</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Canary Trap Named Winner of the Coveted Global InfoSec Awards during RSAC Conference 2026</title>
+		<link>https://canarytrap.com/canary-trap-infosec-awards-winner/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Wed, 25 Mar 2026 14:12:40 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Canary Trap]]></category>
+		<category><![CDATA[Cyber Defense Magazine]]></category>
+		<category><![CDATA[Global InfoSec Awards]]></category>
+		<category><![CDATA[Infosec]]></category>
+		<category><![CDATA[InfoSec Awards Winner]]></category>
+		<category><![CDATA[Penetration Testing]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3350</guid>
+
+					<description><![CDATA[<p>Canary Trap Wins Pioneering Penetration Testing and Transformational Offensive Security in 14th Annual Global InfoSec Awards at #RSAC 2026 BUFFALO, NY, UNITED STATES, March 26, 2026 /EINPresswire.com/ – Canary Trap is proud to announce that, for the first time in company history and as we approach our 10-year anniversary, we have been recognized as a [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/canary-trap-infosec-awards-winner/">Canary Trap Named Winner of the Coveted Global InfoSec Awards during RSAC Conference 2026</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><i><span style="font-weight: 400;">Canary Trap Wins Pioneering Penetration Testing and Transformational Offensive Security in 14th Annual Global InfoSec Awards at #RSAC 2026</span></i></p>
+<p><span style="font-weight: 400;">BUFFALO, NY, UNITED STATES, March 26, 2026 /</span><a href="http://www.einpresswire.com/" target="_blank" rel="noopener"><span style="font-weight: 400;">EINPresswire.com</span></a><span style="font-weight: 400;">/ – Canary Trap is proud to announce that, for the first time in company history and as we approach our 10-year anniversary, we have been recognized as a multi-award winner in the Global InfoSec Awards from Cyber Defense Magazine (CDM), the industry’s leading electronic information security magazine:</span></p>
+<ul>
+<li><b> Pioneering Penetration Testing</b></li>
+<li><b> Transformational Offensive Security</b></li>
+</ul>
+<p><span style="font-weight: 400;">“This is a defining moment for Canary Trap. As we approach our 10-year milestone, this recognition validates the foundation we’ve built — delivering outcome-driven offensive security that goes beyond reports and focuses on real risk reduction. Winning across multiple categories for the first time reinforces our belief that organizations don’t just need testing — they need clarity, action, and measurable impact.  Our 98% NPS rating reflects the trust our customers place in us, and our forward-thinking, customer-first approach to offensive security testing will continue to shape how we innovate and deliver value into the future,” said Derek Nugent, CEO of Canary Trap.</span></p>
+<p><span style="font-weight: 400;">“Canary Trap embodies three major features we judges look for to become winners: understanding tomorrow’s threats today, providing a cost-effective solution, and innovating in unexpected ways that can help mitigate cyber risk and get one step ahead of the next breach,” said Gary S. Miliefsky, Publisher of Cyber Defense Magazine.</span></p>
+<p><span style="font-weight: 400;">We’re thrilled to be a member of this coveted group of winners, located here:</span></p>
+<p><a href="http://www.cyberdefenseawards.com/" target="_blank" rel="noopener"><span style="font-weight: 400;">http://www.cyberdefenseawards.com/</span></a></p>
+<p><span style="font-weight: 400;">We’re proud to share this milestone with our customers and partners as we showcase these awards across our website, blog, and social media channels—reinforcing our commitment to delivering outcome-driven offensive security that makes a measurable impact.</span></p>
+<p><b>About Canary Trap</b></p>
+<p><span style="font-weight: 400;">Canary Trap is a recognized leader in offensive security testing and advisory services, dedicated to delivering outcome-driven penetration testing, application testing, cloud testing, and adversarial simulations that reduce real-world breach risk.</span></p>
+<p><span style="font-weight: 400;">Founded by ethical hackers and experienced security practitioners, Canary Trap was built on a shared mission: to reduce the likelihood and impact of security breaches through practical, actionable security testing. By combining deep human expertise with advanced tooling and, where appropriate, threat intelligence, the company delivers a thorough and in-depth approach to offensive security.</span></p>
+<p><span style="font-weight: 400;">Approaching its 10-year anniversary, Canary Trap has built a reputation for consistency, technical excellence, and a relentless focus on outcomes — not outputs. With a 98% NPS rating, the company’s customer-first mindset and forward-thinking approach continue to redefine how offensive security is delivered and consumed.  Recognized for its pioneering methodology and transformational impact, Canary Trap partners with organizations across North America to design and execute offensive security programs aligned to today’s rapidly evolving threat landscape—providing clarity, prioritization, and measurable results that strengthen overall security posture.</span></p>
+<p><b>About the Global InfoSec Awards</b></p>
+<p><span style="font-weight: 400;">This is Cyber Defense Magazine’s fourteenth year of honoring InfoSec innovators from around the Globe. Our submission requirements are for any startup, early stage, later stage, or public companies in the INFORMATION SECURITY (INFOSEC) space who believe they have a unique and compelling value proposition for their product or service. Learn more at <a href="http://www.cyberdefenseawards.com" target="_blank" rel="noopener">www.cyberdefenseawards.com</a></span></p>
+<p><b>About the Judging</b></p>
+<p><span style="font-weight: 400;">The judges are CISSP, FMDHS, CEH, certified security professionals who voted based on their independent review of the company submitted materials on the website of each submission including but not limited to data sheets, white papers, product literature and other market variables. CDM has a flexible philosophy to find more innovative players with new and unique technologies, than the one with the most customers or money in the bank. CDM is always asking “What’s Next?” so we are looking for best of breed, next generation InfoSec solutions.</span></p>
+<p><b>About Cyber Defense Magazine</b></p>
+<p><span style="font-weight: 400;">Cyber Defense Magazine is the premier source of cyber security news and information for InfoSec professionals in business and government. We are managed and published by and for ethical, honest, passionate information security professionals. Our mission is to share cutting-edge knowledge, real-world stories and awards on the best ideas, products, and services in the information technology industry.</span></p>
+<p><span style="font-weight: 400;">Learn more at <a href="https://www.cyberdefensemagazine.com" target="_blank" rel="noopener">https://www.cyberdefensemagazine.com</a></span></p>
+<p><b>CDM Media Inquiries:</b></p>
+<p><span style="font-weight: 400;">Contact: Irene Noser, Marketing Executive</span></p>
+<p><span style="font-weight: 400;">Email: marketing@cyberdefensemagazine.com’</span></p>
+<p><span style="font-weight: 400;">Toll Free (USA): 1-833-844-9468</span></p>
+<p><span style="font-weight: 400;">International: 1-646-586-9545</span></p>
+<p><span style="font-weight: 400;">Website: www.cyberdefensemagazine.com</span></p>
+<p>&nbsp;</p>
+<p><b>Canary Trap Media Inquiries</b></p>
+<p><span style="font-weight: 400;">Contact: Anisa Ringler-Scott, Operations</span></p>
+<p><span style="font-weight: 400;">Email: engage@canarytrap.com</span></p>
+<p><span style="font-weight: 400;">Toll Free: 1-844-750-2018</span></p>
+<p><span style="font-weight: 400;">Website: www.canarytrap.com</span></p>
+<p>The post <a href="https://canarytrap.com/canary-trap-infosec-awards-winner/">Canary Trap Named Winner of the Coveted Global InfoSec Awards during RSAC Conference 2026</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How Third-Party Risk Becomes Your Weakest Link</title>
+		<link>https://canarytrap.com/third-party-risk/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2026 16:07:31 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Penetration Testing]]></category>
+		<category><![CDATA[Attack Surface]]></category>
+		<category><![CDATA[Cyber Resilience]]></category>
+		<category><![CDATA[Offensive Security]]></category>
+		<category><![CDATA[Risk Management]]></category>
+		<category><![CDATA[Supply Chain Security]]></category>
+		<category><![CDATA[Third Party Risk]]></category>
+		<category><![CDATA[Vendor Risk]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3346</guid>
+
+					<description><![CDATA[<p>Third-party risk is expanding faster than traditional vendor assessments can manage. Despite widespread use of questionnaires and compliance reviews, most organizations continue to experience breaches linked to external vendors and downstream partners. The problem is the gap between perceived oversight and actual exposure. Many organizations evaluate only a fraction of their vendor ecosystem, rely on [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/third-party-risk/">How Third-Party Risk Becomes Your Weakest Link</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Third-party risk is expanding faster than traditional vendor assessments can manage. Despite widespread use of questionnaires and compliance reviews, most organizations continue to experience breaches linked to external vendors and downstream partners.</span></p>
+<p><span style="font-weight: 400;">The problem is the gap between perceived oversight and actual exposure. Many organizations evaluate only a fraction of their vendor ecosystem, rely on manual processes, and remediate issues after onboarding rather than before. As threat actors increasingly exploit trusted supply chain relationships, static reviews struggle to detect real attack paths.</span></p>
+<p><span style="font-weight: 400;">Offensive security assessments offer a more realistic way to navigate third-party risk. Techniques such as controlled penetration testing and adversarial simulations move beyond checkbox compliance to validate whether vendor controls withstand real-world attack scenarios.</span></p>
+<p><span style="font-weight: 400;">This approach also helps prioritize remediation based on exploitability rather than theoretical severity. By uncovering exploitable paths across vendor ecosystems, organizations better understand how third-party risk can impact their core operations.</span></p>
+<p><span style="font-weight: 400;">Navigating third-party risk requires shifting from periodic review cycles to continuous, attack-informed evaluation. Integrating offensive assessments into vendor risk management, however, strengthens oversight, reduces blind spots, and aligns security strategy with real-world threat behavior.</span><span style="font-weight: 400;"></p>
+<p></span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">French, Laura. 2026. “Most Organizations Had a Third-Party Breach in the Last Year.” </span><i><span style="font-weight: 400;">SC World.</span></i><span style="font-weight: 400;"> January 28. </span></p>
+<p><b>READ: </b><a href="https://bit.ly/3PdsqbW" target="_blank" rel="noopener"><b>https://bit.ly/3PdsqbW</b></a></p>
+<p>The post <a href="https://canarytrap.com/third-party-risk/">How Third-Party Risk Becomes Your Weakest Link</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Canary Trap’s Bi-Weekly Cyber Roundup</title>
+		<link>https://canarytrap.com/cyber-roundup-march-18/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Wed, 18 Mar 2026 17:03:21 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Canary Trap]]></category>
+		<category><![CDATA[Cyber Roundup]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[Digital Defense]]></category>
+		<category><![CDATA[Latest News]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3336</guid>
+
+					<description><![CDATA[<p>Welcome to Canary Trap’s Bi-Weekly Cyber Roundup. At Canary Trap, it is our mission to keep you up-to-date with the most crucial news in the world of cybersecurity and this bi-weekly publication is your gateway to the latest news. This week’s roundup highlights several developments that underscore the evolving risks across today’s digital landscape. We [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/cyber-roundup-march-18/">Canary Trap’s Bi-Weekly Cyber Roundup</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Welcome to Canary Trap’s Bi-Weekly Cyber Roundup. At Canary Trap, it is our mission to keep you up-to-date with the most crucial news in the world of cybersecurity and this bi-weekly publication is your gateway to the latest news.</span></p>
+<p><span style="font-weight: 400;">This week’s roundup highlights several developments that underscore the evolving risks across today’s digital landscape. We begin with a technical failure in a Swiss e-voting pilot that left more than 2,000 ballots unreadable after encryption keys stored on USB devices failed. We then examine a wave of high-severity vulnerability patches issued by major vendors, including Fortinet, Ivanti, and Intel. In the regulatory sphere, a European legal opinion suggests banks should reimburse cybercrime victims before resolving liability disputes. We also cover a confirmed data breach at Michelin tied to an attack targeting Oracle E-Business Suite environments, and conclude with research on the KadNap botnet, which has compromised over 14,000 devices to covertly route malicious internet traffic.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Swiss E-Voting Pilot Can’t Count 2,048 Ballots After USB Keys Fail to Decrypt Them</b></li>
+</ul>
+<p><span style="font-weight: 400;">A pilot electronic voting program in the Swiss canton of Basel-Stadt has been suspended after a technical failure prevented officials from counting more than 2,000 ballots cast during national referendums on March 8. The pilot was limited in scope, allowing approximately 10,300 residents living abroad and 30 voters with disabilities to participate electronically.</span></p>
+<p><span style="font-weight: 400;">Although the system successfully received 2,048 votes, election officials were unable to decrypt them using the hardware provided. According to canton representatives, multiple USB devices containing the required access codes were tested, but none succeeded in unlocking the ballots despite assistance from IT specialists. As a result, the votes could not be included in the official tally.</span></p>
+<p><span style="font-weight: 400;">The affected ballots represented less than four percent of votes cast in Basel-Stadt and would not have altered the referendum outcomes. Nevertheless, authorities acknowledged that the incident compromised the political rights of those voters and have postponed the final certification of results until March 21. The canton has also suspended the e-voting trial until at least the end of the year while an independent technical review is conducted. In parallel, the public prosecutor’s office has opened a criminal investigation to determine whether any wrongdoing occurred.</span></p>
+<p><span style="font-weight: 400;">Switzerland has been cautiously testing electronic voting in four of its 26 cantons, primarily to facilitate participation by citizens living abroad who often face delays with postal ballots. The country has previously struggled with e-voting initiatives; a nationwide system was halted in 2019 after researchers uncovered security vulnerabilities in its software.</span></p>
+<p><span style="font-weight: 400;">Officials emphasized that the issue appears isolated to Basel-Stadt, noting that e-voting pilots in the cantons of Thurgau, Graubünden, and St. Gallen, as well as the Swiss Post platform used nationally, were not affected.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Fortinet, Ivanti, Intel Patch High-Severity Vulnerabilities</b></li>
+</ul>
+<p><span style="font-weight: 400;">Several major technology vendors, including Fortinet, Ivanti, and Intel, have released security updates addressing dozens of vulnerabilities that could potentially enable arbitrary code execution, privilege escalation, or the bypassing of security protections.</span></p>
+<p><span style="font-weight: 400;">Fortinet disclosed patches for 22 vulnerabilities affecting multiple products, including FortiWeb, FortiSwitchAXFixed, FortiManager, and FortiClientLinux. Some of the most serious issues could allow remote, unauthenticated attackers to bypass authentication rate limits or execute unauthorized commands on affected systems.  Another vulnerability in FortiClientLinux, related to improper handling of symbolic links, could allow a local attacker to escalate privileges to root. The company also resolved several medium- and low-severity flaws that could lead to issues such as data manipulation, information disclosure, denial-of-service conditions, arbitrary command execution, or social engineering risks. Fortinet stated that it has no evidence that any of these vulnerabilities are currently being exploited.</span></p>
+<p><span style="font-weight: 400;">Ivanti also issued a security fix for a high-severity vulnerability affecting versions of its Desktop and Server Management (DSM) software prior to version 2026.1.1. If exploited, the flaw could allow an attacker to elevate privileges within affected environments. At the time of disclosure, Ivanti reported no signs of active exploitation.</span></p>
+<p><span style="font-weight: 400;">Meanwhile, Intel released an advisory addressing nine vulnerabilities in the UEFI firmware used on certain Intel reference platforms. Five of these were rated high severity and could allow local attackers to execute code, escalate privileges, or access sensitive information. Firmware updates have been made available for more than 45 affected processor models, and Intel similarly reported no known exploitation of these issues in the wild.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>EU Legal Eagle Says Banks Should Refund Cybercrime Victims First, Argue Later</b></li>
+</ul>
+<p><span style="font-weight: 400;">A senior legal advisor to the European Union has proposed a significant shift in how banks handle reimbursements for victims of online financial fraud. In a recent legal opinion, Advocate General Athanasios Rantos recommended a reinterpretation of the Second Payment Services Directive (PSD2) that would require banks to reimburse fraud victims immediately, rather than delaying repayment while determining whether the customer acted negligently.</span></p>
+<p><span style="font-weight: 400;">Under the current framework, banks typically investigate fraud claims before deciding whether to compensate victims. During this process, institutions often invoke the concept of “gross negligence”, for example, when a customer unknowingly shares login credentials or one-time passcodes with scammers, to justify refusing or delaying reimbursement. As a result, victims can be left facing significant financial hardship while disputes are resolved.</span></p>
+<p><span style="font-weight: 400;">Rantos’s proposal would reverse this dynamic. Banks would be required to refund customers promptly after an unauthorized transaction is reported, even if negligence is suspected. Financial institutions could later attempt to recover the funds if an investigation proves that the customer’s actions contributed to the fraud. Supporters argue that this approach would provide victims with immediate financial protection while still allowing banks to pursue negligence claims afterward.</span></p>
+<p><span style="font-weight: 400;">The recommendation comes as the EU prepares broader reforms through the proposed Third Payment Services Directive (PSD3) and the accompanying Payment Services Regulation (PSR). These measures aim to strengthen fraud prevention by improving Strong Customer Authentication (SCA) requirements and increasing data sharing between merchants and payment providers to better verify transactions.</span></p>
+<p><span style="font-weight: 400;">Because PSD3 and PSR could take years to move through the legislative process, Rantos has suggested accelerating consumer protections by reinterpreting PSD2 in the interim. If adopted by the court, the change would shift more immediate financial risk to banks and place greater pressure on them to detect account compromise and fraudulent activity before payments are processed.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Michelin Confirms Data Breach Linked to Oracles EBS Attack</b></li>
+</ul>
+<p><span style="font-weight: 400;">French tire manufacturer Michelin has confirmed that it was affected by a large-scale cybercrime campaign targeting organizations using Oracle E-Business Suite (EBS). The attack has been publicly attributed to the Cl0p ransomware group, which has claimed responsibility for exploiting previously unknown vulnerabilities in Oracle’s enterprise management platform to access corporate data.</span></p>
+<p><span style="font-weight: 400;">Although Cl0p has acted as the public face of the campaign, cybersecurity researchers believe the operation is likely linked to a broader threat actor cluster, particularly FIN11, which has historically been associated with large-scale data-theft and extortion operations.</span></p>
+<p><span style="font-weight: 400;">The campaign reportedly targeted more than 100 organizations, several of which have appeared on Cl0p’s leak site. Michelin confirmed it was among the affected companies, stating that attackers exploited a zero-day vulnerability in its Oracle EBS environment. According to the company, internal teams quickly investigated the incident and implemented remediation measures, and the issue has since been resolved.</span></p>
+<p><span style="font-weight: 400;">Michelin acknowledged that some files were accessed during the breach but indicated that the exposure was limited to a small volume of localized data and did not involve sensitive information or technical systems. The company also emphasized that the incident did not involve ransomware deployment and did not disrupt its global operations.</span></p>
+<p><span style="font-weight: 400;">Despite those assurances, cybercriminals have published more than 315GB of data they claim was stolen from Michelin. While the contents have not been fully verified, preliminary analysis of file structures suggests that at least some of the data appears to originate from an Oracle EBS environment.</span></p>
+<p><span style="font-weight: 400;">Michelin is not the only organization to confirm involvement in the campaign. Entertainment company Madison Square Garden Entertainment has also acknowledged being targeted, following the earlier release of more than 210GB of allegedly stolen files linked to the same operation.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>KadNap Bot Compromises 14,000+ Devices to Route Malicious Traffic</b></li>
+</ul>
+<p><span style="font-weight: 400;">Security researchers have identified a large-scale malware campaign known as KadNap that has compromised more than 14,000 edge devices, primarily ASUS routers, converting them into a covert proxy botnet used to relay malicious internet traffic. First observed in August 2025, the campaign disproportionately affects the United States, which accounts for more than 60% of infections, though victims have also been identified in Taiwan, Hong Kong, the United Kingdom, Brazil, France, Italy, and Spain.</span></p>
+<p><span style="font-weight: 400;">KadNap operates by installing a malicious ELF binary on infected routers, targeting both ARM and MIPS architectures. Once active, the malware suppresses visible activity by redirecting its input and output streams to `/dev/null`, then collects system information such as the device’s external IP address and synchronizes time through public network time protocol (NTP) servers. These details are used to generate identifiers that allow the infected device to join a peer-to-peer network.</span></p>
+<p><span style="font-weight: 400;">Unlike traditional botnets that rely on centralized command-and-control servers, KadNap uses a modified version of the Kademlia distributed hash table (DHT) protocol to obscure its infrastructure. Through this peer-to-peer model, infected devices can locate command servers without directly revealing their addresses, complicating detection and blocking efforts. However, analysis indicates the implementation is not fully decentralized; infected devices consistently connect through two intermediary nodes before reaching command servers, suggesting attackers maintain persistent infrastructure to retain control.</span></p>
+<p><span style="font-weight: 400;">Once connected, the malware exchanges encrypted communications with peers and retrieves additional payloads that can modify firewall rules, open new communication channels, or execute further malicious scripts.</span></p>
+<p><span style="font-weight: 400;">Traffic routed through compromised devices is believed to be monetized through a proxy service known as Doppelganger, likely associated with infrastructure previously linked to TheMoon malware. This network enables threat actors to mask their activity while conducting operations such as brute-force attacks or targeted exploitation, leaving organizations exposed to persistent and difficult-to-trace threats.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">References:</span></p>
+<p><a href="https://www.theregister.com/2026/03/11/swiss_evote_usb_snafu/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.theregister.com/2026/03/11/swiss_evote_usb_snafu/</span></a></p>
+<p><a href="https://www.securityweek.com/fortinet-ivanti-intel-patch-high-severity-vulnerabilities/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.securityweek.com/fortinet-ivanti-intel-patch-high-severity-vulnerabilities/</span></a></p>
+<p><a href="https://www.theregister.com/2026/03/11/eu_psd2_compensation/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.theregister.com/2026/03/11/eu_psd2_compensation/</span></a></p>
+<p><a href="https://www.securityweek.com/michelin-confirms-data-breach-linked-to-oracle-ebs-attack/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.securityweek.com/michelin-confirms-data-breach-linked-to-oracle-ebs-attack/</span></a></p>
+<p><a href="https://securityaffairs.com/189251/malware/kadnap-bot-compromises-14000-devices-to-route-malicious-traffic.html" target="_blank" rel="noopener"><span style="font-weight: 400;">https://securityaffairs.com/189251/malware/kadnap-bot-compromises-14000-devices-to-route-malicious-traffic.html</span></a></p>
+<p>The post <a href="https://canarytrap.com/cyber-roundup-march-18/">Canary Trap’s Bi-Weekly Cyber Roundup</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Cyber Risk Exposure vs. Liability</title>
+		<link>https://canarytrap.com/cyber-risk-exposure/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Mon, 16 Mar 2026 17:04:21 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Canary Trap]]></category>
+		<category><![CDATA[Cyber Insurance]]></category>
+		<category><![CDATA[Cyber Liability]]></category>
+		<category><![CDATA[Cyber Risk Exposure]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[Digital Resilience]]></category>
+		<category><![CDATA[Risk Managament]]></category>
+		<category><![CDATA[Security Strategy]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3332</guid>
+
+					<description><![CDATA[<p>Cyber risk exposure is often significantly greater than the protection offered by cyber liability coverage. Recent industry findings show that many executives overestimate how well their organizations are protected against the true financial and operational impact of cyber incidents. Cyber liability insurance is designed to transfer specific financial risks, including breach response costs, legal defense, [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/cyber-risk-exposure/">Cyber Risk Exposure vs. Liability</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Cyber risk exposure is often significantly greater than the protection offered by cyber liability coverage. Recent industry findings show that many executives overestimate how well their organizations are protected against the true financial and operational impact of cyber incidents.</span></p>
+<p><span style="font-weight: 400;">Cyber liability insurance is designed to transfer specific financial risks, including breach response costs, legal defense, regulatory penalties, and certain third-party claims. However, liability coverage only addresses predefined loss categories within policy limits.</span></p>
+<p><span style="font-weight: 400;">It does not eliminate the broader exposure created by operational disruption, prolonged downtime, reputational damage, supply chain impact, or long-term customer attrition.</span></p>
+<p><span style="font-weight: 400;">Actual cyber risk exposure includes cascading effects that extend beyond reimbursable losses. For instance: revenue interruption, contractual penalties, compliance obligations, and recovery complexity can amplify the overall financial burden of a breach. In many cases, these indirect and long-tail impacts exceed the coverage thresholds established in insurance policies.</span></p>
+<p><span style="font-weight: 400;">A critical gap emerges when organizations equate insurance coverage with comprehensive risk reduction. Liability transfer is not the same as exposure reduction. While insurance may offset certain costs, it does not reduce the likelihood of an attack, nor does it restore lost trust, operational momentum, or strategic positioning.</span></p>
+<p><span style="font-weight: 400;">As threat actors adopt more sophisticated tactics, including AI-assisted campaigns and multi-stage ransomware operations, exposure becomes more systemic and less predictable.</span></p>
+<p><span style="font-weight: 400;">Effective cyber resilience therefore requires integrated enterprise risk management, rigorous security controls, and executive-level governance that evaluates both insured risk and uninsured exposure.</span></p>
+<p><span style="font-weight: 400;">Closing the gap between cyber liability and actual cyber risk exposure is not a financial exercise alone. It is a strategic imperative.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Hinton, Martin. 2025. “Executives Underestimate Cyberattack Costs, Willis Warns in 2025 Report.” </span><i><span style="font-weight: 400;">Cyber Insurance News.</span></i><span style="font-weight: 400;"> October 7. </span></p>
+<p>&nbsp;</p>
+<p><b>READ: </b><a href="https://bit.ly/3OI0Jbg" target="_blank" rel="noopener"><b>https://bit.ly/3OI0Jbg</b></a></p>
+<p>The post <a href="https://canarytrap.com/cyber-risk-exposure/">Cyber Risk Exposure vs. Liability</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Red Teaming and Legal Risk</title>
+		<link>https://canarytrap.com/red-teaming-legal-risk/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Mon, 09 Mar 2026 17:00:46 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Canary Trap]]></category>
+		<category><![CDATA[Compliance]]></category>
+		<category><![CDATA[Cyber Governance]]></category>
+		<category><![CDATA[Cyber Law]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[Digital Risk]]></category>
+		<category><![CDATA[Legal Risk]]></category>
+		<category><![CDATA[Red Teaming]]></category>
+		<category><![CDATA[Risk Management]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3292</guid>
+
+					<description><![CDATA[<p>Red teaming is becoming a critical practice for organizations deploying advanced technologies, particularly AI systems and complex digital infrastructure. By simulating real-world adversarial attacks, red teaming helps identify vulnerabilities before malicious actors exploit them. However, the practice also raises important legal and regulatory considerations that extend far beyond technical security. One major issue is product [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/red-teaming-legal-risk/">Red Teaming and Legal Risk</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Red teaming is becoming a critical practice for organizations deploying advanced technologies, particularly AI systems and complex digital infrastructure. By simulating real-world adversarial attacks, red teaming helps identify vulnerabilities before malicious actors exploit them. However, the practice also raises important legal and regulatory considerations that extend far beyond technical security.</span></p>
+<p><span style="font-weight: 400;">One major issue is product liability. If red team exercises uncover foreseeable risks that are not adequately addressed, organizations may face increased exposure in the event of harm. Documentation created during testing can demonstrate awareness of potential weaknesses, which may later become relevant in litigation or regulatory investigations.</span></p>
+<p><span style="font-weight: 400;">Regulatory expectations are also evolving. Frameworks such as the EU Artificial Intelligence Act and emerging global AI governance models are pushing organizations to conduct structured adversarial testing for high-risk systems. In this context, red teaming is no longer optional or experimental. It becomes part of a broader compliance obligation tied to accountability, transparency, and risk mitigation.</span></p>
+<p><span style="font-weight: 400;">There is also the question of documentation and privilege. Red team reports often contain detailed exploit paths, system weaknesses, and operational gaps. Without clear policies, these materials could create discovery risks in legal proceedings. Cross functional coordination is also essential. Security teams may focus on technical resilience, while legal and compliance leaders evaluate regulatory exposure and governance implications.</span></p>
+<p><span style="font-weight: 400;">Ultimately, red teaming delivers immense value. It reveals blind spots, stress tests controls, and improves organizational readiness. But its effectiveness depends not only on technical rigor, but also on legal foresight. Organizations that align red teaming with compliance strategy position themselves to innovate responsibly while reducing unintended liability.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">CMS Law-Now. 2025. “Legal Issues on Red Teaming in Artificial Intelligence” May 27. </span></p>
+<p>&nbsp;</p>
+<p><b>READ: </b><a href="https://bit.ly/4qKYe5n" target="_blank" rel="noopener"><b>https://bit.ly/4qKYe5n</b></a></p>
+<p>The post <a href="https://canarytrap.com/red-teaming-legal-risk/">Red Teaming and Legal Risk</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Canary Trap’s Bi-Weekly Cyber Roundup</title>
+		<link>https://canarytrap.com/cyber-roundup-march-4/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Wed, 04 Mar 2026 17:07:21 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Canary Trap]]></category>
+		<category><![CDATA[Cyber Roundup]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[Digital Defense]]></category>
+		<category><![CDATA[Latest News]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3279</guid>
+
+					<description><![CDATA[<p>Welcome to Canary Trap’s Bi-Weekly Cyber Roundup. Our mission is to keep you informed with the most pressing developments in the world of cybersecurity. This digest serves as your gateway to critical updates and emerging threats across the industry. This week’s roundup examines what cyber risk really looks like in practice. We explore why a [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/cyber-roundup-march-4/">Canary Trap’s Bi-Weekly Cyber Roundup</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Welcome to Canary Trap’s Bi-Weekly Cyber Roundup. Our mission is to keep you informed with the most pressing developments in the world of cybersecurity. This digest serves as your gateway to critical updates and emerging threats across the industry.</span></p>
+<p><span style="font-weight: 400;">This week’s roundup examines what cyber risk really looks like in practice. We explore why a surge in disclosed vulnerabilities does not necessarily translate into widespread exploitation, how autonomous endpoint management is emerging as a core security control rather than an operational convenience, and what recent breaches at major consumer-facing platforms reveal about trust, disclosure, and accountability. We also examine the fallout from a large-scale data exposure affecting millions of users, and a new “Richter scale”-style model designed to bring much-needed clarity to the real-world impact of OT cyber incidents.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Vulnerabilities Grew Like Weeds in 2025, but Only 1% Were Weaponized in Attacks</b></li>
+</ul>
+<p><span style="font-weight: 400;">Threat actors had no shortage of opportunity in 2025, with more than 40,000 new vulnerabilities disclosed over the course of the year. Yet research from VulnCheck shows that only a fraction of those flaws, around 1%, or 422 vulnerabilities, were actually exploited in the wild. The findings reinforce a growing concern across the security community: volume alone has made traditional vulnerability prioritization increasingly ineffective.</span></p>
+<p><span style="font-weight: 400;">As CVE counts continue to climb and CVSS scores lose their practical value, many defenders are shifting focus toward vulnerabilities with confirmed, real-world exploitation. VulnCheck’s analysis highlights a persistent challenge for security teams, separating theoretical risk from threats that are actively being weaponized. Indicators that once helped guide patching decisions are no longer reliable at scale, leaving organizations overwhelmed and unsure where to focus limited resources.</span></p>
+<p><span style="font-weight: 400;">The data shows that attackers consistently gravitate toward the same types of technologies, particularly products with large market penetration or strategic network placement. Network edge devices remain especially attractive targets, accounting for more than a quarter of products affected by newly exploited vulnerabilities in 2025. These systems often sit in privileged positions, controlling access to internal networks, and many still rely on aging codebases that attackers know well.</span></p>
+<p><span style="font-weight: 400;">This imbalance is compounded by attacker efficiency. While defenders struggle with tooling, staffing, and prioritization, threat actors operate highly automated pipelines capable of rapidly identifying and exploiting new flaws. As a result, defenders increasingly must assume that any exposed edge device could harbor a zero-day vulnerability, and that patches will be reverse-engineered quickly once released.</span></p>
+<p><span style="font-weight: 400;">VulnCheck’s report found that every vulnerability in its top 50 list was exploited extensively, with dozens of public exploits, involvement from multiple threat groups, and clear ties to ransomware and botnet activity. Several of the most heavily targeted flaws were zero-days affecting Microsoft SharePoint, which were exploited at scale and led to compromises across hundreds of organizations, including U.S. federal agencies.</span></p>
+<p><span style="font-weight: 400;">Unsurprisingly, Microsoft led the list of vendors with the most routinely exploited vulnerabilities, followed by Ivanti, Fortinet, and VMware. SonicWall and Oracle also featured prominently, underscoring how frequently enterprise infrastructure products are abused once flaws emerge.</span></p>
+<p><span style="font-weight: 400;">The most exploited vulnerability of the year was React2Shell, a critical flaw in React Server Components disclosed by Meta. Within weeks of disclosure, hundreds of working exploits surfaced, and incident responders at Palo Alto Networks Unit 42 confirmed widespread real-world impact.</span></p>
+<p><span style="font-weight: 400;">Ultimately, VulnCheck’s findings point to a systemic issue rather than isolated vendor failures. Modern technology ecosystems, across cloud, networking, and application layers, are proving difficult to secure at scale. Without a shift toward more resilient design and more ruthless prioritization based on observed exploitation, defenders will continue to fall behind. As the research makes clear, the challenge is no longer identifying vulnerabilities, it is deciding which ones actually matter.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Autonomous Endpoint Management Isn’t Just Efficiency, It’s a Security Imperative</b></li>
+</ul>
+<p><span style="font-weight: 400;">Cybersecurity today is constrained by a widening imbalance between attacker velocity and defender response. On one side of the equation, threat actors are moving faster than ever, data from CrowdStrike’s latest threat research shows that initial compromise now routinely occurs in under an hour, with some intrusions unfolding in under a minute. On the other, defenders remain bound to remediation timelines that stretch into weeks. According to the Verizon Data Breach Investigations Report, the median time to remediate exposed edge devices still sits at roughly a month.</span></p>
+<p><span style="font-weight: 400;">This gap is no longer an operational inconvenience; it is the core security failure mode. Exposure time has become the dominant risk metric, eclipsing traditional measures of control maturity or compliance. When adversaries operate at machine speed and remediation depends on human-driven workflows, failure is structural, not procedural.</span></p>
+<p><span style="font-weight: 400;">The traditional patching model is fundamentally misaligned with modern exploit timelines. A growing share of critical vulnerabilities are weaponized within hours of disclosure, not weeks. Once a flaw is public, the clock starts immediately, and every unpatched minute becomes an opportunity for exploitation.</span></p>
+<p><span style="font-weight: 400;">This pressure is amplified by scale. The Cybersecurity and Infrastructure Security Agency has dramatically expanded its Known Exploited Vulnerabilities catalog, reflecting both an increase in attacker activity and the industrialization of vulnerability abuse. For organizations reliant on manual triage, approvals, and maintenance windows, this is not a backlog problem, it is an unwinnable race.</span></p>
+<p><span style="font-weight: 400;">In this environment, operational latency itself becomes a vulnerability. Human-driven processes, ticket queues, spreadsheets, change boards, introduce delays that attackers are explicitly counting on.</span></p>
+<p><span style="font-weight: 400;">Mean Time to Patch (MTTP) is often discussed as an IT efficiency metric, but in practice it measures how long an organization knowingly accepts risk. Recent endpoint management research shows that a majority of enterprises either require several days to deploy patches or lack clear visibility into their own patch timelines. Only a small fraction can reliably remediate within 24 hours.</span></p>
+<p><span style="font-weight: 400;">This is despite long-standing guidance from the National Institute of Standards and Technology, which recommends that critical patches be applied within 30 days, a threshold that many organizations still fail to meet. Meanwhile, breach data from IBM indicates that compromises often persist for months before detection and containment, compounding the damage caused by slow remediation.</span></p>
+<p><span style="font-weight: 400;">When security teams cannot confidently answer how quickly they patch, they lack a meaningful understanding of their real-time risk exposure.</span></p>
+<p><span style="font-weight: 400;">Incremental automation, periodic scans combined with human approvals, does little to address the root issue. Fixed patch cycles and manual sign-offs bake delay into the process by design. Even when tooling is available, operational friction discourages timely action, especially when patching competes with other priorities.</span></p>
+<p><span style="font-weight: 400;">The industry is already acknowledging this limitation. Gartner forecasts a broad shift toward pre-emptive and autonomous defensive capabilities over the coming years, not as a matter of innovation, but necessity. Defender workflows must compress to match attacker timelines, or risk will continue to accumulate faster than it can be reduced.</span></p>
+<p><span style="font-weight: 400;">Skepticism toward fully autonomous remediation is understandable. Concerns around unintended changes, data privacy, and loss of control are legitimate and widely shared. However, these are solvable engineering challenges, not fundamental blockers.</span></p>
+<p><span style="font-weight: 400;">Modern autonomous systems increasingly incorporate safeguards such as automated rollback, execution pause controls, and detailed audit logging. When these guardrails are present, autonomy delivers something manual operations never can: consistent, immediate action at scale, without fatigue or delay.</span></p>
+<p><span style="font-weight: 400;">As organizations look ahead, vulnerability exposure time is emerging as the most consequential security metric. Attackers measure success in seconds and minutes; defenders still respond in days and weeks. Autonomous endpoint management is currently the only viable way to close that gap.</span></p>
+<p><span style="font-weight: 400;">The business case is already clear. AI-assisted security operations can potentially dramatically reduce breach lifecycles and associated costs. At this point, delaying automation is no longer a conservative choice, it is an active risk decision.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Wynn Resorts Takes Attacker’s Word for It That Stolen Staff Data Was Deleted</b></li>
+</ul>
+<p><span style="font-weight: 400;">Wynn Resorts has confirmed that a recent cyber intrusion resulted in the theft of employee data, following claims by the extortion group ShinyHunters. In its first public statement since the incident, the casino and resort operator acknowledged unauthorized access to internal systems and said the attackers have asserted that the stolen data was deleted.</span></p>
+<p><span style="font-weight: 400;">According to Wynn, the breach was identified quickly, triggering incident response procedures and a forensic investigation supported by external cybersecurity specialists. While the company says it has not observed any evidence that the data has been published or abused, it is relying largely on the attackers’ assurances that the information has been destroyed, an assertion that many security professionals view with skepticism.</span></p>
+<p><span style="font-weight: 400;">That skepticism was echoed by security operations managers, who noted that claims of data deletion often coincide with the conclusion of an extortion negotiation. As he explained, there is no technical mechanism for a victim organization to verify that threat actors have permanently erased stolen data. In practice, such data is frequently retained, resold, or leaked months later, regardless of any promises made during negotiations. Wynn declined to comment on whether a ransom demand was made or paid.</span></p>
+<p><span style="font-weight: 400;">Despite stating that the incident did not disrupt hotel operations or guest services, Wynn is offering affected employees complimentary credit monitoring and identity protection. The move reflects standard post-breach risk mitigation, and, implicitly, the limited trust placed in criminal assurances. As Agha noted, providing credit monitoring is a tacit acknowledgment that attacker promises offer no meaningful security guarantee.</span></p>
+<p><span style="font-weight: 400;">The incident also revives long-standing concerns within the security community. Past law enforcement actions, including those by the UK’s National Crime Agency against ransomware groups, have reinforced the view that stolen data is rarely deleted, even after payment. Investigations into dismantled leak sites have repeatedly shown archives of victim data retained well beyond supposed “resolution” points.</span></p>
+<p><span style="font-weight: 400;">ShinyHunters claims the Wynn breach dates back several months and alleges it was enabled through exploitation of an Oracle PeopleSoft vulnerability combined with compromised employee credentials. Samples of the data shared with journalists reportedly included detailed employee records such as contact information, job roles, compensation details, and dates of birth.</span></p>
+<p><span style="font-weight: 400;">While ShinyHunters operates independently, it has been loosely associated with other high-profile threat collectives active in the hospitality sector. Previous attacks against major casino operators, including Caesars Entertainment and MGM Resorts, led to arrests tied to a related group, underscoring the sustained targeting of this industry.</span></p>
+<p><span style="font-weight: 400;">Wynn concluded its statement by emphasizing ongoing investments in security controls and third-party expertise to reduce future risk. As this incident illustrates, however, even rapid response and containment do little to resolve the fundamental uncertainty that follows any extortion-driven data breach: once sensitive data leaves the organization, control over its fate is effectively lost.</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><b>Over 12 Million Users Impacted by CarGurus Data Breach</b></li>
+</ul>
+<p><span style="font-weight: 400;">More than 12 million users may have been impacted by a large-scale data breach involving CarGurus, a popular automotive research and car-shopping platform.</span></p>
+<p><span style="font-weight: 400;">The incident came to light after the extortion group ShinyHunters listed CarGurus on its Tor-based leak site, alleging the theft of both personally identifiable information (PII) and internal corporate data. While the group initially claimed responsibility for approximately 1.7 million records, it later released a 6.1GB data archive that appears to contain information linked to roughly 12.5 million user accounts.</span></p>
+<p><span style="font-weight: 400;">According to Have I Been Pwned, the exposed data includes names, physical addresses, email addresses, phone numbers, and IP addresses. The dataset reportedly spans multiple file types, including user account ID mappings, finance pre-qualification application data, and dealer account and subscription records. The breach notification service also noted that around 70% of the exposed email addresses had already appeared in previous breaches.</span></p>
+<p><span style="font-weight: 400;">As of publication, CarGurus has not publicly acknowledged the incident. Requests for comment have been sent, but no official response has been issued confirming or disputing the claims.</span></p>
+<p><span style="font-weight: 400;">The initial intrusion vector remains unclear. However, ShinyHunters has a documented history of leveraging sophisticated social engineering techniques, particularly voice phishing (vishing), to gain access to corporate environments. The group has been linked to a broad campaign targeting more than 100 organizations in recent months, with victims reportedly including Optimizely, Figure, Panera Bread, and Crunchbase.</span></p>
+<p><span style="font-weight: 400;">This incident adds to growing concerns around large-scale credential exposure and the continued effectiveness of human-centric attack techniques, even within mature technology-driven organizations.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>“Richter Scale” Model Measures Magnitude of OT Cyber Incidents</b></li>
+</ul>
+<p><span style="font-weight: 400;">A new framework designed to assess the real-world impact of operational technology (OT) cyber incidents is being introduced to address a long-standing gap in how such events are understood and communicated. Known as the OT Incident (OTI) Impact Score, the model aims to bring clarity and consistency to incident reporting by focusing on measurable business and societal outcomes rather than technical speculation.</span></p>
+<p><span style="font-weight: 400;">Developed by industry veterans and set to debut at the S4 conference, the OTI Impact Score was co-created by Dale Peterson, founder of Digital Bond, who argues that OT incidents are routinely mischaracterized. In many cases, their consequences are either exaggerated or understated, leaving executives, policymakers, insurers, and the public without a clear understanding of what actually occurred. The OTI model is intended to correct that by offering a standardized, rapid assessment of impact.</span></p>
+<p><span style="font-weight: 400;">The scoring system borrows conceptually from the Richter scale used in seismology. Rather than measuring technical sophistication, it evaluates incidents across three dimensions: severity (ranging from minor disruption to catastrophic damage), reach (the geographic or population scope), and duration (how long operations are affected). Each factor is scored independently, combined mathematically, and normalized to produce a single OTI Impact Score.</span></p>
+<p><span style="font-weight: 400;">Crucially, the model defines an OT cybersecurity incident based on operational outcome, not network boundaries. An event qualifies if OT systems are unable to operate normally, even if the root cause lies entirely within IT systems. This reflects real-world industrial dependencies, where IT outages, such as ransomware affecting scheduling, logistics, or inventory platforms, can halt physical operations without ever touching the control network itself.</span></p>
+<p><span style="font-weight: 400;">Industry analysts see practical value in this approach, particularly given the diversity of roles responsible for OT security. According to research, a significant proportion of OT security decision-makers come from IT, engineering, or infrastructure backgrounds rather than traditional OT roles. A shared impact metric could help align understanding across these disciplines, especially as OT- and IoT-related cyber incidents continue to affect a substantial portion of industrial organizations each year.</span></p>
+<p><span style="font-weight: 400;">To ensure timely assessments, vetted volunteers from the ICS/OT community will use an online portal to score incidents, with the goal of publishing results within 12 hours. Proponents argue this could improve incident response coordination, inform cyber insurance evaluations, and reduce confusion in public and media narratives by anchoring discussions in observable impact.</span></p>
+<p><span style="font-weight: 400;">The creators have also demonstrated the model using historical incidents. The 2021 ransomware attack on Colonial Pipeline, which disrupted fuel deliveries across the U.S. East Coast, received a “high impact” score due to its broad reach, multi-day duration, and tangible effects on energy supply. By contrast, a localized 2024 intrusion at a small Texas water utility, quickly contained with no service interruption, scored effectively zero, illustrating the model’s ability to distinguish between headline-grabbing events and genuinely consequential ones.</span></p>
+<p><span style="font-weight: 400;">Supporters believe the OTI Impact Score could shift industry conversations away from debates over whether an incident was “IT or OT” and toward what ultimately matters: business continuity, public safety, and societal disruption. It may also appeal to regulators and standards bodies seeking a common baseline for evaluating industrial cyber risk, potentially including agencies such as Cybersecurity and Infrastructure Security Agency.</span></p>
+<p><span style="font-weight: 400;">That said, open questions remain. Critics note that reputational damage, long-term financial fallout, and the challenge of determining when an incident truly ends are difficult to capture in a single score. Whether the OTI Impact Score becomes a widely adopted standard will depend on industry uptake and how well it performs during live, complex incidents.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">References:</span></p>
+<p><a href="https://cyberscoop.com/vulncheck-exploited-vulnerabilities-report-2025/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://cyberscoop.com/vulncheck-exploited-vulnerabilities-report-2025/</span></a></p>
+<p><a href="https://hackread.com/autonomous-endpoint-management-security-imperative/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://hackread.com/autonomous-endpoint-management-security-imperative/</span></a></p>
+<p><a href="https://www.theregister.com/2026/02/25/wynn_resorts_shinyhunters/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.theregister.com/2026/02/25/wynn_resorts_shinyhunters/</span></a></p>
+<p><a href="https://www.securityweek.com/over-12-million-users-impacted-by-cargurus-data-breach/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.securityweek.com/over-12-million-users-impacted-by-cargurus-data-breach/</span></a></p>
+<p><a href="https://www.darkreading.com/ics-ot-security/richter-scale-model-measures-cyber-incidents" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.darkreading.com/ics-ot-security/richter-scale-model-measures-cyber-incidents</span></a></p>
+<p>The post <a href="https://canarytrap.com/cyber-roundup-march-4/">Canary Trap’s Bi-Weekly Cyber Roundup</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Cybersecurity Leadership: More Than IT</title>
+		<link>https://canarytrap.com/cybersecurity-leadership/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Mon, 02 Mar 2026 17:07:30 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Business Resilience]]></category>
+		<category><![CDATA[Canary Trap]]></category>
+		<category><![CDATA[Cyber Governance]]></category>
+		<category><![CDATA[Cyber Resilience]]></category>
+		<category><![CDATA[Cyber Risk]]></category>
+		<category><![CDATA[Cybersecurity Leadership]]></category>
+		<category><![CDATA[Digital Risk]]></category>
+		<category><![CDATA[Enterprise Security]]></category>
+		<category><![CDATA[Risk Management]]></category>
+		<category><![CDATA[Security Strategy]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3275</guid>
+
+					<description><![CDATA[<p>Cybersecurity leadership has become a defining business priority that reaches far beyond servers, software, and security teams. What was once viewed as a technical responsibility now directly influences revenue, reputation, regulatory exposure, and competitive advantage. Organizations that still treat security as an isolated IT function are failing to recognize how deeply digital risk is woven [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/cybersecurity-leadership/">Cybersecurity Leadership: More Than IT</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Cybersecurity leadership has become a defining business priority that reaches far beyond servers, software, and security teams. What was once viewed as a technical responsibility now directly influences revenue, reputation, regulatory exposure, and competitive advantage. Organizations that still treat security as an isolated IT function are failing to recognize how deeply digital risk is woven into everyday operations.</span></p>
+<p><span style="font-weight: 400;">Every modern organization runs on interconnected systems, third party platforms, cloud services, and digital supply chains. This interconnectedness creates opportunity, but it also expands the attack surface. A single vulnerability can disrupt logistics, halt customer transactions, expose sensitive data, and trigger regulatory scrutiny. The financial impact of a breach now extends well beyond remediation costs. It includes lost productivity, contractual penalties, litigation, reputational damage, and long term erosion of customer confidence.</span></p>
+<p><span style="font-weight: 400;">Because of this reality, cybersecurity can no longer sit on the sidelines of executive decision making. Boards and senior leaders must treat cyber risk with the same seriousness as financial, legal, and operational risk. Security strategy should be embedded into business planning, mergers and acquisitions, product development, and market expansion efforts. When leadership understands the implications of digital exposure, security becomes proactive rather than reactive.</span></p>
+<p><span style="font-weight: 400;">This transformation requires cultural alignment across departments. Finance teams influence risk through budgeting and vendor decisions. Human resources shapes employee awareness and insider risk mitigation. Legal and compliance teams navigate evolving regulatory requirements. Operations and product teams determine how securely new services are designed and deployed. Cyber resilience emerges when these functions operate with shared accountability rather than siloed responsibility.</span></p>
+<p><span style="font-weight: 400;">Ultimately, cybersecurity reflects organizational maturity. It signals whether leadership understands that digital infrastructure is inseparable from business performance. In a landscape defined by sophisticated threat actors, supply chain vulnerabilities, and accelerating technological change, security is not simply about protecting data. It is about preserving continuity, credibility, and long term growth.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Muthu, Senthil. 2025. “Cybersecurity Is No Longer Just an IT Problem — It’s a Business Imperative” </span><i><span style="font-weight: 400;">Forbes. </span></i><span style="font-weight: 400;">October 3. </span></p>
+<p>&nbsp;</p>
+<p><b>READ: </b><a href="https://bit.ly/4aZzwtc" target="_blank" rel="noopener"><b>https://bit.ly/4aZzwtc</b></a></p>
+<p>The post <a href="https://canarytrap.com/cybersecurity-leadership/">Cybersecurity Leadership: More Than IT</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>LLM Testing and the New Reality of Adaptive Attacks</title>
+		<link>https://canarytrap.com/llm-testing-blog/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Mon, 23 Feb 2026 17:03:16 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[AI Governance]]></category>
+		<category><![CDATA[AI Risk]]></category>
+		<category><![CDATA[AI Security]]></category>
+		<category><![CDATA[Canary Trap]]></category>
+		<category><![CDATA[Large Language Models]]></category>
+		<category><![CDATA[LLM Testing]]></category>
+		<category><![CDATA[Offensive Security]]></category>
+		<category><![CDATA[Security Testing]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3265</guid>
+
+					<description><![CDATA[<p>LLM testing is rapidly becoming a critical security consideration as large language models move from experimental tools into core business systems. This ITPro article highlights a key shift in the threat landscape: attackers are already using LLMs to generate malicious JavaScript in real time, adapting their techniques dynamically to target browser-based environments. Unlike traditional malware, [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/llm-testing-blog/">LLM Testing and the New Reality of Adaptive Attacks</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">LLM testing is rapidly becoming a critical security consideration as large language models move from experimental tools into core business systems. This ITPro article highlights a key shift in the threat landscape: attackers are already using LLMs to generate malicious JavaScript in real time, adapting their techniques dynamically to target browser-based environments.</span></p>
+<p><span style="font-weight: 400;">Unlike traditional malware, these AI-assisted attacks are not static. The article describes how LLMs can adjust outputs based on context, target behavior, or defensive responses. This adaptability makes detection more difficult and exposes a fundamental challenge for organizations deploying LLM-powered features without fully understanding how those systems behave under adversarial pressure.</span></p>
+<p><span style="font-weight: 400;">From a testing standpoint, this signals a clear shift. Many security programs are built around identifying known vulnerabilities or validating fixed behaviors. LLMs, by contrast, introduce probabilistic and emergent behavior that can change based on prompts, data exposure, and interaction patterns. Testing focused only on intended use cases may fail to reveal how models respond when manipulated, stressed, or intentionally misused.</span></p>
+<p><span style="font-weight: 400;">LLM risk extends beyond the model itself. When LLMs generate or influence executable code, their outputs can directly affect browsers, APIs, and downstream systems. This creates a chain of exposure where a single AI-driven interaction can trigger broader security consequences, even when traditional controls are in place.</span></p>
+<p><span style="font-weight: 400;">The business implications are difficult to ignore. LLMs increasingly support customer engagement, automation, and decision-making. If these systems can be coerced into producing malicious or unsafe outputs, organizations face operational disruption, legal exposure, and loss of trust. These outcomes stem from the same adaptive capabilities that make LLMs attractive in the first place.</span></p>
+<p><span style="font-weight: 400;">As AI-driven systems continue to evolve, LLM testing becomes a necessary mechanism for maintaining control over systems designed to learn, adapt, and respond dynamically.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Woollacott, Emma. 2026. “Hackers Are Using LLMs to Generate Malicious JavaScript in Real Time — And They’re Going After Web Browsers” </span><i><span style="font-weight: 400;">ITPro. </span></i><span style="font-weight: 400;">January 28. </span></p>
+<p><b>READ: </b><a href="https://bit.ly/4qe8wKX" target="_blank" rel="noopener"><b>https://bit.ly/4qe8wKX</b></a></p>
+<p>The post <a href="https://canarytrap.com/llm-testing-blog/">LLM Testing and the New Reality of Adaptive Attacks</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

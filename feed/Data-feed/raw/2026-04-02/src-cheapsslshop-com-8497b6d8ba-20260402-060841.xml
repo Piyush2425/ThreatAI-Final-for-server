@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Blog &#8211; CheapSSLShop Blogs, News, Updates and Online Security Tips</title>
+	<atom:link href="https://www.cheapsslshop.com/blog/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.cheapsslshop.com</link>
+	<description>cheap price ssls</description>
+	<lastBuildDate>Thu, 26 Mar 2026 07:30:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.5</generator>
+
+<image>
+	<url>https://www.cheapsslshop.com/wp-content/uploads/2022/06/favicon.png</url>
+	<title>Blog &#8211; CheapSSLShop Blogs, News, Updates and Online Security Tips</title>
+	<link>https://www.cheapsslshop.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Why Unsigned Software Triggers Security Warnings (&#038; How Code Signing Prevents It)</title>
+		<link>https://www.cheapsslshop.com/blog/why-unsigned-software-triggers-security-warnings</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2026 07:30:56 +0000</pubDate>
+				<category><![CDATA[Code Signing]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14088</guid>
+
+					<description><![CDATA[Unsigned software triggers security warnings because operating systems have no way to verify who built the file or whether it has been tampered with. Windows and macOS run a trust check on every executable before it is executed, and without a valid signature, that check fails by default. But signing alone does not eliminate every warning. Software reputation plays a role too, and most developers only find out after release. This post covers how OS trust evaluation works, what code signing does, and what to get right before distributing software publicly. What Happens When You Run Unsigned Software When a user launches downloaded software, the OS attempts to check the publisher and the code of the software. They verify publisher identity, file integrity, and reputation. Without digital signatures of the software, the operating system does not know who created the software and treats unsigned software as a potential threat. Typical Warning Examples The OS stops the execution and shows the user one of the following: The publisher warning: Windows UAC has the label of an unverified and untrusted publisher. Windows Defender SmartScreen alert: Prevents the execution of unidentified or unverified files with respect to the Microsoft database of cloud recognition. [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What is an SSL Stripping Attack and How to Prevent It</title>
+		<link>https://www.cheapsslshop.com/blog/what-is-ssl-stripping-attack-how-to-prevent-it</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 19 Mar 2026 09:15:56 +0000</pubDate>
+				<category><![CDATA[SSL University]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14078</guid>
+
+					<description><![CDATA[For years, people learned to associate HTTPS with a “secure site.” When a browser connects using SSL/TLS, the traffic between the user and the server is encrypted, which prevents outsiders from reading or modifying the data in transit. SSL stripping attacks exploit a weak moment in that process. An attacker positioned on the network intercepts the initial request and prevents the browser from switching to HTTPS. The victim continues over plain HTTP, while the attacker keeps a secure session with the real server in the background. What looks like a normal browsing session is actually exposed traffic. This article walks through what SSL stripping is, how the attack works, the risks it creates, and the practical defenses that stop it. What is an SSL Stripping Attack? An SSL stripping attack is a downgrade technique that forces a web session to stay on HTTP instead of upgrading to secure network. Because it forces a downgrade from HTTPS to HTTP, the technique is often called an SSL downgrade attack. In this man-in-the-middle attack, the perpetrator intercepts network traffic and either deletes or strips out the encryption layer between the browser and the web server. SSL certificates encrypt the traffic and authenticate the [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>How to Set Up DMARC &#038; Prepare Your Domain for VMC Certificate</title>
+		<link>https://www.cheapsslshop.com/blog/how-to-set-up-dmarc-and-prepare-your-domain-for-vmc-certificate</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 12 Mar 2026 13:34:43 +0000</pubDate>
+				<category><![CDATA[Anti-Phishing & Email Security]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14069</guid>
+
+					<description><![CDATA[Email providers no longer trust a domain just because it appears in the “From” address. Authentication has to back it up and that’s where DMARC comes in. Any domain planning to deploy a Verified Mark Certificate must first run DMARC with an enforcement policy. Mail providers rely on that policy to verify the sender before showing a brand logo in the inbox. This guide walks through the practical side of it: setting up DMARC and moving the domain toward enforcement, so it’s ready for BIMI and VMC deployment. What is DMARC? DMARC (Domain-based Message Authentication, Reporting &#38; Conformance) is an email authentication policy published as a TXT record in DNS. It lets receiving mail servers verify whether messages claiming to come from your domain are actually authorized. DMARC works on top of SPF and DKIM, checking that at least one of them passes and aligns with the sending domain. The record also tells receivers what to do when authentication fails. Three policies exist: p=none for monitoring p=quarantine to route suspicious mail to spam p=reject to block it outright Beyond enforcement, DMARC produces reports that show which systems are sending mail using your domain and whether those messages pass authentication. Also [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>HSM vs TPM: Security Comparison, Use Cases, and Deployment</title>
+		<link>https://www.cheapsslshop.com/blog/hsm-vs-tpm-security-comparison-use-cases-and-deployment</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 05 Mar 2026 12:38:58 +0000</pubDate>
+				<category><![CDATA[Code Signing]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14061</guid>
+
+					<description><![CDATA[Hardware Security Modules (HSM) and Trusted Platform Modules (TPM) are hardware-based security components built to protect cryptographic keys and operations. Both generate and protect cryptographic keys, but they operate in very different ways. They solve different problems and are not interchangeable. HSMs protect sensitive data in regulated industries without becoming a performance bottleneck. TPMs are built to secure individual devices at the hardware level. The real distinction comes down to scope, control, and deployment model. This guide compares HSM vs TPM across security architecture, real-world use cases, and operational deployment decisions &#8211; without blurring the line between device trust and enterprise cryptography. What is a TPM? Trusted Platform Modules (TPM) is a dedicated security chip that has been directly embedded into the motherboard of a device. It is a hardware root of trust that creates a base layer of security on which the operating system and software can depend. TPM is entirely device-oriented as opposed to centralized security systems. It also creates and stores cryptographic keys in the local environment. This localized manner would enable the TPM to contribute to such critical functions as secure boot and device integrity checks. It ensures system firmware or software does not get compromised [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>How to Trademark Your Logo for a Verified Mark Certificate (VMC)</title>
+		<link>https://www.cheapsslshop.com/blog/how-to-trademark-your-logo-for-a-verified-mark-certificate</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 27 Feb 2026 09:18:50 +0000</pubDate>
+				<category><![CDATA[Anti-Phishing & Email Security]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14051</guid>
+
+					<description><![CDATA[If you want your logo to appear next to your emails with a Verified Mark Certificate, one of the core prerequisites is that your logo must be a registered trademark. This guide walks through what qualifies as an acceptable trademark, how to register your logo correctly, and what to prepare before submitting VMC validation. Why Trademarking Your Logo is Required for a VMC Certificate A Verified Mark Certificate allows a registered logo next to authenticated emails in supported inboxes such as Gmail and Apple Mail. The certificate is issued against a logo that has an active, fully registered trademark. Trademark registration establishes legal ownership through a recognized intellectual property office. During VMC issuance, the Certificate Authority verifies that ownership directly in the official trademark database and confirms that the submitted logo matches the registered design. From an enforcement standpoint, this makes sense. This requirement exists to prevent logo spoofing within the BIMI framework. Inbox logo display creates a visual trust signal, and in supported environments like Gmail it also includes the verified blue checkmark. Without trademark validation, anyone could upload a polished logo and claim it. Registering the logo ties it to a legal entity. That connection is what allows [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AES vs DES Encryption Algorithms: Comparison Guide</title>
+		<link>https://www.cheapsslshop.com/blog/aes-vs-des-encryption-algorithms-comparison-guide</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 20 Feb 2026 06:26:23 +0000</pubDate>
+				<category><![CDATA[SSL University]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14035</guid>
+
+					<description><![CDATA[Encryption is a control layer, standing between your production database and a ransom note. It protects data at rest, in motion, and inside applications. If the algorithm is weak, everything above it is exposed, TLS, VPNs, disk encryption, authentication systems, all of it. AES and DES both come from the same world: symmetric block ciphers, single secret key, predictable structure. That’s where the similarity ends. DES was built for hardware from another era. Its key space is small enough to be brute-forced with rented cloud time. It survives today only because legacy systems still depend on it. AES was created to replace DES, not extend it. It uses 128-bit blocks, supports 128/192/256-bit keys, and scales across software and hardware platforms. It is fast, resistant to known cryptanalytic attacks, and widely implemented in modern protocols. This guide breaks down AES vs DES &#8211; how they’re built, how they behave under real workloads, and why one is still safe to deploy while the other is not. What is DES (Data Encryption Standard)? Data Encryption Standard (DES) is a symmetric cipher, which is mostly used for legacy applications. First developed by IBM, it was initially used to protect sensitive US government data. DES [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>10 Cost-Saving Tips to Buy SSL Certificates at the Best Price</title>
+		<link>https://www.cheapsslshop.com/blog/cost-saving-tips-to-buy-ssl-certificate-at-best-price</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 13 Feb 2026 09:03:52 +0000</pubDate>
+				<category><![CDATA[SSL University]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14022</guid>
+
+					<description><![CDATA[Every website need SSL certificate that handles forms, logins, payments, or user data. If encryption is not enabled, browsers block forms, APIs fail behind mixed content, and search engines flag unencrypted pages. Certificates that use the same encryption and are trusted by the same browsers can still cost different amounts. The difference is it&#8217;s structure, coverage, validation, and how the certificate is bought and renewed. Most teams overspend because they pick the wrong type or buy without checking alternatives. This guide shows where SSL costs come from and how to cut them without weakening security. Why SSL Prices Vary So Widely SSL certificates cost can vary, even when they meet the same browser trust and encryption standards. The gap comes from how the certificate is issued, what it can secure, and how it is supported over its lifetime. The first cost driver is verification effort. Some certificates are issued almost instantly, while others require manual business checks, legal reviews, and audit documentation. More human validation means higher operational cost. The second driver is certificate scope. A certificate that secures a single hostname is priced differently from one that can protect multiple domains or entire subdomain trees. Greater coverage brings more [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Code Signing Certificate Validity Is Changing: Key Updates and Timelines</title>
+		<link>https://www.cheapsslshop.com/blog/code-signing-certificate-validity-is-changing-to-460-days</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 05 Feb 2026 12:08:48 +0000</pubDate>
+				<category><![CDATA[Code Signing]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14013</guid>
+
+					<description><![CDATA[Starting in 2026, publicly trusted code signing certificates will no longer be valid for three years. The CA/Browser Forum approved an industry standard that cuts the maximum lifetime from roughly 39 months to about 460 days (around 15 months). Browsers and operating systems will only trust certificates that follow the new rule beginning in March 2026. This change directly affects how software is released, updated, and trusted. Shorter validity means faster certificate rotation, tighter renewal windows, and more operational pressure on build and release pipelines. In this article you’ll find the essential facts: what exactly changed, the effective timelines, which teams and systems this affects, and concrete ways to adjust your signing and release workflows. Understanding the Shift to Shorter Code Signing Certificate Lifespans Long lived signing keys have always been a weak point. If a key leaks, gets copied, or is misused, the damage lasts as long as the certificate stays valid. Shortening the lifetime reduces that window and is the core driver behind this change. This new guideline was set at the standards level and applies across the public trust ecosystem. Every CA that issues publicly trusted code signing certificates must follow the same limit. Here is what [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>5 Best Practices for SSL/TLS Certificate and Private Key Security</title>
+		<link>https://www.cheapsslshop.com/blog/best-practices-for-ssl-certificate-and-private-key-security</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 29 Jan 2026 12:54:17 +0000</pubDate>
+				<category><![CDATA[SSL University]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14005</guid>
+
+					<description><![CDATA[In today&#8217;s world of constant data breaches, phishing campaigns, and MITM attacks, the security of SSL is paramount. Most online transactions, data exchanges, and API communications work under the hood of an SSL/TLS certificate. Recent supply chain attacks highlight how compromised private keys can unravel entire networks and expose sensitive data. SSL certificates are digital IDs that encrypt traffic using public key cryptography. While the associated private keys are the cryptographic secrets to enable a secure handshake, they are also used to decrypt traffic. In case the private key is stolen or cloned, attackers can impersonate, decrypt captured traffic and make certificates ineffective. This article walks through five actionable best practices for securing SSL/TLS certificates. It focuses on strong cryptographic choices, secure key storage, lifecycle automation, and ongoing monitoring and rotation to reduce real-world risk. #1: Use Strong Cryptographic Standards Weak cryptography usage always invites attacks, especially when outdated RSA keys or legacy protocols are still enabled. These attackers use computational brute force, or the protocol downgrades to crack the ciphers. It also becomes open to quantum threats or Logjam-style downgrade attacks. Using Perfect Forward Secrecy (PFS) limits the impact of a key compromise by keeping past sessions protected. It [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Gmail Verified Blue Email Tick: What It Is &#038; How to Get One</title>
+		<link>https://www.cheapsslshop.com/blog/gmail-verified-blue-email-tick-what-it-is-how-to-get-one</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 23 Jan 2026 10:09:53 +0000</pubDate>
+				<category><![CDATA[Anti-Phishing & Email Security]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=13993</guid>
+
+					<description><![CDATA[If you’ve ever noticed a blue checkmark next to a sender name in Gmail, you’ve seen Gmail’s verified sender signal in action. It’s subtle and easy to miss, but changes how people read an email. As inboxes fill with look-alike domains and brand impersonation attempts, users rely more on visual cues to decide what feels legitimate. The blue tick has become one of those cues. It doesn’t promise a better offer or a safer message, but it reduces doubt at the exact moment trust is evaluated. This article explains what the Gmail verified blue tick actually is, why Google introduced it, what it verifies, and how organizations can realistically qualify for it without chasing myths or shortcuts. What is the Verified Blue Tick in Gmail? The Gmail verified blue tick is a visual trust indicator that Google displays in users’ inboxes to signal that an email sender’s identity has been authenticated and verified. It represents a combination of email authentication standards and brand verification that tells recipients the sender truly controls the domain and logo associated with the message. This verified badge is tied to the Brand Indicators for Message Identification (BIMI) standard, which allows brands to publish a logo [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

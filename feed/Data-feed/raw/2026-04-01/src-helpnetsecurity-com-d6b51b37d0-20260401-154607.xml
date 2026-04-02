@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Help Net Security</title>
+	<atom:link href="https://www.helpnetsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.helpnetsecurity.com/</link>
+	<description>Daily information security news with a focus on enterprise security.</description>
+	<lastBuildDate>Wed, 01 Apr 2026 14:26:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.1</generator>
+
+<image>
+	<url>https://img.helpnetsecurity.com/wp-content/uploads/2019/09/09093400/cropped-hns2-32x32.png</url>
+	<title>Help Net Security</title>
+	<link>https://www.helpnetsecurity.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>North Korean hackers linked to Axios npm supply chain compromise</title>
+		<link>https://www.helpnetsecurity.com/2026/04/01/north-korean-hackers-linked-to-axios-npm-supply-chain-compromise/</link>
+		
+		<dc:creator><![CDATA[Zeljka Zorz]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 14:26:49 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Arctic Wolf Networks]]></category>
+		<category><![CDATA[backdoor]]></category>
+		<category><![CDATA[cybercrime]]></category>
+		<category><![CDATA[Google Cloud]]></category>
+		<category><![CDATA[Mandiant]]></category>
+		<category><![CDATA[North Korea]]></category>
+		<category><![CDATA[supply chain attacks]]></category>
+		<category><![CDATA[supply chain compromise]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364583</guid>
+
+					<description><![CDATA[<p>The software supply chain attack that resulted in the compromise of npm packages of Axios, an extremely popular HTTP client library, is believed to be the work of financially-motivated North Korean attackers. Links to UNC1069 On March 31, 2026, unknown attackers managed to publish two backdoored Axios npm packages after gaining access to a maintainer’s npm account. The malicious versions introduced a hidden dependency containing a post-install script, and this script executed automatically during installation &#8230; <a href="https://www.helpnetsecurity.com/2026/04/01/north-korean-hackers-linked-to-axios-npm-supply-chain-compromise/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/01/north-korean-hackers-linked-to-axios-npm-supply-chain-compromise/">North Korean hackers linked to Axios npm supply chain compromise</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Exabeam expands ABA to detect AI agent threats across ChatGPT, Copilot, and Gemini</title>
+		<link>https://www.helpnetsecurity.com/2026/04/01/exabeam-expands-aba-to-detect-ai-agent-threats-across-chatgpt-copilot-and-gemini/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 13:20:40 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[Exabeam]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364552</guid>
+
+					<description><![CDATA[<p>Exabeam has announced the expansion of Exabeam Agent Behavior Analytics (ABA). Without direct visibility into how employees use AI assistants, what they query, what data they share, how frequently they interact, and from where, organizations cannot establish a baseline for normal AI behavior, investigate potential misuse, or detect emerging agentic insider threats. New support to detect agent behavior in OpenAI ChatGPT and Microsoft Copilot, alongside existing visibility into Google Gemini, transforms these agentic services into &#8230; <a href="https://www.helpnetsecurity.com/2026/04/01/exabeam-expands-aba-to-detect-ai-agent-threats-across-chatgpt-copilot-and-gemini/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/01/exabeam-expands-aba-to-detect-ai-agent-threats-across-chatgpt-copilot-and-gemini/">Exabeam expands ABA to detect AI agent threats across ChatGPT, Copilot, and Gemini</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>CIS Benchmarks March 2026 Update</title>
+		<link>https://www.helpnetsecurity.com/2026/04/01/cis-benchmarks-march-2026-update/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 13:00:44 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Center for Internet Security]]></category>
+		<category><![CDATA[Whitepapers and webinars]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364266</guid>
+
+					<description><![CDATA[<p>The following CIS Benchmarks and CIS Build Kits have been updated or recently released. The Center for Internet Security has highlighted the major updates below. Each Benchmark and Build Kit includes a changelog that references all changes. Updated CIS Benchmarks overview CIS Microsoft Windows 11 Enterprise Benchmark v5.0.0 CIS Oracle Cloud Infrastructure Foundations Benchmark v3.1.0 CIS Apache Cassandra 5.0 Benchmark v1.1.0 CIS Apache Cassandra 4.1 Benchmark v1.2.0 CIS Apache Cassandra 4.0 Benchmark v1.3.0 CIS Microsoft &#8230; <a href="https://www.helpnetsecurity.com/2026/04/01/cis-benchmarks-march-2026-update/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/01/cis-benchmarks-march-2026-update/">CIS Benchmarks March 2026 Update</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google fixes Chrome zero-day with in-the-wild exploit (CVE-2026-5281)</title>
+		<link>https://www.helpnetsecurity.com/2026/04/01/google-chrome-zero-day-cve-2026-5281/</link>
+		
+		<dc:creator><![CDATA[Zeljka Zorz]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 11:27:11 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[0-day]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[Microsoft Edge]]></category>
+		<category><![CDATA[Vivaldi]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364534</guid>
+
+					<description><![CDATA[<p>Google has fixed 21 vulnerabilities affecting its popular Chrome browser, among them a zero-day (CVE-2026-5281) with an in-the-wild exploit. About CVE-2026-5281 As per usual, information about the fixed zero-day is limited, and there&#8217;s no details about the exploit (or how/if it&#8217;s being used by attackers). CVE-2026-5281&#8217;s official description says it&#8217;s a use-after-free (UAF) vulnerability in Dawn, an open-source and cross-platform implementation of the WebGPU standard that&#8217;s used in Chromium and Chromium-based browsers. The vulnerability affects &#8230; <a href="https://www.helpnetsecurity.com/2026/04/01/google-chrome-zero-day-cve-2026-5281/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/01/google-chrome-zero-day-cve-2026-5281/">Google fixes Chrome zero-day with in-the-wild exploit (CVE-2026-5281)</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Egnyte expands Content Cloud with AI Governance and built-in Assistant</title>
+		<link>https://www.helpnetsecurity.com/2026/04/01/egnyte-ai-safeguards-ai-assistant/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 07:25:13 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[Egnyte]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364529</guid>
+
+					<description><![CDATA[<p>Egnyte has announced two major additions to the Egnyte Content Cloud: AI Safeguards, which give organizations granular control over how AI interacts with sensitive content, and an AI Assistant that acts as a built-in collaborator across Egnyte workspaces. AI Safeguards As organizations accelerate AI adoption, ungoverned access to sensitive content by AI systems represents a growing and underappreciated risk. Egnyte’s AI Safeguards addresses this directly by embedding AI controls into the same platform that already &#8230; <a href="https://www.helpnetsecurity.com/2026/04/01/egnyte-ai-safeguards-ai-assistant/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/01/egnyte-ai-safeguards-ai-assistant/">Egnyte expands Content Cloud with AI Governance and built-in Assistant</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Mimecast makes enterprise email security deployable in minutes</title>
+		<link>https://www.helpnetsecurity.com/2026/04/01/ranjan-singh-mimecast-api-email-security/</link>
+		
+		<dc:creator><![CDATA[Mirko Zorz]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 05:00:49 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[CISO]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[email security]]></category>
+		<category><![CDATA[Mimecast]]></category>
+		<category><![CDATA[opinion]]></category>
+		<category><![CDATA[RSAC 2026]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364318</guid>
+
+					<description><![CDATA[<p>Most organizations running Microsoft 365 rely on native email controls as their primary line of defense. According to Mimecast research, 38% of organizations depend exclusively on those native controls for collaboration security, and 64% say those controls are insufficient against the threat landscape. Ranjan Singh, Chief Product and Technology Officer at Mimecast, outlines how the company&#8217;s API-based approach delivers protection on par with a traditional Secure Email Gateway without requiring infrastructure changes, and why that &#8230; <a href="https://www.helpnetsecurity.com/2026/04/01/ranjan-singh-mimecast-api-email-security/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/01/ranjan-singh-mimecast-api-email-security/">Mimecast makes enterprise email security deployable in minutes</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Financial groups lay out a plan to fight AI identity attacks</title>
+		<link>https://www.helpnetsecurity.com/2026/04/01/fight-ai-identity-fraud/</link>
+		
+		<dc:creator><![CDATA[Mirko Zorz]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 04:30:26 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[authentication]]></category>
+		<category><![CDATA[deepfakes]]></category>
+		<category><![CDATA[financial industry]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[government]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[report]]></category>
+		<category><![CDATA[USA]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364311</guid>
+
+					<description><![CDATA[<p>Generative AI tools have brought the cost of deepfake production low enough that criminals and state-sponsored actors now use them routinely against financial institutions. A joint paper from the American Bankers Association, the Better Identity Coalition, and the Financial Services Sector Coordinating Council lays out the scale of the problem and calls on federal and state policymakers to act across various areas. Deepfake incidents in the fintech sector increased 700% in 2023 compared to 2022. &#8230; <a href="https://www.helpnetsecurity.com/2026/04/01/fight-ai-identity-fraud/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/01/fight-ai-identity-fraud/">Financial groups lay out a plan to fight AI identity attacks</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Malware detectors trained on one dataset often stumble on another</title>
+		<link>https://www.helpnetsecurity.com/2026/04/01/cross-dataset-malware-detection-research/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 04:00:22 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[ENISA]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[malware detection]]></category>
+		<category><![CDATA[research]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364215</guid>
+
+					<description><![CDATA[<p>Machine learning models built to catch malware on Windows systems are typically evaluated on data that closely resembles their training set. In practice, the malware arriving on enterprise endpoints looks different, comes from different sources, and in many cases has been deliberately obfuscated to evade detection. A study from researchers at the Polytechnic of Porto tests what happens when that gap is made explicit, and the results have direct implications for organizations relying on static &#8230; <a href="https://www.helpnetsecurity.com/2026/04/01/cross-dataset-malware-detection-research/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/01/cross-dataset-malware-detection-research/">Malware detectors trained on one dataset often stumble on another</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Crypto industry may be running out of time to prepare for quantum attacks</title>
+		<link>https://www.helpnetsecurity.com/2026/03/31/quantum-computers-cryptocurrency-risks-google-research/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 19:06:18 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[crypto]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[quantum computing]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364495</guid>
+
+					<description><![CDATA[<p>Google’s latest research suggests the cryptocurrency industry may have less time than expected to prepare for quantum computing. In a whitepaper, Google examines risks to elliptic curve cryptography, the system securing most blockchain networks. The researchers revisit earlier assumptions about how difficult it would be for a quantum computer to break these protections, concluding that the required resources may be lower than previously estimated. “To share this research responsibly, we engaged with the U.S. government &#8230; <a href="https://www.helpnetsecurity.com/2026/03/31/quantum-computers-cryptocurrency-risks-google-research/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/03/31/quantum-computers-cryptocurrency-risks-google-research/">Crypto industry may be running out of time to prepare for quantum attacks</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Pondurance MDR Essentials uses autonomous SOC to tackle AI-driven attacks</title>
+		<link>https://www.helpnetsecurity.com/2026/03/31/pondurance-mdr-essentials-soc-teams/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 16:39:32 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[Pondurance]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364477</guid>
+
+					<description><![CDATA[<p>Pondurance announced MDR Essentials, MDR Essentials, an MDR service providing an autonomous SOC that reduces the time from threat detection to containment by 90%. Threat actors today use AI to attack at machine-speed, making it difficult for traditional cybersecurity solutions to accurately detect and contain cyber threats before they can become breaches. A recent paper from PwC notes that “in AI-driven SOCs, threats can be blocked in seconds, autonomously.” Pondurance’s MDR Essentials with the Kanati &#8230; <a href="https://www.helpnetsecurity.com/2026/03/31/pondurance-mdr-essentials-soc-teams/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/03/31/pondurance-mdr-essentials-soc-teams/">Pondurance MDR Essentials uses autonomous SOC to tackle AI-driven attacks</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

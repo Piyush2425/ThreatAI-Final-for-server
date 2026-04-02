@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Heimdal Security Blog</title>
+	<atom:link href="https://heimdalsecurity.com/blog/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>A blog about all things internet security</description>
+	<lastBuildDate>Fri, 27 Mar 2026 10:58:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.1</generator>
+	<item>
+		<title>You Only Know What You’ve Got When Its Gone</title>
+		<link>https://heimdalsecurity.com/blog/technology-failure-action-plan/</link>
+		
+		<dc:creator><![CDATA[Adam Pilton]]></dc:creator>
+		<pubDate>Fri, 27 Mar 2026 10:52:43 +0000</pubDate>
+				<category><![CDATA[Industry trends]]></category>
+		<guid isPermaLink="false">https://heimdalsecurity.com/blog/?p=87536</guid>
+
+					<description><![CDATA[<p>Although Cyber Security is often seen as technical and maybe even dull, it has many similarities to our day-to-day life. In this blog I call out one of the most important &#8211; You Only Know What You’ve Got When Its Gone. Let me start by putting this statement into context in the current chapter of [&#8230;]</p>
+<p>The post <a href="https://heimdalsecurity.com/blog/technology-failure-action-plan/">You Only Know What You’ve Got When Its Gone</a> appeared first on <a href="https://heimdalsecurity.com/blog">Heimdal Security Blog</a>.</p>
+]]></description>
+		
+		
+		
+		<image>https://heimdalsecurity.com/blog/technology-failure-action-plan/action-plan-in-case-of-technology-failure/</image><subtitle>Prepare an Action Plan in Case of Technology Failure</subtitle>	</item>
+		<item>
+		<title>Nordic MSPs Can Now Access Heimdal&#8217;s Unified Security and Compliance Platform Through Elovade</title>
+		<link>https://heimdalsecurity.com/blog/heimdal-elovade-nordic-msps-security-compliance-platform/</link>
+		
+		<dc:creator><![CDATA[Madalina Popovici]]></dc:creator>
+		<pubDate>Wed, 18 Mar 2026 05:27:37 +0000</pubDate>
+				<category><![CDATA[All things Heimdal]]></category>
+		<category><![CDATA[Cybersecurity News]]></category>
+		<category><![CDATA[press release]]></category>
+		<guid isPermaLink="false">https://heimdalsecurity.com/blog/?p=87517</guid>
+
+					<description><![CDATA[<p>Copenhagen, Denmark – 18 March 2026 – Heimdal has appointed Elovade as its official distributor in the Nordic region. The move gives MSPs and resellers across Sweden, Norway, Denmark, Iceland, and Finland direct access to Heimdal&#8217;s consolidated cybersecurity platform through a local value-added distributor. Most Nordic MSPs are running disconnected security tools: separate vendors for [&#8230;]</p>
+<p>The post <a href="https://heimdalsecurity.com/blog/heimdal-elovade-nordic-msps-security-compliance-platform/">Nordic MSPs Can Now Access Heimdal&#8217;s Unified Security and Compliance Platform Through Elovade</a> appeared first on <a href="https://heimdalsecurity.com/blog">Heimdal Security Blog</a>.</p>
+]]></description>
+		
+		
+		
+		<image>https://heimdalsecurity.com/blog/heimdal-elovade-nordic-msps-security-compliance-platform/blog-cover-nordic-msps-can-now-access-heimdals-unified-security-and-compliance-platform-through-elovade/</image><subtitle></subtitle>	</item>
+		<item>
+		<title>OpenClaw Incidents Show Why AI Adoption Pressure Puts Companies at Risk</title>
+		<link>https://heimdalsecurity.com/blog/openclaw-incidents-ai-adoption-risk/</link>
+		
+		<dc:creator><![CDATA[Adam Pilton]]></dc:creator>
+		<pubDate>Thu, 05 Mar 2026 14:41:52 +0000</pubDate>
+				<category><![CDATA[Industry trends]]></category>
+		<category><![CDATA[msp]]></category>
+		<guid isPermaLink="false">https://heimdalsecurity.com/blog/?p=87483</guid>
+
+					<description><![CDATA[<p>We&#8217;ve had four cases associated with OpenClaw in the last few weeks. This is what one MSP this told me. Not a researcher or a vendor trying to sell me a solution, but somebody that&#8217;s already dealing with the consequences, whilst most boards are still deciding whether to pay attention or not For those who [&#8230;]</p>
+<p>The post <a href="https://heimdalsecurity.com/blog/openclaw-incidents-ai-adoption-risk/">OpenClaw Incidents Show Why AI Adoption Pressure Puts Companies at Risk</a> appeared first on <a href="https://heimdalsecurity.com/blog">Heimdal Security Blog</a>.</p>
+]]></description>
+		
+		
+		
+		<image>https://heimdalsecurity.com/blog/openclaw-incidents-ai-adoption-risk/ai-adoption-risk/</image><subtitle>Leaders Should Prioritize Strategy Over Speed</subtitle>	</item>
+		<item>
+		<title>Heimdal Claims Industry First With a Cyber Essentials Control Mapping for PEDM to Help Organisations Prove Least Privilege</title>
+		<link>https://heimdalsecurity.com/blog/heimdal-industry-first-cyber-essentials-pedm-mapping/</link>
+		
+		<dc:creator><![CDATA[Madalina Popovici]]></dc:creator>
+		<pubDate>Mon, 09 Feb 2026 08:01:43 +0000</pubDate>
+				<category><![CDATA[All things Heimdal]]></category>
+		<category><![CDATA[Cybersecurity News]]></category>
+		<category><![CDATA[press release]]></category>
+		<guid isPermaLink="false">https://heimdalsecurity.com/blog/?p=87429</guid>
+
+					<description><![CDATA[<p>London, UK, February 16, 2026 &#8211; Heimdal today announced an industry-first approach to Cyber Essentials readiness by publishing a Cyber Essentials control mapping for Privilege Elevation and Delegation Management (PEDM), helping organisations and MSPs enforce least privilege and evidence stronger control over administrative access. Privileged access remains one of the most exploited paths in modern [&#8230;]</p>
+<p>The post <a href="https://heimdalsecurity.com/blog/heimdal-industry-first-cyber-essentials-pedm-mapping/">Heimdal Claims Industry First With a Cyber Essentials Control Mapping for PEDM to Help Organisations Prove Least Privilege</a> appeared first on <a href="https://heimdalsecurity.com/blog">Heimdal Security Blog</a>.</p>
+]]></description>
+		
+		
+		
+		<image>https://heimdalsecurity.com/blog/heimdal-industry-first-cyber-essentials-pedm-mapping/blog-cover-10/</image><subtitle></subtitle>	</item>
+		<item>
+		<title>Five Predictions for Cyber Security Trends in 2026 </title>
+		<link>https://heimdalsecurity.com/blog/cyber-security-trends-2026/</link>
+		
+		<dc:creator><![CDATA[Livia Gyongyoși]]></dc:creator>
+		<pubDate>Wed, 04 Feb 2026 09:17:10 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://heimdalsecurity.com/blog/?p=87421</guid>
+
+					<description><![CDATA[<p>During a recent Threat Watch Live session, Adam Pilton challenged Morten Kjaersgaard, Heimdal’s Chairman and Founder, to predict three cyber security trends for 2026.  Adam added his own predictions, drawing from this experience as a former cybercrime detective. Spoiler: Both Morten and Adam agreed that 2026 will bring a sharper focus on compliance.   Here&#8217;s what they predict.  SMBs catch a break if they’ve done compliance right  Hackers recently discovered there’s no use in targeting [&#8230;]</p>
+<p>The post <a href="https://heimdalsecurity.com/blog/cyber-security-trends-2026/">Five Predictions for Cyber Security Trends in 2026 </a> appeared first on <a href="https://heimdalsecurity.com/blog">Heimdal Security Blog</a>.</p>
+]]></description>
+		
+		
+		
+		<image>https://heimdalsecurity.com/blog/cyber-security-trends-2026/cyber-security-trends-for-2026/</image><subtitle></subtitle>	</item>
+		<item>
+		<title>Heimdal Achieves OPSWAT Gold Certification for Anti-Malware</title>
+		<link>https://heimdalsecurity.com/blog/heimdal-achieves-opswat-gold-certification-for-anti-malware/</link>
+		
+		<dc:creator><![CDATA[Madalina Popovici]]></dc:creator>
+		<pubDate>Thu, 15 Jan 2026 05:00:13 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[press release]]></category>
+		<guid isPermaLink="false">https://heimdalsecurity.com/blog/?p=84614</guid>
+
+					<description><![CDATA[<p>Copenhagen, Denmark &#8211; January 15, 2026 &#8211; Heimdal today announced that its Next-Gen Antivirus (NGAV) with Extended Threat Protection (XTP) has achieved OPSWAT Gold Certification for Anti-Malware, validating its compatibility and effectiveness within OPSWAT’s industry-leading Access Control Certification Program. What the OPSWAT Certification Validates The certification confirms that Heimdal meets OPSWAT’s strict requirements for anti-malware [&#8230;]</p>
+<p>The post <a href="https://heimdalsecurity.com/blog/heimdal-achieves-opswat-gold-certification-for-anti-malware/">Heimdal Achieves OPSWAT Gold Certification for Anti-Malware</a> appeared first on <a href="https://heimdalsecurity.com/blog">Heimdal Security Blog</a>.</p>
+]]></description>
+		
+		
+		
+		<image>https://heimdalsecurity.com/blog/heimdal-achieves-opswat-gold-certification-for-anti-malware/heimdal-anti-malware-opswat-2/</image><subtitle>Third-party certification confirms anti-malware effectiveness in enterprise environments.</subtitle>	</item>
+		<item>
+		<title>How to Avoid Holiday Shopping Scams (From a Former Cyber Detective)</title>
+		<link>https://heimdalsecurity.com/blog/holiday-shopping-scams-explained-by-cyberdetective/</link>
+		
+		<dc:creator><![CDATA[Adam Pilton]]></dc:creator>
+		<pubDate>Thu, 11 Dec 2025 15:53:04 +0000</pubDate>
+				<category><![CDATA[All things Heimdal]]></category>
+		<category><![CDATA[Cybersecurity Basics]]></category>
+		<category><![CDATA[Cybersecurity interviews]]></category>
+		<guid isPermaLink="false">https://heimdalsecurity.com/blog/?p=84529</guid>
+
+					<description><![CDATA[<p>Christmas is the time where we allow our imaginations to run wild, it&#8217;s the season of goodwill, high spirits and Christmas joy. However, cybercriminals don’t take holidays. We still have to be on our guard, and question what is real and what is not. Common Holiday Scams Fake Online Stores Around this time of year, [&#8230;]</p>
+<p>The post <a href="https://heimdalsecurity.com/blog/holiday-shopping-scams-explained-by-cyberdetective/">How to Avoid Holiday Shopping Scams (From a Former Cyber Detective)</a> appeared first on <a href="https://heimdalsecurity.com/blog">Heimdal Security Blog</a>.</p>
+]]></description>
+		
+		
+		
+		<image>https://heimdalsecurity.com/blog/holiday-shopping-scams-explained-by-cyberdetective/how-to-avoid-holiday-shopping-scams-from-a-former-cyber-detective/</image><subtitle>Scams are sneaky, but with a few tips from someone who’s seen them all, you’ve got this.</subtitle>	</item>
+		<item>
+		<title>ITDR Best Practices: How to Detect, Prevent, and Contain Critical Identity Threats</title>
+		<link>https://heimdalsecurity.com/blog/itdr-best-practices/</link>
+		
+		<dc:creator><![CDATA[Danny Mitchell]]></dc:creator>
+		<pubDate>Thu, 27 Nov 2025 16:28:45 +0000</pubDate>
+				<category><![CDATA[Access Management]]></category>
+		<guid isPermaLink="false">https://heimdalsecurity.com/blog/?p=84356</guid>
+
+					<description><![CDATA[<p>Key takeaways: ITDR solutions monitor identity-based threats that traditional security tools miss, like hackers logging in with stolen credentials Effective ITDR requires integration with privileged access management and automated responses tailored to your specific environment Consolidating threat detection into a single dashboard dramatically improves response times and reduces the cost of managing multiple security tools [&#8230;]</p>
+<p>The post <a href="https://heimdalsecurity.com/blog/itdr-best-practices/">ITDR Best Practices: How to Detect, Prevent, and Contain Critical Identity Threats</a> appeared first on <a href="https://heimdalsecurity.com/blog">Heimdal Security Blog</a>.</p>
+]]></description>
+		
+		
+		
+		<image>https://heimdalsecurity.com/blog/cybersecurity-education-sector/cybersecurity-educational-sector/</image><subtitle></subtitle>	</item>
+		<item>
+		<title>When Buyers Discount MSPs With One Big Customer</title>
+		<link>https://heimdalsecurity.com/blog/when-buyers-discount-msps-big-customer/</link>
+		
+		<dc:creator><![CDATA[Danny Mitchell]]></dc:creator>
+		<pubDate>Thu, 27 Nov 2025 12:22:28 +0000</pubDate>
+				<category><![CDATA[Managed Service Providers]]></category>
+		<category><![CDATA[MSP Security Playbook]]></category>
+		<guid isPermaLink="false">https://heimdalsecurity.com/blog/?p=84333</guid>
+
+					<description><![CDATA[<p>Your biggest customer loves you. Three years together. They trust you, pay on time, and refer others. From where you sit, that&#8217;s loyalty. From where a buyer sits, that&#8217;s a $$$ discount on your exit. This perception gap kills more MSP deals than bad financials. Sam Levy saw it constantly when he led tech mergers [&#8230;]</p>
+<p>The post <a href="https://heimdalsecurity.com/blog/when-buyers-discount-msps-big-customer/">When Buyers Discount MSPs With One Big Customer</a> appeared first on <a href="https://heimdalsecurity.com/blog">Heimdal Security Blog</a>.</p>
+]]></description>
+		
+		
+		
+		<image>https://heimdalsecurity.com/blog/when-buyers-discount-msps-big-customer/msp-podcast-by-heimdal/</image><subtitle></subtitle>	</item>
+		<item>
+		<title>You’re Not Technical? That Excuse Just Expired!</title>
+		<link>https://heimdalsecurity.com/blog/not-technical-that-excuse-expired/</link>
+		
+		<dc:creator><![CDATA[Adam Pilton]]></dc:creator>
+		<pubDate>Thu, 27 Nov 2025 10:34:23 +0000</pubDate>
+				<category><![CDATA[All things Heimdal]]></category>
+		<guid isPermaLink="false">https://heimdalsecurity.com/blog/?p=84326</guid>
+
+					<description><![CDATA[<p>The world in which there are three groups of people, technical, not technical and those in between, is dead. AI just killed it, And if you’re a business leader still hiding behind “I’m not technical”, your time is up! Who are these groups? Well, the technical group are those who speak in acronyms, hide behind [&#8230;]</p>
+<p>The post <a href="https://heimdalsecurity.com/blog/not-technical-that-excuse-expired/">You’re Not Technical? That Excuse Just Expired!</a> appeared first on <a href="https://heimdalsecurity.com/blog">Heimdal Security Blog</a>.</p>
+]]></description>
+		
+		
+		
+		<image>https://heimdalsecurity.com/blog/not-technical-that-excuse-expired/untitled-1200-x-628-px/</image><subtitle></subtitle>	</item>
+		<item>
+		<title>Tool Sprawl Taxes Your Business More Than You Think</title>
+		<link>https://heimdalsecurity.com/blog/tool-sprawl-taxing-business/</link>
+		
+		<dc:creator><![CDATA[Danny Mitchell]]></dc:creator>
+		<pubDate>Tue, 25 Nov 2025 11:55:59 +0000</pubDate>
+				<category><![CDATA[Managed Service Providers]]></category>
+		<guid isPermaLink="false">https://heimdalsecurity.com/blog/?p=84292</guid>
+
+					<description><![CDATA[<p>Ross Brouse has a name for what he sees every day. The Frankenstack. &#8220;The lack of operational simplicity comes from piling on tools, building that Frankenstack, as I call it,&#8221; says Brouse, President and COO of Continuous Networks, an MSP serving healthcare clients. He&#8217;s watched it happen over and over. MSPs go to a conference, [&#8230;]</p>
+<p>The post <a href="https://heimdalsecurity.com/blog/tool-sprawl-taxing-business/">Tool Sprawl Taxes Your Business More Than You Think</a> appeared first on <a href="https://heimdalsecurity.com/blog">Heimdal Security Blog</a>.</p>
+]]></description>
+		
+		
+		
+		<image>https://heimdalsecurity.com/blog/ransomware-payouts-russia-china-north-korea/nano-banana-2025-11-04t16-11-15/</image><subtitle></subtitle>	</item>
+		<item>
+		<title>Heimdal 5.1.0 RC Dashboard: Smarter Automation, Stronger Compliance, and Smoother Control</title>
+		<link>https://heimdalsecurity.com/blog/heimdal-5-1-0-rc-dashboard/</link>
+		
+		<dc:creator><![CDATA[Vladimir Unterfingher]]></dc:creator>
+		<pubDate>Fri, 21 Nov 2025 11:18:29 +0000</pubDate>
+				<category><![CDATA[All things Heimdal]]></category>
+		<guid isPermaLink="false">https://heimdalsecurity.com/blog/?p=84255</guid>
+
+					<description><![CDATA[<p>The Heimdal 5.1.0 RC (Release Candidate) dashboard update is now live, bringing a powerful lineup of improvements designed to make IT management faster, safer, and more intuitive. From pre-built scripting and compliance dashboards to simpler agent management and refined privilege controls, this release takes another major step toward a fully unified cybersecurity experience. Smarter Automation [&#8230;]</p>
+<p>The post <a href="https://heimdalsecurity.com/blog/heimdal-5-1-0-rc-dashboard/">Heimdal 5.1.0 RC Dashboard: Smarter Automation, Stronger Compliance, and Smoother Control</a> appeared first on <a href="https://heimdalsecurity.com/blog">Heimdal Security Blog</a>.</p>
+]]></description>
+		
+		
+		
+		<image>https://heimdalsecurity.com/blog/heimdal-5-1-0-rc-dashboard/blog-dashboard-5-1-0/</image><subtitle>Your preview of the smarter, cleaner, and more compliant dashboard experience coming with Heimdal 5.1.0 RC.</subtitle>	</item>
+		<item>
+		<title>Can Generative AI Be Weaponized for Cyberattacks?</title>
+		<link>https://heimdalsecurity.com/blog/can-generative-ai-be-weaponized-for-cyberattacks/</link>
+		
+		<dc:creator><![CDATA[Stephen Ramotowski]]></dc:creator>
+		<pubDate>Tue, 18 Nov 2025 12:09:01 +0000</pubDate>
+				<category><![CDATA[Forensics and threat hunting]]></category>
+		<guid isPermaLink="false">https://heimdalsecurity.com/blog/?p=84243</guid>
+
+					<description><![CDATA[<p>Generative AI has emerged as one of the most powerful technologies of our era. Capable of producing realistic text, images, voice, and even code, these systems are revolutionizing industries. But while they fuel innovation and productivity, they also introduce an entirely new class of threats. As AI capabilities grow, so too does the potential for [&#8230;]</p>
+<p>The post <a href="https://heimdalsecurity.com/blog/can-generative-ai-be-weaponized-for-cyberattacks/">Can Generative AI Be Weaponized for Cyberattacks?</a> appeared first on <a href="https://heimdalsecurity.com/blog">Heimdal Security Blog</a>.</p>
+]]></description>
+		
+		
+		
+		<image>https://heimdalsecurity.com/blog/can-generative-ai-be-weaponized-for-cyberattacks/can-generative-ai-be-weaponized-for-cyberattacks/</image><subtitle></subtitle>	</item>
+		<item>
+		<title>Digital Warfare and the New Geopolitical Frontline</title>
+		<link>https://heimdalsecurity.com/blog/digital-warfare-and-the-new-geopolitical-frontline/</link>
+		
+		<dc:creator><![CDATA[Jesper Frederiksen]]></dc:creator>
+		<pubDate>Tue, 04 Nov 2025 17:42:13 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://heimdalsecurity.com/blog/?p=84144</guid>
+
+					<description><![CDATA[<p>This article follows our recent article on the source of cybercrime attacks – read it here – we’re now exploring the global, commercial, and political dimensions of digital warfare. Key takeaways $100 billion in global cyber damages annually – equivalent to the GDP of a mid-sized nation. $400 million in business impact from a single [&#8230;]</p>
+<p>The post <a href="https://heimdalsecurity.com/blog/digital-warfare-and-the-new-geopolitical-frontline/">Digital Warfare and the New Geopolitical Frontline</a> appeared first on <a href="https://heimdalsecurity.com/blog">Heimdal Security Blog</a>.</p>
+]]></description>
+		
+		
+		
+		<image>https://heimdalsecurity.com/blog/digital-warfare-and-the-new-geopolitical-frontline/nano-banana-2025-11-04t16-56-40/</image><subtitle></subtitle>	</item>
+		<item>
+		<title>Nearly 40% of 2024 Ransomware Payouts May Have Gone to Russia, China &#038; North Korea</title>
+		<link>https://heimdalsecurity.com/blog/ransomware-payouts-russia-china-north-korea/</link>
+		
+		<dc:creator><![CDATA[Morten Kjaersgaard]]></dc:creator>
+		<pubDate>Tue, 04 Nov 2025 16:19:12 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://heimdalsecurity.com/blog/?p=84137</guid>
+
+					<description><![CDATA[<p>Ransomware victims paid an estimated $813 million in 2024. Nearly 40 percent of that may have gone to actors in Russia, China and North Korea, according to new analysis from cybersecurity firm Heimdal. Heimdal used recent telemetry, infrastructure tracing and ownership mapping to assess how ransomware revenue is likely distributed. The $813 million figure comes [&#8230;]</p>
+<p>The post <a href="https://heimdalsecurity.com/blog/ransomware-payouts-russia-china-north-korea/">Nearly 40% of 2024 Ransomware Payouts May Have Gone to Russia, China &#038; North Korea</a> appeared first on <a href="https://heimdalsecurity.com/blog">Heimdal Security Blog</a>.</p>
+]]></description>
+		
+		
+		
+		<image>https://heimdalsecurity.com/blog/ransomware-payouts-russia-china-north-korea/nano-banana-2025-11-04t16-11-15/</image><subtitle></subtitle>	</item>
+	</channel>
+</rss>

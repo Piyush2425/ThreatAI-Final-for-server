@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://threatactix.local/schema/feed_source.schema.json",
+  "title": "Threat Feed Source",
+  "type": "object",
+  "required": [
+    "source_id",
+    "source_name",
+    "feed_url",
+    "enabled",
+    "created_at"
+  ],
+  "properties": {
+    "source_id": { "type": "string" },
+    "source_name": { "type": "string" },
+    "website": { "type": "string" },
+    "feed_url": { "type": "string", "format": "uri" },
+    "format": { "type": "string", "enum": ["rss", "atom", "jsonfeed", "unknown"] },
+    "enabled": { "type": "boolean" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "last_checked_at": { "type": ["string", "null"], "format": "date-time" },
+    "last_success_at": { "type": ["string", "null"], "format": "date-time" },
+    "last_error": { "type": ["string", "null"] }
+  },
+  "additionalProperties": true
+}

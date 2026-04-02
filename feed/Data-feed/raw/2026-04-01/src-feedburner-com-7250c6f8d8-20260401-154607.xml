@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<atom:link href="https://hackread.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://hackread.com</link>
+	<description></description>
+	<lastBuildDate>Wed, 01 Apr 2026 12:43:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://hackread.com/wp-content/uploads/2023/08/cropped-HACKREAD-32x32.png</url>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<link>https://hackread.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Ransomware Groups Exploit Legit IT Tools to Bypass Antivirus</title>
+		<link>https://hackread.com/ransomware-groups-exploit-it-tools-bypass-antivirus/</link>
+					<comments>https://hackread.com/ransomware-groups-exploit-it-tools-bypass-antivirus/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 12:43:22 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber Attacks]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[antivirus]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[IOBit Unlocker]]></category>
+		<category><![CDATA[Process Hacker]]></category>
+		<category><![CDATA[Quick Heal]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143315</guid>
+
+					<description><![CDATA[New research from Seqrite explains the &#8216;dual-use dilemma,&#8217; where ransomware attackers repurpose legitimate IT tools like IOBit Unlocker&#8230;]]></description>
+		
+					<wfw:commentRss>https://hackread.com/ransomware-groups-exploit-it-tools-bypass-antivirus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ImageMagick Zero-Day Enables RCE on Linux and WordPress Servers</title>
+		<link>https://hackread.com/imagemagick-zero-day-rce-linux-wordpress-servers/</link>
+					<comments>https://hackread.com/imagemagick-zero-day-rce-linux-wordpress-servers/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 10:56:41 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[0day]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[ImageMagick]]></category>
+		<category><![CDATA[Octagon Networks]]></category>
+		<category><![CDATA[RCE]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143284</guid>
+
+					<description><![CDATA[New research from Octagon Networks reveals a critical zero-day ImageMagick vulnerability that allows Remote Code Execution (RCE) via simple image uploads affecting Ubuntu, Amazon Linux, and WordPress. This magic byte shift bypasses even the most secure policies.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/imagemagick-zero-day-rce-linux-wordpress-servers/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cybersecurity Firm TAC Security Hits 10,000 Clients, Enters Top 5 in Global VM &#038; AppSec</title>
+		<link>https://hackread.com/cybersecurity-firm-tac-security-top-5-vm-appsec/</link>
+					<comments>https://hackread.com/cybersecurity-firm-tac-security-top-5-vm-appsec/#respond</comments>
+		
+		<dc:creator><![CDATA[CyberNewswire]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 10:45:15 +0000</pubDate>
+				<category><![CDATA[Press Release]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[TAC Security]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143311</guid>
+
+					<description><![CDATA[New York, New York, April 1st, 2026, CyberNewswire]]></description>
+		
+					<wfw:commentRss>https://hackread.com/cybersecurity-firm-tac-security-top-5-vm-appsec/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Defending Encryption in the Post Quantum Era</title>
+		<link>https://hackread.com/defending-encryption-in-the-post-quantum-era/</link>
+					<comments>https://hackread.com/defending-encryption-in-the-post-quantum-era/#respond</comments>
+		
+		<dc:creator><![CDATA[Fayyaz Ahmed]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 10:00:43 +0000</pubDate>
+				<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Encryption]]></category>
+		<category><![CDATA[Quantum Computing]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143277</guid>
+
+					<description><![CDATA[Post-quantum cryptography explained, risks of quantum attacks, and steps to secure data, systems, and infrastructure for a quantum-resilient&#8230;]]></description>
+		
+					<wfw:commentRss>https://hackread.com/defending-encryption-in-the-post-quantum-era/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hackers Poison Axios npm Package with 100 Million Weekly Downloads</title>
+		<link>https://hackread.com/hackers-poison-axios-npm-package-100m-downloads/</link>
+					<comments>https://hackread.com/hackers-poison-axios-npm-package-100m-downloads/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 13:49:04 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Axios]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[NPM]]></category>
+		<category><![CDATA[Supply Chain]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143262</guid>
+
+					<description><![CDATA[Axios npm Package compromised in a supply chain attack, exposing developers to malware, data theft, and full system takeover risks worldwide.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/hackers-poison-axios-npm-package-100m-downloads/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Critical F5 BIG-IP Flaw Upgraded to 9.8 RCE, Exploited in the Wild</title>
+		<link>https://hackread.com/critical-f5-big-ip-flaw-upgrad-to-9-8-rce-exploited/</link>
+					<comments>https://hackread.com/critical-f5-big-ip-flaw-upgrad-to-9-8-rce-exploited/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 11:36:21 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[BIG-IP APM]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[DDOS]]></category>
+		<category><![CDATA[DoS]]></category>
+		<category><![CDATA[F5]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143251</guid>
+
+					<description><![CDATA[F5 BIG-IP APM flaw CVE-2025-53521 escalates to critical 9.8 RCE, actively exploited. Patch now, check IoCs, and secure vulnerable systems immediately.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/critical-f5-big-ip-flaw-upgrad-to-9-8-rce-exploited/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>AI Agents Are Democratizing Finance but Also Redefining Risk</title>
+		<link>https://hackread.com/ai-agents-democratizing-finance-redefining-risk/</link>
+					<comments>https://hackread.com/ai-agents-democratizing-finance-redefining-risk/#respond</comments>
+		
+		<dc:creator><![CDATA[Ido Sofer]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 00:41:17 +0000</pubDate>
+				<category><![CDATA[Fintech]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Agentic AI]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[API]]></category>
+		<category><![CDATA[CEX]]></category>
+		<category><![CDATA[DEX]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143158</guid>
+
+					<description><![CDATA[AI agents are transforming finance, enabling automated trading and payments, but introduce new risks around keys, data inputs and secure execution control.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/ai-agents-democratizing-finance-redefining-risk/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Kernel Observability for Data Movement</title>
+		<link>https://hackread.com/kernel-observability-for-data-movement/</link>
+					<comments>https://hackread.com/kernel-observability-for-data-movement/#respond</comments>
+		
+		<dc:creator><![CDATA[Alexandre Genest]]></dc:creator>
+		<pubDate>Mon, 30 Mar 2026 23:50:57 +0000</pubDate>
+				<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[Kernel]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143236</guid>
+
+					<description><![CDATA[Kernel-level visibility reveals hidden data movement in breaches, exposing gaps in modern security tools and improving detection, compliance, and system behavior tracking.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/kernel-observability-for-data-movement/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>OpenAI Codex Vulnerability Allowed Attackers to Steal GitHub Tokens</title>
+		<link>https://hackread.com/openai-codex-vulnerability-steal-github-tokens/</link>
+					<comments>https://hackread.com/openai-codex-vulnerability-steal-github-tokens/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Mon, 30 Mar 2026 20:53:56 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[BeyondTrust]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Codex]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<category><![CDATA[Unicode]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143196</guid>
+
+					<description><![CDATA[OpenAI Codex vulnerability allowed attackers to steal GitHub tokens via malicious branch names using hidden Unicode command injection flaw.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/openai-codex-vulnerability-steal-github-tokens/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Wave Browser Brings Gaming Tools and Ocean Cleanup into the Same Tab </title>
+		<link>https://hackread.com/wave-browser-gaming-tools-ocean-cleanup-tab/</link>
+					<comments>https://hackread.com/wave-browser-gaming-tools-ocean-cleanup-tab/#respond</comments>
+		
+		<dc:creator><![CDATA[Owais Sultan]]></dc:creator>
+		<pubDate>Mon, 30 Mar 2026 17:49:07 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Discord]]></category>
+		<category><![CDATA[gaming]]></category>
+		<category><![CDATA[Wave Browser]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143210</guid>
+
+					<description><![CDATA[Wave Browser for gaming: built for multitasking, streaming, and tabs, with tools for gamers plus ocean cleanup support tied to everyday browsing activity.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/wave-browser-gaming-tools-ocean-cleanup-tab/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

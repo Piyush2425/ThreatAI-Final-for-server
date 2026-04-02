@@ -10,7 +10,6 @@ import time
 import io
 import json
 import re
-from difflib import SequenceMatcher
 from pathlib import Path
 from datetime import datetime
 from flask import Flask, render_template, request, jsonify, send_file
@@ -18,6 +17,8 @@ from functools import lru_cache
 import hashlib
 
 from training_lab import TrainingLabManager
+from feeds import ThreatFeedManager
+from services import FeedScheduler, QueryOrchestrator
 
 # Import intent detection from dedicated module
 from agent.intent_detector import (
@@ -51,102 +52,12 @@ audit = None
 config = None
 conversation_manager = None
 training_lab_manager = None
+threat_feed_manager = None
+query_orchestrator = None
+feed_scheduler = None
 
-# Simple query cache (for development - consider Redis for production)
 query_cache = {}
 CACHE_TTL_SECONDS = 3600
-
-
-def _normalize_cache_query(text: str) -> str:
-    """Normalize query text for exact/fuzzy cache matching."""
-    value = (text or '').strip().lower()
-    value = re.sub(r'\s+', ' ', value)
-    value = re.sub(r'[\?\.!;:,]+$', '', value)
-    return value
-
-
-def _token_jaccard(a: str, b: str) -> float:
-    """Token-level similarity to improve typo/paraphrase matching."""
-    sa = set((a or '').split())
-    sb = set((b or '').split())
-    if not sa or not sb:
-        return 0.0
-    union = len(sa | sb)
-    if union == 0:
-        return 0.0
-    return len(sa & sb) / union
-
-
-def _fuzzy_threshold(normalized_query: str) -> float:
-    """Dynamic threshold keeps short queries stricter."""
-    length = len(normalized_query or '')
-    if length <= 18:
-        return 0.92
-    if length <= 35:
-        return 0.86
-    return 0.84
-
-
-def _extract_actor_hint(text: str) -> str:
-    """Extract actor hint for safer fuzzy cache matching."""
-    if not text:
-        return ''
-    q = text.lower()
-    apt_match = re.search(r'\bapt\s*-?\s*(\d+)\b', q)
-    if apt_match:
-        return f"apt{apt_match.group(1)}"
-    ta_match = re.search(r'\bta\s*-?\s*(\d+)\b', q)
-    if ta_match:
-        return f"ta{ta_match.group(1)}"
-    return ''
-
-
-def _find_cached_response(query_text: str):
-    """Find cache hit by exact normalized query, then typo-tolerant fuzzy match."""
-    normalized_query = _normalize_cache_query(query_text)
-    actor_hint = _extract_actor_hint(query_text)
-    now = time.time()
-
-    # Exact normalized match first.
-    for item in query_cache.values():
-        cache_age = now - item.get('cached_at', 0)
-        if cache_age >= CACHE_TTL_SECONDS:
-            continue
-        if item.get('normalized_query') == normalized_query:
-            return item, 'exact', 1.0
-
-    # Fuzzy match for typos/near-duplicates.
-    best_item = None
-    best_score = 0.0
-    threshold = _fuzzy_threshold(normalized_query)
-
-    for item in query_cache.values():
-        cache_age = now - item.get('cached_at', 0)
-        if cache_age >= CACHE_TTL_SECONDS:
-            continue
-
-        candidate = item.get('normalized_query') or _normalize_cache_query(item.get('query', ''))
-        if not candidate:
-            continue
-
-        if actor_hint:
-            candidate_actor = _extract_actor_hint(item.get('query', ''))
-            if candidate_actor and candidate_actor != actor_hint:
-                continue
-
-        char_score = SequenceMatcher(None, normalized_query, candidate).ratio()
-        token_score = _token_jaccard(normalized_query, candidate)
-        score = max(char_score, (0.9 * char_score) + (0.1 * token_score))
-
-        if score > best_score:
-            best_score = score
-            best_item = item
-
-    if best_item and best_score >= threshold:
-        return best_item, 'fuzzy', round(best_score, 4)
-
-    return None, None, 0.0
-
 
 def _extract_focus_actor(query_text: str, result: dict) -> str:
     """Extract a best-effort primary actor for report CTA wording."""
@@ -192,9 +103,30 @@ def load_config(config_path: str = "config/settings.yaml") -> dict:
     return config
 
 
+def _start_feed_scheduler():
+    """Start feed scheduler once per process."""
+    global feed_scheduler, config
+
+    if feed_scheduler and feed_scheduler.is_alive():
+        return
+
+    feed_cfg = (config or {}).get('feeds', {}) if isinstance(config, dict) else {}
+    enabled = bool(feed_cfg.get('scheduler_enabled', True))
+    interval_hours = int(feed_cfg.get('scheduler_interval_hours', 12) or 12)
+    max_items = int(feed_cfg.get('max_items_per_source', 50) or 50)
+
+    feed_scheduler = FeedScheduler(
+        feed_manager=threat_feed_manager,
+        interval_hours=max(1, interval_hours),
+        max_items_per_source=max(1, max_items),
+        enabled=enabled,
+    )
+    feed_scheduler.start()
+
+
 def initialize_components():
     """Initialize all system components."""
-    global vector_store, retriever, interpreter, audit, config, conversation_manager, training_lab_manager
+    global vector_store, retriever, interpreter, audit, config, conversation_manager, training_lab_manager, threat_feed_manager, query_orchestrator, feed_scheduler
     
     logger.info("Initializing components...")
     
@@ -259,6 +191,30 @@ def initialize_components():
             project_answer_fn=lambda q: process_query(q, use_cache=False),
         )
         logger.info("✓ Training lab manager initialized")
+
+        # Initialize threat feed manager (news ingestion/retrieval)
+        threat_feed_manager = ThreatFeedManager(
+            feed_csv_path='feed/Data-feed/Threatactix - OpenCTI -RSS Feeds.csv',
+            storage_root='feed/Data-feed',
+            actors_data_path='data/canonical/actors.json',
+        )
+        logger.info("✓ Threat feed manager initialized")
+
+        # Initialize query orchestrator service.
+        query_orchestrator = QueryOrchestrator(
+            retriever=retriever,
+            interpreter=interpreter,
+            audit=audit,
+            conversation_manager=conversation_manager,
+            threat_feed_manager=threat_feed_manager,
+            cache=query_cache,
+            cache_ttl_seconds=CACHE_TTL_SECONDS,
+        )
+        logger.info("✓ Query orchestrator initialized")
+
+        # Start background feed scheduler (default every 12 hours).
+        _start_feed_scheduler()
+        logger.info("✓ Feed scheduler initialized")
         
         return True
         
@@ -268,205 +224,10 @@ def initialize_components():
 
 
 def process_query(query_text: str, use_cache: bool = True, conversation_id: str = None) -> dict:
-    """Process a query and return results with conversation context."""
-    import time
-    from agent.comparison_detector import ComparisonDetector
-    
-    start_time = time.time()
-    
-    try:
-        if not query_text.strip():
-            return {'error': 'Query cannot be empty'}
-        
-        if not retriever or not interpreter:
-            return {'error': 'System not initialized'}
-        
-        # Main project cache: exact + typo-tolerant fuzzy matching.
-        cache_key = hashlib.md5(_normalize_cache_query(query_text).encode()).hexdigest()
-        if use_cache:
-            cached_result, match_type, match_score = _find_cached_response(query_text)
-            if cached_result:
-                logger.info(f"⚡ Main cache hit ({match_type}, score={match_score:.3f})")
-                cached_result['from_cache'] = True
-                cached_result['cache_match_type'] = match_type
-                cached_result['cache_match_score'] = match_score
-                cached_result['processing_time'] = time.time() - start_time
-                return cached_result
-        
-        logger.info(f"Processing query: {query_text}")
-        
-        # Manage conversation context for multi-turn support
-        conversation = None
-        if conversation_id and conversation_manager:
-            conversation = conversation_manager.load_or_create_conversation(conversation_id)
-            logger.info(f"📋 Loaded conversation: {conversation_id}")
-        
-        # Detect query type for routing
-        current_actor = conversation.current_actor if conversation else None
-        query_type = ComparisonDetector.get_query_type(query_text, current_actor)
-        logger.info(f"Query type: {query_type}")
-        
-        # Retrieve evidence using NEW actor-scoped approach (recommended)
-        # Falls back to hybrid search if no specific actor detected
-        retrieval_start = time.time()
-        retrieval_result = retriever.retrieve_actor_scoped(query_text, retrieval_mode='full_actor')
-        retrieval_time = time.time() - retrieval_start
-        logger.info(f"⏱️ Retrieval completed in {retrieval_time:.2f}s (mode: {retrieval_result.get('retrieval_mode', 'hybrid')})")
-        
-        evidence = retrieval_result.get('evidence', [])
-        response_mode = retrieval_result.get('response_mode', 'adaptive')
-        parsed_query = retrieval_result.get('parsed_query') or {}
-        primary_actors = [
-            actor.get('primary_name')
-            for actor in parsed_query.get('actors', [])
-            if actor.get('primary_name')
-        ]
-        if not primary_actors and evidence:
-            seen = set()
-            ordered = []
-            for chunk in evidence:
-                primary = chunk.get('metadata', {}).get('primary_name')
-                if primary and primary not in seen:
-                    seen.add(primary)
-                    ordered.append(primary)
-            primary_actors = ordered
-        
-        # Cache actor chunks in conversation context for multi-turn support
-        if conversation and primary_actors:
-            for actor_name in primary_actors:
-                actor_chunks = [e for e in evidence if e.get('metadata', {}).get('primary_name') == actor_name]
-                if actor_chunks:
-                    conversation.cache_actor_chunks(actor_name, actor_chunks)
-                    conversation.actors_mentioned.append(actor_name) if actor_name not in conversation.actors_mentioned else None
-            
-            # Update current actor context
-            if primary_actors:
-                conversation.current_actor = primary_actors[0]
-                logger.info(f"💾 Cached {len(primary_actors)} actor(s) in conversation")
-        
-        # For comparison queries, ensure we have both actors' chunks
-        if query_type == 'comparison' and ComparisonDetector.is_comparison_query(query_text) and conversation:
-            from retrieval.alias_resolver import AliasResolver
-            
-            # Try to extract all actors from comparison query
-            alias_resolver = retriever.alias_resolver if hasattr(retriever, 'alias_resolver') else None
-            if alias_resolver:
-                all_actors = ComparisonDetector.extract_all_actors(query_text, alias_resolver)
-                for actor_info in all_actors:
-                    actor_name = actor_info.get('primary_name')
-                    if actor_name and not conversation.has_actor_cached(actor_name):
-                        # Retrieve chunks for this actor
-                        actor_retrieval = retriever.retrieve_actor_scoped(f"information about {actor_name}", retrieval_mode='full_actor')
-                        actor_chunks = actor_retrieval.get('evidence', [])
-                        if actor_chunks:
-                            conversation.cache_actor_chunks(actor_name, actor_chunks)
-                            if actor_name not in conversation.actors_mentioned:
-                                conversation.actors_mentioned.append(actor_name)
-                            logger.info(f"💾 Cached comparison actor: {actor_name}")
-        
-        if not evidence:
-            result = {
-                'query': query_text,
-                'answer': 'No relevant threat intelligence found for this query.',
-                'evidence': [],
-                'confidence': 0.0,
-                'source_count': 0,
-                'model': 'N/A',
-                'timestamp': datetime.now().isoformat(),
-                'response_mode': response_mode,
-                'primary_actors': primary_actors,
-                'processing_time': time.time() - start_time,
-                'from_cache': False,
-                'query_type': query_type
-            }
-            return result
-        
-        # Generate answer with adaptive response mode
-        generation_start = time.time()
-        retrieval_mode = retrieval_result.get('retrieval_mode', 'hybrid')
-        
-        # For comparison queries, use cached actor chunks
-        if query_type == 'comparison' and conversation:
-            all_cached_chunks = conversation.get_all_cached_chunks()
-            if len(all_cached_chunks) > 1:
-                logger.info(f"Generating comparison answer for {len(all_cached_chunks)} actors")
-                result = interpreter.comparison_answer(query_text, all_cached_chunks)
-                response_mode = 'comparison'
-            else:
-                result = interpreter.explain(query_text, evidence, response_mode=response_mode, retrieval_mode=retrieval_mode)
-        else:
-            result = interpreter.explain(query_text, evidence, response_mode=response_mode, retrieval_mode=retrieval_mode)
-        
-        generation_time = time.time() - generation_start
-        logger.info(f"⏱️ Answer generation completed in {generation_time:.2f}s")
-        
-        # Log to audit trail (do this asynchronously to not block response)
-        audit_start = time.time()
-        trace_id = audit.log_query(query_text, result.get('query_type', query_type), evidence)
-        audit.log_response(trace_id, result)
-        audit_time = time.time() - audit_start
-        logger.info(f"⏱️ Audit logging completed in {audit_time:.2f}s")
-        
-        total_time = time.time() - start_time
-        logger.info(f"⏱️ Total query processing time: {total_time:.2f}s")
-        
-        # Format response
-        response = {
-            'query': query_text,
-            'answer': result['answer'],
-            'confidence': result['confidence'],
-            'source_count': result['source_count'],
-            'model': result.get('model', 'N/A'),
-            'timestamp': datetime.now().isoformat(),
-            'trace_id': trace_id,
-            'response_mode': response_mode,
-            'query_type': query_type,
-            'primary_actors': primary_actors,
-            'processing_time': total_time,
-            'from_cache': False,
-            'timings': {
-                'retrieval': retrieval_time,
-                'generation': generation_time,
-                'audit': audit_time,
-                'total': total_time
-            },
-            'evidence': [
-                {
-                    'text': e['text'],
-                    'score': round(e.get('similarity_score', 0), 4),
-                    'source': e['metadata'].get('source_field', 'unknown'),
-                    'actor': e['metadata'].get('actor_name', 'unknown'),
-                    'links': e['metadata'].get('information_sources', [])
-                }
-                for e in evidence
-            ]
-        }
-
-        # Save conversation state if conversation context exists
-        if conversation:
-            conversation.add_message('user', query_text)
-            conversation.add_message('assistant', result['answer'])
-            conversation_manager.save_conversation(conversation)
-            logger.info(f"💾 Conversation saved with {len(conversation.actors_mentioned)} actors")
-        
-        # Always write back fresh answers into main cache.
-        # use_cache controls read behavior; writeback enables warm cache for future users.
-        response['cached_at'] = time.time()
-        response['normalized_query'] = _normalize_cache_query(query_text)
-        query_cache[cache_key] = response.copy()
-
-        # Keep cache size reasonable (max 1000 queries)
-        if len(query_cache) > 1000:
-            oldest_key = min(query_cache.keys(), key=lambda k: query_cache[k].get('cached_at', 0))
-            del query_cache[oldest_key]
-            logger.info("🗑️ Cache cleaned - removed oldest entry")
-        
-        logger.info("✓ Query processed successfully")
-        return response
-        
-    except Exception as e:
-        logger.error(f"Error processing query: {e}")
-        return {'error': str(e)}
+    """Process a query through the query orchestrator service."""
+    if query_orchestrator is None:
+        return {'error': 'System not initialized'}
+    return query_orchestrator.process_query(query_text, use_cache=use_cache, conversation_id=conversation_id)
 
 
 # ==================== WEB UI ROUTES ====================
@@ -725,6 +486,54 @@ def samples():
         "What infrastructure does Turla use?"
     ]
     return jsonify({'samples': samples_list})
+
+
+@app.route('/api/feeds/ingest', methods=['POST'])
+def ingest_feeds():
+    """Ingest all configured threat feeds into local storage/index."""
+    try:
+        if threat_feed_manager is None:
+            return jsonify({'error': 'Threat feed manager not initialized'}), 500
+
+        data = request.json or {}
+        max_items_per_source = int(data.get('max_items_per_source', 50))
+        fresh_hours = int(data.get('fresh_hours', 12))
+        force = bool(data.get('force', False))
+        stats = threat_feed_manager.ingest_all_sources(
+            max_items_per_source=max(1, max_items_per_source),
+            skip_if_fresh=not force,
+            fresh_hours=max(1, fresh_hours),
+        )
+        return jsonify(stats)
+    except Exception as e:
+        logger.error(f"Error ingesting feeds: {e}")
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/feeds/status', methods=['GET'])
+def feed_ingestion_status():
+    """Return feed scheduler/ingestion health details."""
+    try:
+        if threat_feed_manager is None:
+            return jsonify({'error': 'Threat feed manager not initialized'}), 500
+
+        failed_limit = int(request.args.get('failed_limit', 25))
+        source_limit = int(request.args.get('source_limit', 200))
+        health = threat_feed_manager.get_ingestion_health(
+            failed_limit=max(1, failed_limit),
+            source_limit=max(1, source_limit),
+        )
+
+        health['scheduler'] = {
+            'enabled': bool(feed_scheduler and feed_scheduler.enabled),
+            'alive': bool(feed_scheduler and feed_scheduler.is_alive()),
+            'interval_hours': int(feed_scheduler.interval_hours) if feed_scheduler else 0,
+        }
+
+        return jsonify(health)
+    except Exception as e:
+        logger.error(f"Error getting feed ingestion status: {e}")
+        return jsonify({'error': str(e)}), 500
 
 
 @app.route('/api/feedback', methods=['POST'])
@@ -1282,25 +1091,25 @@ def run_cli():
             logger.error(f"Error: {e}")
 
 
-def run_web_ui(port=5000, open_browser=True):
+def run_web_ui(port=5000, host='127.0.0.1', open_browser=True):
     """Run web UI."""
     logger.info("\n" + "="*50)
     logger.info("THREAT-AI WEB UI MODE")
     logger.info("="*50)
-    logger.info(f"Starting web server on http://localhost:{port}")
+    logger.info(f"Starting web server on http://{host}:{port}")
     logger.info("Press Ctrl+C to stop\n")
     
     # Open browser if requested
     if open_browser:
         time.sleep(1.5)
         try:
-            webbrowser.open(f'http://localhost:{port}')
+            webbrowser.open(f'http://{host}:{port}')
             logger.info(f"✓ Browser opened\n")
         except:
-            logger.warning(f"⚠ Could not open browser - navigate to http://localhost:{port} manually\n")
+            logger.warning(f"⚠ Could not open browser - navigate to http://{host}:{port} manually\n")
     
     try:
-        app.run(debug=False, host='127.0.0.1', port=port, use_reloader=False)
+        app.run(debug=False, host=host, port=port, use_reloader=False)
     except KeyboardInterrupt:
         logger.info("\n✓ Server stopped")
 
@@ -1314,6 +1123,7 @@ def main():
 Examples:
   python app.py --web                    Run web UI (default, opens browser)
   python app.py --web --port 8000        Run web UI on custom port
+    python app.py --web --host 0.0.0.0     Bind web UI for server deployment
   python app.py --web --no-browser       Run web UI without opening browser
   python app.py --cli                    Run CLI interface
         """
@@ -1334,6 +1144,11 @@ Examples:
         type=int,
         default=5000,
         help='Port for web UI (default: 5000)'
+    )
+    parser.add_argument(
+        '--host',
+        default='127.0.0.1',
+        help='Host for web UI (default: 127.0.0.1, use 0.0.0.0 on servers)'
     )
     parser.add_argument(
         '--no-browser',
@@ -1363,7 +1178,7 @@ Examples:
         if args.cli:
             run_cli()
         else:  # web UI
-            run_web_ui(port=args.port, open_browser=not args.no_browser)
+            run_web_ui(port=args.port, host=args.host, open_browser=not args.no_browser)
     
     except KeyboardInterrupt:
         logger.info("\nInterrupted by user.")

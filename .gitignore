@@ -10,9 +10,12 @@ build/
 # Virtual environments
 ThreatAI/
 venv/
+.venv/
+venv.bak/
 env/
 ENV/
-
+env.bak/
+.vscode/ThreatAI/
 # Node/JS
 node_modules/
 npm-debug.log*
@@ -21,9 +24,20 @@ yarn-error.log*
 # Data & Logs (sensitive/large files)
 data/chroma_db/
 data/conversations/
+data/derived/
+data/raw/
+data/feedback/
 logs/
 *.log
 training_lab/runtime/
+feed/Data-feed/state/
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
 # IDEs
 .vscode/settings.json

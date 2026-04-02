@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Security Affairs</title>
+	<atom:link href="https://securityaffairs.com/feed" rel="self" type="application/rss+xml" />
+	<link>https://securityaffairs.com/</link>
+	<description>Read, think, share … Security is everyone&#039;s responsibility</description>
+	<lastBuildDate>Wed, 01 Apr 2026 23:30:14 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+<site xmlns="com-wordpress:feed-additions:1">29506073</site>	<item>
+		<title>U.S. CISA adds a flaw in Google Dawn to its Known Exploited Vulnerabilities catalog</title>
+		<link>https://securityaffairs.com/190282/security/u-s-cisa-adds-a-flaw-in-google-dawn-to-its-known-exploited-vulnerabilities-catalog.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 23:30:12 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[CISA]]></category>
+		<category><![CDATA[CVE-2026-5281]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190282</guid>
+
+					<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in Google Dawn to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a flaw in Google Dawn, tracked as CVE-2026-5281 (CVSS score of 8.8), to its Known Exploited Vulnerabilities (KEV) catalog. The flaw is a use after free in the Dawn [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in Google Dawn to its Known Exploited Vulnerabilities catalog.</h2>
+
+
+
+<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) <a href="https://www.cisa.gov/news-events/alerts/2026/04/01/cisa-adds-one-known-exploited-vulnerability-catalog">added</a> a flaw in Google Dawn, tracked as <a href="https://www.cve.org/CVERecord?id=CVE-2026-5281">CVE-2026-5281</a> (CVSS score of 8.8), to its <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">Known Exploited Vulnerabilities (KEV) catalog</a>.</p>
+
+
+
+<p>The flaw is a use after free in the Dawn component in Google Chrome prior to 146.0.7680.178. Google Dawn is the WebGPU component used for graphics processing. A remote attacker who had compromised the renderer process could exploit the flaw to execute arbitrary code via a crafted HTML page.</p>
+
+
+
+<p>According to CISA, this vulnerability could affect multiple Chromium-based products including, but not limited to, Google Chrome, Microsoft Edge, and Opera.</p>
+
+
+
+<p>This week, Google <a href="https://securityaffairs.com/190265/hacking/google-fixes-fourth-actively-exploited-chrome-zero-day-of-2026.html">released</a> Chrome updates fixing 21 vulnerabilities, including a new actively exploited zero-day tracked as CVE-2026-5281.</p>
+
+
+
+<p>Due to ongoing exploitation, the company urges users to update their browsers immediately to reduce the risk of attacks.</p>
+
+
+
+<p><em>“Google is aware that an exploit for CVE-2026-5281 exists in the wild.”&nbsp;<a href="https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_31.html">reads the advisory</a>.</em></p>
+
+
+
+<p>A use-after-free (UAF) bug is a type of memory error where a program continues to use a piece of memory after it has already been freed (released).</p>
+
+
+
+<p>Attackers can exploit use-after-free bugs to crash applications, execute malicious code, or&nbsp;take control of a system. Google fixed the Chrome zero-day and urges users to update to version 146.0.7680.177/178 (Windows/macOS) or 146.0.7680.177 (Linux).</p>
+
+
+
+<p>As usual, Google did not reveal technical details of the attacks exploiting this flaw or the type of attackers involved, to give users time to update and prevent others from exploiting it.</p>
+
+
+
+<p>CVE-2026-5281 is the fourth Chrome zero-day exploited in attacks in 2026.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>According to&nbsp;<a href="https://cyber.dhs.gov/bod/22-01/" target="_blank" rel="noreferrer noopener">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a>, FCEB agencies have to address the identified vulnerabilities by the due date to protect their networks against attacks exploiting the flaws in the catalog.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Experts also recommend that private organizations review the&nbsp;<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noreferrer noopener">Catalog</a>&nbsp;and address the vulnerabilities in their infrastructure.</p>
+
+
+
+<p>CISA orders federal agencies to fix the vulnerability by April 15, 2026.</p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, US CISA <a href="https://securityaffairs.com/165513/security/cisa-adds-windows-rejetto-http-file-server-bugs-known-exploited-vulnerabilities-catalog.html">Known Exploited Vulnerabilities catalog</a>)</strong><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190282</post-id>	</item>
+		<item>
+		<title>Google fixes fourth actively exploited Chrome zero-day of 2026</title>
+		<link>https://securityaffairs.com/190265/hacking/google-fixes-fourth-actively-exploited-chrome-zero-day-of-2026.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 20:41:11 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[CVE-2026-5281]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190265</guid>
+
+					<description><![CDATA[Google fixed a new Chrome zero-day, tracked as CVE-2026-5281, in the WebGPU Dawn component that is already exploited in the wild. Google released Chrome updates fixing 21 vulnerabilities, including a new actively exploited zero-day tracked as CVE-2026-5281. The flaw is a use-after-free bug in Dawn, the WebGPU component used for graphics processing. Due to ongoing [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Google fixed a new Chrome zero-day, tracked as CVE-2026-5281, in the WebGPU Dawn component that is already exploited in the wild.<gwmw style="display: none; background-color: transparent;"></gwmw></h2>
+
+
+
+<p>Google released Chrome updates fixing 21 vulnerabilities, including a new actively exploited zero-day tracked as CVE-2026-5281. The flaw is a use-after-free bug in Dawn, the WebGPU component used for graphics processing. </p>
+
+
+
+<p>Due to ongoing exploitation, the company urges users to update their browsers immediately to reduce the risk of attacks.</p>
+
+
+
+<p><em>&#8220;Google is aware that an exploit for CVE-2026-5281 exists in the wild.&#8221; <a href="https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_31.html">reads the advisory</a>.</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>A use-after-free (UAF) bug is a type of memory error where a program continues to use a piece of memory after it has already been freed (released).<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Attackers can exploit use-after-free bugs to crash applications, execute malicious code, or <gwmw style="display: none; background-color: transparent;"></gwmw>take control of a system. Google fixed the Chrome zero-day and urges users to update to version 146.0.7680.177/178 (Windows/macOS) or 146.0.7680.177 (Linux).<gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p>As usual, Google did not reveal technical details of the attacks exploiting this flaw or the type of attackers involved, to give users time to update and prevent others from exploiting it.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>CVE-2026-5281 is the fourth Chrome zero-day exploited in attacks in 2026, below the other actively exploited flaws addressed by Google this year:</p>
+
+
+
+<ul class="wp-block-list">
+<li>February 2026 &#8211; <a href="https://securityaffairs.com/188029/security/google-fixes-first-actively-exploited-chrome-zero-day-of-2026.html">CVE-2026-2441</a> &#8211; Use after free in CSS</li>
+
+
+
+<li>March 2026 &#8211; <a href="https://securityaffairs.com/189373/hacking/google-fixed-two-new-actively-exploited-flaws-in-the-chrome-browser.html">CVE-2026-3909</a> (CVSS score: 8.8) &#8211; Out-of-bounds write in the Skia 2D graphics library and <a href="https://securityaffairs.com/189373/hacking/google-fixed-two-new-actively-exploited-flaws-in-the-chrome-browser.html">CVE-2026-3910</a> (CVSS score: 8.8) &#8211; Flaw in the implementation of the V8 JavaScript/WebAssembly engine <gwmw style="display:none;"></gwmw></li>
+</ul>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Google)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190265</post-id>	</item>
+		<item>
+		<title>Google links Axios npm supply chain attack to North Korea-linked APT UNC1069</title>
+		<link>https://securityaffairs.com/190256/security/google-links-axios-npm-supply-chain-attack-to-north-korea-linked-apt-unc1069.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 13:47:19 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Intelligence]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Axios]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[North Korea]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[supply chain attack]]></category>
+		<category><![CDATA[UNC1069]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190256</guid>
+
+					<description><![CDATA[Google links the Axios npm supply chain attack to North Korean threat group UNC1069, targeting financial gain. Google has attributed the recent Axios npm supply chain compromise to a North Korean threat group tracked as UNC1069. The attack, aimed at financial gain, exploited the package to target developers and organizations relying on Axios. John Hultquist [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Google links the Axios npm supply chain attack to North Korean threat group UNC1069, targeting financial gain.</h2>
+
+
+
+<p>Google has attributed the recent <a href="https://securityaffairs.com/190221/security/attackers-hijack-axios-npm-account-to-spread-rat-malware.html" type="post" id="190221">Axios npm supply chain compromise</a> to a North Korean threat group tracked as UNC1069. The attack, aimed at financial gain, exploited the package to target developers and organizations relying on Axios. </p>
+
+
+
+<p>John Hultquist of Google Threat Intelligence confirmed the attribution, highlighting the group&#8217;s growing activity in supply chain attacks.</p>
+
+
+
+<p><em>&#8220;GTIG attributes this activity to <a href="https://cloud.google.com/blog/topics/threat-intelligence/unc1069-targets-cryptocurrency-ai-social-engineering">UNC1069</a>, a financially motivated North Korea-nexus threat actor active since at least 2018, based on the use of WAVESHAPER.V2, an updated version of <a href="https://cloud.google.com/blog/topics/threat-intelligence/unc1069-targets-cryptocurrency-ai-social-engineering">WAVESHAPER</a> previously used by this threat actor. Further, analysis of infrastructure artifacts used in this attack shows overlaps with infrastructure used by UNC1069 in past activities.&#8221; reads the <a href="https://cloud.google.com/blog/topics/threat-intelligence/north-korea-threat-actor-targets-axios-npm-package?e=48754805">analysis</a> by Google Threat Intelligence Group. &#8220;Analysis of the C2 infrastructure (<code>sfrclak[.]com</code> resolving to <code>142.11.206.73</code>) revealed connections from a specific AstrillVPN node previously used by UNC1069. Additionally, adjacent infrastructure hosted on the same ASN has been historically linked to UNC1069 operations.&#8221;</em></p>
+
+
+
+<p>Threat actors compromised the npm account of Axios, a widely used library with over 100M weekly downloads. They published malicious versions to spread remote access trojans across Linux, Windows, and macOS. Multiple security firms identified the supply chain attack after the rogue updates appeared in the npm registry.<gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p>Malicious versions of Axios (1.14.1 and 0.30.4) were published within an hour without OIDC verification or matching GitHub commits, raising immediate red flags. Researchers believe attackers compromised maintainer&nbsp;<a href="https://github.com/jasonsaayman">Jason Saayman’s npm account</a>.</p>
+
+
+
+<p><em>“Anyone who installed either version before the takedown should assume their system is compromised. The malicious versions inject a dependency (<code>plain-crypto-js</code>) that deploys a cross-platform remote access trojan targeting macOS, Windows, and Linux.” read the&nbsp;<a href="https://www.aikido.dev/blog/axios-npm-compromised-maintainer-hijacked-rat">report</a>&nbsp;published by Aikido Security.</em></p>
+
+
+
+<p>The impact is unclear, but given Axios’&nbsp;<a href="http://www.npmjs.com/package/axios">~400M monthly downloads</a>, many downstream projects may have been exposed during the brief attack window.</p>
+
+
+
+<p>Socket researchers reported that a malicious package called&nbsp;<em>plain-crypto-js@4.2.1</em>&nbsp;was published and detected within minutes, likely as part of a coordinated attack targeting Axios. Attackers inserted this dependency into two compromised Axios versions, allowing malware to spread through a trusted library used by millions of projects. Because many developers rely on automatic updates, affected versions could be installed without notice.</p>
+
+
+
+<p>The malicious code was designed to stay hidden. It used obfuscation techniques to avoid detection and ran automatically during installation through a post-install script. Once executed, it checked the operating system (Windows, macOS, or Linux) and downloaded a second-stage payload tailored to each platform. In the case of macOS, researchers confirmed the delivery of a fully functional remote access trojan (RAT) capable of collecting system information, communicating with a command-and-control server, and executing commands.</p>
+
+
+
+<p><em>“Security researcher Joe Desimone from Elastic Security captured and reverse-engineered the macOS&nbsp;<a href="https://gist.github.com/joe-desimone/f9b205b6a5c2a826987e27b6ecc84c05" target="_blank" rel="noreferrer noopener">second-stage binary</a>&nbsp;before the C2 went offline. The payload is a fully functional remote access trojan written in C++.” reads the&nbsp;<a href="https://socket.dev/blog/axios-npm-package-compromised">report</a>&nbsp;published by Socket.</em></p>
+
+
+
+<p>To avoid being discovered, the malware removed its own traces after running. It deleted installation files and restored clean-looking package content, making the infected library appear normal. The experts believe the attack was possible due to the compromise of a maintainer account, enabling unauthorized publishing of malicious updates.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Google’s Threat Intelligence Group (GTIG) and other researchers attribute the Axios npm supply chain attack to North Korean threat actor UNC1069, which has been active since at least 2023. SentinelOne <a href="https://www.sentinelone.com/blog/bluenoroff-how-dprks-macos-rustbucket-seeks-to-evade-analysis-and-detection/">previously observed</a> the group using macOS malware, including attacks on a cryptocurrency firm with fake Zoom campaigns. Malware used in Axios mirrors WAVESHAPER, a strain tied to North Korean operations. Hultquist emphasized the group’s expertise in supply chain attacks and cryptocurrency theft. <gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p>WAVESHAPER.V2 is a versatile backdoor used by UNC1069, targeting macOS, Windows, and other environments via C++, PowerShell, or Python. It beacons to C2 every 60 seconds with Base64-encoded JSON, using a hardcoded User-Agent, then waits for commands. Capabilities include reconnaissance (system info, running processes), directory enumeration, script execution, and PE injection. On Windows, it persists via a hidden batch file and registry entry, acting as a full RAT with remote command execution and file system access.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>&#8220;North Korea-linked threat actors “have deep experience with supply chain attacks, which they’ve historically used to steal cryptocurrency.&#8221;<gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p>“The full breadth of this incident is still unclear, but given the popularity of the compromised package, we expect it will have far reaching impacts,” Hultquist said. <gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>&#8220;North Korean hackers have deep experience with supply chain attacks, which they&#8217;ve historically used to steal cryptocurrency. The full breadth of this incident is still unclear, but given the popularity of the compromised package, we expect it will have far reaching impacts.&#8221;</p>
+
+
+
+<p><em>&#8220;The impact of this attack by North Korea-nexus actors is broad and has ripple effects as other popular packages rely on axios as a dependency. Notably, UNC1069 isn’t the only threat actor that has launched successful open source supply chain attacks in recent weeks. UNC6780 (also known as TeamPCP) recently poisoned GitHub Actions and PyPI packages associated with projects like Trivy, Checkmarx, and LiteLLM to deploy the SANDCLOCK credential stealer and facilitate follow-on extortion operations.&#8221; concludes Google. &#8220;Hundreds of thousands of stolen secrets could potentially be circulating as a result of these recent attacks. This could enable further software supply chain attacks, software as a service (SaaS) environment compromises (leading to downstream customer compromises), ransomware and extortion events, and cryptocurrency theft over the near term. &#8220;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Axios)</strong></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190256</post-id>	</item>
+		<item>
+		<title>SentinelOne autonomous detection blocks trojaned LiteLLM triggered by Claude Code</title>
+		<link>https://securityaffairs.com/190248/security/sentinelone-autonomous-detection-blocks-trojaned-litellm-triggered-by-claude-code.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 08:58:59 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Anthropic Claude Code]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[LiteLLM]]></category>
+		<category><![CDATA[LiteLLM supply]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190248</guid>
+
+					<description><![CDATA[SentinelOne AI stopped a LiteLLM supply chain attack in seconds, blocking malicious code automatically without human intervention. SentinelOne’s AI-based security detected and blocked a supply chain attack involving a compromised LiteLLM package. SentinelOne’s macOS agent detected and stopped a malicious process chain triggered by Claude Code after it unknowingly installed a compromised LiteLLM package. The [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">SentinelOne AI stopped a LiteLLM supply chain attack in seconds, blocking malicious code automatically without human intervention.</h2>
+
+
+
+<p>SentinelOne’s AI-based security detected and blocked a supply chain attack involving a compromised LiteLLM package. </p>
+
+
+
+<p>SentinelOne’s macOS agent detected and stopped a malicious process chain triggered by <a href="https://securityaffairs.com/tag/claude-code" type="post_tag" id="16615">Claude Code</a> after it unknowingly installed a compromised LiteLLM package. The AI identified suspicious hidden Python code execution via base64 decoding, and killed the process within seconds across hundreds of events. The system traced the full process chain triggered by an AI agent and prevented data theft or further spread, showing the power of autonomous, behavior-based defense.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Attackers indirectly compromised LiteLLM by first breaching trusted tools like <a href="https://securityaffairs.com/tag/trivy" type="post_tag" id="16715">Trivy</a>, stealing maintainer credentials to publish malicious versions. The campaign also hit other platforms, showing how open-source trust can be abused. In one case, an AI coding assistant unknowingly installed the infected package, highlighting a new risk: AI agents with full system access can spread attacks automatically. </p>
+
+
+
+<p><em>&#8220;SentinelOne’s behavioral detection operates below the application layer. It does not matter whether a malicious package is installed by a human, a CI pipeline, or an AI agent.&#8221; reads the <a href="https://www.sentinelone.com/blog/how-sentinelones-ai-edr-autonomously-discovered-and-stopped-anthropics-claude-from-executing-a-zero-day-supply-chain-attack-globally/">report</a> published by SentinelOne. &#8220;The platform monitors process behavior via the Endpoint Security Framework, which is why this detection fired regardless of how the infected package arrived.&#8221;</em></p>
+
+
+
+<p>Two malicious versions ensured execution, one during normal use, the other at Python startup, expanding the attack’s reach even to systems not actively using LiteLLM.</p>
+
+
+
+<p>The LiteLLM attack began with a small, obfuscated script that launched silently, followed by a data stealer that collected system info, credentials, crypto wallets, and secrets. The malware then ensured persistence by installing a disguised system service that ran in the background and contacted its command server at long intervals to avoid detection.</p>
+
+
+
+<p><em>&#8220;The third stage established persistence through a systemd user service at <code>~/.config/systemd/user/sysmon.service</code>, executing a script at <code>~/.config/sysmon/sysmon.py</code>.&#8221; continues the report. &#8220;The persistence mechanism included a 5-minute initial delay before any network activity, a technique specifically designed to outlast automated sandbox analysis. After that, the script contacted its C2 server every 50 minutes, fetching dynamic payload URLs.&#8221;</em></p>
+
+
+
+<p>The attack expanded beyond the initial machine by creating privileged Kubernetes pods, gaining deep access to cluster nodes and deploying backdoors. Stolen data was encrypted and sent to a server designed to look legitimate, helping it bypass monitoring. Overall, the attack shows how modern threats combine stealth, automation, and multiple layers to move quickly and evade traditional defenses.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;The LiteLLM detection wasn’t a one-off. It’s what happens when autonomous, behavioral AI is built into the foundation, not bolted on after the fact.&#8221; concludes the report.</em><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, LiteLLM supply)</strong></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190248</post-id>	</item>
+		<item>
+		<title>Free VPNs leak your data while claiming privacy</title>
+		<link>https://securityaffairs.com/190239/security/free-vpns-leak-your-data-while-claiming-privacy.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 07:38:33 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[VPNs]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190239</guid>
+
+					<description><![CDATA[Most free Android VPNs track users, request dangerous permissions, and connect to risky servers, privacy comes at a hidden cost. Free VPN apps are some of the most popular downloads on Android, promising privacy at no cost. But the reality is far from what they advertise. Most users tap “install” without a second thought, unaware [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Most free Android VPNs track users, request dangerous permissions, and connect to risky servers, privacy comes at a hidden cost.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></h2>
+
+
+
+<p>Free VPN apps are some of the most popular downloads on Android, promising privacy at no cost. But the reality is far from what they advertise. Most users tap “install” without a second thought, unaware that many of these apps collect and share personal data rather than protecting it. Mysterium VPN’s research provides concrete evidence of the risks hidden inside free VPNs, revealing how they operate behind the scenes and why “free” often comes with a high price for your privacy.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The research focused on 18 of the most popular free Android VPN apps from the Google Play Store. Each app was analyzed using MobSF, an open-source mobile security framework. This static analysis examined four main areas: the permissions requested by the app, any embedded third-party trackers, hardcoded network endpoints, and developer or third-party email addresses within the code. While static analysis cannot reveal real-time activity, the presence of these elements alone shows what the app is capable of and the potential dangers to users.</p>
+
+
+
+<p>A major finding is the sheer number of embedded trackers. Trackers are pieces of software that collect data on user behavior, often for advertising or analytics. Out of the 18 apps tested, 17 contained at least one tracker, and the average app included nearly five. Some apps contained more than a dozen trackers, including platforms from the U.S., China, and Russia. Google’s advertising and analytics tools, like AdMob and Firebase Analytics, were present in nearly every app, and Facebook integration appeared in several, enabling cross-platform tracking. Apps such as Turbo VPN and VPN Proxy Master included Chinese platforms like Umeng and Mobvista, as well as Russian trackers like Yandex Ad. This means users attempting to avoid tracking are often exposed to extensive monitoring by multiple third-party companies.</p>
+
+
+
+<p>Permissions requested by these apps revealed another layer of concern. A legitimate VPN needs only a few permissions: network access, the ability to create a VPN tunnel, and the ability to run in the foreground. Yet many apps requested far more, often with no relationship to VPN functionality. FreeVPN, for instance, requested 21 permissions, 12 of which are considered “dangerous” under Android rules. These included camera, microphone, contacts, call logs, precise location, and device storage access. Essentially, the app could record audio or video, read your call history, track your movements, and access your photos and files. This permission set resembles spyware more than a privacy tool. Other apps like VPN Proxy Master, VPN 360, and Secure VPN also requested a high number of dangerous permissions, some including the ability to modify system settings or display overlays, techniques that could enable clickjacking or other malicious behavior.</p>
+
+
+
+<p>Network connections were another significant concern. Many apps connected to a large number of hardcoded domains, sometimes over 100 for a single app, far more than necessary for a VPN. Some of these domains were located in countries with strict state surveillance or subject to U.S. OFAC sanctions, such as China and Russia. </p>
+
+
+
+<p><em>&#8220;Beyond trackers and permissions, perhaps the most alarming finding is the number of free VPN apps that contain hardcoded connections to servers in countries subject to OFAC sanctions or with documented state surveillance programs.&#8221; reads the <a href="https://www.mysteriumvpn.com/blog/news/whats-really-inside-your-free-vpn">report</a> published by MysteriumVpn. &#8220;Routing VPN traffic through these jurisdictions exposes users to risks that no tracker policy or permission review can address.&#8221;</em><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p>Using servers in these jurisdictions exposes users to additional risks, as local laws may require companies to log user traffic or provide access to government agencies. For example, Turbo VPN connects to Chinese servers on Alibaba’s network and includes multiple Chinese trackers. VPN Proxy Master communicates with both Chinese and Russian infrastructure while also embedding trackers from these countries. VPN 360 connected to 105 unique domains, combining multiple trackers with potentially risky server locations.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Other alarming behaviors include apps using plaintext HTTP connections instead of encrypted HTTPS, exposing data in transit. Some apps also included embedded emails, which could indicate a lack of professionalism or potential avenues for phishing and other attacks.</p>
+
+
+
+<p>The research identifies the apps with the most concerning risk profiles. FreeVPN stands out for its extreme permissions, despite having no trackers. VPN Proxy Master combines high permissions, numerous trackers, and connections to risky infrastructure, making it the most comprehensive data collector. Turbo VPN is the “tracker king,” embedding platforms from three national advertising ecosystems. VPN 360 has the largest network footprint, with over 100 hardcoded domains. Secure VPN combines dangerous permissions with extensive tracking, including Facebook’s full suite.</p>
+
+
+
+<p>The takeaway for users is clear: most free VPN apps are not primarily privacy tools. They are advertising and data collection platforms disguised as security apps. To protect yourself, review requested permissions carefully, audit apps for trackers using tools like Exodus Privacy, and be skeptical of free apps. Open-source and independently audited VPNs are safer, as are decentralized VPN networks, which reduce the risk of a single entity collecting or monetizing your data. Until app stores enforce privacy standards, users bear the responsibility of verifying the safety of any VPN they install.</p>
+
+
+
+<p>In short, “free” often comes at a steep cost. Instead of privacy, many free VPNs deliver extensive surveillance, heavy tracking, and connections to potentially dangerous jurisdictions. Investing in a reputable, secure VPN is worth the cost for the protection and peace of mind it provides. Your digital privacy is valuable, and safeguarding it requires informed choices rather than relying on a zero-cost lure.</p>
+
+
+
+<p><em>&#8220;The central finding of this research is straightforward: the overwhelming majority of popular free VPN apps on Android are not primarily privacy tools. They are data collection and advertising platforms that provide VPN functionality as a lure.&#8221; concludes the report. &#8220;The business model is clear, and the mechanisms for executing it are built into the app before a user ever opens it.&#8221;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, VPNs)</strong><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190239</post-id>	</item>
+		<item>
+		<title>Anthropic accidentally leaks Claude Code</title>
+		<link>https://securityaffairs.com/190229/data-breach/anthropic-accidentally-leaks-claude-code.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 22:23:49 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Data Breach]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[data leak]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190229</guid>
+
+					<description><![CDATA[Anthropic accidentally exposed Claude Code source via npm, causing the code to quickly spread online after discovery. Anthropic accidentally leaked the source code of its Claude Code tool after a large debug file was included in a public npm release. The file exposed over 500,000 lines of code, which were quickly discovered, shared, and analyzed [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Anthropic accidentally exposed Claude Code source via npm, causing the code to quickly spread online after discovery.</h2>
+
+
+
+<p>Anthropic accidentally leaked the source code of its <a href="https://securityaffairs.com/tag/claude-code" type="post_tag" id="16615">Claude Code</a> tool after a large debug file was included in a public npm release. The file exposed over 500,000 lines of code, which were quickly discovered, shared, and analyzed by developers after being flagged online.</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="zxx" dir="ltr"><a href="https://t.co/gBzGInggXd">pic.twitter.com/gBzGInggXd</a></p>&mdash; Chaofan Shou (@Fried_rice) <a href="https://twitter.com/Fried_rice/status/2038897157827371015?ref_src=twsrc%5Etfw">March 31, 2026</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div></figure>
+
+
+
+<p><em>“Earlier today, a Claude Code release included some internal source code. No sensitive customer data or credentials were involved or exposed. This was a release packaging issue caused by human error, not a security breach. We&#8217;re rolling out measures to prevent this from happening again.” an Anthropic spokesperson’s <a href="https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know">told</a> VentureBeat.</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Claude Code’s memory system is carefully engineered for reliability and efficiency. Instead of storing everything, it uses a structured, self-correcting approach: a small index tracks pointers, while actual knowledge is fetched only when needed. Memory updates follow strict rules to avoid polluting context, and a background process continuously merges, deduplicates, and prunes data. Memory is treated as a guide, not absolute truth, and verification against real data is required. Irrelevant or derivable details are never stored, keeping the system lean and accurate.</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">Based on everything explored in the source code, here&#39;s the full technical recipe behind Claude Code&#39;s memory architecture:<br><br>[shared by claude code]<br><br>Claude Code’s memory system is actually insanely well-designed. It isn&#39;t like  “store everything” but constrained, structured and… <a href="https://t.co/PlGRvuvkts">pic.twitter.com/PlGRvuvkts</a></p>&mdash; himanshu (@himanshustwts) <a href="https://twitter.com/himanshustwts/status/2038924027411222533?ref_src=twsrc%5Etfw">March 31, 2026</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div></figure>
+
+
+
+<p>The leaked Claude Code shows how Anthropic keeps its AI focused during long interactions, avoiding confusion or errors. It uses a layered memory system where a small index tracks locations instead of storing full data, and the actual information is retrieved only when needed. Failed updates don’t affect the AI’s memory, keeping it accurate. Essentially, the model treats its memory as a guide, checking details against the real data before taking action, offering a clear example for others to create more dependable AI agents.<gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p><em>&#8220;The leak also pulls back the curtain on <strong>&#8220;</strong>KAIROS<strong>,&#8221;</strong> the Ancient Greek concept of &#8220;at the right time,&#8221; a feature flag mentioned over 150 times in the source. KAIROS represents a fundamental shift in user experience: an autonomous daemon mode.&#8221; <a href="https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know">states VentureBeat</a>. &#8220;While current AI tools are largely reactive, KAIROS allows Claude Code to operate as an always-on background agent. It handles background sessions and employs a process called <code>autoDream</code>. In this mode, the agent performs &#8220;memory consolidation&#8221; while the user is idle. The <code>autoDream</code> logic merges disparate observations, removes logical contradictions, and converts vague insights into absolute facts.&#8221;</em></p>
+
+
+
+<p>The leak reveals Anthropic’s internal AI roadmap, including Capybara (Claude 4.6), Fennec (Opus 4.6), and the unreleased Numbat. Capybara v8 faces a 29–30% false claims rate versus 16.7% in v4. Features like &#8220;Undercover Mode&#8221; let Claude Code contribute to public repositories without revealing internal info. <gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The Claude Code leak not only compromises Anthropic’s IP but also exposes Anthropic’s internal architecture, giving attackers a roadmap to bypass security prompts. <gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Claude Code)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190229</post-id>	</item>
+		<item>
+		<title>Attackers hijack Axios npm account to spread RAT malware</title>
+		<link>https://securityaffairs.com/190221/security/attackers-hijack-axios-npm-account-to-spread-rat-malware.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 18:30:27 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Axios]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[npm]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[RAT]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[supply chain attack]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190221</guid>
+
+					<description><![CDATA[Threat actors hijacked the npm account of Axios to distribute RAT malware via malicious package updates. Threat actors compromised the npm account of Axios, a widely used library with over 100M weekly downloads, and published malicious versions to spread remote access trojans across Linux, Windows, and macOS. The supply chain attack was identified by multiple [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Threat actors hijacked the npm account of Axios to distribute RAT malware via malicious package updates.</h2>
+
+
+
+<p>Threat actors compromised the npm account of Axios, a widely used library with over 100M weekly downloads, and published malicious versions to spread remote access trojans across Linux, Windows, and macOS. The supply chain attack was identified by multiple security firms after the rogue updates appeared on the npm registry.</p>
+
+
+
+<p>Malicious versions of Axios (1.14.1 and 0.30.4) were published within an hour without OIDC verification or matching GitHub commits, raising immediate red flags. Researchers believe attackers compromised maintainer <a href="https://github.com/jasonsaayman">Jason Saayman’s npm account</a>. </p>
+
+
+
+<p><em>&#8220;Anyone who installed either version before the takedown should assume their system is compromised. The malicious versions inject a dependency (<code>plain-crypto-js</code>) that deploys a cross-platform remote access trojan targeting macOS, Windows, and Linux.&#8221; read the <a href="https://www.aikido.dev/blog/axios-npm-compromised-maintainer-hijacked-rat">report</a> published by Aikido Security.</em></p>
+
+
+
+<p>The impact is unclear, but given Axios’ <a href="http://www.npmjs.com/package/axios">~400M monthly downloads</a>, many downstream projects may have been exposed during the brief attack window.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Socket researchers reported that a malicious package called <em>plain-crypto-js@4.2.1</em> was published and detected within minutes, likely as part of a coordinated attack targeting Axios. Attackers inserted this dependency into two compromised Axios versions, allowing malware to spread through a trusted library used by millions of projects. Because many developers rely on automatic updates, affected versions could be installed without notice.</p>
+
+
+
+<p>The malicious code was designed to stay hidden. It used obfuscation techniques to avoid detection and ran automatically during installation through a post-install script. Once executed, it checked the operating system (Windows, macOS, or Linux) and downloaded a second-stage payload tailored to each platform. In the case of macOS, researchers confirmed the delivery of a fully functional remote access trojan (RAT) capable of collecting system information, communicating with a command-and-control server, and executing commands.</p>
+
+
+
+<p><em>&#8220;Security researcher Joe Desimone from Elastic Security captured and reverse-engineered the macOS <a href="https://gist.github.com/joe-desimone/f9b205b6a5c2a826987e27b6ecc84c05" target="_blank" rel="noreferrer noopener">second-stage binary</a> before the C2 went offline. The payload is a fully functional remote access trojan written in C++.&#8221; reads the <a href="https://socket.dev/blog/axios-npm-package-compromised">report</a> published by Socket.</em></p>
+
+
+
+<p>To avoid being discovered, the malware removed its own traces after running. It deleted installation files and restored clean-looking package content, making the infected library appear normal. The experts believe the attack was possible due to the compromise of a maintainer account, enabling unauthorized publishing of malicious updates.</p>
+
+
+
+<p>Given the huge number of Axios downloads, the potential impact is significant, even though the exposure window was relatively short.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter is-resized"><img decoding="async" src="https://securityaffairs.com/wp-content/uploads/2026/03/axios-npm.svg" alt="axios npm" class="wp-image-190223" style="aspect-ratio:1.2414224632391282;width:624px;height:auto"/></figure>
+</div>
+
+
+<p>Socket security researchers found two more packages spreading the same malware through hidden dependencies linked to Axios. The package <em>@shadanai/openclaw</em> included the malicious <em>plain-crypto-js</em> deep inside its code, using identical obfuscation, command-and-control infrastructure, and self-deleting behavior. Another package, <em>@qqbrowser/openclaw-qbot</em>, used a different method by bundling a tampered Axios version that silently installed the malicious dependency.</p>
+
+
+
+<p>In both cases, the infection likely happened automatically when these projects pulled the compromised Axios release. This shows how a single poisoned dependency can quickly spread across many projects, especially with automated builds and fast package publishing pipelines.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>To check if you’re affected by the Axios attack, verify if your project includes malicious versions (1.14.1 or 0.30.4) or the hidden <em>plain-crypto-js</em> package. Look for leftover files or RAT artifacts on macOS, Windows, or Linux systems. Even if some files were removed, traces may remain. Alternatively, use automated tools like <a href="https://app.aikido.dev/?_gl=1*aq03op*_gcl_au*MTIxMTc3NDIyMS4xNzc0NTUwMDk4*FPAU*MTU1OTAzNDI1Ni4xNzc0NTUwMDk5*_ga*NTc0NTY3ODc0LjE3NzQ1NTAwOTg.*_ga_NCP2435BFQ*czE3NzQ5ODAwMDAkbzMkZzEkdDE3NzQ5ODAwOTckajUyJGwwJGgyMDI4NjE1NDM.">Aikido</a> to scan dependencies and quickly detect any compromised packages.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Both Socket and Aikido provided Indicators of compromise (IOCs) for this supply chain attack.<gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, supply chain attack)</strong><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190221</post-id>	</item>
+		<item>
+		<title>Nearly half a Million mobile customers of Lloyds Banking Group affected by security incident</title>
+		<link>https://securityaffairs.com/190213/data-breach/nearly-half-a-million-mobile-customers-of-lloyds-banking-group-affected-by-a-security-incident.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 13:58:48 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Data Breach]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190213</guid>
+
+					<description><![CDATA[Lloyds Banking Group data incident exposed transactions of ~450,000 mobile banking users due to a faulty update. A faulty software update at Lloyds Banking Group exposed transaction details of nearly 450,000 mobile banking users on March 12. The issue caused some customers to see other users’ account activity within the app, prompting the bank to [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Lloyds Banking Group data incident exposed transactions of ~450,000 mobile banking users due to a faulty update.</h2>
+
+
+
+<p><gwmw style="display:none;"></gwmw>A faulty software update at Lloyds Banking Group exposed transaction details of nearly 450,000 mobile banking users on March 12. The issue caused some customers to see other users’ account activity within the app, prompting the bank to disclose a data security incident affecting current account information.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>According to Lloyds Banking Group, transactions were exposed only if users accessed their transaction lists at nearly the same time. A customer would need to view their own transactions within fractions of a second of another user to see or be seen. The faulty update, rolled out on March 12 at 03:28, was fixed by 08:08 and has not recurred. Exposed data could include amounts, dates, payment identifiers, and potentially National Insurance numbers.</p>
+
+
+
+<p><em>&#8220;Up to 447,936 Lloyds, Halifax and Bank of Scotland customers saw other people&#8217;s transactions or had their data shared with other users during an IT glitch on 12 March, according to a letter published by the Treasury Select Committee.&#8221; Lloyds <a href="https://committees.parliament.uk/committee/158/treasury-committee/news/212885/nearly-half-a-million-lloyds-banking-group-customers-affected-by-personal-data-glitch/" target="_blank" rel="noreferrer noopener">told</a> the UK’s Treasury Committee. &#8220;114,182 people clicked on other people’s transactions when they became visible and then may have been shown more detailed information such as account details, national insurance numbers and payment references.&#8221;</em></p>
+
+
+
+<p>The banking group reported that some exposed transactions involved payments to non-Lloyds customers. The company pointed out that the account balances remained unaffected, and no unauthorized actions were possible. Customers only saw other users’ data briefly, and the information alone was insufficient to commit fraud. During the incident, 1.67 million of 21.5 million mobile users logged in, with 447,936 experiencing transaction exposure or having their own transactions briefly visible to others.</p>
+
+
+
+<p><em>&#8220;In total, £139,000 of compensation has been paid out to 3,625 customers for distress and inconvenience. No customers have, so far, been identified as suffering financial loss.&#8221; concludes Lloyds.</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>“Modern banking methods mean we can now perform a variety of tasks on our phones in a matter of seconds, and almost anywhere.&#8221; said Chair of the Treasury Committee, Dame Meg Hillier. “What this incident brings into focus is the fact that there is a trade-off. By moving more interactions with our bank online, we place our faith in technology which can suffer unpredictable errors. It’s critical that consumers understand this, and that’s why my Committee continues to push banks to be transparent when things go wrong.”</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Lloyds)</strong></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190213</post-id>	</item>
+		<item>
+		<title>Dutch Ministry of Finance takes treasury systems offline amid cyber incident investigation</title>
+		<link>https://securityaffairs.com/190204/hacking/dutch-ministry-of-finance-takes-treasury-systems-offline-amid-cyber-incident-investigation.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 11:34:19 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Dutch Ministry of Finance]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190204</guid>
+
+					<description><![CDATA[The Dutch Ministry of Finance took treasury banking portal offline after a cyberattack; core tax systems were not affected. The Dutch Ministry of Finance took parts of its infrastructure offline, including the treasury banking portal, after detecting a cyberattack two weeks earlier. The Dutch Ministry of Finance disclosed a cyberattack detected on March 19 after [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">The Dutch Ministry of Finance took treasury banking portal offline after a cyberattack; core tax systems were not affected.</h2>
+
+
+
+<p>The Dutch Ministry of Finance took parts of its infrastructure offline, including the treasury banking portal, after detecting a <a href="https://securityaffairs.com/189929/data-breach/data-breach-at-dutch-ministry-of-finance-impacts-staff-following-cyberattack.html" type="post" id="189929">cyberattack</a> two weeks earlier. </p>
+
+
+
+<p>The Dutch Ministry of Finance disclosed a cyberattack detected on March 19 after a third-party alert. Attackers breached some internal systems, the incident impacted a “portion of the employees”.</p>
+
+
+
+<p>The security breach is currently under investigation. Authorities clarified that systems used to manage tax operations were not impacted, limiting the scope of disruption.</p>
+
+
+
+<p><em>“The Ministry of Finance’s ICT security detected unauthorized access to systems for a number of primary processes within the policy department on Thursday, March 19.” reads the&nbsp;<a href="https://www.rijksoverheid.nl/actueel/nieuws/2026/03/23/ministerie-van-financien-onderzoekt-ongeautoriseerde-toegang-tot-systemen"><strong>statement</strong></a>&nbsp;issued by Dutch Ministry of Finance. “Following the alert, an immediate investigation was launched, and access to these systems has been blocked as of today. This affects the work of a portion of the employees.”</em></p>
+
+
+
+<p>The Ministry pointed out that services for citizens and businesses, including tax, customs, and benefits, remain unaffected.</p>
+
+
+
+<p><em>“Services to citizens and businesses provided by the Tax and Customs Administration, Customs, and Benefits have not been affected.” continues the report.</em></p>
+
+
+
+<p>The Dutch Ministry of Finance did not disclose technical details about the attack, and no cybercrime group has claimed responsibility so far.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>In a <a href="https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z06573&amp;did=2026D14827" target="_blank" rel="noreferrer noopener">statement to the Dutch House of Representatives</a>, Minister of Finance Eelco Heinen said that, due to a forensic investigation, the Dutch Ministry of Finance has taken several systems offline, including the treasury banking portal, which has affected about 1,600 public entities that cannot access balances or key functions. Funds remain accessible and payments continue via normal channels, with essential services handled manually. Heinen added that enhanced security measures are in place, while investigations involve the NCSC, forensic experts, police, and the Data Protection Authority.</p>
+
+
+
+<p><em>&#8220;Due to the ongoing forensic investigation and for security reasons, several systems have been temporarily taken offline, including the digital treasury banking portal. As a result, approximately 1,600 public institutions that hold funds with the Ministry of Finance are currently unable to view the balance of their treasury accounts digitally.&#8221; <a href="https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z06573&amp;did=2026D14827">reads the statement</a>. &#8220;Participants in treasury banking include ministries, agencies, legal entities with statutory tasks, educational institutions, social funds, and local governments. Additionally, it is temporarily not possible for participants to request loans, deposits, or credit, modify intraday limits, or generate reports via the portal.&#8221;</em></p>
+
+
+
+<p>Participants retain full access to funds, and payments continue normally via standard banking channels, with essential services supported manually if needed. The duration of the disruption is still unknown. Enhanced security and monitoring are in place, while investigations involve the National Cyber Security Centre, forensic experts, police cybercrime units, and the Data Protection Authority.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>In October 2024, the Dutch police&nbsp;<a href="https://securityaffairs.com/169328/hacking/dutch-police-breached-by-state-actor.html">blamed</a>&nbsp;a state actor for the recent data breach that exposed officers’ contact details, the justice minister told lawmakers. The incident took place on September 26, 2024, and the police have reported the security breach to the Data Protection Authority.</p>
+
+
+
+<p>Threat actors broke into a police system and gained access to work-related contact details of multiple officers. The attackers had access to names, emails, phone numbers, and some private information belonging to police officers.</p>
+
+
+
+<p>Dutch intelligence agencies believe it is highly likely that a state actor was behind the data breach.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Dutch Ministry of Finance)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190204</post-id>	</item>
+		<item>
+		<title>U.S. CISA adds a flaw in Citrix NetScaler to its Known Exploited Vulnerabilities catalog</title>
+		<link>https://securityaffairs.com/190197/security/u-s-cisa-adds-a-flaw-in-citrix-netscaler-to-its-known-exploited-vulnerabilities-catalog.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 09:31:41 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[CISA]]></category>
+		<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[Citrix NetScaler]]></category>
+		<category><![CDATA[CVE-2026-3055]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Known Exploited Vulnerabilities Catalog]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190197</guid>
+
+					<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in Citrix NetScaler to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a flaw in Citrix NetScaler, tracked as CVE-2026-3055 (CVSS ver. 4.0 score of 9.3), to its Known Exploited Vulnerabilities (KEV) catalog. In March, Citrix issued security updates for two NetScaler vulnerabilities, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in Citrix NetScaler to its Known Exploited Vulnerabilities catalog.</h2>
+
+
+
+<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) <a href="https://www.cisa.gov/news-events/alerts/2026/03/27/cisa-adds-one-known-exploited-vulnerability-catalog">added</a> a flaw in Citrix NetScaler, tracked as <a href="https://www.cve.org/CVERecord?id=CVE-2026-3055">CVE-2026-3055</a> (CVSS ver. 4.0 score of 9.3), to its <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">Known Exploited Vulnerabilities (KEV) catalog</a>.</p>
+
+
+
+<p>In March, Citrix <a href="https://securityaffairs.com/189908/security/citrix-netscaler-critical-flaw-could-leak-data-update-now.html">issued security updates</a> for two NetScaler vulnerabilities, including the critical vulnerability, tracked as CVE-2026-3055 (CVSS score of 9.3), that allows unauthenticated attackers to leak sensitive data.</p>
+
+
+
+<p>The flaw CVE-2026-3055 is an insufficient input validation that leads to a memory overread. It can be triggered only if Citrix ADC or Citrix Gateway are configured as a SAML IDP.</p>
+
+
+
+<p>Customers can check if their NetScaler appliance is set up as a SAML IDP by looking for the configuration string:<gwmw style="display:none;"></gwmw></p>
+
+
+
+<pre class="wp-block-code"><code>add authentication samlIdPProfile .*
+<gwmw style="display:none;"></gwmw></code></pre>
+
+
+
+<p><em>“This vulnerability, <a href="https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696300&amp;articleURL=NetScaler_ADC_and_NetScaler_Gateway_Security_Bulletin_for_CVE_2026_3055_and_CVE_2026_4368" target="_blank" rel="noreferrer noopener">CVE-2026-3055</a>, which is classified as an out-of-bounds read and holds a CVSS score of <a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:L/SI:L/SA:L" target="_blank" rel="noreferrer noopener">9.3</a>, allows unauthenticated remote attackers to leak potentially sensitive information from the appliance’s memory.” reads the <a href="https://www.rapid7.com/blog/post/etr-cve-2026-3055-citrix-netscaler-adc-and-netscaler-gateway-out-of-bounds-read/">advisory</a> published by Rapid7 researchers. “The Citrix advisory states that systems configured as a SAML Identity Provider (SAML IDP) are vulnerable, whereas default configurations are unaffected. This SAML IDP configuration is likely a very common configuration for organizations utilizing single sign-on.”</em></p>
+
+
+
+<p>At this time, CVE-2026-3055 has no known in-the-wild exploits or public proof-of-concept. Citrix discovered it internally, but once exploit code is released, attacks are likely. Customers should patch immediately, as similar memory-leak flaws like “<a href="https://securityaffairs.com/tag/citrixbleed-attack">CitrixBleed</a>” (<a href="https://securityaffairs.com/154546/hacking/citrix-bleed-attacks.html">CVE-2023-4966</a>) were widely exploited in 2023.</p>
+
+
+
+<p>The second vulnerability fixed by the vendor is a race condition tracked as CVE-2026-4368 (CVSS score of 7.7) that causes session mix-ups.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>According to&nbsp;<a href="https://cyber.dhs.gov/bod/22-01/" target="_blank" rel="noreferrer noopener">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a>, FCEB agencies have to address the identified vulnerabilities by the due date to protect their networks against attacks exploiting the flaws in the catalog.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Experts also recommend that private organizations review the&nbsp;<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noreferrer noopener">Catalog</a>&nbsp;and address the vulnerabilities in their infrastructure.</p>
+
+
+
+<p>CISA orders federal agencies to fix the vulnerability by April 2, 2026.</p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, US CISA <a href="https://securityaffairs.com/165513/security/cisa-adds-windows-rejetto-http-file-server-bugs-known-exploited-vulnerabilities-catalog.html">Known Exploited Vulnerabilities catalog</a>)</strong><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190197</post-id>	</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Object Caching 41/58 objects using Memcached
+Page Caching using Memcached (Page is feed) 
+Database Caching 10/29 queries in 0.019 seconds using Memcached (Request-wide modification query)
+
+Served from: securityaffairs.com @ 2026-04-02 05:46:00 by W3 Total Cache
+-->

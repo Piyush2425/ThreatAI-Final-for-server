@@ -3,6 +3,7 @@
 import logging
 import json
 import re
+from difflib import SequenceMatcher, get_close_matches
 from pathlib import Path
 from typing import Dict, List, Optional, Set
 
@@ -44,24 +45,33 @@ class AliasResolver:
                 base = alias_value.strip()
                 if not base:
                     return
-                spaced = re.sub(r'([a-z])([A-Z])', r'\1 \2', base)
-                spaced = re.sub(r'([A-Za-z])([0-9])', r'\1 \2', spaced)
-                spaced = re.sub(r'([0-9])([A-Za-z])', r'\1 \2', spaced)
-                spaced = re.sub(r'[\-_\/]+', ' ', spaced)
-                spaced = re.sub(r'\s+', ' ', spaced).strip()
+                pieces = [base]
+                pieces.extend([p.strip() for p in re.split(r'[,;|]', base) if p and p.strip()])
 
-                variants = {base.lower()}
-                if spaced:
-                    variants.add(spaced.lower())
-                no_space = re.sub(r'[\s\-_\/]+', '', base.lower())
-                if no_space:
-                    variants.add(no_space)
+                for piece in pieces:
+                    spaced = re.sub(r'([a-z])([A-Z])', r'\1 \2', piece)
+                    spaced = re.sub(r'([A-Za-z])([0-9])', r'\1 \2', spaced)
+                    spaced = re.sub(r'([0-9])([A-Za-z])', r'\1 \2', spaced)
+                    spaced = re.sub(r'[\-_\/]+', ' ', spaced)
+                    spaced = re.sub(r'\s+', ' ', spaced).strip()
 
-                for variant in variants:
-                    if len(variant) < 4:
-                        continue
-                    self.alias_to_primary[variant] = primary_name
-                    self.actor_id_map[variant] = actor_id
+                    variants = {piece.lower()}
+                    if spaced:
+                        variants.add(spaced.lower())
+                    no_space = re.sub(r'[\s\-_\/]+', '', piece.lower())
+                    if no_space:
+                        variants.add(no_space)
+
+                    # Common actor naming pattern support: "X Group" -> "X"
+                    for v in list(variants):
+                        if v.endswith(' group') and len(v) > 10:
+                            variants.add(v[:-6].strip())
+
+                    for variant in variants:
+                        if len(variant) < 4:
+                            continue
+                        self.alias_to_primary[variant] = primary_name
+                        self.actor_id_map[variant] = actor_id
             
             for actor in actors:
                 actor_id = actor.get('id', '')
@@ -174,16 +184,43 @@ class AliasResolver:
         if not name:
             return None
         
+        normalized_name = name.lower().strip()
+
+        # Ignore generic query words that should never map to an actor.
+        if normalized_name in {
+            "group", "actor", "actors", "threat", "campaign", "operation", "news",
+            "latest", "recent", "attack", "attacks", "incident", "incidents",
+        }:
+            return None
+
         # Try direct lookup first
-        result = self.alias_to_primary.get(name.lower())
+        result = self.alias_to_primary.get(normalized_name)
         if result:
             return result
         
         # Try with space normalization (APT28 → APT 28)
-        normalized = re.sub(r'(APT)(\d+)', r'\1 \2', name.lower())
+        normalized = re.sub(r'(APT)(\d+)', r'\1 \2', normalized_name)
         result = self.alias_to_primary.get(normalized)
         if result:
             return result
+
+        # Typo-tolerant fallback for user-entered actor names (e.g., "alazarouse" -> "lazarus").
+        # Keep threshold high to avoid accidental cross-actor matches.
+        if len(normalized_name) >= 5:
+            aliases = list(self.alias_to_primary.keys())
+            if " " not in normalized_name:
+                aliases = [a for a in aliases if " " not in a and "-" not in a and "/" not in a]
+            candidates = get_close_matches(normalized_name, aliases, n=2, cutoff=0.78)
+            if candidates:
+                best = candidates[0]
+                best_score = SequenceMatcher(None, normalized_name, best).ratio()
+                second_score = 0.0
+                if len(candidates) > 1:
+                    second_score = SequenceMatcher(None, normalized_name, candidates[1]).ratio()
+
+                # Accept only strong and non-ambiguous fuzzy matches.
+                if best_score >= 0.82 and (best_score - second_score) >= 0.06:
+                    return self.alias_to_primary.get(best)
         
         return None
     
@@ -243,7 +280,7 @@ class AliasResolver:
         primary = self.resolve(name) or name
         return self.primary_to_last_updated.get(primary)
     
-    def extract_actors_from_query(self, query: str) -> List[Dict[str, str]]:
+    def extract_actors_from_query(self, query: str, allow_fuzzy: bool = True) -> List[Dict[str, str]]:
         """
         Extract known threat actor references from query text.
         
@@ -286,13 +323,13 @@ class AliasResolver:
                         })
                         matched_aliases.append(alias)
         
-        # Second pass: fuzzy matching for partial names
-        # Only if we found 0 or 1 actor and query looks like a comparison
+        # Second pass: fuzzy matching for short comparison-like user queries only.
+        # Do not run this on long unstructured text (e.g., feed article bodies), as it can over-tag actors.
         is_comparison_query = any(phrase in query_lower for phrase in [
-            'same', 'identical', 'equivalent', 'and', 'vs', 'versus', 'or'
+            ' vs ', ' versus ', 'compare', 'comparison', 'difference', 'same as', 'identical', 'equivalent'
         ])
-        
-        if len(seen_primaries) < 2 and is_comparison_query:
+
+        if allow_fuzzy and len(query_lower) <= 180 and len(seen_primaries) < 2 and is_comparison_query:
             # Extract potential actor words (capitalized or common threat actor patterns)
             import re
             # Look for capitalized words or APT patterns

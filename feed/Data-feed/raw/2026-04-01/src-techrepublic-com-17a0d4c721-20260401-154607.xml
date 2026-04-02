@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Security Archives - TechRepublic</title>
+	<atom:link href="https://www.techrepublic.com/rssfeeds/topic/security/?feedType=rssfeeds" rel="self" type="application/rss+xml" />
+	<link>https://www.techrepublic.com/topic/security/</link>
+	<description>News, Tips, and Advice for Technology Professionals</description>
+	<lastBuildDate>Wed, 01 Apr 2026 12:53:01 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>Gmail Finally Lets You Change Your Email Address Without Losing Anything</title>
+		<link>https://www.techrepublic.com/article/news-gmail-username-change-feature-us/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 12:53:01 +0000</pubDate>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[digital identity]]></category>
+		<category><![CDATA[email]]></category>
+		<category><![CDATA[Gmail]]></category>
+		<category><![CDATA[gmail features]]></category>
+		<category><![CDATA[google updates]]></category>
+		<category><![CDATA[product updates]]></category>
+		<category><![CDATA[tech news]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354250</guid>
+
+					<description><![CDATA[<p>Gmail users in the US can now change their email address without losing data. Here’s how the long-awaited Google feature works and its key limits.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-gmail-username-change-feature-us/">Gmail Finally Lets You Change Your Email Address Without Losing Anything</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New North Korean AI Hiring Scheme Targets US Companies</title>
+		<link>https://www.techrepublic.com/article/news-north-korean-ai-hiring-scheme-us-companies/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 21:19:19 +0000</pubDate>
+				<category><![CDATA[APAC]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ai hiring fraud]]></category>
+		<category><![CDATA[cybersecurity hiring]]></category>
+		<category><![CDATA[dprk hackers]]></category>
+		<category><![CDATA[identity theft]]></category>
+		<category><![CDATA[insider threat]]></category>
+		<category><![CDATA[north korea cyber threat]]></category>
+		<category><![CDATA[remote work security]]></category>
+		<category><![CDATA[social engineering]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354146</guid>
+
+					<description><![CDATA[<p>North Korean operatives are using AI-generated resumes and stolen identities to infiltrate US companies, turning hiring pipelines into a new attack vector.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-north-korean-ai-hiring-scheme-us-companies/">New North Korean AI Hiring Scheme Targets US Companies</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google Drive Expands AI Ransomware Detection, File Recovery to More Users</title>
+		<link>https://www.techrepublic.com/article/news-google-drive-ransomware-detection-file-recovery/</link>
+		
+		<dc:creator><![CDATA[Liz Ticong]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 18:01:54 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Tech Industry]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[file recovery]]></category>
+		<category><![CDATA[google drive]]></category>
+		<category><![CDATA[Google Workspace]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<category><![CDATA[ransomware protection]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354135</guid>
+
+					<description><![CDATA[<p>Google expands Drive ransomware detection and file recovery with its latest AI model, which detects 14 times more infections as the features move beyond beta.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-google-drive-ransomware-detection-file-recovery/">Google Drive Expands AI Ransomware Detection, File Recovery to More Users</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Iran-Linked Hackers Breach FBI Director Kash Patel’s Email, Leak Messages Online</title>
+		<link>https://www.techrepublic.com/article/news-iran-linked-hackers-breach-kash-patel/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Mon, 30 Mar 2026 14:01:46 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Tech & Work]]></category>
+		<category><![CDATA[cyberattack]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[email security]]></category>
+		<category><![CDATA[fbi]]></category>
+		<category><![CDATA[iran hackers]]></category>
+		<category><![CDATA[kash patel]]></category>
+		<category><![CDATA[threat intelligence]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4353936</guid>
+
+					<description><![CDATA[<p>Iran-linked hackers breached FBI Director Kash Patel’s personal email, leaking older messages in a retaliatory cyberattack with no classified data exposed.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-iran-linked-hackers-breach-kash-patel/">Iran-Linked Hackers Breach FBI Director Kash Patel’s Email, Leak Messages Online</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>DeepSeek Outage Shakes AI Service Used by 355M Worldwide</title>
+		<link>https://www.techrepublic.com/article/news-deepseek-12-hour-outage-millions-users-cut-off/</link>
+		
+		<dc:creator><![CDATA[Kezia Jungco]]></dc:creator>
+		<pubDate>Mon, 30 Mar 2026 13:02:13 +0000</pubDate>
+				<category><![CDATA[APAC]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Enterprise Software]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[IT Operations]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[AI competition]]></category>
+		<category><![CDATA[AI outage]]></category>
+		<category><![CDATA[apac]]></category>
+		<category><![CDATA[chatbot outage]]></category>
+		<category><![CDATA[china tech]]></category>
+		<category><![CDATA[cloud downtime]]></category>
+		<category><![CDATA[deepseek]]></category>
+		<category><![CDATA[enterprise ai]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[infrastructure]]></category>
+		<category><![CDATA[IT reliability]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4353927</guid>
+
+					<description><![CDATA[<p>DeepSeek’s longest outage since 2025 disrupted millions, raising concerns about AI reliability and enterprise risk.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-deepseek-12-hour-outage-millions-users-cut-off/">DeepSeek Outage Shakes AI Service Used by 355M Worldwide</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AI Upgrades, Security Breaches, and Industry Shifts Define This Week in Tech</title>
+		<link>https://www.techrepublic.com/article/ai-upgrades-security-breaches-and-industry-shifts-define-this-week-in-tech/</link>
+		
+		<dc:creator><![CDATA[TechRepublic Staff]]></dc:creator>
+		<pubDate>Fri, 27 Mar 2026 14:00:54 +0000</pubDate>
+				<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Security]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<category><![CDATA[Robots]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Tech & Work]]></category>
+		<category><![CDATA[Weekly Roundup]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI layoffs]]></category>
+		<category><![CDATA[ai news]]></category>
+		<category><![CDATA[amazon news]]></category>
+		<category><![CDATA[apple music]]></category>
+		<category><![CDATA[apple news]]></category>
+		<category><![CDATA[copilot]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[Daily Tech Insider]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[github news]]></category>
+		<category><![CDATA[image generation]]></category>
+		<category><![CDATA[layoffs]]></category>
+		<category><![CDATA[meta layoffs]]></category>
+		<category><![CDATA[Newsletter Roundup]]></category>
+		<category><![CDATA[openai news]]></category>
+		<category><![CDATA[robotics]]></category>
+		<category><![CDATA[security breaches]]></category>
+		<category><![CDATA[sora]]></category>
+		<category><![CDATA[tech news]]></category>
+		<category><![CDATA[tesla news]]></category>
+		<category><![CDATA[webkit]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4353726</guid>
+
+					<description><![CDATA[<p>See what you missed in Daily Tech Insider from March 23–27.</p>
+<p>The post <a href="https://www.techrepublic.com/article/ai-upgrades-security-breaches-and-industry-shifts-define-this-week-in-tech/">AI Upgrades, Security Breaches, and Industry Shifts Define This Week in Tech</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google Issues High-Risk Security Patch for 3.5 Billion Chrome Users: What You Need to Know</title>
+		<link>https://www.techrepublic.com/article/news-chrome-update-8-vulnerabilities-3-5-billion-users/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Fri, 27 Mar 2026 13:13:33 +0000</pubDate>
+				<category><![CDATA[Browsers]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[browser vulnerabilities]]></category>
+		<category><![CDATA[chrome patch]]></category>
+		<category><![CDATA[chrome security]]></category>
+		<category><![CDATA[cybersecurity news]]></category>
+		<category><![CDATA[google chrome update]]></category>
+		<category><![CDATA[high severity vulnerabilities]]></category>
+		<category><![CDATA[software update]]></category>
+		<category><![CDATA[web browser security]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4353713</guid>
+
+					<description><![CDATA[<p>Google patches eight high-severity Chrome vulnerabilities affecting 3.5 billion users. Here’s why you should update and relaunch your browser now.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-chrome-update-8-vulnerabilities-3-5-billion-users/">Google Issues High-Risk Security Patch for 3.5 Billion Chrome Users: What You Need to Know</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Millions of UK iPhone Users Will Need to Verify Their Age — Here’s Why</title>
+		<link>https://www.techrepublic.com/article/news-apple-iphone-age-verification-uk/</link>
+		
+		<dc:creator><![CDATA[J.R. Johnivan]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2026 18:29:37 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[EU]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[United Kingdom]]></category>
+		<category><![CDATA[Age Verification]]></category>
+		<category><![CDATA[apple ios update]]></category>
+		<category><![CDATA[consumer privacy]]></category>
+		<category><![CDATA[data privacy]]></category>
+		<category><![CDATA[iphone]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<category><![CDATA[uk online safety act]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4353622</guid>
+
+					<description><![CDATA[<p>Apple’s latest iOS update adds some new features and fixes several bugs — but it also introduces mandatory age verification for users in the United Kingdom.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-apple-iphone-age-verification-uk/">Millions of UK iPhone Users Will Need to Verify Their Age — Here’s Why</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft 365 Under Siege: Phishing Campaign Bypasses MFA Across 5 Countries</title>
+		<link>https://www.techrepublic.com/article/news-microsoft-365-phishing-bypasses-security-codes/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2026 18:25:11 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[account security]]></category>
+		<category><![CDATA[cloud security]]></category>
+		<category><![CDATA[cybersecurity threats]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Microsoft 365]]></category>
+		<category><![CDATA[oauth]]></category>
+		<category><![CDATA[phishing attack]]></category>
+		<category><![CDATA[social engineering]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4353615</guid>
+
+					<description><![CDATA[<p>A global phishing campaign targeting Microsoft 365 bypasses security codes using a legitimate login feature, impacting hundreds of organizations.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-microsoft-365-phishing-bypasses-security-codes/">Microsoft 365 Under Siege: Phishing Campaign Bypasses MFA Across 5 Countries</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>TP-Link Fixes Bug That Lets Hackers Take Over Routers Without a Password</title>
+		<link>https://www.techrepublic.com/article/news-tp-link-router-security-flaw-update-now/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2026 15:12:33 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data protection]]></category>
+		<category><![CDATA[firmware update]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[network security]]></category>
+		<category><![CDATA[router security]]></category>
+		<category><![CDATA[tp-link]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4353575</guid>
+
+					<description><![CDATA[<p>TP-Link patched high-severity Archer NX router flaws, including one that could let attackers upload rogue firmware without authentication.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-tp-link-router-security-flaw-update-now/">TP-Link Fixes Bug That Lets Hackers Take Over Routers Without a Password</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The Next Billion Users Won&#8217;t Be Human: Securing the Agentic Enterprise</title>
+		<link>https://www.techrepublic.com/article/news-ai-agents-enterprise-security-trust-gap/</link>
+		
+		<dc:creator><![CDATA[Zeus Kerravala]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2026 15:06:21 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Tech Industry]]></category>
+		<category><![CDATA[ai agents]]></category>
+		<category><![CDATA[browser security]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data loss prevention]]></category>
+		<category><![CDATA[enterprise security]]></category>
+		<category><![CDATA[prompt injection]]></category>
+		<category><![CDATA[rsa conference]]></category>
+		<category><![CDATA[zero trust]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4353570</guid>
+
+					<description><![CDATA[<p>Menlo Security’s Ramin Farassat speaks with TechRepublic about how browser-based controls can protect AI agents from prompt injection and other fast-scaling enterprise risks.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-ai-agents-enterprise-security-trust-gap/">The Next Billion Users Won&#8217;t Be Human: Securing the Agentic Enterprise</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>RSAC 2026 Proved the Industry Agrees on the Problem — Now Comes the Hard Part</title>
+		<link>https://www.techrepublic.com/article/news-agentic-ai-governance-rsac-2026-insights/</link>
+		
+		<dc:creator><![CDATA[Tim Freestone]]></dc:creator>
+		<pubDate>Wed, 25 Mar 2026 18:37:42 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[agentic ai]]></category>
+		<category><![CDATA[AI governance]]></category>
+		<category><![CDATA[ai security]]></category>
+		<category><![CDATA[compliance and risk]]></category>
+		<category><![CDATA[cybersecurity trends]]></category>
+		<category><![CDATA[data governance]]></category>
+		<category><![CDATA[rsa]]></category>
+		<category><![CDATA[rsa conference 2026]]></category>
+		<category><![CDATA[rsac]]></category>
+		<category><![CDATA[shadow ai]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4353446</guid>
+
+					<description><![CDATA[<p>Agentic AI dominated RSAC 2026, but security leaders warn governance is lagging. Here’s why discovery isn’t enough — and where control must evolve.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-agentic-ai-governance-rsac-2026-insights/">RSAC 2026 Proved the Industry Agrees on the Problem — Now Comes the Hard Part</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Inside RSA 2026: Security Leaders Grapple With AI’s Growing Role and Risks</title>
+		<link>https://www.techrepublic.com/article/news-rsa-conference-2026-ai-cybersecurity-soc-governance/</link>
+		
+		<dc:creator><![CDATA[Caleb Kinchlow]]></dc:creator>
+		<pubDate>Wed, 25 Mar 2026 18:17:09 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Tech Industry]]></category>
+		<category><![CDATA[AI governance]]></category>
+		<category><![CDATA[ai in cybersecurity]]></category>
+		<category><![CDATA[ai security tools]]></category>
+		<category><![CDATA[alert fatigue]]></category>
+		<category><![CDATA[cybersecurity trends]]></category>
+		<category><![CDATA[rsa conference 2026]]></category>
+		<category><![CDATA[security operations center]]></category>
+		<category><![CDATA[soc automation]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4353440</guid>
+
+					<description><![CDATA[<p>RSA Conference 2026 spotlights AI in cybersecurity, from SOC automation to governance challenges, as experts weigh trust, control, and risk.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-rsa-conference-2026-ai-cybersecurity-soc-governance/">Inside RSA 2026: Security Leaders Grapple With AI’s Growing Role and Risks</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Nearly 7M Email Addresses Exposed in Crunchyroll Third-Party Breach</title>
+		<link>https://www.techrepublic.com/article/news-crunchyroll-data-breach-third-party-vendor/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Wed, 25 Mar 2026 13:59:10 +0000</pubDate>
+				<category><![CDATA[APAC]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[crunchyroll breach]]></category>
+		<category><![CDATA[cybersecurity news]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[data exposure]]></category>
+		<category><![CDATA[supply chain attack]]></category>
+		<category><![CDATA[telus digital]]></category>
+		<category><![CDATA[third party risk]]></category>
+		<category><![CDATA[vendor security]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4353401</guid>
+
+					<description><![CDATA[<p>Hackers claim they stole 6.8 million Crunchyroll email addresses through a third-party vendor breach, exposing support ticket data and other user details.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-crunchyroll-data-breach-third-party-vendor/">Nearly 7M Email Addresses Exposed in Crunchyroll Third-Party Breach</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>4 Best Free VPNs in 2026</title>
+		<link>https://www.techrepublic.com/article/best-free-vpns/</link>
+		
+		<dc:creator><![CDATA[Luis Millares]]></dc:creator>
+		<pubDate>Wed, 25 Mar 2026 05:01:12 +0000</pubDate>
+				<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[password managers]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4218252</guid>
+
+					<description><![CDATA[<p>Looking for the best free VPNs? Check out our guide to find the most reliable and secure options for protecting your online privacy that won’t break the bank.</p>
+<p>The post <a href="https://www.techrepublic.com/article/best-free-vpns/">4 Best Free VPNs in 2026</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>US Bans New Foreign-Made Routers, Citing ‘Unacceptable’ Security Risks</title>
+		<link>https://www.techrepublic.com/article/news-fcc-bans-foreign-made-routers-national-security/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Tue, 24 Mar 2026 19:09:18 +0000</pubDate>
+				<category><![CDATA[APAC]]></category>
+		<category><![CDATA[EU]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Tech Regulation]]></category>
+		<category><![CDATA[United Kingdom]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[fcc]]></category>
+		<category><![CDATA[home networking]]></category>
+		<category><![CDATA[national security]]></category>
+		<category><![CDATA[router ban]]></category>
+		<category><![CDATA[supply chain security]]></category>
+		<category><![CDATA[tech policy]]></category>
+		<category><![CDATA[us government]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4353276</guid>
+
+					<description><![CDATA[<p>The FCC bans new foreign-made routers over national security risks, a move that could reshape the US tech supply chain and impact pricing and availability.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-fcc-bans-foreign-made-routers-national-security/">US Bans New Foreign-Made Routers, Citing ‘Unacceptable’ Security Risks</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New ‘DarkSword’ Leak Puts Millions of iPhones at Risk After Initial Attack</title>
+		<link>https://www.techrepublic.com/article/news-darksword-leak-iphone-exploit-risk-after-initial-attack/</link>
+		
+		<dc:creator><![CDATA[Kezia Jungco]]></dc:creator>
+		<pubDate>Tue, 24 Mar 2026 16:16:45 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[apple security]]></category>
+		<category><![CDATA[cybersecurity news]]></category>
+		<category><![CDATA[DarkSword]]></category>
+		<category><![CDATA[endpoint security]]></category>
+		<category><![CDATA[exploit kit]]></category>
+		<category><![CDATA[GitHub leak]]></category>
+		<category><![CDATA[ios vulnerability]]></category>
+		<category><![CDATA[iPhone exploit]]></category>
+		<category><![CDATA[mobile threats]]></category>
+		<category><![CDATA[spyware]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4353220</guid>
+
+					<description><![CDATA[<p>A newer DarkSword exploit leak makes hacking outdated iPhones easier, exposing hundreds of millions of devices to risk.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-darksword-leak-iphone-exploit-risk-after-initial-attack/">New ‘DarkSword’ Leak Puts Millions of iPhones at Risk After Initial Attack</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Millions of Anonymous Student and Crime Tips Exposed in Major Data Breach</title>
+		<link>https://www.techrepublic.com/article/news-p3-global-intel-data-breach/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Tue, 24 Mar 2026 15:40:04 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[anonymous tips]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[data leak]]></category>
+		<category><![CDATA[law enforcement tech]]></category>
+		<category><![CDATA[p3 global intel]]></category>
+		<category><![CDATA[privacy concerns]]></category>
+		<category><![CDATA[school safety]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4353209</guid>
+
+					<description><![CDATA[<p>A reported breach of P3 Global Intel exposed millions of anonymous crime and school safety tips, raising new concerns about privacy and trust.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-p3-global-intel-data-breach/">Millions of Anonymous Student and Crime Tips Exposed in Major Data Breach</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Navia Data Breach Hits 2.7 Million People, Exposing Sensitive Personal Data</title>
+		<link>https://www.techrepublic.com/article/news-navia-benefits-data-breach-2-7-million-exposed/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2026 19:16:22 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[benefits administrator]]></category>
+		<category><![CDATA[cybersecurity incident]]></category>
+		<category><![CDATA[data breach 2026]]></category>
+		<category><![CDATA[employee benefits security]]></category>
+		<category><![CDATA[healthcare data breach]]></category>
+		<category><![CDATA[identity theft risk]]></category>
+		<category><![CDATA[navia breach]]></category>
+		<category><![CDATA[social security exposure]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4352995</guid>
+
+					<description><![CDATA[<p>Navia Benefit Solutions says a data breach exposed personal and benefits data tied to 2.7 million people after weeks of unauthorized access.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-navia-benefits-data-breach-2-7-million-exposed/">Navia Data Breach Hits 2.7 Million People, Exposing Sensitive Personal Data</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google Reinvents Android Sideloading to Thwart Scammers</title>
+		<link>https://www.techrepublic.com/article/news-google-android-sideloading-security-changes/</link>
+		
+		<dc:creator><![CDATA[Madeline Clarke]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2026 19:04:47 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[android security]]></category>
+		<category><![CDATA[android updates]]></category>
+		<category><![CDATA[app distribution]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[google play store]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<category><![CDATA[scam prevention]]></category>
+		<category><![CDATA[sideloading]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4352988</guid>
+
+					<description><![CDATA[<p>Google is adding a stricter sideloading process on Android, preserving app installs from outside Google Play while making scam-driven abuse harder.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-google-android-sideloading-security-changes/">Google Reinvents Android Sideloading to Thwart Scammers</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

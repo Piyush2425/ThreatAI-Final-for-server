@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://threatactix.local/schema/feed_item.schema.json",
+  "title": "Threat Feed Item",
+  "type": "object",
+  "required": [
+    "news_id",
+    "source_id",
+    "source_name",
+    "title",
+    "link",
+    "published_at",
+    "fetched_at",
+    "content_hash",
+    "actor_tags"
+  ],
+  "properties": {
+    "news_id": { "type": "string" },
+    "source_id": { "type": "string" },
+    "source_name": { "type": "string" },
+    "source_url": { "type": ["string", "null"], "format": "uri" },
+    "feed_url": { "type": ["string", "null"], "format": "uri" },
+    "entry_id": { "type": ["string", "null"] },
+    "title": { "type": "string" },
+    "summary": { "type": ["string", "null"] },
+    "content_text": { "type": ["string", "null"] },
+    "link": { "type": "string", "format": "uri" },
+    "canonical_url": { "type": ["string", "null"], "format": "uri" },
+    "published_at": { "type": "string", "format": "date-time" },
+    "fetched_at": { "type": "string", "format": "date-time" },
+    "actor_tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "tactic_tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "ioc_tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "language": { "type": ["string", "null"] },
+    "content_hash": { "type": "string" },
+    "ingest_run_id": { "type": ["string", "null"] }
+  },
+  "additionalProperties": true
+}

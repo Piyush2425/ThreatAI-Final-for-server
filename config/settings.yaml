@@ -49,3 +49,8 @@ ollama:
 evaluation:
   enable_audit_trail: true
   enable_confidence_scoring: true
+
+feeds:
+  scheduler_enabled: true
+  scheduler_interval_hours: 12
+  max_items_per_source: 50
