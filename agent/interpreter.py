@@ -14,7 +14,12 @@ logger = logging.getLogger(__name__)
 class OllamaClient:
     """Client for Ollama local LLM."""
     
-    def __init__(self, model: str = "mistral", base_url: str = "http://localhost:11434"):
+    def __init__(
+        self,
+        model: str = "mistral",
+        base_url: str = "http://localhost:11434",
+        default_timeout: int = 60,
+    ):
         """
         Initialize Ollama client.
         
@@ -25,6 +30,7 @@ class OllamaClient:
         self.model = model
         self.base_url = base_url
         self.api_endpoint = f"{base_url}/api/generate"
+        self.default_timeout = max(30, int(default_timeout or 60))
         self._verify_connection()
     
     def _verify_connection(self):
@@ -44,7 +50,7 @@ class OllamaClient:
             logger.error("  Start Ollama: ollama serve")
             raise
     
-    def generate(self, prompt: str, temperature: float = 0.3, max_tokens: int = 512, timeout: int = 60) -> str:
+    def generate(self, prompt: str, temperature: float = 0.3, max_tokens: int = 512, timeout: int = None) -> str:
         """
         Generate response from Ollama.
         
@@ -66,8 +72,9 @@ class OllamaClient:
                 "stream": False
             }
             
-            # Adjust timeout: 1 second per 5 tokens (faster estimate)
-            adjusted_timeout = max(timeout, max_tokens // 5)
+            # Adjust timeout: ensure enough headroom for CPU inference.
+            effective_timeout = self.default_timeout if timeout is None else timeout
+            adjusted_timeout = max(int(effective_timeout), max_tokens // 3)
             
             response = requests.post(self.api_endpoint, json=payload, timeout=adjusted_timeout)
             
@@ -135,7 +142,14 @@ class OllamaClient:
 class EvidenceBasedInterpreter:
     """Generate answers grounded in retrieved evidence using Ollama."""
     
-    def __init__(self, model: str = "mistral", base_url: str = "http://localhost:11434"):
+    def __init__(
+        self,
+        model: str = "mistral",
+        base_url: str = "http://localhost:11434",
+        timeout: int = 120,
+        temperature: float = 0.3,
+        max_tokens: int = 512,
+    ):
         """
         Initialize interpreter with Ollama.
         
@@ -143,8 +157,16 @@ class EvidenceBasedInterpreter:
             model: LLM model name
             base_url: Ollama server URL
         """
+        self.default_timeout = max(30, int(timeout or 120))
+        self.default_temperature = float(temperature)
+        self.default_max_tokens = max(64, int(max_tokens or 512))
+
         try:
-            self.llm = OllamaClient(model=model, base_url=base_url)
+            self.llm = OllamaClient(
+                model=model,
+                base_url=base_url,
+                default_timeout=self.default_timeout,
+            )
             self.use_ollama = True
         except Exception as e:
             logger.warning(f"Ollama not available, using fallback: {e}")
@@ -1091,7 +1113,12 @@ RESPONSE (provide detailed, well-formatted answer):
 """
         
         try:
-            response = self.llm.generate(prompt, temperature=0.3, max_tokens=200)
+            response = self.llm.generate(
+                prompt,
+                temperature=self.default_temperature,
+                max_tokens=min(200, self.default_max_tokens),
+                timeout=self.default_timeout,
+            )
             return response.strip() if response else extraction_result['summary']
         except Exception as e:
             logger.error(f"Targeted answer generation error: {e}")
@@ -1139,7 +1166,12 @@ RESPONSE:
             max_tokens = self._get_max_tokens_for_mode(response_mode)
             temperature = self._get_temperature_for_mode(response_mode)
             
-            response = self.llm.generate(prompt, temperature=temperature, max_tokens=max_tokens)
+            response = self.llm.generate(
+                prompt,
+                temperature=temperature,
+                max_tokens=min(max_tokens, self.default_max_tokens),
+                timeout=self.default_timeout,
+            )
             return response.strip() if response else self._generate_summary(query, [])
         except Exception as e:
             logger.error(f"Ollama generation error: {e}")

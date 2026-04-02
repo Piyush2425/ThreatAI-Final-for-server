@@ -169,7 +169,10 @@ def initialize_components():
         ollama_config = config.get('ollama', {})
         interpreter = EvidenceBasedInterpreter(
             model=ollama_config.get('model', 'llama3:8b'),
-            base_url=ollama_config.get('host', 'http://localhost:11434')
+            base_url=ollama_config.get('host', 'http://localhost:11434'),
+            timeout=ollama_config.get('timeout', 120),
+            temperature=ollama_config.get('temperature', 0.3),
+            max_tokens=ollama_config.get('max_tokens', 512),
         )
         logger.info(f"✓ Interpreter initialized: {'Ollama' if interpreter.use_ollama else 'Fallback'}")
         
