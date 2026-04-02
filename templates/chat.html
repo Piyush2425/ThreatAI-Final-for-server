@@ -220,9 +220,10 @@
         </div>
     </div>
 
+        {% if use_bundled_frontend %}
         <!-- Bundled TypeScript App -->
         <script src="{{ url_for('static', filename='dist/app.js') }}"></script>
-    
+
         <!-- Global function wrappers for DOM event handlers -->
         <script>
             // These functions are called from HTML event handlers
@@ -263,5 +264,9 @@
                 if (window.chatManager) window.chatManager.useExample(example);
             }
         </script>
+        {% else %}
+        <!-- Legacy fallback script when the bundled frontend is not built on this host -->
+        <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+        {% endif %}
 </body>
 </html>

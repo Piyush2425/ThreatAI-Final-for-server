@@ -7,7 +7,7 @@
     "dev": "esbuild src/js/main.ts --bundle --outfile=static/dist/app.js --sourcemap --watch",
     "build": "esbuild src/js/main.ts --bundle --outfile=static/dist/app.js --minify --legal-comments=none",
     "build:prod": "npm run clean && npm run build && npm run optimize",
-    "clean": "del /q static\\dist\\* >nul 2>&1 || true && mkdir static\\dist 2>nul || true",
+    "clean": "node -e \"const fs=require('fs'); fs.rmSync('static/dist',{recursive:true,force:true}); fs.mkdirSync('static/dist',{recursive:true});\"",
     "optimize": "node scripts/optimize.js",
     "lint": "eslint src/**/*.ts",
     "format": "prettier --write \"src/**/*.ts\"",

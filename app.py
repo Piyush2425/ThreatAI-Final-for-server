@@ -239,7 +239,8 @@ app.config['JSON_SORT_KEYS'] = False
 @app.route('/')
 def index():
     """Main chat interface."""
-    return render_template('chat.html')
+    bundle_path = Path('static') / 'dist' / 'app.js'
+    return render_template('chat.html', use_bundled_frontend=bundle_path.exists())
 
 
 @app.route('/old')
