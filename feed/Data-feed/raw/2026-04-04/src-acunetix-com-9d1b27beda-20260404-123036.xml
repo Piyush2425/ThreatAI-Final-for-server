@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+  >
+
+  <channel>
+    <title>Web Security Blog | Acunetix</title>
+    <atom:link href="https://www.acunetix.com/blog/feed/" rel="self" type="application/rss+xml"/>
+    <link>https://www.acunetix.com/blog/</link>
+    <description>Is Your Website Hackable?</description>
+    <lastBuildDate>Thu, 02 Apr 2026 11:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>
+      hourly    </sy:updatePeriod>
+    <sy:updateFrequency>
+      1    </sy:updateFrequency>
+    
+        <item>
+          <title>Acunetix Security Hardening Guide</title>
+          <link>https://www.acunetix.com/blog/docs/acunetix-security-hardening-guide/</link>
+          
+          <dc:creator><![CDATA[Ian Muscat]]></dc:creator>
+          <pubDate>Tue, 05 Aug 2025 06:29:16 +0000</pubDate>
+          		<category><![CDATA[Product Articles]]></category>
+          <guid isPermaLink="false">https://www.acunetix.com/?p=17526</guid>
+
+                      <description><![CDATA[<p>A new document was prepared instead of this blog post. You can find it here. &#160; &#160;</p>
+<p><a href="https://www.acunetix.com/blog/docs/acunetix-security-hardening-guide/">Read more  <svg class="svg-icon icon-red" viewBox="0 0 14 13.625" height="12" width="12"><use xlink:href="#icon-arrow-right"></use></svg></a></p>
+<p>The post <a href="https://www.acunetix.com/blog/docs/acunetix-security-hardening-guide/">Acunetix Security Hardening Guide</a> appeared first on <a href="https://www.acunetix.com">Acunetix</a>.</p>
+]]></description>
+          
+          
+          
+                  </item>
+                  <item>
+          <title>Next.js middleware authorization bypass vulnerability: Are you vulnerable?</title>
+          <link>https://www.acunetix.com/blog/web-security-zone/next-js-middleware-bypass-vulnerability/</link>
+          
+          <dc:creator><![CDATA[Bogdan Calin]]></dc:creator>
+          <pubDate>Tue, 25 Mar 2025 14:41:06 +0000</pubDate>
+          		<category><![CDATA[Web Security Zone]]></category>
+          <guid isPermaLink="false">https://www.acunetix.com/?p=44722</guid>
+
+                      <description><![CDATA[<p>A critical vulnerability in the Next.js framework, officially disclosed on March 21, 2025, allows attackers to bypass middleware security controls through a simple header manipulation. This post summarizes what we know about CVE-2025-29927, how you can mitigate the vulnerability, and how Acunetix can help you detect and confirm your organization’s risk.</p>
+<p><a href="https://www.acunetix.com/blog/web-security-zone/next-js-middleware-bypass-vulnerability/">Read more  <svg class="svg-icon icon-red" viewBox="0 0 14 13.625" height="12" width="12"><use xlink:href="#icon-arrow-right"></use></svg></a></p>
+<p>The post <a href="https://www.acunetix.com/blog/web-security-zone/next-js-middleware-bypass-vulnerability/">Next.js middleware authorization bypass vulnerability: Are you vulnerable?</a> appeared first on <a href="https://www.acunetix.com">Acunetix</a>.</p>
+]]></description>
+          
+          
+          
+                  </item>
+                  <item>
+          <title>Top 10 dynamic application security testing (DAST) tools for 2025</title>
+          <link>https://www.acunetix.com/blog/web-security-zone/10-best-dast-tools/</link>
+          
+          <dc:creator><![CDATA[Zbigniew Banach]]></dc:creator>
+          <pubDate>Thu, 20 Mar 2025 11:26:23 +0000</pubDate>
+          		<category><![CDATA[Web Security Zone]]></category>
+		<category><![CDATA[dast-tools]]></category>
+          <guid isPermaLink="false">https://www.acunetix.com/?p=44668</guid>
+
+                      <description><![CDATA[<p>This guide explores the top 10 DAST tools for 2025, highlighting the best commercial solutions as well as open-source options. Learn how the right tools can help you build DAST-first AppSec to secure your applications in production, integrate with DevSecOps, and minimize your web application security risk.</p>
+<p><a href="https://www.acunetix.com/blog/web-security-zone/10-best-dast-tools/">Read more  <svg class="svg-icon icon-red" viewBox="0 0 14 13.625" height="12" width="12"><use xlink:href="#icon-arrow-right"></use></svg></a></p>
+<p>The post <a href="https://www.acunetix.com/blog/web-security-zone/10-best-dast-tools/">Top 10 dynamic application security testing (DAST) tools for 2025</a> appeared first on <a href="https://www.acunetix.com">Acunetix</a>.</p>
+]]></description>
+          
+          
+          
+                  </item>
+                  <item>
+          <title>Understanding Injection Attacks in Application Security: Types, Tools, and Examples</title>
+          <link>https://www.acunetix.com/blog/articles/injection-attacks-application-security/</link>
+          
+          <dc:creator><![CDATA[Acunetix]]></dc:creator>
+          <pubDate>Wed, 12 Feb 2025 13:38:01 +0000</pubDate>
+          		<category><![CDATA[Articles]]></category>
+          <guid isPermaLink="false">https://www.acunetix.com/?p=44064</guid>
+
+                      <description><![CDATA[<p>How Injection Attacks Exploit Web Application Vulnerabilities Injection attacks occur when malicious input is inserted into a web application, exploiting vulnerabilities in unvalidated user input to execute unintended commands. Attackers craft payloads that manipulate how the application processes data, often leading to unauthorized access, data...</p>
+<p><a href="https://www.acunetix.com/blog/articles/injection-attacks-application-security/">Read more  <svg class="svg-icon icon-red" viewBox="0 0 14 13.625" height="12" width="12"><use xlink:href="#icon-arrow-right"></use></svg></a></p>
+<p>The post <a href="https://www.acunetix.com/blog/articles/injection-attacks-application-security/">Understanding Injection Attacks in Application Security: Types, Tools, and Examples</a> appeared first on <a href="https://www.acunetix.com">Acunetix</a>.</p>
+]]></description>
+          
+          
+          
+                  </item>
+                  <item>
+          <title>Strengthen Your Web Applications with HTTP Security Headers</title>
+          <link>https://www.acunetix.com/blog/articles/http-security-headers-web-applications/</link>
+          
+          <dc:creator><![CDATA[Acunetix]]></dc:creator>
+          <pubDate>Wed, 12 Feb 2025 13:35:30 +0000</pubDate>
+          		<category><![CDATA[Articles]]></category>
+          <guid isPermaLink="false">https://www.acunetix.com/?p=44062</guid>
+
+                      <description><![CDATA[<p>What is a HTTP security header? An HTTP security header is a response header that helps protect web applications by providing browsers with specific instructions on how to handle website content securely. These headers play a crucial role in mitigating various cyber threats, such as...</p>
+<p><a href="https://www.acunetix.com/blog/articles/http-security-headers-web-applications/">Read more  <svg class="svg-icon icon-red" viewBox="0 0 14 13.625" height="12" width="12"><use xlink:href="#icon-arrow-right"></use></svg></a></p>
+<p>The post <a href="https://www.acunetix.com/blog/articles/http-security-headers-web-applications/">Strengthen Your Web Applications with HTTP Security Headers</a> appeared first on <a href="https://www.acunetix.com">Acunetix</a>.</p>
+]]></description>
+          
+          
+          
+                  </item>
+                  <item>
+          <title>Disabling Directory Listing on Your Web Server – And Why It Matters</title>
+          <link>https://www.acunetix.com/blog/articles/disabling-directory-listing-web-server/</link>
+          
+          <dc:creator><![CDATA[Acunetix]]></dc:creator>
+          <pubDate>Wed, 12 Feb 2025 13:33:20 +0000</pubDate>
+          		<category><![CDATA[Articles]]></category>
+          <guid isPermaLink="false">https://www.acunetix.com/?p=44060</guid>
+
+                      <description><![CDATA[<p>By default, some web servers allow directory listing, which means that if no default index file (such as index.html or index.php) is present, the server will display a list of all files and directories in that folder. This can expose sensitive files, scripts, and configurations,...</p>
+<p><a href="https://www.acunetix.com/blog/articles/disabling-directory-listing-web-server/">Read more  <svg class="svg-icon icon-red" viewBox="0 0 14 13.625" height="12" width="12"><use xlink:href="#icon-arrow-right"></use></svg></a></p>
+<p>The post <a href="https://www.acunetix.com/blog/articles/disabling-directory-listing-web-server/">Disabling Directory Listing on Your Web Server – And Why It Matters</a> appeared first on <a href="https://www.acunetix.com">Acunetix</a>.</p>
+]]></description>
+          
+          
+          
+                  </item>
+                  <item>
+          <title>XSS Filter Evasion: How Attackers Bypass XSS Filters – And Why Filtering Alone Isn’t Enough</title>
+          <link>https://www.acunetix.com/blog/articles/xss-filter-evasion-bypass-techniques/</link>
+          
+          <dc:creator><![CDATA[Acunetix]]></dc:creator>
+          <pubDate>Wed, 12 Feb 2025 13:12:01 +0000</pubDate>
+          		<category><![CDATA[Articles]]></category>
+          <guid isPermaLink="false">https://www.acunetix.com/?p=44058</guid>
+
+                      <description><![CDATA[<p>XSS filter evasion techniques allow attackers to bypass cross-site scripting (XSS) protections designed to block malicious scripts. This article explores some of the most common filter bypass strategies, explains why relying solely on filtering is ineffective, and outlines the best practices for preventing XSS attacks....</p>
+<p><a href="https://www.acunetix.com/blog/articles/xss-filter-evasion-bypass-techniques/">Read more  <svg class="svg-icon icon-red" viewBox="0 0 14 13.625" height="12" width="12"><use xlink:href="#icon-arrow-right"></use></svg></a></p>
+<p>The post <a href="https://www.acunetix.com/blog/articles/xss-filter-evasion-bypass-techniques/">XSS Filter Evasion: How Attackers Bypass XSS Filters – And Why Filtering Alone Isn’t Enough</a> appeared first on <a href="https://www.acunetix.com">Acunetix</a>.</p>
+]]></description>
+          
+          
+          
+                  </item>
+                  <item>
+          <title>Preventing CSRF Attacks with Anti-CSRF Tokens: Best Practices and Implementation</title>
+          <link>https://www.acunetix.com/blog/articles/preventing-csrf-attacks-anti-csrf-tokens/</link>
+          
+          <dc:creator><![CDATA[Acunetix]]></dc:creator>
+          <pubDate>Wed, 12 Feb 2025 12:55:11 +0000</pubDate>
+          		<category><![CDATA[Articles]]></category>
+          <guid isPermaLink="false">https://www.acunetix.com/?p=44055</guid>
+
+                      <description><![CDATA[<p>The most widely used method to prevent cross-site request forgery (CSRF) attacks is the implementation of anti-CSRF tokens. These are unique values generated by a web application and validated with each request to ensure authenticity. CSRF attacks exploit a user&#8217;s active session to execute unauthorized...</p>
+<p><a href="https://www.acunetix.com/blog/articles/preventing-csrf-attacks-anti-csrf-tokens/">Read more  <svg class="svg-icon icon-red" viewBox="0 0 14 13.625" height="12" width="12"><use xlink:href="#icon-arrow-right"></use></svg></a></p>
+<p>The post <a href="https://www.acunetix.com/blog/articles/preventing-csrf-attacks-anti-csrf-tokens/">Preventing CSRF Attacks with Anti-CSRF Tokens: Best Practices and Implementation</a> appeared first on <a href="https://www.acunetix.com">Acunetix</a>.</p>
+]]></description>
+          
+          
+          
+                  </item>
+                  <item>
+          <title>Mitigating Fragmented SQL Injection Attacks: Effective Solutions</title>
+          <link>https://www.acunetix.com/blog/articles/mitigating-fragmented-sql-injection-attacks/</link>
+          
+          <dc:creator><![CDATA[Acunetix]]></dc:creator>
+          <pubDate>Wed, 12 Feb 2025 12:45:29 +0000</pubDate>
+          		<category><![CDATA[Articles]]></category>
+          <guid isPermaLink="false">https://www.acunetix.com/?p=44053</guid>
+
+                      <description><![CDATA[<p>This blog post breaks down Fragmented SQL Injection, a method hackers use to bypass authentication by manipulating two different input fields at the same time. Our security expert explains why single quotes matter in SQL injection attacks and how using Prepared Statements (also called Parameterized...</p>
+<p><a href="https://www.acunetix.com/blog/articles/mitigating-fragmented-sql-injection-attacks/">Read more  <svg class="svg-icon icon-red" viewBox="0 0 14 13.625" height="12" width="12"><use xlink:href="#icon-arrow-right"></use></svg></a></p>
+<p>The post <a href="https://www.acunetix.com/blog/articles/mitigating-fragmented-sql-injection-attacks/">Mitigating Fragmented SQL Injection Attacks: Effective Solutions</a> appeared first on <a href="https://www.acunetix.com">Acunetix</a>.</p>
+]]></description>
+          
+          
+          
+                  </item>
+            </channel>
+</rss>

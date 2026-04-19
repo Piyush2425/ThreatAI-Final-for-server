@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Security Affairs</title>
+	<atom:link href="https://securityaffairs.com/feed" rel="self" type="application/rss+xml" />
+	<link>https://securityaffairs.com/</link>
+	<description>Read, think, share … Security is everyone&#039;s responsibility</description>
+	<lastBuildDate>Sat, 04 Apr 2026 08:45:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+<site xmlns="com-wordpress:feed-additions:1">29506073</site>	<item>
+		<title>European Commission breach exposed data of 30 EU entities, CERT-EU says</title>
+		<link>https://securityaffairs.com/190333/security/european-commission-breach-exposed-data-of-30-eu-entities-cert-eu-says.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Sat, 04 Apr 2026 08:45:04 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[European Commission]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[TeamPCP]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190333</guid>
+
+					<description><![CDATA[CERT-EU says a European Commission cloud hack exposed data from 30 EU entities and links the breach to the TeamPCP group. CERT-EU attributed a European Commission cloud breach to the TeamPCP threat group, revealing that data from at least 30 EU entities was exposed. The incident was publicly disclosed on March 27 after inquiries confirmed [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">CERT-EU says a European Commission cloud hack exposed data from 30 EU entities and links the breach to the TeamPCP group.</h2>
+
+
+
+<p>CERT-EU attributed a <a href="https://securityaffairs.com/tag/european-commission" type="post_tag" id="777">European Commission cloud breach</a> to the TeamPCP threat group, revealing that data from at least 30 EU entities was exposed. The incident was publicly disclosed on March 27 after inquiries confirmed that the Commission’s Amazon cloud environment had been compromised.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>On March 24, the European Commission detected a cyberattack affecting the cloud infrastructure hosting its Europa.eu websites. The incident was quickly contained, with mitigation measures applied and no disruption to website availability. Early findings suggested some data may have been accessed, and potentially affected EU entities are being notified. The Commission alerted CERT-EU two days before disclosure, noting no signs of compromise until March 24, five days after the initial breach. </p>
+
+
+
+<p><em>“Early findings of our ongoing investigation suggest that data have been taken from those websites. The Commission is duly notifying the Union entities who might have been affected by the incident.” reads the&nbsp;<a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_26_748">press release</a>&nbsp;published by the European Commission. “The Commission’s services are still investigating the full impact of the incident. &nbsp;“</em></p>
+
+
+
+<p>The EU has launched an investigation into the security breach to determine its full impact. However, the Commission initially pointed out that its internal systems were not affected, limiting the overall impact of the attack.</p>
+
+
+
+<p>The Commission said its internal systems were not affected and will continue monitoring the situation while strengthening protections. It announced it will improve cybersecurity, as the EU faces ongoing cyber and hybrid threats targeting critical services and institutions.</p>
+
+
+
+<p>BleepingComputer <a href="https://www.bleepingcomputer.com/news/security/european-commission-investigating-breach-after-amazon-cloud-account-hack/">first reported</a> the incident, claiming that threat actors breached the European Commission’s AWS account, stealing hundreds of gigabytes of data, including databases, and providing screenshots as proof. </p>
+
+
+
+<p><em>&#8220;On March 25, CERT-EU received a notification from the European Commission that one of their AWS cloud accounts had been compromised. The first alerts, indicating potential misuse of Amazon APIs, potential account compromise, and an unusual volume of network traffic, had been detected by their Cybersecurity Operations Centre (CSOC) team the previous day.</em></p>
+
+
+
+<p><em>An investigation uncovered that a malicious actor acquired an Amazon Web Services (AWS) secret (an API key) on March 19 through the <a href="https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know/" target="_blank" rel="noreferrer noopener">Trivy</a> supply chain compromise. This key granted control over other AWS accounts affiliated with the European Commission. On the same day, the threat actor attempted to discover additional secrets by launching TruffleHog, a tool commonly used for scanning secrets and validating AWS credentials by calling the Security Token Service (STS). STS is an AWS service that generates short-lived security credentials for accessing AWS resources and verifying identities.&#8221; <a href="https://cert.europa.eu/blog/european-commission-cloud-breach-trivy-supply-chain">reported</a> CERT-EU. &#8220;The threat actor used the compromised AWS secret to create and attach a new access key to an existing user, aiming to evade detection. They then carried out reconnaissance activities.&#8221;</em></p>
+
+
+
+<p><a href="https://securityaffairs.com/tag/teampcp" type="post_tag" id="16716">TeamPCP</a> reportedly accessed the EU’s AWS environment on March 10 using a stolen API key from the <a href="https://securityaffairs.com/wp-content/uploads/2026/03/image-75.png" type="attachment" id="189862">Trivy supply-chain attack</a>.</p>
+
+
+
+<p>They then used tools like TruffleHog to find more credentials, created new access keys to stay hidden, and carried out reconnaissance and data theft. TeamPCP is also linked to supply-chain attacks on platforms like GitHub, PyPI, NPM, and Docker, including a compromised <a href="https://securityaffairs.com/wp-content/uploads/2026/03/image-79.png" type="attachment" id="189953">LiteLLM package</a> used to spread data-stealing malware.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>&#8220;The European Commission and CERT-EU have assessed with high confidence that the initial access vector was the Trivy supply-chain compromise, publicly attributed to <a href="https://securityaffairs.com/tag/teampcp" type="post_tag" id="16716">TeamPCP</a> by Aqua Security. The firm has provided comprehensive details on this compromise <a href="https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know/" target="_blank" rel="noreferrer noopener">in its advisory</a>.&#8221; continues CERT-EU.</p>
+
+
+
+<p>&#8220;This assessment is based on three main factors:</p>
+
+
+
+<ul class="wp-block-list">
+<li>The timing of the Trivy supply-chain compromise coincides with the observed initial compromise on March 19.</li>
+
+
+
+<li>The specific resources being targeted: AWS credentials and cloud infrastructure.</li>
+
+
+
+<li>The European Commission was unwittingly using a compromised version of Trivy during the relevant timeframe, having received it through normal software update channels.&#8221;<gwmw style="display:none;"></gwmw></li>
+</ul>
+
+
+
+<p></p>
+
+
+
+<p>On March 28, the ShinyHunters group <a href="https://securityaffairs.com/190095/data-breach/shinyhunters-claims-the-hack-of-the-european-commission.html" type="post" id="190095">published</a> 350GB of stolen from the European Commission, containing emails, names, and usernames, dumps of mail servers, databases, confidential documents, contracts, and much more sensitive material.</p>
+
+
+
+<p>CERT-EU confirmed tens of thousands of files were taken, affecting up to 71 Europa web hosting clients, including 42 Commission entities and at least 29 other EU bodies, using a compromised AWS credential.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;The threat actor used the compromised AWS secret to exfiltrate data from the affected cloud environment.&#8221; added CERT-EU. &#8220;The exfiltrated data relates to websites hosted for up to 71 clients of the Europa web hosting service: 42 internal clients of the European Commission, and at least 29 other Union entities.&#8221;</em></p>
+
+
+
+<p>Analysis shows the leaked dataset includes personal data such as names, usernames, and email addresses, mainly from European Commission websites but possibly affecting multiple EU entities. It also contains over 51,000 outbound email files, mostly automated, though some bounce-back messages may expose user-submitted content, increasing the risk of data exposure.</p>
+
+
+
+<p>&#8220;The analysis of the databases linked to the hosted websites is underway. Given the volume and intricate nature of the data involved, this process requires a considerable amount of time.&#8221; concludes CERT-EU.<gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p>Summarizing, a compromised AWS account tied to the europa.eu hosting service exposed data from 42 European Commission clients and at least 29 other EU entities. Despite the breach, no websites were disrupted or altered. The Commission has notified affected parties and, with CERT-EU, continues investigating and will share further findings as they emerge.</p>
+
+
+
+<p>On 30 January, the European Commission <a href="https://securityaffairs.com/187768/data-breach/european-commission-probes-cyberattack-on-mobile-device-management-system.html">detected</a> another cyberattack on its mobile device management system. The organization pointed out that no mobile devices were compromised. The Commission contained and cleaned the system within nine hours.</p>
+
+
+
+<p>Attackers may have accessed some staff data, including names and phone numbers, but so far they have not compromised any devices.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, CERT-EU)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190333</post-id>	</item>
+		<item>
+		<title>North Korea–linked hackers drain $285M from Drift in sophisticated attack</title>
+		<link>https://securityaffairs.com/190330/hacking/north-korea-linked-hackers-drain-285m-from-drift-in-sophisticated-attack.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 13:57:51 +0000</pubDate>
+				<category><![CDATA[APT]]></category>
+		<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[North Korea]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[Solana]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190330</guid>
+
+					<description><![CDATA[Drift lost $285M in a sophisticated attack, likely by North Korea, who used nonce-based tricks to gain control and quickly drain funds Drift suffered a $285 million cryptocurrency heist in a highly sophisticated attack likely linked to North Korea. Threat actors used durable nonce accounts to pre-sign and delay transactions, while also compromising multisig approvals [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Drift lost $285M in a sophisticated attack, likely by North Korea, who used nonce-based tricks to gain control and quickly drain funds</h2>
+
+
+
+<p>Drift suffered a $285 million cryptocurrency heist in a highly sophisticated attack likely linked to North Korea. Threat actors used durable nonce accounts to pre-sign and delay transactions, while also compromising multisig approvals to gain admin control. </p>
+
+
+
+<p><em>&#8220;This was a highly sophisticated operation that appears to have involved multi-week preparation and staged execution, including the use of durable nonce accounts to pre-sign transactions that delayed execution.&#8221; wrote the Solana-based decentralized exchange</em> <em>on X.</em></p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">Earlier today, a malicious actor gained unauthorized access to Drift Protocol through a novel attack involving durable nonces, resulting in a rapid takeover of Drift’s Security Council administrative powers.<br><br>This was a highly sophisticated operation that appears to have involved…</p>&mdash; Drift (@DriftProtocol) <a href="https://twitter.com/DriftProtocol/status/2039564437795836039?ref_src=twsrc%5Etfw">April 2, 2026</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div></figure>
+
+
+
+<p>They prepared for the operation days in advance, setting up wallets and testing transactions before draining funds from multiple vaults within seconds and laundering them across wallets. Drift notified law enforcement and is now working with security firms and exchanges to trace and freeze the stolen assets.</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">Drift Protocol is coordinating with multiple security firms to determine the cause of the incident. Drift is also working with bridges, exchanges, and law enforcement to trace and freeze stolen assets. We would welcome any information or help pertaining to the investigation at…</p>&mdash; Drift (@DriftProtocol) <a href="https://twitter.com/DriftProtocol/status/2039564450500390996?ref_src=twsrc%5Etfw">April 2, 2026</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div></figure>
+
+
+
+<p>Solana-based decentralized exchange Drift has confirmed that attackers drained about $285 million from the platform during a security incident that took place on April 1, 2026.</p>
+
+
+
+<p>The timeline shows a carefully staged attack. On March 23, durable nonce accounts were set up, with at least 2 of 5 multisig signers unknowingly approving transactions, enabling delayed execution. On March 27, Drift migrated its Security Council. By March 30, new nonce activity suggests the attacker regained access to 2 of 5 signers in the updated multisig, maintaining control ahead of the exploit.</p>
+
+
+
+<p>On April 1, the attack entered its execution phase. It began with a legitimate test withdrawal by Drift. About a minute later, the attacker used pre-signed durable nonce transactions to take control, creating, approving, and executing a malicious admin transfer, enabling the takeover.</p>
+
+
+
+<p>Blockchain cybersecurity firm Elliptic found strong signs linking the $286M Drift Protocol exploit to North Korea (DPRK), based on attack behavior and laundering methods. If confirmed, it would be the 18th DPRK-linked crypto theft this year, with over $300M stolen. </p>
+
+
+
+<p><em>&#8220;Elliptic has identified multiple indicators suggesting that the exploit of Drift Protocol is linked to the Democratic People&#8217;s Republic of Korea (DPRK).&#8221; reads the <a href="https://www.elliptic.co/blog/drift-protocol-exploited-for-286-million-in-suspected-dprk-linked-attack">report</a> published by Elliptic.</em></p>
+
+
+
+<p>Such attacks are tied to funding weapons programs, with over $6.5B stolen in recent years. The incident reflects growing DPRK activity, including recent supply chain attacks like the <a href="https://securityaffairs.com/tag/axios" type="post_tag" id="16734">Axios</a> npm compromise.</p>
+
+
+
+<p>According to Elliptic, the Drift attack unfolded rapidly, with attackers draining most funds within an hour after allegedly compromising admin private keys. They targeted key vaults, stealing assets including $155M in JLP tokens and other cryptocurrencies. Drift’s TVL dropped from $550M to under $250M, making it 2026’s largest DeFi hack so far.</p>
+
+
+
+<p>The attacker prepared in advance, creating a wallet days earlier and testing access. Stolen funds were quickly swapped to USDC, then moved to Ethereum and converted to ETH. Drift halted operations and is working to contain the incident.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Drift)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190330</post-id>	</item>
+		<item>
+		<title>CrystalX RAT: new MaaS malware combines spyware, stealer, and remote access</title>
+		<link>https://securityaffairs.com/190310/cyber-crime/crystalx-rat-new-maas-malware-combines-spyware-stealer-and-remote-access.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 13:23:57 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[CrystalX RAT]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[MaaS]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190310</guid>
+
+					<description><![CDATA[CrystalX RAT, a new sophisticated MaaS malware, combines spyware, data theft, and remote access, allowing attackers to monitor victims. In March 2026, Kaspersky researchers uncovered a Telegram-based campaign promoting a previously unknown malware sold as a MaaS with three subscription tiers. The Trojan offers a wide range of features, including RAT capabilities, data theft, keylogging, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">CrystalX RAT, a new sophisticated MaaS malware, combines spyware, data theft, and remote access, allowing attackers to monitor victims.</h2>
+
+
+
+<p>In March 2026, Kaspersky researchers uncovered a Telegram-based campaign promoting a previously unknown malware sold as a MaaS with three subscription tiers. The Trojan offers a wide range of features, including RAT capabilities, data theft, keylogging, clipping, spyware, and even prank functions to annoy users. This unusual mix makes it stand out, and Kaspersky detects it as CrystalX and related malware variants.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>First seen in January 2026 as <a href="https://securelist.com/webrat-distributed-via-github/118555/">Webcrystal</a> RAT, this malware was promoted in private Telegram groups and later rebranded as CrystalX RAT, expanding to YouTube marketing. The malware includes a control panel with an auto-builder that lets attackers customize features like geoblocking, anti-analysis tools, and file appearance. Payloads are compressed with zlib and encrypted using ChaCha20. It uses anti-debugging techniques such as proxy and MITM checks, VM detection, anti-attach loops, and stealth patches that bypass security functions, making analysis and detection more difficult.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Once executed, it connects to a command-and-control server, gathers system data, and can steal credentials from apps and browsers, though this feature is currently being updated. It also includes keylogging and clipboard hijacking, even injecting malicious browser extensions to swap crypto wallet addresses.</p>
+
+
+
+<p><em>&#8220;When launched, the malware establishes a connection to its C2 using a hard‑coded URL over the WebSocket protocol. It performs an initial collection of system information, after which all data is sent in JSON format as plain text. Then the malware executes the stealer function, doing so either once or at predefined intervals depending on the build options.&#8221; reads the <a href="https://securelist.com/crystalx-rat-with-prankware-features/119283/">report</a> published by Kaspersky. &#8220;The stealer extracts the victim’s credentials for Steam, Discord, and Telegram from the system. It also gathers data from Chromium‑based browsers using the popular ChromeElevator utility.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Stolen data is sent to the C2, with dedicated routines for Yandex and Opera. The stealer feature is currently disabled, likely for updates. The RAT includes a keylogger that streams keystrokes in real time and a clipper that can alter clipboard data or inject malicious browser extensions to replace crypto wallet addresses. It also enables full remote access, allowing attackers to run commands, manage files, control the screen via VNC, and capture audio and video.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-4.png?ssl=1"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="788" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-4.png?resize=1024%2C788&#038;ssl=1" alt="" class="wp-image-190313" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-4.png?resize=1024%2C788&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-4.png?resize=300%2C231&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-4.png?resize=768%2C591&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-4.png?w=1360&amp;ssl=1 1360w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p>The malware includes a “Rofl” section with prank features to annoy victims. Attackers can change wallpapers, rotate the screen, swap mouse buttons, disable peripherals, or trigger shutdowns. Other options include hiding icons, disabling system tools, showing fake notifications, and making the cursor move randomly. It also allows sending messages and opening a chat window for direct interaction with the victim.</p>
+
+
+
+<p>The researchers pointed out that the initial infection vector remains unclear, but dozens of victims have been affected, mainly in Russia so far. The MaaS has no geographic limits, meaning it could spread globally. Ongoing development and new versions, along with active promotion, suggest CrystalX RAT infections are likely to rise significantly in the near future.</p>
+
+
+
+<p><em>&#8220;The sheer variety of available RATs has perpetuated demand, as actors prioritize flexibility of existing malware and its infrastructure.&#8221; concludes the report. &#8220;Thus, CrystalX RAT represents a highly functional MaaS platform that is not limited to espionage capabilities – spyware, keylogging and remote control – but includes unique stealer and prankware features.&#8221;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, CrystalX RAT)</strong><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190310</post-id>	</item>
+		<item>
+		<title>Pro-Iran Handala group breached Israeli defence contractor PSK Wind Technologies</title>
+		<link>https://securityaffairs.com/190319/data-breach/pro-iran-handala-group-breached-israeli-defence-contractor-psk-wind-technologies.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 07:52:52 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber warfare]]></category>
+		<category><![CDATA[Data Breach]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Hacktivism]]></category>
+		<category><![CDATA[Security]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190319</guid>
+
+					<description><![CDATA[Iran-linked hackers claim to have breached Israeli air defence contractor PSK Wind, which develops command and control systems. Pro-Iran Handala group announced on April 2 that it breached PSK Wind Technologies, an Israeli engineering and IT firm specializing in integrated systems for defense and critical communications, including command and control solutions. Handala appears as a [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Iran-linked hackers claim to have breached Israeli air defence contractor PSK Wind, which develops command and control systems.</h2>
+
+
+
+<p>Pro-Iran <a href="https://securityaffairs.com/tag/handala" type="post_tag" id="16654">Handala</a> group announced on April 2 that it breached PSK Wind Technologies, an Israeli engineering and IT firm specializing in integrated systems for defense and critical communications, including command and control solutions. </p>
+
+
+
+<p>Handala appears as a pro-Palestinian hacktivist group but is widely seen as a front for Iran-backed Void Manticore, as <a href="https://www.securityweek.com/medtech-giant-stryker-crippled-by-iran-linked-hacker-attack/">reported</a> by SecurityWeek. Known for phishing, data theft, extortion, and destructive wiper attacks, they also engage in info operations and psychological warfare. Since the <a href="https://securityaffairs.com/179199/cyber-warfare-2/iran-confirmed-it-shut-down-internet-to-protect-the-country-against-cyberattacks.html">Iran conflict</a> began, they’ve targeted Israeli military servers, intelligence officers, and companies, stealing or wiping data.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The Handala claims to have stolen sensitive data from PSK Wind, including documents on command and control systems, allegedly sending it to “Axis of Resistance” missile units. The Axis of Resistance is an Iran-led political and military alliance of groups opposing Israel, the US, and allies, including Hezbollah in Lebanon, Palestinian Islamic Jihad, Syrian regime forces, and Shia militias in Iraq like Kata’ib Hezbollah.</p>
+
+
+
+<p>Handala <a href="https://www.intellinews.com/iran-linked-hackers-claim-breach-of-israeli-air-defence-contractor-psk-wind-435328/">issued</a> a threat coinciding with Passover, a major Jewish holiday that commemorates the Israelites’ liberation from slavery in ancient Egypt, warning of attacks on Israeli defense and command centers.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>At this time, neither PSK Wind nor the Israeli military commented, while the group released confidential files showcasing top secret communications systems, internal documents, location photos and more.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6a8.png" alt="🚨" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f1ee-1f1f7.png" alt="🇮🇷" class="wp-smiley" style="height: 1em; max-height: 1em;" /> BREAKING: Iranian nation-state threat actor Handala has breached Israeli defense contractor PSK Wind Technologies.<br><br>They&#39;ve released confidential files showcasing top secret communications systems, internal documents, location photos and more. <a href="https://t.co/w2Li9P1ZLp">pic.twitter.com/w2Li9P1ZLp</a></p>&mdash; International Cyber Digest (@IntCyberDigest) <a href="https://twitter.com/IntCyberDigest/status/2039618984744456501?ref_src=twsrc%5Etfw">April 2, 2026</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div></figure>
+
+
+
+<p>The PSK Wind attack is part of an ongoing wave of cyber attacks on Israeli military infrastructure since February 28, coinciding with missile and drone strikes by Iran and its allies. Hackers claim the firm manages Israel’s air defence command centers, critical to systems like Iron Dome. </p>
+
+
+
+<p>Since the U.S.-Israeli war with Iran began in February, the Iran-linked group Handala has intensified its cyberattacks. It claimed responsibility for a destructive breach at medical tech firm&nbsp;<a href="https://securityaffairs.com/tag/stryker">Stryker</a>&nbsp;that targeted its internal Microsoft environment and remotely wiped tens of thousands of employee devices without using malware.&nbsp;</p>
+
+
+
+<p>The group claimed it wiped more than 200,000 servers, mobile devices, and other systems, forcing the company to shut down offices across 79 countries. The hacktivists also claimed they exfiltrated about 50TB of corporate data from the company’s infrastructure.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Recently, the Iran-linked hacking group <a href="https://securityaffairs.com/tag/handala">Handala</a> claimed the hack of the FBI Director Kash Patel’s personal Gmail account and shared alleged data, including photos and files. </p>
+
+
+
+<p>The FBI is offering up to $10 million for information on the Handala hackers.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Handala)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190319</post-id>	</item>
+		<item>
+		<title>Hasbro hit by cyberattack, investigates possible data breach</title>
+		<link>https://securityaffairs.com/190306/security/hasbro-hit-by-cyberattack-investigates-possible-data-breach.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 18:27:07 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Data Breach]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[Hasbro]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190306</guid>
+
+					<description><![CDATA[Hasbro suffers a cyberattack, disrupting some operations; the company is probing the scope and potential data compromise. Toy giant Hasbro reported a cyberattack on Wednesday that disrupted certain company operations. The firm is investigating the full extent of the incident, including whether any files or sensitive data were compromised, as it works to restore normal [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Hasbro suffers a cyberattack, disrupting some operations; the company is probing the scope and potential data compromise.</h2>
+
+
+
+<p>Toy giant Hasbro reported a cyberattack on Wednesday that disrupted certain company operations. The firm is investigating the full extent of the incident, including whether any files or sensitive data were compromised, as it works to restore normal business processes.</p>
+
+
+
+<p>Hasbro is a major American toy and board game company known worldwide for creating and selling popular products like Transformers, My Little Pony, Monopoly, Nerf, and Play-Doh. Founded in 1923, it has grown into a global entertainment brand, also producing movies, TV shows, and digital games based on its toy franchises. The company has a strong global presence, selling in over 100 countries and constantly expanding through acquisitions.</p>
+
+
+
+<p>On March 28, 2026, the company detected unauthorized access to its network. It quickly launched its security response, took some systems offline, and began an investigation with the help of external cybersecurity experts. </p>
+
+
+
+<p><em>&#8220;On March 28, 2026, Hasbro, Inc. (the “Company”) identified unauthorized access to the Company’s network. Upon discovery, the Company promptly activated its security incident response protocols, implemented containment measures, including proactively taking certain systems offline, and launched an investigation with the assistance of third-party cybersecurity professionals.&#8221; <a href="https://www.sec.gov/Archives/edgar/data/46080/000004608026000013/has-20260401.htm"><strong>reads</strong></a> a FORM 8-K filed with SEC. &#8220;The Company’s investigation is ongoing, and it is working diligently to resolve the matter and determine the full scope of impact.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Business continuity plans are in place to keep orders, shipments, and key operations running, though some delays may occur. Hasbro is reviewing potentially affected files and will take further actions, including notifications if needed, while strengthening its security measures.</p>
+
+
+
+<p><em>&#8220;The Company is also working to identify and review the files potentially impacted and will take additional actions as appropriate based on its review and findings, including providing any notifications deemed necessary under applicable law.&#8221; concludes the FORM 8-K. &#8220;The Company will continue to implement measures to secure its business operations and take additional steps as appropriate.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Based on the details disclosed by Hasbro regarding the effects of the attack and its response, the company may have been targeted by a ransomware group. At this time, no extortion group has claimed responsibility.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, cyberattack)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190306</post-id>	</item>
+		<item>
+		<title>Cisco fixed critical and high-severity flaws</title>
+		<link>https://securityaffairs.com/190295/security/cisco-fixed-critical-and-high-severity-flaws.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 17:04:38 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[CISCO]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190295</guid>
+
+					<description><![CDATA[Cisco fixed critical flaws that could allow attackers to bypass authentication, run code, and gain access to sensitive data. Cisco released patches for two critical and six high-severity vulnerabilities. These flaws could let attackers bypass authentication, execute malicious code, escalate privileges, and access sensitive information. One of these critical flaws is CVE-2026-20093 (CVSS score of [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Cisco fixed critical flaws that could allow attackers to bypass authentication, run code, and gain access to sensitive data.</h2>
+
+
+
+<p>Cisco released patches for two critical and six high-severity vulnerabilities. These flaws could let attackers bypass authentication, execute malicious code, escalate privileges, and access sensitive information.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>One of these critical flaws is <a href="https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-auth-bypass-AgG2BxTn">CVE-2026-20093</a> (CVSS score of 9.8), a flaw in Cisco IMC that lets a remote attacker bypass authentication via a crafted HTTP request. An attacker could change user passwords, including admin, and gain full system access.</p>
+
+
+
+<p>Cisco Integrated Management Controller (IMC) is a built-in management system used on Cisco servers. IMC lets administrators control and monitor a server remotely, even if the operating system is off or not working.</p>
+
+
+
+<p>Cisco also patched a critical SSM On-Prem flaw, tracked as <a href="https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ssm-cli-execution-cHUcWuNr">CVE-2026-20160</a> (CVSS score of 9.8) that allowed unauthenticated attackers to run commands on the host OS with root privileges via a crafted API request.</p>
+
+
+
+<p>Cisco’s PSIRT is not aware of exploits or proof-of-concept code for these vulnerabilities, however the networking giant strongly advises customers to update to the patched software.</p>
+
+
+
+<p>In March, the company fixed a critical RCE zero-day, tracked as <a href="https://securityaffairs.com/tag/cve-2026-20131" type="post_tag" id="16691">CVE-2026-20131</a> (CVSS score of 10.0), in Secure Firewall FMC, exploited by <a href="https://securityaffairs.com/189636/malware/interlock-group-exploiting-the-cisco-fmc-flaw-cve-2026-20131-36-days-before-disclosure.html" type="post" id="189636">Interlock ransomware</a>. US CISA ordered federal agencies to patch within three days. The U.S. Cybersecurity and Infrastructure Security Agency (CISA)&nbsp;<a href="https://www.cisa.gov/news-events/alerts/2026/03/19/cisa-adds-one-known-exploited-vulnerability-catalog">added</a>&nbsp;the flaw to its&nbsp;<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">Known Exploited Vulnerabilities (KEV) catalog</a>.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter: </strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong> and </strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong> and </strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, CIMC)</strong><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190295</post-id>	</item>
+		<item>
+		<title>Threat actor UAC-0255 impersonate CERT-UA to spread AGEWHEEZE malware via phishing</title>
+		<link>https://securityaffairs.com/190287/hacking/threat-actor-uac-0255-impersonate-cert-ua-to-spread-agewheeze-malware-via-phishing.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 14:02:18 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[AGEWHEEZE]]></category>
+		<category><![CDATA[CERT-UA]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Russia]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[UAC-0255]]></category>
+		<category><![CDATA[Ukraine]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190287</guid>
+
+					<description><![CDATA[Threat actors impersonated CERT-UA to send phishing emails with AGEWHEEZE malware, tricking victims into installing a fake “security tool.” A threat actor, tracked as UAC-0255, impersonated CERT-UA in a phishing campaign, sending emails to about 1 million users. The messages urged victims to download a password-protected archive from Files.fm and install a fake “specialized software,” [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Threat actors impersonated CERT-UA to send phishing emails with AGEWHEEZE malware, tricking victims into installing a fake “security tool.”</h2>
+
+
+
+<p>A threat actor, tracked as UAC-0255, impersonated CERT-UA in a phishing campaign, sending emails to about 1 million users. The messages urged victims to download a password-protected archive from Files.fm and install a fake “specialized software,” which actually deployed the AGEWHEEZE remote access tool, giving attackers control over infected systems.</p>
+
+
+
+<p><em>&#8220;The National Cyber ​​Incident, Cyber ​​Attack, and Cyber ​​Threat Response Team CERT-UA recorded cases of distribution of emails allegedly on behalf of CERT-UA on March 26-27, 2026, urging people to download a password-protected archive (&#8220;CERT_UA_protection_tool.zip&#8221;, &#8220;protection_tool.zip&#8221;) from the Files.fm service and install &#8220;specialized software&#8221;.&#8221; reads the <a href="https://cert.gov.ua/article/6288047">advisory</a> published by CERT-UA.</em> <em>&#8220;It was found that the executable file that was offered to be installed (internal package name: &#8220;/example.com/tvisor/agent&#8221;) is a multifunctional software tool for remote computer control, classified by CERT-UA as AGEWHEEZE.&#8221;</em></p>
+
+
+
+<p>AGEWHEEZE supports command execution, file management, screen capture, input control, and process/service management. It ensures persistence via registry, startup, or scheduled tasks, installing itself in AppData paths. The malware communicates with its server via WebSockets and can also steal clipboard data, run commands, and control system actions.</p>
+
+
+
+<p>The campaign targeted government organizations, medical centers, security companies, educational institutions, financial institutions, software development companies, and others.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-2-scaled.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="1024" height="552" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-2.png?resize=1024%2C552&#038;ssl=1" alt="" class="wp-image-190291" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-2-scaled.png?resize=1024%2C552&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-2-scaled.png?resize=300%2C162&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-2-scaled.png?resize=768%2C414&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-2-scaled.png?resize=1536%2C828&amp;ssl=1 1536w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-2-scaled.png?resize=2048%2C1105&amp;ssl=1 2048w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-3-scaled.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="1024" height="418" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-3.png?resize=1024%2C418&#038;ssl=1" alt="" class="wp-image-190292" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-3-scaled.png?resize=1024%2C418&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-3-scaled.png?resize=300%2C122&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-3-scaled.png?resize=768%2C314&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-3-scaled.png?resize=1536%2C627&amp;ssl=1 1536w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-3-scaled.png?resize=2048%2C836&amp;ssl=1 2048w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p>The attackers created a fake website (cert-ua[.]tech) mimicking the real CERT-UA site to spread the fake “security tool” that is actually AGEWHEEZE malware. The tool allows remote control of infected systems. CERT-UA experts state that the command server is hosted on OVH infrastructure and includes a login page (“The Cult”) with Russian-language elements, suggesting the attackers’ origin or links.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The fake site cert-ua[.]tech includes links to a Telegram channel claiming responsibility for the attack, confirming attribution to UAC-0255. </p>
+
+
+
+<p>The fake site was likely AI-generated and included references to “CYBER SERP,” a group active since late 2025, claiming responsibility. The group says it sent phishing emails to 1 million users and infected over 200,000 devices, though this is unverified. </p>
+
+
+
+<p>The campaign had a limited impact, infecting only a few devices in educational institutions. CERT-UA experts helped contain it. The case shows how AI can make cyberattacks easier, and highlights the need to reduce attack surfaces and use security tools like AppLocker and system protections.</p>
+
+
+
+<p>Authorities thanked Ukrainian telecom providers for supporting cyber defense efforts and sharing threat information. They also warned that AI is making attacks easier, urging organizations to reduce attack surfaces and strengthen security using system protections and dedicated tools.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, malware)</strong></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190287</post-id>	</item>
+		<item>
+		<title>Italian spyware vendor creates Fake WhatsApp app, targeting 200 users</title>
+		<link>https://securityaffairs.com/190276/malware/italian-spyware-vendor-creates-fake-whatsapp-app-targeting-200-users.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 07:38:23 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Intelligence]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Asigint]]></category>
+		<category><![CDATA[Commercial surveillance vendors]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[SIO]]></category>
+		<category><![CDATA[spyware]]></category>
+		<category><![CDATA[WhatsApp]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190276</guid>
+
+					<description><![CDATA[WhatsApp blocked a fake app by Italian firm SIO/Asigint that targeted 200 users with spyware, urging them to reinstall the official app. WhatsApp has recently uncovered a malicious fake version of its app that targeted roughly 200 users, most of whom are in Italy. The platform confirmed that the unofficial client contained spyware and was [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">WhatsApp blocked a fake app by Italian firm SIO/Asigint that targeted 200 users with spyware, urging them to reinstall the official app.<gwmw style="display:none;"></gwmw></h2>
+
+
+
+<p>WhatsApp has recently uncovered a malicious fake version of its app that targeted roughly 200 users, most of whom are in Italy. The platform confirmed that the unofficial client contained spyware and was developed by Italian firm Asigint, a subsidiary of SIO Spa, a company known for providing surveillance tools to law enforcement and government agencies.</p>
+
+
+
+<p><em>&#8220;Our security team identified around 200 users, mostly in Italy, who we believe may have downloaded this unofficial and harmful client. We logged them out and alerted them to the privacy and security risks,” <a href="https://www.ansa.it/sito/notizie/topnews/2026/04/01/whatsapp-scopre-una-versione-falsa-creata-da-azienda-italiana-spiati-200_6d4472fe-0bed-4b8f-ac44-5b20f3acd411.html">WhatsApp stated</a>.  &#8220;We believe this was a social engineering attempt targeting a limited number of users with the goal of inducing them to install harmful software impersonating WhatsApp, likely to gain access to their devices. Today, WhatsApp has taken action against Asigint, an Italian spyware company controlled by Sio Spa that created a fake version of WhatsApp. We believe the individuals behind this malicious client used social engineering techniques to trick people into downloading an unofficial and harmful app disguised as WhatsApp,” the Meta Group company said in a statement, adding that it intends to “send a formal legal notice to this spyware company to cease all harmful activity.&#8221;</em></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-1.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="471" height="1024" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-1.png?resize=471%2C1024&#038;ssl=1" alt="" class="wp-image-190277" style="aspect-ratio:0.45997332218439546;width:289px;height:auto" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-1.png?resize=471%2C1024&amp;ssl=1 471w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-1.png?resize=138%2C300&amp;ssl=1 138w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-1.png?resize=707%2C1536&amp;ssl=1 707w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-1.png?w=736&amp;ssl=1 736w" sizes="auto, (max-width: 471px) 100vw, 471px" /></a></figure>
+</div>
+
+
+<p>The affected users were promptly logged out and notified of the potential risks to their privacy and security. WhatsApp advised them to remove the fake app and reinstall the official version, emphasizing that the incident did not involve a vulnerability in WhatsApp itself; the end-to-end encryption of legitimate apps remains intact.</p>
+
+
+
+<p>According to WhatsApp, the attackers relied on social engineering techniques, tricking users into installing the counterfeit app, which was not available on official digital stores like the Apple App Store or Google Play. The approach suggests a highly targeted campaign, likely part of a broader investigation, rather than a mass-distribution attack.</p>
+
+
+
+<p><em>“It is important to clarify that this was not a vulnerability in WhatsApp; end-to-end encryption continues to protect the communications of people using the official WhatsApp apps,” the Meta Group platform stated, as <a href="https://www.ansa.it/canale_tecnologia/notizie/cybersecurity/2026/04/01/whatsapp-scopre-una-versione-falsa-creata-da-azienda-italiana-spiati-200_a40739ab-76f5-49a1-a57d-fa610aa788ce.html">reported by the Italian press agency ANSA</a>. “We believe the individuals behind this malicious client used social engineering techniques to convince people to download an unofficial and harmful app, passing it off as WhatsApp, likely to gain access to their devices. We intend to send a formal legal notice to this spyware company to cease any harmful activity.”</em></p>
+
+
+
+<p>SIO, through Asigint, has a long history in the development of government-grade spyware. In a 2025 <a href="https://techcrunch.com/2025/02/13/spyware-maker-caught-distributing-malicious-android-apps-for-years/">TechCrunch report</a>, SIO was linked to Spyrtacus, a series of malicious Android apps that disguised themselves as WhatsApp and other popular applications. Spyrtacus allowed attackers to extract sensitive data from devices, including messages, contact lists, and call logs, as well as monitor users through microphones and cameras.</p>
+
+
+
+<p>A WhatsApp spokesperson explained that the company plans to issue a formal legal demand to Asigint, requesting that the company cease all malicious activities. The platform stressed that holding spyware developers accountable under law is a crucial part of protecting users from targeted attacks. WhatsApp has previously achieved a precedent-setting outcome by holding a commercial spyware firm responsible under U.S. law for attempting to spy on users’ mobile devices.</p>
+
+
+
+<p>The incident highlights a broader trend in digital surveillance: using fake apps as a tool for spying. Cybersecurity experts note that such tactics are common in operations targeting individuals for intelligence or law enforcement purposes. </p>
+
+
+
+<p><em>“The fake WhatsApp campaign demonstrates the sophistication of modern social engineering techniques, where attackers exploit users’ trust in popular software to gain access to sensitive devices,” I told ANSA.</em></p>
+
+
+
+<p>SIO describes itself as a team of software developers and architects leveraging advanced technologies to redefine human-computer interaction. According to its website, the company collaborates closely with law enforcement, government organizations, and intelligence agencies, boasting more than 30 years of experience in the sector. The fake WhatsApp case underlines how firms that operate in the intelligence space can inadvertently, or deliberately, target private users in ways that raise ethical and legal questions.</p>
+
+
+
+<p>While the full scope of the attack remains unclear, the proactive response by WhatsApp underscores the importance of vigilance. Users are strongly encouraged to only download official applications and remain alert to suspicious links or prompts, especially when dealing with messaging or banking apps.</p>
+
+
+
+<p>This case also demonstrates the evolving challenges of digital security in Italy and globally, where spyware developers increasingly use counterfeit applications to bypass traditional defenses and exploit user trust. Even though most affected individuals were Italian, the lessons extend to anyone using widely trusted apps. Awareness and timely updates are essential defenses against such targeted threats.</p>
+
+
+
+<p>In conclusion, the WhatsApp-Asigint incident is a reminder of the ongoing arms race between privacy-focused platforms and surveillance-focused actors. While end-to-end encryption protects users of legitimate apps, attackers will continue to explore indirect methods, such as fake apps, to circumvent safeguards. Vigilance, legal accountability, and prompt user education remain the most effective tools for mitigating these sophisticated threats.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, WhatsApp)</strong></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190276</post-id>	</item>
+		<item>
+		<title>U.S. CISA adds a flaw in Google Dawn to its Known Exploited Vulnerabilities catalog</title>
+		<link>https://securityaffairs.com/190282/security/u-s-cisa-adds-a-flaw-in-google-dawn-to-its-known-exploited-vulnerabilities-catalog.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 23:30:12 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[CISA]]></category>
+		<category><![CDATA[CVE-2026-5281]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190282</guid>
+
+					<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in Google Dawn to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a flaw in Google Dawn, tracked as CVE-2026-5281 (CVSS score of 8.8), to its Known Exploited Vulnerabilities (KEV) catalog. The flaw is a use after free in the Dawn [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in Google Dawn to its Known Exploited Vulnerabilities catalog.</h2>
+
+
+
+<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) <a href="https://www.cisa.gov/news-events/alerts/2026/04/01/cisa-adds-one-known-exploited-vulnerability-catalog">added</a> a flaw in Google Dawn, tracked as <a href="https://www.cve.org/CVERecord?id=CVE-2026-5281">CVE-2026-5281</a> (CVSS score of 8.8), to its <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">Known Exploited Vulnerabilities (KEV) catalog</a>.</p>
+
+
+
+<p>The flaw is a use after free in the Dawn component in Google Chrome prior to 146.0.7680.178. Google Dawn is the WebGPU component used for graphics processing. A remote attacker who had compromised the renderer process could exploit the flaw to execute arbitrary code via a crafted HTML page.</p>
+
+
+
+<p>According to CISA, this vulnerability could affect multiple Chromium-based products including, but not limited to, Google Chrome, Microsoft Edge, and Opera.</p>
+
+
+
+<p>This week, Google <a href="https://securityaffairs.com/190265/hacking/google-fixes-fourth-actively-exploited-chrome-zero-day-of-2026.html">released</a> Chrome updates fixing 21 vulnerabilities, including a new actively exploited zero-day tracked as CVE-2026-5281.</p>
+
+
+
+<p>Due to ongoing exploitation, the company urges users to update their browsers immediately to reduce the risk of attacks.</p>
+
+
+
+<p><em>“Google is aware that an exploit for CVE-2026-5281 exists in the wild.”&nbsp;<a href="https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_31.html">reads the advisory</a>.</em></p>
+
+
+
+<p>A use-after-free (UAF) bug is a type of memory error where a program continues to use a piece of memory after it has already been freed (released).</p>
+
+
+
+<p>Attackers can exploit use-after-free bugs to crash applications, execute malicious code, or&nbsp;take control of a system. Google fixed the Chrome zero-day and urges users to update to version 146.0.7680.177/178 (Windows/macOS) or 146.0.7680.177 (Linux).</p>
+
+
+
+<p>As usual, Google did not reveal technical details of the attacks exploiting this flaw or the type of attackers involved, to give users time to update and prevent others from exploiting it.</p>
+
+
+
+<p>CVE-2026-5281 is the fourth Chrome zero-day exploited in attacks in 2026.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>According to&nbsp;<a href="https://cyber.dhs.gov/bod/22-01/" target="_blank" rel="noreferrer noopener">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a>, FCEB agencies have to address the identified vulnerabilities by the due date to protect their networks against attacks exploiting the flaws in the catalog.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Experts also recommend that private organizations review the&nbsp;<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noreferrer noopener">Catalog</a>&nbsp;and address the vulnerabilities in their infrastructure.</p>
+
+
+
+<p>CISA orders federal agencies to fix the vulnerability by April 15, 2026.</p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, US CISA <a href="https://securityaffairs.com/165513/security/cisa-adds-windows-rejetto-http-file-server-bugs-known-exploited-vulnerabilities-catalog.html">Known Exploited Vulnerabilities catalog</a>)</strong><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190282</post-id>	</item>
+		<item>
+		<title>Google fixes fourth actively exploited Chrome zero-day of 2026</title>
+		<link>https://securityaffairs.com/190265/hacking/google-fixes-fourth-actively-exploited-chrome-zero-day-of-2026.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 20:41:11 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[CVE-2026-5281]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190265</guid>
+
+					<description><![CDATA[Google fixed a new Chrome zero-day, tracked as CVE-2026-5281, in the WebGPU Dawn component that is already exploited in the wild. Google released Chrome updates fixing 21 vulnerabilities, including a new actively exploited zero-day tracked as CVE-2026-5281. The flaw is a use-after-free bug in Dawn, the WebGPU component used for graphics processing. Due to ongoing [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Google fixed a new Chrome zero-day, tracked as CVE-2026-5281, in the WebGPU Dawn component that is already exploited in the wild.<gwmw style="display: none; background-color: transparent;"></gwmw></h2>
+
+
+
+<p>Google released Chrome updates fixing 21 vulnerabilities, including a new actively exploited zero-day tracked as CVE-2026-5281. The flaw is a use-after-free bug in Dawn, the WebGPU component used for graphics processing. </p>
+
+
+
+<p>Due to ongoing exploitation, the company urges users to update their browsers immediately to reduce the risk of attacks.</p>
+
+
+
+<p><em>&#8220;Google is aware that an exploit for CVE-2026-5281 exists in the wild.&#8221; <a href="https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_31.html">reads the advisory</a>.</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>A use-after-free (UAF) bug is a type of memory error where a program continues to use a piece of memory after it has already been freed (released).<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Attackers can exploit use-after-free bugs to crash applications, execute malicious code, or <gwmw style="display: none; background-color: transparent;"></gwmw>take control of a system. Google fixed the Chrome zero-day and urges users to update to version 146.0.7680.177/178 (Windows/macOS) or 146.0.7680.177 (Linux).<gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p>As usual, Google did not reveal technical details of the attacks exploiting this flaw or the type of attackers involved, to give users time to update and prevent others from exploiting it.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>CVE-2026-5281 is the fourth Chrome zero-day exploited in attacks in 2026, below the other actively exploited flaws addressed by Google this year:</p>
+
+
+
+<ul class="wp-block-list">
+<li>February 2026 &#8211; <a href="https://securityaffairs.com/188029/security/google-fixes-first-actively-exploited-chrome-zero-day-of-2026.html">CVE-2026-2441</a> &#8211; Use after free in CSS</li>
+
+
+
+<li>March 2026 &#8211; <a href="https://securityaffairs.com/189373/hacking/google-fixed-two-new-actively-exploited-flaws-in-the-chrome-browser.html">CVE-2026-3909</a> (CVSS score: 8.8) &#8211; Out-of-bounds write in the Skia 2D graphics library and <a href="https://securityaffairs.com/189373/hacking/google-fixed-two-new-actively-exploited-flaws-in-the-chrome-browser.html">CVE-2026-3910</a> (CVSS score: 8.8) &#8211; Flaw in the implementation of the V8 JavaScript/WebAssembly engine <gwmw style="display:none;"></gwmw></li>
+</ul>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Google)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190265</post-id>	</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Object Caching 50/64 objects using Memcached
+Page Caching using Memcached (Page is feed) 
+Database Caching 1/24 queries in 0.018 seconds using Memcached (Request-wide modification query)
+
+Served from: securityaffairs.com @ 2026-04-04 11:47:08 by W3 Total Cache
+-->

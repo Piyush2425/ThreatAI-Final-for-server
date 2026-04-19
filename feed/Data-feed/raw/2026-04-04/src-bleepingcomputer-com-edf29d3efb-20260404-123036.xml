@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:atom="http://www.w3.org/2005/Atom"
+        >
+
+<channel>
+        <title>BleepingComputer</title>
+
+        <link>https://www.bleepingcomputer.com/</link>
+        <description>BleepingComputer - All Stories</description>
+        <pubDate>Sat, 04 Apr 2026 12:28:06 GMT</pubDate>
+        <generator>https://www.bleepingcomputer.com/</generator>
+        <language>en</language>
+        <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
+        
+ <item>
+        <title>LinkedIn secretely scans for 6,000+ Chrome extensions, collects data</title>
+        <link>https://www.bleepingcomputer.com/news/security/linkedin-secretely-scans-for-6-000-plus-chrome-extensions-collects-data/</link>
+        <pubDate>Fri, 03 Apr 2026 16:40:22 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/linkedin-secretely-scans-for-6-000-plus-chrome-extensions-collects-data/</guid>
+        <description><![CDATA[A new report dubbed "BrowserGate" warns that Microsoft's LinkedIn is using hidden JavaScript scripts on its website to scan visitors' browsers for installed extensions and collect device data. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Hims &amp; Hers warns of data breach after Zendesk support ticket breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/hims-and-hers-warns-of-data-breach-after-zendesk-support-ticket-breach/</link>
+        <pubDate>Fri, 03 Apr 2026 13:41:11 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hims-and-hers-warns-of-data-breach-after-zendesk-support-ticket-breach/</guid>
+        <description><![CDATA[Telehealth giant Hims & Hers Health is warning that it suffered a data breach after support tickets were stolen from a third-party customer service platform. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Die Linke German political party confirms data stolen by Qilin ransomware</title>
+        <link>https://www.bleepingcomputer.com/news/security/die-linke-german-political-party-confirms-data-stolen-by-qilin-ransomware/</link>
+        <pubDate>Fri, 03 Apr 2026 12:36:44 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/die-linke-german-political-party-confirms-data-stolen-by-qilin-ransomware/</guid>
+        <description><![CDATA[The Qilin ransomware group has claimed responsibility for an attack against Die Linke ('The Left'), forcing an IT systems outage at the political party, and threatening sensitive data leak. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Evolution of Ransomware: Multi-Extortion Ransomware Attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/evolution-of-ransomware-multi-extortion-ransomware-attacks/</link>
+        <pubDate>Fri, 03 Apr 2026 10:05:15 -0400</pubDate>
+        <dc:creator>Sponsored by Penta Security</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/evolution-of-ransomware-multi-extortion-ransomware-attacks/</guid>
+        <description><![CDATA[Multi-extortion ransomware relies on stolen data to pressure victims with public leaks. Penta Security explains how its D.AMO platform keeps exfiltrated files encrypted and useless to attackers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft still working to fix Exchange Online mailbox access issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-still-working-to-fix-exchange-online-mailbox-access-issues/</link>
+        <pubDate>Fri, 03 Apr 2026 07:25:20 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-still-working-to-fix-exchange-online-mailbox-access-issues/</guid>
+        <description><![CDATA[Microsoft is investigating and working to resolve Exchange Online mailbox access issues that have intermittently affected Outlook mobile and macOS users for weeks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Man admits to locking thousands of Windows devices in extortion plot</title>
+        <link>https://www.bleepingcomputer.com/news/security/man-admits-to-extortion-plot-locking-coworkers-out-of-thousands-of-windows-devices/</link>
+        <pubDate>Fri, 03 Apr 2026 05:04:54 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/man-admits-to-extortion-plot-locking-coworkers-out-of-thousands-of-windows-devices/</guid>
+        <description><![CDATA[A former core infrastructure engineer has pleaded guilty to locking Windows admins out of 254 servers as part of a failed extortion plot targeting his employer, an industrial company headquartered in Somerset County, New Jersey. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft now force upgrades unmanaged Windows 11 24H2 PCs</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-now-force-upgrades-unmanaged-windows-11-24h2-pcs/</link>
+        <pubDate>Fri, 03 Apr 2026 03:55:40 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-now-force-upgrades-unmanaged-windows-11-24h2-pcs/</guid>
+        <description><![CDATA[Starting this week, Microsoft has begun force-upgrading unmanaged devices running Windows 11 24H2 Home and Pro editions to Windows 11 25H2. [...]]]></description>
+ </item>
+
+ <item>
+        <title>CERT-EU: European Commission hack exposes data of 30 EU entities</title>
+        <link>https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/</link>
+        <pubDate>Fri, 03 Apr 2026 02:33:34 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/</guid>
+        <description><![CDATA[The European Union's Cybersecurity Service (CERT-EU) has attributed the European Commission cloud hack to the TeamPCP threat group, saying the resulting breach exposed the data of at least 29 other Union entities. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Claude Code leak used to push infostealer malware on GitHub</title>
+        <link>https://www.bleepingcomputer.com/news/security/claude-code-leak-used-to-push-infostealer-malware-on-github/</link>
+        <pubDate>Thu, 02 Apr 2026 16:30:55 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/claude-code-leak-used-to-push-infostealer-malware-on-github/</guid>
+        <description><![CDATA[Threat actors are exploiting the recent Claude Code source code leak by using fake GitHub repositories to deliver Vidar information-stealing malware. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Drift loses $280 million as North Korean hackers seize Security Council powers</title>
+        <link>https://www.bleepingcomputer.com/news/security/drift-loses-280-million-north-korean-hackers-seize-security-council-powers/</link>
+        <pubDate>Thu, 02 Apr 2026 15:03:39 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/drift-loses-280-million-north-korean-hackers-seize-security-council-powers/</guid>
+        <description><![CDATA[The Drift Protocol lost at least $280 million after a threat actor took control of its Security Council administrative powers in a planned, sophisticated operation. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Residential proxies evaded IP reputation checks in 78% of 4B sessions</title>
+        <link>https://www.bleepingcomputer.com/news/security/residential-proxies-evaded-ip-reputation-checks-in-78-percent-of-4b-sessions/</link>
+        <pubDate>Thu, 02 Apr 2026 11:21:02 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/residential-proxies-evaded-ip-reputation-checks-in-78-percent-of-4b-sessions/</guid>
+        <description><![CDATA[Researchers warn that residential proxies used to route malicious traffic are a big problem for IP reputation systems, as there is no clear distinction between attackers and legitimate users. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Adversaries Exploit Vacant Homes to Intercept Mail in Hybrid Cybercrime</title>
+        <link>https://www.bleepingcomputer.com/news/security/adversaries-exploit-vacant-homes-to-intercept-mail-in-hybrid-cybercrime/</link>
+        <pubDate>Thu, 02 Apr 2026 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Flare</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/adversaries-exploit-vacant-homes-to-intercept-mail-in-hybrid-cybercrime/</guid>
+        <description><![CDATA[Threat actors are exploiting vacant homes as "drop addresses" to intercept mail and enable fraud. Flare shows how postal services and fake identities are abused to turn mail into a fraud vector. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New Progress ShareFile flaws can be chained in pre-auth RCE attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-progress-sharefile-flaws-can-be-chained-in-pre-auth-rce-attacks/</link>
+        <pubDate>Thu, 02 Apr 2026 09:33:11 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-progress-sharefile-flaws-can-be-chained-in-pre-auth-rce-attacks/</guid>
+        <description><![CDATA[Two vulnerabilities in Progress ShareFile, an enterprise-grade secure file transfer solution, can be chained to enable unauthenticated file exfiltration from affected environments. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Medtech giant Stryker fully operational after data-wiping attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-fully-operational-after-data-wiping-attack/</link>
+        <pubDate>Thu, 02 Apr 2026 09:28:39 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-fully-operational-after-data-wiping-attack/</guid>
+        <description><![CDATA[Stryker Corporation, one of the world's leading medical technology companies, says it's fully operational three weeks after many of its systems were wiped out in a cyberattack claimed by the Iranian-linked Handala hacktivist group. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Critical Cisco IMC auth bypass gives attackers Admin access</title>
+        <link>https://www.bleepingcomputer.com/news/security/critical-cisco-imc-auth-bypass-gives-attackers-admin-access/</link>
+        <pubDate>Thu, 02 Apr 2026 07:01:14 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/critical-cisco-imc-auth-bypass-gives-attackers-admin-access/</guid>
+        <description><![CDATA[Cisco has patched several critical and high-severity vulnerabilities, including an Integrated Management Controller (IMC) authentication bypass that enables attackers to gain Admin access. [...]]]></description>
+ </item>
+
+</channel>
+</rss>

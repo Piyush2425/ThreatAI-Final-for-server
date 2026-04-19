@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Help Net Security</title>
+	<atom:link href="https://www.helpnetsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.helpnetsecurity.com/</link>
+	<description>Daily information security news with a focus on enterprise security.</description>
+	<lastBuildDate>Fri, 03 Apr 2026 12:59:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.1</generator>
+
+<image>
+	<url>https://img.helpnetsecurity.com/wp-content/uploads/2019/09/09093400/cropped-hns2-32x32.png</url>
+	<title>Help Net Security</title>
+	<link>https://www.helpnetsecurity.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Cisco IMC auth bypass vulnerability allows attackers to alter user passwords (CVE-2026-20093)</title>
+		<link>https://www.helpnetsecurity.com/2026/04/03/cisco-imc-vulnerability-cve-2026-20093/</link>
+		
+		<dc:creator><![CDATA[Zeljka Zorz]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 12:59:22 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Cisco]]></category>
+		<category><![CDATA[Cisco servers]]></category>
+		<category><![CDATA[hardware management]]></category>
+		<category><![CDATA[security update]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364964</guid>
+
+					<description><![CDATA[<p>Cisco has fixed ten vulnerabilities affecting its Integrated Management Controller (IMC), the most critical of which (CVE-2026-20093) could allow an unauthenticated, remote attacker to bypass authentication and gain access to the system as Admin. Cisco ICM riddled with vulnerabilities Cisco Integrated Management Controller is a built-in hardware management system used in Cisco servers. It allows administrators to remotely control, monitor, and troubleshoot a server, even if the operating system isn’t running. (That&#8217;s because Cisco IMC &#8230; <a href="https://www.helpnetsecurity.com/2026/04/03/cisco-imc-vulnerability-cve-2026-20093/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/03/cisco-imc-vulnerability-cve-2026-20093/">Cisco IMC auth bypass vulnerability allows attackers to alter user passwords (CVE-2026-20093)</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Windows Security app gets Secure Boot certificate status indicators as 2026 expiration approaches</title>
+		<link>https://www.helpnetsecurity.com/2026/04/03/windows-secure-boot-certificate-update-2026-expiration/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 11:43:26 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[certificates]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[tips]]></category>
+		<category><![CDATA[Windows]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364934</guid>
+
+					<description><![CDATA[<p>Microsoft&#8217;s Secure Boot certificates, issued in 2011, are approaching expiration in 2026. To help IT administrators track whether devices have received replacement certificates, Microsoft has added new status indicators to the Windows Security app, under Device security > Secure Boot. Updated 2023 certificates are being delivered automatically through Windows Update to consumer devices and some business devices. The new app indicators show whether a given device has received those updates, what its current certificate state &#8230; <a href="https://www.helpnetsecurity.com/2026/04/03/windows-secure-boot-certificate-update-2026-expiration/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/03/windows-secure-boot-certificate-update-2026-expiration/">Windows Security app gets Secure Boot certificate status indicators as 2026 expiration approaches</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Claude Code source leak exploited to spread malware</title>
+		<link>https://www.helpnetsecurity.com/2026/04/03/claude-code-leak-github-malware/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 10:54:38 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Claude Code]]></category>
+		<category><![CDATA[data leak]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Zscaler]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364871</guid>
+
+					<description><![CDATA[<p>A source code leak involving Anthropic’s Claude Code tool quickly escalated into a cybersecurity threat, as attackers seized on the exposed files to lure developers into downloading malware disguised as &#8220;unlocked&#8221; versions of the software. Leaked Claude Code source code used as lure On March 31, 2026, Anthropic accidentally exposed online the source code of its Claude Code tool. The leak was detected by security researcher Chaofan Shou, whose post on X drew widespread attention. &#8230; <a href="https://www.helpnetsecurity.com/2026/04/03/claude-code-leak-github-malware/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/03/claude-code-leak-github-malware/">Claude Code source leak exploited to spread malware</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>APERION releases SmartFlow SDK for secure, on-prem AI governance without cloud reliance</title>
+		<link>https://www.helpnetsecurity.com/2026/04/03/aperion-smartflow-sdk-ai-governance/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 07:06:01 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[APERION]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364842</guid>
+
+					<description><![CDATA[<p>APERION launched SmartFlow SDK, providing a secure, on-premises path for enterprises migrating away from compromised cloud-based AI gateways. The launch coincides with a 200% increase in web traffic since the March 24 LiteLLM supply chain attack that compromised an estimated 36% of all cloud environments. LiteLLM was the victim of a supply chain attack in which the threat actor group TeamPCP compromised the most widely used open-source LLM proxy in the Python ecosystem through a &#8230; <a href="https://www.helpnetsecurity.com/2026/04/03/aperion-smartflow-sdk-ai-governance/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/03/aperion-smartflow-sdk-ai-governance/">APERION releases SmartFlow SDK for secure, on-prem AI governance without cloud reliance</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Trivy supply chain attack enabled European Commission cloud breach</title>
+		<link>https://www.helpnetsecurity.com/2026/04/03/european-commission-cloud-breach/</link>
+		
+		<dc:creator><![CDATA[Zeljka Zorz]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 06:34:00 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[CERT-EU]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[EU]]></category>
+		<category><![CDATA[European Commission]]></category>
+		<category><![CDATA[supply chain compromise]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364851</guid>
+
+					<description><![CDATA[<p>CERT-EU confirmed that ShinyHunters are behind the recent breach of the cloud infrastructure underpinning websites of the European Commission, and that they stole and subsequently leaked approximately 340 GB of data. &#8220;Analysis of the published dataset has so far confirmed the presence of personal data, including lists of names, last names, usernames, and email addresses, predominantly from the European Commission’s websites but potentially pertaining to users across multiple Union entities,&#8221; European Union&#8217;s CERT said. &#8220;The &#8230; <a href="https://www.helpnetsecurity.com/2026/04/03/european-commission-cloud-breach/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/03/european-commission-cloud-breach/">Trivy supply chain attack enabled European Commission cloud breach</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft releases open-source toolkit to govern autonomous AI agents</title>
+		<link>https://www.helpnetsecurity.com/2026/04/03/microsoft-ai-agent-governance-toolkit/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 05:30:38 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364809</guid>
+
+					<description><![CDATA[<p>AI agents can book travel, execute financial transactions, write and run code, and manage infrastructure without human intervention at each step. Frameworks like LangChain, AutoGen, CrewAI, and Azure AI Foundry Agent Service have made this kind of autonomy straightforward to deploy. The governance infrastructure to match that autonomy has lagged behind. Microsoft released the Agent Governance Toolkit to address that gap. What the toolkit contains The Agent Governance Toolkit is a seven-package system available in &#8230; <a href="https://www.helpnetsecurity.com/2026/04/03/microsoft-ai-agent-governance-toolkit/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/03/microsoft-ai-agent-governance-toolkit/">Microsoft releases open-source toolkit to govern autonomous AI agents</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Which messaging app takes the most limited approach to permissions on Android?</title>
+		<link>https://www.helpnetsecurity.com/2026/04/03/android-permissions-privacy-risks-research/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 05:00:19 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Facebook Messenger]]></category>
+		<category><![CDATA[mobile apps]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[research]]></category>
+		<category><![CDATA[Signal]]></category>
+		<category><![CDATA[Telegram]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364542</guid>
+
+					<description><![CDATA[<p>Messaging apps handle sensitive conversations, contacts, and media, and their behavior on a device varies in ways that affect privacy. An analysis of Android versions of Messenger, Signal, and Telegram shows that differences in permissions, background activity, and system exposure shape how much data each app can access and how often it communicates. Permissions define access to device and user data The three apps take different approaches. Telegram has the lowest total number of permissions &#8230; <a href="https://www.helpnetsecurity.com/2026/04/03/android-permissions-privacy-risks-research/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/03/android-permissions-privacy-risks-research/">Which messaging app takes the most limited approach to permissions on Android?</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Click, wait, repeat: Digital trust erodes one login at a time</title>
+		<link>https://www.helpnetsecurity.com/2026/04/03/thales-digital-trust-trends-report/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 04:30:22 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[authentication]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[report]]></category>
+		<category><![CDATA[Thales]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364686</guid>
+
+					<description><![CDATA[<p>Sign-up forms that drag on, login steps that repeat, and access requests that take longer than expected have become a normal part of using digital services. These moments rarely stand out on their own, and over time they influence how people judge the systems they rely on. The 2026 Thales Digital Trust Index reflects that environment, where trust is built or lost through everyday interactions. Most consumers have encountered problems when using websites or apps, &#8230; <a href="https://www.helpnetsecurity.com/2026/04/03/thales-digital-trust-trends-report/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/03/thales-digital-trust-trends-report/">Click, wait, repeat: Digital trust erodes one login at a time</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New infosec products of the month: March 2026</title>
+		<link>https://www.helpnetsecurity.com/2026/04/03/new-infosec-products-of-the-month-march-2026/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 04:00:58 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Beazley]]></category>
+		<category><![CDATA[Bonfy.AI]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[Intel 471]]></category>
+		<category><![CDATA[Mend]]></category>
+		<category><![CDATA[Mimecast]]></category>
+		<category><![CDATA[NinjaOne]]></category>
+		<category><![CDATA[Novee]]></category>
+		<category><![CDATA[Singulr AI]]></category>
+		<category><![CDATA[Stellar Cyber]]></category>
+		<category><![CDATA[Teleport]]></category>
+		<category><![CDATA[Vicarius]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364707</guid>
+
+					<description><![CDATA[<p>Here’s a look at the most interesting products from the past month, featuring releases from Beazley, Bonfy.AI, Mend.io, Mimecast, NinjaOne, Novee, Intel 471, Singulr AI, Stellar Cyber, Teleport, and Vicarius. Beazley Exposure Management platform identifies external exposures and prioritizes cyber risk Beazley Security has announced its Exposure Management product, which delivers continuous, automated discovery and intelligence-driven exposure notifications to help security teams accelerate risk mitigation in an era where AI-assisted attackers have compressed the time &#8230; <a href="https://www.helpnetsecurity.com/2026/04/03/new-infosec-products-of-the-month-march-2026/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/03/new-infosec-products-of-the-month-march-2026/">New infosec products of the month: March 2026</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AWS, Wasabi, Cloudflare, and Backblaze go head-to-head in new cloud storage test</title>
+		<link>https://www.helpnetsecurity.com/2026/04/03/backblaze-cloud-storage-benchmark-2026/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 22:15:02 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[AWS]]></category>
+		<category><![CDATA[Backblaze]]></category>
+		<category><![CDATA[Catchpoint]]></category>
+		<category><![CDATA[cloud]]></category>
+		<category><![CDATA[cloud computing]]></category>
+		<category><![CDATA[Cloudflare]]></category>
+		<category><![CDATA[EU]]></category>
+		<category><![CDATA[networking]]></category>
+		<category><![CDATA[report]]></category>
+		<category><![CDATA[storage]]></category>
+		<category><![CDATA[USA]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=364781</guid>
+
+					<description><![CDATA[<p>Cloud storage buyers rarely get vendor-provided performance data that includes the vendor&#8217;s own weak spots. Backblaze&#8217;s Q1 2026 Performance Stats report, attempts to do exactly that, sharing benchmark results for Backblaze B2, AWS S3, Cloudflare R2, and Wasabi Object Storage across US-East and EU-Central regions, and including results where Backblaze&#8217;s own rate limits affected the numbers. The report is the second in a quarterly series. Backblaze publishes its full methodology and states that tests run &#8230; <a href="https://www.helpnetsecurity.com/2026/04/03/backblaze-cloud-storage-benchmark-2026/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/03/backblaze-cloud-storage-benchmark-2026/">AWS, Wasabi, Cloudflare, and Backblaze go head-to-head in new cloud storage test</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

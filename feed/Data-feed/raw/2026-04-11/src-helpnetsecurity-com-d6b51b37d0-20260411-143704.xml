@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Help Net Security</title>
+	<atom:link href="https://www.helpnetsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.helpnetsecurity.com/</link>
+	<description>Daily information security news with a focus on enterprise security.</description>
+	<lastBuildDate>Fri, 10 Apr 2026 13:29:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.1</generator>
+
+<image>
+	<url>https://img.helpnetsecurity.com/wp-content/uploads/2019/09/09093400/cropped-hns2-32x32.png</url>
+	<title>Help Net Security</title>
+	<link>https://www.helpnetsecurity.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>ClickFix campaign delivers Mac malware via fake Apple page</title>
+		<link>https://www.helpnetsecurity.com/2026/04/10/clickfix-mac-malware-script-editor/</link>
+		
+		<dc:creator><![CDATA[Zeljka Zorz]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 13:29:09 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Jamf]]></category>
+		<category><![CDATA[macOS]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Social engineering]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=365748</guid>
+
+					<description><![CDATA[<p>Security researchers at Jamf have uncovered a new ClickFix-style attack targeting Mac users via a fake Apple-themed webpage offering instructions on how to &#8220;reclaim disk space on your Mac&#8221;. The malicious page (Source: Jamf) ClickFix for everybody ClickFix is a social engineering technique that cons victims into running malicious commands on their own machine, usually by pretending the commands are needed to fix a problem or perform routine upkeep. This technique was initially aimed at &#8230; <a href="https://www.helpnetsecurity.com/2026/04/10/clickfix-mac-malware-script-editor/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/10/clickfix-mac-malware-script-editor/">ClickFix campaign delivers Mac malware via fake Apple page</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Poisoned &#8220;Office 365&#8221; search results lead to stolen paychecks</title>
+		<link>https://www.helpnetsecurity.com/2026/04/10/poisoned-office-365-search-results-lead-to-stolen-paychecks/</link>
+		
+		<dc:creator><![CDATA[Zeljka Zorz]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 11:30:35 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[account hijacking]]></category>
+		<category><![CDATA[Canada]]></category>
+		<category><![CDATA[enterprise]]></category>
+		<category><![CDATA[MFA]]></category>
+		<category><![CDATA[Office 365]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[SMBs]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=365743</guid>
+
+					<description><![CDATA[<p>A financially motivated hacking group is targeting Canadian employees with a sophisticated campaign designed to covertly redirect their salary payments into attacker-controlled bank accounts, Microsoft researchers discovered. SEO poisoning and malvertising + phishing + AiTM The group, which Microsoft tracks as Storm-2755, begins by poisoning search engine results and running malicious ads against generic queries like &#8220;Office 365&#8221;, or even common misspellings like &#8220;Office 265.&#8221; Victims who click through land on a convincing but fake &#8230; <a href="https://www.helpnetsecurity.com/2026/04/10/poisoned-office-365-search-results-lead-to-stolen-paychecks/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/10/poisoned-office-365-search-results-lead-to-stolen-paychecks/">Poisoned &#8220;Office 365&#8221; search results lead to stolen paychecks</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Gmail&#8217;s end-to-end encryption comes to mobile, no extra apps required</title>
+		<link>https://www.helpnetsecurity.com/2026/04/10/google-gmail-e2ee-mobile-devices/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 09:53:48 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[email security]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[Gmail]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[mobile devices]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=365697</guid>
+
+					<description><![CDATA[<p>Google has expanded Gmail client-side encryption to Android and iOS devices, allowing users to engage with their organization’s most sensitive data on mobile devices while ensuring data remains compliant with sovereignty and compliance requirements. This feature is available for Enterprise Plus users with the Assured Controls or Assured Controls Plus add-on. Composing a E2EE message in Gmail (Source: Google) With this update, users can compose, send, and read encrypted messages directly in the Gmail app. &#8230; <a href="https://www.helpnetsecurity.com/2026/04/10/google-gmail-e2ee-mobile-devices/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/10/google-gmail-e2ee-mobile-devices/">Gmail&#8217;s end-to-end encryption comes to mobile, no extra apps required</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>To counter cookie theft, Chrome ships device-bound session credentials</title>
+		<link>https://www.helpnetsecurity.com/2026/04/10/google-chrome-device-bound-session-credentials/</link>
+		
+		<dc:creator><![CDATA[Mirko Zorz]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 09:21:07 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[cookies]]></category>
+		<category><![CDATA[credentials]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[online tracking]]></category>
+		<category><![CDATA[privacy]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=365699</guid>
+
+					<description><![CDATA[<p>Cookie theft follows a well-established pattern. Infostealer malware infiltrates a device, extracts authentication cookies, and exfiltrates them to an attacker-controlled server. Because cookies often have extended lifetimes, attackers can access accounts without passwords, then bundle and sell the stolen credentials. Once malware gains access to a machine, it can read the local files and memory where browsers store authentication cookies. What DBSC does Google&#8217;s Device Bound Session Credentials (DBSC) is now entering public availability for &#8230; <a href="https://www.helpnetsecurity.com/2026/04/10/google-chrome-device-bound-session-credentials/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/10/google-chrome-device-bound-session-credentials/">To counter cookie theft, Chrome ships device-bound session credentials</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Little Snitch for Linux shows what your apps are connecting to</title>
+		<link>https://www.helpnetsecurity.com/2026/04/10/little-snitch-for-linux-privacy/</link>
+		
+		<dc:creator><![CDATA[Mirko Zorz]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 08:36:54 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[network]]></category>
+		<category><![CDATA[network monitoring]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=365683</guid>
+
+					<description><![CDATA[<p>Network monitoring on Linux has long been a gap for users who want per-process visibility into outbound connections. Existing tools either operate at the command line or were designed for server security rather than desktop privacy. Objective Development, the Austrian company behind the macOS firewall utility Little Snitch, released a Linux version of the tool. It is free and, according to the company, will remain so. Architecture choices The kernel component uses eBPF for traffic &#8230; <a href="https://www.helpnetsecurity.com/2026/04/10/little-snitch-for-linux-privacy/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/10/little-snitch-for-linux-privacy/">Little Snitch for Linux shows what your apps are connecting to</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Apiiro CLI turns AI coding assistants into full-stack security engineers</title>
+		<link>https://www.helpnetsecurity.com/2026/04/10/apiiro-cli-turns-ai-coding-assistants-into-full-stack-security-engineers/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 08:33:05 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[Apiiro]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=365685</guid>
+
+					<description><![CDATA[<p>The Apiiro CLI brings the Apiiro platform to your terminal and to your AI coding assistants, giving them six native security capabilities: scanning, risk management, remediation, an AI security analyst (via Apiiro Guardian Agent), AI Threat Modeling, and prompt enrichment. It installs in seconds on macOS, Linux, and Windows via brew, direct download, or RPM. Apiiro CLI ships with agent skills, structured capability definitions that AI coding assistants like Claude Code and Cursor can read &#8230; <a href="https://www.helpnetsecurity.com/2026/04/10/apiiro-cli-turns-ai-coding-assistants-into-full-stack-security-engineers/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/10/apiiro-cli-turns-ai-coding-assistants-into-full-stack-security-engineers/">Apiiro CLI turns AI coding assistants into full-stack security engineers</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>April 2026 Patch Tuesday forecast: Spring-cleaning of a preview</title>
+		<link>https://www.helpnetsecurity.com/2026/04/10/april-2026-patch-tuesday-forecast/</link>
+		
+		<dc:creator><![CDATA[Help Net Security]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 07:22:04 +0000</pubDate>
+				<category><![CDATA[Expert analysis]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Adobe]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Ivanti]]></category>
+		<category><![CDATA[Mozilla]]></category>
+		<category><![CDATA[Patch Tuesday]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=365637</guid>
+
+					<description><![CDATA[<p>I just blinked and the first quarter of the year is GONE. Where does the time go? I looked back at my article from last month where I touched on the use of AI and some of the vulnerabilities associated with it and realized it was good precursor to some themes at RSAC this year. AI was certainly the focus this year, with almost everyone having some form of AI connection to their products (some &#8230; <a href="https://www.helpnetsecurity.com/2026/04/10/april-2026-patch-tuesday-forecast/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/10/april-2026-patch-tuesday-forecast/">April 2026 Patch Tuesday forecast: Spring-cleaning of a preview</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What vibe hunting gets right about AI threat hunting, and where it breaks down</title>
+		<link>https://www.helpnetsecurity.com/2026/04/10/aqsa-taylor-exaforce-vibe-hunting/</link>
+		
+		<dc:creator><![CDATA[Mirko Zorz]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 05:30:50 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[Exaforce]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[opinion]]></category>
+		<category><![CDATA[threat hunting]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=365254</guid>
+
+					<description><![CDATA[<p>In this Help Net Security interview, Aqsa Taylor, Chief Security Evangelist, Exaforce, explains vibe hunting, an AI-driven approach to threat detection that inverts traditional hypothesis-driven methods. Instead of analysts defining attack vectors upfront, the AI scans datasets for anomalous patterns and surfaces potential threats. Taylor draws a firm line on responsibility: analysts must be able to explain their reasoning. When they cannot, the AI is steering the hunt. She also addresses enrichment, junior analyst development, &#8230; <a href="https://www.helpnetsecurity.com/2026/04/10/aqsa-taylor-exaforce-vibe-hunting/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/10/aqsa-taylor-exaforce-vibe-hunting/">What vibe hunting gets right about AI threat hunting, and where it breaks down</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Health insurance lead sites sell personal data within seconds of form submission</title>
+		<link>https://www.helpnetsecurity.com/2026/04/10/health-insurance-lead-generation-privacy/</link>
+		
+		<dc:creator><![CDATA[Mirko Zorz]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 05:00:30 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[data collection]]></category>
+		<category><![CDATA[data leak]]></category>
+		<category><![CDATA[FCC]]></category>
+		<category><![CDATA[healthcare]]></category>
+		<category><![CDATA[insurance]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[research]]></category>
+		<category><![CDATA[spam]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=365521</guid>
+
+					<description><![CDATA[<p>Lead generation websites that offer health insurance quotes collect sensitive personal data and sell it to multiple buyers within seconds of a user clicking submit. A study by researchers at UC Davis, Stanford University, and Maastricht University mapped this process across 105 health insurance lead generation sites and monitored what happened to the data over 60 days. The researchers created 210 synthetic user profiles, each with a unique phone number and email address, and submitted &#8230; <a href="https://www.helpnetsecurity.com/2026/04/10/health-insurance-lead-generation-privacy/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/10/health-insurance-lead-generation-privacy/">Health insurance lead sites sell personal data within seconds of form submission</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Product showcase: Session, a messenger without phone numbers or metadata</title>
+		<link>https://www.helpnetsecurity.com/2026/04/10/product-showcase-session-a-messenger-without-phone-numbers-or-metadata/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 04:30:54 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[communication]]></category>
+		<category><![CDATA[messaging]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[Product showcase]]></category>
+		<category><![CDATA[Session]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=365336</guid>
+
+					<description><![CDATA[<p>Instant messaging has been around for decades, but it became widely adopted with the emergence of smartphones. Earlier, communication was limited to basic text messages. Messaging expanded to include photos, videos, and video calls without relying on telecom networks, as long as there is a reliable data connection. Privacy and metadata concerns With the growth of communication, privacy and security concerns became more prominent. Companies responded by encrypting message content to protect user data. End-to-end &#8230; <a href="https://www.helpnetsecurity.com/2026/04/10/product-showcase-session-a-messenger-without-phone-numbers-or-metadata/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/10/product-showcase-session-a-messenger-without-phone-numbers-or-metadata/">Product showcase: Session, a messenger without phone numbers or metadata</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

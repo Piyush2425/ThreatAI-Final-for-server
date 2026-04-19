@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Security Affairs</title>
+	<atom:link href="https://securityaffairs.com/feed" rel="self" type="application/rss+xml" />
+	<link>https://securityaffairs.com/</link>
+	<description>Read, think, share … Security is everyone&#039;s responsibility</description>
+	<lastBuildDate>Sat, 11 Apr 2026 09:44:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+<site xmlns="com-wordpress:feed-additions:1">29506073</site>	<item>
+		<title>CVE-2026-39987: Marimo RCE exploited in hours after disclosure</title>
+		<link>https://securityaffairs.com/190623/hacking/cve-2026-39987-marimo-rce-exploited-in-hours-after-disclosure.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Sat, 11 Apr 2026 09:44:44 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[CVE-2026-39987]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Marimo]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190623</guid>
+
+					<description><![CDATA[A critical flaw, tracked as CVE-2026-39987, in the open-source Python notebook tool Marimo was exploited within 10 hours of disclosure. A critical flaw in Marimo, tracked as CVE-2026-39987 (CVSS score of 9.3) was exploited just 10 hours after disclosure (On April 8, 2026). Sysdig Threat Research Team observed exploitation of the Marimo flaw within 9 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">A critical flaw, tracked as CVE-2026-39987, in the open-source Python notebook tool Marimo was exploited within 10 hours of disclosure.</h2>
+
+
+
+<p>A critical flaw in Marimo, tracked as CVE-2026-39987 (CVSS score of 9.3) was exploited just 10 hours after disclosure (On April 8, 2026). Sysdig Threat Research Team observed exploitation of the Marimo flaw within 9 hours and 41 minutes of disclosure, with credential theft completed in under 3 minutes, despite no public exploit code. </p>
+
+
+
+<p>Marimo is an open-source Python notebook tool used for data science, analysis, and interactive coding.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The bug allows pre-authenticated remote code execution and affects versions up to 0.20.4. Version 0.23.0 addressed the issue.</p>
+
+
+
+<p><em>&#8220;Marimo (19.6k stars) has a Pre-Auth RCE vulnerability. The terminal WebSocket endpoint <code>/terminal/ws</code> lacks authentication validation, allowing an unauthenticated attacker to obtain a full PTY shell and execute arbitrary system commands.&#8221; <a href="https://github.com/marimo-team/marimo/security/advisories/GHSA-2679-6mx9-h9xc">reads the advisory</a>. &#8220;Unlike other WebSocket endpoints (e.g., <code>/ws</code>) that correctly call <code>validate_auth()</code> for authentication, the <code>/terminal/ws</code> endpoint only checks the running mode and platform support before accepting connections, completely skipping authentication verification.&#8221;</em></p>
+
+
+
+<p>According to Sysdig , attackers built the exploit directly from the advisory, showing high speed and skill. The case highlights how threat actors now monitor even niche software and may use AI to rapidly develop exploits, accelerating attacks beyond previous cases like Langflow.</p>
+
+
+
+<p><em>&#8220;Within 9 hours and 41 minutes of the vulnerability advisory’s publication, the Sysdig Threat Research Team (TRT) observed the first exploitation attempt in the wild, and a complete credential theft operation was executed in under 3 minutes. No public proof-of-concept (PoC) code existed at the time. The attacker built a working exploit directly from the advisory description, connected to the unauthenticated terminal endpoint, and began manually exploring the compromised environment.&#8221; reads the <a href="https://www.sysdig.com/blog/marimo-oss-python-notebook-rce-from-disclosure-to-exploitation-in-under-10-hours">report</a> published by Sysdig. &#8220;This also recently happened with a <a href="https://www.sysdig.com/blog/cve-2026-33017-how-attackers-compromised-langflow-ai-pipelines-in-20-hours" target="_blank" rel="noreferrer noopener">Langflow flaw (CVE-2026-33017)</a>, where, with no public exploit, the vulnerability was exploited within 20 hours. This marimo vulnerability exploitation cuts that time in less than half.&#8221;</em></p>
+
+
+
+<p>What makes this case notable is that Marimo is a relatively niche tool, with approximately 20k GitHub stars, far smaller than platforms like <a href="https://securityaffairs.com/wp-content/uploads/2025/05/image-11.png" type="attachment" id="177491">Langflow</a> or <a href="https://securityaffairs.com/tag/n8n" type="post_tag" id="16424">n8n</a>. Despite this, the Sysdig Threat Research Team observed rapid exploitation, indicating that attackers monitor advisories broadly and can weaponize flaws within hours, likely aided by AI. Honeypots confirmed how quickly an attacker moved from access to credential theft within minutes.</p>
+
+
+
+<p><em>&#8220;Over the first 12 hours following advisory publication, we recorded exploit activity from one source IP targeting our honeypot fleet. An additional 125 unique IPs conducted reconnaissance (port scanning, HTTP probing), but only one progressed to actual exploitation of the WebSocket terminal vulnerability.&#8221; continues the advisory.</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The attack pattern points to a human, methodical operator rather than automation. The attacker first validated the flaw with a scripted PoC, then manually accessed systems, focusing on stealing .env credentials and SSH keys without deploying persistence or malware. Multiple sessions over 90 minutes suggest hands-on activity across targets.</p>
+
+
+
+<p>According to the Sysdig Threat Research Team, this reflects a broader trend: exploitation now happens within hours of disclosure. Even niche software like Marimo was quickly targeted, proving attackers monitor all advisories and may leverage AI to build exploits fast.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>For defenders, this means no software is “too small” to be attacked, detailed advisories can aid attackers, CVE-based detection may miss threats, and interactive shells enable faster, deeper post-exploitation.</p>
+
+
+
+<p>The report includes indicators of compromise  (IoCs) for these attacks.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Marimo)</strong><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190623</post-id>	</item>
+		<item>
+		<title>Ransomware attack on ChipSoft knocks EHR services offline across hospitals in the Netherlands and Belgium</title>
+		<link>https://securityaffairs.com/190615/cyber-crime/ransomware-attack-on-chipsoft-knocks-ehr-services-offline-across-hospitals-in-the-netherlands-and-belgium.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 14:12:51 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Data Breach]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[healthcare]]></category>
+		<category><![CDATA[hospitals]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190615</guid>
+
+					<description><![CDATA[Dutch healthcare IT firm ChipSoft suffered a ransomware attack, forcing services and its HiX platform offline, impacting hospitals and patients. ChipSoft, a major Dutch provider of EHR systems, was hit by a ransomware attack that forced it to take its website and digital services offline, disrupting access for hospitals, healthcare providers, and patients. EHR (Electronic [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Dutch healthcare IT firm ChipSoft suffered a ransomware attack, forcing services and its HiX platform offline, impacting hospitals and patients.</h2>
+
+
+
+<p>ChipSoft, a major Dutch provider of EHR systems, was hit by a ransomware attack that forced it to take its website and digital services offline, disrupting access for hospitals, healthcare providers, and patients. </p>
+
+
+
+<p>EHR (Electronic Health Record) is a digital version of a patient’s medical history, stored and managed by healthcare providers.</p>
+
+
+
+<p>The company&#8217;s flagship HiX platform, widely used across the Netherlands, was impacted, with users reporting outages earlier this week.</p>
+
+
+
+<p>The ransomware attack occurred on April 7, and the Dutch CERT Z-CERT has been coordinating closely with the vendor and healthcare institutions. As a precaution, access to key services like Zorgportaal, HiX Mobile, and Zorgplatform was disabled, with systems now being gradually restored and new credentials issued to users.</p>
+
+
+
+<p>Hospitals have mainly faced logistical disruptions, such as increased calls and added support staff, according to the Dutch CERT, no critical care services have been halted. Z-CERT continues to assist by providing guidance, monitoring the situation, and helping organizations detect, respond to, and recover from the incident while minimizing its overall impact.</p>
+
+
+
+<p><em>&#8220;As previously reported, software vendor ChipSoft was hit by a ransomware attack on Tuesday, April 7. Since then, Z‑CERT has been in constant contact with ChipSoft, healthcare institutions, and other involved parties to monitor the situation and provide appropriate support.&#8221; <a href="https://z-cert.nl/actueel/nieuws/update-over-ransomware-incident-bij-chipsoft">reports</a> the Dutch Z‑CERT.</em></p>
+
+
+
+<p><em>&#8220;ChipSoft maintains direct contact with users of the software and provides them with a course of action. In their communication, ChipSoft indicates that all connections to the Zorgportaal, HiX Mobile, and the Zorgplatform have been disabled as a precaution and are currently unavailable. ChipSoft has started bringing the systems back online in phases, during which users are receiving new login credentials. Z‑CERT continues to closely monitor these developments and will inform participants as soon as there is reason to do so.</em></p>
+
+
+
+<p>Local media [<a href="https://nos.nl/artikel/2609548-bedrijf-dat-software-levert-voor-patientendossiers-aangevallen-door-hackers">1</a>, <a href="https://www.l1nieuws.nl/nieuws/3139725/patientenportalen-buiten-gebruik-bij-limburgse-ziekenhuizen-na-cyberaanval">2</a>] confirmed the cyberattack, citing an internal memo warning of possible unauthorized access. The company told healthcare providers it is working to limit the impact and advised them to disconnect from its systems until remediation and cleanup activities are fully completed.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-30.png?ssl=1"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="575" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-30.png?resize=1024%2C575&#038;ssl=1" alt="ChipSoft" class="wp-image-190618" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-30.png?resize=1024%2C575&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-30.png?resize=300%2C168&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-30.png?resize=768%2C431&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-30.png?w=1104&amp;ssl=1 1104w" sizes="(max-width: 1000px) 100vw, 1000px" /></a><figcaption class="wp-element-caption"><a href="https://www.l1nieuws.nl/nieuws/3139725/patientenportalen-buiten-gebruik-bij-limburgse-ziekenhuizen-na-cyberaanval">Source l1nieuws website</a></figcaption></figure>
+
+
+
+<p>Hospitals in Roermond and Weert <a href="https://www.l1nieuws.nl/nieuws/3139725/patientenportalen-buiten-gebruik-bij-limburgse-ziekenhuizen-na-cyberaanval">closed patient portals</a> after the ransomware attack on ChipSoft, blocking access to records and appointments. Care continues, but staff assist patients due to system outages. Other hospitals report limited or no impact, with systems monitored.</p>
+
+
+
+<p><em>&#8220;Most hospitals have not taken their patient portals offline. Eleven hospitals have done so, according to a survey by the NOS. At least nine of these are hospitals that have linked their patient records to ChipSoft&#8217;s systems to a greater extent than most other hospitals.&#8221; <a href="https://nos.nl/artikel/2609548-bedrijf-dat-software-levert-voor-patientendossiers-aangevallen-door-hackers">reported</a> the Dutch media NOS.</em></p>
+
+
+
+<p>Patient portals at several Belgian hospitals also went offline after the cyberattack on ChipSoft. The disruption affected multiple facilities, highlighting the cross-border impact of attacks on shared healthcare IT providers.</p>
+
+
+
+<p>&#8220;Online patient portals at several Belgian hospitals went offline following a cyberattack targeting a Dutch software provider, daily Le Soir reported Friday. The disruption affects patient portals at Hospital aan de Stroom in Antwerp, Hospital Oost-Limburg, and Delta Hospital in Roeselare.&#8221;</p>
+
+
+
+<p>&#8220;The incident is linked to a cyberattack on Netherlands-based software company ChipSoft, which supplies electronic patient record systems and healthcare platforms.&#8221; <a href="https://www.aa.com.tr/en/europe/belgian-hospital-online-services-down-after-cyberattack/3900819">reported</a> the Belgian website AA.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Cyberattacks targeting healthcare IT providers are especially dangerous and attractive to threat actors because these companies act as centralized hubs serving many hospitals and clinics at once. By compromising a single provider, attackers can potentially access or disrupt multiple organizations simultaneously, amplifying the impact. These systems store and process vast amounts of highly sensitive data, such as medical records, personal information, and billing details, which can be exploited for extortion, fraud, or resale.</p>
+
+
+
+<p>In addition, healthcare operations depend heavily on the availability of these platforms. Any disruption can affect patient care, creating urgency for rapid recovery. This pressure often makes victims more likely to pay ransoms, increasing the financial incentive for attackers.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, healthcare)</strong><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190615</post-id>	</item>
+		<item>
+		<title>UAT-10362 linked to LucidRook attacks targeting Taiwan-based institutions</title>
+		<link>https://securityaffairs.com/190598/security/uat-10362-linked-to-lucidrook-attacks-targeting-taiwan-based-institutions.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 11:27:41 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Intelligence]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[LucidRook malware]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[NGOs]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[Taiwan]]></category>
+		<category><![CDATA[UAT-10362]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190598</guid>
+
+					<description><![CDATA[LucidRook is Lua malware used in phishing attacks on NGOs and universities in Taiwan, linked to UAT-10362, spread via password-protected emails. LucidRook is a new Lua-based malware used in targeted phishing attacks against NGOs and universities in Taiwan. Cisco Talos links it to a skilled group tracked as UAT-10362. In Oct 2025, attackers used password-protected [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">LucidRook is Lua malware used in phishing attacks on NGOs and universities in Taiwan, linked to UAT-10362, spread via password-protected emails.</h2>
+
+
+
+<p>LucidRook is a new Lua-based malware used in targeted phishing attacks against NGOs and universities in Taiwan. Cisco Talos links it to a skilled group tracked as UAT-10362. In Oct 2025, attackers used password-protected email attachments to spread the malware in spear-phishing campaigns.</p>
+
+
+
+<p><em>&#8220;Cisco Talos observed a spear-phishing attack delivering LucidRook, a newly identified stager that targeted a Taiwanese NGO in October 2025. The metadata in the email suggests that it was delivered via authorized mail infrastructure, which implies potential misuse of legitimate sending capabilities.&#8221; reads the <a href="https://blog.talosintelligence.com/new-lua-based-malware-lucidrook/">report</a> published by Cisco Talos. &#8220;The email contained a shortened URL that leads to the download of a password protected and encrypted RAR archive. The decryption password was included in the email body. Based on this email and the collected samples, Talos observed two distinct infection chains originating from the delivered archives.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The phishing emails came from likely legitimate infrastructure and included shortened links to password-protected RAR archives, with passwords inside the message.</p>
+
+
+
+<p>The archives contained fake government or security-related decoy documents to distract victims.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-27.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="1000" height="555" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-27.png?resize=1000%2C555&#038;ssl=1" alt="" class="wp-image-190606" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-27.png?w=1000&amp;ssl=1 1000w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-27.png?resize=300%2C167&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-27.png?resize=768%2C426&amp;ssl=1 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p>The researchers observed two infection chains: one LNK-based and one EXE-based. </p>
+
+
+
+<p>The LNK infection chain starts when a shortcut file from a phishing archive is opened, triggering the LucidPawn dropper hidden in nested folders. It uses LOLBAS techniques and PowerShell to run code through trusted Windows tools, reducing detection. LucidPawn decrypts payloads, including a legitimate DISM executable disguised as a trusted app and the LucidRook stager. It abuses DLL sideloading to load malicious code via the signed DISM binary. The malware also opens decoy documents to distract the user. Persistence is achieved by placing a malicious LNK in the Startup folder, ensuring execution at reboot.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-28.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="1000" height="683" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-28.png?resize=1000%2C683&#038;ssl=1" alt="" class="wp-image-190607" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-28.png?w=1000&amp;ssl=1 1000w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-28.png?resize=300%2C205&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-28.png?resize=768%2C525&amp;ssl=1 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw>The second infection chain uses a standalone EXE dropper written in .NET, distributed inside password-protected archives disguised as legitimate security software. When executed, it decodes embedded Base64 payloads and drops multiple files, including a legitimate DISM executable, the LucidRook stager, and a Startup LNK for persistence. The DISM binary is abused for sideloading the malware, while the dropper impersonates trusted security tools and shows a fake completion message to mislead the victim.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-29.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1000" height="739" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-29.png?resize=1000%2C739&#038;ssl=1" alt="" class="wp-image-190608" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-29.png?w=1000&amp;ssl=1 1000w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-29.png?resize=300%2C222&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-29.png?resize=768%2C568&amp;ssl=1 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p>Both chains aim to deliver LucidRook and maintain stealth on targeted Taiwanese systems.</p>
+
+
+
+<p><em>&#8220;LucidRook is a sophisticated 64-bit Windows DLL stager consisting of a Lua interpreter, embedded Rust-compiled libraries, and Lua bytecode payload. The DLL embeds a Lua 5.4.8 interpreter and retrieves a staged payload (in our sample named <code>archive1.zip</code>) from its C2 over FTP.&#8221; continue the report. &#8220;After unpacking and validating the downloaded stage, the implant loads and executes the resulting Lua bytecode on the compromised host.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>LucidRook is a complex malware that embeds a Lua 5.4.8 interpreter inside a large Rust-based DLL, turning it into a flexible execution platform. The malicious code downloads encrypted Lua bytecode from its command and control server, verifies it, and runs it locally, allowing operators to quickly change behavior per target. The DLL is hard to analyze due to thousands of functions and stripped components. On execution, it first collects system data like usernames, processes, and installed software, then encrypts and exfiltrates it. It uses RSA and password-protected ZIP files for protection. Communication happens over FTP using stolen or exposed credentials, often abusing public servers from companies with open upload services. The malware also hides strings using multi-stage XOR and address calculation tricks. Payloads are protected with different passwords and keys per campaign for modular deployment now</p>
+
+
+
+<p>Talos also detailed LucidPawn, a dropper linked to LucidRook, sharing Rust code, obfuscation, and COM DLL masquerading. Upon execution, it queries a DNS OAST service (dnslog[.]ink) to confirm infection without attacker infrastructure. It uses geo-targeting, checking Windows UI language and only runs on Traditional Chinese systems (Taiwan/HK), avoiding sandboxes. The researchers also spotted a variant that only drops payloads and installs LucidKnight. LucidKnight is a recon tool that gathers system data, encrypts it, and exfiltrates email Gmail SMTP sending ZIP attachments disguised as &#8216;Sports Information Platform&#8217;. This shows a modular toolkit using different components per mission.</p>
+
+
+
+<p>Talos has not yet recovered a decryptable Lua bytecode payload used by LucidRook, but is publishing its findings to enable early detection. They hope sharing this information will help the security community identify additional indicators, improve clustering of related activity, and support future attribution efforts.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;Based on the tactics, techniques, and procedures (TTPs) and the level of engineering investment observed across these infection chains, we assess with medium confidence that this activity reflects a targeted intrusion rather than broad, opportunistic malware distribution.&#8221; concludes the report. &#8220;Delivery via spearphishing, combined with LucidRook’s sophisticated design, suggests a sophisticated threat actor prioritizing flexibility, stealth, and victim-specific tasking.&#8221;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Taiwan)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190598</post-id>	</item>
+		<item>
+		<title>EngageLab SDK flaw opens door to private data on 50M Android devices</title>
+		<link>https://securityaffairs.com/190586/hacking/engagelab-sdk-flaw-opens-door-to-private-data-on-50m-android-devices.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 08:41:39 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[EngageLab SDK]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190586</guid>
+
+					<description><![CDATA[A flaw in EngageLab SDK exposed up to 50M Android users, including 30M crypto wallets, letting apps bypass security and access private data. Microsoft researchers found a critical flaw in EngageSDK that lets apps bypass Android sandbox protections and access private data. The flaw put millions of users, including over 30M crypto wallet installs, at [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">A flaw in EngageLab SDK exposed up to 50M Android users, including 30M crypto wallets, letting apps bypass security and access private data.</h2>
+
+
+
+<p>Microsoft researchers found a critical flaw in EngageSDK that lets apps bypass Android sandbox protections and access private data. The flaw put millions of users, including over 30M crypto wallet installs, at risk. </p>
+
+
+
+<p>Developers fixed it in version 5.2.1 after coordinated disclosure, and vulnerable apps were removed from Google Play. The good news is that no active exploitation has been confirmed, but the case highlights risks from third-party SDKs widely used in mobile apps.</p>
+
+
+
+<p><em>&#8220;As mobile wallets and other high‑value apps become more common, even small flaws in upstream libraries can impact millions of devices. These risks increase when integrations expose exported components or rely on trust assumptions that aren’t validated across app boundaries.&#8221; reads the <a href="https://www.microsoft.com/en-us/security/blog/2026/04/09/intent-redirection-vulnerability-third-party-sdk-android/">report</a> published by Microsoft.</em></p>
+
+
+
+<p><em>&#8220;Because Android apps frequently depend on external libraries, insecure integrations can introduce attack surfaces into otherwise secure applications.&#8221;</em></p>
+
+
+
+<p>Android protects apps by isolating them with unique IDs, private storage, and controlled communication through intents. The EngageLab SDK flaw breaks this protection using an intent redirection issue. </p>
+
+
+
+<p><em>&#8220;Intent Redirection occurs when a threat actor manipulates the contents of an intent that a vulnerable app sends using its own identity and permissions.  </em></p>
+
+
+
+<p><em>In this scenario, the threat actor leverages the trusted context of the affected app to run a malicious payload with the app’s privileges.&#8221; continues the report. &#8220;This can lead to: </em></p>
+
+
+
+<ul class="wp-block-list">
+<li>Unauthorized access to protected components  </li>
+
+
+
+<li>Exposure of sensitive data </li>
+
+
+
+<li>Privilege escalation within the Android environment</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-26.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="936" height="360" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-26.png?resize=936%2C360&#038;ssl=1" alt="" class="wp-image-190590" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-26.png?w=936&amp;ssl=1 936w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-26.png?resize=300%2C115&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-26.png?resize=768%2C295&amp;ssl=1 768w" sizes="auto, (max-width: 936px) 100vw, 936px" /></a></figure>
+
+
+
+<p>A malicious app can send a crafted intent to a vulnerable app, which then processes it and unknowingly sends a new intent with its own permissions. This allows the attacker to act with higher privileges.</p>
+
+
+
+<p><gwmw style="display:none;"></gwmw>The problem comes from an exported component called MTCommonActivity, automatically added during the build process. Many developers miss it because it only appears in the merged app configuration. Since it is exported, any app on the device can interact with it. This component reads attacker-controlled data and builds a new intent, but instead of keeping it safe, it creates a targeted intent that directly calls internal components.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The flaw becomes more dangerous because it uses unsafe flags that grant read and write access to data. Once triggered, the attacker can access private files through the app’s content providers, even if those were not meant to be exposed.</p>
+
+
+
+<p>In simple terms, this vulnerability lets one app trick another into opening its doors, giving access to sensitive data and bypassing Android’s core security protections.</p>
+
+
+
+<p>Many affected apps belong to the crypto and digital wallet ecosystem, making the flaw particularly severe. Microsoft confirmed the issue in multiple Google Play apps before disclosure. Wallet apps alone reached over 30 million installs, while total exposure across all affected apps exceeded 50 million.</p>
+
+
+
+<p>Microsoft discovered the vulnerability in EngageLab SDK v4.5.4 and reported it in April 2025, later involving the Android Security Team in May due to Play Store impact. EngageLab fixed the issue in version 5.2.1, released on November 3, 2025, by making the vulnerable component non-exported, blocking access from other apps.</p>
+
+
+
+<p><em>&#8220;To keep your apps secure, always review the merged Android manifest, especially when you incorporate third‑party SDKs. This helps you identify any components or permissions that might affect your app’s security or behavior.&#8221; concludes Microsoft.</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Android)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190586</post-id>	</item>
+		<item>
+		<title>Bitcoin Depot hack leads to $3.6M Bitcoin theft via stolen credentials</title>
+		<link>https://securityaffairs.com/190578/cyber-crime/bitcoin-depot-hack-leads-to-3-6m-bitcoin-theft-via-stolen-credentials.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 07:14:24 +0000</pubDate>
+				<category><![CDATA[Crypto]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Bitcoin Depot]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190578</guid>
+
+					<description><![CDATA[Hackers breached Bitcoin Depot, stole credentials, and took about 50 BTC worth $3.6M from its wallets after a March 23 intrusion. Hackers breached the largest US Bitcoin ATM operator, Bitcoin Depot, on March 23, stole login credentials, and drained about 50.9 BTC worth $3.6M from company wallets. Bitcoin Depot told the SEC that a hacker [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Hackers breached Bitcoin Depot, stole credentials, and took about 50 BTC worth $3.6M from its wallets after a March 23 intrusion.</h2>
+
+
+
+<p>Hackers breached the largest US Bitcoin ATM operator, Bitcoin Depot, on March 23, stole login credentials, and drained about 50.9 BTC worth $3.6M from company wallets. </p>
+
+
+
+<p>Bitcoin Depot told the SEC that a hacker accessed its systems and stole credentials linked to its digital asset settlement accounts, gaining control and enabling unauthorized activity.</p>
+
+
+
+<p><em>&#8220;On March 23, 2026, Bitcoin Depot Inc. (the “Company”) discovered that an unauthorized party gained access to certain of its information technology systems. Upon detection, the Company promptly activated its incident response protocols, engaged external cybersecurity experts, and notified law enforcement. Based on the Company’s investigation to date, the unauthorized actor gained access to certain systems and obtained control of credentials associated with the Company’s digital asset settlement accounts.&#8221; <a href="https://www.sec.gov/Archives/edgar/data/1901799/000119312526147772/btm-20260406.htm">reads the FORM 8-K filed with the SEC</a>. &#8220;As a result, the unauthorized actor transferred approximately 50.903 Bitcoin from Company-controlled wallets, valued at approximately $3.665 million as of the date of this report, without authorization. The Company further believes that the incident was contained to the Company’s corporate environment and did not affect the Company’s customer platforms, divisions, systems, data or environments.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The company continues to investigate the security breach with the help of external cybersecurity experts and works to strengthen its systems to prevent future attacks. It has not found evidence of stolen customer personal data, but the investigation is still ongoing.</p>
+
+
+
+<p>The incident has not disrupted operations, but the company now considers it material due to possible legal, reputational, and response costs. It estimates a $3.665 million loss from unauthorized Bitcoin transfers, though the final impact may change. Insurance may cover part of the damage, but recovery is not guaranteed.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;The Company has recorded a preliminary estimate of loss of approximately $3.665 million, representing the fair value of the Bitcoin transferred without authorization as of the date of the incident. The ultimate impact may differ from this estimate as the investigation continues.&#8221; continues the FORM 8-K. &#8220;The Company maintains insurance coverage that may cover certain losses associated with cybersecurity incidents, but there can be no assurance that such coverage will be sufficient to recover any or all losses incurred as a result of this incident.&#8221;</em></p>
+
+
+
+<p>This isn&#8217;t the first incident suffered by the company. In July 2025, Bitcoin Depot notified over 26,000 people about a <a href="https://www.bitdefender.com/en-us/blog/hotforsecurity/bitcoin-depot-data-breach-exposes-personal-info-of-nearly-27-000-customers">data breach</a> that happened in 2024. Attackers accessed company systems and stole files containing personal data.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Bitcoin Depot)</strong></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190578</post-id>	</item>
+		<item>
+		<title>Eurail data breach impacted 308,777 people</title>
+		<link>https://securityaffairs.com/190570/data-breach/eurail-data-breach-impacted-308777-people.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 20:42:14 +0000</pubDate>
+				<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Data Breach]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Eurail]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190570</guid>
+
+					<description><![CDATA[Hackers breached Eurail in Dec 2025, stole names and passport data, and exposed over 300,000 travelers’ personal information. Threat actors breached Eurail in December 2025 and stole names and passport numbers from its network. The company now notifies 308,777 people that attackers exposed their personal data, raising concerns about identity theft and misuse of sensitive [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Hackers breached Eurail in Dec 2025, stole names and passport data, and exposed over 300,000 travelers’ personal information.</h2>
+
+
+
+<p>Threat actors breached Eurail in December 2025 and stole names and passport numbers from its network. The company now <a href="https://justice.oregon.gov/consumer/databreach/">notifies</a> 308,777 people that attackers exposed their personal data, raising concerns about identity theft and misuse of sensitive travel information.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-24.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="177" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-24.png?resize=1024%2C177&#038;ssl=1" alt="" class="wp-image-190573" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-24.png?resize=1024%2C177&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-24.png?resize=300%2C52&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-24.png?resize=768%2C133&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-24.png?resize=1536%2C266&amp;ssl=1 1536w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-24.png?w=1600&amp;ssl=1 1600w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p><em>&#8220;We recently identified unusual activity within a segment of our network. We immediately implemented our incident response procedures, took steps to terminate the activity, and commenced an investigation with the support of third-party cybersecurity professionals. We also notified law enforcement and are supporting its investigation.&#8221; reads the <a href="https://oag.ca.gov/ecrime/databreach/reports/sb24-620972">data breach notification</a>. &#8220;The evidence showed that an unauthorized actor transferred files from our network on December 26, 2025. We reviewed the files involved and, on February 25, 2026, determined that they contained some of your information.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Eurail B.V. is a Netherlands-based company that manages and sells the Eurail Pass, allowing international travelers to explore Europe by train with a single ticket. Working with dozens of railway and ferry partners, it provides access to more than 250,000 kilometers of rail routes across over 30 European countries, simplifying cross-border rail travel.</p>
+
+
+
+<p>In February,  Eurail B.V. <a href="https://securityaffairs.com/188075/data-breach/hackers-sell-stolen-eurail-traveler-information-on-dark-web.html">confirmed</a> that the traveler data stolen in a breach earlier this year were being offered for sale on the <a href="https://securityaffairs.com/40933/cyber-crime/dark-web-cybercrime.html">dark web</a>. The company disclosed the development as part of its ongoing response to the cybersecurity incident.</p>
+
+
+
+<p><em>“Eurail B.V. has confirmed that certain customer data affected by the previously reported security incident has been offered for sale on the dark web and a sample data set has been published on Telegram.” reads the <a href="https://www.eurail.com/en/ni/data-security-incident">statement</a> published by the company. “We are continuing to investigate the scope and impact.”</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Eurail B.V. confirmed a security breach that led to unauthorized access to customer data, including participants in the European Commission’s DiscoverEU program. The company said it quickly secured its systems and launched an investigation with the help of external cybersecurity and legal experts.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Early findings indicate the breach may involve order and reservation details, basic identity and contact data, travel companion information, and in some cases passport numbers and expiry dates.</p>
+
+
+
+<p>“The personal data affected may include data that users have provided (where applicable):</p>
+
+
+
+<ul class="wp-block-list">
+<li>name, surname, date of birth or age, passport/ID information or photocopies,</li>
+
+
+
+<li>email address, postal address and country of residence, phone number,</li>
+
+
+
+<li>bank account reference (IBAN),</li>
+
+
+
+<li>data concerning health.” reads a <a href="https://eurail.zendesk.com/hc/en-001/articles/33123794076829-What-personal-data-may-be-involved">company update</a> published in January.  </li>
+</ul>
+
+
+
+<p>The company pointed out it does not store payment card data or passport copies. The company notified authorities in compliance with the GDPR regulation.</p>
+
+
+
+<p>Eurail B.V. said customers whose data may have been accessed or published will be informed directly when contact details are available. They urge vigilance against suspicious calls, emails, or messages requesting personal information and stress that Eurail will never request sensitive data unsolicited. Customers should update their Rail Planner app password, review related email, social media, or banking passwords, monitor accounts for unusual activity, and report any concerns to their bank.</p>
+
+
+
+<p>In early March, Eurail said the hacker sold stolen data on the <a href="https://securityaffairs.com/40933/cyber-crime/dark-web-cybercrime.html" type="post" id="40933">dark web</a> and shared samples on Telegram. The company said it does not store payment data or passport scans and will notify affected customers where possible.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, data breach)</strong></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190570</post-id>	</item>
+		<item>
+		<title>Malicious PDF reveals active Adobe Reader zero-day in the wild</title>
+		<link>https://securityaffairs.com/190558/hacking/malicious-pdf-reveals-active-adobe-reader-zero-day-in-the-wild.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 19:14:16 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Adobe Reader]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[zero-Day]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190558</guid>
+
+					<description><![CDATA[Hackers used an Adobe Reader zero-day for months. Researcher Haifei Li found a malicious PDF and asks the community to help analyze it. Hackers used an Adobe Reader zero-day for months to deliver a sophisticated PDF exploit. Cybersecurity researcher Haifei Li, founder of Expmon, discovered the malicious file and warned the community. On March 26, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Hackers used an Adobe Reader zero-day for months. Researcher Haifei Li found a malicious PDF and asks the community to help analyze it.</h2>
+
+
+
+<p>Hackers used an Adobe Reader zero-day for months to deliver a sophisticated PDF exploit. Cybersecurity researcher Haifei Li, founder of Expmon, discovered the malicious file and warned the community.</p>
+
+
+
+<p>On March 26, a suspicious PDF was <a href="https://pub.expmon.com/analysis/328131/">submitted to EXPMON</a> and flagged by its advanced “detection in depth” feature, despite low antivirus detection (<a href="https://www.virustotal.com/gui/file/65dca34b04416f9a113f09718cbe51e11fd58e7287b7863e37f393ed4d25dde7">13/64 on VirusTotal</a>). </p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-23.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="510" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-23.png?resize=1024%2C510&#038;ssl=1" alt="Adobe Reader" class="wp-image-190560" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-23.png?resize=1024%2C510&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-23.png?resize=300%2C150&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-23.png?resize=768%2C383&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-23.png?w=1268&amp;ssl=1 1268w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p>The system marked it for manual review, highlighting potential hidden threats. EXPMON identifies exploits through automated alerts, analyst inspection of logs and indicators, and large-scale data analysis. This case shows how advanced detection can uncover sophisticated zero-day activity that traditional tools may miss, though it requires expert analysis to confirm. <gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>He is now asking security experts to help analyze the exploit, understand how it works, and determine its impact, as the vulnerability appears unpatched and actively abused in real-world attacks.</p>
+
+
+
+<p>A researcher who goes online with the moniker <a href="https://x.com/Gi7w0rm">Gi7w0rm</a> reported that documents employed in the campaign contain Russian language lures and refer to issues regarding current events related to the oil and gas industry in Russia.</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">Apparent <a href="https://twitter.com/hashtag/0day?src=hash&amp;ref_src=twsrc%5Etfw">#0day</a> in Adobe Reader has been observed in the wild. Seems to exploit part of Adobe Readers JavaScript engine. Documents observed contain Russian language lures and refer to issues regarding current events related to the oil and gas industry in Russia. <a href="https://t.co/QRu63fuAP4">https://t.co/QRu63fuAP4</a></p>&mdash; Gi7w0rm (@Gi7w0rm) <a href="https://twitter.com/Gi7w0rm/status/2042003381158379554?ref_src=twsrc%5Etfw">April 8, 2026</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div></figure>
+
+
+
+<p>The sample analyzed by the Li works as an initial exploit that abuses an unpatched Adobe Reader flaw to run privileged APIs on fully updated systems. </p>
+
+
+
+<p>It uses “util.readFileIntoStream()” to read local files and collect sensitive data. Then it calls “RSS.addFeed()” to send stolen data to a remote server and receive more malicious JavaScript. </p>
+
+
+
+<p><em>&#8220;Based on our analysis, the sample acts as an initial exploit with the capability to collect and leak various types of information, potentially followed by remote code execution (RCE) and sandbox escape (SBX) exploits. It abuses zero-day/unpatched vulnerability in Adobe Reader that allows it to execute privileged Acrobat APIs, and it is confirmed to work on the latest version of Adobe Reader.&#8221; reads the <a href="https://justhaifei1.blogspot.com/2026/04/expmon-detected-sophisticated-zero-day-adobe-reader.html">report</a> published by Haifei Li. &#8220;Specifically, it calls the “util.readFileIntoStream()” API, allowing it to read arbitrary files (accessible by the sandboxed Reader process) on the local system. In this way, it can collect a wide range of information from the local system and steal local file data.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>This lets attackers profile victims, steal information, and decide whether to launch further attacks, including remote code execution or sandbox escape if the target meets specific conditions.</p>
+
+
+
+<p>During the tests, researchers connected to the server but received no response or additional exploit. The attacker likely requires specific target conditions that the test setup did not meet.</p>
+
+
+
+<p><em>&#8220;However, during our tests, we were unable to obtain the said additional exploit &#8211; the server was connected but no response.&#8221; continues the report. &#8220;This could be due to various reasons &#8211; for example, our local testing environments may not have met the attacker’s specific criteria.&#8221;</em></p>
+
+
+
+<p>On April 8, 2025, researcher @greglesnewich found a <a href="https://virustotal.com/gui/file/54077a5b15638e354fa02318623775b7a1cc0e8c21e59bcbab333035369e377f">new variant</a> that connects to the IP address 188.214.34.20:34123. This sample appeared was uploaded on VirusTotal on November 28, 2025, a circumstance that suggests the hacking campaign has been ongoing for at least four months.</p>
+
+
+
+<p>The researcher <a href="https://gist.github.com/N3mes1s">N3mes1s</a> published a <a href="https://gist.github.com/N3mes1s/9e55e8d781235ee256d5b3f6720222dd">full forensic analysis</a> of the Adobe Reader Zero-Day PDF exploit.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Adobe Reader)</strong><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190558</post-id>	</item>
+		<item>
+		<title>Masjesu botnet targets IoT devices while evading high-profile networks</title>
+		<link>https://securityaffairs.com/190548/malware/masjesu-botnet-targets-iot-devices-while-evading-high-profile-networks.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 14:06:34 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[DDoS]]></category>
+		<category><![CDATA[DDoS-for-hire]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190548</guid>
+
+					<description><![CDATA[Masjesu is a stealthy DDoS-for-hire botnet targeting IoT devices, active since 2023 and designed to stay hidden by avoiding high-profile networks. Masjesu is a stealthy botnet active since 2023, advertised as a DDoS-for-hire service. It targets IoT devices like routers and gateways, spanning multiple architectures. Designed for persistence, it executes carefully, avoiding high-profile IP ranges [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Masjesu is a stealthy DDoS-for-hire botnet targeting IoT devices, active since 2023 and designed to stay hidden by avoiding high-profile networks.</h2>
+
+
+
+<p>Masjesu is a stealthy botnet active since 2023, advertised as a DDoS-for-hire service. It targets IoT devices like routers and gateways, spanning multiple architectures. Designed for persistence, it executes carefully, avoiding high-profile IP ranges such as the U.S. Department of Defense to remain undetected and survive long-term, favoring low-key attacks over mass infection.</p>
+
+
+
+<p><em>&#8220;The Masjesu botnet, a sophisticated, commercially-run Internet of Things (IoT) threat, has been operational and evolving since early 2023, continuing into 2026. Its primary focus is stealth, and it is offered as a “Distributed Denial of Service (DDoS)-for-hire service,” typically marketed via Telegram. It targets a wide array of IoT devices, such as routers and gateways, across multiple architectures (including i386, MIPS, ARM, and AMD64).&#8221; reads the <a href="https://www.trellix.com/blogs/research/masjesu-rising-stealth-iot-botnet-ddos-evasion/">report</a> published by Trellix. &#8220;Built for persistence and low visibility, Masjesu favors careful, low-key execution over widespread infection, deliberately avoiding blocklisted IP ranges such as those belonging to the Department of Defense (DoD) to ensure long-term survival.&#8221;</em></p>
+
+
+
+<p>Masjesu hides its strings, configs, and payloads with XOR encryption to bypass static detection. It scans random IPs and exploits vulnerabilities in devices from D-Link, GPON, and Netgear to spread. Its C2 setup uses multiple domains and fallback IPs and runs TCP, UDP, and HTTP flood attacks.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-22.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="1024" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-22.png?resize=1024%2C1024&#038;ssl=1" alt="" class="wp-image-190554" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-22.png?w=1024&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-22.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-22.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-22.png?resize=768%2C768&amp;ssl=1 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p><gwmw style="display:none;"></gwmw>The botnet targets IoT devices across multiple architectures like i386, MIPS, ARM, SPARC, PPC, 68K, and AMD64, hitting routers, gateways, and embedded systems. Operators advertise on Telegram. The original channel with over 2,000 subscribers was banned; the new channel “Masjesu Botnet / 僵尸网络” has aroud 420 subscribers. Posts appear in English and Chinese, showing attacks and metrics.</p>
+
+
+
+<p>Masjesu launched DDoS floods up to approximately 290 Gbps, drawing traffic from countries like Vietnam, Ukraine, Iran, Brazil, Kenya, and India, with Vietnam providing nearly half. Operators market its large, stable, and geographically diverse botnet to target CDNs, game servers, and enterprises.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-21.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="817" height="643" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-21.png?resize=817%2C643&#038;ssl=1" alt="" class="wp-image-190552" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-21.png?w=817&amp;ssl=1 817w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-21.png?resize=300%2C236&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-21.png?resize=768%2C604&amp;ssl=1 768w" sizes="auto, (max-width: 817px) 100vw, 817px" /></a></figure>
+
+
+
+<p><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw>The bot starts by binding to a fixed TCP port (55988) and hardens itself by ignoring termination signals. The malware hides critical data using multi-stage XOR encryption and decrypts it only at runtime, revealing C2 domains and system details.</p>
+
+
+
+<p>To achieve persistence, the malware renames itself as a legitimate system file (e.g., /usr/lib/ld-unix.so.2), installs a cron job to run every 15 minutes, and daemonizes to operate silently. It also spoofs process names like systemd-journald to avoid detection.</p>
+
+
+
+<p>Masjesu kills competing processes (wget, curl, sshd) and locks down /tmp to maintain exclusive control. Its C2 uses multiple domains with a fallback IP, retrieving commands and payloads via HTTP.</p>
+
+
+
+<p>For propagation, the bot scans random IPs, avoids sensitive ranges (e.g., DoD), and exploits known flaws in routers and IoT devices (D-Link, GPON, Netgear, etc.). </p>
+
+
+
+<p><em>&#8220;Masjesu utilizes the Createchildrenreplic() function for further propagation. This function scans random IP addresses,excluding a catalog of blocklisted IP address ranges (Table 2), for specific hardcoded open ports.&#8221; continues the report. &#8220;Based on the port identified, a corresponding vulnerability exploit is executed on the target device. Upon successful exploitation, the malicious payload is downloaded onto the compromised device.&#8221;</em></p>
+
+
+
+<p>Once infected, bots execute DDoS attacks (TCP, UDP, HTTP floods) based on C2 instructions.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Overall, Masjesu combines obfuscation, resilience, and wide exploitation to sustain a distributed, hard-to-detect attack infrastructure. </p>
+
+
+
+<p><em>&#8220;Masjesu (XorBot) is a rapidly maturing IoT botnet focused on DDoS-for-hire, primarily marketed via Telegram and resistant to takedowns. Technically, it minimizes detectability and maximizes attack effectiveness by randomizing packet headers and payloads to better mimic legitimate traffic.&#8221; concludes the report. &#8220;The botnet continues to expand by infecting a broad range of IoT devices across multiple architectures and manufacturers. &#8220;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Masjesu botnet)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190548</post-id>	</item>
+		<item>
+		<title>The alleged breach of China’s National Supercomputing Center can have serious geopolitical consequences</title>
+		<link>https://securityaffairs.com/190536/hacking/the-alleged-breach-of-chinas-national-supercomputing-center-can-have-serious-geopolitical-consequences.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 09:27:00 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Data Breach]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[China’s National Supercomputing Center (NSCC)]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[NSCC]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190536</guid>
+
+					<description><![CDATA[A hacker allegedly stole 10+ PB of sensitive military and aerospace data from China’s National Supercomputing Center, risking national security. A massive alleged breach has hit China’s National Supercomputing Center (NSCC) in Tianjin. A hacker claims to have exfiltrated over 10 petabytes of highly sensitive data, including military, aerospace, and missile-related information. The facility supports [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">A hacker allegedly stole 10+ PB of sensitive military and aerospace data from China’s National Supercomputing Center, risking national security.</h2>
+
+
+
+<p>A massive alleged breach has hit China’s National Supercomputing Center (NSCC) in Tianjin. A hacker claims to have exfiltrated over 10 petabytes of highly sensitive data, including military, aerospace, and missile-related information. The facility supports around 6,000 clients, including scientific and defense organizations, raising serious concerns about national security and data exposure.</p>
+
+
+
+<p>Cyber experts reviewing leaked samples say the attacker breached the system with relative ease and quietly exfiltrated massive volumes of data over several months without being detected. A group calling itself “FlamingChina” shared samples on Telegram, claiming the dataset includes sensitive research in aerospace, military, bioinformatics, and fusion. </p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-18.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="550" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-18.png?resize=1024%2C550&#038;ssl=1" alt="" class="wp-image-190537" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-18.png?resize=1024%2C550&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-18.png?resize=300%2C161&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-18.png?resize=768%2C412&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-18.png?w=1337&amp;ssl=1 1337w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw>The data is allegedly linked to major organizations such as Aviation Industry Corporation of China, Commercial Aircraft Corporation of China, and National University of Defense Technology. Chinese authorities have not yet commented.</p>
+
+
+
+<p>CNN <a href="https://edition.cnn.com/2026/04/08/china/china-supercomputer-hackers-hnk-intl">reported</a> that cybersecurity experts say the group is selling limited samples of the stolen data for thousands of dollars, with full access costing hundreds of thousands, payable in cryptocurrency.</p>
+
+
+
+<p>The alleged breach of the National Supercomputing Center in Tianjin could have major geopolitical consequences. Exposure of sensitive military and research data may give rival states valuable intelligence, increasing strategic pressure on China. The incident could escalate cyber tensions, fuel retaliation, and accelerate the global cyber arms race. It may also erode trust in Chinese infrastructure, impact international partnerships, and push governments to strengthen cybersecurity and control over critical technologies.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;Because the stolen data apparently includes military and aerospace research such as data from fighter jets and hypersonic missile testing, it could give China’s geopolitical rivals visibility of some of China’s most covert activity.&#8221; <a href="https://edition.cnn.com/2026/04/08/china/china-supercomputer-hackers-hnk-intl">reported</a> the CNN. &#8220;It may also cause questions to be asked about a policy which has seen vast resources channelled into China-owned and developed supercomputing specifically to reduce dependence on technology (mainly chips) <a href="https://www.ft.com/content/556e534d-bbc5-46e0-8965-ec3a13a8871a?syn-25a6b1a6=1" target="_blank" rel="noreferrer noopener">manufactured in the West</a> – a policy which would have seemed more important in light of <a href="https://www.computing.co.uk/news/2025/nvidia-amd-strike-deal-to-pay-15-of-china-chip-sales-to-us-in-return-for-export-licences" target="_blank" rel="noreferrer noopener">Trump’s changeable policy</a> of chip export controls.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>CNN could not independently verify the breach, but multiple experts who reviewed the leaked samples believe the data is likely genuine. The files reportedly include “secret”-marked documents, technical data, and simulations of weapons systems, consistent with the type of workloads handled by supercomputing centers.</p>
+
+
+
+<p>The National Supercomputing Center in Tianjin is a major high-performance computing hub launched in 2009. It provides advanced processing power to universities, research institutes, and government agencies, supporting fields like aerospace, defense, AI, and weather forecasting. It hosts systems such as Tianhe-1A and enables large-scale simulations and data analysis.</p>
+
+
+
+<p>According to the media, the attacker allegedly gained access via a compromised VPN and used a botnet to quietly extract data over six months, distributing traffic to avoid detection. Analysts say the method was effective but not especially sophisticated, highlighting systemic weaknesses. If confirmed, the incident would underscore longstanding cybersecurity gaps in China’s infrastructure, despite ongoing efforts to improve defenses.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, newsletter)</strong><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190536</post-id>	</item>
+		<item>
+		<title>Internet-Exposed ICS Devices Raise Alarm for Critical Sectors</title>
+		<link>https://securityaffairs.com/190525/ics-scada/internet-exposed-ics-devices-raise-alarm-for-critical-sectors.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 07:20:08 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[ICS-SCADA]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[ICS]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[OT]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[SCADA]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190525</guid>
+
+					<description><![CDATA[Exposed ICS devices and insecure protocols like Modbus increase risks to critical infrastructure, enabling disruption, data access, and potential sabotage. Malware targeting industrial control systems (ICS) poses a serious risk to critical infrastructure, with threats like Stuxnet, Industroyer, Triton, Havex, and BlackEnergy already demonstrating the ability to disrupt operations, cause outages, and even inflict physical [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Exposed ICS devices and insecure protocols like Modbus increase risks to critical infrastructure, enabling disruption, data access, and potential sabotage.</h2>
+
+
+
+<p>Malware targeting industrial control systems (ICS) poses a serious risk to critical infrastructure, with threats like <a href="https://securityaffairs.com/tag/stuxnet" type="post_tag" id="39">Stuxnet</a>, <a href="https://securityaffairs.com/tag/industroyer" type="post_tag" id="6784">Industroyer</a>, <a href="https://securityaffairs.com/tag/triton" type="post_tag" id="8807">Triton</a>, <a href="https://securityaffairs.com/tag/havex" type="post_tag" id="2272">Havex</a>, and <a href="https://securityaffairs.com/tag/blackenergy" type="post_tag" id="2812">BlackEnergy </a>already demonstrating the ability to disrupt operations, cause outages, and even inflict physical damage. Recent research shows that ICS vulnerability disclosures nearly doubled between 2024 and 2025, driven in part by increased interest from threat actors targeting sectors such as energy, manufacturing, and utilities.</p>
+
+
+
+<p>A key concern is the exposure of ICS devices to the internet, especially those using legacy protocols like Modbus. Widely used in industrial environments to enable communication between sensors and controllers, Modbus lacks basic security features such as encryption and authentication. This makes internet-exposed devices particularly vulnerable, as attackers can both read and modify data without needing credentials.</p>
+
+
+
+<p>To better understand the scale of the issue, researchers conducted a global scan for devices responding on port 502, the default port for Modbus. Out of 311 initial responses, 179 were identified as likely real ICS devices after filtering out honeypots and unreliable data. These devices were found across multiple countries, with the United States hosting the largest number (57), followed by Sweden (22) and Turkey (19).</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-17.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="660" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-17.png?resize=1024%2C660&#038;ssl=1" alt="" class="wp-image-190530" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-17.png?resize=1024%2C660&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-17.png?resize=300%2C193&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-17.png?resize=768%2C495&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-17.png?w=1027&amp;ssl=1 1027w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw>Some of the exposed systems were linked to highly sensitive environments. For example, one device appeared to be part of a national railway network, where ICS systems are used for train routing and signalling—functions critical to both safety and operations. Other devices were tied to national power grids in Europe and Asia, where ICS technology plays a central role in monitoring energy consumption and controlling distribution.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>In terms of vendors, many devices did not reveal detailed manufacturer information, which is common for custom or embedded systems. However, among those that did, Schneider Electric devices were the most common, followed by Data Electronics and ABB Stotz-Kontakt. </p>
+
+
+
+<p><em>&#8220;The majority of devices (128) only exposed their firmware versions and/or internal IDs without including a vendor string. This is to be expected from custom controllers or embedded modules.&#8221; reads the <a href="https://www.comparitech.com/news/critical-infrastructure-at-risk-179-ics-devices-exposed-online/">report</a> published by Comparitech. &#8220;A total of 54 devices did advertise their manufacturer (though not always their model information). Schneider devices were most prevalent (22 instances), followed by Data Electronics (14 instances) and ABB Stotz-Kontakt (6 instances).&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Examples of exposed equipment included logic controllers, processor modules, energy meters, and power quality loggers—components essential for managing industrial processes and electrical systems.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Exposing device details such as make and model increases the risk further. Attackers can use this information to locate documentation like register maps, which define how data is stored and interpreted within the device. These registers may contain critical operational data such as temperature, voltage, pressure, or system status. In one case, researchers were able to monitor real-time energy consumption of a live system using publicly available documentation.</p>
+
+
+
+<p>Even when device details are not explicitly disclosed, attackers may infer their function by analyzing how data values change over time. Since Modbus allows write access without authentication, attackers could alter register values, potentially disrupting operations. Even small changes could have cascading effects on industrial processes that rely on accurate sensor data.</p>
+
+
+
+<p>The broader context makes the issue even more urgent. The global ICS market is growing rapidly, expected to more than double in value by 2033. As more devices are connected to networks, the attack surface expands, increasing the likelihood of exploitation if proper security measures are not implemented.</p>
+
+
+
+<p>From a defensive standpoint, basic protections such as firewalls, VPNs, network segmentation, and strong authentication are essential to prevent unauthorized access. However, many ICS environments still rely on outdated architectures that were originally designed for isolated networks, not today’s interconnected landscape.</p>
+
+
+
+<p>The research highlights how even attackers with limited technical skills could exploit exposed ICS devices, particularly those using insecure protocols like Modbus, DNP3, or BACnet. </p>
+
+
+
+<p><em>&#8220;From an attacker’s perspective, devices running protocols like Modbus (as well as DNP3, or BACnet) are particularly vulnerable because they were designed for closed networks and often lack built-in authentication or encryption.&#8221; continues the report. &#8220;These devices could be exploited by attackers with limited technical expertise if exposed directly to the internet. This is particularly concerning given some ICS devices’ critical role in economic activity and essential infrastructure.&#8221;</em></p>
+
+
+
+<p>Given the critical role these systems play in infrastructure and economic activity, their compromise could have wide-ranging consequences, from service disruptions to safety hazards.</p>
+
+
+
+<p>In summary, the growing exposure of ICS devices, combined with insecure legacy protocols and increasing attacker interest, creates a high-risk environment. Without significant improvements in how these systems are secured and managed, industrial infrastructure will remain a prime target for cyber threats.</p>
+
+
+
+<p>More info is included in the <a href="https://www.comparitech.com/news/critical-infrastructure-at-risk-179-ics-devices-exposed-online/">report</a> by Justin Schamotta and Mantas Sasnauskas.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, ICS)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190525</post-id>	</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Object Caching 54/65 objects using Memcached
+Page Caching using Memcached (Page is feed) 
+Database Caching 1/25 queries in 0.020 seconds using Memcached (Request-wide modification query)
+
+Served from: securityaffairs.com @ 2026-04-11 13:51:09 by W3 Total Cache
+-->

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SecurityWeek</title>
+	<atom:link href="https://www.securityweek.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.securityweek.com/</link>
+	<description>Cybersecurity News, Insights &#38; Analysis</description>
+	<lastBuildDate>Fri, 10 Apr 2026 14:47:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg</url>
+	<title>SecurityWeek</title>
+	<link>https://www.securityweek.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>In Other News: Cyberattack Stings Stryker, Windows Zero-Day, China Supercomputer Hack</title>
+		<link>https://www.securityweek.com/in-other-news-cyberattack-stings-stryker-windows-zero-day-china-supercomputer-hack/</link>
+		
+		<dc:creator><![CDATA[SecurityWeek News]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 14:44:53 +0000</pubDate>
+				<category><![CDATA[Risk Management]]></category>
+		<category><![CDATA[In Other News]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46068</guid>
+
+					<description><![CDATA[<p>Other noteworthy stories that might have slipped under the radar: Jones Day hacked, Internet Bug Bounty program paused due to AI, new Mac stealer malware.</p>
+<p>The post <a href="https://www.securityweek.com/in-other-news-cyberattack-stings-stryker-windows-zero-day-china-supercomputer-hack/">In Other News: Cyberattack Stings Stryker, Windows Zero-Day, China Supercomputer Hack</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Juniper Networks Patches Dozens of Junos OS Vulnerabilities</title>
+		<link>https://www.securityweek.com/juniper-networks-patches-dozens-of-junos-os-vulnerabilities/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 13:44:17 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[Juniper Networks]]></category>
+		<category><![CDATA[patches]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46067</guid>
+
+					<description><![CDATA[<p>A critical-severity flaw could be exploited remotely, without authentication, to take over a vulnerable device.</p>
+<p>The post <a href="https://www.securityweek.com/juniper-networks-patches-dozens-of-junos-os-vulnerabilities/">Juniper Networks Patches Dozens of Junos OS Vulnerabilities</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Industry Reactions to Iran Hacking ICS in Critical Infrastructure: Feedback Friday</title>
+		<link>https://www.securityweek.com/industry-reactions-to-iran-hacking-ics-in-critical-infrastructure-feedback-friday/</link>
+		
+		<dc:creator><![CDATA[SecurityWeek News]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 12:41:08 +0000</pubDate>
+				<category><![CDATA[ICS/OT]]></category>
+		<category><![CDATA[Nation-State]]></category>
+		<category><![CDATA[Feedback Friday]]></category>
+		<category><![CDATA[ICS]]></category>
+		<category><![CDATA[Iran]]></category>
+		<category><![CDATA[OT]]></category>
+		<category><![CDATA[SCADA]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46065</guid>
+
+					<description><![CDATA[<p>The US government has warned that Iran-linked hackers are manipulating PLCs and SCADA systems to cause disruption.</p>
+<p>The post <a href="https://www.securityweek.com/industry-reactions-to-iran-hacking-ics-in-critical-infrastructure-feedback-friday/">Industry Reactions to Iran Hacking ICS in Critical Infrastructure: Feedback Friday</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Orthanc DICOM Vulnerabilities Lead to Crashes, RCE</title>
+		<link>https://www.securityweek.com/orthanc-dicom-vulnerabilities-lead-to-crashes-rce/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 11:53:45 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[DICOM]]></category>
+		<category><![CDATA[medical]]></category>
+		<category><![CDATA[Orthanc]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46063</guid>
+
+					<description><![CDATA[<p>Attackers could exploit these vulnerabilities in denial-of-service, information disclosure, and arbitrary code execution attacks.</p>
+<p>The post <a href="https://www.securityweek.com/orthanc-dicom-vulnerabilities-lead-to-crashes-rce/">Orthanc DICOM Vulnerabilities Lead to Crashes, RCE</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Chrome 147 Patches 60 Vulnerabilities, Including Two Critical Flaws Worth $86,000</title>
+		<link>https://www.securityweek.com/chrome-147-patches-60-vulnerabilities-including-two-critical-flaws-worth-86000/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 10:44:45 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[patches]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46054</guid>
+
+					<description><![CDATA[<p>The critical vulnerabilities affect Chrome’s WebML component and they have been reported by anonymous researchers.</p>
+<p>The post <a href="https://www.securityweek.com/chrome-147-patches-60-vulnerabilities-including-two-critical-flaws-worth-86000/">Chrome 147 Patches 60 Vulnerabilities, Including Two Critical Flaws Worth $86,000</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>MITRE Releases Fight Fraud Framework</title>
+		<link>https://www.securityweek.com/mitre-releases-fight-fraud-framework/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 09:51:03 +0000</pubDate>
+				<category><![CDATA[Fraud & Identity Theft]]></category>
+		<category><![CDATA[F3]]></category>
+		<category><![CDATA[Fight Fraud Framework]]></category>
+		<category><![CDATA[framework]]></category>
+		<category><![CDATA[fraud]]></category>
+		<category><![CDATA[MITRE]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46052</guid>
+
+					<description><![CDATA[<p>The document provides a behavior-based model of the tactics and techniques employed by fraudsters.</p>
+<p>The post <a href="https://www.securityweek.com/mitre-releases-fight-fraud-framework/">MITRE Releases Fight Fraud Framework</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Critical Marimo Flaw Exploited Hours After Public Disclosure</title>
+		<link>https://www.securityweek.com/critical-marimo-flaw-exploited-hours-after-public-disclosure/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 09:12:48 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[exploited]]></category>
+		<category><![CDATA[Marimo]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46051</guid>
+
+					<description><![CDATA[<p>Within nine hours, a hacker built an exploit from the unauthenticated bug’s advisory and started using it in the wild.</p>
+<p>The post <a href="https://www.securityweek.com/critical-marimo-flaw-exploited-hours-after-public-disclosure/">Critical Marimo Flaw Exploited Hours After Public Disclosure</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google Rolls Out Cookie Theft Protections in Chrome</title>
+		<link>https://www.securityweek.com/google-rolls-out-cookie-theft-protections-in-chrome/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 07:50:00 +0000</pubDate>
+				<category><![CDATA[Identity & Access]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[DBSC]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[session cookies]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46049</guid>
+
+					<description><![CDATA[<p>New Device Bound Session Credentials render stolen session cookies unusable by cryptographically binding authentication.</p>
+<p>The post <a href="https://www.securityweek.com/google-rolls-out-cookie-theft-protections-in-chrome/">Google Rolls Out Cookie Theft Protections in Chrome</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft Finds Vulnerability Exposing Millions of Android Crypto Wallet Users</title>
+		<link>https://www.securityweek.com/microsoft-finds-vulnerability-exposing-millions-of-android-crypto-wallet-users/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 07:33:16 +0000</pubDate>
+				<category><![CDATA[Mobile & Wireless]]></category>
+		<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[EngageLab]]></category>
+		<category><![CDATA[SDK]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46048</guid>
+
+					<description><![CDATA[<p>The security hole affected an EngageLab SDK and it was reported by Microsoft to the vendor one year ago.</p>
+<p>The post <a href="https://www.securityweek.com/microsoft-finds-vulnerability-exposing-millions-of-android-crypto-wallet-users/">Microsoft Finds Vulnerability Exposing Millions of Android Crypto Wallet Users</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Apple Intelligence AI Guardrails Bypassed in New Attack</title>
+		<link>https://www.securityweek.com/apple-intelligence-ai-guardrails-bypassed-in-new-attack/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 13:43:07 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Apple Intelligence]]></category>
+		<category><![CDATA[Featured]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46036</guid>
+
+					<description><![CDATA[<p>RSAC researchers hacked Apple Intelligence using the Neural Exect method and Unicode manipulation.</p>
+<p>The post <a href="https://www.securityweek.com/apple-intelligence-ai-guardrails-bypassed-in-new-attack/">Apple Intelligence AI Guardrails Bypassed in New Attack</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

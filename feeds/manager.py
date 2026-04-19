@@ -560,9 +560,12 @@ class ThreatFeedManager:
         max_items_per_source: int = 50,
         skip_if_fresh: bool = True,
         fresh_hours: int = 12,
+        source_limit: int = 0,
     ) -> Dict[str, Any]:
         """Fetch and normalize all feed sources from CSV with production-safe error handling."""
         sources = self.load_sources()
+        if source_limit and int(source_limit) > 0:
+            sources = sources[: int(source_limit)]
         ingest_run_id = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
 
         run_stats = {

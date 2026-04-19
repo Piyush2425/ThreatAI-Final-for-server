@@ -1,0 +1,1819 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Webroot Blog</title>
+	<atom:link href="https://www.webroot.com/blog/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.webroot.com/blog</link>
+	<description>Internet security threat updates and insights.</description>
+	<lastBuildDate>Wed, 24 Sep 2025 20:50:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.10</generator>
+
+<image>
+	<url>https://blog-en.webroot.com/wp-content/uploads/2018/01/webroot-favicon.png</url>
+	<title>Webroot Blog</title>
+	<link>https://www.webroot.com/blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Guarding your family against the latest online threats</title>
+		<link>https://www.webroot.com/blog/2025/09/24/guarding-your-family-against-the-latest-online-threats/</link>
+		
+		<dc:creator><![CDATA[Nicole Beaudoin]]></dc:creator>
+		<pubDate>Wed, 24 Sep 2025 20:50:57 +0000</pubDate>
+				<category><![CDATA[Webroot Blog]]></category>
+		<category><![CDATA[cyber resilience]]></category>
+		<category><![CDATA[threat intelligence]]></category>
+		<guid isPermaLink="false">https://www.webroot.com/blog/?p=34031</guid>
+
+					<description><![CDATA[<p>Parents across America face a growing wave of sophisticated online fraud designed to exploit their deepest fears and protective instincts. Americans reported losing more than $12.5 billion to fraud in 2024, representing a 25% increase over the prior year, according to new Federal Trade Commission data. Parents represent a particularly vulnerable target because scammers understand [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/09/24/guarding-your-family-against-the-latest-online-threats/">Guarding your family against the latest online threats</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Parents across America face a growing wave of sophisticated online fraud designed to exploit their deepest fears and protective instincts. Americans reported losing more than $12.5 billion to fraud in 2024, representing a 25% increase over the prior year, according to new Federal Trade Commission data.</p>
+
+
+
+<p>Parents represent a particularly vulnerable target because scammers understand that nothing motivates faster action than a perceived threat to a child&#8217;s safety or wellbeing. These criminals exploit parental love —creating artificial urgency that bypasses normal thinking.</p>
+
+
+
+<h2 class="wp-block-heading">Why scammers target parents</h2>
+
+
+
+<p>Parents are prime scam targets for several key reasons:</p>
+
+
+
+<ul class="wp-block-list">
+<li>They often have established credit, making it attractive for scams involving money.</li>
+
+
+
+<li>Easy access to cash that hackers try to tap into.</li>
+
+
+
+<li>Most importantly, parents will go to extraordinary lengths—including financial sacrifice—to protect their children from harm.</li>
+</ul>
+
+
+
+<p>Modern technology has made these scams more convincing than ever. Scammers now use artificial intelligence to clone voices, create fake social media profiles, and generate realistic scenarios that seem entirely plausible to worried parents.</p>
+
+
+
+<h2 class="wp-block-heading">The 5 most devastating scams bankrupting parents right now</h2>
+
+
+
+<p><strong>1. Family emergency scams</strong></p>
+
+
+
+<p>The most emotionally devastating scam targeting parents involves fake emergencies. <a href="https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes" data-type="link" data-id="https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes" target="_blank" rel="noreferrer noopener">Scammers use AI to clone the voice of a child in distress</a>, calling parents with scenarios like car accidents, jail time, or medical emergencies. The caller, sounding exactly like their child, beg for immediate money transfer while pleading for secrecy.</p>
+
+
+
+<p>These scams create powerful emotional responses that override logical thinking. Parents hear their child&#8217;s voice saying, &#8220;Don&#8217;t tell Dad&#8221; or &#8220;I&#8217;m scared,&#8221; and immediately spring into action without verification.</p>
+
+
+
+<p><strong>“Pause and verify&#8221; protocol: </strong>Teach your entire family the 24-hour rule for any urgent financial requests. No legitimate emergency requires immediate wire transfers or gift card payments. Always hang up and call back using a known phone number to verify any emergency claims.</p>
+
+
+
+<p><strong>2. School-related fraud</strong><br><br>Cybercriminals pose as school officials, coaches, or administrators claiming children owe money for equipment, field trips, or disciplinary issues. They demand immediate payment via wire transfer, gift cards, or cryptocurrency to avoid serious consequences like suspension or criminal charges.</p>
+
+
+
+<p>These scams work because parents want to protect their children&#8217;s academic and social standing. The fraudsters create artificial deadlines and threaten embarrassment or legal action if parents don&#8217;t act quickly.</p>
+
+
+
+<p><strong>Verify information:</strong> Hang up and contact the school or organization directly using their official phone number or website to confirm its authenticity.</p>
+
+
+
+<p><strong>3. Social media kidnapping hoaxes</strong></p>
+
+
+
+<p>In virtual kidnapping scams, fraudsters monitor children&#8217;s social media activity to gather personal information. They then call parents claiming to have kidnapped their child, demanding ransom money. Meanwhile, the child is simply unavailable—perhaps in class, at practice, or with friends.</p>
+
+
+
+<p>These schemes rely on the parent&#8217;s inability to immediately reach their child for confirmation. The scammers use publicly available information from social media posts to make their demands seem legitimate.</p>
+
+
+
+<p><strong>Multi-Factor Authentication (MFA):</strong> Enable two-factor authentication on all family accounts, especially email, banking, and social media. This simple step <a href="https://www.staysafeonline.org/articles/multi-factor-authentication" target="_blank" rel="noreferrer noopener">blocks 99% of automated attacks</a>, even if passwords are compromised. Show your children how to use authenticator apps rather than SMS authentication when possible. Additionally, It’s critical for parents to set their children’s social media accounts to private, use parental controls, and monitor their child’s social media habits.</p>
+
+
+
+<p><strong>4. Financial Sextortion of Minors</strong></p>
+
+
+
+<p><a href="https://www.cnbc.com/2024/02/01/fbi-financial-sextortion-of-kids-is-escalating-what-parents-can-do.html" target="_blank" rel="noreferrer noopener">The FBI has identified &#8220;financial sextortion&#8221; of teens as a &#8220;rapidly escalating threat&#8221;</a>. Criminals trick minors into sharing explicit images, then blackmail both the child and parents for payment. These predators target children through gaming platforms, social media, and messaging apps.</p>
+
+
+
+<p><a href="https://www.thorn.org/research/library/financial-sextortion/" target="_blank" rel="noreferrer noopener">A study</a> found approximately 5% of U.S. students reported that they had been the victim of sextortion.&nbsp; With <a href="https://www.thorn.org/press-releases/new-data-reveals-the-devastating-toll-of-sextortion-on-kids/" target="_blank" rel="noreferrer noopener">1 in 7 youth victims</a> (15%) saying they harmed themselves in response to sextortion. Parents often discover these crimes only when their children&#8217;s demeanor changes or exhibit severe behavioral changes. The psychological damage extends far beyond the financial cost.</p>
+
+
+
+<p><strong>Social media privacy settings:</strong> Regularly audit your family&#8217;s social media accounts together. Scammers harvest information from public posts to make their schemes more convincing. Teach children to never post real-time locations, vacation plans, personal details that criminals can exploit or share personal and explicit photos.</p>
+
+
+
+<p><strong>5. College and scholarship scams</strong></p>
+
+
+
+<p>As college costs soar, scammers target parents desperate to secure educational funding for their children. They offer fake scholarships, guaranteed admissions, or student loan forgiveness programs that require upfront fees or personal financial information.</p>
+
+
+
+<p>These scams often impersonate legitimate organizations and use official-sounding language to appear credible. Parents, stressed about their children&#8217;s futures, may overlook red flags in their eagerness to secure opportunities.</p>
+
+
+
+<p><strong>Email security awareness:</strong> Practice identifying phishing emails with your children using the &#8220;STOP, LOOK, THINK&#8221; method:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>STOP:</strong> Don&#8217;t click links or attachments immediately.</li>
+
+
+
+<li><strong>LOOK:</strong> Check sender addresses carefully for misspellings or suspicious domains.</li>
+
+
+
+<li><strong>THINK:</strong> Ask yourself if the request makes sense and verify independently.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Your 5-step defense plan: stop scammers before they strike</h2>
+
+
+
+<ol class="wp-block-list">
+<li><strong>Real-time threat detection:</strong> Webroot&#8217;s advanced algorithms identify and block malicious websites, phishing attempts, and dangerous downloads before they can compromise family devices or data.<br></li>
+
+
+
+<li><strong>Identity protection services:</strong> Comprehensive monitoring of identity, credit, and financial accounts helps detect fraud early, with up to $1 million in fraud expense and stolen funds reimbursement.<br></li>
+
+
+
+<li><strong>Secure family browsing:</strong> Webroot automatically warns users about suspicious websites and blocks access to known scam sites, protecting curious children and busy parents from accidentally accessing dangerous content.<br></li>
+
+
+
+<li><strong>Dark Web monitoring:</strong> This crucial feature monitors family members&#8217; personal information and sends alerts if data appears in breaches or on criminal marketplaces.<br></li>
+
+
+
+<li><strong>Password security:</strong> Strong password management ensures that all family accounts remain protected with unique, complex passwords that children and parents can easily access when needed. Never reuse passwords across accounts and use a password manager to track them all.</li>
+</ol>
+
+
+
+<h2 class="wp-block-heading">Don&#8217;t let criminals exploit your parental instincts</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Establish clear communication protocols with your children.</li>
+
+
+
+<li>Create unique code words or security questions that only family members know.</li>
+
+
+
+<li>Practice scenarios where children should verify requests through multiple channels before sharing information or money. Have regular family discussions about online safety to help children understand current threats without creating excessive fear.</li>
+
+
+
+<li>Participate in school, community centers, and parent organizations cybersecurity workshops specifically designed for families.</li>
+
+
+
+<li>Combine street-smart awareness with enterprise-level cybersecurity solutions like <a href="https://www.webroot.com/us/en/home/products/total-protection">Webroot</a> to create an impenetrable defense against parent-targeting criminals.</li>
+</ul>
+
+
+
+<p>&nbsp;With October being <a href="https://www.staysafeonline.org/cybersecurity-awareness-month" target="_blank" rel="noreferrer noopener">Cybersecurity Awareness Month</a> now is the perfect time to put your cybersecurity family game plan into place. The criminals betting on your parental panic are about to learn that informed, protected parents don&#8217;t make easy targets.</p>
+
+
+
+<h2 class="wp-block-heading">Additional Resources:</h2>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://reportfraud.ftc.gov/" target="_blank" rel="noreferrer noopener">FTC Scam Reporting</a></li>
+
+
+
+<li><a href="https://www.ftc.gov/system/files/ftc_gov/pdf/csn-annual-data-book-2024.pdf" target="_blank" rel="noreferrer noopener">FTC 2024 Data Book</a></li>
+
+
+
+<li><a href="https://www.ic3.gov/" target="_blank" rel="noreferrer noopener">FBI Internet Crime Complaint Center</a></li>
+
+
+
+<li><a href="https://www.missingkids.org/" target="_blank" rel="noreferrer noopener">National Center for Missing &amp; Exploited Children</a></li>
+
+
+
+<li><a href="https://www.webroot.com/us/en/home/products/total-protection">Webroot Solutions</a></li>
+</ul>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/09/24/guarding-your-family-against-the-latest-online-threats/">Guarding your family against the latest online threats</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Senior scams topped $4.8 billion in 2024: What to watch out for</title>
+		<link>https://www.webroot.com/blog/2025/08/25/senior-scams-topped-4-8-billion-in-2024-what-to-watch-out-for/</link>
+		
+		<dc:creator><![CDATA[Nicole Beaudoin]]></dc:creator>
+		<pubDate>Mon, 25 Aug 2025 14:58:18 +0000</pubDate>
+				<category><![CDATA[Webroot Blog]]></category>
+		<category><![CDATA[cyberscam]]></category>
+		<category><![CDATA[Online scams]]></category>
+		<guid isPermaLink="false">https://www.webroot.com/blog/?p=34003</guid>
+
+					<description><![CDATA[<p>Americans aged 60 and older lost $4.8 billion in 2024 to scammers, according to a report released by the FBI. These figures represent real people, real families, and life-changing financial devastation. The impact extends beyond just the numbers. The average loss among people over the age of 60 was $83,000, more than four times the [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/08/25/senior-scams-topped-4-8-billion-in-2024-what-to-watch-out-for/">Senior scams topped $4.8 billion in 2024: What to watch out for</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Americans aged 60 and older lost <a href="https://abcnews.go.com/Politics/seniors-lost-48-billion-scammers-2024-fbi/story?id=121059590" target="_blank" rel="noreferrer noopener">$4.8 billion in 2024 to scammers</a>, according to a report released by the FBI. These figures represent real people, real families, and life-changing financial devastation.</p>
+
+
+
+<p>The impact extends beyond just the numbers. <a href="https://www.cbsnews.com/news/online-scams-2024-statistics-fbi/" target="_blank" rel="noreferrer noopener">The average loss among people over the age of 60 was $83,000, more than four times the average overall loss in 2024</a>. This disparity highlights why seniors have become prime targets for sophisticated scam operations.</p>
+
+
+
+<h2>Why seniors are targeted</h2>
+
+
+
+<p>Cybercriminals specifically target older adults for several reasons. Many seniors have accumulated substantial savings over their lifetimes, own their homes outright, and maintain good credit scores. Additionally, some may be less familiar with modern technology and digital security practices, making them more vulnerable to online deception.</p>
+
+
+
+<h2>The 5 scams draining senior bank accounts</h2>
+
+
+
+<p><strong>1. Tech support fraud</strong></p>
+
+
+
+<p><a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/tech-support-scams" target="_blank" rel="noreferrer noopener">Tech support scams</a> happen when scammers pose as representatives of legitimate businesses like banks and utility companies. They reach out in various ways, including phone calls, texts and pop-up windows. They claim there’s an issue with a device or account and ask to send a fee to fix it. These fake alerts provide phone numbers that connect victims to scammers who then request remote access to computers and payment for unnecessary &#8220;repairs.&#8221;</p>
+
+
+
+<p><strong>2. Romance scams</strong></p>
+
+
+
+<p>Lonely seniors looking for love and companionship can easily fall victim to <a href="https://www.aarp.org/money/scams-fraud/romance/?cmp=KNC-DMP-FRD-Fraud-Ongoing-RomanceScams-NonBrand-Exact-64840-GOOG-DatingScams-Exact-NonBrand&amp;gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=11119750300&amp;gbraid=0AAAAAC1RszuBsrItrfC6PUPfc0PuwAeBh&amp;gclid=EAIaIQobChMIvOSCi83ljgMVXEb_AR3DKwGFEAAYAiAAEgLnGvD_BwE" target="_blank" rel="noreferrer noopener">romance fraud</a>. Criminals create fake profiles on dating sites and social media. These scammers build emotional relationships over weeks or months before requesting money to be wired or transferred to them for emergencies or travel expenses. <a href="https://www.ftc.gov/news-events/news/press-releases/2024/10/ftc-issues-annual-report-congress-agencys-actions-protect-older-adults" target="_blank" rel="noreferrer noopener">Romance scams cost seniors $277 million (up 16% from 2022)</a> according to the FTC&#8217;s latest report.</p>
+
+
+
+<p><strong>3. Grandparent scams</strong></p>
+
+
+
+<p>One of the most disturbing trends is the <a href="https://www.fcc.gov/consumers/scam-alert/grandparent-scams-get-more-sophisticated" target="_blank" rel="noreferrer noopener">grandparent emergency scam</a>. Fraudsters use AI to clone the voice of a grandchild in distress. Grandma or Grandpa gets a fake call from someone who sounds just like their grandchild saying need of money for bail, medical emergencies, or another crisis. They often request that the victim keep the call secret and send money immediately through wire transfers or gift cards. These scams work because they create emotional urgency.</p>
+
+
+
+<p><strong>4. Investment fraud</strong></p>
+
+
+
+<p><a href="https://www.ftc.gov/news-events/news/press-releases/2024/10/ftc-issues-annual-report-congress-agencys-actions-protect-older-adults" target="_blank" rel="noreferrer noopener">Older adults report losing more money, $538 million—a 34% increase over 2022, to investment scams than any other type of fraud</a>. These scams often originate from phone calls, emails, social media, or events where fraudsters promise “guaranteed” high returns with little to no risk. Many schemes use urgency (“act now before it’s too late”), pose as financial advisors, or an affinity group related to their community or church. Seniors may fall for them because they sound safe and tailored to their situation, making it difficult to distinguish between legitimate opportunities and fraudulent ones until it’s too late.</p>
+
+
+
+<p><strong>5. Government impersonation scams</strong></p>
+
+
+
+<p>Scammers pose as representatives from Medicare, <a href="https://blog.ssa.gov/social-security-and-scam-awareness/" target="_blank" rel="noreferrer noopener">Social Security</a>, or the IRS, claiming there are problems with benefits or threatening legal action unless immediate payment is made. For example, a call, text or social media message from someone who says they work at the Social Security Administration. They threaten to suspend the senior’s Social Security number or stop their Social Security payments unless they send them money owed. This type of claim is a scheme to steal both identity and money.&nbsp; Social Security numbers can’t be suspended, and government agencies will never ask to be paid via wire transfer, cryptocurrency or payment apps.</p>
+
+
+
+<h2>Signs that it might be a scam</h2>
+
+
+
+<ul>
+<li>Unexpected phone calls or pop-ups claiming a computer is infected</li>
+
+
+
+<li>Requests for immediate payment via wire transfer, gift cards, or cryptocurrency</li>
+
+
+
+<li>High-pressure tactics demanding quick decisions</li>
+
+
+
+<li>Unsolicited romantic interest from strangers online</li>
+
+
+
+<li>Claims of emergency situations involving family members</li>
+
+
+
+<li>Promises of unrealistic investment returns</li>
+</ul>
+
+
+
+<h2>How Webroot can help protect seniors</h2>
+
+
+
+<p>Modern cybersecurity solutions are essential for protecting seniors online. <a href="https://www.webroot.com/us/en/home/products/total-protection">Webroot&#8217;s Total Protection</a> offers multiple layers of protection specifically designed to combat the threats seniors face most.</p>
+
+
+
+<p><strong>Antivirus protection</strong>: Webroot&#8217;s advanced threat detection identifies and blocks malicious websites, phishing attempts, and dangerous downloads before they can cause harm.</p>
+
+
+
+<p><strong>Identity protection</strong>: Identity, credit, and financial accounts monitoring for fraud, with up $1M in fraud expense and stolen funds reimbursement.</p>
+
+
+
+<p><strong>Dark Web monitoring</strong>: This feature monitors personal information and alerts users if their data appears on the dark web or in data breaches.</p>
+
+
+
+<p><strong>Secure browsing</strong>: Webroot automatically warns users about suspicious websites and blocks access to known scam sites.</p>
+
+
+
+<p><strong>Password management</strong>: Strong, unique passwords are crucial for online safety, and Webroot&#8217;s password manager makes it easy to maintain secure accounts across all devices.</p>
+
+
+
+<h2>The importance of community awareness</h2>
+
+
+
+<p>The epidemic of attacks on seniors requires community-wide awareness and action.</p>
+
+
+
+<p>Family members should regularly discuss online safety with senior relatives, helping them understand current scam tactics without creating fear or limiting their digital independence. Community organizations, libraries, and senior centers host educational workshops about cybersecurity and scam prevention. Seniors should check local events to learn more.</p>
+
+
+
+<h2>Moving forward safely</h2>
+
+
+
+<p>The digital world offers tremendous benefits for seniors, from staying connected with family to accessing healthcare and financial services online. The goal The goal for seniors isn&#8217;t to avoid technology but to use it safely and confidently.</p>
+
+
+
+<p>By combining awareness, education, and robust cybersecurity tools like Webroot, seniors can enjoy the advantages of modern technology while staying protected from those who would exploit their trust and generosity. When something seems too good to be true or creates a sense of urgency, seniors should take time to verify information and consult with trusted family members or friends.</p>
+
+
+
+<p>The fight against elder fraud requires vigilance from entire communities, but with the right tools and knowledge, families and communities can help protect their most vulnerable members from these devastating crimes.</p>
+
+
+
+<p><strong>Additional resources:</strong></p>
+
+
+
+<p><a href="https://www.cnbc.com/2024/07/03/heres-how-to-avoid-romance-scams-which-cost-consumers-1point14-billion-last-year.html" target="_blank" rel="noreferrer noopener">The cost of romance fraud</a></p>
+
+
+
+<p><a href="https://www.staysafeonline.org/articles/when-scammers-call-grandma" target="_blank" rel="noreferrer noopener">Spotting grandparent scams</a></p>
+
+
+
+<p><a href="https://blog-en.webroot.com/wp-content/uploads/2025/08/25090405/fraud-awareness-americans.doi_.10.26419-2fres.00788.001.pdf" data-type="URL" data-id="https://blog-en.webroot.com/wp-content/uploads/2025/08/25090405/fraud-awareness-americans.doi_.10.26419-2fres.00788.001.pdf" target="_blank" rel="noreferrer noopener">AARP 2025 fraud and scams survey</a></p>
+
+
+
+<p><a href="https://www.webroot.com/us/en">Webroot solutions</a></p>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/08/25/senior-scams-topped-4-8-billion-in-2024-what-to-watch-out-for/">Senior scams topped $4.8 billion in 2024: What to watch out for</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Why your computer will thank you for choosing Webroot Essentials</title>
+		<link>https://www.webroot.com/blog/2025/07/29/why-your-computer-will-thank-you-for-choosing-webroot-essentials/</link>
+		
+		<dc:creator><![CDATA[Guillaume Pascual]]></dc:creator>
+		<pubDate>Tue, 29 Jul 2025 14:20:54 +0000</pubDate>
+				<category><![CDATA[Threat Lab]]></category>
+		<category><![CDATA[Webroot Blog]]></category>
+		<guid isPermaLink="false">https://www.webroot.com/blog/?p=33977</guid>
+
+					<description><![CDATA[<p>Let&#8217;s be honest – nobody wants antivirus software that slows down their computer. You know the feeling: you install security software to protect yourself, but suddenly your laptop takes forever to start up, programs freeze, and you&#8217;re constantly waiting for things to load. Well, we have some great news. A recent independent study by PassMark [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/07/29/why-your-computer-will-thank-you-for-choosing-webroot-essentials/">Why your computer will thank you for choosing Webroot Essentials</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Let&#8217;s be honest – nobody wants antivirus software that slows down their computer. You know the feeling: you install security software to protect yourself, but suddenly your laptop takes forever to start up, programs freeze, and you&#8217;re constantly waiting for things to load.</p>
+
+
+
+<p>Well, we have some great news. A recent independent study by <a href="https://www.passmark.com/?srsltid=AfmBOor87isJvX7hfVNqNjNmxRC2nP4ukb0BDFuQI2pCazrsEdL59OKN" data-type="link" data-id="https://www.passmark.com/?srsltid=AfmBOor87isJvX7hfVNqNjNmxRC2nP4ukb0BDFuQI2pCazrsEdL59OKN" target="_blank" rel="noreferrer noopener">PassMark Software</a> just proved what we&#8217;ve been saying all along: <strong>Webroot Essentials gives you top-notch protection without the performance headaches</strong>.</p>
+
+
+
+<h2 class="wp-block-heading">We actually came out on top</h2>
+
+
+
+<p>PassMark tested nine popular antivirus programs (including big names like McAfee, Norton, and Microsoft Defender) to see which one performs best on Windows 11. Webroot Essentials scored the highest overall – but here&#8217;s what really matters to you as a user.</p>
+
+
+
+<h2 class="wp-block-heading">The numbers that matter to your daily life</h2>
+
+
+
+<p>Instead of boring you with technical jargon, let&#8217;s talk about what these test results mean for your everyday computer use:</p>
+
+
+
+<p><strong>Getting set up</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>Webroot installs 6.7 times faster than other antivirus programs</li>
+
+
+
+<li>Translation: You&#8217;ll be protected in under a minute, not sitting around waiting</li>
+</ul>
+
+
+
+<p><strong>Using your computer</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>Our software opens 3 times faster when you need to check something</li>
+
+
+
+<li>Your computer stays snappy and responsive, just like it should</li>
+</ul>
+
+
+
+<p><strong>Your hard drive space</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>Webroot takes up 33 times less space than the average competitor</li>
+
+
+
+<li>More room for your photos, music, and the stuff you actually care about</li>
+</ul>
+
+
+
+<p><strong>Your computer&#8217;s memory</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>We use 5 times less memory when just running in the background</li>
+
+
+
+<li>Even during scans, we use 3.5 times less memory than others</li>
+
+
+
+<li>Your other programs won&#8217;t slow down or crash</li>
+</ul>
+
+
+
+<p><strong>Security scans</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>Full system scans happen 6 times faster</li>
+
+
+
+<li>No more hour-long scans that make your computer unusable</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">What this really means for you</h2>
+
+
+
+<p>Think about your typical day with your computer. Maybe you&#8217;re checking email, browsing the web, working on documents, or video chatting with family. You want protection running quietly in the background – not something that makes you want to throw your laptop out the window.</p>
+
+
+
+<p>With Webroot Essentials, you get that peace of mind without any of the frustration. Your computer starts up fast, programs load quickly, and you&#8217;ve got plenty of storage space left for your files.</p>
+
+
+
+<h2 class="wp-block-heading">Details of the study</h2>
+
+
+
+<p>PassMark Software ran this independent test in June 2025, putting nine antivirus products through 15 different performance tests. Every product was tested exactly the same way on fresh Windows 11 computers with default settings – so it was a fair comparison across the board.</p>
+
+
+
+<p><a href="https://www-cdn.webroot.com/8417/5379/8219/Webroot_Essentials_Performance_Benchmarks_2025_Ed1.pdf" data-type="link" data-id="https://www-cdn.webroot.com/8417/5379/8219/Webroot_Essentials_Performance_Benchmarks_2025_Ed1.pdf" target="_blank" rel="noreferrer noopener"><strong>Download the full report here.</strong></a></p>
+
+
+
+<h2 class="wp-block-heading">The bottom line</h2>
+
+
+
+<p>Here&#8217;s the thing: you shouldn&#8217;t have to choose between staying safe online and having a computer that actually works well. Webroot Essentials proves you can have both.</p>
+
+
+
+<p>If you&#8217;re tired of antivirus software that feels like it&#8217;s working against you instead of for you, it might be time to make the switch. Your computer – and your patience – will thank you.</p>
+
+
+
+<p class="has-text-align-left"><strong><a href="https://www.webroot.com/us/en/home/products/essentials" data-type="link" data-id="https://www.webroot.com/us/en/home/products/essentials">Learn more about Webroot Essentials</a></strong></p>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/07/29/why-your-computer-will-thank-you-for-choosing-webroot-essentials/">Why your computer will thank you for choosing Webroot Essentials</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Back-to-school cyber safety: Parent checklist</title>
+		<link>https://www.webroot.com/blog/2025/07/21/back-to-school-cyber-safety-parent-checklist/</link>
+		
+		<dc:creator><![CDATA[Blog Staff]]></dc:creator>
+		<pubDate>Mon, 21 Jul 2025 19:36:20 +0000</pubDate>
+				<category><![CDATA[Webroot Blog]]></category>
+		<category><![CDATA[malware]]></category>
+		<guid isPermaLink="false">https://www.webroot.com/blog/?p=33955</guid>
+
+					<description><![CDATA[<p>Summer is flying by and before you know it, you’ll be buying backpacks and taking first-day-of-school photos. Back-to-school season brings new classes and friends, but it also brings new digital dangers. By the time you’ve dropped your kids off for their first day of class, chances are they’ve already been exposed to their first cyberthreat [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/07/21/back-to-school-cyber-safety-parent-checklist/">Back-to-school cyber safety: Parent checklist</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Summer is flying by and before you know it, you’ll be buying backpacks and taking first-day-of-school photos. Back-to-school season brings new classes and friends, but it also brings new digital dangers. By the time you’ve dropped your kids off for their first day of class, chances are they’ve already been exposed to their first cyberthreat of the day. New devices, new online accounts, and relaxed summer screen habits could make your children vulnerable to a slew of online threats.</p>
+
+
+
+<h2 class="wp-block-heading">Numbers you need to know</h2>
+
+
+
+<p>For most kids, especially teenagers, being online is a big part of daily life. From scrolling through TikTok and watching YouTube videos to chatting with friends and gaming, <a href="https://www.pewresearch.org/internet/2024/12/12/teens-social-media-and-technology-2024/" target="_blank" rel="noreferrer noopener">46% of teens</a> say they’re online “almost constantly.” Cybercriminals know this and are always looking for opportunities to cash in on your kids’ online activity. Threats like social media phishing have skyrocketed from <a href="https://apwg.org/apwg-q4-report-finds-2023-was-record-year-for-phishing/" target="_blank" rel="noreferrer noopener">18.9% to 42.8%.</a> Some of these scams are directly aimed at children, including a rash of <a href="https://inside.twu.edu/technology/read/be-aware-of-back-to-school-scams" target="_blank" rel="noreferrer noopener">fake school emails</a> designed to steal sensitive personal information. Since more than <a href="https://www.verizon.com/business/resources/Tea/reports/2025-dbir-data-breach-investigations-report.pdf" target="_blank" rel="noreferrer noopener">80%</a> of data breaches start with stolen passwords, it’s more important than ever that your children use strong passwords that are difficult to crack. The good news? We’ve put together a digital safety checklist to help you boost your entire family’s cybersecurity in just one weekend.</p>
+
+
+
+<h2 class="wp-block-heading">Real-life risks in your child’s digital day</h2>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Phishing &amp; social engineering: </strong>Let’s say your teenage daughter gets a text that reads, “Your grades won’t post unless you verify your information now.” Or maybe she gets an email that asks for her student login to update her records. <a href="https://www.microsoft.com/en-us/security/business/security-101/what-is-phishing?ef_id=_k_EAIaIQobChMI8YWKkeKXjgMV7SzUAR1fETlEEAAYASAAEgLUUvD_BwE_k_&amp;OCID=AIDcmmdamuj0pc_SEM__k_EAIaIQobChMI8YWKkeKXjgMV7SzUAR1fETlEEAAYASAAEgLUUvD_BwE_k_&amp;gad_source=1&amp;gad_campaignid=14495145267&amp;gbraid=0AAAAADcJh_vFSN7XHrMnydM3yRqrS6g-H&amp;gclid=EAIaIQobChMI8YWKkeKXjgMV7SzUAR1fETlEEAAYASAAEgLUUvD_BwE" target="_blank" rel="noreferrer noopener">Phishing</a> and <a href="https://www.mastercard.com/news/perspectives/2025/your-guide-to-identifying-social-engineering-scams-and-cyber-threats/#:~:text=Social%20engineering%20scams%20may%20be,bring%20business%20to%20a%20halt." target="_blank" rel="noreferrer noopener">social engineering</a> scams use threats and a sense of urgency to get you to click links and share personal information. Make sure your kids know to question any sudden or unusual request, and always bring it to you for verification before taking any action.<br></li>
+
+
+
+<li><strong>Gaming &amp; app-related hazards: </strong>Your son’s gaming buddy asks to move their conversation to a private app. Seems harmless enough, but is this someone your son really knows? Gaming sites are often part of a child’s social life, and that’s exactly why they’re a popular place for scams. Kids get urged to make in-game purchases that run up mom and dad’s credit card bills. They get invites to unfamiliar apps and private chats that can lead to crimes like credit card theft and inappropriate contact with strangers. Scammers and predators often <a href="https://www.commonsensemedia.org/kids-action/articles/cyber-threats-lurk-in-kids-gaming-what-parents-should-know" target="_blank" rel="noreferrer noopener">target kids</a> through chat features and build trust so they can take advantage of them, both personally and financially. Remind your children that not everyone they meet online is who they say they are. For their safety, they should only trust the friends they actually know IRL (in real life).<br></li>
+
+
+
+<li><strong>Social media dangers:</strong><br>
+<ul class="wp-block-list">
+<li><strong>Oversharing personal information:</strong> Your child’s classmate screenshots a private message and shares it on social media. It’s a seemingly small act that can have lasting consequences, from public embarrassment to <a href="https://www.pewresearch.org/internet/2022/12/15/teens-and-cyberbullying-2022/" target="_blank" rel="noreferrer noopener">cyberbullying</a>. One of the biggest perils of social media can be oversharing personal details. Location tracking and location tagging can expose sensitive information like addresses, schools and current locations. Talk with your kids about keeping private information private by being careful who they chat with and by using location sharing and tagging wisely.<br></li>
+
+
+
+<li><strong>Negative mental health effects</strong>: While there are many rewards to social media, excessive use can have a negative effect on your child’s <a href="https://www.hopkinsmedicine.org/health/wellness-and-prevention/social-media-and-mental-health-in-children-and-teens#:~:text=The%20advisory%20indicates%20that%20frequent,to%20social%20punishments%20and%20rewards." target="_blank" rel="noreferrer noopener">mental health</a>. Too much time spent scrolling can lead to social isolation, lack of sleep and lack of outdoor activity. Be sure to talk with you kids about creating healthy digital habits, which includes regular breaks from devices<strong>.</strong></li>
+</ul>
+</li>
+
+
+
+<li><strong>Academic integrity issues: </strong>With AI use on the rise, it’s only fair to expect your kids will use ChatGPT or another AI tool to help with their homework. But it’s important to explain that while AI can be used to help them study, it shouldn’t do their work for them. As AI tools become more sophisticated, so do detection tools that identify plagiarism and other forms of cheating. The same goes for sharing homework or posting test answers online. Make sure your kids know that the consequences of cheating can include failing grades and disciplinary action at school. Encourage them to stay academically honest and try to offer to help them with their studies if they need it.<br></li>
+
+
+
+<li><strong>Sextortion &amp; online predators: </strong>The toughest topic to bring up with your children may be the most important one. Online predators are skilled at manipulation and tend to be very difficult to spot, especially for a child. <a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/sextortion" target="_blank" rel="noreferrer noopener">Sextortion</a> is a form of blackmail. It often occurs when an adult poses as a peer and builds an online relationship with a child. The scammer then pressures the child for private photos and information, which they can use for blackmail purposes. Even if a child has never shared a sexually explicit photo, they can still fall victim to sextortion. Recently, scammers have been using <a href="https://oursaferschools.co.uk/2025/01/20/sextortion-rise-of-ai/" target="_blank" rel="noreferrer noopener">AI</a> to transform an innocent photo of a child, usually taken from a social media profile, into a sexually explicit photo. They then use these very realistic photos to blackmail the victim. Have open conversations with your kids and encourage them to share details about any online relationships with you. Explain that you respect their privacy but need to have regular check-ins to keep them safe.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Your back-to-school digital security action plan</h2>
+
+
+
+<p>Want to secure your whole family’s digital life? Complete this back-to-school digital security checklist and use it to protect your entire household in under an hour.</p>
+
+
+
+<p><strong>Complete this weekend:</strong><br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Install reputable antivirus software: </strong>Keep your family cyber safe by installing antivirus software on all devices. <a href="https://www.webroot.com/us/en/home/products/total-protection?utm_source=google&amp;utm_medium=cpc&amp;utm_id=13945200&amp;utm_term=webroot%20total%20protection*&amp;gad_source=1&amp;gad_campaignid=13945200&amp;gbraid=0AAAAAD_FdWLHYphFLzRZpss3HAPa3StZV&amp;gclid=Cj0KCQjw5ubABhDIARIsAHMighaMKyPYbPOWtOj3w4twUFnldMdTx4KF99_JHSGIg1SO9W0_pMpjFj8aAk6PEALw_wcB">Webroot Total Protection</a> offers comprehensive online security and protection for up to ten devices. It includes real-time monitoring to safeguard you from bank and credit card fraud and identity theft.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Enable automatic updates</strong>: Outdated software puts you and your family at risk for cyberfraud. Protect your important digital data by enabling automatic updates for all your apps, software and devices. This ensures you always have the latest security patches, and you can schedule updates to happen overnight, so they won’t interrupt your family’s screen time.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Create a strong Wi-Fi password: </strong>Every smart home device you have, from Nest thermostats to Ring doorbell cameras, connects to your Wi-Fi and creates an opportunity for hackers to break in. Be sure to lock down your home network by creating a strong&nbsp; password for your router.<br><strong>&nbsp;</strong><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Set up encrypted connections: </strong>Consider using a <a href="https://www.pcmag.com/how-to/what-is-a-vpn-and-why-you-need-one" target="_blank" rel="noreferrer noopener">VPN</a> (Virtual Private Network) to protect your personal information. Whether you’re at home or public Wi-Fi, <a href="https://www.webroot.com/us/en/home/products/secure-vpn?srsltid=AfmBOorl0SIyqaz5bycWA9xfIowKqfS51yzDX_v77ut2ulmustgH9r6G">Webroot Secure VPN</a> provides encrypted connections for safe browsing and online transactions.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Create a backup system for schoolwork and important files: </strong>Keep all your homework, projects and other valuable files safe from online fraud with regular backups. <a href="https://www.carbonite.com/" target="_blank" rel="noreferrer noopener">Carbonite</a> offers automatic, encrypted backups and unlimited cloud storage, giving you peace of mind that your digital data is always stored safely and easy to restore.<br>&nbsp;<br><strong>Monthly tasks (general):</strong><br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Review and update passwords: </strong>Pick your child’s three most important passwords and update them together. Be sure to make them long and strong – nothing easy to guess like “12345”, “password”, or your pet’s name.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Check your child&#8217;s app downloads and permissions: </strong>Remove unnecessary apps and <a href="https://www.cisa.gov/resources-tools/training/manage-application-permissions-privacy-and-security" target="_blank" rel="noreferrer noopener">manage permissions</a> to deny unwanted data sharing.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Review parental control settings: </strong>Review <a href="https://www.internetmatters.org/parental-controls/" target="_blank" rel="noreferrer noopener">parental control settings</a> on all devices and adjust as needed.<br><strong>&nbsp;</strong><br><strong>Elementary (6-10 years)</strong><br><br><strong>This week:</strong><br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Set up strict parental controls: </strong>Make managing screen time and content access on all devices easy with <a href="https://www.webroot.com/pdf/Prd_WPC_Key_USA_0707.pdf?srsltid=AfmBOoqI7_59aD6_V29DEy8qSbH40P7-twYOIlUAdqQLZ_liyldephGl" target="_blank" rel="noreferrer noopener">Webroot Parental Controls</a>. Whether your kids are playing Minecraft or chatting on Discord, it’s an easy way to keep them safe while giving them space. It even lets you tailor different levels of protection according to their ages.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Create a &#8220;safe list&#8221;: </strong>Make a list of parent-approved websites and apps for your kids.<br><br><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Establish device-free homework zones and times: Create a <a href="https://www.verizon.com/about/parenting/digital-detox-zone" target="_blank" rel="noreferrer noopener">digital detox zone</a> in your home to disengage from all things digital &#8211; no texting, email or social media allowed!<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Practice the &#8220;ask first&#8221; rule: </strong>Teach your kids to ask a parent before accessing any new downloads or websites<br><br><strong>Ongoing:</strong><br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Monitor all online activity: </strong>Always be aware of the games, apps and sites your child uses and anyone they are communicating with.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Keep devices in common areas: </strong>Limit online activity to spaces in your home where it’s easy to keep an eye on what your kids are doing.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Teach basic online &#8220;stranger danger&#8221;: </strong>Stranger danger is just as important for online interactions as it is for in-person encounters. Be sure your child knows the <a href="https://www.scholastic.com/parents/family-life/social-emotional-learning/social-skills-for-kids/talking-about-stranger-safety.html" target="_blank" rel="noreferrer noopener">basics</a> to keep them safe in all situations.<br><strong>&nbsp;</strong><br><strong>Middle school (11-13 years)</strong><br><br><strong>This week:</strong><br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Set up password manager and teach them to use it:</strong> Strong, unique passwords are a simple, yet powerful security tool. <a href="https://www.webroot.com/us/en/home/products/premium">Webroot</a> solutions include password managers that store your credentials and credit card information and automatically fill in login information for you. Start using Webroot’s password manager with your kids and teach them how easy it is to generate secure passwords.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Configure social media privacy settings: </strong>Work together with your kids to create safe <a href="https://www.ncsc.gov.uk/guidance/social-media-how-to-use-it-safely" target="_blank" rel="noreferrer noopener">social media settings</a>.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Establish screen time limits: </strong>Create <a href="https://childmind.org/article/how-to-set-limits-on-screen-time/" target="_blank" rel="noreferrer noopener">screen time limits</a> and stick to consequences if the agreement is broken.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Create a family media agreement with clear rules: </strong>Create a <a href="https://www.commonsensemedia.org/sites/default/files/featured-content/files/common_sense_family_media_agreement.pdf" target="_blank" rel="noreferrer noopener">media-use contract</a> together and be sure to include screen time, study time, and mental health breaks.<br><br><strong>Ongoing:</strong><br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Check-in regularly about online experiences: </strong>Establish a monthly check-in to discuss what they’re seeing and experiencing online.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Monitor friend lists and follower requests: </strong>Regularly check on and manage new <a href="https://www.childnet.com/blog/how-to-help-children-and-young-people-manage-friend-requests-online/" target="_blank" rel="noreferrer noopener">friend and follower</a> requests for your children. Instill in your children to not accept friend requests from anyone they do not know IRL.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Discuss oversharing risks:</strong> Remind your kids to not share &nbsp;locations, school names, and other personal details on social media.<br>&nbsp;<br><strong>High school (14-18 Years)</strong><br><br><strong>This week:</strong><br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Transition to collaborative security:</strong> Work together with your teens to create a security plan. Discuss the need for a digital safety strategy in a matter-of-fact way, just as you’d discuss the need for driving safety rules. Review the need for <a href="https://cyberbullying.org/password-safety-top-ten-tips-for-teens" target="_blank" rel="noreferrer noopener">password security</a> and remind them how important it is that they never share their passwords with anyone but their parents or caregivers.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Discuss the impact of their digital footprint: </strong>Remind your kids that their current digital lives can have an impact on their future. Explain how social media profiles, postings, and other content can affect college applications and job opportunities and their safety.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Set up two-factor authentication: </strong>Establish and enforce <a href="https://consumer.ftc.gov/articles/use-two-factor-authentication-protect-your-accounts" target="_blank" rel="noreferrer noopener">two-factor authentication</a> (2FA) on all important accounts, such as email, banking and even social media.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Review gaming and social media privacy settings: </strong>Gaming apps are often automatically set to share personal information. Work with your teen to <a href="https://www.staysafeonline.org/articles/10-online-safety-tips-for-gaming" target="_blank" rel="noreferrer noopener">review and adjust</a> settings.<br><strong>&nbsp;</strong><br><strong>Ongoing:</strong><br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Monthly &#8220;digital wellness&#8221; conversations: </strong>Make sure to check in with your teens on the <a href="https://www.gse.harvard.edu/ideas/usable-knowledge/23/10/strengthening-teen-digital-well-being" target="_blank" rel="noreferrer noopener">emotional effects</a> of their online habits.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Discuss academic integrity: </strong>Talk about AI cheating, online ethics, and responsible use. Set boundaries about using AI tools for schoolwork.<br><br><strong><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Address dating app safety and sextortion risks: </strong>No matter how uncomfortable it may be, be straightforward with your kids about the <a href="https://www.icanhelp.net/blog/it-s-time-to-talk-to-your-teen-about-sexting?utm_term=&amp;utm_campaign=&amp;utm_source=adwords&amp;utm_medium=ppc&amp;hsa_acc=4569829022&amp;hsa_cam=22016337351&amp;hsa_grp=&amp;hsa_ad=&amp;hsa_src=x&amp;hsa_tgt=&amp;hsa_kw=&amp;hsa_mt=&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gad_source=1&amp;gad_campaignid=22022724143&amp;gbraid=0AAAAADkO-AqOnnZqJ7gbnLfIfLn4Dp49o&amp;gclid=EAIaIQobChMIzZfm0tOXjgMVqTYIBR0NmDXsEAAYASAAEgJBRfD_BwE" target="_blank" rel="noreferrer noopener">risks of sexting</a><a>.</a>&nbsp;Be sure they understand that any sexual messages or images they share digitally can live forever. Even on a platform like Snapchat, where images are supposed to be temporary, someone can screenshot, save and share messages and images with others. Just one text to the wrong person could have deeply painful and humiliating consequences.<br></p>
+
+
+
+<h2 class="wp-block-heading">Conversation starters that work</h2>
+
+
+
+<p>Starting conversations about online safety with your kids isn’t always easy, but with the right approach, you can help them build digital confidence and awareness.</p>
+
+
+
+<p><strong>For elementary kids:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>&#8220;Let&#8217;s be internet detectives today! Can you help me spot what&#8217;s real and what&#8217;s fake in these emails?&#8221;</li>
+
+
+
+<li>&#8220;Your computer is like your house &#8211; we need to lock the doors. Let me show you how.&#8221;</li>
+</ul>
+
+
+
+<p><strong>For middle schoolers:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>&#8220;I saw this news story about a kid your age who had their account hacked. Want to check if yours is secure?&#8221;</li>
+
+
+
+<li>&#8220;What would you do if someone online asked you to keep a secret from me?&#8221;</li>
+</ul>
+
+
+
+<p><strong>For high schoolers:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>&#8220;I&#8217;m not trying to spy on you, but I do want to make sure you know how to protect yourself online. Can we talk about what you&#8217;ve been seeing?&#8221;</li>
+
+
+
+<li>&#8220;Have you ever gotten a message or email that made you suspicious or uncomfortable? What did you do?&#8221;</li>
+</ul>
+
+
+
+<p><a href="https://www.webroot.com/us/en/home/products/total-protection?srsltid=AfmBOopx-Gx6q3DogkbE3AtSeYrZgQaNeldK0YV9jDY2h1MsvffXrMyc">Webroot</a> offers real-time protection to keep your family safe online without slowing down devices during homework time. With coverage for multiple devices, including phones, tablets, and computers, it’s easy to protect every member of your household.</p>
+
+
+
+<p>Cybersecurity doesn’t go on summer break, so take an hour this weekend to complete the checklist and strengthen your family’s digital defenses before the first bell rings. With Webroot’s powerful tools, you’ll get year-round protection, so you can focus on having a safe, smart, and cyber-savvy school year!</p>
+
+
+
+<p><strong>Additional resources</strong>:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.apa.org/monitor/2023/09/protecting-teens-on-social-media" target="_blank" rel="noreferrer noopener">Benefits and Risks of Technology for Teens</a></li>
+
+
+
+<li><a href="https://life.berkeley.edu/avoid-phishing-scams-aimed-students/" target="_blank" rel="noreferrer noopener">Phishing Scams Aimed at Students</a></li>
+
+
+
+<li><a href="https://www.webroot.com/blog/2025/05/28/build-strong-digital-defenses-for-your-entire-family/" target="_blank" rel="noreferrer noopener">Building Online Defenses for the Whole Family</a></li>
+
+
+
+<li><a href="https://www.webroot.com/blog/2018/11/21/keep-kids-safe-online/?srsltid=AfmBOopSC4EE7Nr0FCT9c_rN_mfPGMnAb5lS1ndZVPmgDOJK4CkRQjth">Keeping Kids Safe Online</a></li>
+
+
+
+<li><a href="https://www.isc2.org/Insights/2023/09/Back-to-School-Cybersecurity-for-Parents" target="_blank" rel="noreferrer noopener">Cybersecurity for Students</a></li>
+</ul>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/07/21/back-to-school-cyber-safety-parent-checklist/">Back-to-school cyber safety: Parent checklist</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Tips to make your summer travels cyber safe</title>
+		<link>https://www.webroot.com/blog/2025/06/17/tips-to-make-your-summer-travels-cyber-safe/</link>
+		
+		<dc:creator><![CDATA[Nicole Beaudoin]]></dc:creator>
+		<pubDate>Tue, 17 Jun 2025 13:51:32 +0000</pubDate>
+				<category><![CDATA[Webroot Blog]]></category>
+		<category><![CDATA[cyber resilience]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<guid isPermaLink="false">https://www.webroot.com/blog/?p=33921</guid>
+
+					<description><![CDATA[<p>Ready, set, pack! Summer travel season is here and that means family road trips, beach vacations, international adventures and more. While summertime is prime time for getaways, did you know it’s also prime time for online fraud? Scammers are targeting the travel industry, putting millions of travelers at increased risk. Research shows that the travel [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/06/17/tips-to-make-your-summer-travels-cyber-safe/">Tips to make your summer travels cyber safe</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Ready, set, pack! Summer travel season is here and that means family road trips, beach vacations, international adventures and more. While summertime is prime time for getaways, did you know it’s also prime time for online fraud? Scammers are targeting the travel industry, putting millions of travelers at increased risk. Research shows that the travel and tourism sector <a href="https://www.securitymagazine.com/articles/99675-travel-and-tourism-sector-ranked-third-in-cyberattack-incidents?utm_source=chatgpt.com" target="_blank" rel="noreferrer noopener">ranked third</a> in cyberattacks, with nearly <a href="https://www.hotelmanagement.net/tech/report-31-hospitality-organizations-have-had-data-breach" target="_blank" rel="noreferrer noopener">31%</a> of hospitality organizations experiencing a data breach&nbsp;and a record <a href="https://www.cyberdefensemagazine.com/mitigating-the-risk-of-cybercrime-while-traveling-abroad/" target="_blank" rel="noreferrer noopener">340 million people</a> affected by cybercrimes. According to Mastercard, travel-related fraud in 2024 increased by <a href="https://www.mastercardservices.com/en/advisors/economic-consulting/insights/travel-trends-2025-purpose-driven-journeys?campaign_id=701UH00000WDjWPYA1&amp;channel=pr" target="_blank" rel="noreferrer noopener">18%</a> during the summer peak season and 28% in the winter peak season.&nbsp;</p>
+
+
+
+<h2>Why travelers are prime targets</h2>
+
+
+
+<p>Being in an unfamiliar environment can put your personal information at risk if you’re relying on public Wi-Fi networks, using shared devices, and carrying valuable personal and business data on mobile devices. Let’s be honest, when you go into “vacation mode” and start relaxing, it’s only natural that you might also start letting your guard down. Even the best trips can have stressful moments, and when you miss a flight or get lost in a new destination, it’s easy to become less vigilant about protecting your cybersecurity. This is especially true when you travel to foreign countries. In fact, <a rel="noreferrer noopener" href="https://allaboutcookies.org/international-travelers-internet-safety-survey" target="_blank">90% of international travelers</a> admit to risky tech practices while abroad. Fewer than 1 in 3 travelers (31%) protect their data with a virtual private network <a href="https://www.pcmag.com/explainers/why-you-need-a-vpn-and-how-to-choose-the-right-one" target="_blank" rel="noreferrer noopener">(VPN)</a> when traveling internationally.</p>
+
+
+
+<h2>What to know before you go</h2>
+
+
+
+<p>Believe it or not, the risks to your data security start long before your vacation begins. As soon as you start booking your trip, the cybercriminals start circling. Fraud rates in sectors associated with the early stages of trip planning increased more than <a href="https://www.mastercardservices.com/en/advisors/economic-consulting/insights/travel-trends-2025-purpose-driven-journeys?campaign_id=701UH00000WDjWPYA1&amp;channel=pr" target="_blank" rel="noreferrer noopener">12%</a> between 2023 and 2024. At a time when inflation and economic pressures are on the rise, people are looking for deep discounts, and scammers are seizing the opportunity to steal your private data and your money.</p>
+
+
+
+<ul>
+<li><strong>Fake travel websites and rental listings</strong>: When you find a killer price on a luxury cruise, a European tour or an oceanfront Airbnb, take another look before you book! Scammers use <a href="https://www.pcmag.com/articles/is-your-vacation-rental-a-scam-look-for-these-3-red-flags" target="_blank" rel="noreferrer noopener">phony offers</a>, manipulated destination photos, and fake confirmation links to lure victims into “purchasing” great travel deals. Always double check and confirm you’re dealing with a legitimate website or listing before you hand over any credit card information.</li>
+</ul>
+
+
+
+<ul>
+<li><strong>Phishing scams: </strong><a href="https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams" target="_blank" rel="noreferrer noopener">Phishing</a> scams that target travel-related platforms are on the rise. Cybercriminals pose as legitimate organizations and use fake emails, text messages and phone calls to lure you into giving up financial information. These messages often ask you to click on links that embed malicious software onto your device and steal your sensitive data. In 2024, the travel website booking.com reported a <a href="https://www.bbc.com/news/articles/c8003dd8jzeo" target="_blank" rel="noreferrer noopener">500%-900% increase</a> in travel-related phishing scams. This rise was attributed to the large number of scams using AI, making it easier for criminals to mimic trusted sources. If you get a suspicious message, call the company or go to their website and log in directly before clicking on any links.</li>
+</ul>
+
+
+
+<ul>
+<li><strong>Loyalty fraud: </strong><a href="https://www.mastercardservices.com/en/advisors/consumer-engagement-loyalty-consulting/insights/fighting-loyalty-fraud-essential" target="_blank" rel="noreferrer noopener">Loyalty fraud</a>, also known as points fraud, happens when scammers steal points or personal information from a loyalty program. The travel industry is especially vulnerable to this type of attack because so many travel-related companies, including travel agents, cruise lines, airlines and hotels, offer points programs for frequent travelers. Thieves often access loyalty accounts with credentials stolen in a data breach. Be sure to create strong passwords for your accounts and check your balances regularly.</li>
+</ul>
+
+
+
+<h2>Pre-trip security</h2>
+
+
+
+<p>Before you hit the road, help protect your digital data and devices with a few simple security practices.</p>
+
+
+
+<ul>
+<li><strong>Alert your financial institutions:</strong> Only about half of travelers <a href="https://www.cyberdefensemagazine.com/mitigating-the-risk-of-cybercrime-while-traveling-abroad/" target="_blank" rel="noreferrer noopener">(52%)</a> alert their financial institutions before traveling abroad, but it’s a powerful way to fight cybercrime. When banks and credit card companies know your travel plans, it’s much easier for them to flag any suspicious transactions.</li>
+
+
+
+<li><strong>Turn off your Bluetooth:</strong>&nbsp; Bluetooth technology automatically creates wireless connections and can give cybercriminals the ability to see what apps and websites you’re logged into. Only 44% of travelers say they make sure to turn off their Bluetooth signal, but it’s a simple way to thwart hackers. It’s also a good idea to turn off device sharing features and update your passwords before a trip.</li>
+
+
+
+<li><strong>Update your Wi-Fi setting</strong>: Joining unknown Wi-Fi networks is very risky and can open up your personal data to hackers. Since public Wi-Fi often has weak security,&nbsp; it’s important that your phone doesn’t connect to unsecured networks automatically. Make sure to go into your phone settings and disable auto-join for unknown Wi-Fi networks. It’s a simple way to add a layer of protection when you travel.</li>
+
+
+
+<li><strong>Use &#8220;Find My Device&#8221; features:</strong>&nbsp;Enable the tracking features on your devices that can locate them if they’re lost or stolen &#8211; Find My device for iOS and Find Hub for Android.</li>
+</ul>
+
+
+
+<h2>Cybersecurity travel risks</h2>
+
+
+
+<ul>
+<li><strong>Rental cars: </strong>Did you know that the simple act of syncing your phone to your rental car’s infotainment system can expose your sensitive information to cybercrime? Your phone contains all kinds of information that hackers can use, including contacts, text messages, passwords and more. Infotainment systems store your information each time you connect, and it stays there unless you manually delete it. Security experts say while <a href="https://www.cnbc.com/2024/09/25/hidden-risk-of-syncing-your-phone-to-rental-car-infotainment-system.html" target="_blank" rel="noreferrer noopener">57%</a> of people sync their phones to rental cars, only half of them take steps to remove their information. <strong>Always remember to delete your profile and data from your rental car before returning it!</strong></li>
+
+
+
+<li><strong>Screen snoopers:</strong> Be cautious of screen snoopers (aka shoulder surfers) who try to see the activity on your laptop or phone in public places like planes, airports, and restaurants. To prevent hackers from stealing your passwords and other private information, use privacy screen protectors to shield your screens from prying eyes and always stay aware of your surroundings.</li>
+
+
+
+<li><strong>Airport and hotel Wi-Fi:&nbsp; </strong>Always be wary of public Wi-Fi networks when you’re on the road. They’re often unprotected and can make it easy for cybercriminals to intercept your data.&nbsp;Poor Wi-Fi security at airports and hotels can allow hackers to swipe your credentials, lock you out of accounts, and even demand a ransom for your stolen data. To ensure safety while online on public WIFI, purchase a VPN for your devices, like Webroot’s <a href="https://www.webroot.com/us/en/home/products/secure-vpn">Secure VPN</a>.</li>
+
+
+
+<li><strong>Fake hotspot attacks</strong>:&nbsp;Fraudsters often set up <a href="https://www.equifax.co.uk/resources/identity-protection/how-fraudsters-use-wifi-hotspots-to-steal-data.html" target="_blank" rel="noreferrer noopener">fake hotspots</a> to steal your information. Sometimes they alter the name of a genuine hotspot slightly (Starbucks-Coffee instead of StarbucksCoffee) to trick you into connecting. Always double-check the full network name before logging on to a public hotspot. Also, check to see if the site is using encryption. Legitimate sites that begin with “https” protect your information and make it unreadable to hackers.</li>
+
+
+
+<li><strong>Charging stations: </strong>Public charging stations are super convenient when you’re running low on battery, but they can also pose security risks.&nbsp;Cybercriminals can install malicious software on these stations to steal your device&#8217;s data, a tactic known as <a href="https://www.fcc.gov/juice-jacking-tips-to-avoid-it" target="_blank" rel="noreferrer noopener">juice jacking</a>. Always avoid plugging directly into public charging stations and play it safe by packing your own wall chargers, car chargers and external batteries when you travel.</li>
+
+
+
+<li><strong>Business centers and airport Lounges: </strong>Business Centers and lounges typically provide desktop computers for simple tasks like checking emails or printing boarding passes. While convenient, these public computers may be risky, as attackers can plant malware or install hardware that records your keystrokes.&nbsp;When traveling, use your personal devices whenever possible.</li>
+</ul>
+
+
+
+<h2>Travel safety best practices</h2>
+
+
+
+<ul>
+<li><strong>Use Wi-Fi networks safely:</strong> Always connect using the public Wi-Fi setting, and do not enable auto-reconnect. Always confirm an HTTPS connection when browsing the internet. Avoid accessing websites that require you to supply personal data, such as social security numbers.</li>
+
+
+
+<li><strong>Avoid financial sites:</strong> Refrain from checking your personal banking apps or financial information over public Wi-Fi.</li>
+
+
+
+<li><strong>Use VPN protection:</strong> A VPN encrypts your internet connection, providing a secure channel for your data. <a href="https://www.webroot.com/us/en/home/products/secure-vpn?srsltid=AfmBOorl0SIyqaz5bycWA9xfIowKqfS51yzDX_v77ut2ulmustgH9r6G">Webroot Secure VPN</a> gives you security and peace of mind by protecting your personal information when you’re on public Wi-Fi.</li>
+
+
+
+<li><strong>Enable two-factor</strong> <strong>authentication: </strong>Use <a rel="noreferrer noopener" href="https://consumer.ftc.gov/articles/use-two-factor-authentication-protect-your-accounts" target="_blank">Two-factor Authentication</a> (TFA) on your gadgets and electronic devices. Adding an extra layer of security to your accounts can prevent unauthorized access.</li>
+
+
+
+<li><strong>Limit public posts about your location:</strong> Avoid sharing specific details about your location and travel plans on social media to prevent potential targeting by scammers.</li>
+
+
+
+<li><strong>Check mobile device settings</strong>: Adjust the screen settings on your devices to allow for a shorter automatic sleep feature. Implement screen locks, biometric security, and privacy settings for location services.</li>
+
+
+
+<li><strong>Bring portable chargers: </strong>Avoid using public charging stations by bringing your own power sources.</li>
+
+
+
+<li><strong>Install comprehensive security software:</strong> Use antivirus solutions to safeguard you from online threats, including bank fraud and identity theft. <a href="https://www.webroot.com/us/en">Webroot Total Protection offers</a> comprehensive security, including real-time threat detection and response, automatic updates, and cloud backup. Other features include Wi-Fi security monitoring, secure browsing, and password management.</li>
+</ul>
+
+
+
+<p>No matter what your summer destination, make cybersecurity part of your travel plans. From securing your Wi-Fi connection and turning off Bluetooth to enabling two-factor authentication, small steps can make a big difference. Let <a href="https://www.webroot.com/us/en/home/products/compare#see-pricing">Webroot</a> keep all your digital data safe while you’re on the go. Then all you have to worry about is remembering to turn on your out-of-office reply!</p>
+
+
+
+<p><strong>Looking for more information?</strong></p>
+
+
+
+<p><a href="https://www.ey.com/en_ca/insights/financial-services/protect-against-loyalty-scheme-fraud" target="_blank" rel="noreferrer noopener"><strong>Fighting Back Against Loyalty Fraud</strong></a></p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/security/blog/2025/03/13/phishing-campaign-impersonates-booking-com-delivers-a-suite-of-credential-stealing-malware/" target="_blank" rel="noreferrer noopener"><strong>Travel-Related Phishing</strong></a></p>
+
+
+
+<p><a href="https://www.webroot.com/blog/2025/05/05/ai-enabled-phishing-attacks-on-consumers-how-to-detect-and-protect/"><strong>Protect Yourself Against AI Phishing Attacks</strong></a></p>
+
+
+
+<p><a rel="noreferrer noopener" href="https://www.huffpost.com/entry/travel-scams-to-avoid_l_66aba87ee4b037c1f37e4561" target="_blank"><strong>Travel Scams to Watch Out For</strong></a></p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/06/17/tips-to-make-your-summer-travels-cyber-safe/">Tips to make your summer travels cyber safe</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Build strong digital defenses for your entire family</title>
+		<link>https://www.webroot.com/blog/2025/05/28/build-strong-digital-defenses-for-your-entire-family/</link>
+		
+		<dc:creator><![CDATA[Nicole Beaudoin]]></dc:creator>
+		<pubDate>Wed, 28 May 2025 18:37:34 +0000</pubDate>
+				<category><![CDATA[Webroot Blog]]></category>
+		<category><![CDATA[cyber resilience]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<guid isPermaLink="false">https://www.webroot.com/blog/?p=33889</guid>
+
+					<description><![CDATA[<p>The month of June is a time for fun in the sun and a break from the school year, but did you know it’s also the perfect time to step up your family’s online security? June is Internet Safety Month, a yearly reminder to strengthen your defenses against online threats. In today’s hyper-connected world, we [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/05/28/build-strong-digital-defenses-for-your-entire-family/">Build strong digital defenses for your entire family</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>The month of June is a time for fun in the sun and a break from the school year, but did you know it’s also the perfect time to step up your family’s online security? June is <a rel="noreferrer noopener" href="https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online#:~:text=The%20U.S.%20Senate%20first%20designated,safety%2C%20especially%20among%20young%20people." target="_blank">Internet Safety Month</a>, a yearly reminder to strengthen your defenses against online threats. In today’s hyper-connected world, we use the internet for just about everything, from shopping to banking to streaming and work. That goes for your kids as well. Many of their favorite activities, including gaming and connecting with friends on social media, are connected to the internet.&nbsp; While all this access means added convenience, it also means constant threats to your family’s online safety.</p>
+
+
+
+<p>From <a rel="noreferrer noopener" href="https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams" target="_blank">phishing</a> scams to <a rel="noreferrer noopener" href="https://www.ibm.com/think/topics/malware" target="_blank">malware</a>, hackers are constantly looking for ways to exploit weaknesses in cybersecurity systems and software. Their goal is always the same: to get access to <a href="https://www.ibm.com/think/topics/pii" target="_blank" rel="noreferrer noopener">personal data</a> and use it for profit. The rising numbers tell the story. In 2024, the FBI’s Internet Crime Complaint Center (IC3) received more than <a rel="noreferrer noopener" href="https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf" target="_blank">850,000 cybercrime complaints</a>, with reported losses exceeding $10.3 billion. This is partly due to the increase in data breaches. Studies show that <a rel="noreferrer noopener" href="https://www.pewresearch.org/internet/2017/01/26/1-americans-experiences-with-data-security/" target="_blank">51%</a> of Americans report they’ve been victims of a data breach, and 64% say they’ve changed their online behavior for fear of escalating online threats like <a rel="noreferrer noopener" href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/ransomware" target="_blank">ransomware</a> and <a rel="noreferrer noopener" href="https://consumer.ftc.gov/articles/what-know-about-identity-theft" target="_blank">identity theft</a>.</p>
+
+
+
+<h2>Keep summer screen time safe</h2>
+
+
+
+<p>It’s not just adults getting targeted online. Children and teens are increasingly exposed to scams (even extortion scams), cyberbullying, and inappropriate content—especially during summer when screen time surges. A recent Pew Research study found that&nbsp;<a href="https://www.pewresearch.org/internet/2022/08/10/teens-social-media-and-technology-2022/" target="_blank" rel="noreferrer noopener">45% of teens</a> are online almost constantly. So how do you let your kids enjoy their screens safely? <a href="https://www.webroot.com/us/en/home/products/total-protection">Webroot Total Protection</a>&nbsp;and&nbsp;<a href="https://www.webroot.com/us/en/home/products/essentials">Webroot Essentials</a>&nbsp;offer <a href="https://www.webroot.com/pdf/Prd_WPC_Key_USA_0707.pdf?srsltid=AfmBOoqI7_59aD6_V29DEy8qSbH40P7-twYOIlUAdqQLZ_liyldephGl" target="_blank" rel="noreferrer noopener">parental controls</a> that make it easy to manage your children’s online activity and content access. You can block specific websites, filter out inappropriate content and set daily limits on computer time. You can also monitor what sites your kids visit and interact with, and even tailor different levels of protection for each child. Whether your kids are watching YouTube, chatting on Discord, or gaming with friends, it’s a simple way to keep them safe without having to hover over them every time they’re online.&nbsp;</p>
+
+
+
+<h2>Protect every device</h2>
+
+
+
+<p>As we spend more time on our mobile devices, cybercriminals are following suit. A recent security report shows that <a href="https://www.rsa.com/wp-content/uploads/rsa-2023-id-iq-report.pdf" target="_blank" rel="noreferrer noopener">70%</a> of fraud is now carried out through mobile channels. From phones and tablets to laptops, the mobile devices your family relies on daily are brimming with personal data. Now more than ever, we need to take steps to protect ourselves and our family. <a href="https://www.webroot.com/us/en/home/products/essentials">Webroot Essentials</a> provides multi-device protection with real-time threat intelligence. Whether you’re on Android, iOS, Windows or Mac, all the devices in your household are constantly safeguarded against the latest online threats.</p>
+
+
+
+<h2>Strengthen your password security</h2>
+
+
+
+<p>Are you still using passwords like your dog’s name and 123? And what about your kids? Chances are their Roblox passwords aren’t as tough to hack as they should be. If there’s one weak link in most people’s security, it’s their passwords. Cybercriminals know that, and they’re taking full advantage. In fact, the&nbsp;2025 Verizon Data Breach Investigations Report&nbsp;found <a href="https://www.verizon.com/business/resources/reports/dbir/" target="_blank" rel="noreferrer noopener">81%</a> of data breaches&nbsp;were caused by compromised passwords. Here are some tips to keep all your family’s passwords secure.</p>
+
+
+
+<ul>
+<li><strong>Make it complicated:</strong> It’s important to create long and complex passwords and avoid using anything that’s easy to guess. That means no “Password” or “123456”. It also means no pet names or kid’s names, since hackers can often find those details on social media.</li>
+
+
+
+<li>&nbsp;<strong>Don’t recycle:</strong> Never use the same login for more than one account. It may be easier to remember, but if your username and password for one account are exposed in a data breach, hackers can use them to try and break into all your other accounts.</li>
+
+
+
+<li><strong>Use a password manager</strong>: Let a&nbsp;password manager&nbsp;save you some headaches by doing the hard work for you. <a href="https://www.webroot.com/us/en/home/products/premium">Webroot</a> solutions include password managers that store credentials and credit card information and automatically fill in login information, so the whole family can stay secure without having to remember every login. Be careful storing your credit card information on shared devices. You don’t want a shipment of <a href="https://apnews.com/article/lollipop-delivery-kentucky-home-71775d424d9f9f3dcae49b1fbecdc216" target="_blank" rel="noreferrer noopener">70,000 lollipops at your door.</a></li>
+</ul>
+
+
+
+<h2>Defend against social engineering scams</h2>
+
+
+
+<p>It’s important to stay aware of the latest online threats. <a href="https://www.ibm.com/think/topics/social-engineering" target="_blank" rel="noreferrer noopener">Social engineering</a> scams are designed to gain your trust and then trick you into sharing sensitive details by clicking on fake links or downloading malicious software. The most common type of social engineering is phishing. In a phishing attack, hackers pretend to be someone you trust and use fraudulent emails, texts and websites to try and steal personal information.</p>
+
+
+
+<p>Scammers often use&nbsp;phishing to target children. They pose as friends, influencers, or game platforms to trick them into clicking fake links and handing over details like credit card numbers. These scams often start with an offer of an exciting reward or a prize. Take some time to talk with your kids about these common scams.</p>
+
+
+
+<ul>
+<li><strong>Fake game reward scams:</strong> Kids are offered free in-game currency on a popular platform like <a href="https://www.stealthgaming.net/blog/fortnite-scams/" target="_blank" rel="noreferrer noopener">Fortnite</a>, then asked to click phony links and provide sensitive details. It’s important to remind your children to redeem rewards through official game platforms only and never enter login or payment information into random pop-ups or suspicious links.</li>
+
+
+
+<li><strong>Social media impersonation scams:</strong> Scammers create <a rel="noreferrer noopener" href="https://www.forbes.com/sites/bernardmarr/2023/04/07/the-dark-side-of-technology-navigating-the-threat-of-digital-impersonation/" target="_blank">fake social media profiles</a> to pose as a friend, classmate, or influencer, and use stolen photos or AI-generated content to build seemingly legitimate profiles. The goal is to trick kids into clicking dangerous links or downloading malware. Make sure your children know that even if someone looks familiar, they may not be who they say they are.</li>
+
+
+
+<li><strong>Friendship and romance scams:</strong> A scammer builds an <a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/romance-scams" target="_blank" rel="noreferrer noopener">emotional connection</a> with a child, then starts asking for sensitive info like Social Security numbers, photos, or money. Remind your kids that if someone won’t use video chat or meet in person, they’re probably not legitimate. Also remind your children, adding people to your social media friends group</li>
+
+
+
+<li><strong>Influencer giveaway scams: </strong>Fake influencer accounts host <a rel="noreferrer noopener" href="https://consumer.ftc.gov/consumer-alerts/2023/11/slow-your-scroll-spot-and-avoid-social-media-giveaway-scams" target="_blank">phony contests</a> and message “winners” asking for a fee or bank account details. Remind your kids that they should only follow verified social media accounts, and that a real contest won’t ask them to pay to redeem a prize.</li>
+</ul>
+
+
+
+<h2>Secure your home network</h2>
+
+
+
+<p>Home security means more than just deadbolts and alarms. With smart TVs, video doorbells, and wireless thermostats, our homes are more connected than ever. While all these Internet of Things (IoT) devices making our lives more convenient, each one is a potential entry point for hackers. <a href="https://www.webroot.com/us/en/home/products/secure-vpn?srsltid=AfmBOoquSGguQ5oc8MEA0uQ_49I_ggBa1QaL9VxmOHOIrglKrkFSDGV-">Webroot Secure VPN</a> provides encrypted connections for safe browsing at home. When your family is on the go, it protects your online privacy on unsecured networks and shields your personal information from cyberthieves.</p>
+
+
+
+<h2>Internet safety checklist</h2>
+
+
+
+<ul>
+<li>Update all your operating systems and applications to the latest versions &#8211; make sure to do the same for your kids.</li>
+
+
+
+<li>Enable automatic updates for software and security for the entire family.</li>
+
+
+
+<li>Run a full system scan to detect any existing malware on all devices in your household.</li>
+
+
+
+<li>Enable multi-factor authentication on all critical accounts.</li>
+
+
+
+<li>Create unique passwords for each online account.</li>
+
+
+
+<li>Change passwords for your family’s most important accounts often, such as banking, email, and social media.</li>
+
+
+
+<li>Review settings on all social media accounts and make sure all kids’ profiles are private.</li>
+
+
+
+<li>Check app permissions, especially on your kids’ devices.</li>
+
+
+
+<li>Clear all browser cookies and caches monthly.</li>
+
+
+
+<li>Be cautious with suspicious links or unknown senders. Be sure the whole family knows to verify sender addresses before responding to requests for information or clicking any links.</li>
+
+
+
+<li>Consider comprehensive online security with Webroot Total Protection, which includes antivirus and identity protection, unlimited cloud backup, and up to $1 million in identity theft expense reimbursement. Get protection for up to ten devices and peace of mind that your family’s digital lives are secure.</li>
+</ul>
+
+
+
+<p>Cybercriminals never take a break and neither should you. Internet Safety Month is the perfect opportunity to step up the digital safety of your entire household. And remember &#8211; online security isn’t just an annual event. Your sensitive data deserves year-round protection, and you can get it with family-friendly solutions from <a href="https://www.webroot.com/us/en/home">Webroot</a>. Don’t wait for a data breach or other disaster to take action.&nbsp;Keep your kids safe and your data secure by strengthening your digital defenses today!</p>
+
+
+
+<h2>Looking for more information?</h2>
+
+
+
+<p><a href="https://www.cbsnews.com/newyork/news/top-3-online-scams-teens-and-parents-should-know-about-plus-how-to-avoid-them/" target="_blank" rel="noreferrer noopener"><strong>Avoiding Scams that Target Kids and Teens</strong></a></p>
+
+
+
+<p><a href="https://sopa.tulane.edu/blog/guide-to-protecting-young-online-gamers" target="_blank" rel="noreferrer noopener"><strong>Protecting Young Online Gamers</strong></a></p>
+
+
+
+<p><a href="https://www.pewresearch.org/internet/wp-content/uploads/sites/9/2023/10/PI_2023.10.18_Data-Privacy_FINAL.pdf" target="_blank" rel="noreferrer noopener"><strong>How Americans View Data Privacy</strong></a></p>
+
+
+
+<p><a href="https://www.ssa.gov/pubs/EN-05-10064.pdf" target="_blank" rel="noreferrer noopener"><strong>Social Security Numbers and Identity Theft</strong></a></p>
+
+
+
+<p><a href="https://www.webroot.com/blog/2025/05/05/ai-enabled-phishing-attacks-on-consumers-how-to-detect-and-protect/"><strong>Protect Yourself from AI-Enabled Phishing</strong></a></p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/security/business/security-101/what-is-phishing?ef_id=_k_Cj0KCQjww-HABhCGARIsALLO6Xz9qAQ4y9yY81Gy0y9ktYaINjunWMbpbqxLZ0bcdodKCG1W0GdlAfsaAjZpEALw_wcB_k_&amp;OCID=AIDcmmdamuj0pc_SEM__k_Cj0KCQjww-HABhCGARIsALLO6Xz9qAQ4y9yY81Gy0y9ktYaINjunWMbpbqxLZ0bcdodKCG1W0GdlAfsaAjZpEALw_wcB_k_&amp;gad_source=1&amp;gad_campaignid=14495145498&amp;gbraid=0AAAAADcJh_vOoFofGIdWB2HsTnDYl49f7&amp;gclid=Cj0KCQjww-HABhCGARIsALLO6Xz9qAQ4y9yY81Gy0y9ktYaINjunWMbpbqxLZ0bcdodKCG1W0GdlAfsaAjZpEALw_wcB" target="_blank" rel="noreferrer noopener"><strong>Common Types of Phishing Attacks</strong></a></p>
+
+
+
+<p><a href="https://www.webroot.com/blog/2017/09/01/password-manager/"><strong>Why Use a Password Manager?</strong></a><strong></strong></p>
+
+
+
+<p><a href="https://www.webroot.com/blog/2025/04/04/identity-management-day-safeguarding-your-digital-identity/"><strong>Defending Your Digital Identity from Evolving Threats</strong></a><strong></strong></p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/05/28/build-strong-digital-defenses-for-your-entire-family/">Build strong digital defenses for your entire family</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Mobile security matters: Protecting your phone from text scams</title>
+		<link>https://www.webroot.com/blog/2025/05/09/mobile-security-matters-protecting-your-phone-from-text-scams/</link>
+		
+		<dc:creator><![CDATA[Nicole Beaudoin]]></dc:creator>
+		<pubDate>Fri, 09 May 2025 15:13:10 +0000</pubDate>
+				<category><![CDATA[Webroot Blog]]></category>
+		<category><![CDATA[text scam]]></category>
+		<category><![CDATA[texting scam]]></category>
+		<guid isPermaLink="false">https://www.webroot.com/blog/?p=33855</guid>
+
+					<description><![CDATA[<p>It all starts so innocently. You get a text saying&#160;“Your package couldn’t be delivered. Click here to reschedule.”&#160; Little do you know, clicking that link could open the door for scammers to steal your identity, empty your bank account, or even plant malicious software (malware) on your device. Unless you know what to look out [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/05/09/mobile-security-matters-protecting-your-phone-from-text-scams/">Mobile security matters: Protecting your phone from text scams</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>It all starts so innocently. You get a text saying&nbsp;<em>“Your package couldn’t be delivered. Click here to reschedule.”</em>&nbsp; Little do you know, clicking that link could open the door for scammers to steal your identity, empty your bank account, or even plant <a href="https://consumer.ftc.gov/articles/malware-how-protect-against-detect-and-remove-it" target="_blank" rel="noreferrer noopener">malicious software</a> (malware) on your device. Unless you know what to look out for, one little tap on the wrong text could cost you money and peace of mind.</p>
+
+
+
+<p>Text scams, also known as <a rel="noreferrer noopener" href="https://www.fcc.gov/avoid-temptation-smishing-scams" target="_blank">smishing</a> (SMS + <a rel="noreferrer noopener" href="https://www.ibm.com/think/topics/phishing" target="_blank">phishing</a>), are on the rise. These fraudulent  messages are sent by cybercriminals and are showing up more often and getting harder to spot. The goal is to get you to give up sensitive personal details that can be used to hack into your accounts, and they are alarmingly successful. The Federal Trade Commission reports that in 2024, consumers lost <a rel="noreferrer noopener" href="https://www.ftc.gov/news-events/news/press-releases/2025/04/new-ftc-data-show-top-text-message-scams-2024-overall-losses-text-scams-hit-470-million" target="_blank">$470 million</a> to scams that started with text messages. </p>
+
+
+
+<h2 class="wp-block-heading">Watch out for these common scams</h2>
+
+
+
+<p><strong>Package delivery alerts</strong></p>
+
+
+
+<p>Package delivery alerts are the most common text scam. They often impersonate trusted delivery services like UPS, FedEx, and USPS. They claim there’s a delivery&nbsp;problem, then try to trick you into acting quickly by creating a sense of urgency. Because so many of us shop online and have packages delivered regularly, this is a scam that’s easy to fall for. <strong>Instead of clicking a link in a suspicious text, go directly to the delivery service’s website and enter your tracking number manually.</strong></p>
+
+
+
+<p><strong><em>Tip</em></strong><em>: </em>Messages like “Click now to avoid fees” are a red flag that you should make you think twice.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="https://blog-en.webroot.com/wp-content/uploads/2025/05/09084733/text-scam-2.png"><img decoding="async" width="615" height="314" src="https://blog-en.webroot.com/wp-content/uploads/2025/05/09084733/text-scam-2.png" alt="Screenshot of mobile phone screen displaying an example of a package delivery scam." class="wp-image-33871" srcset="https://blog-en.webroot.com/wp-content/uploads/2025/05/09084733/text-scam-2.png 615w, https://blog-en.webroot.com/wp-content/uploads/2025/05/09084733/text-scam-2-300x153.png 300w" sizes="(max-width: 615px) 100vw, 615px" /></a><figcaption class="wp-element-caption">Photo credit: TextMagic</figcaption></figure></div>
+
+
+<p><strong>Unpaid toll alerts</strong></p>
+
+
+
+<p>These scams claim you have an <a href="https://www.cnbc.com/2025/03/19/unpaid-tolls-scam-texts.html" target="_blank" rel="noreferrer noopener">overdue toll charge</a> and demand that you click a link to make a payment or you’ll be hit with late charges. Don’t do it! These scammers are trying to gather personal data like your driver’s license number and credit card information so they can steal from you. Remember, fake texts are often sent from phone numbers or email addresses you do not recognize, so never click on a link sent from an unknown number.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="https://blog-en.webroot.com/wp-content/uploads/2025/05/09084404/image.jpg"><img decoding="async" loading="lazy" width="226" height="274" src="https://blog-en.webroot.com/wp-content/uploads/2025/05/09084404/image.jpg" alt="Mobile phone screen displaying example of a text scam involving a toll violation." class="wp-image-33863"/></a></figure></div>
+
+
+<p><strong>Bank account alerts</strong></p>
+
+
+
+<p>These scams look like they’re from your bank and claim there’s an issue with your funds. &nbsp;You’re asked for sensitive information like bank logins and passwords, which can be used to drain your bank account. They direct you to click a fake link or call a phony number to resolve it.</p>
+
+
+
+<p><strong><em>Tip:</em></strong><strong> </strong>Most major banks, including Chase, Wells Fargo and Bank of America, will never ask for personal or account information via text.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="https://blog-en.webroot.com/wp-content/uploads/2025/05/09084404/image.jpeg"><img decoding="async" loading="lazy" width="281" height="252" src="https://blog-en.webroot.com/wp-content/uploads/2025/05/09084404/image.jpeg" alt="Mobile phone screen with an example of a text scam." class="wp-image-33859"/></a><figcaption class="wp-element-caption">Photo credit: Wells Fargo</figcaption></figure></div>
+
+
+<p><strong>Wrong number texts</strong></p>
+
+
+
+<p><a href="https://www.fbi.gov/contact-us/field-offices/elpaso/news/fbi-tech-tuesday-building-a-digital-defense-against-oops-wrong-number-texts" target="_blank" rel="noreferrer noopener">Wrong number texts</a> are designed to seem like a legitimate accident. They start with a simple text like “Hi Mary, are we still on for Thursday?” and you respond “Sorry, wrong number.” The unknown person then tries to start up a friendly conversation, with the goal of establishing a connection and sometimes even cultivating a romantic relationship. It’s common for these cybercriminals to try and con you into a fraudulent investment like a <a href="https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-and-scams" target="_blank" rel="noreferrer noopener">cryptocurrency scam</a>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="https://blog-en.webroot.com/wp-content/uploads/2025/05/09084404/image.png"><img decoding="async" loading="lazy" width="431" height="162" src="https://blog-en.webroot.com/wp-content/uploads/2025/05/09084404/image.png" alt="Text showing an example of a text scam involving a fake wrong number." class="wp-image-33865" srcset="https://blog-en.webroot.com/wp-content/uploads/2025/05/09084404/image.png 431w, https://blog-en.webroot.com/wp-content/uploads/2025/05/09084404/image-300x113.png 300w" sizes="(max-width: 431px) 100vw, 431px" /></a></figure></div>
+
+
+<p><strong>Task scams</strong></p>
+
+
+
+<p>Task scams are fake job opportunities. You get a text promising online work with lucrative pay and flexibility. The offer may entail fun tasks like getting paid to shop, but the purpose is to lure you into sharing personal information like your social security number, which can be used to steal your identity. As always, if something sounds too good to be true, it probably is.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="https://blog-en.webroot.com/wp-content/uploads/2025/05/09084404/image-1.png"><img decoding="async" loading="lazy" width="408" height="191" src="https://blog-en.webroot.com/wp-content/uploads/2025/05/09084404/image-1.png" alt="Text showing an example of a text scam involving a fake job recruiter." class="wp-image-33869" srcset="https://blog-en.webroot.com/wp-content/uploads/2025/05/09084404/image-1.png 408w, https://blog-en.webroot.com/wp-content/uploads/2025/05/09084404/image-1-300x140.png 300w" sizes="(max-width: 408px) 100vw, 408px" /></a></figure></div>
+
+
+<p><strong>Prize or gift card scams</strong></p>
+
+
+
+<p>It’s easy to feel lucky if you get a text claiming you’ve won a prize, a gift card or other type of reward. Sadly, many people fall for this type of<a href="https://consumer.ftc.gov/consumer-alerts/2023/04/are-you-really-lucky-winner-spot-prize-scams" target="_blank" rel="noreferrer noopener"> fraud</a>. These messages appear to be from legitimate retailers like Amazon, Walmart or Target. They say things like “You’ve been selected for a $100 gift card!” and tell you to click a link to claim your prize. These scams often work because they generate a sense of excitement and urgency, but they’re just another way to trick you into clicking and entering personal or payment information. In reality, there’s no prize &#8211; just a phishing site or malware ready to steal your data.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="https://blog-en.webroot.com/wp-content/uploads/2025/05/09084404/image-1.jpg"><img decoding="async" loading="lazy" width="624" height="318" src="https://blog-en.webroot.com/wp-content/uploads/2025/05/09084404/image-1.jpg" alt="Screenshot of mobile phone screen displaying an example of a fake prize win." class="wp-image-33867" srcset="https://blog-en.webroot.com/wp-content/uploads/2025/05/09084404/image-1.jpg 624w, https://blog-en.webroot.com/wp-content/uploads/2025/05/09084404/image-1-300x153.jpg 300w" sizes="(max-width: 624px) 100vw, 624px" /></a><figcaption class="wp-element-caption">Photo credit: TextMagic</figcaption></figure></div>
+
+
+<h2 class="wp-block-heading">Mobile security checklist</h2>
+
+
+
+<p>Most of us use our phones for&nbsp;everything &#8211; banking, shopping, messaging, and storing personal information. That makes them a treasure trove of sensitive data and a high-value target for cyberthieves. Here are some tips to help you strengthen your mobile security against text scams and other types of fraud.</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Don’t click: </strong>If you get a text from an unknown sender, do not click on any links. Reach out to the company using a confirmed phone number or website to check if it’s a legitimate message.</li>
+
+
+
+<li><strong>Don’t share:</strong> Never share any of your personal or financial information via text. Remember that if someone is asking you to do this, they’re most likely a scammer.</li>
+
+
+
+<li><strong>Fight the fear:</strong> Be wary about responding to a text that sounds urgent or threatening. Scammers love to take advantage by creating a sense of fear.</li>
+
+
+
+<li><strong>Stay updated: </strong>By keeping your phone’s software up to date, you’ll always have the latest security patches. This is an important tool for protecting against viruses and other malware.</li>
+
+
+
+<li><strong>Stay vigilant:</strong>&nbsp;If something seems too good to be true, it likely is. You probably haven&#8217;t won that latest iPhone, especially if you don&#8217;t remember entering a contest. Always take a moment to think critically before acting.</li>
+
+
+
+<li><strong>Use strong passwords: </strong>Long, complex and unique passwords are a cornerstone of mobile security. <a href="https://www.webroot.com/us/en/home/products/essentials?srsltid=AfmBOopNCZE-YihISQy5i-dANkPqONgmNI9VlEwQ65o9dZj_n-blLH6q">Webroot</a> solutions include password managers that help you stay safe while simplifying your life.</li>
+
+
+
+<li><strong>Enable two-factor authentication (2FA): </strong>Use <a href="https://consumer.ftc.gov/articles/use-two-factor-authentication-protect-your-accounts" target="_blank" rel="noreferrer noopener">two-factor authentication</a> on your accounts, especially for banking and email.</li>
+
+
+
+<li><strong>Scan regularly: </strong>Scan your device on a regular basis with trusted security software. Whether you&#8217;re using Android or iOS, <a href="https://www.webroot.com/us/en/home/products/mobile">Webroot Mobile Security</a> offers automatic scanning of apps and updates, as well as real-time protection against phishing and malicious websites.</li>
+
+
+
+<li><strong>Use a VPN: </strong>Consider usinga <a href="https://www.pcmag.com/how-to/what-is-a-vpn-and-why-you-need-one" target="_blank" rel="noreferrer noopener">VPN</a> (Virtual Private Network) to protect your personal information when you’re on public Wi-Fi. <a href="https://www.webroot.com/us/en/home/products/secure-vpn?srsltid=AfmBOorl0SIyqaz5bycWA9xfIowKqfS51yzDX_v77ut2ulmustgH9r6G">Webroot Secure VPN</a> provides safe browsing and online transactions for enhanced privacy and data security.</li>
+</ul>
+
+
+
+<p>Text scams are a sneaky way for hackers to get access on your private data, but you don’t have to fall prey to them. By staying alert to the subtle signs of text scams and arming yourself with the security of <a href="https://www.webroot.com/us/en/home">Webroot</a>, you can stay safe from the latest mobile threats. Browse, shop, and bank with confidence, knowing that your phone — and everything on it — is protected.</p>
+
+
+
+<p><strong>Introducing Text Scams Detection on Webroot Mobile Security for Android!</strong></p>
+
+
+
+<p>Stay one step ahead of scammers with Webroot&#8217;s latest feature: Text Scams Detection. Our advanced technology scans incoming text messages for suspicious links and fraudulent content, protecting you from phishing attempts and malicious schemes like fake delivery tracking links or fraudulent bank notifications. With real-time alerts and flagging, you can confidently navigate your digital world without the fear of falling victim to text scams. Download Webroot Mobile Security for Android today and experience peace of mind like never before!</p>
+
+
+
+<p>Explore Webroot plans or Download Mobile Security for Android now from&nbsp;<a rel="noreferrer noopener" href="https://account.webroot.com/account/logon?dest=cp&amp;returnUrl=https%3a%2f%2fmyaccount.webroot.com%2f" target="_blank">My Account</a>.</p>
+
+
+
+<p><strong>Looking for more information and solutions?</strong></p>
+
+
+
+<p><a href="https://www.rd.com/article/scam-text-messages/" target="_blank" rel="noreferrer noopener"><strong>Top Text Scams</strong></a></p>
+
+
+
+<p><a href="https://www.newsweek.com/whats-all-oddly-personal-phishing-texts-1999992" target="_blank" rel="noreferrer noopener"><strong>The Strategy Behind Phishing Texts</strong></a></p>
+
+
+
+<p><a href="https://consumer.ftc.gov/articles/how-recognize-and-report-spam-text-messages" target="_blank" rel="noreferrer noopener"><strong>How to Spot and Report Text Scams</strong></a></p>
+
+
+
+<p><a href="https://www.npr.org/2025/03/13/nx-s1-5326090/dont-click-here-to-pay-your-tolls-how-you-can-stop-spam-texts-smishing" target="_blank" rel="noreferrer noopener"><strong>Putting a Stop to Spam Texts</strong></a></p>
+
+
+
+<p><a href="https://www.ncoa.org/article/text-message-scams-how-to-identify-report-and-help-protect-yourself/" target="_blank" rel="noreferrer noopener"><strong>Protect Yourself from Text Scams</strong></a></p>
+
+
+
+<p><a href="https://www.webroot.com/blog/2024/11/21/do-you-actually-need-a-vpn-your-guide-to-staying-safe-online/"><strong>The Value of a VPN</strong></a><strong></strong></p>
+
+
+
+<p><a href="https://www.webroot.com/blog/2025/02/21/is-your-whole-digital-life-protected-4-ways-to-address-common-vulnerabilities/"><strong>Protecting Your Digital Life</strong></a></p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/05/09/mobile-security-matters-protecting-your-phone-from-text-scams/">Mobile security matters: Protecting your phone from text scams</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>AI-enabled phishing attacks on consumers: How to detect and protect</title>
+		<link>https://www.webroot.com/blog/2025/05/05/ai-enabled-phishing-attacks-on-consumers-how-to-detect-and-protect/</link>
+		
+		<dc:creator><![CDATA[Nicole Beaudoin]]></dc:creator>
+		<pubDate>Mon, 05 May 2025 15:39:31 +0000</pubDate>
+				<category><![CDATA[Webroot Blog]]></category>
+		<guid isPermaLink="false">https://www.webroot.com/blog/?p=33843</guid>
+
+					<description><![CDATA[<p>Phishing attacks are a significant threat to consumers, with cybercriminals constantly evolving their tactics to deceive unsuspecting individuals. The integration of artificial intelligence (AI) into phishing schemes has made these attacks even more sophisticated and challenging to detect. AI-enabled phishing attacks seriously threaten consumers and their data. The volume of these attacks is staggering with [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/05/05/ai-enabled-phishing-attacks-on-consumers-how-to-detect-and-protect/">AI-enabled phishing attacks on consumers: How to detect and protect</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Phishing attacks are a significant threat to consumers, with cybercriminals constantly evolving their tactics to deceive unsuspecting individuals. The integration of artificial intelligence (AI) into <a href="https://www.webroot.com/us/en/resources/tips-articles/what-is-phishing">phishing schemes</a> has made these attacks even more sophisticated and challenging to detect.</p>
+
+
+
+<p>AI-enabled phishing attacks seriously threaten consumers and their data. The volume of these attacks is staggering with an <a href="https://aag-it.com/the-latest-phishing-statistics/" target="_blank" rel="noreferrer noopener">estimated 3.4 billion spam emails sent daily.</a> The financial impact of phishing attacks amount to over $52 million so far in 2025. The threat of AI phishing attacks is pervasive, so let’s get prepared. Find out how AI enhances phishing attacks on consumers and how you can learn to identify and protect yourself.</p>
+
+
+
+<h2 class="wp-block-heading">How AI enhances phishing attacks</h2>
+
+
+
+<p><strong>1.&nbsp;</strong><a href="https://www.microsoft.com/en-us/security/business/security-101/what-is-phishing" target="_blank" rel="noreferrer noopener"><strong>Personalized phishing</strong></a>&nbsp;</p>
+
+
+
+<p>AI algorithms can analyze vast amounts of data from social media, public records, and other online sources to create highly personalized phishing messages. By understanding the target&#8217;s interests, behaviors, and communication patterns, AI can craft messages that appear more legitimate and relevant, increasing the likelihood of the target falling for the scam.</p>
+
+
+
+<p>For example, you receive a text message from your bank using your name and asking you to authorize a recent purchase that happens to be from Amazon or another retailer you frequent. To authorize the purchase, you need to click an obfuscated link that &nbsp;will bring you to a fake website that mimics your bank’s website. When you enter your information, it will be stolen. &nbsp;</p>
+
+
+
+<p><strong>2.&nbsp;Automated phishing campaigns</strong></p>
+
+
+
+<p>AI can automate the process of creating and sending phishing emails, allowing cybercriminals to launch large-scale campaigns with minimal effort. Machine learning models can generate convincing email templates, select appropriate recipients, and even schedule the timing of emails to maximize their impact.</p>
+
+
+
+<p>Automated phishing scams usually aren’t full of personalize data, but are targeted to an audience that will think the email was meant for them.</p>
+
+
+
+<p><b>3.&nbsp;</b><strong>Deepfake</strong> <strong>technology</strong></p>
+
+
+
+<p><a href="https://www.webroot.com/blog/2024/10/01/ai-and-deepfakes-how-to-be-ai-savvy/">Deepfake technology</a>, powered by AI, can create realistic audio and video content that mimics the appearance and voice of trusted individuals. This technology can be used in phishing attacks to create fake video calls or voice messages from a CEO or other authority figures, convincing employees to transfer funds or share sensitive information.</p>
+
+
+
+<h2 class="wp-block-heading">How to detect AI-enabled phishing attacks</h2>
+
+
+
+<p><strong>1.&nbsp;Scrutinize email addresses and URLs</strong></p>
+
+
+
+<p>Always check the sender&#8217;s email address and the URLs in the email. Phishing emails often use addresses that look similar to legitimate ones, but have slight variations. Hover over links to see the actual URL before clicking. For example: info1@wellsfargo.com</p>
+
+
+
+<p><strong>2.&nbsp;Look for generic greetings</strong></p>
+
+
+
+<p>Phishing emails often use generic greetings like &#8220;<strong>Dear Customer</strong>&#8221; instead of your name. Legitimate companies usually personalize their communications.</p>
+
+
+
+<p><strong>3.&nbsp;Check for spelling and grammar errors</strong></p>
+
+
+
+<p>Many phishing emails contain spelling and grammar mistakes. While AI-generated emails are becoming more sophisticated, errors can still be a red flag.</p>
+
+
+
+<p><strong>4.&nbsp;Be wary of urgent or threatening language</strong></p>
+
+
+
+<p>Phishing emails often create a sense of urgency or fear to prompt immediate action. Be cautious of emails that threaten account suspension or demand immediate payment.</p>
+
+
+
+<p><strong>5.&nbsp;Verify unexpected attachments or links</strong></p>
+
+
+
+<p>If you receive an unexpected attachment or link, verify its legitimacy before opening it. Contact the sender through a different communication channel to confirm. Also, ensure the sender is legitimate.</p>
+
+
+
+<p><strong>6.&nbsp;Use multi-factor authentication (MFA)</strong></p>
+
+
+
+<p>Enable multi-factor authentication on your accounts. This adds an extra layer of security, making it more difficult for cybercriminals to gain access even if they obtain your login credentials.</p>
+
+
+
+<h2 class="wp-block-heading">Protecting against AI-enabled phishing attacks</h2>
+
+
+
+<p><strong>1. Advanced email filtering</strong></p>
+
+
+
+<p>Use advanced email filtering solutions that leverage AI and machine learning to detect and block phishing emails. Google blocks about <a href="https://identitytheft.org/attacks/phishing/statistics/" target="_blank" rel="noreferrer noopener">100 million phishing emails a day.</a></p>
+
+
+
+<p><strong>2.&nbsp;Regular software updates</strong></p>
+
+
+
+<p>Keep your software and systems up to date. Regular updates often include security patches that protect against known vulnerabilities.</p>
+
+
+
+<p><strong>3.&nbsp;User education and awareness</strong></p>
+
+
+
+<p>Stay informed about the latest phishing tactics and educate yourself on how to recognize phishing attempts. Awareness is a crucial defense against phishing attacks.</p>
+
+
+
+<p><strong>4. Identity protection and antivirus</strong></p>
+
+
+
+<p>Invest in all-in-one protection for your identity that includes a password manager, VPN, antivirus and even dark web monitoring. <a href="https://www.webroot.com/us/en/home/products/total-protection">Webroot’s Total Protection</a> allows you to live your life digitally without worry. &nbsp;</p>
+
+
+
+<h2 class="wp-block-heading">Stay in the know</h2>
+
+
+
+<p>AI-enabled phishing attacks represent a significant evolution in the tactics used by cybercriminals. As these attacks become more sophisticated, it is essential for consumers to adopt advanced security measures and stay vigilant. By leveraging AI for defense, investing in user education, we can better protect ourselves against the growing threat of AI-driven phishing attacks.</p>
+
+
+
+<p>To learn more about how to protect yourself and the solutions that help keep your digital life safe, visit <a href="https://www.webroot.com/us/en">Webroot</a>.</p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/05/05/ai-enabled-phishing-attacks-on-consumers-how-to-detect-and-protect/">AI-enabled phishing attacks on consumers: How to detect and protect</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Strengthen your digital defenses on World Password Day</title>
+		<link>https://www.webroot.com/blog/2025/04/30/strengthen-your-digital-defenses-on-world-password-day/</link>
+		
+		<dc:creator><![CDATA[Nicole Beaudoin]]></dc:creator>
+		<pubDate>Wed, 30 Apr 2025 21:02:17 +0000</pubDate>
+				<category><![CDATA[Threat Lab]]></category>
+		<category><![CDATA[password]]></category>
+		<category><![CDATA[password protection]]></category>
+		<guid isPermaLink="false">https://www.webroot.com/blog/?p=33823</guid>
+
+					<description><![CDATA[<p>In today’s digital world, passwords have become a necessary part of life. But even though you use them for almost everything you do online, you probably don’t give them the thought they truly deserve. May 1, 2025, is World Password Day, a reminder that passwords are the unsung heroes of cybersecurity, the first line of [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/04/30/strengthen-your-digital-defenses-on-world-password-day/">Strengthen your digital defenses on World Password Day</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>In today’s digital world, passwords have become a necessary part of life. But even though you use them for almost everything you do online, you probably don’t give them the thought they truly deserve. May 1, 2025, is <a href="https://www.daysoftheyear.com/days/password-day/" target="_blank" rel="noreferrer noopener">World Password Day</a>, a reminder that passwords are the unsung heroes of cybersecurity, the first line of defense for all your sensitive personal data. This annual event encourages you to level up your password game and strengthen your online defenses. World Password Day is more relevant than ever in today’s evolving threat landscape.</p>
+
+
+
+<p>Data breaches are on the rise, and according to the&nbsp;2024 Verizon Data Breach Investigations Report, a staggering&nbsp;<a href="https://www.verizon.com/business/resources/Te3/reports/2024-dbir-data-breach-investigations-report.pdf" target="_blank" rel="noreferrer noopener">81% of them&nbsp;</a>are linked to weak or compromised passwords. The bottom line? If you’re still relying on “Fluffy123”, you could be putting your personal information at risk. Let’s explore password-based attacks, and some steps you can take to lock down your logins, once and for all.</p>
+
+
+
+<h2 class="wp-block-heading">Threats to your passwords</h2>
+
+
+
+<p>Managing all your passwords can be a hassle. They’re easy to forget and hard to keep track of, so people tend to use and reuse simple passwords they can remember. But here’s the issue &#8211; cybercriminals are getting smarter and their attacks are only getting more sophisticated. If a scammer gains access to your personal details, they can create havoc with your finances and cause you stress for years to come. In the past, brute force attacks were the go-to method, which involved simply using trial and error to crack passwords. Today, hackers use much more complex methods &#8211; here are a few examples.</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Password phishing: </strong>In a <a href="https://www.cisco.com/site/us/en/learn/topics/security/what-is-phishing.html" target="_blank" rel="noreferrer noopener">phishing</a> attack, scammers will use emails, phone calls, or texts to pose as trusted businesses and service providers. They may send you a fake invoice to pay. They might offer you an amazing deal on an upgraded service. Sometimes they threaten to cut off a service if you don’t respond immediately. The goal is to trick you into giving up your username and password so they can access your data and steal your money. </li>
+
+
+
+<li><strong>Credential stuffing:</strong> Once hackers have your login details, they often try what’s called <a href="https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/1719167/cybersecurity-what-is-credential-stuffing/" target="_blank" rel="noreferrer noopener">credential stuffing</a> &#8211; using your stolen credentials (username and password combinations) to try and break into your other accounts. Why does this work so often? Because more than <a href="https://www.security.org/resources/online-password-strategies/" target="_blank" rel="noreferrer noopener">two in three people </a>admit they reuse passwords across multiple accounts.</li>
+
+
+
+<li><strong>Malware</strong>: <a href="https://www.webroot.com/blog/2024/10/31/nastiest-malware-2024/">Infostealer malware</a> can be used by hackers in the background to steal your personal information including your passwords. Once the malware is on your device it can search your web browsers, email clients, digital wallets, files, applications, etc. looking for sensitive information. They can even look for old forms you filled out with passwords, record your keyboard strokes, and take screenshots of your computer dashboard.  The malware then sends this information back to hackers’ servers, sometimes within seconds.  Hackers can use this type of malware for large attacks as seen by the targeted attack on <a href="https://www.wired.com/story/infostealer-malware-password-theft/" target="_blank" rel="noreferrer noopener">Snowflake customers</a>.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Password security checklist</h2>
+
+
+
+<ul class="wp-block-list">
+<li> <strong>Create strong passwords</strong><br><br><strong>Longer is stronger</strong>: Aim for passwords that are at least <a href="https://www.cisa.gov/secure-our-world/require-strong-passwords" target="_blank" rel="noreferrer noopener">16 characters </a>long. Research shows this number of characters takes exponentially longer to crack.<br><br><strong>Difficulty matters: “</strong>12345” may be an easy password to remember, but it isn’t going to keep the cybercriminals away. Create a unique mix of uppercase, lowercase, numbers, and symbols for each password.<br><br><strong>Be unpredictable: </strong>Avoid using obvious patterns and personal details that will be easy for hackers to figure out. This means no street addresses or phone numbers, and especially no personal details you might be sharing on social media.<br><br><strong><em>Did you know?</em> </strong>More than <a href="https://www.security.org/resources/online-password-strategies/" target="_blank" rel="noreferrer noopener">50% of people</a> admit to using familiar names for their passwords, such as their kid’s name or their pet’s name. 15% said they use their own first name in their passwords!<br></li>
+
+
+
+<li><strong>Change reused passwords</strong><br>If you’re reusing the same password across accounts, it’s time for a refresh. All it takes is one compromised account for a hacker to potentially unlock dozens more. Start with your most sensitive accounts, such as banking, email, and healthcare and update those first.<br><br><strong><em>Did you know?</em> </strong>According to a study by Forbes Advisor, on average, people reuse the same password for at least <a href="https://www.forbes.com/advisor/business/software/american-password-habits/" target="_blank" rel="noreferrer noopener">four accounts</a>.<br></li>
+
+
+
+<li><strong>Use multi-factor authentication</strong><br>Even if a hacker obtains your password, you can still stop them in their tracks by adding a second layer of security to your login process. <a href="https://support.microsoft.com/en-us/topic/what-is-multifactor-authentication-e5e39437-121c-be60-d123-eda06bddf661" target="_blank" rel="noreferrer noopener">Multi-factor authentication</a> (MFA) includes things like one-time codes sent to your phone or scans of biometric features, such as your face or fingerprints.<br><strong><em>Did You Know?</em> </strong>Using MFA can stop <a href="https://www.microsoft.com/en-us/security/blog/2019/08/20/one-simple-action-you-can-take-to-prevent-99-9-percent-of-account-attacks/" target="_blank" rel="noreferrer noopener">over 99%</a> of account compromise attacks.<br></li>
+
+
+
+<li><strong>Consider using passphrases or passkeys</strong><br>These are two alternatives to passwords that you might want to consider.<br><br>
+<ul class="wp-block-list">
+<li>A <a href="https://www.pcmag.com/articles/forget-passwords-use-passphrases-for-extra-security" target="_blank" rel="noreferrer noopener">passphrase</a> is a string of unrelated words that’s easy to recall and tough to crack. For example, something nonsensical like “FancyGoldEmuDancing “ will be hard for a hacker to guess, but it might be easier for you to memorize than a string of numbers and symbols.<br></li>
+
+
+
+<li>A <a href="https://www.mastercard.com/news/perspectives/2024/what-is-a-passkey-here-s-everything-you-need-to-know/" target="_blank" rel="noreferrer noopener">passkey</a> is an authentication method that uses biometric data, like facial recognition or a fingerprint. It can also use a swipe pattern (a three-by-three grid of dots) or a PIN. A passkey is used across all your devices, creating a password-free login.<br><br><strong><em>Did you know?</em></strong> Not only does signing in with a passkey make your data              much more secure, it’s also <a href="https://www.biometricupdate.com/202412/passkeys-build-momentum-enabling-access-to-15-billion-online-accounts#:~:text=Microsoft%20says%20its,flow%20complete%20it.">three times faster</a> than using a conventional<br>password.<br></li>
+</ul>
+</li>
+
+
+
+<li><strong>Use a password manager</strong><br>Password managers are tools that make your life easier by doing the hard work for you. By automatically generating and storing your strong passwords, they reduce the risk of recycled or forgotten logins and provide secure access across all your devices. <a href="https://www.webroot.com/us/en/home/products/essentials"><strong>Webroot solutions</strong></a> include password managers and much more, including features like real-time phishing detection to prevent credential theft.<br><br><strong><em>Did you know?</em> </strong>Users who rely on password managers <a href="https://www.security.org/digital-safety/password-manager-annual-report/" target="_blank" rel="noreferrer noopener">are&nbsp;less likely</a> to experience identity theft or credential theft&nbsp;than those who don’t.<br></li>
+
+
+
+<li><strong>Protect your devices &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong><br>Antivirus software scans detect and defend against any virus or malicious program like malware, trojans, adware and more that might cause damage to your devices. <a href="https://www.webroot.com/us/en/home/products/compare">Webroot products</a> offer robust antivirus protection that continuously scours the internet to identify and block the latest threats.<br><br><strong><em>Did you know? </em></strong>Hackers are moving away from browser-based attacks and embedding malicious software into everyday files like documents, installers and media. <a href="https://www.opentext.com/en/media/report/2025-opentext-cybersecurity-threat-report-en.pdf" target="_blank" rel="noreferrer noopener">More than 50%</a> of all consumer malware now enters through downloads and desktop.</li>
+</ul>
+
+
+
+<p>Never forget that your passwords are the very foundation of your digital defense strategy. With cyberattacks becoming more and more sophisticated, creating strong passwords is no longer optional &#8211; it’s essential. This World Password Day, take the time to check in on your password practices. Update those old logins, enable MFA, and let <a href="https://www.webroot.com/us/en/home/products/premium">Webroot</a> do the heavy lifting. Just a few simple steps today can save you a world of trouble tomorrow.</p>
+
+
+
+<p><strong>Looking for more information and solutions</strong>?</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.webroot.com/blog/2025/02/05/passkeys-the-future-of-secure-and-seamless-authentication/">Passkeys – the key to seamless authentication</a></li>
+
+
+
+<li><a href="https://www.webroot.com/blog/2025/02/21/digital-life-protection-how-webroot-keeps-you-safe-in-a-constantly-changing-world/">Protecting your digital life</a></li>
+
+
+
+<li><a href="https://owasp.org/www-community/attacks/Credential_stuffing" target="_blank" rel="noreferrer noopener">Anatomy of a credential-stuffing attack</a></li>
+
+
+
+<li><a href="https://adminit.ucdavis.edu/tech-tips/what-password-reuse-and-why-it-security-problem" target="_blank" rel="noreferrer noopener">Dangers of password reuse</a></li>
+
+
+
+<li><a href="https://www.weforum.org/stories/2024/07/popular-passwords-cybercrime-digital-safety/" target="_blank" rel="noreferrer noopener">Picking safe passwords</a></li>
+
+
+
+<li><a href="https://www.webroot.com/blog/2024/10/31/nastiest-malware-2024/">Nastiest malware 2024</a></li>
+</ul>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/04/30/strengthen-your-digital-defenses-on-world-password-day/">Strengthen your digital defenses on World Password Day</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The danger of data breaches — what you really need to know</title>
+		<link>https://www.webroot.com/blog/2025/04/22/the-danger-of-data-breaches-what-you-really-need-to-know/</link>
+		
+		<dc:creator><![CDATA[Nicole Beaudoin]]></dc:creator>
+		<pubDate>Tue, 22 Apr 2025 15:09:56 +0000</pubDate>
+				<category><![CDATA[Threat Lab]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<guid isPermaLink="false">https://www.webroot.com/blog/?p=33809</guid>
+
+					<description><![CDATA[<p>In today’s digital world, your personal data is like cold hard cash, and that’s why cyberthieves are always looking for ways to steal it. Whether it’s an email address, a credit card number, or even medical records, your personal information is incredibly valuable in the wrong hands. For hackers, breaking into a company database is [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/04/22/the-danger-of-data-breaches-what-you-really-need-to-know/">The danger of data breaches — what you really need to know</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>In today’s digital world, your personal data is like cold hard cash, and that’s why cyberthieves are always looking for ways to steal it. Whether it’s an email address, a credit card number, or even medical records, your <a href="https://www.webroot.com/in/en/resources/glossary/what-is-personally-identifiable-information" data-type="link" data-id="https://www.webroot.com/in/en/resources/glossary/what-is-personally-identifiable-information">personal information</a> is incredibly valuable in the wrong hands.</p>
+
+
+
+<p>For hackers, breaking into a company database is like hitting the mother lode, giving them access to millions of personal records. Why? Because whether you know it or not, many companies are collecting and storing your private data. Think about all the information you hand over when you order something online, like your full name, your credit card number, your home address, and maybe even your birthdate just to snag an extra discount. If a company you do business with becomes part of a data breach, cybercriminals may have full access to your confidential information.</p>
+
+
+
+<p>Unfortunately, data breaches are on the rise and affecting more companies and consumers than ever. In 2024, more than 1.3 billion people received notices that their information was exposed in a data breach. Chances are you’ve received at least one of these letters, which means you have been put at risk for identity theft and major financial losses.</p>
+
+
+
+<h2 class="wp-block-heading">What are data breaches and how do they happen?</h2>
+
+
+
+<p>Data breaches occur when sensitive, protected, or confidential data is hacked or leaked from a company or organization. Sometimes businesses are targeted because they have outdated or weak security. While no industry is immune, some sectors are more likely to become victims of breaches because of the sensitive nature of the data they handle. Here are some of the most likely targets for access to consumer data:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Healthcare organizations</strong>: Healthcare companies are a prime target for cybercrime due to the large amounts of sensitive data they store, which includes personal information and medical records. In 2024, there were 14 data breaches involving 1 million or more healthcare records. The <a href="https://www.hipaajournal.com/biggest-healthcare-data-breaches-2024/#:~:text=Change%20Healthcare&amp;text=Prior%20to%20encrypting%20files%2C%20the,paid%20a%20%2422%20million%20ransom." target="_blank" rel="noreferrer noopener">largest breach</a> affected an estimated 190 million people and a ransom of 22 million dollars was collected by the hackers.</li>
+
+
+
+<li><strong>Financial services industry: </strong>Banks, insurance companies and other financial organizations offer a wealth of opportunity for hackers who can use stolen bank account and credit card information for their own financial gain. In 2024, mortgage lender LoanDepot was the victim of a cyberattack that compromised the information of more than <a href="https://www.securityweek.com/ransomware-attack-cost-loandepot-27-million/" target="_blank" rel="noreferrer noopener">16 million individuals</a>.</li>
+
+
+
+<li><strong>Retail and e-commerce: </strong><a href="https://www.forbes.com/sites/pamdanziger/2024/10/10/shoppers-face-a-growing-risk-from-cybercrime-and-retailers-must-do-more/" target="_blank" rel="noreferrer noopener">Retail and ecommerce</a> businesses are vulnerable to breaches because they handle and store vast amounts of customer payment information, including addresses, credit card numbers and more. Many retailers operate both brick-and-mortar stores and ecommerce platforms and rely on a variety of mobile apps, PoS (point-of-sale) systems, and cloud-based platforms, which creates more entry points for hackers to exploit.</li>
+
+
+
+<li><strong>Tech companies</strong>: With access to user data, software systems and intellectual property, tech firms are frequent targets. <a href="https://www.forbes.com/sites/daveywinder/2024/06/20/has-apple-been-hacked-hacker-claims-june-2024-breach-exposes-source-code/" target="_blank" rel="noreferrer noopener">Apple</a>, Twitter and Meta have all reportedly been victims of cyberattacks.</li>
+
+
+
+<li><strong>Government agencies</strong>: Because government organizations store highly sensitive information, social security numbers, they are considered especially high-value targets for cyberattacks.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">The most-wanted data</h2>
+
+
+
+<p>The type of information stolen in data breaches varies depending on the organization, but here’s a list of the kind of data cybercriminals are seeking:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Emails and passwords</strong></li>
+
+
+
+<li><strong>Payment and credit card information</strong></li>
+
+
+
+<li><strong>Medical records and health data</strong></li>
+
+
+
+<li><strong>Social Security numbers</strong></li>
+
+
+
+<li><strong>Driver’s license numbers</strong></li>
+
+
+
+<li><strong>Banking details and account numbers</strong></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">What hackers do with your data</h2>
+
+
+
+<p>Once data is exposed in a breach, cybercriminals will test your usernames and password combinations across thousands of sites, knowing that most people recycle their emails and passwords. Here are just some of the ways hackers exploit your stolen information:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Identity theft</strong>: Hackers use your personal info to impersonate you. They can open accounts in your name, apply for loans, and even file false tax returns.</li>
+
+
+
+<li><strong>Selling it on the dark web</strong>: Stolen data is frequently sold to the highest bidder on dark web marketplaces. This makes it accessible to a worldwide network of criminals.</li>
+
+
+
+<li><strong>Phishing and social engineering</strong>: Using your personal information, scammers can craft more convincing <a href="https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams" target="_blank" rel="noreferrer noopener">phishing</a> emails or messages to trick you into giving up even more sensitive details, like passwords and PIN numbers.</li>
+
+
+
+<li><strong>Financial exploitation</strong>: When your credit card numbers or bank account details are compromised, cyber thieves can use that information to make financial transactions in your name. They can rack up charges on your credit cards and even drain your bank accounts.</li>
+
+
+
+<li><strong>Data reuse and repurposing</strong>: It’s important to remember that your stolen information can be used for fraud and theft even years after a data breach, so it’s crucial to stop using recycled usernames and passwords on both old and new accounts or systems.</li>
+
+
+
+<li><strong>Hijacking online accounts</strong>: If your login credentials (usernames and passwords) are leaked, all your online accounts are put at risk. Besides your financial accounts, cyber thieves can also access your social media accounts and other platforms, leading to a major loss of privacy in addition to monetary losses.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">How to minimize the risks</h2>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Stay alert: </strong>Be on the lookout for any signs of fraud and use an identity protection plan to guard against suspicious activity.<a href="https://www.webroot.com/us/en/home/products/total-protection"> Webroot Total Protection</a> monitors the dark web for you and sends alerts if your email or personal information has been found in a breach.</li>
+
+
+
+<li><strong>Use strong, unique passwords: </strong>Strong, unique passwords are a simple, yet powerful security tool. <a href="https://www.webroot.com/us/en/home/products/essentials">Webroot</a> Essentials plans offer password managers that do the hard work for you, keeping all your passwords safe and encrypted while you remember just one password for a quick and seamless login on every site and app.</li>
+
+
+
+<li><strong>Enable two-factor authentication (2FA): </strong>Turn on <a href="https://consumer.ftc.gov/articles/use-two-factor-authentication-protect-your-accounts" target="_blank" rel="noreferrer noopener">two-factor identification</a> wherever possible, especially for financial accounts and email. This adds an extra step to your login process and makes it much harder for hackers to gain access. Also, remember to update and reset your passwords on a regular basis and always delete any old, unused online accounts.</li>
+
+
+
+<li><strong>Keep your devices protected: </strong>Always keep your device software updated and use antivirus and internet security software. <a href="https://www.webroot.com/us/en/home/products/premium">Webroot Premium</a> protects your devices from malware, viruses and phishing attempts and provides identity protection so you’re immediately alerted if your information is leaked in a data breach or found on the dark web. If you do become a victim of identity theft, you’ll have 24/7 U.S.-based customer support and up to $1 million in expense reimbursement.</li>
+
+
+
+<li><strong>Update your identity protection plan:</strong> Remember to keep your identity protection plan updated, so your personal details like birthdate, Social Security number and driver’s license number are current. Make sure all your family members are onboarded, especially children and older relatives. Also, get real time fraud detection by setting up threshold alerts on your financial accounts so you’re notified of any suspicious transactions as soon as they occur.</li>
+
+
+
+<li><strong>Monitor constantly:</strong> It&#8217;s important to remember that even if your personal data was exposed years ago, it can still resurface and cause problems at any time. Especially when it comes to children and the elderly, suspicious financial activity can happen without their knowledge and go undetected. For example, it’s not uncommon for a young student to find out they have a poor credit score only when they to try to open their first credit card account. The student had no idea that a cybercriminal used their information for fraudulent purposes and is forced to go through a difficult and costly process to restore their good credit. Most identity protection plans include monitoring and remediation, even if the fraud happened years ago and is affecting you or your family today.</li>
+</ul>
+
+
+
+<p>Data breaches are a fact of life in the digital world we live in, but you can protect yourself with some smart security measures. By using strong passwords, password managers, antivirus software, and identity protection plans, you can reduce your risk of becoming a victim of cybercrime, and even get help to restore your identity, your financial losses and your reputation.</p>
+
+
+
+<p>It’s like putting a lock on your personal data. When it comes to your sensitive information, it’s always better to be safe than sorry.</p>
+
+
+
+<h2 class="wp-block-heading">Looking for more information and solutions?</h2>
+
+
+
+<p><a href="https://www.weforum.org/stories/2025/02/biggest-cybersecurity-threats-2025/" target="_blank" rel="noreferrer noopener">Top cyberthreats of 2025</a></p>
+
+
+
+<p><a href="https://www.cisa.gov/K12Cybersecurity" target="_blank" rel="noreferrer noopener">Keeping educational systems secure</a></p>
+
+
+
+<p><a href="https://www.webroot.com/blog/2025/03/03/national-consumer-protection-week-keeping-your-personal-data-safe-in-a-digitally-connected-world/">How to keep your personal data safe</a></p>
+
+
+
+<p><a href="https://www.webroot.com/blog/2024/10/01/protecting-identity-stay-one-step-ahead-cybercriminals/">Protect yourself from identity theft</a></p>
+
+
+
+<p><a href="https://www.webroot.com/blog/2024/10/04/8-tips-to-protect-your-devices-from-malware-attacks/">Safeguarding your devices from malware</a></p>
+<p>The post <a rel="nofollow" href="https://www.webroot.com/blog/2025/04/22/the-danger-of-data-breaches-what-you-really-need-to-know/">The danger of data breaches — what you really need to know</a> appeared first on <a rel="nofollow" href="https://www.webroot.com/blog">Webroot Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

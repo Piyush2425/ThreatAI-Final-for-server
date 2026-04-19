@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SecurityWeek</title>
+	<atom:link href="https://www.securityweek.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.securityweek.com/</link>
+	<description>Cybersecurity News, Insights &#38; Analysis</description>
+	<lastBuildDate>Sat, 04 Apr 2026 11:10:01 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg</url>
+	<title>SecurityWeek</title>
+	<link>https://www.securityweek.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack</title>
+		<link>https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Sat, 04 Apr 2026 10:31:00 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[EU]]></category>
+		<category><![CDATA[European Commission]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[supply chain attack]]></category>
+		<category><![CDATA[TeamPCP]]></category>
+		<category><![CDATA[Trivy]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45961</guid>
+
+					<description><![CDATA[<p>Hackers stole over 300GB of data from the Commission’s AWS environment, including personal information.</p>
+<p>The post <a href="https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/">European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>TrueConf Zero-Day Exploited in Asian Government Attacks</title>
+		<link>https://www.securityweek.com/trueconf-zero-day-exploited-in-asian-government-attacks/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 12:47:16 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[Asia]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[exploited]]></category>
+		<category><![CDATA[Government]]></category>
+		<category><![CDATA[TrueConf]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<category><![CDATA[Zero-Day]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45957</guid>
+
+					<description><![CDATA[<p>A Chinese threat actor exploited the video conferencing platform to perform reconnaissance, escalate privileges, and execute additional payloads.</p>
+<p>The post <a href="https://www.securityweek.com/trueconf-zero-day-exploited-in-asian-government-attacks/">TrueConf Zero-Day Exploited in Asian Government Attacks</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>In Other News: ChatGPT Data Leak, Android Rootkit, Water Facility Hit by Ransomware</title>
+		<link>https://www.securityweek.com/in-other-news-chatgpt-data-leak-android-rootkit-water-facility-hit-by-ransomware/</link>
+		
+		<dc:creator><![CDATA[SecurityWeek News]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 12:30:53 +0000</pubDate>
+				<category><![CDATA[Malware & Threats]]></category>
+		<category><![CDATA[In Other News]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45955</guid>
+
+					<description><![CDATA[<p>Other noteworthy stories that might have slipped under the radar: Symantec vulnerability, anti-ClickFix mechanism added to macOS, FBI hack classified as major incident.</p>
+<p>The post <a href="https://www.securityweek.com/in-other-news-chatgpt-data-leak-android-rootkit-water-facility-hit-by-ransomware/">In Other News: ChatGPT Data Leak, Android Rootkit, Water Facility Hit by Ransomware</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Critical ShareFile Flaws Lead to Unauthenticated RCE</title>
+		<link>https://www.securityweek.com/critical-sharefile-flaws-lead-to-unauthenticated-rce/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 12:12:22 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[ShareFile]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45954</guid>
+
+					<description><![CDATA[<p>The vulnerabilities can be chained together to bypass authentication and upload arbitrary files to the server.</p>
+<p>The post <a href="https://www.securityweek.com/critical-sharefile-flaws-lead-to-unauthenticated-rce/">Critical ShareFile Flaws Lead to Unauthenticated RCE</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Mobile Attack Surface Expands as Enterprises Lose Control</title>
+		<link>https://www.securityweek.com/mobile-attack-surface-expands-as-enterprises-lose-control/</link>
+		
+		<dc:creator><![CDATA[Kevin Townsend]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 11:00:00 +0000</pubDate>
+				<category><![CDATA[Mobile & Wireless]]></category>
+		<category><![CDATA[Threat Intelligence]]></category>
+		<category><![CDATA[attack surface management]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45951</guid>
+
+					<description><![CDATA[<p>Shadow AI embedded in everyday apps, combined with outdated mobile devices and zero-click exploits, is creating a new and largely unseen mobile risk.</p>
+<p>The post <a href="https://www.securityweek.com/mobile-attack-surface-expands-as-enterprises-lose-control/">Mobile Attack Surface Expands as Enterprises Lose Control</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>React2Shell Exploited in Large-Scale Credential Harvesting Campaign</title>
+		<link>https://www.securityweek.com/react2shell-exploited-in-large-scale-credential-harvesting-campaign/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 10:55:13 +0000</pubDate>
+				<category><![CDATA[Malware & Threats]]></category>
+		<category><![CDATA[React2Shell]]></category>
+		<category><![CDATA[UAT-10608]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45952</guid>
+
+					<description><![CDATA[<p>Using automated scanning and the Nexus Listener collection framework, the hackers compromised over 750 systems.</p>
+<p>The post <a href="https://www.securityweek.com/react2shell-exploited-in-large-scale-credential-harvesting-campaign/">React2Shell Exploited in Large-Scale Credential Harvesting Campaign</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>T-Mobile Sets the Record Straight on Latest Data Breach Filing</title>
+		<link>https://www.securityweek.com/t-mobile-sets-the-record-straight-on-latest-data-breach-filing/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 10:30:00 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[T-Mobile]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45946</guid>
+
+					<description><![CDATA[<p>The cybersecurity incident involved an insider and had a limited impact, the telecoms giant told SecurityWeek.</p>
+<p>The post <a href="https://www.securityweek.com/t-mobile-sets-the-record-straight-on-latest-data-breach-filing/">T-Mobile Sets the Record Straight on Latest Data Breach Filing</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>North Korean Hackers Drain $285 Million From Drift in 10 Seconds</title>
+		<link>https://www.securityweek.com/north-korean-hackers-drain-285-million-from-drift-in-10-seconds/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 09:46:06 +0000</pubDate>
+				<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[cryptocurrency heist]]></category>
+		<category><![CDATA[drift]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[North Korea]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45948</guid>
+
+					<description><![CDATA[<p>The attackers prepared infrastructure and multiple nonce-based transactions, took over an admin key, and drained five vaults.</p>
+<p>The post <a href="https://www.securityweek.com/north-korean-hackers-drain-285-million-from-drift-in-10-seconds/">North Korean Hackers Drain $285 Million From Drift in 10 Seconds</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Critical Vulnerability in Claude Code Emerges Days After Source Leak</title>
+		<link>https://www.securityweek.com/critical-vulnerability-in-claude-code-emerges-days-after-source-leak/</link>
+		
+		<dc:creator><![CDATA[Kevin Townsend]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 18:00:55 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Claude Code]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45945</guid>
+
+					<description><![CDATA[<p>Within days of each other, Anthropic first leaked the source code to Claude Code, and then a critical vulnerability was found by Adversa AI.</p>
+<p>The post <a href="https://www.securityweek.com/critical-vulnerability-in-claude-code-emerges-days-after-source-leak/">Critical Vulnerability in Claude Code Emerges Days After Source Leak</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Apple Rolls Out DarkSword Exploit Protection to More Devices</title>
+		<link>https://www.securityweek.com/apple-rolls-out-darksword-exploit-protection-to-more-devices/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 16:18:07 +0000</pubDate>
+				<category><![CDATA[Mobile & Wireless]]></category>
+		<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[DarkSword]]></category>
+		<category><![CDATA[exploit kit]]></category>
+		<category><![CDATA[exploited]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[iPhone]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=45943</guid>
+
+					<description><![CDATA[<p>The DarkSword exploit kit has been used by both state-sponsored hackers and commercial spyware vendors.</p>
+<p>The post <a href="https://www.securityweek.com/apple-rolls-out-darksword-exploit-protection-to-more-devices/">Apple Rolls Out DarkSword Exploit Protection to More Devices</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

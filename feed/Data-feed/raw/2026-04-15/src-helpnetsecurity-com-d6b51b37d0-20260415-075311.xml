@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Help Net Security</title>
+	<atom:link href="https://www.helpnetsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.helpnetsecurity.com/</link>
+	<description>Daily information security news with a focus on enterprise security.</description>
+	<lastBuildDate>Wed, 15 Apr 2026 06:28:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.1</generator>
+
+<image>
+	<url>https://img.helpnetsecurity.com/wp-content/uploads/2019/09/09093400/cropped-hns2-32x32.png</url>
+	<title>Help Net Security</title>
+	<link>https://www.helpnetsecurity.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>OpenAI expands its cyber defense program with GPT-5.4-Cyber for vetted researchers</title>
+		<link>https://www.helpnetsecurity.com/2026/04/15/openai-gpt-5-4-cyber/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Wed, 15 Apr 2026 06:24:41 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[automation]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366217</guid>
+
+					<description><![CDATA[<p>Defending critical software has long depended on the ability to find and fix vulnerabilities faster than attackers can exploit them. OpenAI is expanding a program designed to give professional defenders prioritized access to AI tools built for that purpose. The company is scaling its Trusted Access for Cyber (TAC) program to thousands of verified individual defenders and hundreds of teams responsible for defending critical software. Alongside that expansion, OpenAI is releasing GPT-5.4-Cyber, a version of &#8230; <a href="https://www.helpnetsecurity.com/2026/04/15/openai-gpt-5-4-cyber/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/15/openai-gpt-5-4-cyber/">OpenAI expands its cyber defense program with GPT-5.4-Cyber for vetted researchers</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The exploit gap is closing, and your patch cycle wasn&#8217;t built for this</title>
+		<link>https://www.helpnetsecurity.com/2026/04/15/anthropic-claude-mythos-ai-vulnerability-discovery/</link>
+		
+		<dc:creator><![CDATA[Mirko Zorz]]></dc:creator>
+		<pubDate>Wed, 15 Apr 2026 06:00:34 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[CISO]]></category>
+		<category><![CDATA[Cloud Security Alliance]]></category>
+		<category><![CDATA[cyber risk]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[opinion]]></category>
+		<category><![CDATA[report]]></category>
+		<category><![CDATA[risk management]]></category>
+		<category><![CDATA[strategy]]></category>
+		<category><![CDATA[tips]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366032</guid>
+
+					<description><![CDATA[<p>The Cloud Security Alliance has published a briefing on what it calls a turning point in the threat landscape: the time between a vulnerability being discovered and a working exploit is shrinking fast. The briefing centers on Anthropic&#8217;s Claude Mythos, which autonomously found thousands of zero-day vulnerabilities across major operating systems and browsers, generated working exploits without human guidance, and achieved significant exploit success rate in internal testing. Asymmetry in offense and defense The structural &#8230; <a href="https://www.helpnetsecurity.com/2026/04/15/anthropic-claude-mythos-ai-vulnerability-discovery/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/15/anthropic-claude-mythos-ai-vulnerability-discovery/">The exploit gap is closing, and your patch cycle wasn&#8217;t built for this</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Coordinated vulnerability disclosure is now an EU obligation, but cultural change takes time</title>
+		<link>https://www.helpnetsecurity.com/2026/04/15/nuno-rodrigues-carvalho-enisa-cve-program-vulnerability-disclosure/</link>
+		
+		<dc:creator><![CDATA[Mirko Zorz]]></dc:creator>
+		<pubDate>Wed, 15 Apr 2026 05:30:18 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[CISO]]></category>
+		<category><![CDATA[CVE]]></category>
+		<category><![CDATA[cyber resilience]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[ENISA]]></category>
+		<category><![CDATA[EU]]></category>
+		<category><![CDATA[Europe]]></category>
+		<category><![CDATA[MITRE]]></category>
+		<category><![CDATA[opinion]]></category>
+		<category><![CDATA[vulnerability disclosure]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=365763</guid>
+
+					<description><![CDATA[<p>In this Help Net Security interview, Nuno Rodrigues Carvalho, Head of Sector for Incident and Vulnerability Services at ENISA, discusses the recent CVE funding scare and what it exposed about the fragility of global vulnerability disclosure infrastructure. He outlines how EU regulations, including the Cyber Resilience Act and NIS2, are creating stronger accountability for vendors and organizations. ENISA is building out European vulnerability services to support member states. Carvalho also addresses how practitioners navigate conflicting &#8230; <a href="https://www.helpnetsecurity.com/2026/04/15/nuno-rodrigues-carvalho-enisa-cve-program-vulnerability-disclosure/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/15/nuno-rodrigues-carvalho-enisa-cve-program-vulnerability-disclosure/">Coordinated vulnerability disclosure is now an EU obligation, but cultural change takes time</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Legitify: Open-source scanner for security misconfigurations on GitHub and GitLab</title>
+		<link>https://www.helpnetsecurity.com/2026/04/15/legitify-open-source-scanner-security-misconfigurations-github-gitlab/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Wed, 15 Apr 2026 05:00:34 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[GitLab]]></category>
+		<category><![CDATA[Legit Security]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[scanner]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=365805</guid>
+
+					<description><![CDATA[<p>Misconfigured source code management platforms remain a common entry point in software supply chain attacks, and organizations often lack visibility into which settings put them at risk. Legitify, an open-source tool from Legit Security, addresses that gap by scanning GitHub and GitLab environments and reporting policy violations across organizations, repositories, members, and CI/CD runner groups. What it checks Legitify evaluates configurations across five namespaces: organization-level settings, GitHub Actions configurations, member accounts, repositories, and runner groups. &#8230; <a href="https://www.helpnetsecurity.com/2026/04/15/legitify-open-source-scanner-security-misconfigurations-github-gitlab/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/15/legitify-open-source-scanner-security-misconfigurations-github-gitlab/">Legitify: Open-source scanner for security misconfigurations on GitHub and GitLab</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Product showcase: Stop secrets from leaking through AI coding tools with GitGuardian</title>
+		<link>https://www.helpnetsecurity.com/2026/04/15/product-showcase-gitguardian-ggshield-ai-hook/</link>
+		
+		<dc:creator><![CDATA[Help Net Security]]></dc:creator>
+		<pubDate>Wed, 15 Apr 2026 04:30:50 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[GitGuardian]]></category>
+		<category><![CDATA[Product showcase]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366011</guid>
+
+					<description><![CDATA[<p>AI coding assistants are quickly becoming part of everyday development. Tools like Cursor, Claude Code, and GitHub Copilot can now do more than suggest code. They can read files, run shell commands, and call external tools during a session. That makes them useful, but it also creates a new risk: secrets can be exposed long before code reaches a repository or CI pipeline. A developer might paste an API key into a prompt while debugging. &#8230; <a href="https://www.helpnetsecurity.com/2026/04/15/product-showcase-gitguardian-ggshield-ai-hook/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/15/product-showcase-gitguardian-ggshield-ai-hook/">Product showcase: Stop secrets from leaking through AI coding tools with GitGuardian</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Network segmentation projects fail in predictable patterns</title>
+		<link>https://www.helpnetsecurity.com/2026/04/15/network-segmentation-failure-research/</link>
+		
+		<dc:creator><![CDATA[Mirko Zorz]]></dc:creator>
+		<pubDate>Wed, 15 Apr 2026 04:00:26 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Cisco]]></category>
+		<category><![CDATA[enterprise]]></category>
+		<category><![CDATA[networking]]></category>
+		<category><![CDATA[research]]></category>
+		<category><![CDATA[survey]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=365886</guid>
+
+					<description><![CDATA[<p>Most enterprise networks have segmentation on the roadmap. Many have had it there for years. A survey of 400 U.S.-based network security practitioners who lived through failed segmentation projects finds that failure clusters into four distinct patterns, and the type of failure a team experiences depends heavily on the kind of environment and approach they attempted. The research, conducted in early 2026, applied latent class analysis to survey responses measuring both general IT project failure &#8230; <a href="https://www.helpnetsecurity.com/2026/04/15/network-segmentation-failure-research/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/15/network-segmentation-failure-research/">Network segmentation projects fail in predictable patterns</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft ends desktop detour for sensitivity labels in Office web apps</title>
+		<link>https://www.helpnetsecurity.com/2026/04/15/microsoft-office-sensitivity-labels-permissions/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 22:05:41 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Office]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366186</guid>
+
+					<description><![CDATA[<p>Microsoft is rolling out an update to Office for the web that removes a long-standing limitation around document protection, adding new control to browser-based apps. Specifying users in the Permissions dialog (Source: Microsoft) Users can now apply sensitivity labels with user-defined permissions directly in the web versions of Word, Excel, and PowerPoint. The change brings the web apps in line with capabilities that were previously limited to desktop versions. Previously, browser-based users could only open &#8230; <a href="https://www.helpnetsecurity.com/2026/04/15/microsoft-office-sensitivity-labels-permissions/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/15/microsoft-office-sensitivity-labels-permissions/">Microsoft ends desktop detour for sensitivity labels in Office web apps</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>OpenSSL 4.0.0 release cuts deprecated protocols and gains post-quantum support</title>
+		<link>https://www.helpnetsecurity.com/2026/04/14/openssl-4-0-0-released/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 15:46:52 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[OpenSSL]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366160</guid>
+
+					<description><![CDATA[<p>OpenSSL 4.0.0 removes several long-deprecated features, adds support for Encrypted Client Hello, and introduces API-level changes that will require code updates for applications built against older versions. SSLv3, SSLv2 client hello, and engines are gone SSLv3 support has been removed. The protocol was deprecated in 2015, and OpenSSL had it disabled by default since version 1.1.0 in 2016. Support for the SSLv2 Client Hello has also been removed. The engine API, which provided a mechanism &#8230; <a href="https://www.helpnetsecurity.com/2026/04/14/openssl-4-0-0-released/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/14/openssl-4-0-0-released/">OpenSSL 4.0.0 release cuts deprecated protocols and gains post-quantum support</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Testing reveals Claude Mythos&#8217;s offensive capabilities and limits</title>
+		<link>https://www.helpnetsecurity.com/2026/04/14/claude-mythos-test-attack-capabilities-limits/</link>
+		
+		<dc:creator><![CDATA[Zeljka Zorz]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 15:06:53 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[Cloud Security Alliance]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[enterprise]]></category>
+		<category><![CDATA[security testing]]></category>
+		<category><![CDATA[SMBs]]></category>
+		<category><![CDATA[tips]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366145</guid>
+
+					<description><![CDATA[<p>Could Claude Mythos Preview, Anthropic&#8217;s latest large language model, be leveraged for fully automated cyber attacks? The UK government&#8217;s AI Security Institute (AISI) tested its capability to successfully engage in capture-the-flag (CTF) challenges and multi-step attack scenarios, and found that that while its cybersecurity capabilities exceed those of previously available models, it can&#8217;t reliably execute autonomous attacks on hardened networks. What is Claude Mythos Preview? Anthropic introduced Claude Mythos Preview to the public earlier this &#8230; <a href="https://www.helpnetsecurity.com/2026/04/14/claude-mythos-test-attack-capabilities-limits/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/14/claude-mythos-test-attack-capabilities-limits/">Testing reveals Claude Mythos&#8217;s offensive capabilities and limits</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>W3LL phishing service sold for $500 dismantled by the FBI</title>
+		<link>https://www.helpnetsecurity.com/2026/04/14/fbi-w3ll-phishing-kit-takedown/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 14:15:18 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[cybercrime]]></category>
+		<category><![CDATA[FBI]]></category>
+		<category><![CDATA[law enforcement]]></category>
+		<category><![CDATA[phishing]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366110</guid>
+
+					<description><![CDATA[<p>The W3LL phishing kit, a cybercrime tool used to impersonate legitimate login pages and steal usernames and passwords, has been dismantled by the FBI and Indonesian law enforcement authorities. Officials estimate the operation was tied to more than $20 million in attempted fraud. (Source: FBI) &#8220;For a fee of about $500, users could purchase access to the phishing kit and deploy fake websites designed to look nearly identical to trusted login portals,&#8221; the FBI said. &#8230; <a href="https://www.helpnetsecurity.com/2026/04/14/fbi-w3ll-phishing-kit-takedown/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/14/fbi-w3ll-phishing-kit-takedown/">W3LL phishing service sold for $500 dismantled by the FBI</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

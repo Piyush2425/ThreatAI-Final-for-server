@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Security Affairs</title>
+	<atom:link href="https://securityaffairs.com/feed" rel="self" type="application/rss+xml" />
+	<link>https://securityaffairs.com/</link>
+	<description>Read, think, share … Security is everyone&#039;s responsibility</description>
+	<lastBuildDate>Wed, 15 Apr 2026 05:18:20 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+<site xmlns="com-wordpress:feed-additions:1">29506073</site>	<item>
+		<title>Microsoft Patch Tuesday for April 2026 fixed actively exploited SharePoint zero-day</title>
+		<link>https://securityaffairs.com/190831/security/microsoft-patch-tuesday-for-april-2026-fixed-actively-exploited-sharepoint-zero-day.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 15 Apr 2026 05:18:18 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Microsoft Patch Tuesday]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[SharePoint]]></category>
+		<category><![CDATA[zero-Day]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190831</guid>
+
+					<description><![CDATA[Microsoft Patch Tuesday security updates for April 2026 fixed 165 vulnerabilities, including an actively exploited SharePoint zero-day. Microsoft Patch Tuesday security updates addressed 165 vulnerabilities, making it one of the largest updates by CVE count. One of the most interesting flaws fixed by the IT giant is a critical SharePoint zero-day, tracked as CVE-2026-32201, already [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Microsoft Patch Tuesday security updates for April 2026 fixed 165 vulnerabilities, including an actively exploited SharePoint zero-day.</h2>
+
+
+
+<p>Microsoft Patch Tuesday security updates addressed 165 vulnerabilities, making it one of the largest updates by CVE count. One of the most interesting flaws fixed by the IT giant is a critical SharePoint zero-day, tracked as <a href="https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-32201" target="_blank" rel="noreferrer noopener">CVE-2026-32201</a>, already exploited in attacks in the wild. </p>
+
+
+
+<p>Security experts highlight the scale and urgency of this release, urging organizations to apply patches quickly to reduce exposure and prevent potential compromise from actively targeted flaws.</p>
+
+
+
+<p>Eight of these flaws are rated Critical, two are rated as Moderate, and the rest are rated Important in severity.</p>
+
+
+
+<p><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32201" target="_blank" rel="noreferrer noopener"><strong>CVE-2026-32201</strong></a> (CVSS score of 6.5) is a spoofing vulnerability in Microsoft SharePoint Server, likely related to cross-site scripting (XSS). While details are limited, it could allow attackers to view or modify exposed information. Microsoft has not disclosed how widespread exploitation is, but given the potential impact, organizations, especially those with internet-facing SharePoint servers—should prioritize testing and applying the patch quickly.</p>
+
+
+
+<p><em>&#8220;Improper input validation in Microsoft Office SharePoint allows an unauthorized attacker to perform spoofing over a network.&#8221; <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32201">reads the advisory</a>. &#8220;An attacker who successfully exploited the vulnerability could view some sensitive information (Confidentiality), make changes to disclosed information (Integrity), but cannot limit access to the resource (Availability).&#8221;</em> <em>&#8220;Exploitation Detected&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>CVE-2026-33825 (CVSS score: 7.8)</strong> &#8211; Microsoft Defender Elevation of Privilege Vulnerability<br>This publicly disclosed flaw can allow privilege escalation, though current exploits may face reliability issues. Despite that, it represents a real risk. Organizations relying on Defender should test and deploy the patch quickly to reduce exposure. </li>
+
+
+
+<li><strong>CVE-2026-33827 (CVSS score: 8.1)</strong> &#8211; Windows TCP/IP Remote Code Execution Vulnerability<br>This flaw enables remote, unauthenticated attackers to execute code without user interaction, making it potentially wormable on systems with IPv6 and IPSec enabled. Although it involves a race condition, such bugs are often exploitable. Prompt patching is strongly recommended. </li>
+
+
+
+<li><strong>CVE-2026-33824 (CVSS score: 9.8)</strong> – Windows Internet Key Exchange (IKE) Service Extensions Remote Code Execution Vulnerability<br>This critical flaw in Windows IKE service extensions could allow remote attackers to execute code on affected systems. Systems with IKE enabled are at risk, though blocking UDP ports 500 and 4500 can reduce exposure from external threats. However, internal attackers may still exploit it for lateral movement, so rapid patching is strongly recommended.</li>
+</ul>
+
+
+
+<p><em>&#8220;By my count, this is the second-largest monthly release in Microsoft’s history. There are many things we could speculate on to justify the size, but if Microsoft is like the other programs out there (including ours), they are likely seeing a rise in submissions found by AI tools. For us, our incoming rate has essentially tripled, making triage a challenge, to say the least.&#8221; <a href="https://www.zerodayinitiative.com/blog/2026/4/14/the-april-2026-security-update-review">reported ZDI</a>. &#8220;Whatever the reason, we have a lot of bugs to deal with this month. I should also point out that the Pwn2Own Berlin occurs next month, and it’s typical for vendors to patch as much as they can before the event.&#8221;</em></p>
+
+
+
+<p>The full list of vulnerabilities addressed by Microsoft is available <a href="https://msrc.microsoft.com/update-guide/releaseNote/2026-Apr"><strong>here</strong></a>.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Microsoft Patch Tuesday)</strong><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190831</post-id>	</item>
+		<item>
+		<title>Personal data of 1 million gym members compromised in Basic-Fit security incident</title>
+		<link>https://securityaffairs.com/190815/data-breach/personal-data-of-1-million-gym-members-compromised-in-basic-fit-security-incident.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 18:10:33 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Data Breach]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Basic-Fit]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190815</guid>
+
+					<description><![CDATA[A breach at Basic-Fit exposed data of 1M members, including names, birth dates and bank details after unauthorized access. Basic-Fit, Europe’s largest gym chain, has disclosed a data breach affecting around 1 million members. Hackers gained unauthorized access to the company systems and stole personal. The gym chain said it recently detected the intrusion and [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">A breach at Basic-Fit exposed data of 1M members, including names, birth dates and bank details after unauthorized access.</h2>
+
+
+
+<p>Basic-Fit, Europe’s largest gym chain, has disclosed a data breach affecting around 1 million members. Hackers gained unauthorized access to the company systems and stole personal. The gym chain said it recently detected the intrusion and is investigating the incident while notifying affected users and working to contain the impact.</p>
+
+
+
+<p><em>&#8220;Today, Basic-Fit has notified the relevant data protection authority concerning unauthorized access to the system that records members’ visits to Basic-Fit clubs.&#8221; reads the <a href="https://corporate.basic-fit.com/docs/Basic-Fit%20informs%20members%20of%20an%20unauthorised%20data%20access?q=3W97qQx2g4cDXrju5NrDeZ">press release</a> published by the company. &#8220;The unauthorised access was detected by our system monitoring processes and was stopped within minutes of discovery. The members whose data is involved have been informed.&#8221;</em></p>
+
+
+
+<p>External experts found that intruders downloaded some data from Basic-Fit, affecting members in several countries, including about 200,000 in the Netherlands. Exposed data includes names, addresses, emails, phone numbers, birth dates and bank details. The company pointed out that no ID documents or passwords were accessed. There is no evidence of misuse so far, and the company is continuing to monitor the situation with external specialists.<gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p><em>&#8220;An investigation conducted by external security experts has shown that some of the data stored in the system was downloaded. The downloaded data concerns active members in several countries. In the Netherlands, around 200.000 members are affected. The data concerns membership information, name and address details, email addresses, phone numbers, dates of birth and bank account details. Basic-Fit does not hold identification documents of members and no passwords were accessed.&#8221; continues the press release. &#8220;The investigation so far has not shown the data being available anywhere or having been misused. Together with external specialists, Basic-Fit continues to monitor the issue closely.&#8221;</em><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Basic-Fit is one of Europe’s largest fitness operators, with over 5 million members and more than 1,600 clubs across 6 countries. The company reported about €1.42 billion in revenue last year, driven by strong membership growth and continued expansion in key European markets.</p>
+
+
+
+<p>It’s unclear who carried out the attack, and at this time no ransomware group has claimed responsibility for the security breach.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Basic &#8211; Fit)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190815</post-id>	</item>
+		<item>
+		<title>US, UK and Canada disrupt $45M crypto theft in Operation Atlantic</title>
+		<link>https://securityaffairs.com/190805/cyber-crime/us-uk-and-canada-disrupt-45m-crypto-theft-in-operation-atlantic.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 13:50:50 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Approval phishing]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Operation Atlantic]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190805</guid>
+
+					<description><![CDATA[US, UK and Canada ran Operation Atlantic, uncovering $45M in crypto theft and freezing $12M to return to victims. An international law enforcement operation from the US, UK and Canada, codenamed Operation Atlantic, has targeted large-scale cryptocurrency theft schemes. Authorities identified more than $45 million in stolen digital assets and successfully froze around $12 million. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">US, UK and Canada ran Operation Atlantic, uncovering $45M in crypto theft and freezing $12M to return to victims.</h2>
+
+
+
+<p>An international law enforcement operation from the US, UK and Canada, codenamed Operation Atlantic, has targeted large-scale cryptocurrency theft schemes. Authorities identified more than $45 million in stolen digital assets and successfully froze around $12 million. </p>
+
+
+
+<p>The seized funds are expected to be returned to victims as investigations into the wider fraud networks continue.</p>
+
+
+
+<p><em>&#8220;Operation Atlantic focuses on identifying victims who may have lost &#8211; or are at risk of losing &#8211; crypto assets through &#8220;approval phishing.&#8221; This tactic is often used in online investment fraud, often referred to as <a href="https://www.secretservice.gov/investigations/investmentfraud-pigbutchering">&#8220;pig butchering,&#8221;</a> to lure victims into handing over ever-increasing amounts to scammers.&#8221; <a href="https://www.secretservice.gov/OperationAtlantic">reads the announcement</a>. &#8220;Approval phishing is a scam designed to trick you into unknowingly granting full access to your cryptocurrency wallet.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Approval phishing is a crypto scam that tricks users into granting attackers access to their wallet. Victims receive fake prompts that look legitimate and are asked to “approve” access. Once accepted, scammers gain control and can steal funds, often irreversibly, using fake sites, apps, or links to deceive users.</p>
+
+
+
+<p><a href="https://www.trmlabs.com/resources/blog/trm-labs-supports-operation-atlantic-usd-12-million-frozen-and-20-000-victims-identified-in-international-crackdown-on-crypto-scammers">According to the blockchain cybersecurity firm TRM</a>, the authorities identified more than 20,000 victims identified across the UK, Canada, and the United States.</p>
+
+
+
+<p><em>&#8220;Operational Atlantic is a powerful example of what is possible when international agencies and private industry work side by side. This intensive action has led to the safeguarding of thousands of victims in the UK and overseas, stopped criminals in their tracks and helped save others from losing their funds.&#8221; said NCA Deputy Director of Investigations Miles Bonfield.</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Operation Atlantic)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190805</post-id>	</item>
+		<item>
+		<title>ShinyHunters claim the hack of Rockstar Games breach and started leaking data</title>
+		<link>https://securityaffairs.com/190796/data-breach/shinyhunters-claim-the-hack-of-rockstar-games-breach-and-started-leaking-data.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 11:01:56 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Data Breach]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Rockstar Games]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[ShinyHunters]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190796</guid>
+
+					<description><![CDATA[Leak of 8.1GB data tied to Rockstar Games includes anti-cheat code, game data, analytics and more, reportedly exposed by ShinyHunters. An 8.1GB data leak reportedly linked to Rockstar Games has surfaced, with files shared by ShinyHunters after being obtained via Anodot. The dataset includes anti-cheat source code, player analytics, game assets, Zendesk support tickets and [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Leak of 8.1GB data tied to Rockstar Games includes anti-cheat code, game data, analytics and more, reportedly exposed by ShinyHunters.</h2>
+
+
+
+<p>An 8.1GB data leak reportedly linked to Rockstar Games has surfaced, with files shared by <a href="https://securityaffairs.com/tag/shinyhunters" type="post_tag" id="11035">ShinyHunters</a> after being obtained via Anodot. The dataset includes anti-cheat source code, player analytics, game assets, Zendesk support tickets and financial information. <gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6a8.png" alt="🚨" class="wp-smiley" style="height: 1em; max-height: 1em;" /> BREAKING: Rockstar Games breach data obtained through Anodot has been leaked by ShinyHunters.<br><br>The files total 8.1GB and contain anti-cheat source code, player analytics, game data, Zendesk ticket feeds, financial data and more.<br><br>A thread analyzing what has been leaked&#8230; <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9f5.png" alt="🧵" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a href="https://t.co/qi8cOXJOnL">pic.twitter.com/qi8cOXJOnL</a></p>&mdash; International Cyber Digest (@IntCyberDigest) <a href="https://twitter.com/IntCyberDigest/status/2043786050066174307?ref_src=twsrc%5Etfw">April 13, 2026</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div></figure>
+
+
+
+<p>Rockstar Games, one of the major companies in the video game industry, known for popular titles like Grand Theft Auto.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p>The cybercrime group claims they managed to access Rockstar-related systems hosted through a third-party cloud provider. The group alleges that sensitive internal data was exfiltrated and threatened to publish it. </p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-45.png?ssl=1"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="697" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-45.png?resize=1024%2C697&#038;ssl=1" alt="" class="wp-image-190798" style="aspect-ratio:1.4691735898557061;width:580px;height:auto" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-45.png?resize=1024%2C697&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-45.png?resize=300%2C204&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-45.png?resize=768%2C523&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-45.png?w=1046&amp;ssl=1 1046w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+</div>
+
+
+<p><gwmw style="display:none;"></gwmw>The group attempted to pressure the company with public posts suggesting that failure to comply would result in both data leaks and further “digital disruption.” </p>
+
+
+
+<p>Rockstar Games, however, has publicly minimized the impact of the incident. In its statement, the company indicated that only a limited amount of non-sensitive corporate information was accessed and emphasized that neither its operations nor its player community were affected. </p>
+
+
+
+<p><em>&#8220;We can confirm that a limited amount of non-material company information was accessed in connection with a third-party data breach,&#8221; a Rockstar Games spokesperson <a href="https://www.bbc.com/news/articles/cx2dg5g1le7o">told</a> BBC.</em></p>
+
+
+
+<p>The firm’s response suggests that, at least from its perspective, the breach did not compromise core systems or player-facing services.</p>
+
+
+
+<p>Security researchers note that groups like ShinyHunters have increasingly focused on exploiting third-party cloud environments rather than directly attacking corporate infrastructure. This approach allows attackers to bypass stronger internal defenses by targeting external service providers with weaker security postures or misconfigurations.</p>
+
+
+
+<p>The incident marks the second major security event involving the company in just a few years, highlighting how high-profile gaming studios remain attractive targets for data theft and extortion schemes.</p>
+
+
+
+<p>In a previous incident in 2022–2023, a hacker affiliated with the <a href="https://securityaffairs.com/tag/lapsus" type="post_tag" id="12732">Lapsus$</a> collective gained access to internal systems and <a href="https://securityaffairs.com/135923/data-breach/gta6-gameplay-videos-source-code-leak.html">leaked</a> early development footage of Grand Theft Auto VI. That breach resulted in significant operational disruption and forced the company to adjust its communication strategy around one of its most secretive projects.</p>
+
+
+
+<p>The financial and reputational implications of such incidents are substantial. Beyond direct recovery costs, companies often face delays in development, increased security investments, and intensified scrutiny from both regulators and the public. In the case of Rockstar, the stakes are even higher due to the secrecy surrounding upcoming releases and the enormous expectations tied to its flagship titles.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>As investigations continue, the Rockstar breach serves as another reminder of the evolving threat landscape facing major digital entertainment companies. In an era where cloud infrastructure, third-party vendors, and remote access systems are deeply integrated into business operations, securing the full supply chain has become as critical as protecting internal networks.</p>
+
+
+
+<p>ShinyHunters is a well-known name in the cybercriminal ecosystem. The group is associated with a broader loosely connected network often referred to as “<a href="https://securityaffairs.com/tag/the-com" type="post_tag" id="16619">the Com</a>,” made up largely of young, English-speaking individuals. Their operations typically focus on stealing data from large organizations and using leak sites to pressure victims into paying ransoms in cryptocurrency. </p>
+
+
+
+<p>ShinyHunters has recently targeted major companies and organizations, leaking data when ransom demands fail. Victims include the <a href="https://securityaffairs.com/190095/data-breach/shinyhunters-claims-the-hack-of-the-european-commission.html">European Commission</a>, <a href="https://securityaffairs.com/187927/uncategorized/odido-confirms-massive-breach-6-2-million-customers-impacted.html">Odido</a>, <a href="https://securityaffairs.com/187988/data-breach/fintech-firm-figure-disclosed-data-breach-after-employee-phishing-attack.html">Figure</a>, <a href="https://securityaffairs.com/188046/data-breach/shinyhunters-leaked-600k-canada-goose-customer-records-but-the-firm-denies-it-was-breached.html">Canada Goose</a>, and <a href="https://securityaffairs.com/187340/data-breach/shinyhunters-claims-2-million-crunchbase-records-company-confirms-breach.html">SoundCloud</a>. The group primarily uses social engineering, especially voice phishing, to steal credentials and access SaaS platforms like <a href="https://securityaffairs.com/182159/cyber-crime/fbi-warns-of-salesforce-attacks-by-unc6040-and-unc6395-groups.html">Salesforce</a>, <a href="https://securityaffairs.com/152803/data-breach/okta-support-system-breached.html">Okta</a>, and Microsoft 365. <gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, <strong>Rockstar Games</strong>)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190796</post-id>	</item>
+		<item>
+		<title>Attackers target unpatched ShowDoc servers via CVE-2025-0520</title>
+		<link>https://securityaffairs.com/190790/hacking/attackers-target-unpatched-showdoc-servers-via-cve-2025-0520.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 09:13:40 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190790</guid>
+
+					<description><![CDATA[A critical RCE flaw, tracked as CVE-2025-0520, in ShowDoc is being actively exploited, putting unpatched servers at serious risk. A critical remote code execution flaw, tracked as CVE-2025-0520 (CVSS score of 9.4), affecting ShowDoc is under active exploitation in the wild. ShowDoc is an online tool that helps IT teams share documents and improve collaboration [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">A critical RCE flaw, tracked as CVE-2025-0520, in ShowDoc is being actively exploited, putting unpatched servers at serious risk.</h2>
+
+
+
+<p>A critical remote code execution flaw, tracked as CVE-2025-0520 (CVSS score of 9.4), affecting ShowDoc is under active exploitation in the wild. </p>
+
+
+
+<p>ShowDoc is an online tool that helps IT teams share documents and improve collaboration and communication efficiency.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Versions before 2.8.7 had an unauthenticated file upload flaw allowing attackers to deploy web shells and run code on servers. The issue was fixed in version 2.8.7, released in October 2020.</p>
+
+
+
+<p><em>&#8220;An unrestricted file upload vulnerability in ShowDoc caused by improper validation of file extension allows execution of arbitrary PHP, leading to remote code execution. This issue affects ShowDoc: before 2.8.7.&#8221; <a href="https://github.com/advisories/GHSA-6jmr-r7p6-f5wr">reads the advisory</a>.</em></p>
+
+
+
+<p>Threat actors are targeting unpatched servers, potentially gaining full control. <gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>VulnCheck researchers <a href="https://www.linkedin.com/posts/ccondon_kev-share-7448763057851314176-KaIi/">warn</a> that over 2,000 instances remain exposed online, mostly in China. The cybersecurity firm provides customers with payloads, artifacts, and intelligence.<gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p>Organizations using the tool are strongly urged to update and secure exposed instances immediately.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, CVE-2025-0520)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190790</post-id>	</item>
+		<item>
+		<title>U.S. CISA adds Adobe, Fortinet, Microsoft Exchange Server, and Microsoft Windows flaws to its Known Exploited Vulnerabilities catalog</title>
+		<link>https://securityaffairs.com/190775/security/u-s-cisa-adds-adobe-fortinet-microsoft-windows-microsoft-exchange-server-and-microsoft-windows-flaws-to-its-known-exploited-vulnerabilities-catalog.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 07:38:20 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[CISA]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Known Exploited Vulnerabilities Catalog]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190775</guid>
+
+					<description><![CDATA[U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Adobe, Fortinet, Microsoft Exchange Server, and Microsoft Windows flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added Apple, Laravel Livewire and Craft CMS flaws to its Known Exploited Vulnerabilities (KEV) catalog. Below are the flaws added to the catalog: Last week, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Adobe, Fortinet, Microsoft Exchange Server, and Microsoft Windows flaws to its Known Exploited Vulnerabilities catalog.</h2>
+
+
+
+<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) <a href="https://www.cisa.gov/news-events/alerts/2026/04/13/cisa-adds-seven-known-exploited-vulnerabilities-catalog">added</a> Apple, Laravel Livewire and Craft CMS flaws to its <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">Known Exploited Vulnerabilities (KEV) catalog</a>.</p>
+
+
+
+<p>Below are the flaws added to the catalog:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2026-34621" target="_blank" rel="noreferrer noopener">CVE-2026-34621</a> Adobe Acrobat and Reader Prototype Pollution Vulnerability<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></li>
+
+
+
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2012-1854" target="_blank" rel="noreferrer noopener">CVE-2012-1854</a> Microsoft Visual Basic for Applications Insecure Library Loading Vulnerability</li>
+
+
+
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2020-9715" target="_blank" rel="noreferrer noopener">CVE-2020-9715</a> Adobe Acrobat Use-After-Free Vulnerability<gwmw style="display:none;"></gwmw></li>
+
+
+
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2023-21529" target="_blank" rel="noreferrer noopener">CVE-2023-21529</a> Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability<gwmw style="display:none;"></gwmw></li>
+
+
+
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2023-36424" target="_blank" rel="noreferrer noopener">CVE-2023-36424</a> Microsoft Windows Out-of-Bounds Read Vulnerability<gwmw style="display:none;"></gwmw></li>
+
+
+
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2025-60710" target="_blank" rel="noreferrer noopener">CVE-2025-60710</a> Microsoft Windows Link Following Vulnerability<gwmw style="display:none;"></gwmw></li>
+
+
+
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2026-21643" target="_blank" rel="noreferrer noopener">CVE-2026-21643</a> Fortinet SQL Injection Vulnerability<gwmw style="display:none;"></gwmw></li>
+</ul>
+
+
+
+<p>Last week, Adobe <a href="https://securityaffairs.com/190697/security/adobe-fixes-actively-exploited-acrobat-reader-flaw-cve-2026-34621.html">released emergency updates</a> to address a critical vulnerability, tracked as CVE-2026-34621 (CVSS score of 8.6), in Adobe Acrobat Reader, which is being actively exploited. The flaw could allow attackers to execute malicious code on affected systems, making prompt patching essential to reduce the risk of compromise.</p>
+
+
+
+<p>The vulnerability is an improperly controlled modification of object prototype attributes (‘Prototype Pollution’) that can lead to arbitrary code execution.</p>
+
+
+
+<p>CISA also added to the KeV catalog the vulnerability CVE-2012-1854, which is an untrusted search path / DLL hijacking flaw affecting components of Microsoft Office VBA, specifically VBE6.dll used in Office and Visual Basic for Applications.</p>
+
+
+
+<p>The third issue added to the catalog is the flaw <a href="https://securityaffairs.com/107017/security/adobe-acrobat-reader-flaws-2.html" type="post" id="107017">CVE-2020-9715</a>, which is a use-after-free issue that can lead to arbitrary code execution.        <gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The US agency also added <a href="https://securityaffairs.com/187787/security/critical-fortinet-forticlientems-flaw-allows-remote-code-execution.html" type="post" id="187787">CVE-2026-21643 flaw to the catalog. In February,</a> Fortinet issued an urgent advisory <a href="https://securityaffairs.com/187787/security/critical-fortinet-forticlientems-flaw-allows-remote-code-execution.html">to address a critical FortiClientEMS vulnerability</a>, tracked as CVE-2026-21643 (CVSS score of 9.1).</p>
+
+
+
+<p>The vulnerability is an improper neutralization of special elements used in an SQL Command (‘SQL Injection’) issue in FortiClientEMS. An unauthenticated attacker can trigger the flaw to execute unauthorized code or commands via specifically crafted HTTP requests.</p>
+
+
+
+<p>A successful attack could give attackers an initial foothold in the target network, enabling lateral movement or malware deployment.</p>
+
+
+
+<p>According to&nbsp;<a href="https://cyber.dhs.gov/bod/22-01/" target="_blank" rel="noreferrer noopener">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a>, FCEB agencies have to address the identified vulnerabilities by the due date to protect their networks against attacks exploiting the flaws in the catalog.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Experts also recommend that private organizations review the&nbsp;<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noreferrer noopener">Catalog</a>&nbsp;and address the vulnerabilities in their infrastructure.</p>
+
+
+
+<p>CISA orders federal agencies to fix the vulnerabilities by April 27, 2026, except CVE-2026-21643, which must be addressed by April 16, 2026.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, <strong><strong><a href="https://securityaffairs.com/tag/cisa">CISA</a></strong></strong>)</strong><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190775</post-id>	</item>
+		<item>
+		<title>Fake Claude AI installer abuses DLL sideloading to deploy PlugX</title>
+		<link>https://securityaffairs.com/190754/malware/fake-claude-ai-installer-abuses-dll-sideloading-to-deploy-plugx.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 07:19:57 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[DLL sideloading]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[PlugX]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190754</guid>
+
+					<description><![CDATA[Fake Claude website impersonates Anthropic and delivers PlugX RAT via ZIP download using DLL sideloading. A fake website impersonating Anthropic’s Claude service was found distributing the PlugX remote access trojan, according to Malwarebytes. The rogue site abuses the chatbot’s popularity to trick users into downloading a ZIP archive presented as a “pro version” installer. The [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Fake Claude website impersonates Anthropic and delivers PlugX RAT via ZIP download using DLL sideloading.</h2>
+
+
+
+<p>A fake website impersonating Anthropic’s Claude service was found distributing the <a href="https://securityaffairs.com/tag/plugx" type="post_tag" id="2282">PlugX</a> remote access trojan, according to Malwarebytes. </p>
+
+
+
+<p>The rogue site abuses the chatbot’s popularity to trick users into downloading a ZIP archive presented as a “pro version” installer. The malware uses DLL sideloading to execute and then attempts to clean up traces after infection, reducing visibility on the system.</p>
+
+
+
+<p><em>&#8220;We discovered a fake website impersonating Anthropic’s Claude to serve a trojanized installer. The domain mimics Claude’s official site, and visitors who download the ZIP archive receive a copy of Claude that installs and runs as expected.&#8221; reads the <a href="https://www.malwarebytes.com/blog/scams/2026/04/fake-claude-site-installs-malware-that-gives-attackers-access-to-your-computer">report</a> published by Malwarebytes. &#8220;But in the background, it deploys a PlugX malware chain that gives attackers remote access to the system.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The malicious site delivers a ZIP with an MSI installer that mimics a legitimate Anthropic Claude setup, though with subtle flaws like a misspelled folder name. It drops a shortcut that runs a VBScript, launching the real app to avoid suspicion while silently executing malicious actions.</p>
+
+
+
+<p>In the background, the script copies three files, NOVUpdate.exe, avk.dll, and an encrypted .dat file, into the Windows Startup folder and runs the executable invisibly. This abuses DLL sideloading, using a legitimate signed updater from G DATA to load a malicious DLL. </p>
+
+
+
+<p><em>&#8220;Static analysis of the dropper script identifies these as an executable called <code>NOVUpdate.exe</code>, a DLL named <code>avk.dll</code>, and an encrypted data file called <code>NOVUpdate.exe.dat</code>. The script then launches <code>NOVUpdate.exe</code> with a hidden window (window style 0), so nothing appears on screen.&#8221; continues the report. &#8220;This is a textbook DLL sideloading attack, a technique catalogued by MITRE as T1574.002. <code>NOVUpdate.exe</code> is a legitimately signed G DATA antivirus updater. When it executes, it attempts to load a library called <code>avk.dll</code> from its own directory. Normally, this would be a genuine G DATA component, but here the attacker has substituted a malicious version. Signed sideloading hosts like this can complicate detection because the parent executable may appear benign to endpoint security tools.&#8221;</em></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-44.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="1024" height="564" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-44.png?resize=1024%2C564&#038;ssl=1" alt="" class="wp-image-190770" style="aspect-ratio:1.8156641561687326;width:576px;height:auto" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-44.png?resize=1024%2C564&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-44.png?resize=300%2C165&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-44.png?resize=768%2C423&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-44.png?w=1029&amp;ssl=1 1029w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+</div>
+
+
+<p>The DLL then decrypts and executes the payload stored in the .dat file.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>This three-part structure, signed executable, trojanized DLL, and encrypted payload, is typical of the PlugX malware family, often used in long-running cyber espionage campaigns.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Sandbox analysis shows the malware quickly becomes active after execution. WScript.exe drops NOVUpdate.exe and avk.dll into the Startup folder, and within 22 seconds the executable connects to a remote server (8.217.190[.]58) over HTTPS, repeating the communication several times. The IP is hosted on Alibaba Cloud infrastructure, commonly abused for command-and-control. The malware also alters a TCP/IP-related registry key to modify network behavior.</p>
+
+
+
+<p>To evade detection, the VBScript deploys a self-deleting mechanism that removes both the script and a temporary batch file shortly after execution, leaving only the sideloaded files and active process behind. It suppresses errors to avoid alerting the victim.</p>
+
+
+
+<p><em>&#8220;After deploying the payload files, the VBScript writes a small batch file called <code>~del.vbs.bat</code> that waits two seconds, then deletes both the original VBScript and the batch file itself. This means the dropper is gone from disk by the time a user or analyst goes looking for it.&#8221; continues the report. &#8220;The only artifacts that persist are the sideloading files in the Startup folder and the running <code>NOVUpdate.exe</code> process.&#8221;</em></p>
+
+
+
+<p>This approach mirrors a technique previously documented by Lab52, using a legitimate G DATA executable, a malicious DLL, and an encrypted payload, hallmarks of PlugX. While historically linked to Chinese espionage, PlugX is now widely reused. Here, attackers combine this known method with an AI-themed lure to trick users into installing malware.</p>
+
+
+
+<p><em>&#8220;PlugX has historically been associated with espionage operators linked to Chinese state interests. However, researchers have noted that PlugX source code has circulated in underground forums, broadening the pool of potential operators. Attribution based on tooling alone is not definitive.&#8221; concludes the report. &#8220;What is clear is that the operators behind this campaign have combined a proven sideloading technique with a timely social engineering lure—exploiting the surging popularity of AI tools to trick users into running a trojanized installer.&#8221;</em></p>
+
+
+
+<p>The report also provides Indicators of Compromise (IOCs).<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, newsletter)</strong><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190754</post-id>	</item>
+		<item>
+		<title>Hackers access Booking.com user data, company secures systems</title>
+		<link>https://securityaffairs.com/190757/data-breach/hackers-access-booking-com-user-data-company-secures-systems.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Mon, 13 Apr 2026 19:13:18 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Data Breach]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[booking.com]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190757</guid>
+
+					<description><![CDATA[Hackers accessed some Booking.com user data, including names, emails, phone numbers, and booking details. The issue is now contained. Booking.com warned that hackers may have accessed customer data linked to travel reservations. Exposed details could include names, email addresses, phone numbers, and information shared with accommodations. Booking.com is one of the world&#8217;s leading online travel agencies [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Hackers accessed some Booking.com user data, including names, emails, phone numbers, and booking details. The issue is now contained.<gwmw style="display:none;"></gwmw></h2>
+
+
+
+<p>Booking.com warned that hackers may have accessed customer data linked to travel reservations. Exposed details could include names, email addresses, phone numbers, and information shared with accommodations. </p>
+
+
+
+<p>Booking.com is one of the world&#8217;s leading online travel agencies (OTAs) and digital travel companies, specializing in accommodation bookings, including hotels, vacation rentals, and apartments.</p>
+
+
+
+<p><em>&#8220;In that spirit, we&#8217;re writing to inform you that unauthorized third parties may have been able to access certain booking information associated with your reservation.&#8221; reads the data breach notification sent to the impacted users. </em></p>
+
+
+
+<p><em>&#8220;We recently noticed suspicious activity affecting a number of reservations and we immediately took action to contain the issue. Based on the findings of our investigation to date, accessed information could include booking details and name(s), emails, addresses, phone numbers associated with the booking and anything that you may have shared with the accommodation.&#8221;</em><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-41.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="561" height="999" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-41.png?resize=561%2C999&#038;ssl=1" alt="Booking.com" class="wp-image-190758" style="aspect-ratio:0.5615769634801953;width:350px;height:auto" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-41.png?w=561&amp;ssl=1 561w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-41.png?resize=168%2C300&amp;ssl=1 168w" sizes="(max-width: 561px) 100vw, 561px" /></a><figcaption class="wp-element-caption">Source <a href="https://www.reddit.com/r/Bookingcom/comments/1sji0gf/serious_security_breach_confirmed_by_bookingcom/?solution=82270fc18830eadd82270fc18830eadd&amp;js_challenge=1&amp;token=bbbe4bf1c9a2b5160829c4be34da58610b2d89c02f1ae7f2c2887644e786d765">Reddit</a><gwmw style="display:none;"></gwmw></figcaption></figure>
+</div>
+
+
+<p>In response to the incident, the company reset reservation PINs.</p>
+
+
+
+<p>Booking.com did not provide technical details about the attack<strong>.</strong> It is unclear whether the attackers compromised its systems. The company has not disclosed how many users were impacted, but said it has contained the incident and notified impacted customers.</p>
+
+
+
+<p>The company said no payment data was accessed. Customers are urged to stay alert for phishing, as the company never asks for card details or unusual transfers via email, phone, WhatsApp, or SMS.</p>
+
+
+
+<p>Recently, multiple users claimed online that scammers contacted them using what looked like real reservation details. It’s not yet clear whether these incidents are linked to the cyber incident disclosed by Booking.com.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, security breach)</strong><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190757</post-id>	</item>
+		<item>
+		<title>iPhone forensics expose Signal messages after app removal in U.S. case</title>
+		<link>https://securityaffairs.com/190740/security/iphone-forensics-expose-signal-messages-after-app-removal-in-u-s-case.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Mon, 13 Apr 2026 11:33:46 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[Signal]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190740</guid>
+
+					<description><![CDATA[An FBI case in Texas shows Signal messages can still be recovered from iPhones even after app uninstall, via system artifacts, challenging privacy assumptions. The recent revelations about FBI forensic access to Signal messages on an iPhone have reignited a long-standing misunderstanding about mobile privacy: the belief that disappearing messages and encrypted apps guarantee that [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">An FBI case in Texas shows Signal messages can still be recovered from iPhones even after app uninstall, via system artifacts, challenging privacy assumptions.</h2>
+
+
+
+<p>The recent revelations about FBI forensic access to Signal messages on an iPhone have reignited a long-standing misunderstanding about mobile privacy: the belief that disappearing messages and encrypted apps guarantee that no trace of communication remains once a message is deleted or an app is removed. A court case in Texas, reported by 404 Media and later analyzed by multiple security researchers, shows why that assumption does not match how modern smartphones actually work.</p>
+
+
+
+<p><em>&#8220;The FBI was able to forensically extract copies of incoming Signal messages from a defendant’s iPhone, even after the app was deleted, because copies of the content were saved in the device’s push notification database, multiple people present for FBI testimony in a recent trial told 404 Media. The case involved a group of people setting off fireworks and vandalizing property at the ICE Prairieland Detention Facility in Alvarado, Texas in July, and one shooting a police officer in the neck.&#8221; reads the <a href="https://www.404media.co/fbi-extracts-suspects-deleted-signal-messages-saved-in-iphone-notification-database-2/"><strong>post</strong></a> published by 404 Media. &#8220;The news shows how forensic extraction—when someone has physical access to a device and is able to run specialized software on it—can yield sensitive data derived from secure messaging apps in unexpected places.&#8221;</em><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p>Investigators were able to recover incoming messages from a suspect’s iPhone even after Signal had been uninstalled and even though the messages themselves were configured to disappear after a short time. The FBI did not break Signal’s encryption, nor did they exploit any vulnerability in its protocol. Instead, the data was retrieved from a completely different layer of the system: Apple’s own notification storage.</p>
+
+
+
+<p>Court testimony reveals that only incoming iPhone messages were recovered, not outgoing ones. This is key because incoming messages are processed by Apple&#8217;s push notification system, temporarily stored for lock screen/notification previews, and may leave OS traces even if deleted from the app. Outgoing messages lack this notification trail, explaining the investigators&#8217; limitation.</p>
+
+
+
+<p>Users misunderstand what “deleting” or “disappearing” actually means, instant messaging apps like Signal encrypt in transit and delete from their interface per timer, but once delivered, messages decrypt on the recipient&#8217;s device for display. The OS may then cache notification content independently, outside Signal&#8217;s control. </p>
+
+
+
+<p><em>&#8220;There is an important detail to keep in mind here: only incoming messages were recovered, not outgoing ones. This is entirely consistent with how push notifications work.&#8221; reads an <a href="https://andreafortuna.org/2026/04/11/signal-fbi-iphone-notifications-forensics/">analysis</a> published by researcher Andrea Fortuna. &#8220;When someone sends you a message on Signal, the app server pushes a notification to Apple’s infrastructure, which then delivers it to your device. If the notification content was not stripped before delivery, the text lands in the operating system’s notification database. Outgoing messages, which originate directly from your device to the server, never go through this pathway and therefore leave no equivalent trace.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Apple&#8217;s Push Notification service routes encrypted messages to devices via secure tokens. Payloads with visible alerts (if previews enabled) are decrypted locally but rendered by iOS, which caches notification data for history/reboot recovery. iOS databases persist fragments even after app deletion, enabling forensic recovery of past notifications despite end-to-end encryption.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Security researchers and forensic analysts have long known that iOS maintains structured databases for notifications, often associated with system frameworks that track alerts and user interactions. These databases can persist even after an app is removed. In practice, this means that uninstalling Signal does not necessarily erase all traces of messages that once appeared on the screen. Instead, fragments of those messages can remain embedded in system-level storage designed for convenience features like notification history.</p>
+
+
+
+<p>Forensic tools extract data from full filesystem images, backups, or unlocked snapshots. They analyze OS-decrypted data like system databases, cached files, and notification content, not breaking encryption, but accessing what iOS already decrypted/stored for usability. <gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>In the Texas case, the FBI likely recovered Signal message remnants not by breaking encryption, but through iOS forensic artifacts stored on the device. Fortuna explained that one plausible route is a logical acquisition after the phone had been unlocked at least once (AFU state), followed by analysis of an encrypted iTunes backup, which can contain rich system and app data, including notification databases. Tools such as idevicebackup2 can extract backups without modifying the device.</p>
+
+
+
+<p>Another possibility is the use of commercial forensic suites like Cellebrite UFED or Magnet AXIOM, which combine backup extraction, AFC-based logical access, and sometimes exploit-based methods to retrieve deeper iOS artifacts. These tools are widely used by law enforcement to access data not available through standard backups.</p>
+
+
+
+<p>A third scenario involves iCloud backups, which—when legally obtained—may also include similar system-level data. Across all methods, the key point is that iOS preserves many artifacts beyond what users see. As a result, “deleted” or “uninstalled” does not necessarily mean unrecoverable in forensic contexts.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>In the Texas case, the FBI reportedly retrieved evidence from Apple’s internal notification storage rather than from Signal itself. Once an iPhone is unlocked after reboot (“after first unlock”), more encrypted system data becomes accessible through standard forensic methods, including notification databases. This reveals a gap between user assumptions and system behavior.</p>
+
+
+
+<p>Many people believe disappearing messages or app deletion means complete erasure. In reality, mobile operating systems retain data such as notification history, caches, logs, and predictive text for usability and performance, and these artifacts can persist beyond app removal.</p>
+
+
+
+<p>Signal’s encryption remains intact; the issue lies in the operating system, which can store message content independently.</p>
+
+
+
+<p>Reducing risk is possible by disabling notification previews or using “content hidden” modes, preventing readable message text from being stored on the device.</p>
+
+
+
+<p>The FBI case highlights that digital privacy is layered. Encryption protects data in transit, but not always data at rest. Messaging apps can delete messages from their own systems, but they cannot fully control how operating systems store notifications or system-level data.</p>
+
+
+
+<p>Even secure apps like Signal or WhatsApp operate within ecosystems designed for usability and persistence, not perfect data erasure. As a result, messages may vanish from the screen but still leave traces on the device.</p>
+
+
+
+<p>The key lesson is that disappearance in an app does not guarantee disappearance from the phone. Smartphones inevitably retain system-level data, creating layers of information that persist beyond the user’s view.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, <a href="https://securityaffairs.com/tag/signal" type="post_tag" id="5002">Signal</a>)</strong><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190740</post-id>	</item>
+		<item>
+		<title>Citizen Lab: Webloc tracked 500M devices for global law enforcement</title>
+		<link>https://securityaffairs.com/190715/intelligence/citizen-lab-webloc-tracked-500m-devices-for-global-law-enforcement.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Mon, 13 Apr 2026 10:44:33 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Intelligence]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ADINT]]></category>
+		<category><![CDATA[Citizen Lab]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[ICE]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[surveillance]]></category>
+		<category><![CDATA[surveillance activity]]></category>
+		<category><![CDATA[Webloc]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=190715</guid>
+
+					<description><![CDATA[Citizen Lab reported that law enforcement used the surveillance tool Webloc to track up to 500M devices via ad data globally. A report by Citizen Lab revealed that law enforcement agencies in the U.S., Hungary, and El Salvador used a surveillance tool called Webloc to track devices via advertising data, potentially affecting up to 500 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Citizen Lab reported that law enforcement used the surveillance tool Webloc to track up to 500M devices via ad data globally.</h2>
+
+
+
+<p>A report by Citizen Lab revealed that law enforcement agencies in the U.S., Hungary, and El Salvador used a surveillance tool called Webloc to track devices via advertising data, potentially affecting up to 500 million devices. Developed by Cobwebs Technologies and now sold by Penlink, the tool is widely used by agencies like ICE, the military, and multiple police departments.</p>
+
+
+
+<p>Cobwebs Technologies has links to spyware vendor Quadream through its founder. Its Webloc tool is sold alongside the Tangles intelligence platform and is used globally by law enforcement.</p>
+
+
+
+<p><em>&#8220;Our research shows that intrusive and legally questionable ad-based surveillance (i.e. without a warrant or adequate oversight) is being used by military, intelligence, and law enforcement agencies down to local police units in several countries across the globe.&#8221; reads the <a href="https://citizenlab.ca/research/analysis-of-penlinks-ad-based-geolocation-surveillance-tech/">report</a> published by Citizen Lab.</em></p>
+
+
+
+<p>Citizen Lab found that the Webloc surveillance tool is used by governments in Hungary, El Salvador, and the United States, marking the first confirmed use of ad-based tracking in Europe. The tool is also linked to multiple law enforcement agencies and possibly other countries.</p>
+
+
+
+<p>Despite limited transparency from European authorities, evidence suggests broader global use. </p>
+
+
+
+<p>Ad-based surveillance emerged after a 2020 investigation revealed U.S. agencies buying smartphone location data from apps via brokers. Since then, multiple government bodies have used this data for surveillance purposes.</p>
+
+
+
+<p>Using advertising data sources, it tracks devices via mobile advertising IDs, linking them to GPS, Wi-Fi, and behavioral data such as apps used, interests, and demographics. It supports geofencing, travel tracking, and relationship mapping between devices, enabling large-scale surveillance.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-40.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="437" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-40.png?resize=1024%2C437&#038;ssl=1" alt="" class="wp-image-190733" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-40.png?resize=1024%2C437&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-40.png?resize=300%2C128&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-40.png?resize=768%2C328&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-40.png?resize=1536%2C656&amp;ssl=1 1536w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-40.png?w=1600&amp;ssl=1 1600w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p>The data allowed intelligence and law enforcement to cover behavior, traits, and movements of millions. Known as ADINT, it relies on data from ad auctions (RTB) and embedded app trackers (SDKs), collecting identifiers, geolocation, and user habits. Despite claims of anonymity, such data can identify individuals. This practice enables large-scale tracking but raises serious privacy and legal concerns, as it may expose sensitive personal details and bypass traditional oversight.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Webloc offers both historical and near real-time geolocation data, with updates occurring every 4 to 24 hours and access to up to three years of past records. The platform processes extensive personal data, including device identifiers (e.g., advertising IDs, IPs), timestamps, GPS and Wi-Fi-based locations, inferred places like home or work, device details, and behavioral profiles derived from ad-targeting segments. It can also track apps used and user characteristics such as age, gender, and interests. Although vendors claim GDPR compliance and user consent, such assertions remain disputed. Even without explicit demographic data, location traces can reveal highly sensitive insights about individuals’ habits and identities. The exact data sources remain unclear but likely include SDK- and RTB-based pipelines. Coverage, accuracy, and current practices are difficult to verify.</p>
+
+
+
+<p>Researchers uncovered additional infrastructure linked to Cobwebs by pivoting on TLS certificates, identifying 14 new servers, some exposing broken login pages tied to products like Trapdoor and Weaver. Overall, 219 active servers were assessed as likely supporting Cobwebs deployments, with a broader infrastructure of 298 servers across 25 countries, heavily concentrated in the U.S., Netherlands, and Germany. </p>
+
+
+
+<p><em>&#8220;Based on the above research, we identified 219 active servers we assess as associated with Cobwebs product deployments. With the help of common IP geolocation tools we then retrieved the likely server locations of the corresponding IP addresses.&#8221; continues the report. &#8220;As a result, we found that many potential Cobwebs product servers are located in the U.S. (126), Netherlands (32), Singapore (17), Germany (8), Hong Kong (8), and the U.K. (7). We also identified potential product servers located in Kenya, Iraq, United Arab Emirates, Indonesia, India, Mexico, Colombia, Australia, Japan, and in several European countries (France, Sweden, Norway, Ireland, and Cyprus). We found only one potential product server located in Cobwebs Technologies’ home country, Israel.&#8221;</em></p>
+
+
+
+<p>Most are hosted on Microsoft Azure. Evidence suggests dynamic infrastructure, with some servers active only briefly and others persisting for years.</p>
+
+
+
+<p>Analysis also points to specialized deployments such as “Webloc” and “Trapdoor,” inferred from hostname patterns (e.g., “wl” and “td”). Trapdoor, in particular, emerges as a web-based social engineering platform capable of phishing, data extraction, and limited client-side interaction via browsers, potentially facilitating malware delivery without embedding it directly.</p>
+
+
+
+<p>Corporate links connect Cobwebs to other surveillance vendors like Quadream, with overlapping leadership and investment networks. Despite vendor claims of compliance, the report highlights significant opacity around operations, customers, and legal safeguards. It ultimately characterizes Webloc as a highly intrusive mass surveillance system leveraging commercial data, raising serious concerns about proportionality, legality, and civil liberties.</p>
+
+
+
+<p>Cobwebs Technologies and its successor Penlink provide limited transparency about Webloc, a mass surveillance platform leveraging data from mobile apps and digital advertising. The system enables large-scale monitoring of individuals’ movements and behaviors, often without probable cause, raising significant privacy concerns. Its use illustrates “mission creep,” expanding from serious investigations to routine cases. The legality of such surveillance is widely debated, especially regarding consent and data anonymization. Regulatory scrutiny in the U.S. and Europe highlights potential violations of privacy laws. The report urges stronger oversight, reforms in data practices, and further investigation into Webloc’s data sources, usage, and impact on civil liberties.</p>
+
+
+
+<p><em>&#8220;The systematic misuse of data purchased from everyday consumer apps and digital advertising for warrantless surveillance raises serious concerns about <a href="https://cdt.org/wp-content/uploads/2021/12/2021-12-08-Legal-Loopholes-and-Data-for-Dollars-Report-final.pdf">civil liberties</a> and <a href="https://www.interface-eu.org/publications/disproportionate-use-commercially-and-publicly-available-data-europes-next-frontier">fundamental rights</a>, particularly when used to target vulnerable groups such as immigrants or those who exercise their freedom of expression and assembly rights.&#8221; concludes the report. &#8220;Ad-based surveillance raises specific concerns when applied by organizations or governments, which are prone to authoritarianism or have weak or limited oversight. It generally raises concerns when governments lack a lawful basis to use it or when the underlying data is processed without a lawful basis.&#8221;</em><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Webloc)</strong><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">190715</post-id>	</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Object Caching 50/60 objects using Memcached
+Page Caching using Memcached (Page is feed) 
+Database Caching 1/25 queries in 0.019 seconds using Memcached (Request-wide modification query)
+
+Served from: securityaffairs.com @ 2026-04-15 07:53:07 by W3 Total Cache
+-->

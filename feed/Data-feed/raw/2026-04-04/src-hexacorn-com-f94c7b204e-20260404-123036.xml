@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hexacorn</title>
+	<atom:link href="http://www.hexacorn.com/blog/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.hexacorn.com/blog</link>
+	<description>Hexacorn</description>
+	<lastBuildDate>Thu, 26 Feb 2026 01:16:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.9</generator>
+	<item>
+		<title>ShimBad the Sailor, Part 3</title>
+		<link>https://www.hexacorn.com/blog/2026/02/26/shimbad-the-sailor-part-3/</link>
+		
+		<dc:creator><![CDATA[adam]]></dc:creator>
+		<pubDate>Thu, 26 Feb 2026 01:16:00 +0000</pubDate>
+				<category><![CDATA[Anti-Forensics]]></category>
+		<guid isPermaLink="false">https://www.hexacorn.com/blog/?p=10336</guid>
+
+					<description><![CDATA[Windows 11 brings us a lot of new Shim-related goodies and it makes sense to cover at least some of them. In the second part of this series I listed a number of process names that are treated in a &#8230; <a href="https://www.hexacorn.com/blog/2026/02/26/shimbad-the-sailor-part-3/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>1 little known secret of sti_ci.dll</title>
+		<link>https://www.hexacorn.com/blog/2026/02/21/1-little-known-secret-of-sti_ci-dll/</link>
+		
+		<dc:creator><![CDATA[adam]]></dc:creator>
+		<pubDate>Sat, 21 Feb 2026 20:23:40 +0000</pubDate>
+				<category><![CDATA[little known secrets]]></category>
+		<category><![CDATA[Living off the land]]></category>
+		<category><![CDATA[LOLBins]]></category>
+		<guid isPermaLink="false">https://www.hexacorn.com/blog/?p=10333</guid>
+
+					<description><![CDATA[In 2017 I posted about sideloading of sti_ci.dll. And it&#8217;s that DLL itself that executes the InstallWiaDevice installation command mentioned in that post&#8230; How? Via its export function called&#8230; InstallWiaDevice. It turns out that we can launch this API directly &#8230; <a href="https://www.hexacorn.com/blog/2026/02/21/1-little-known-secret-of-sti_ci-dll/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>WinHttpOpen user agents</title>
+		<link>https://www.hexacorn.com/blog/2026/02/14/winhttpopen-user-agents/</link>
+		
+		<dc:creator><![CDATA[adam]]></dc:creator>
+		<pubDate>Sat, 14 Feb 2026 22:40:15 +0000</pubDate>
+				<category><![CDATA[Archaeology]]></category>
+		<category><![CDATA[Windows 11]]></category>
+		<guid isPermaLink="false">https://www.hexacorn.com/blog/?p=10331</guid>
+
+					<description><![CDATA[When you call WinHttpOpen API you can specify the user agent that will be used in subsequent WinHTTP calls. Windows OS and its native binaries use WinHttp APIs a lot, so the below is list of all user agents I &#8230; <a href="https://www.hexacorn.com/blog/2026/02/14/winhttpopen-user-agents/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>1 little known secret of CompatTelRunner.exe</title>
+		<link>https://www.hexacorn.com/blog/2026/02/14/1-little-known-secret-of-compattelrunner-exe/</link>
+		
+		<dc:creator><![CDATA[adam]]></dc:creator>
+		<pubDate>Sat, 14 Feb 2026 20:17:15 +0000</pubDate>
+				<category><![CDATA[little known secrets]]></category>
+		<category><![CDATA[Living off the land]]></category>
+		<guid isPermaLink="false">https://www.hexacorn.com/blog/?p=10329</guid>
+
+					<description><![CDATA[When you run: the program will&#8230; sleep for exactly 1 second. The whatever bit can be any string, as long as it&#8217;s at least 1 character long.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>1 little known secret of net.exe</title>
+		<link>https://www.hexacorn.com/blog/2026/02/14/1-little-known-secret-of-net-exe/</link>
+		
+		<dc:creator><![CDATA[adam]]></dc:creator>
+		<pubDate>Sat, 14 Feb 2026 00:43:35 +0000</pubDate>
+				<category><![CDATA[little known secrets]]></category>
+		<category><![CDATA[Living off the land]]></category>
+		<guid isPermaLink="false">https://www.hexacorn.com/blog/?p=10327</guid>
+
+					<description><![CDATA[In Windows 11 24H2+ and Windows Server 2025+ you can use new net.exe command line arguments to Configure alternative SMB ports: TCP, QUIC, RDMA: I am not the first one to point it out &#8212; see this article.]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

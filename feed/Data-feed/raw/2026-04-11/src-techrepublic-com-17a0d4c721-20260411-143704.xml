@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Security Archives - TechRepublic</title>
+	<atom:link href="https://www.techrepublic.com/rssfeeds/topic/security/?feedType=rssfeeds" rel="self" type="application/rss+xml" />
+	<link>https://www.techrepublic.com/topic/security/</link>
+	<description>News, Tips, and Advice for Technology Professionals</description>
+	<lastBuildDate>Fri, 10 Apr 2026 17:02:52 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>Microsoft: Third-Party Android Vulnerability Leaves Over 50M Users Exposed</title>
+		<link>https://www.techrepublic.com/article/news-engagelab-sdk-android-vulnerability-malware-bridge/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 17:02:52 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[android malware]]></category>
+		<category><![CDATA[android security]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[intent redirection]]></category>
+		<category><![CDATA[malware threat]]></category>
+		<category><![CDATA[microsoft security]]></category>
+		<category><![CDATA[mobile app security]]></category>
+		<category><![CDATA[sdk vulnerability]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355155</guid>
+
+					<description><![CDATA[<p>A flaw in the EngageLab SDK exposed 50 million Android users, allowing malicious apps to exploit trusted permissions and access sensitive data.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-engagelab-sdk-android-vulnerability-malware-bridge/">Microsoft: Third-Party Android Vulnerability Leaves Over 50M Users Exposed</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AI Expansion, Security Crises, and Workforce Upheaval Define This Week in Tech</title>
+		<link>https://www.techrepublic.com/article/ai-expansion-security-crises-and-workforce-upheaval-define-this-week-in-tech/</link>
+		
+		<dc:creator><![CDATA[TechRepublic Staff]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 14:00:51 +0000</pubDate>
+				<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Browsers]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Tech & Work]]></category>
+		<category><![CDATA[Weekly Roundup]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[Workforce]]></category>
+		<category><![CDATA[Adobe Acrobat]]></category>
+		<category><![CDATA[ai news]]></category>
+		<category><![CDATA[anthropic news]]></category>
+		<category><![CDATA[apple news]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<category><![CDATA[CISA]]></category>
+		<category><![CDATA[Daily Tech Insider]]></category>
+		<category><![CDATA[goldman sachs]]></category>
+		<category><![CDATA[google news]]></category>
+		<category><![CDATA[layoffs]]></category>
+		<category><![CDATA[Netflix]]></category>
+		<category><![CDATA[Newsletter Roundup]]></category>
+		<category><![CDATA[openai news]]></category>
+		<category><![CDATA[samsung]]></category>
+		<category><![CDATA[tech news]]></category>
+		<category><![CDATA[trump]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355136</guid>
+
+					<description><![CDATA[<p>See what you missed in Daily Tech Insider from April 6–10.</p>
+<p>The post <a href="https://www.techrepublic.com/article/ai-expansion-security-crises-and-workforce-upheaval-define-this-week-in-tech/">AI Expansion, Security Crises, and Workforce Upheaval Define This Week in Tech</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Hackers Exploit Adobe PDF Flaw for Months to Steal Data, No Fix Yet</title>
+		<link>https://www.techrepublic.com/article/news-adobe-acrobat-zero-day-pdf-exploit-months/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 18:33:04 +0000</pubDate>
+				<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Adobe Acrobat]]></category>
+		<category><![CDATA[adobe reader vulnerability]]></category>
+		<category><![CDATA[cybersecurity threats]]></category>
+		<category><![CDATA[data breach risks]]></category>
+		<category><![CDATA[pdf malware]]></category>
+		<category><![CDATA[phishing attacks]]></category>
+		<category><![CDATA[remote code execution]]></category>
+		<category><![CDATA[zero day exploit]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355034</guid>
+
+					<description><![CDATA[<p>A critical Adobe Acrobat zero-day has been exploited for months via malicious PDFs to steal data and potentially take over systems, with no patch yet available.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-adobe-acrobat-zero-day-pdf-exploit-months/">Hackers Exploit Adobe PDF Flaw for Months to Steal Data, No Fix Yet</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New Apple Scam Hits Millions of iPhone Users Worldwide, Draining Bank Accounts</title>
+		<link>https://www.techrepublic.com/article/news-apple-iphone-scam-targeting-millions-2026/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 15:42:25 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[EU]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[apple pay fraud]]></category>
+		<category><![CDATA[apple scam]]></category>
+		<category><![CDATA[cybersecurity threats]]></category>
+		<category><![CDATA[iphone security]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<category><![CDATA[phishing scams]]></category>
+		<category><![CDATA[scam alerts]]></category>
+		<category><![CDATA[social engineering]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355019</guid>
+
+					<description><![CDATA[<p>Apple warns of a new scam targeting millions of iPhone users. Learn the red flags, how it works, and how to protect your account and finances.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-apple-iphone-scam-targeting-millions-2026/">New Apple Scam Hits Millions of iPhone Users Worldwide, Draining Bank Accounts</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Massive Data Breach Exposes 337K LAPD-Linked Records</title>
+		<link>https://www.techrepublic.com/article/news-lapd-data-breach-337k-files-exposed/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 15:24:43 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[Enterprise Technology]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cybersecurity incident]]></category>
+		<category><![CDATA[data breach news]]></category>
+		<category><![CDATA[lapd data breach]]></category>
+		<category><![CDATA[los angeles breach]]></category>
+		<category><![CDATA[police data leak]]></category>
+		<category><![CDATA[ransomware attack]]></category>
+		<category><![CDATA[sensitive data exposure]]></category>
+		<category><![CDATA[third party risk]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355012</guid>
+
+					<description><![CDATA[<p>A massive breach exposed 337K LAPD-linked files, raising concerns over third-party risk, sensitive data exposure, and law enforcement cybersecurity gaps.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-lapd-data-breach-337k-files-exposed/">Massive Data Breach Exposes 337K LAPD-Linked Records</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Why Operationalizing AI Security Is the Next Great Enterprise Hurdle</title>
+		<link>https://www.techrepublic.com/article/news-nwn-ai-security-platform-tool-sprawl-alert-fatigue/</link>
+		
+		<dc:creator><![CDATA[Zeus Kerravala]]></dc:creator>
+		<pubDate>Wed, 08 Apr 2026 17:50:11 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Chatbots]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Enterprise Technology]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Tech & Work]]></category>
+		<category><![CDATA[Tech Industry]]></category>
+		<category><![CDATA[ai security]]></category>
+		<category><![CDATA[cloud security]]></category>
+		<category><![CDATA[cybersecurity trends]]></category>
+		<category><![CDATA[enterprise security]]></category>
+		<category><![CDATA[managed security services]]></category>
+		<category><![CDATA[security operations]]></category>
+		<category><![CDATA[soc modernization]]></category>
+		<category><![CDATA[threat detection]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354911</guid>
+
+					<description><![CDATA[<p>NWN launches an AI-powered security platform to tackle tool sprawl, alert fatigue, and modern cyber threats in the era of agentic enterprises.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-nwn-ai-security-platform-tool-sprawl-alert-fatigue/">Why Operationalizing AI Security Is the Next Great Enterprise Hurdle</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>10 ChatGPT AI Prompts L1 SOC Analysts Can Use in Their Daily Work</title>
+		<link>https://www.techrepublic.com/article/news-chatgpt-prompts-soc-analysts-incident-response/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Wed, 08 Apr 2026 17:34:50 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Chatbots]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[chatgpt prompts]]></category>
+		<category><![CDATA[cybersecurity operations]]></category>
+		<category><![CDATA[incident response]]></category>
+		<category><![CDATA[mitre attack]]></category>
+		<category><![CDATA[security automation]]></category>
+		<category><![CDATA[siem]]></category>
+		<category><![CDATA[SOC Analyst]]></category>
+		<category><![CDATA[Threat hunting]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354897</guid>
+
+					<description><![CDATA[<p>Discover 10 practical ChatGPT prompts SOC analysts can use to speed up triage, analyze threats, improve documentation, and enhance incident response workflows.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-chatgpt-prompts-soc-analysts-incident-response/">10 ChatGPT AI Prompts L1 SOC Analysts Can Use in Their Daily Work</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New Scam Alert: QR Codes Replace Links in Traffic Ticket Phishing</title>
+		<link>https://www.techrepublic.com/article/news-qr-code-traffic-ticket-scam-2026/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Wed, 08 Apr 2026 13:00:33 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[cybersecurity threats]]></category>
+		<category><![CDATA[data privacy]]></category>
+		<category><![CDATA[identity theft]]></category>
+		<category><![CDATA[mobile scams]]></category>
+		<category><![CDATA[phishing attacks]]></category>
+		<category><![CDATA[qr code scams]]></category>
+		<category><![CDATA[scam alerts]]></category>
+		<category><![CDATA[traffic ticket scam]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354844</guid>
+
+					<description><![CDATA[<p>Scammers are using fake traffic violation texts with QR codes to steal personal and financial data, posing as state courts and government agencies.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-qr-code-traffic-ticket-scam-2026/">New Scam Alert: QR Codes Replace Links in Traffic Ticket Phishing</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>‘BlueHammer’ Exploit Targets Windows, Potentially Impacting 1 Billion+ Devices</title>
+		<link>https://www.techrepublic.com/article/news-bluehammer-windows-zero-day-exploit-microsoft/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Wed, 08 Apr 2026 12:54:19 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Operating System]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[bluehammer]]></category>
+		<category><![CDATA[cybersecurity threat]]></category>
+		<category><![CDATA[exploit release]]></category>
+		<category><![CDATA[privilege escalation]]></category>
+		<category><![CDATA[system access]]></category>
+		<category><![CDATA[windows security]]></category>
+		<category><![CDATA[zero-day vulnerability]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354837</guid>
+
+					<description><![CDATA[<p>A researcher released a working ‘BlueHammer’ Windows zero-day exploit that could impact over 1 billion devices, granting SYSTEM-level access and leaving no patch yet.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-bluehammer-windows-zero-day-exploit-microsoft/">‘BlueHammer’ Exploit Targets Windows, Potentially Impacting 1 Billion+ Devices</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Trump’s Proposed CISA Cuts Spark Alarm Among Cybersecurity Experts</title>
+		<link>https://www.techrepublic.com/article/news-trump-cisa-budget-cuts-2027/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Tue, 07 Apr 2026 18:24:52 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Tech & Work]]></category>
+		<category><![CDATA[Tech Industry]]></category>
+		<category><![CDATA[CISA]]></category>
+		<category><![CDATA[critical infrastructure]]></category>
+		<category><![CDATA[cyber defense]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[federal budget]]></category>
+		<category><![CDATA[public private partnership]]></category>
+		<category><![CDATA[threat intelligence]]></category>
+		<category><![CDATA[trump administration]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354757</guid>
+
+					<description><![CDATA[<p>Trump’s proposed budget cuts to CISA raise concerns about U.S. cyber defense, as experts warn of reduced collaboration and threat intelligence sharing.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-trump-cisa-budget-cuts-2027/">Trump’s Proposed CISA Cuts Spark Alarm Among Cybersecurity Experts</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New FBI Warning: Chinese Apps Could Expose User Data</title>
+		<link>https://www.techrepublic.com/article/news-fbi-warns-foreign-apps-data-security-risks/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Tue, 07 Apr 2026 16:25:04 +0000</pubDate>
+				<category><![CDATA[APAC]]></category>
+		<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[app security]]></category>
+		<category><![CDATA[chinese apps]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data privacy]]></category>
+		<category><![CDATA[data protection]]></category>
+		<category><![CDATA[fbi]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<category><![CDATA[us china relations]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354739</guid>
+
+					<description><![CDATA[<p>The FBI is warning Americans about data security risks tied to foreign-developed mobile apps, especially those linked to China.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-fbi-warns-foreign-apps-data-security-risks/">New FBI Warning: Chinese Apps Could Expose User Data</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>‘Stop Texting’: FBI Warning Drives Apple’s iPhone Messaging Update</title>
+		<link>https://www.techrepublic.com/article/news-apple-rcs-messaging-fbi-warning-sms-security/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Tue, 07 Apr 2026 15:19:49 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[android texting]]></category>
+		<category><![CDATA[apple rcs]]></category>
+		<category><![CDATA[data privacy]]></category>
+		<category><![CDATA[fbi warning]]></category>
+		<category><![CDATA[iphone messaging]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<category><![CDATA[rcs messaging]]></category>
+		<category><![CDATA[sms security]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354710</guid>
+
+					<description><![CDATA[<p>Apple is preparing encrypted RCS support for iPhone, a change that could make messaging with Android users more secure and reduce reliance on SMS.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-apple-rcs-messaging-fbi-warning-sms-security/">‘Stop Texting’: FBI Warning Drives Apple’s iPhone Messaging Update</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New Fortinet Flaw Allows Unauthorized Access to Enterprise Systems</title>
+		<link>https://www.techrepublic.com/article/news-fortinet-forticlient-ems-zero-day-active-exploitation/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Mon, 06 Apr 2026 15:35:25 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Enterprise Technology]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cve-2026-35616]]></category>
+		<category><![CDATA[cybersecurity threats]]></category>
+		<category><![CDATA[enterprise security]]></category>
+		<category><![CDATA[forticlient ems]]></category>
+		<category><![CDATA[fortinet]]></category>
+		<category><![CDATA[network security]]></category>
+		<category><![CDATA[vulnerability exploitation]]></category>
+		<category><![CDATA[zero-day vulnerability]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354613</guid>
+
+					<description><![CDATA[<p>Fortinet warns of a critical FortiClient EMS zero-day vulnerability that is currently being exploited, allowing attackers to bypass authentication and execute commands.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-fortinet-forticlient-ems-zero-day-active-exploitation/">New Fortinet Flaw Allows Unauthorized Access to Enterprise Systems</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Apple Rolls Out Fix: New macOS Update Could Protect 100M Mac Users</title>
+		<link>https://www.techrepublic.com/article/news-apple-macos-update-terminal-malware-warning-clickfix/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Mon, 06 Apr 2026 14:20:23 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Operating System]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[apple cybersecurity]]></category>
+		<category><![CDATA[apple updates]]></category>
+		<category><![CDATA[clickfix]]></category>
+		<category><![CDATA[cybersecurity threats]]></category>
+		<category><![CDATA[mac malware]]></category>
+		<category><![CDATA[macos security]]></category>
+		<category><![CDATA[social engineering attacks]]></category>
+		<category><![CDATA[terminal commands]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354599</guid>
+
+					<description><![CDATA[<p>Apple’s macOS 26.4 update adds a Terminal warning to help stop ClickFix-style attacks by flagging potentially harmful pasted commands.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-apple-macos-update-terminal-malware-warning-clickfix/">Apple Rolls Out Fix: New macOS Update Could Protect 100M Mac Users</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Samsung to Shut Down Its Messaging App, Switch to Google Messages in July</title>
+		<link>https://www.techrepublic.com/article/news-samsung-messages-app-shutdown-google-switch/</link>
+		
+		<dc:creator><![CDATA[Kezia Jungco]]></dc:creator>
+		<pubDate>Mon, 06 Apr 2026 12:47:17 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[CXO]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[Mobility]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[device management]]></category>
+		<category><![CDATA[enterprise it]]></category>
+		<category><![CDATA[gemini ai]]></category>
+		<category><![CDATA[google messages]]></category>
+		<category><![CDATA[Messaging apps]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<category><![CDATA[rcs]]></category>
+		<category><![CDATA[samsung]]></category>
+		<category><![CDATA[samsung galaxy]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354572</guid>
+
+					<description><![CDATA[<p>Samsung will discontinue its Messages app in July 2026, pushing users to Google Messages with RCS, AI, and security upgrades.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-samsung-messages-app-shutdown-google-switch/">Samsung to Shut Down Its Messaging App, Switch to Google Messages in July</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Android Alert: 50 Google Play Apps Linked to ‘NoVoice’ Malware Reached 2.3M Downloads</title>
+		<link>https://www.techrepublic.com/article/news-novoice-malware-android-google-play-50-apps/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 16:01:13 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[android malware]]></category>
+		<category><![CDATA[android security]]></category>
+		<category><![CDATA[cybersecurity threats]]></category>
+		<category><![CDATA[google play store]]></category>
+		<category><![CDATA[malware apps]]></category>
+		<category><![CDATA[mcafee research]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<category><![CDATA[novoice malware]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354471</guid>
+
+					<description><![CDATA[<p>NoVoice malware was found in 50 Android apps on Google Play, with 2.3 million downloads, by bypassing detection and targeting outdated devices.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-novoice-malware-android-google-play-50-apps/">Android Alert: 50 Google Play Apps Linked to ‘NoVoice’ Malware Reached 2.3M Downloads</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>FBI Declares Surveillance System Breach a ‘Major Incident’</title>
+		<link>https://www.techrepublic.com/article/news-china-linked-fbi-surveillance-breach-major-incident/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 15:35:05 +0000</pubDate>
+				<category><![CDATA[APAC]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[china cyber espionage]]></category>
+		<category><![CDATA[cybersecurity threats]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[fbi breach]]></category>
+		<category><![CDATA[fisma major incident]]></category>
+		<category><![CDATA[government hacking]]></category>
+		<category><![CDATA[national security]]></category>
+		<category><![CDATA[surveillance systems]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354455</guid>
+
+					<description><![CDATA[<p>China-linked hackers breached an FBI surveillance system, exposing sensitive investigation data and prompting a “major incident” classification.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-china-linked-fbi-surveillance-breach-major-incident/">FBI Declares Surveillance System Breach a ‘Major Incident’</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AI Breakthroughs, Security Breaches, and Industry Shakeups Define the Week in Tech</title>
+		<link>https://www.techrepublic.com/article/ai-breakthroughs-security-breaches-and-industry-shakeups-define-the-week-in-tech/</link>
+		
+		<dc:creator><![CDATA[TechRepublic Staff]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 14:00:57 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Chatbots]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Developer]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Information Technology]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Open source]]></category>
+		<category><![CDATA[Robots]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[Tech & Work]]></category>
+		<category><![CDATA[United Kingdom]]></category>
+		<category><![CDATA[Weekly Roundup]]></category>
+		<category><![CDATA[ai news]]></category>
+		<category><![CDATA[ai robotics]]></category>
+		<category><![CDATA[alibaba]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[anthropic news]]></category>
+		<category><![CDATA[apple news]]></category>
+		<category><![CDATA[chatgpt]]></category>
+		<category><![CDATA[claude]]></category>
+		<category><![CDATA[Daily Tech Insider]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[deepseek]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[google news]]></category>
+		<category><![CDATA[hasbro]]></category>
+		<category><![CDATA[layoffs]]></category>
+		<category><![CDATA[Newsletter Roundup]]></category>
+		<category><![CDATA[openai news]]></category>
+		<category><![CDATA[oracle]]></category>
+		<category><![CDATA[Qwen]]></category>
+		<category><![CDATA[robot]]></category>
+		<category><![CDATA[security breaches]]></category>
+		<category><![CDATA[siri]]></category>
+		<category><![CDATA[spacex]]></category>
+		<category><![CDATA[tech news]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354447</guid>
+
+					<description><![CDATA[<p>See what you missed in Daily Tech Insider from March 30–April 3.</p>
+<p>The post <a href="https://www.techrepublic.com/article/ai-breakthroughs-security-breaches-and-industry-shakeups-define-the-week-in-tech/">AI Breakthroughs, Security Breaches, and Industry Shakeups Define the Week in Tech</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Patch Now: Chrome Flaw Under Active Attack, Google Confirms</title>
+		<link>https://www.techrepublic.com/article/news-chrome-zero-day-cve-2026-5281-active-exploit/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 19:02:26 +0000</pubDate>
+				<category><![CDATA[Browsers]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[browser security]]></category>
+		<category><![CDATA[chrome security]]></category>
+		<category><![CDATA[cve-2026-5281]]></category>
+		<category><![CDATA[cybersecurity threats]]></category>
+		<category><![CDATA[google chrome update]]></category>
+		<category><![CDATA[memory safety]]></category>
+		<category><![CDATA[webgpu vulnerability]]></category>
+		<category><![CDATA[zero-day vulnerability]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354397</guid>
+
+					<description><![CDATA[<p>Google patches 21 Chrome vulnerabilities, including an actively exploited zero-day flaw that could enable code execution and full device compromise.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-chrome-zero-day-cve-2026-5281-active-exploit/">Patch Now: Chrome Flaw Under Active Attack, Google Confirms</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Hasbro Cyberattack Knocks Systems Offline, Recovery Could Take Weeks</title>
+		<link>https://www.techrepublic.com/article/news-hasbro-cyberattack-systems-offline-weeks-recovery/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 17:05:55 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[business disruption]]></category>
+		<category><![CDATA[cyberattack]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[hasbro]]></category>
+		<category><![CDATA[incident response]]></category>
+		<category><![CDATA[network security]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4354389</guid>
+
+					<description><![CDATA[<p>Hasbro is investigating a cyberattack that forced systems offline, warning recovery could take weeks as it works to contain the incident and assess the impact.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-hasbro-cyberattack-systems-offline-weeks-recovery/">Hasbro Cyberattack Knocks Systems Offline, Recovery Could Take Weeks</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

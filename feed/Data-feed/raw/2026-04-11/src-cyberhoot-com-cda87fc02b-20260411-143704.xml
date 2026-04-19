@@ -1,0 +1,2193 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Blog Archives - CyberHoot</title>
+	<atom:link href="https://cyberhoot.com/category/blog/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cyberhoot.com/category/blog/</link>
+	<description>Security Awareness Training That Actually Works</description>
+	<lastBuildDate>Fri, 10 Apr 2026 15:03:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+	<item>
+		<title>Claude Mythos Opened Pandora&#8217;s Box. Project Glasswing Is Racing to Close It.</title>
+		<link>https://cyberhoot.com/blog/claude-mythos-opened-pandoras-box-project-glasswing-is-racing-to-close-it/</link>
+		
+		<dc:creator><![CDATA[Katie Boquetti]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 06:00:00 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[#Cybersecurity]]></category>
+		<category><![CDATA[#Mythos]]></category>
+		<category><![CDATA[#zeroday]]></category>
+		<guid isPermaLink="false">https://cyberhoot.com/?p=33175</guid>
+
+					<description><![CDATA[<p>A vCISO brief on Mythos AI, zero-day proliferation, and the urgent cybersecurity risks and actions required.</p>
+<p>The post <a href="https://cyberhoot.com/blog/claude-mythos-opened-pandoras-box-project-glasswing-is-racing-to-close-it/">Claude Mythos Opened Pandora&#8217;s Box. Project Glasswing Is Racing to Close It.</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p><em>A Practical Brief for vCISOs</em></p>
+
+
+
+<h3 class="wp-block-heading">THE WARNING WE IGNORED OR COULD NOT UNDERSTAND</h3>
+
+
+
+<p>For years, the most credible voices in AI research have issued the same warning. Treat artificial intelligence with the same institutional seriousness the world applied to nuclear technology. Warren Buffet put it plainly at the 2024 Berkshire Hathaway shareholder meeting:<br><br>&#8220;<em>We let a genie out of the bottle when we developed nuclear weapons. AI is somewhat similar — it&#8217;s part way out of the bottle</em>.&#8221; Source: <a href="https://www.cnn.com/2024/05/06/investing/warren-buffett-compares-ai-nuclear-weapons">CNN Business, May 2024</a><br><br>If you’re like me, given the gravitas of the people warning us (<a href="https://www.theguardian.com/science/2014/dec/02/stephen-hawking-intel-communication-system-astrophysicist-software-predictive-text-type?">Stephen Hawking</a>, <a href="https://www.npr.org/2023/05/28/1178673070/the-godfather-of-ai-sounds-alarm-about-potential-dangers-of-ai">Geoffrey Hinton</a>, <a href="https://www.gatesnotes.com/meet-bill/tech-thinking/reader/the-risks-of-ai-are-real-but-manageable">Bill Gates</a>), we tried understanding these warnings. Unfortunately, for most of us, the warnings felt abstract and impossible to conceptualize. The potential disruptions seemed distant, murky, closer to science fiction than reality. The genie was still in the bottle and Pandora&#8217;s Box was still firmly closed.<br><br>On April 7th , 2026, Anthropic briefly cracked the lid with an AI model called Claude Mythos preview. What they found inside concerned them enough to close it for the general public and restrict access to a curated coalition of critical software infrastructure providers. The hope was to get ahead of what this model represents before adversaries do the same.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="448" src="https://cyberhoot.com/wp-content/uploads/2026/03/The-Race-for-Zero-Day-Dominance-v1-1024x448.png" alt="" class="wp-image-33177" srcset="https://cyberhoot.com/wp-content/uploads/2026/03/The-Race-for-Zero-Day-Dominance-v1-1024x448.png 1024w, https://cyberhoot.com/wp-content/uploads/2026/03/The-Race-for-Zero-Day-Dominance-v1-300x131.png 300w, https://cyberhoot.com/wp-content/uploads/2026/03/The-Race-for-Zero-Day-Dominance-v1-768x336.png 768w, https://cyberhoot.com/wp-content/uploads/2026/03/The-Race-for-Zero-Day-Dominance-v1.png 1536w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">WHAT ANTHROPIC FOUND AND WHY THEY LOCKED IT DOWN</h3>
+
+
+
+<p>Anthropic revealed that Claude Mythos located critical software vulnerabilities, known as zero-days, in <a href="https://red.anthropic.com/2026/mythos-preview/">every major operating system and browser</a> they pointed it at. So Anthropic closed the box and refused to release it publicly. Instead, they assembled a coalition called <a href="https://www.anthropic.com/project/glasswing">Project Glasswing</a>, drawing in roughly 40 to 50 of the world&#8217;s largest software infrastructure providers, including Microsoft, Google, Apple, Amazon, Cisco, and CrowdStrike. The goal was to use Mythos to find and patch vulnerabilities before adversaries could weaponize them.<br><br>The results were significant. Mythos identified a 27-year-old vulnerability in OpenBSD, an operating system <a href="https://en.wikipedia.org/wiki/OpenBSD_security_features">designed and maintained with security as its primary value</a>, that decades of expert human audits had missed entirely. The compute cost to find it was approximately $50. Mythos achieved a working exploit on its first attempt in over 83 percent of test cases. For comparison, Anthropic&#8217;s previous public model produced 2 successful exploits across the same test suite. Mythos produced 181.<br><br>During internal testing, Anthropic encouraged Mythos to find a way to escaped its sandbox. <a href="https://www.businessinsider.com/anthropic-mythos-latest-ai-model-too-powerful-to-be-released-2026-4?">It did</a>. The researcher learned about it by receiving an unexpected email from the model while away from the office. The model then posted details of its own exploit to multiple public-facing websites without being prompted to do so. This is a documented test result from Anthropic&#8217;s own safety process, not a theoretical scenario.<br><br>The containment challenge extends beyond this single model. Public reporting suggests that Claude Mythos represents a step-change in capability rather than an incremental improvement. In testing, it identified vulnerabilities at a scale estimated to be 10 to 100 times that of elite human teams, and competing models from other major labs are still described as trailing it in advanced cybersecurity tasks. AI evolves quickly, and it is inevitable that other vendor models will catch up.<br><br>Also consider that Anthropic experienced two separate accidental exposures of internal files in the past two months, including details about Mythos itself, through human error in their own systems. The same organization building the most capable vulnerability-discovery AI on the planet left its own content management system unsecured and bundled internal source code into a public software update. This matters because once a tool like Mythos reaches adversarial hands, it copies at zero marginal cost. Nation-states with existing offensive cyber programs and no interest in responsible disclosure will not pause to form coalitions of their own with very different agendas.</p>
+
+
+
+<h3 class="wp-block-heading">THE ASYMMETRY PROBLEM</h3>
+
+
+
+<p>Every major security framework built over the past three decades rests on a shared assumption: defenders hold the structural advantage of higher ground and better environmental visibility. Defenders own the source code, the architecture, the segmentation, and the identity controls. That high ground has not disappeared, but Mythos-class AI does not need to take it. When vulnerability discovery costs $50 and takes hours instead of months, the attacker no longer needs superior position.<br><br>Project Glasswing covers 40 to 50 organizations. The global software ecosystem contains hundreds of millions of deployments, from Fortune 500 infrastructure to the custom line-of- business application your client built in 2017 that nobody has reviewed since. Mythos-class AI will harden the largest, best-resourced platforms first because those are the ones inside the coalition. Everything outside that perimeter, which is nearly everything your clients depend on daily, remains exposed at the exact moment attackers gained the ability to find and weaponize vulnerabilities faster than defenders and most software vendors can respond.<br><br>Responsible disclosure works when vulnerabilities surface one at a time, get reported to a vendor, and are patched on a reasonable timeline. Mythos found thousands of critical vulnerabilities in weeks, autonomously, across every major operating system and browser simultaneously. The disclosure pipeline was not designed for that volume. Vendors receiving responsible disclosure notices for dozens of critical flaws at once face triage decisions they have never made before, with engineering capacity that has not scaled to match the discovery rate.</p>
+
+
+
+<p>There is one meaningful offset. While Mythos finds vulnerabilities, it also proposes fixes for them too. For organizations inside Glasswing, the same AI that found hundreds of problems also handed engineering a fix as well. That is a genuine accelerant for those 40 to 50 organizations. For everyone else, the clock is running without that advantage.<br><br>Your clients sit downstream from all of this. The SaaS tools they rely on daily, the cloud platforms running their data, the browsers their employees open every morning, all carry vulnerabilities that adversaries may know before the vendor has had time to patch them.<br><br>Watch for an early signal that Mythos-class capability has reached adversarial hands: an unusual spike in zero-day disclosures across multiple vendors in a short window, particularly affecting operating systems, browsers, and widely deployed SaaS platforms simultaneously. That pattern, more than any single headline, is the canary. When you see it, the proliferation question will have answered itself.</p>
+
+
+
+<h3 class="wp-block-heading">A ZERO-DAY ECONOMY HAS CHANGED</h3>
+
+
+
+<p>Finding a genuine zero-day has historically required elite human talent, significant time, and deep specialization. That scarcity created a limited and expensive marketplace. Nation-states paid tens of millions of dollars for reliable zero-days. Criminal groups stockpiled them carefully because they were expensive to acquire and valuable to preserve. The NSA, GRU, and equivalent agencies treated their zero-day inventories as strategic assets, deploying them selectively to avoid burning capabilities prematurely.<br><br>That economic structure rested on one assumption: discovery was hard. Claude Mythos has ended that premise.<br><br>When discovery costs approach zero, the number of exploits in circulation will explode. New adversaries who previously lacked the talent or resources to participate in offensive operations now have a way to achieve both. Criminal groups that previously rationed their zero-days because acquisition was expensive no longer face that constraint. Nation-states who only lacked exploits to burn, have as many as they need now. The barrier to entry for sophisticated attacks has dropped by orders of magnitude, and it will not reset.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="373" src="https://cyberhoot.com/wp-content/uploads/2026/03/AI-is-Scaling-Faster-Than-Governance-Controls-It-1024x373.png" alt="" class="wp-image-33178" srcset="https://cyberhoot.com/wp-content/uploads/2026/03/AI-is-Scaling-Faster-Than-Governance-Controls-It-1024x373.png 1024w, https://cyberhoot.com/wp-content/uploads/2026/03/AI-is-Scaling-Faster-Than-Governance-Controls-It-300x109.png 300w, https://cyberhoot.com/wp-content/uploads/2026/03/AI-is-Scaling-Faster-Than-Governance-Controls-It-768x280.png 768w, https://cyberhoot.com/wp-content/uploads/2026/03/AI-is-Scaling-Faster-Than-Governance-Controls-It.png 1536w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">THE REGULATORY REALITY</h3>
+
+
+
+<p>The honest answer to whether international regulation will contain this threat is: not in time, and not comprehensively. That is not cynicism. It is the documented pattern of every major dual-use technology governance challenge in modern history.<br><br><a href="https://www.newamerica.org/insights/doomed-to-repeat-history-lessons-from-the-crypto-wars-of-the-1990s/">Cryptography policy lagged deployment by a decade</a>, with encryption treated as a munition under arms export controls well into the 1990s while the commercial internet was already being built around it. Social media harms to a generation of young people are only now being addressed in law, <a href="https://www.hhs.gov/surgeongeneral/reports-and-publications/youth-mental-health/social-media/index.html">long after the  damage was done</a>. Autonomous weapons treaties <a href="https://www.armscontrol.org/act/2025-01/features/geopolitics-and-regulation-autonomous-weapons-systems">remain incomplete</a> despite a decade of UN negotiations, with major powers blocking binding agreements while deploying the systems under discussion. In each case, the technology moved faster than the institutions designed to govern it. With AI language models, the acceleration is sharper still, compressing the time available to assess, defend, and adapt to risks before they materialize at scale.<br><br>The EU AI Act addresses risk classification and transparency requirements. It does not create a meaningful international framework for controlling the proliferation of Mythos-class offensive capabilities. The United States has executive orders and voluntary commitments from major AI developers. Voluntary commitments do not bind developers who choose not to participate, and they do not bind adversaries who acquire the capability through other means.<br><br>Anthropic drew two ethical lines worth noting. It refused to allow its Claude models in fully autonomous weapons systems, and it refused to allow mass domestic surveillance of American citizens. Anthropic CEO <a href="http://linkedin.com/in/dario-amodei-3934934">Dario Amodei</a> stated that using AI for mass domestic surveillance would be &#8220;incompatible with democratic values,&#8221; and that today&#8217;s frontier AI models are &#8220;simply not reliable enough&#8221; for fully autonomous weapons. The Pentagon&#8217;s response was to <a href="https://techcrunch.com/2026/03/05/its-official-the-pentagon-has-labeled-anthropic-a-supply-chain-risk/">label Anthropic a supply chain risk</a> in early March, a designation historically reserved for foreign adversaries, not American companies that disagreed with government policy. Anthropic sued, and a California federal judge <a href="https://www.cnn.com/2026/03/26/business/anthropic-pentagon-injunction-supply-chain-risk">granted a preliminary injunction</a> in late March, writing that the government had no statutory basis to brand an American company a national security threat for disagreeing with policy. On April 8th, the DC Circuit Court of Appeals <a href="https://www.cnbc.com/2026/04/08/anthropic-pentagon-court-ruling-supply-chain-risk.html">declined to pause the designation</a> while litigation continues, leaving the label in place with oral arguments scheduled for May 19th. The company that chose to lock away the most capable vulnerability-discovery AI ever built is now fighting its own government in two federal courts for having safety standards.<br><br>Responsible actors restraining themselves buys time. It does not buy permanent safety. The regulatory environment your clients will operate in for the next several years is one where the most powerful offensive AI tools are nominally controlled, practically proliferating, and governed by frameworks designed for a slower threat environment.<br><br>Adding to that pressure: the companies developing these models are not well positioned to defend against the nation-states most motivated to steal them. Anthropic, OpenAI, and their peers are software companies with strong engineering cultures and growing security teams. They are not intelligence agencies. The same nation-states that have successfully exfiltrated nuclear secrets, defense contractor intellectual property, and classified government files over the past two decades now have a singular and obvious target. A model like Mythos, once stolen, requires no manufacturing, no supply chain, and no further development cost. It copies instantly and operates at scale from the moment it lands in adversarial hands. The question of whether these companies can defend their crown jewels against a patient, well-resourced nation-state actor is one the industry has not answered convincingly.</p>
+
+
+
+<h3 class="wp-block-heading">THE NATION-STATE DIMENSION</h3>
+
+
+
+<p>Iran, China, Russia, and North Korea all operate sophisticated offensive cyber programs. They maintain zero-day stockpiles and have demonstrated the willingness and capability to conduct destructive attacks against civilian infrastructure across multiple public indictments, attribution reports, and post-incident analyses.<br><br>Mythos does not give these actors something they lacked conceptually. Once obtained, whether by theft or commercial access to Mythos competitors who catch up, it gives them scale, speed, and a cost structure that removes the resource constraints that previously limited their operational tempo.<br><br>Targets previously considered too small or too obscure to justify the investment become economically viable when discovery and weaponization cost almost nothing. Your midmarket clients, a regional manufacturer, a healthcare network, a financial services firm with 200 employees, have historically benefited from a version of security through obscurity. Not because their defenses were strong, but because compromising them required effort that could be better spent on higher-value targets. That calculus changes when Mythos-class tools make compromise cheap at scale.<br><br>Critical infrastructure presents the most acute risk. Power grids, water treatment systems, hospital networks, and financial clearing systems all run software outside the Glasswing coalition. Many run legacy code that has not been audited in years on infrastructure never designed with modern threat actors in mind. An adversary with Mythos-class capability and no interest in responsible disclosure does not need to pick a single high-value target. They scan everything, find everything, and prioritize later.<br><br>The concept of mutually assured destruction worked as a nuclear deterrent because both sides understood that retaliation was certain and symmetric. <em>Cyber conflict does not share those properties. Attribution is difficult. Retaliation thresholds are unclear. Many damaging attacks are designed to stay below the threshold of armed conflict</em>. Mythos-class offensive AI creates a new form of impunity for actors willing to operate below the retaliation threshold, which describes most nation-state cyber operations conducted today.</p>
+
+
+
+<h3 class="wp-block-heading">WHAT HAS ACTUALLY CHANGED</h3>
+
+
+
+<p>Several long-standing assumptions in enterprise security are now operationally unreliable and worth naming directly.<br><br>The assumption that perimeter defense provides meaningful protection has been challenged for years, and zero-trust architecture has been the industry&#8217;s response. What is new is the speed at which perimeter vulnerabilities will be discovered and weaponized. Zero-trust remains the right framework. The urgency of implementing it fully has increased.<br><br>The assumption that compliance frameworks approximate adequate security was always imperfect. A client who completed their SOC 2 audit last quarter and considers themselves covered is operating on a false sense of assurance. Compliance frameworks describe a baseline designed around a slower, more expensive threat environment.<br><br>The assumption that small and midsize organizations are low-priority targets because compromise requires investment is broken. Scale and cost no longer protect obscurity.<br><br>The assumption that software from reputable vendors is reasonably secure because it has been in production for years and withstood expert scrutiny is broken. A 27-year-old OpenBSD vulnerability survived decades of expert audit. Mythos found it in hours. Every piece of software your clients run carries that same uncertainty, regardless of its reputation or age.<br><br>The assumption that patch management is a routine operational task rather than a strategic priority needs to be retired. Patch cadence is now a front-line risk management decision.<br><br>THE STATUS QUO THAT NO LONGER EXISTS<br><br>It is worth naming clearly what has changed, because the security industry has a tendency to absorb new threats incrementally without stopping to say: <strong><span style="text-decoration: underline;">this one is different</span></strong>.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="583" src="https://cyberhoot.com/wp-content/uploads/2026/03/Six-Actions-To-Take-in-Preparation-1024x583.png" alt="" class="wp-image-33179" srcset="https://cyberhoot.com/wp-content/uploads/2026/03/Six-Actions-To-Take-in-Preparation-1024x583.png 1024w, https://cyberhoot.com/wp-content/uploads/2026/03/Six-Actions-To-Take-in-Preparation-300x171.png 300w, https://cyberhoot.com/wp-content/uploads/2026/03/Six-Actions-To-Take-in-Preparation-768x437.png 768w, https://cyberhoot.com/wp-content/uploads/2026/03/Six-Actions-To-Take-in-Preparation.png 1343w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">SIX ACTIONS TO PRIORITIZE WITH CLIENTS NOW</h3>
+
+
+
+<ol class="wp-block-list">
+<li><em>Compress the patch cycle and make it a board-level conversation</em>.<br><br>The window between a vulnerability existing and an attacker weaponizing it has collapsed. Monthly patching is no longer defensible. Weekly cadences for critical systems, automated patching where environments support it, and a clearly owned process for emergency patches outside the normal cycle are the new baseline. Frame this to leadership as operational risk management. When Mythos-class tools find a decades-old vulnerability for fifty dollars and propose a working exploit in the same session, a delayed patch is a business continuity decision sitting in the IT queue.<br></li>
+
+
+
+<li><em>Audit and reduce attack surface with new urgency</em>.<br><br>Every exposed service, legacy application, forgotten API, and unmanaged endpoint is now a liability with a shorter useful life. Conduct a fresh inventory with each client this quarter. Prioritize external-facing systems first. An adversary with Mythos-class capability does not need to pick a target. They scan everything, find everything, and prioritize later. Do not leave something easy to find.<br></li>
+
+
+
+<li><em>Shift the client conversation from perimeter defense to breach assumption</em>.<br><br>The organizations most at risk are those still operating on the belief that a strong perimeter keeps attackers out. The clients who will fare best have invested in identity controls, behavioral monitoring, least-privilege architecture, and tested incident response plans. Frame it to leadership plainly: the question is no longer whether a sophisticated attack reaches their environment. The question is how much damage it does when it arrives, and how fast they detect and contain it. A tested incident response plan is not a compliance document. It is the difference between a recoverable breach and an unrecoverable one.<br></li>
+
+
+
+<li><em>Fight AI-powered attacks with AI-powered defense</em>.<br><br>The same capability shift that makes Mythos dangerous on offense exists on defense, and your clients need to be on the right side of that equation. AI-powered endpoint detection, behavioral anomaly monitoring, and automated threat-hunting tools are no longer enterprise-only investments. AI-assisted scanning tools must be adopted and used defensively as they come to market. These tools extend the reach of your security program beyond what any human team covers manually, running continuously and shortening the window between compromise and detection. Your clients do not need to understand how the AI works. They need it running and tuned before an attacker&#8217;s AI finds any gaps first.<br></li>
+
+
+
+<li><em>Audit the vendor stack with the same urgency you apply to the client&#8217;s own environment</em>.<br><br>Your clients cannot patch software they do not control. What they can do is ask hard questions of every critical SaaS vendor this quarter. Did they participate in any AI-assisted security scanning program? What is their patch disclosure timeline? What is their incident notification commitment in the event of a zero-day discovery? The answers identify which vendors represent accepted risk and which represent unacceptable exposure. Vendors inside the Glasswing coalition or operating equivalent programs represent a materially lower risk profile than those who have not engaged with AI-assisted vulnerability discovery. Build that assessment into every client&#8217;s vendor review process now, and revisit it annually at minimum.<br></li>
+
+
+
+<li><em>Make phishing resistance and MFA enforcement your human-layer answer to AI-driven<br>vulnerability discovery</em>. <br><br>When technical vulnerabilities become cheap to find and weaponize, attackers take the path of least resistance. That path will continue to run through people. A Mythos-class tool finds the unlocked door in the software. A well-crafted phishing email hands the attacker the key to every door at once. Enforcing phishing-resistant MFA across every client environment, eliminating password reuse, and running regular phishing simulations are the human-layer controls that limit what an attacker accomplishes even after their AI finds the technical opening.</li>
+</ol>
+
+
+
+<h3 class="wp-block-heading">THE GAPS THAT MATTER</h3>
+
+
+
+<p>The six recommendations above are a starting point, not a finish line. The organizations that will come through this period intact are those whose security posture was already built around the assumption that breaches happen, that detection speed matters more than prevention perfection, that segments networks and data off from one another, and where recovery capabilities are a fundamental business priority and asset.<br><br>The professionals who have been treating security as a continuous operational discipline rather than an annual compliance exercise are not immune to what Mythos represents. They are in a better position to absorb it, respond to it, and recover from it faster than those who are not. </p>
+
+
+
+<p>The warnings are no longer abstract, and the disruptions are no longer distant. The genie is out of the bottle and Pandora&#8217;s Box is open. What felt like science fiction last year is a documented test result today. If your clients are not yet operating on that reality, the conversation you have with them this quarter is the most important one you have had in years. That gap, between prepared and unprepared, is the only one that matters now. Your job is to close it.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Sources:</h3>
+
+
+
+<ul class="wp-block-list">
+<li>CNN Business, May 2024 &#8211; <a href="https://www.cnbc.com/video/2024/05/04/warren-buffett-compares-ai-advances-to-nuclear-weapons-the-genie-is-part-way-out-of-the-bottle.html">Warren Buffett on AI at Berkshire Hathaway annual meeting</a></li>
+
+
+
+<li>University of Cambridge, Oct. 2016 &#8211; <a href="https://www.theguardian.com/science/2014/dec/02/stephen-hawking-intel-communication-system-astrophysicist-software-predictive-text-type?">Stephen Hawking on AI Risk</a></li>
+
+
+
+<li>NPR, May 2023 &#8211; <a href="https://www.npr.org/2023/05/28/1178673070/the-godfather-of-ai-sounds-alarm-about-potential-dangers-of-ai">Geoffrey Hinton &#8216;The Godfather of AI&#8217; sounds Alarm about Potential Dangers of AI</a></li>
+
+
+
+<li>GatesNotes.com, Jul. 2023 &#8211; <a href="https://www.gatesnotes.com/meet-bill/tech-thinking/reader/the-risks-of-ai-are-real-but-manageable">The Risks of AI are Real But Manageable</a></li>
+
+
+
+<li>Anthropic safety disclosure, Feb. 2026 &#8211; <a href="https://red.anthropic.com/2026/mythos-preview/">Claude Mythos, Project Glasswing, exploit data, sandbox<br>escape, and internal exposure incidents</a></li>
+
+
+
+<li>Anthropic Supply Chain Risk, Mar. 4th 2026 &#8211; <a href="https://defensecommunities.org/2026/03/anthropic-ai-designated-supply-chain-risk-by-pentagon/">Pentagon Labels Anthropic Supply Chain Risk</a></li>
+
+
+
+<li>Anthropic Supply Chain Injunction, Mar. 27th 2026 &#8211; <a href="http://Federal judge temporarily blocks the Pentagon from branding AI firm Anthropic a supply chain risk">Anthropic Federal Judge Blocks Supply Chain Risk</a></li>
+
+
+
+<li>Anthropic Loses Supply Chain Risk Appeal, Apr. 8th 2026, <a href="https://www.bloomberg.com/news/articles/2026-04-08/anthropic-fails-for-now-to-halt-us-label-as-a-supply-chain-risk?embedded-checkout=true">Anthropic Remains Labeled Supply Chain Risk</a></li>
+
+
+
+<li>Cryptography: New America, Jun. 2015 &#8211; <a href="https://www.newamerica.org/insights/doomed-to-repeat-history-lessons-from-the-crypto-wars-of-the-1990s/">Doomed to Repeat History? Lessons from the Crypto Wars<br>of the 1990s</a></li>
+
+
+
+<li>U.S. Department of Health and Human Services, Feb. 2025 &#8211; <a href="https://www.hhs.gov/surgeongeneral/reports-and-publications/youth-mental-health/social-media/index.html">Surgeon General&#8217;s Advisory on Social<br>Media and Youth Mental Health</a></li>
+
+
+
+<li>Arms Control Association, Jan. 2025 <a href="https://www.armscontrol.org/act/2025-01/features/geopolitics-and-regulation-autonomous-weapons-systems">Geopolitics and Regulation of Autonomous Weapons<br>Systems</a></li>
+
+
+
+<li>EU Artificial Intelligence Act, Feb. 2024 &#8211; <a href="https://artificialintelligenceact.eu/high-level-summary/">High-Level Summary</a></li>
+</ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center has-text-color has-link-color wp-elements-cdc6b008c708c83fda2cd2b904b0d6eb" style="color:#6598a9">Secure your business with CyberHoot Today!</h2>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-text-align-center wp-element-button" href="https://cyberhoot.com/pricing/" style="background-color:#1a3643">Sign Up Now!</a></div>
+</div>
+<p>The post <a href="https://cyberhoot.com/blog/claude-mythos-opened-pandoras-box-project-glasswing-is-racing-to-close-it/">Claude Mythos Opened Pandora&#8217;s Box. Project Glasswing Is Racing to Close It.</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>When the &#8220;CEO&#8221; Calls and Asks You to Move Money Fast</title>
+		<link>https://cyberhoot.com/blog/when-the-ceo-calls-and-asks-you-to-move-money-fast/</link>
+		
+		<dc:creator><![CDATA[Katie Boquetti]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 06:00:00 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[#Cybersecurity]]></category>
+		<category><![CDATA[#Scam]]></category>
+		<guid isPermaLink="false">https://cyberhoot.com/?p=33168</guid>
+
+					<description><![CDATA[<p>Learn how to spot CEO impersonation scams, recognize urgent red flags, and stop wire fraud with simple verification steps.</p>
+<p>The post <a href="https://cyberhoot.com/blog/when-the-ceo-calls-and-asks-you-to-move-money-fast/">When the &#8220;CEO&#8221; Calls and Asks You to Move Money Fast</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>A guide to spotting senior executive impersonation scams before the fake CEO gets a real wire transfer.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>It Starts With a Message That Feels Important</strong></h3>
+
+
+
+<p>You get an email or a call. The name on the screen is your CEO or CFO. The tone is serious. There is a confidential deal happening, an acquisition, a regulatory matter, something big. And they need you to move fast, quietly, and without telling anyone else.</p>
+
+
+
+<p>It feels urgent. It feels real. And that is exactly the point.</p>
+
+
+
+<p>Senior executive impersonation scams are one of the most common forms of financial fraud targeting businesses today. Scammers spend time researching your company, learning names, org charts, and communication styles before they ever contact you. When they do reach out, they sound like someone you know and trust. But they are not. They are an imposter.</p>
+
+
+
+<p>The good news is that once you know what to look for, these scams are surprisingly easy to spot.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>The Playbook They Use Every Time</strong></h3>
+
+
+
+<p>Scammers follow a predictable pattern. Knowing it puts you ahead of them.</p>
+
+
+
+<p><strong>They start with impersonation</strong>. Attackers research your leadership team in detail and pose as CEOs, CFOs, or senior directors. They contact you through mobile calls, messaging apps, or email accounts that closely resemble legitimate ones. In some cases, they even use stolen identities of real executives or reference external legal counsel to make the request feel legitimate.</p>
+
+
+
+<p><strong>Next comes the story. It is almost always framed as a highly confidential project</strong>. Mergers, acquisitions, investments, or urgent restructuring are common themes. You hear phrases like “this is under NDA,” “legal is involved,” or “only you can know.” These are not legitimate signs of a real executive. They are designed to isolate you and prevent you from verifying the request.</p>
+
+
+
+<p><strong>They will also push you off official channels</strong>. Instead of using company email or approved systems, they move the conversation to private email accounts, messaging apps, or phone calls. This helps them avoid security controls and leaves no audit trail.</p>
+
+
+
+<p><strong>Expect pressure</strong>. Words like “urgent,” “needed today,” or “this must be completed before end of day” are used to force quick action. Real executives do not ask you to bypass process under pressure. Scammers rely on getting you to react quickly preventing you from using good judgment.</p>
+
+
+
+<p><strong>In more advanced attacks, scammers stage entire meetings</strong>. They set up fake video calls with participants who appear to be real executives, lawyers, or finance staff. Some even use <a href="https://cyberhoot.com/cybrary/deepfake-term/" type="post" id="3376">deepfake</a> technology or profile photos pulled from LinkedIn to make the interaction feel authentic. If something feels slightly off, trust that instinct and check out of band on other communication channels.</p>
+
+
+
+<p><strong>Finally, they often provide documentation to back up the request</strong>. This might include fake contracts, board approvals, offer or authorization letters. These documents look convincing at first glance but often contain subtle errors, inconsistent formatting, suspicious sender details, or simply unusual circumstances.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>What You Should Do Instead</strong></h3>
+
+
+
+<p>When something feels off, Pause (P) before you act, Assess (A) the situation, and Report (R) any problems to your manager, leadership, or IT. PAR is a simple, helpful acronym to remember for anyone at any time.</p>
+
+
+
+<p>When assessing the situation, pick up the phone and call the person directly using a number you already have on file. Do not use any contact information from the suspicious message. A quick call to a verified number takes two minutes and could save your company thousands of dollars.</p>
+
+
+
+<p>Report your concerns to a colleague or your IT team. Scammers count on you feeling alone in the moment. Bringing one other person into the conversation immediately changes the dynamic. Real executives do not object to a second set of eyes on an unusual request.  Good company cultures reward such checks rather than questioning them or shaming the person double-checking.</p>
+
+
+
+<p>If a request asks you to skip your normal approval process, that is the clearest signal of all. Wire transfers, new vendor payments, and account changes all have controls for a reason. Attackers frequently claim there will be dire consequences if you slow down or report the problem. They want you to believe the urgency is real and the stakes are personal. No genuine emergency justifies bypassing your approval process, and no real executive will ask you to hide a financial transaction from your own team.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Build the Habit Before You Need It</strong></h3>
+
+
+
+<p>The best time to talk about this with your team is before it happens. Avoid creating a complicated 30-page process document no one reads. You need a simple, shared understanding that unusual financial requests always get a phone verification, no matter who is asking.</p>
+
+
+
+<p>Train your staff to recognize the red flags: personal email addresses or external accounts used for urgent requests, demands for secrecy, and pressure to act immediately.</p>
+
+
+
+<p>The scammers are counting on speed and silence. You beat them with a two-minute phone call and a culture where verification is always welcomed, encouraged, and even required.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Your Next Step</strong></h3>
+
+
+
+<p>Share this article with the people on your team who handle payments, transfers, or vendor requests. Have a five-minute conversation about what to do if anyone gets a message like the ones described above. Agree on a simple rule together: any urgent financial request from an executive gets a voice verification before action is taken.  Document this in a simple policy or financial process document, but keep it simple.</p>
+
+
+
+<p>This one habit is an effective step your organization can take today the best part of which is it requires no additional budget!</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Additional Reading:</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://thehackernews.com/2026/03/masters-of-imitation-how-hackers-and.html">The Hacker News: Masters of Imitation: How Hackers and Art Forgers Perfect the Art of Deception</a></li>
+</ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center has-text-color has-link-color wp-elements-cdc6b008c708c83fda2cd2b904b0d6eb" style="color:#6598a9">Secure your business with CyberHoot Today!</h2>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-text-align-center wp-element-button" href="https://cyberhoot.com/pricing/" style="background-color:#1a3643">Sign Up Now!</a></div>
+</div>
+<p>The post <a href="https://cyberhoot.com/blog/when-the-ceo-calls-and-asks-you-to-move-money-fast/">When the &#8220;CEO&#8221; Calls and Asks You to Move Money Fast</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>When the Attack Looks Just Like You</title>
+		<link>https://cyberhoot.com/blog/when-the-attack-looks-just-like-you/</link>
+		
+		<dc:creator><![CDATA[Katie Boquetti]]></dc:creator>
+		<pubDate>Tue, 24 Mar 2026 06:00:00 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[#Cybersecurity]]></category>
+		<category><![CDATA[#Phishing]]></category>
+		<guid isPermaLink="false">https://cyberhoot.com/?p=33162</guid>
+
+					<description><![CDATA[<p>AI is making cyberattacks look normal, not suspicious. Learn how modern phishing works and the simple steps your team can take today to stay protected.</p>
+<p>The post <a href="https://cyberhoot.com/blog/when-the-attack-looks-just-like-you/">When the Attack Looks Just Like You</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p><a href="https://cyberhoot.com/cybrary/artificial-intelligence-ai/" type="post" id="12573">Artificial Intelligence</a> (or AI) is making <a href="https://cyberhoot.com/cybrary/phishing/">phishing</a> emails smarter, <a href="https://cyberhoot.com/cybrary/malware/" type="post" id="3407">malware</a> sneakier, and <a href="https://cyberhoot.com/cybrary/credential-stuffing/" type="post" id="8368">credential theft</a> easier putting each of us at increased risk of attack and compromise.</p>
+
+
+
+<p>Criminals are using AI to do something old-school security tools were never built to stop. They are making attacks look like normal, everyday activity.</p>
+
+
+
+<p>Not scary. Not obvious. Just plain Jane and normal stuff.  </p>
+
+
+
+<p>This AI shift changes how your organization needs to think and prepare itself.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>AI Did Not Invent Cyberattacks. It Made Them Polished.</strong></h3>
+
+
+
+<p>Old phishing emails were easy to spot. Bad grammar, weird formatting, a Nigerian prince asking for your banking details. By now, even our Mother&#8217;s have learned to roll their eyes and hit delete.  </p>
+
+
+
+<p>Then hackers got wise and started adding urgency and emotionality to their phishing emails.  Playing off current events, environmental or human-made tragedies, they filled our inboxes with links we wanted to click on.  With training, and patience, most of us have been able to avoid these more sophisticated attacks.</p>
+
+
+
+<p>Then came AI to enhance email attacks using normalcy and blending into everyday details.  This is where the threats are evolving and succeeding.</p>
+
+
+
+<p>AI-powered phishing emails are different. They use public information about your company, your team, and your vendors to craft messages that feel authentic. These emails mirror your CEO’s writing style, reference real projects your team is working on, and arrive at exactly the right moment to seem legitimate. Combined with busy work lives and hundreds of emails, it&#8217;s never been easier to click on a mistake.</p>
+
+
+
+<p>But our security tools (<a href="https://cyberhoot.com/cybrary/antivirus-software/" type="post" id="2978">AV</a>, <a href="https://cyberhoot.com/cybrary/extended-detection-and-response-xdr/" type="post" id="21758">XDR</a>, <a href="https://www.kaspersky.com/resource-center/definitions/firewall">Firewalls</a>, <a href="https://cyberhoot.com/blog/cam_day_26_multi-factor-authentication/" type="post" id="22868">MFA</a>) are there to protect us from our mistakes, right?  Sometimes yes. But increasingly, no. </p>
+
+
+
+<p>AI also helps criminals build malware that rewrites itself constantly, which means the old method of scanning for bad code signatures fails completely (<a href="https://www.cyberdefensemagazine.com/advanced-malware-detection/">Advanced Malware Detection &#8211; Signature vs. Behavior Based Detection</a>). In AI driven malware attacks, the malware looks different every time it shows up, so traditional signature-based detection tools allow it through.</p>
+
+
+
+<p>The core problem is not that these attacks are sophisticated. The core problem is that they are designed to blend in.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>The Old Playbook Assumed Attackers Would Be Obvious</strong></h3>
+
+
+
+<p>Traditional anti-virus tools were built around the idea that bad guys do obviously bad things. They come from strange locations, they try thousands of passwords at once, they install recognizable malware. When the system spots those patterns, it raises an alarm.  </p>
+
+
+
+<p>AI-powered attackers are trained to stay under the radar. Attackers log in using real stolen credentials, then operate within your systems during normal business hours. Instead of rushing, they move deliberately, taking small steps over days or even weeks to avoid detection. Each action, viewed on its own, looks like something a real employee might do.  Nothing stands out.  Attacks blend into the background.</p>
+
+
+
+<p>Rule-based monitoring struggles with this because it looks for individual red flags, not the full picture of who you are and how you normally behave. Spotting the difference between a real employee and an attacker using that employee&#8217;s credentials requires watching patterns over time, not just checking boxes on a list.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Behavior Analytics are the New Identification Key</strong></h3>
+
+
+
+<p>Security teams are shifting to something called behavioral analytics. The idea is simple. Instead of asking &#8220;does this action match a known bad pattern,&#8221; you ask &#8220;does this action match how this specific person actually behaves?&#8221;</p>
+
+
+
+<p>Your finance manager logs in from her home office every morning at 8:15 and pulls reports for two hours. She does not access payroll files on weekends. She has never connected from outside her country of residence. When something breaks that pattern, that is worth a second look, even if the password was correct and the device looked familiar.</p>
+
+
+
+<p>This approach watches the full context of how people work, including what devices they use (Android or iPhone?  Windows or Mac?), what systems they access (1st 2nd, and 3rd), when they work, and what they do with what they find. When something drifts from that baseline, the system flags it for review.</p>
+
+
+
+<p>You don’t need advanced AI to apply this thinking. These principles work just as well for a team of 10 as they do for an enterprise of 10,000.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Three Things To Consider Doing Now</strong></h3>
+
+
+
+<p>You don’t need a full security operations center to make meaningful progress. These steps are practical, effective, and scalable for any organization.</p>
+
+
+
+<p>First, turn on login alerts for unusual activity. Most business tools, including Microsoft 365, Google Workspace, and your banking portals, offer notifications when someone logs in from a new device and/or location. Turning these logs on costs nothing (usually) and gives you a chance of catching a compromised account before excessive damage is done.</p>
+
+
+
+<p>Second, always require <a href="https://cyberhoot.com/blog/cam_day_26_multi-factor-authentication/" type="post" id="22868">multi-factor authentication</a> everywhere. There is no modern argument that can refute this measure. <em>If an executive pushes back for any reason, ask them if they&#8217;re comfortable explaining to authorities or shareholders why they alone were allowed to circumvent the one security measure that would have prevented the breach?</em> Stolen credentials are the front door for most AI-assisted attacks. MFA closes that door even when a password gets out (compromised). If your team is not using MFA on email, banking, and critical apps, that is the single most important change you can make today.</p>
+
+
+
+<p>Third, beef up your access review habits. Once a quarter, look at who has access to what in your key systems. Review your onboarding and offboarding procedures to ensure you have all systems used by all employees, refined for their roles, and keep those procedures up-to-date for reference in your quarterly review processes.  Former employees, contractors, and vendors who no longer need access are a silent risk. Removing access you do not need costs nothing and removes a target attackers look for.</p>
+
+
+
+<p>None of these steps require heavy investment or complex infrastructure. They start with focused attention and the decision to act.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Call to Action</strong></h3>
+
+
+
+<p>Pick one of these three steps and do it today. Then do it again tomorrow. Do it for the next 14 days. That is how habits are formed. Set up login alerts. Turn on MFA. Clean up user access. Small actions, repeated daily, create lasting security.</p>
+
+
+
+<p>You do not have to solve every security challenge at once. Today’s AI-driven attacks are designed to blend into the normal flow of work, which means the real advantage comes from spotting what feels just slightly off. Get a little better at that each day, and you become much harder to fool. That is how real progress happens. Hoot Up!</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Additional Resources</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://thehackernews.com/2026/03/the-importance-of-behavioral-analytics.html">The Hacker News: The Importance of Behavioral Analytics in AI-Enabled Cyber Attacks</a></li>
+
+
+
+<li><a href="https://www.cyberdefensemagazine.com/advanced-malware-detection/">Cybersecurity Magazine: Advanced Malware Detection – Signatures vs. Behavior Analysis</a></li>
+</ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center has-text-color has-link-color wp-elements-cdc6b008c708c83fda2cd2b904b0d6eb" style="color:#6598a9">Secure your business with CyberHoot Today!</h2>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-text-align-center wp-element-button" href="https://cyberhoot.com/pricing/" style="background-color:#1a3643">Sign Up Now!</a></div>
+</div>
+<p>The post <a href="https://cyberhoot.com/blog/when-the-attack-looks-just-like-you/">When the Attack Looks Just Like You</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Cybercriminals Are Exploiting DocuSign with Customizable Phishing Templates</title>
+		<link>https://cyberhoot.com/blog/the-growing-threat-of-docusign-phishing-attacks/</link>
+		
+		<dc:creator><![CDATA[Katie Boquetti]]></dc:creator>
+		<pubDate>Tue, 10 Mar 2026 06:00:00 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[#Cybersecurity]]></category>
+		<category><![CDATA[#DocuSign]]></category>
+		<category><![CDATA[#Phishing]]></category>
+		<guid isPermaLink="false">https://cyberhoot.com/?p=33130</guid>
+
+					<description><![CDATA[<p>DocuSign phishing attacks are rising, with cybercriminals impersonating signature requests to steal credentials and compromise business accounts.</p>
+<p>The post <a href="https://cyberhoot.com/blog/the-growing-threat-of-docusign-phishing-attacks/">Cybercriminals Are Exploiting DocuSign with Customizable Phishing Templates</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>DocuSign has become one of the most trusted tools in modern business. Contracts, HR paperwork, NDAs, vendor agreements, and financial approvals move through it every day. When a DocuSign email arrives in your inbox, the natural reaction is simple: open it and sign.</p>
+
+
+
+<p>Cybercriminals know this. And they are increasingly building phishing campaigns around that trust.</p>
+
+
+
+<p>Security researchers have recently uncovered cybercrime forums where attackers openly sell customizable DocuSign phishing templates. These templates are designed to closely mimic legitimate DocuSign emails and documents, allowing criminals to launch convincing phishing campaigns with minimal effort.</p>
+
+
+
+<p>The result is a surge in attacks targeting organizations that rely heavily on DocuSign.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>DocuSign Phishing Attacks Are Rising</strong></h3>
+
+
+
+<p>Over the past year, security researchers have observed a noticeable increase in phishing emails impersonating DocuSign notifications. These messages are carefully crafted to resemble real document signing requests and often appear completely legitimate at first glance.</p>
+
+
+
+<p>The success of these attacks is driven by three key factors. First, DocuSign is widely used across nearly every industry. Second, the platform has built strong trust among business users. And third, cybercriminal tactics have become far more sophisticated.</p>
+
+
+
+<p>Instead of poorly written phishing emails, attackers now use professional templates that replicate the exact appearance of legitimate DocuSign messages.</p>
+
+
+
+<p>When researchers traced one of these phishing campaigns back to its origin, they discovered an identical template being distributed on a Russian cybercrime forum.</p>
+
+
+
+<p>This discovery revealed how organized these attacks have become.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Cybercriminals Are Trading DocuSign Templates</strong></h3>
+
+
+
+<p>Investigations into underground forums show that cybercriminals are actively buying and selling phishing templates designed specifically for DocuSign.</p>
+
+
+
+<p>These templates closely resemble authentic DocuSign emails and document pages. Attackers can customize them with different company logos, messaging, and malicious links before sending them out as part of a phishing campaign.</p>
+
+
+
+<p>In one forum thread, a seller offered DocuSign phishing templates and even provided custom modifications for a fee. The same seller also advertised templates impersonating companies like DHL and promised not to resell customized versions if buyers paid extra for exclusivity.</p>
+
+
+
+<p>Further searches across multiple cybercrime communities revealed that large collections of phishing templates are widely available for purchase.</p>
+
+
+
+<p>For attackers, this creates an easy entry point into phishing operations.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Why Criminals Buy Phishing Templates</strong></h3>
+
+
+
+<p>Launching a successful phishing campaign requires authenticity. The more legitimate the message looks, the more likely someone is to click.</p>
+
+
+
+<p>Cybercriminals have two main options when creating these campaigns.</p>
+
+
+
+<p>They can attempt to build phishing templates themselves, which requires technical skills and time. Or they can purchase ready-made templates from underground sellers.</p>
+
+
+
+<p>Most attackers choose the second option.</p>
+
+
+
+<p>Buying a template eliminates the design work and allows criminals to focus on distributing the phishing campaign. Many attackers also run multiple campaigns at once, targeting different platforms and services. Purchasing templates in bulk allows them to scale operations quickly and maximize profits.</p>
+
+
+
+<p>In effect, phishing has become a marketplace.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>What Happens When Credentials Are Stolen</strong></h3>
+
+
+
+<p>When a victim enters their login information into a phishing page, those credentials are immediately captured and often sold on cybercrime forums.</p>
+
+
+
+<p>Stolen DocuSign credentials can be purchased for as little as ten dollars.</p>
+
+
+
+<p>Once attackers gain access to a company&#8217;s DocuSign account, they begin reviewing stored documents. Contracts, vendor agreements, payment schedules, and financial information provide valuable insight into how the organization operates.</p>
+
+
+
+<p>This information allows attackers to launch business email compromise (BEC) scams.</p>
+
+
+
+<p>In a typical BEC scheme, criminals impersonate the compromised company and send emails to business partners requesting payment transfers to fraudulent bank accounts. These requests often include fake contracts or payment instructions delivered through the hacked DocuSign account, making the request appear legitimate.</p>
+
+
+
+<p>Because the payment request aligns with real business activity, victims may not realize anything is wrong until the money is gone.</p>
+
+
+
+<p>A single successful BEC attack can divert hundreds of thousands of dollars.</p>
+
+
+
+<p>Stolen DocuSign accounts can also expose sensitive corporate information, including financial records, client lists, and merger details. In some cases, attackers threaten to release this information publicly unless a ransom is paid.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>How to Detect a DocuSign Phishing Email</strong></h3>
+
+
+
+<p>Even sophisticated phishing campaigns still leave clues.</p>
+
+
+
+<p>Start by examining the sender’s email address. Legitimate DocuSign emails originate from the <strong>docusign.net</strong> domain. Messages coming from other domains should be treated with caution.</p>
+
+
+
+<p>Pay attention to how the email addresses you. Legitimate DocuSign notifications typically use your name, while phishing emails often rely on generic greetings.</p>
+
+
+
+<p>DocuSign messages also contain a unique security code at the bottom of the email. These codes are long and complex. Short or simple codes may indicate a fraudulent message.</p>
+
+
+
+<p>Always hover over links before clicking. Genuine DocuSign links should direct you to the official DocuSign domain. Links pointing to unrelated websites, Google Docs pages, or unexpected attachments are strong warning signs.</p>
+
+
+
+<p>If you are unsure whether a message is legitimate, the safest option is to go directly to the DocuSign website and access documents there rather than clicking the link inside the email.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Protecting Your Organization from DocuSign Phishing</strong></h3>
+
+
+
+<p>Organizations should assume that attackers will continue exploiting trusted platforms like DocuSign.</p>
+
+
+
+<p>Security awareness training remains one of the most effective defenses. Employees should understand that trusted services can still be abused by cybercriminals.</p>
+
+
+
+<p>Multi-factor authentication should be enabled wherever possible to reduce the impact of stolen credentials.</p>
+
+
+
+<p>Organizations should also deploy advanced email security tools capable of analyzing behavior and context rather than relying solely on traditional spam filtering. These tools can identify anomalies that signal phishing or business email compromise attempts before they reach employees.</p>
+
+
+
+<p>Just as importantly, companies should encourage employees to report suspicious messages immediately. Early detection can stop a phishing campaign before it spreads across the organization.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>The Bottom Line</strong></h3>
+
+
+
+<p>Cybercriminals no longer need to build phishing campaigns from scratch. They can simply purchase ready-made templates designed to mimic trusted services like DocuSign.</p>
+
+
+
+<p>This growing underground marketplace has made phishing attacks easier to launch and harder to detect.</p>
+
+
+
+<p>The best defense is awareness.</p>
+
+
+
+<p>DocuSign itself remains a secure and trusted platform, but like any widely used service, it can be abused by attackers. When unexpected document requests arrive, taking a moment to verify them can prevent a costly mistake.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Additional Resources</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html">https://abnormal.ai/blog/cybercriminals-exploit-docusign</a></li>
+
+
+
+<li><a href="https://www.darktrace.com/blog/the-growing-threat-of-docusign-phishing-attacks">https://www.darktrace.com/blog/the-growing-threat-of-docusign-phishing-attacks</a></li>
+</ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center has-text-color has-link-color wp-elements-cdc6b008c708c83fda2cd2b904b0d6eb" style="color:#6598a9">Secure your business with CyberHoot Today!</h2>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-text-align-center wp-element-button" href="https://cyberhoot.com/pricing/" style="background-color:#1a3643">Sign Up Now!</a></div>
+</div>
+<p>The post <a href="https://cyberhoot.com/blog/the-growing-threat-of-docusign-phishing-attacks/">Cybercriminals Are Exploiting DocuSign with Customizable Phishing Templates</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>PromptSpy: The Android Malware That Hired an AI Assistant</title>
+		<link>https://cyberhoot.com/blog/promptspy-the-first-android-malware-to-weaponize-googles-gemini-ai/</link>
+		
+		<dc:creator><![CDATA[Katie Boquetti]]></dc:creator>
+		<pubDate>Tue, 03 Mar 2026 06:00:00 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[#Cybersecurity]]></category>
+		<category><![CDATA[#GeminiAI]]></category>
+		<category><![CDATA[#Malware]]></category>
+		<guid isPermaLink="false">https://cyberhoot.com/?p=33124</guid>
+
+					<description><![CDATA[<p>PromptSpy is the first Android malware to exploit Google’s Gemini AI for persistence, data theft, and remote device control.</p>
+<p>The post <a href="https://cyberhoot.com/blog/promptspy-the-first-android-malware-to-weaponize-googles-gemini-ai/">PromptSpy: The Android Malware That Hired an AI Assistant</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<h3 class="wp-block-heading">And yes, Google&#8217;s Gemini AI had no idea it was working for the bad guys.</h3>
+
+
+
+<p>Malware has always followed a script. Literal, hardcoded, rigid instructions telling it exactly where to tap, what to steal, and how to hide. For years, that rigidity was also its weakness. Change the screen layout, update the operating system, or swap languages, and the malware broke. Attackers had to rewrite code for every variation. It was expensive, slow, and frankly, a little exhausting for them.</p>
+
+
+
+<p>Then someone had an idea.</p>
+
+
+
+<p>What if the malware stopped following a fixed script and started asking AI what to do next?</p>
+
+
+
+<p>That is exactly what PromptSpy does.</p>
+
+
+
+<h3 class="wp-block-heading">A Very Brief History of Android Malware</h3>
+
+
+
+<p>For context, Android malware traditionally worked like a very bad GPS with the destination already locked in. It knew which buttons to press because a human attacker had mapped out those coordinates in advance. Pixel 7 running Android 14 with a Chase Bank screen? The code knew tap coordinates (312, 847). Samsung Galaxy S23 with a slightly different layout? The malware either adapted with extra code, or it failed.</p>
+
+
+
+<p>Every new device, language, or OS version meant more coding. Attackers had to build separate attack paths for each scenario. It was brute-force programming at scale.</p>
+
+
+
+<p>PromptSpy threw that model out entirely. Here is where it gets interesting for your business.</p>
+
+
+
+<h3 class="wp-block-heading">What PromptSpy Actually Does</h3>
+
+
+
+<p><a href="https://www.welivesecurity.com/en/our-experts/lukas-stefanko/?">ESET researcher</a> <a href="https://sk.linkedin.com/in/lukasstefanko?">Lukáš Štefanko</a> and his team identified <a href="https://www.welivesecurity.com/en/eset-research/promptspy-ushers-in-era-android-threats-using-genai/">PromptSpy</a> as the first known Android malware to actively use Google&#8217;s Gemini AI a<strong><em>s part of its attack logic</em></strong>. Not as a gimmick or  party trick, but as a core functional component of how it operates. </p>
+
+
+
+<p>Here is the sequence, step by step.</p>
+
+
+
+<p>The malware takes a full XML snapshot of whatever is currently on your screen. That snapshot captures every visible element including text, button types, and exact positions. It sends that snapshot to Gemini along with a hardcoded prompt that introduces itself as an &#8220;Android automation assistant.&#8221; Gemini, not knowing it&#8217;s talking to malware, processes the screen data and returns structured JSON instructions: tap here, swipe there, enter this. The malware executes those instructions.</p>
+
+
+
+<p>No hardcoded coordinates. No device-specific code. No brittle layout assumptions. The AI reads the screen and tells the malware what to do, and it works on virtually any Android device it lands on.</p>
+
+
+
+<p>This is adaptive malware. The AI becomes the brain operating faster than any hacker ever could or would do.</p>
+
+
+
+<h3 class="wp-block-heading">The Staying Power Problem</h3>
+
+
+
+<p>PromptSpy is the adult child of Android malware. It does not steal the car and disappear. It moves in, claims a room, and installs itself in your startup processes.</p>
+
+
+
+<p>PromptSpy’s primary goal is persistence, meaning it wants to stay on your device long after you wish it were gone. It is not loud. It is entrenched.</p>
+
+
+
+<p>It uses Gemini to figure out how to keep itself pinned in your recent apps list so you cannot simply swipe it away. It also exploits Android&#8217;s Accessibility Services, a set of features designed to help people with disabilities control their devices. Attackers love these features because they allow apps to tap without user input, read screen content, and layer invisible overlays on top of normal app interfaces.</p>
+
+
+
+<p>PromptSpy uses those invisible overlays to block uninstallation. If you try to remove it the normal way, the overlay intercepts your taps. It quietly resists eviction. The only reliable path to removing it is rebooting into Android Safe Mode, where third-party apps cannot run, and uninstalling it from there. Most people have never done that, and most people do not know it exists.</p>
+
+
+
+<h3 class="wp-block-heading">What It Steals</h3>
+
+
+
+<p>This is not lightweight spyware. PromptSpy:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Captures your lock screen PIN or password</li>
+
+
+
+<li>Records your screen as live video</li>
+
+
+
+<li>Takes screenshots on demand</li>
+
+
+
+<li>Harvests your unique device details</li>
+
+
+
+<li>Grants attackers remote control through a built-in VNC module</li>
+</ul>
+
+
+
+<p>That VNC module is worth pausing on. It connects to an attacker&#8217;s command-and-control server and gives a human criminal hands-on access to your phone. Your banking apps, your MFA codes, your corporate email, your password manager. All of it, visible and controllable by someone else.</p>
+
+
+
+<h3 class="wp-block-heading">How It Reaches People</h3>
+
+
+
+<p>PromptSpy does not live on Google Play. It spreads through dedicated malicious websites, specifically mgardownload[.]com and m-mgarg[.]com. The campaign impersonates JPMorgan Chase under the alias &#8220;MorganArg&#8221; and <strong><em>appears focused on users in Argentina.</em></strong> For now. What&#8217;s successful in one corner of the world quickly spreads like news of a house party when you&#8217;re away and your basement dweller knows it.</p>
+
+
+
+<p>The infection path starts with a dropper app. The <strong><em><span style="text-decoration: underline;">dropper asks permission to install apps from unknown sources</span></em></strong>. Once granted, it downloads the actual malicious APK disguised in Spanish as a legitimate bank update. ESET found simplified Chinese debug strings in the code, which points toward the malware being developed in a Chinese-speaking environment. The motivation appears to be financial.</p>
+
+
+
+<p>Google Play Protect does flag and block known versions of PromptSpy, even outside the Play Store. That is worth knowing. The bigger story here, though, is not how this version spreads. It is what the technique itself makes possible going forward.</p>
+
+
+
+<h3 class="wp-block-heading">Why the AI Angle Matters Beyond This Campaign</h3>
+
+
+
+<p>Traditional malware broke when screen layouts changed. PromptSpy does not break. It adapts quickly and without human intervention!</p>
+
+
+
+<p>Every Android device, every OS version, every app interface, every language becomes a potential target because the malware is not navigating by memory. It is navigating by live AI analysis. Attackers no longer need to write custom code for each device configuration. They hand off that decision-making to a model that processes whatever screen it sees.</p>
+
+
+
+<p>This expands how many people attackers can reach. It also makes the malware cheaper and faster to build. The AI handles all of that complexity. Attackers get the results without doing the work.</p>
+
+
+
+<p>Gemini is not the villain in this story. It had no idea it was being used this way. The abuse came entirely from how the malware framed its prompts. But the result is real: AI that was built to help people is being used, without its knowledge, as a tool to hurt them.</p>
+
+
+
+<p>That tension is going to keep appearing. Defenders build AI tools to protect users, and attackers build AI tools to exploit them. The technology is neutral. The intent is not.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Four Things Your Business Should Do Right Now</strong></h3>
+
+
+
+<p>These tips are practical, affordable, and do not require an enterprise security team.</p>
+
+
+
+<p><strong>Turn off installation from unknown sources on every work phone.</strong> This single setting blocks the delivery method PromptSpy and most advanced Android malware depend on. On Android, go to Settings, then Apps, then Special App Access, then Install Unknown Apps. Nothing in that list should have permission unless you specifically put it there.</p>
+
+
+
+<p><strong>Audit which apps have Accessibility permissions.</strong> Go to Settings, Accessibility, and look at which apps are listed. Banking apps, browsers, and health apps have no legitimate reason to hold those permissions. Revoke anything suspicious.</p>
+
+
+
+<p><strong>Treat phones like laptops.</strong> Your team&#8217;s phones hold corporate email, VPN access, MFA apps, and password managers. If you protect your laptops with endpoint security and you ignore phones, that gap is real and attackers know it. Basic mobile device management tools exist at SMB price points, including free tiers within Google Workspace and Microsoft 365 that most businesses already pay for.</p>
+
+
+
+<p><strong>Train your team to question urgent app updates from financial institutions.</strong> PromptSpy spread by impersonating a bank update. That is a classic social engineering pattern repurposed for mobile. Teach your people one rule: real banks push updates through official app stores, not through links in messages or pop-up prompts on websites.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>The Story Is Still Being Written</strong> and Will Update Often</h3>
+
+
+
+<p>PromptSpy is not the end of the AI-in-malware story. It is the beginning. The technique works, it scales, and it reduces the cost and complexity of building adaptive attacks. Other threat actors are paying attention and will reuse this idea and expand upon it.  Your basement denizen heard it from a friend and moved back home. Simple as that.</p>
+
+
+
+<p>The good news is that the defenses against this attack are the same fundamentals that protect you against most threats. Limit what gets installed. Review what permissions apps hold. Treat your phone as seriously as your computer. Train your people on what phishing looks like when it wears a mobile costume.</p>
+
+
+
+<p>You do not need to understand every technical detail of how PromptSpy works to protect your organization from it. You do need to take your phones seriously. Start there, and you will be ahead of most small businesses already.</p>
+
+
+
+<p>That is not a small thing. That is progress.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>CyberHoot Tip of the Day</strong></h3>
+
+
+
+<p>Pull out your phone right now, go to Settings, find Accessibility, and look at which apps have access. If you see something you do not recognize, revoke it. It takes sixty seconds and costs nothing. Sixty seconds well spent is sixty seconds of real security you did not have before.</p>
+
+
+
+<p>Laugh. Learn. Hoot Up.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Additional Resources</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html">The Hacker News: PromptSpy Android Malware Abuses Gemini AI to Automate Recent-Apps Persistence</a></li>
+</ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center has-text-color has-link-color wp-elements-cdc6b008c708c83fda2cd2b904b0d6eb" style="color:#6598a9">Secure your business with CyberHoot Today!</h2>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-text-align-center wp-element-button" href="https://cyberhoot.com/pricing/" style="background-color:#1a3643">Sign Up Now!</a></div>
+</div>
+<p>The post <a href="https://cyberhoot.com/blog/promptspy-the-first-android-malware-to-weaponize-googles-gemini-ai/">PromptSpy: The Android Malware That Hired an AI Assistant</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ransomware Entry Points are Changing. Here Is What to Do About It?</title>
+		<link>https://cyberhoot.com/blog/the-ransomware-entry-point-has-changed-has-your-defense/</link>
+		
+		<dc:creator><![CDATA[Katie Boquetti]]></dc:creator>
+		<pubDate>Tue, 24 Feb 2026 06:00:00 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[#Cybersecurity]]></category>
+		<category><![CDATA[#Ransomware]]></category>
+		<guid isPermaLink="false">https://cyberhoot.com/?p=33110</guid>
+
+					<description><![CDATA[<p>Ransomware initial access is evolving. Learn why identity is the new front door and how to stop attacks before encryption begins.</p>
+<p>The post <a href="https://cyberhoot.com/blog/the-ransomware-entry-point-has-changed-has-your-defense/">Ransomware Entry Points are Changing. Here Is What to Do About It?</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p><a href="https://cyberhoot.com/cybrary/ransomware/">Ransomware</a> groups are not breaking in organizations the same way they did five years ago. The entry methods have shifted, and understanding that shift is one of the most useful things you can do to protect your organization right now.</p>
+
+
+
+<p>Ryan Smith&#8217;s recent linked analysis, <em>“<a href="https://www.linkedin.com/pulse/shifting-front-door-how-ransomware-initial-access-has-ryan-smith-0telc/">Shifting the Front Door: How Ransomware Initial Access Has Changed</a>,”</em> captures this evolution quite well. When defenders strengthen one entry point, attackers adjust to the next weakest one. That pattern is worth paying attention to.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>From Mass Attacks to Precision Targeting</strong></h2>
+
+
+
+<p>Historically, ransomware groups relied heavily on:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Mass <a href="https://cyberhoot.com/cybrary/phishing/">phishing</a> campaigns with millions of targets</li>
+
+
+
+<li>Exposed Remote Desktop Protocol, RDP services</li>
+
+
+
+<li>Weak <a href="https://cyberhoot.com/cybrary/virtual-private-network-vpn/" type="post" id="4908">VPN</a> credentials missing multi-factor authentication protections</li>
+
+
+
+<li>Unpatched internet-facing systems</li>
+</ul>
+
+
+
+<p>While these tactics are still exploited heavily today, they are no longer the whole story.  In his analysis, Ryan Smith highlights how attackers are increasingly:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Purchasing stolen credentials from <a href="https://cyberhoot.com/blog/division-of-labor-leads-to-high-volume-low-cost-attacks/" type="post" id="31033">initial access brokers</a></li>
+
+
+
+<li>Exploiting multi-factor authentication <a href="https://cyberhoot.com/blog/how-mfa-failures-and-rising-ransomware-costs-are-threatening-cybersecurity/" type="post" id="28966">fatigue attacks</a></li>
+
+
+
+<li>Targeting edge devices and remote access appliances (<a href="https://cyberhoot.com/blog/critical-advisory-fortigate-ssl-vpn-breach/" type="post" id="30583">SSL VPNs </a>for example)</li>
+
+
+
+<li>Leveraging AI to <a href="https://cyberhoot.com/cybrary/spear-phishing/" type="post" id="4857">spear-phish</a> all employees (top execs to bottom entry level staff members) with emails designed to appeal to each individual user</li>
+</ul>
+
+
+
+<p>This is not noise. It is strategic evolution.</p>
+
+
+
+<p>Attackers are treating initial access like a supply chain. When phishing becomes less effective, attackers simply purchase stolen credentials instead. A locked-down RDP environment pushes them toward browser <a href="https://cyberhoot.com/cybrary/session-hijacking-attack/" type="post" id="8293">session token</a> theft or cloud identity abuse. As perimeter defenses strengthen, they adapt again, shifting to buying access via <a href="https://www.forbes.com/sites/noahbarsky/2025/06/11/coinbase-hack-exposes-3-insider-threat-enablers/">insiders</a> or <a href="https://firecompass.com/coinbase-insider-breach-december-2024/">contractors</a> with access to the inside.</p>
+
+
+
+<p>The front door keeps moving faster than a revolving door.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>What Happens After They Get In</strong></h2>
+
+
+
+<p>CyberHoot has managed several incidents where ransomware attacks reflect the following patterns of activity. From stealth persistence and updated tooling to becoming whistle blowers, attackers are finding more ways to extort organizations for money than ever before.  Here&#8217;s a sampling of ransomware variants and their tricks.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Medusa: Evasion and Persistence</strong></h3>
+
+
+
+<p>In our coverage of the Medusa campaign, attackers deployed a malicious driver to disable endpoint protections before detonating ransomware. The access phase was not loud. It was quiet and deliberate. See: <strong><a href="https://cyberhoot.com/blog/medusa-ransomware-deploys-malicious-driver-to-evade-security/">Medusa Ransomware Deploys Malicious Driver to Evade Security</a></strong></p>
+
+
+
+<p>The lesson? Once access is obtained, attackers are investing more effort in stealth, control, and <a href="https://cyberhoot.com/cybrary/data-exfiltration/" type="post" id="3218">data exfiltration</a>.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Rust-Based Cicada 3301: Modern Tooling</strong></h3>
+
+
+
+<p>When we covered the Rust-based Cicada 3301 ransomware strain, what stood out was the modernization of tooling and cross-platform capability. See: <strong><a href="https://cyberhoot.com/blog/new-rust-based-cicada-3301-ransomware/">New Rust-Based Cicada 3301 Ransomware</a></strong></p>
+
+
+
+<p>Ransomware operators are not hobbyists. They are becoming enterprise businesses, building scalable, resilient attack platforms. Initial access feeds these platforms, and the financial payoffs are enormous.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Qilin: Operational Discipline</strong></h3>
+
+
+
+<p>Our article on Qilin ransomware reinforces this notion of ransomware groups creating structured operations that behaves more like a business than a criminal gang. See: <strong><a href="https://cyberhoot.com/blog/new-qilin-ransomware-attack/">New Qilin Ransomware Attack</a></strong></p>
+
+
+
+<p>These groups understand that initial access is the highest leverage point. If they can get in quietly and maintain persistence, the rest becomes a matter of process.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>When Ransomware Actors Turn Informants</strong></h3>
+
+
+
+<p>In our piece on evolving ransomware tactics, we discussed how some operators are now acting like whistleblowers or leveraging stolen data for influence. See: <strong><a href="https://cyberhoot.com/blog/ransomware-hackers-turn-sec-snitches-evolving-ransomware-again/">Ransomware Hackers Turn SEC Snitches</a></strong>.</p>
+
+
+
+<p>That shift underscores something critical: ransomware is no longer just encryption and extortion. It is data theft, pressure campaigns, regulatory leverage, and reputation attacks.</p>
+
+
+
+<p>However, it all begins with that initial access.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Why Initial Access Is the Real Battlefield</strong></h2>
+
+
+
+<p>Using a healthcare analogy, encrypted files is simply the symptom witnessed after a successful ransomware attack. The initial access is the true underlying cause. By the time files are locked, the hackers have been in your systems for weeks and sometimes months. Once attackers obtain valid user credentials, <a href="https://cyberhoot.com/blog/stopping-token-theft-how-microsofts-protections-prevent-bec-attacks/" type="post" id="32512">steal session tokens</a>, bypass MFA, or gain remote administrative access, the organization is effectively breached.</p>
+
+
+
+<p>It only takes moments for attackers with a foot in the door to exploit internal systems, credentials, networking equipment. They escalate privileges, move laterally across systems, disable security controls, exfiltrate sensitive data, and eventually as the final step, deploy ransomware.</p>
+
+
+
+<p>If your strategy centers only on backups and endpoint detection, you are reacting at the final stage of the kill chain. That is too late.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>The Modern “Front Door” Risk Areas</strong></h2>
+
+
+
+<p>Security teams should take a close look at four high-risk areas.</p>
+
+
+
+<p>First, examine your <strong>identity systems</strong>. Misconfigurations in Entra ID or Azure AD can quietly expose your environment. MFA exceptions granted to executives or long-tenured employees, even with good intentions, create gaps that attackers look for specifically. Weak conditional access policies leave gaps attackers can exploit. MFA fatigue vulnerabilities, especially push-based MFA without additional safeguards, leave accounts vulnerable to social engineering and account takeover.</p>
+
+
+
+<p>The second<strong>, </strong>is <strong>remote access infrastructure</strong>. VPN appliances from vendors including <a href="https://www.tenable.com/blog/cve-2024-55591-fortinet-authentication-bypass-zero-day-vulnerability-exploited-in-the-wild">Fortigate</a>, <a href="https://www.cryptika.com/sonicwall-firewall-devices-0-day-vulnerability-actively-exploited-by-akira-ransomware/">SonicWall</a>, and even <a href="https://www.itpro.com/security/cyber-attacks/cisco-asa-customers-urged-to-take-immediate-action-as-ncsc-cisa-issue-critical-vulnerability-warnings">Cisco</a>. have all required significant and repeated patching over the past two years. Exposed <a href="https://cyberhoot.com/cybrary/remote-desktop-protocol-rdp/" type="post" id="5270">Remote Desktop Protocol (RDP)</a> instances are actively scanned and targeted every day. Edge devices that sit between your users and the Internet need timely patching as a standard practice.</p>
+
+
+
+<p>The third is <strong>browser </strong>and <strong>session token theft</strong>. <a href="https://cyberhoot.com/blog/sneaky-browser-extensions-are-hijacking-chatgpt-sessions/" type="post" id="33076">Malicious browser extensions</a> and <a href="https://documents.trendmicro.com/assets/research-reports/the-ai-fication-of-cyberthreats-trend-micro-security-predictions-for-2026.pdf">infostealer malware</a> are now common tools for capturing authentication tokens. When an attacker steals a valid session token, MFA does not help because the system sees an already-authenticated user.  This attack type is growing because it bypasses controls that organizations spent years building.</p>
+
+
+
+<p>The fourth, is <strong>third-party and SaaS access</strong>. API keys, service accounts, and automation connectors often have broad permissions and receive little ongoing monitoring. Contractors and part-time employees are being actively recruited by ransomware groups and offered large sums of money to provide inside access.  These integrations points deserve heightened attention and regular reviews.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>What Security Leaders Should Prioritize</strong></h2>
+
+
+
+<p>Phishing training and MFA enrollment remain important. Ransomware, though, rarely arrives as a single malicious email attachment anymore.  It worms its way in through credential theft, remote access exploits, and identity misconfigurations, often combining methods in a single attack.</p>
+
+
+
+<p>Shifting your focus to include these areas alongside your traditional defenses will make a huge difference in your resilience to evolving ransomware attacks.</p>
+
+
+
+<p>Shift some of your focus to the following areas to improve your defense in depth cyber program:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Enforce phishing-resistant MFA, such as hardware-backed solutions</li>
+
+
+
+<li>Harden identity providers with strict conditional access</li>
+
+
+
+<li>Scan and audit configurations of exposed services and edge devices</li>
+
+
+
+<li>Monitor for unusual logins, sign-ins from unexpected locations (sometimes called impossible travel)</li>
+
+
+
+<li>Consider adopting <a href="https://www.cloudflare.com/learning/access-management/what-is-ztna/">Zero Trust Network Access (ZTNA)</a> where users get app-level access only after identity and device checks succeed</li>
+
+
+
+<li>Limit standing administrative privileges to limit the blast radius of a single breached admin account</li>
+
+
+
+<li>Review 3rd party integrations and revoke any access that is no longer needed</li>
+</ul>
+
+
+
+<p>Each of these steps addresses the places attackers are pivoting their attacks towards today.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>The Strategic Takeaway</strong></h2>
+
+
+
+<p>You don&#8217;t have to overhaul everything all at once. Start by reviewing your MFA configurations for exceptions and remove the onces that no longer make sense.  Confirm your VPN and edge devices are running current firmware.  Pull a report on which accounts have global admin permissions and reduce that list. Schedule quarterly reviews of your SaaS integrations and connected service accounts.</p>
+
+
+
+<p>Those four actions cost very little and close doors that attackers are actively trying to open (and succeeding with).</p>
+
+
+
+<p>Ransomware operators adapt faster than most organizations patch. Your advantage is knowing where they&#8217;re looking and making those areas harder to reach.  Small, consistent improvements add up faster than you think.</p>
+
+
+
+<p>Start with one area this week.  Your organization will be in a better position by Friday than is it today.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Additional Resources</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.linkedin.com/pulse/shifting-front-door-how-ransomware-initial-access-has-ryan-smith-0telc/">The Shifting Front Door: How Ransomware Initial Access Has Changed in the Last 6 Months</a></li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">CyberHoot Articles</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://cyberhoot.com/blog/medusa-ransomware-deploys-malicious-driver-to-evade-security/">Medusa Ransomware Deploys Malicious Driver to Evade Security</a></li>
+
+
+
+<li><a href="https://cyberhoot.com/blog/new-rust-based-cicada-3301-ransomware/">New Rust-Based Cicada 3301 Ransomware</a></li>
+
+
+
+<li><a href="https://cyberhoot.com/blog/new-qilin-ransomware-attack/">New Qilin Ransomware Attack</a></li>
+
+
+
+<li><a href="https://cyberhoot.com/blog/ransomware-hackers-turn-sec-snitches-evolving-ransomware-again/">Hackers Turn SEC Snitches: The Evolution of Ransomware Tactics</a></li>
+</ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center has-text-color has-link-color wp-elements-cdc6b008c708c83fda2cd2b904b0d6eb" style="color:#6598a9">Secure your business with CyberHoot Today!</h2>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-text-align-center wp-element-button" href="https://cyberhoot.com/pricing/" style="background-color:#1a3643">Sign Up Now!</a></div>
+</div>
+<p>The post <a href="https://cyberhoot.com/blog/the-ransomware-entry-point-has-changed-has-your-defense/">Ransomware Entry Points are Changing. Here Is What to Do About It?</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Malicious Chrome Extension Disguised as  a Business Tools</title>
+		<link>https://cyberhoot.com/blog/malicious-chrome-extension-disguised-as-a-business-tool/</link>
+		
+		<dc:creator><![CDATA[Katie Boquetti]]></dc:creator>
+		<pubDate>Tue, 17 Feb 2026 06:00:00 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[#ChromeExtension]]></category>
+		<category><![CDATA[#Cybersecurity]]></category>
+		<category><![CDATA[#malicious]]></category>
+		<guid isPermaLink="false">https://cyberhoot.com/?p=33093</guid>
+
+					<description><![CDATA[<p>A malicious Chrome extension with only 33 users was caught stealing 2FA secrets and Meta Business Manager data. Learn how it worked and how to protect your business.</p>
+<p>The post <a href="https://cyberhoot.com/blog/malicious-chrome-extension-disguised-as-a-business-tool/">Malicious Chrome Extension Disguised as  a Business Tools</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>If a Chrome extension promises to remove security pop-ups and generate <a href="https://cyberhoot.com/blog/cam_day_21_two_factor_authentication/" type="post" id="22803">MFA</a> codes, that should make you pause.</p>
+
+
+
+<p>However, thirty-three people did not pause.</p>
+
+
+
+<p>Recently, security researchers uncovered a malicious Chrome extension called CL Suite by @CLMasters, ID jkphinfhmfkckkcnifhjiplhfoiefffl. It was uploaded to the Chrome Web Store on March 1, 2025. At the time of reporting, it had just 33 users.</p>
+
+
+
+<p>At first glance, that number sounds small. In reality, it is not.</p>
+
+
+
+<h3 class="wp-block-heading">Understanding CL Suite Malicious Extension</h3>
+
+
+
+<p>On the surface, the extension was marketed as a tool for Meta Business Suite users. Specifically, it claimed to scrape data, remove verification pop-ups, and generate <a href="https://cyberhoot.com/training/cyberhoot-two-factor-authentication-what-is-it-and-why-is-it-important/" type="post" id="2057">two-factor authentication (AKA MFA) codes</a>. To a busy marketer, that sounds like convenience. By contrast, to a security professional, it sounds like a major red flag.</p>
+
+
+
+<p>Beneath that marketing layer, the extension had far more serious capabilities. It could steal your Time-Based One-Time Password (or <a href="https://en.wikipedia.org/wiki/Time-based_one-time_password">TOTP</a>) seed, which is the secret key used to generate time-based one-time passwords. In addition, it could capture live 2FA codes. Furthermore, it could automatically navigate to facebook[.]com and meta[.]com and target the Business Manager&#8217;s “People” view.</p>
+
+
+
+<p>From there, it built a CSV file containing names, email addresses, roles, permissions, and access status. Beyond that, it enumerated Business Manager entities and export IDs, ad accounts, connected pages, assets, and billing configuration details.</p>
+
+
+
+<p>In other words, this was not casual data scraping. Instead, it was structured, targeted, and extremely dangerous reconnaissance and data theft.</p>
+
+
+
+<h3 class="wp-block-heading">What is a Time-Based One-Time Password (TOTP) Seed?</h3>
+
+
+
+<p>To fully understand the impact, you first need to understand what a <a href="https://en.wikipedia.org/wiki/Time-based_one-time_password">TOTP</a> seed is. App-based two-factor authentication works because a secret key generates rotating six-digit codes. If an attacker steals that secret key, they can generate valid 2FA codes at any time.</p>
+
+
+
+<p>As a result, they do not just bypass your password. They bypass your second layer of protection entirely. Put more simply, it is like handing someone both your house key and your alarm code.</p>
+
+
+
+<p>Now, consider what Meta Business Manager often controls. Company pages. Advertising accounts. Payment methods. Employee and partner access.</p>
+
+
+
+<p>If attackers can export user roles and billing details, they gain a blueprint of the organization’s digital footprint. From there, they can identify high-privilege accounts, redirect ad spend, or launch targeted <a href="https://cyberhoot.com/cybrary/social-engineering-term/" type="post" id="4266">social engineering</a> campaigns. Consequently, thirty-three installs could lead to dozens of company breaches, significant financial exposure, and follow-on attacks from trusted sources. A recipe for disaster!</p>
+
+
+
+<h3 class="wp-block-heading">The Larger Trust Problem</h3>
+
+
+
+<p>More broadly, the larger issue here is trust. Many users assume that anything in the Chrome Web Store is safe. While extensions are reviewed, malicious behavior can still slip through. In some cases, it hides inside updates. In others, it hides behind features that appear helpful.</p>
+
+
+
+<p>Most users do not review permissions closely enough. Instead, they click “Add Extension” and move on. Yet that one click may grant the ability to read website data, interact with authentication flows, and capture session information. Even when the apps ask for permission, users rarely read all the fine print on what they&#8217;re granted the extension permission to do.  Users are like water in a river flowing gently around obstacles in their way with rarely any concern. Then out of no-where a Crocodile-like malicious extention strikes and BAM!  Really bad things ensue.</p>
+
+
+
+<p>Users need to realize, your browser is no longer just a browsing tool. Rather, it is potentially a gateway into your business systems and data.</p>
+
+
+
+<h3 class="wp-block-heading">Managing the Risk</h3>
+
+
+
+<p>Fortunately, this risk is manageable.</p>
+
+
+
+<p>First, organizations must <span style="text-decoration: underline;">regularly</span> audit installed extensions and remove anything <em>not approved</em> and <em>not essential</em>. Next, managed environments should implement allow-listing so only approved extensions are permitted. Additionally, employees should be trained to question permissions, especially when an extension touches authentication or claims to bypass security steps. Finally, monitoring business platforms for unusual administrative behavior is critical, since session abuse rarely triggers login alerts.</p>
+
+
+
+<h3 class="wp-block-heading">The Takeaway</h3>
+
+
+
+<p>Ultimately, the lesson is simple. Attackers package productivity enhancements containing hidden attacks. They disguise data theft as automation. Above all, they rely on convenience winning over caution.</p>
+
+
+
+<p>Awareness can help you plan your security program, alert your users, and avoid these hidden threats.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Additional Resources</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.scworld.com/news/researchers-find-16-browser-extensions-stealing-chatgpt-session-tokens">SC Media: Researchers find 16 browser extensions stealing ChatGPT session tokens</a></li>
+
+
+
+<li><a href="https://www.venn.com/learn/browser-security/enterprise-browser-security/">Venn&#8217;s Enterprise Browser Security Guide</a></li>
+</ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center has-text-color has-link-color wp-elements-cdc6b008c708c83fda2cd2b904b0d6eb" style="color:#6598a9">Secure your business with CyberHoot Today!</h2>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-text-align-center wp-element-button" href="https://cyberhoot.com/pricing/" style="background-color:#1a3643">Sign Up Now!</a></div>
+</div>
+<p>The post <a href="https://cyberhoot.com/blog/malicious-chrome-extension-disguised-as-a-business-tool/">Malicious Chrome Extension Disguised as  a Business Tools</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Sneaky Browser Extensions Are Hijacking ChatGPT Sessions</title>
+		<link>https://cyberhoot.com/blog/sneaky-browser-extensions-are-hijacking-chatgpt-sessions/</link>
+		
+		<dc:creator><![CDATA[Katie Boquetti]]></dc:creator>
+		<pubDate>Tue, 10 Feb 2026 06:00:00 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[#Cybersecurity]]></category>
+		<category><![CDATA[#sessionhijacking]]></category>
+		<guid isPermaLink="false">https://cyberhoot.com/?p=33076</guid>
+
+					<description><![CDATA[<p>Sneaky browser extensions are stealing ChatGPT session tokens without passwords or MFA. Learn how this attack works, why it matters, and how to protect your business.</p>
+<p>The post <a href="https://cyberhoot.com/blog/sneaky-browser-extensions-are-hijacking-chatgpt-sessions/">Sneaky Browser Extensions Are Hijacking ChatGPT Sessions</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<h3 class="wp-block-heading">Cyberattacks usually start with phishing emails or weak passwords.</h3>
+
+
+
+<p>This one did not.  </p>
+
+
+
+<p>Security researchers recently uncovered malicious browser extensions <a href="https://cyberhoot.com/cybrary/session-hijacking-attack/">stealing ChatGPT session tokens</a>. These extensions looked harmless. Some were even available in official extension stores. Once installed, they quietly took over active ChatGPT sessions without triggering alerts.</p>
+
+
+
+<p>No fake login page. No stolen password. No MFA prompt. This attack runs silently.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>What&#8217;s Happening Here</strong></h3>
+
+
+
+<p>The malicious extensions used a simple technique. They monitor browser activity, capture active ChatGPT session tokens when it&#8217;s launched, and send those tokens to attacker-controlled servers.</p>
+
+
+
+<p>Session tokens prove you are logged into a website.  Think of them as a master key. If an attacker has your session token, they do not need your password. They access the account as if they are you, until the session expires or is revoked.  </p>
+
+
+
+<p>Session tokens are revoked when you &#8220;log off&#8221; important websites instead of closing the browser tab.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Why Session Tokens Matter So Much</strong></h3>
+
+
+
+<p>A session token works like a wristband at a concert. Once you have it, security stops checking your ticket. Everyone assumes you are authorized to be there. If someone steals your wristband, they walk right in. No questions asked. However, in the real world, if you notice your wristband is missing, you can report it stolen.  In the digital world it&#8217;s an exact copy of your valid token and you have no idea its been stolen.  This makes these attacks more dangerous and difficult to identify until it&#8217;s too late.</p>
+
+
+
+<p>This is why <a href="https://cyberhoot.com/blog/session-hijacking-how-cybercriminals-take-over-your-online-sessions/">session token theft</a> is becoming more common than password theft. It bypasses many traditional security controls without setting off alarms.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Why Session Tokens Create New Challenges</strong></h3>
+
+
+
+<p>When you log into a website, the system gives your browser a session token. This token tells the website &#8220;this person already authenticated.&#8221; The website stops checking your password every time you click a link.</p>
+
+
+
+<p>If someone steals that token, they walk right in. You still have yours and it works fine. The attacker has an exact copy. You will not notice it was stolen until something goes wrong.</p>
+
+
+
+<p>This is why session token theft is becoming more common than password theft. It bypasses traditional security controls without setting off alarms.</p>
+
+
+
+<h3 class="wp-block-heading">Why Browser Extensions Deserve More Attention</h3>
+
+
+
+<p>Browser extensions are built to be useful. Many request permission to read everything you do online, modify web pages, and access cookies or session data. People often click &#8220;Allow&#8221; without reviewing what they are agreeing to. IT often do not monitor or block extension installs.</p>
+
+
+
+<p>Once installed, extensions run in the background. They do not log out. They can monitor everything you&#8217;re doing, where you&#8217;re going, what you&#8217;re asking AI to do for you. That persistence makes them very attractive to attackers.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Why this Matters for your Business</strong></h3>
+
+
+
+<p>This is not just about personal accounts. In a work environment, a compromised browser exposes more than one account. Attackers may read internal AI conversations, steal sensitive data, prompts, and plans. </p>
+
+
+
+<p>If your team uses AI tools at work, browser security is now an important threat vector to be addressed.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>How to Reduce the Risk</strong></h3>
+
+
+
+<p>The good news is this risk is manageable when technical controls and user awareness work together.</p>
+
+
+
+<p>Start by removing browser extensions that are no longer used. If an extension is not required for daily work, it should not be installed. In managed environments, restrict extensions to an approved allowlist using Group Policy, MDM tools like InTune, or even purpose-built browser security tools.</p>
+
+
+
+<p>IT teams should prevent unauthorized extension installation using centralized controls. This can include:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Removing local administrator rights from end users</li>
+
+
+
+<li>Enforcing browser extension allowlists via Group Policy or MDM</li>
+
+
+
+<li>Blocking installs through PowerShell automation or endpoint management tools</li>
+
+
+
+<li>Disabling developer mode in browsers to prevent sideloaded extensions</li>
+</ul>
+
+
+
+<p>Treat browsers as identity platforms, not simple web tools. They store session tokens, credentials, and access to SaaS platforms. Apply the same security standards used for endpoints and servers.</p>
+
+
+
+<p>Teach users to review extension permissions carefully. Any request to read or change data on all websites should trigger caution. Encourage users to install extensions only from trusted publishers and approved internal lists.</p>
+
+
+
+<p>Finally, assume at least one extension will eventually be malicious and design controls to detect and contain the impact quickly.  <a href="https://cyberhoot.com/cybrary/endpoint-detection-and-response-edr/" type="post" id="20122">Endpoint Detection and Response (EDR)</a> tools are a strong line of defense, especially when combined with default-deny application and extension policies.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>The Bigger Takeaway</strong></h3>
+
+
+
+<p>This story is not really about ChatGPT. It is about how our work life has changed.</p>
+
+
+
+<p>Browsers are now the front door to your business, and attackers know it. Security strategies that stop at passwords, <a href="https://cyberhoot.com/cybrary/authentication/" type="post" id="3069">MFA</a>, and even the latest <a href="https://cyberhoot.com/blog/passkeys-the-path-to-a-passwordless-future/" type="post" id="27205">Passkeys</a>, are not enough to prevent session token attacks.</p>
+
+
+
+<p>The real security battle is no longer at login. It is protecting identity, sessions, and access after authentication succeeds.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Take One Step Today</strong></h3>
+
+
+
+<p>Review your browser extensions this week. Remove anything you do not recognize or use regularly. If you manage IT for your organization, start building an approved extension list. If you are an employee, ask your IT team if they have extension policies in place.</p>
+
+
+
+<p>Small steps build safer habits. You do not need to fix everything at once. You need to start somewhere, and browser hygiene is a smart place to begin.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Additional Resources</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.scworld.com/news/researchers-find-16-browser-extensions-stealing-chatgpt-session-tokens">SC Media: Researchers find 16 browser extensions stealing ChatGPT session tokens</a></li>
+
+
+
+<li><a href="https://www.venn.com/learn/browser-security/enterprise-browser-security/">Venn&#8217;s Enterprise Browser Security Guide</a></li>
+</ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center has-text-color has-link-color wp-elements-cdc6b008c708c83fda2cd2b904b0d6eb" style="color:#6598a9">Secure your business with CyberHoot Today!</h2>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-text-align-center wp-element-button" href="https://cyberhoot.com/pricing/" style="background-color:#1a3643">Sign Up Now!</a></div>
+</div>
+<p>The post <a href="https://cyberhoot.com/blog/sneaky-browser-extensions-are-hijacking-chatgpt-sessions/">Sneaky Browser Extensions Are Hijacking ChatGPT Sessions</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Cybersecurity Leader Uploads Sensitive Files to AI</title>
+		<link>https://cyberhoot.com/blog/when-a-cybersecurity-leader-uploads-sensitive-files-to-chatgpt/</link>
+		
+		<dc:creator><![CDATA[Katie Boquetti]]></dc:creator>
+		<pubDate>Tue, 03 Feb 2026 06:00:00 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[#Cybersecurity]]></category>
+		<guid isPermaLink="false">https://cyberhoot.com/?p=33067</guid>
+
+					<description><![CDATA[<p>A senior cybersecurity leader’s AI mistake shows why training employees to use public AI tools safely matters more than ever.</p>
+<p>The post <a href="https://cyberhoot.com/blog/when-a-cybersecurity-leader-uploads-sensitive-files-to-chatgpt/">Cybersecurity Leader Uploads Sensitive Files to AI</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<h3 class="wp-block-heading">Not surprising when Trouble Ensues</h3>
+
+
+
+<p>Last summer, the interim head of a major U.S. cybersecurity agency uploaded sensitive government contracting documents into the public version of ChatGPT. These files were marked “For Official Use Only”, meaning they were sensitive (but not secret or top secret).  When placed into the public LLM, they may be used by the LLM to answer questions from other LLM users putting the data at risk of disclosure and discovery. </p>
+
+
+
+<p>The incident stands out because this individual was a cybersecurity leader responsible for defending the US&#8217;s national infrastructure. Fortunately, automated security controls detected the uploads, triggering alerts, that lead to an internal review before significant damage was done.</p>
+
+
+
+<p>In that sense, the system worked. But the more important question here might not be that obvious. From where CyberHoot sits, it appears the adoption and attraction of AI tool usage can get the best of educated, well-meaning, and high-ranking individuals.  It&#8217;s so new and powerful that employees, your employees are unable to resist using it to hone their communications, analyze documents, and put our sensitive business data at risk.  Read on to find out what we all should do to put up our own safeguards. </p>
+
+
+
+<h3 class="wp-block-heading">Why This Happens Even to Smart People</h3>
+
+
+
+<p>This mistake was not driven by malice or ill will. For this career cybersecurity professional, they we&#8217;re trying to work faster, smarter, and more efficiently. That same motivation exists in every organization today. Employees use AI tools to draft emails, summarize documents, and analyze data. The problem is not productivity. The problem is awareness. People do not understand the difference between public and private AI tools. They assume a tool is safe because it is popular, widely used, or not explicitly blocked by IT (in this case the individual had forced an exception to use ChatGPT which was blocked from everyone else&#8217;s use in the agency). That assumption leads to everyday mistakes, such as pasting customer data, company financials, or a human resource complaint,  into a public LLM AI prompt. Doing this puts the data at risk of discovery.</p>
+
+
+
+<h3 class="wp-block-heading">What Public AI Tools Do With Your Data</h3>
+
+
+
+<p>When information is entered into a public AI service, it is shared with the company operating that platform. Most free AI tools use user inputs to improve their models, which means the data may be stored or reused in ways the user never intended. Uploading a customer list, a contract, or internal reports is not a breach or a hack. It is a direct result of the terms of service that users agree to when they start using the tool. Once the data is shared, control over it is effectively lost.</p>
+
+
+
+<h3 class="wp-block-heading">Why Training and Proper Tooling Matters More Than Handbook Prohibitions</h3>
+
+
+
+<p>This is why awareness training matters more than written policies. AI prohibitions buried on page 53 of the 100 page employee handbook will not be read, understood, and certainly won&#8217;t stop real-world usage. In this powerful emerging technology, people need simple lessons on why the rules exist and how to apply them in their daily work. Effective training explains what public AI tools are, how they differ from private ones. Training should explain what data should never be uploaded and which approved tools can be used. The goal is not to scare teams away from AI use. The goal is to help them use it safely and confidently.</p>
+
+
+
+<h3 class="wp-block-heading">IT Teams and Security Professionals must Prepare Solutions</h3>
+
+
+
+<p>In addition to training your employees on how to protect sensitive data, IT teams must also empower their users to work the way they want to work (inside private or secure LLMs). Provision private AI tools you have evaluated and secured appropriately for use by your team. Force employees to use the company approved tools and train them on why this matters. Reward the individuals who follow the rules rather than making examples out of the individuals who fail. Make your approved tools the easiest way to work and you&#8217;ll have compliance built into your tech stack. Then make sure you monitor for oversights and mistakes that can sometimes creep in to address those, as this government agency did, to prevent larger data breaches from happening.</p>
+
+
+
+<h3 class="wp-block-heading">The Takeaway for Every Organization</h3>
+
+
+
+<p>The lesson is clear. If a senior cybersecurity leader can make this mistake, any organization can.  Employees are like river water. They will follow the path of least resistance to complete their work.  Employees need to be trained on the risks involved in sharing sensitive data with public LLMs. With clear guidance, short conversations, and approved low-friction AI solutions in place, you can reduce risk without blocking innovation, slowing work, and frustrating end users. Start small, train your team, and build from there. When people understand the rules and have safe tools to use, they will protect your data every time.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Additional Resources</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.politico.com/news/2026/01/27/cisa-madhu-gottumukkala-chatgpt-00749361">Politico News: Trump’s acting cyber chief uploaded sensitive files into a public version of ChatGPT</a></li>
+</ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center has-text-color has-link-color wp-elements-cdc6b008c708c83fda2cd2b904b0d6eb" style="color:#6598a9">Secure your business with CyberHoot Today!</h2>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-text-align-center wp-element-button" href="https://cyberhoot.com/pricing/" style="background-color:#1a3643">Sign Up Now!</a></div>
+</div>
+<p>The post <a href="https://cyberhoot.com/blog/when-a-cybersecurity-leader-uploads-sensitive-files-to-chatgpt/">Cybersecurity Leader Uploads Sensitive Files to AI</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Common Google Workspace Security Gaps</title>
+		<link>https://cyberhoot.com/blog/the-most-common-google-workspace-security-gaps-and-how-to-fix-them/</link>
+		
+		<dc:creator><![CDATA[Katie Boquetti]]></dc:creator>
+		<pubDate>Tue, 27 Jan 2026 06:00:00 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[#Cybersecurity]]></category>
+		<category><![CDATA[#MongoBleed]]></category>
+		<category><![CDATA[#Vulnerability]]></category>
+		<guid isPermaLink="false">https://cyberhoot.com/?p=33052</guid>
+
+					<description><![CDATA[<p>Discover the most common Google Workspace security gaps, why they cause breaches, and the practical steps you can take to close them.</p>
+<p>The post <a href="https://cyberhoot.com/blog/the-most-common-google-workspace-security-gaps-and-how-to-fix-them/">Common Google Workspace Security Gaps</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">And How to Fix Them</h2>
+
+
+
+<p>Let me make an educated guess. You moved to Google Workspace because it was supposed to make things easier. Maybe surprisingly, it did! Score one for Google!  However, maybe that utility was disrupted one day by someone forwarded 3,000 customer emails to their personal email on their last day of work.  Ouch! That hurts in so many ways.</p>
+
+
+
+<p>Here&#8217;s the thing.  Google Workspace is capable of solid security. However, your Google Workspace <strong><em>is likely missing </em></strong>most core security features. The difference comes down to about 20 minutes of setup <strong>that almost nobody does</strong>.  So let&#8217;s change that.  The good news is it&#8217;s easy and straight-forward.  The rest of this article outlines the most common Google Workspace security gaps and how to close them.</p>
+
+
+
+<h3 class="wp-block-heading">1. MFA Is Enabled, But Not (universally) Enforced </h3>
+
+
+
+<p>Many organizations enable multi-factor authentication and assume they are protected. However, a closer review often reveals gaps. Some users are excluded from MFA, legacy accounts remain active, or administrators create exceptions for convenience (remember the weekend call from the C-Suite whose phone was lost &#8211; so they had no MFA and you disabled it?).</p>
+
+
+
+<p><strong>Why this matters</strong><br>A single account without MFA can provide access to email, files, and internal trusted user phishing opportunities (the most successful kind of phishing attack out there!). This is one of the most common issues observed in real-world incidents.</p>
+
+
+
+<p><strong>How to fix it</strong><br>Require MFA for every user <strong><span style="text-decoration: underline;">without exceptions</span></strong>. Disable legacy authentication entirely. Enforce stronger MFA requirements for administrative accounts. If MFA is optional anywhere, attackers will find it.</p>
+
+
+
+<h3 class="wp-block-heading">2. OAuth Applications Are Trusted Too Easily</h3>
+
+
+
+<p>OAuth allows users to connect third-party applications to Google Workspace. While convenient, this capability introduces risk. With a single click on “Allow,” an application may gain access to email, files, contacts, and calendars without requiring a password or triggering MFA.</p>
+
+
+
+<p><strong>Why this matters</strong><br>Malicious OAuth applications can quietly access sensitive data for months without detection. This is the risk that catches administrators off guard when they&#8217;re cleaning up after a breach, not before one.</p>
+
+
+
+<p><strong>How to fix it</strong><br><span style="text-decoration: underline;"><strong>Block third-party applications by default</strong>.</span> Approve only known, trusted, and approved applications. Review application permissions on a quarterly basis and configure alerts for newly connected apps.</p>
+
+
+
+<p>If OAuth access is not being reviewed, <em>your team may be granting full email access to apps they used once for a team-building exercise in 2023.</em></p>
+
+
+
+<h3 class="wp-block-heading">3. Too Many Administrators Have God-Mode Privileges</h3>
+
+
+
+<p>God-Mode Admin (okay, it&#8217;s called Super Admin, but God-Mode is what it means) access provides broad and powerful control over Google Workspace. Despite this, many environments assign administrative privileges to far too many users. Remember, each additional administrator increases the attack surface and makes auditing more time consuming.</p>
+
+
+
+<p><strong>Why this matters</strong><br>If an administrator account is compromised, an attacker can reset passwords, add addition super admins, disable security controls, and access all your data. At that point, containment becomes extremely difficult.</p>
+
+
+
+<p><strong>How to fix it</strong><br><span style="text-decoration: underline;"><strong>Limit Super Admin access to a small number of trusted accounts.</strong> </span>Use role-based administrative permissions wherever possible. Separate administrative accounts from daily-use email accounts and review administrative activity logs regularly.  <em>Least privilege may not be exciting, but it is highly effective.</em></p>
+
+
+
+<h3 class="wp-block-heading">4. Email Security Is Incompletely Configured</h3>
+
+
+
+<p>Gmail provides strong baseline protection, but attackers continuously adapt. Common configuration gaps remain widespread, including DMARC policies set to monitoring only, missing external sender warnings, and user training that occurs once and is never reinforced.</p>
+
+
+
+<p><strong>Why this matters</strong><br>Email remains the primary entry point for the great majority of attacks in midmarket and smaller companies. This has not changed in 20+ years.</p>
+
+
+
+<p><strong>How to fix it</strong><br>Enforce SPF, DKIM, and DMARC with a reject policy. Add clear simple but note-worthy labeling for external senders. Provide monthly security awareness training (videos and HootPhish) rather than one-time sessions.</p>
+
+
+
+<p>Technology helps, but trained users are often the most effective defense. One marathon training session a year leaves your team sore, confused, and no safer than before. <em>Monthly training builds muscle memory that stops someone from clicking before looking/thinking/validating.</em></p>
+
+
+
+<h3 class="wp-block-heading">5. Audit Logs Are Not Actively Monitored</h3>
+
+
+
+<p>Google Workspace generates detailed audit logs, but many organizations never review them. This creates a visibility gap.</p>
+
+
+
+<p><strong>Why this matters</strong><br>Suspicious activity often goes unnoticed, including logins from impossible locations, large-scale file downloads, and hidden inbox forwarding rules. By the time the activity is discovered, significant damage has already happened.</p>
+
+
+
+<p><strong>How to fix it</strong><br>Enable detailed audit logging. Monitor for login anomalies. Review changes to mailbox rules and configure alerts for high-risk behavior. </p>
+
+
+
+<p>If no one is watching the logs, <em>attackers operate like burglars who know the house is empty and the owners are on a two-week vacation.</em> They&#8217;re not rushing. They&#8217;re helping themselves.</p>
+
+
+
+<h3 class="wp-block-heading">6. Files Are Shared Too Broadly</h3>
+
+
+
+<p>Google Workspace makes file sharing simple, and easy. It prompts users to grant access before sending email to external people, but the warning messages are either too innocuous or ignored leading to far to many sensitive files shared externally without any follow-up or oversight.</p>
+
+
+
+<p><strong>Why this matters</strong><br>Data can leave the organization quietly and without triggering alerts. This often occurs without malicious intent, but the impact remains the same.</p>
+
+
+
+<p><strong>How to fix it</strong><br>Restrict external file sharing by default. Require approval for external access. Regularly review shared links and enforce expiration dates for public links.  </p>
+
+
+
+<p>Convenience should never override control. <em>Leaving files open to &#8216;anyone with the link&#8217; is like putting your house keys under the doormat and hoping only the right people find them.</em></p>
+
+
+
+<h3 class="wp-block-heading">7. There Is No Defined Security Playbook</h3>
+
+
+
+<p>This might just be the most significant gap. Many organizations use Google Workspace without written security standards, regular access reviews, or clearly assigned security ownership.</p>
+
+
+
+<p>Without governance, security configurations gradually degrade.  That&#8217;s chaos theory plain and simple.</p>
+
+
+
+<p><strong>Why this matters</strong><br>Security settings naturally drift over time if no one is responsible for maintaining and reviewing them. Attackers rely on this drift.</p>
+
+
+
+<p><strong>How to fix it</strong><br>Define baseline Google Workspace security standards. Conduct quarterly access reviews. Align configurations with recognized security benchmarks and assign clear ownership for maintaining them.</p>
+
+
+
+<p>Everyone should practice security, but someone must be accountable for it. <em>Attackers scan for the same signs burglars do: no security lights, no alarm company stickers, no guard dog.</em> These are the hallmarks of a house with no one watching.</p>
+
+
+
+<h2 class="wp-block-heading">The Bottom Line: make it look like someone&#8217;s always home and watching</h2>
+
+
+
+<p>Most Google Workspace breaches are not sophisticated nation-state attacks with the latest zero-day exploit. They are simple exploits of default settings, forgotten configurations, and misplaced trust.</p>
+
+
+
+<p>Attackers think like burglars. They are not looking for the impossible heist. They are looking for the house with no alarm signs, no lights on timers, and mail piling up at the door.</p>
+
+
+
+<p>Close these gaps. Your goal is not perfection. <em>Your goal is to look less easy than the organization next door.</em></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">Additional Resources</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://thehackernews.com/2026/01/filling-most-common-gaps-in-google.html">The Hacker News: Filling the Most Common Gaps in Google Workspace Security</a></li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading has-text-align-center has-text-color has-link-color wp-elements-cdc6b008c708c83fda2cd2b904b0d6eb" style="color:#6598a9">Secure your business with CyberHoot Today!</h2>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-background has-text-align-center wp-element-button" href="https://cyberhoot.com/pricing/" style="background-color:#1a3643">Sign Up Now!</a></div>
+</div>
+<p>The post <a href="https://cyberhoot.com/blog/the-most-common-google-workspace-security-gaps-and-how-to-fix-them/">Common Google Workspace Security Gaps</a> appeared first on <a href="https://cyberhoot.com">CyberHoot</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

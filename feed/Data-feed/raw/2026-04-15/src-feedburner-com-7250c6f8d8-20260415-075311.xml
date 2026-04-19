@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<atom:link href="https://hackread.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://hackread.com</link>
+	<description></description>
+	<lastBuildDate>Tue, 14 Apr 2026 21:01:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://hackread.com/wp-content/uploads/2023/08/cropped-HACKREAD-32x32.png</url>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<link>https://hackread.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How Digital Annotations Are Replacing Paper Markups in Business</title>
+		<link>https://hackread.com/digital-annotations-replace-paper-markups-business/</link>
+					<comments>https://hackread.com/digital-annotations-replace-paper-markups-business/#respond</comments>
+		
+		<dc:creator><![CDATA[Owais Sultan]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 21:01:56 +0000</pubDate>
+				<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Business]]></category>
+		<category><![CDATA[Fintech]]></category>
+		<category><![CDATA[Annotation]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143916</guid>
+
+					<description><![CDATA[Digital Annotations replace paper markups in business, enabling real time collaboration, version control, and secure document workflows across teams.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/digital-annotations-replace-paper-markups-business/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>wolfSSL Vulnerability Hits IoT, Routers and Military Systems, Update to 5.9.1 Now</title>
+		<link>https://hackread.com/wolfssl-vulnerability-iot-routers-military-systems/</link>
+					<comments>https://hackread.com/wolfssl-vulnerability-iot-routers-military-systems/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 18:30:42 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[IoT]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<category><![CDATA[wolfSSL]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143895</guid>
+
+					<description><![CDATA[Critical wolfSSL flaw CVE-2026-5194 allows digital ID forgery across billions of devices, update to version 5.9.1 to fix the issue and reduce risk.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/wolfssl-vulnerability-iot-routers-military-systems/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Security Risk Advisors Purple Team Participants Can Now Earn CPE Credits</title>
+		<link>https://hackread.com/security-risk-advisors-purple-team-participants-can-now-earn-cpe-credits/</link>
+					<comments>https://hackread.com/security-risk-advisors-purple-team-participants-can-now-earn-cpe-credits/#respond</comments>
+		
+		<dc:creator><![CDATA[CyberNewswire]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 17:40:30 +0000</pubDate>
+				<category><![CDATA[Press Release]]></category>
+		<category><![CDATA[MITRE]]></category>
+		<category><![CDATA[Simulation]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143909</guid>
+
+					<description><![CDATA[Philadelphia, United States / Pennsylvania, 14th April 2026, CyberNewswire]]></description>
+		
+					<wfw:commentRss>https://hackread.com/security-risk-advisors-purple-team-participants-can-now-earn-cpe-credits/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Kraken Exchange Faces Extortion After Insider Recorded System Footage</title>
+		<link>https://hackread.com/kraken-exchange-extortion-insider-system-footage/</link>
+					<comments>https://hackread.com/kraken-exchange-extortion-insider-system-footage/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 15:58:05 +0000</pubDate>
+				<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Crypto]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Blockchain]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Exchange]]></category>
+		<category><![CDATA[Extortion]]></category>
+		<category><![CDATA[Insider Threat]]></category>
+		<category><![CDATA[Kraken]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143876</guid>
+
+					<description><![CDATA[Kraken exchange faces extortion after a staff member misused access to record internal systems, about 2,000 accounts affected, no funds or systems breached.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/kraken-exchange-extortion-insider-system-footage/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Booking.com Confirms Data Breach as Hackers Access Customer Details</title>
+		<link>https://hackread.com/booking-com-data-breach-hackers-customer-details/</link>
+					<comments>https://hackread.com/booking-com-data-breach-hackers-customer-details/#respond</comments>
+		
+		<dc:creator><![CDATA[Waqas]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 11:28:40 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[Cyber Attacks]]></category>
+		<category><![CDATA[Booking.com]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Phishing]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Scam]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143875</guid>
+
+					<description><![CDATA[Booking.com confirms a data breach exposing customer details to hackers. No payment data accessed, but users face risk of targeted phishing scams now!]]></description>
+		
+					<wfw:commentRss>https://hackread.com/booking-com-data-breach-hackers-customer-details/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Ransomware-Linked ViperTunnel Malware Hits UK and US Businesses</title>
+		<link>https://hackread.com/ransomware-vipertunnel-malware-uk-us-businesses/</link>
+					<comments>https://hackread.com/ransomware-vipertunnel-malware-uk-us-businesses/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 10:02:28 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber Attacks]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[backdoor]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[InfoGuard]]></category>
+		<category><![CDATA[ViperTunnel]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143856</guid>
+
+					<description><![CDATA[ViperTunnel is a Python-based backdoor linked to DragonForce ransomware that targets businesses using Windows servers across the US and the UK.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/ransomware-vipertunnel-malware-uk-us-businesses/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>OpenAI Rotates macOS Certificates Following Axios Supply Chain Breach</title>
+		<link>https://hackread.com/openai-macos-certificates-axios-supply-chain-breach/</link>
+					<comments>https://hackread.com/openai-macos-certificates-axios-supply-chain-breach/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Mon, 13 Apr 2026 20:11:47 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Axios]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[macOS]]></category>
+		<category><![CDATA[North Korea]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<category><![CDATA[Supply Chain Attack]]></category>
+		<category><![CDATA[UNC1069]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143851</guid>
+
+					<description><![CDATA[OpenAI rotates macOS certificates after downloading a compromised Axios version, urging users to update apps before revoked certificates are blocked in May 2026.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/openai-macos-certificates-axios-supply-chain-breach/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>BITTER APT Uses Signal, Google, and Zoom Lures to Spread ProSpy Spyware</title>
+		<link>https://hackread.com/bitter-apt-signal-google-zoom-prospy-spyware/</link>
+					<comments>https://hackread.com/bitter-apt-signal-google-zoom-prospy-spyware/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Mon, 13 Apr 2026 15:20:07 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Bitter]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Middle East]]></category>
+		<category><![CDATA[ProSpy]]></category>
+		<category><![CDATA[Signal]]></category>
+		<category><![CDATA[Spyware]]></category>
+		<category><![CDATA[ToSpy]]></category>
+		<category><![CDATA[Zoom]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143743</guid>
+
+					<description><![CDATA[BITTER APT spreads ProSpy and ToSpy via Signal, Google, and Zoom lures, targeting journalists through LinkedIn and iMessage spearphishing.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/bitter-apt-signal-google-zoom-prospy-spyware/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>OpenSSF Flags Malware Campaign on Slack Posing as Linux Foundation Figures</title>
+		<link>https://hackread.com/openssf-malware-slack-linux-foundation-figures/</link>
+					<comments>https://hackread.com/openssf-malware-slack-linux-foundation-figures/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Mon, 13 Apr 2026 12:51:14 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Phishing Scam]]></category>
+		<category><![CDATA[Scams and Fraud]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google Workspace]]></category>
+		<category><![CDATA[Linux Foundation]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[OpenSSF]]></category>
+		<category><![CDATA[Phishing]]></category>
+		<category><![CDATA[Scam]]></category>
+		<category><![CDATA[Slack]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143635</guid>
+
+					<description><![CDATA[OpenSSF warns hackers impersonate Linux Foundation leaders on Slack, tricking developers into installing malware that can compromise entire systems.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/openssf-malware-slack-linux-foundation-figures/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Why Your Deprecated Endpoints Are an Attacker’s Best Friend: The Rise of Ghost APIs</title>
+		<link>https://hackread.com/deprecated-endpoints-attacker-best-friend-ghost-apis/</link>
+					<comments>https://hackread.com/deprecated-endpoints-attacker-best-friend-ghost-apis/#respond</comments>
+		
+		<dc:creator><![CDATA[Arunkumar Mathiyazhagan]]></dc:creator>
+		<pubDate>Mon, 13 Apr 2026 11:04:54 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[API]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Ghost API]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143691</guid>
+
+					<description><![CDATA[Ghost APIs are deprecated endpoints left active, exposing systems to attack. Learn how they differ from shadow APIs and why they create hidden security risks]]></description>
+		
+					<wfw:commentRss>https://hackread.com/deprecated-endpoints-attacker-best-friend-ghost-apis/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

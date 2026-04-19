@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<atom:link href="https://hackread.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://hackread.com</link>
+	<description></description>
+	<lastBuildDate>Sat, 11 Apr 2026 12:11:12 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://hackread.com/wp-content/uploads/2023/08/cropped-HACKREAD-32x32.png</url>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<link>https://hackread.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Google Chrome Update Disrupts Infostealer Cookie Theft</title>
+		<link>https://hackread.com/google-chrome-update-infostealer-cookie-theft/</link>
+					<comments>https://hackread.com/google-chrome-update-infostealer-cookie-theft/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Sat, 11 Apr 2026 12:11:10 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[Cookie]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[DBSC]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Infostealer]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143736</guid>
+
+					<description><![CDATA[Google adds Device Bound Session Credentials (DBSC) to Chrome 146, using hardware keys to block infostealer use of stolen session cookies on Windows.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/google-chrome-update-infostealer-cookie-theft/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ShinyHunters Claims Rockstar Games Snowflake Breach via Anodot</title>
+		<link>https://hackread.com/shinyhunters-rockstar-games-snowflake-breach-anodot/</link>
+					<comments>https://hackread.com/shinyhunters-rockstar-games-snowflake-breach-anodot/#respond</comments>
+		
+		<dc:creator><![CDATA[Waqas]]></dc:creator>
+		<pubDate>Sat, 11 Apr 2026 01:34:24 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[Cyber Attacks]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Anodot]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[gaming]]></category>
+		<category><![CDATA[Grand Theft Auto VI]]></category>
+		<category><![CDATA[GTA 6]]></category>
+		<category><![CDATA[Rockstar Games]]></category>
+		<category><![CDATA[Salesforce]]></category>
+		<category><![CDATA[ShinyHunters]]></category>
+		<category><![CDATA[Snowflake]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143723</guid>
+
+					<description><![CDATA[ShinyHunters claims access to Rockstar Games Snowflake data via Anodot breach, threatening a data leak on April 14 if ransom demands are not met.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/shinyhunters-rockstar-games-snowflake-breach-anodot/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Android Banking Trojan Linked to Cambodia Scam Compounds Hits 21 Countries</title>
+		<link>https://hackread.com/android-banking-trojan-cambodia-scam-compounds/</link>
+					<comments>https://hackread.com/android-banking-trojan-cambodia-scam-compounds/#respond</comments>
+		
+		<dc:creator><![CDATA[Waqas]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 20:32:33 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Banking]]></category>
+		<category><![CDATA[Cambodia]]></category>
+		<category><![CDATA[Chong Lua Dao]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Infoblox]]></category>
+		<category><![CDATA[K99 Triumph City]]></category>
+		<category><![CDATA[TROJAN]]></category>
+		<category><![CDATA[trojon]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143711</guid>
+
+					<description><![CDATA[Android banking trojan linked to Cambodia scam compounds uses forced labour to target users in 21 countries, bypassing security to steal funds.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/android-banking-trojan-cambodia-scam-compounds/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>GraphAlgo Scam: Lazarus Hackers Register Real US LLCs to Spread Malware</title>
+		<link>https://hackread.com/graphalgo-scam-lazarus-hackers-us-llcs-malware/</link>
+					<comments>https://hackread.com/graphalgo-scam-lazarus-hackers-us-llcs-malware/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 16:55:07 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Scams and Fraud]]></category>
+		<category><![CDATA[Blockchain]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Florida]]></category>
+		<category><![CDATA[GraphAlgo]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Scam]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143676</guid>
+
+					<description><![CDATA[ReversingLabs has discovered a fresh wave of the graphalgo campaign in which North Korean Lazarus hackers are using fake Florida LLCs, mimicking SWFT Blockchain, and using GitHub typo-squatting to target developers with malware.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/graphalgo-scam-lazarus-hackers-us-llcs-malware/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>UNC6783 Hackers Use Fake Okta Pages in Corporate Breach Campaign</title>
+		<link>https://hackread.com/unc6783-hackers-fake-okta-pages-corporate-breach/</link>
+					<comments>https://hackread.com/unc6783-hackers-fake-okta-pages-corporate-breach/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 12:23:18 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber Attacks]]></category>
+		<category><![CDATA[Scams and Fraud]]></category>
+		<category><![CDATA[Austin Larsen]]></category>
+		<category><![CDATA[BPO]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Extortion]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Okta]]></category>
+		<category><![CDATA[Scam]]></category>
+		<category><![CDATA[UNC6783]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143685</guid>
+
+					<description><![CDATA[UNC6783 hackers and extortionists impersonate support staff, using fake Okta login pages and social engineering to access corporate systems and steal sensitive data.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/unc6783-hackers-fake-okta-pages-corporate-breach/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Adobe Reader Zero-Day Exploited to Steal Data via Malicious PDFs</title>
+		<link>https://hackread.com/adobe-reader-zero-day-exploit-data-malicious-pdfs/</link>
+					<comments>https://hackread.com/adobe-reader-zero-day-exploit-data-malicious-pdfs/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 16:45:40 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[0day]]></category>
+		<category><![CDATA[Adobe]]></category>
+		<category><![CDATA[Adobe Reader]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[EXPMON]]></category>
+		<category><![CDATA[Haifei Li]]></category>
+		<category><![CDATA[PDF]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143658</guid>
+
+					<description><![CDATA[An Adobe Reader zero-day vulnerability is being actively exploited via malicious PDFs, allowing hackers to steal data without user interaction, with no patch available.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/adobe-reader-zero-day-exploit-data-malicious-pdfs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Claude Code Can Be Manipulated via CLAUDE.md to Run SQL Injection Attacks</title>
+		<link>https://hackread.com/claude-code-claude-md-sql-injection-attacks/</link>
+					<comments>https://hackread.com/claude-code-claude-md-sql-injection-attacks/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 13:50:29 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[Claude AI]]></category>
+		<category><![CDATA[Claude Code]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[LayerX]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143621</guid>
+
+					<description><![CDATA[LayerX researchers have discovered how to bypass Claude Code’s safety rules using the CLAUDE.md file. This exploit allows&#8230;]]></description>
+		
+					<wfw:commentRss>https://hackread.com/claude-code-claude-md-sql-injection-attacks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mallory Launches AI-Native Threat Intelligence Platform, Turning Global Threat Data Into Prioritized Action</title>
+		<link>https://hackread.com/mallory-launches-ai-native-threat-intelligence-platform-turning-global-threat-data-into-prioritized-action/</link>
+					<comments>https://hackread.com/mallory-launches-ai-native-threat-intelligence-platform-turning-global-threat-data-into-prioritized-action/#respond</comments>
+		
+		<dc:creator><![CDATA[CyberNewswire]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 13:00:22 +0000</pubDate>
+				<category><![CDATA[Press Release]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143632</guid>
+
+					<description><![CDATA[Austin, Texas, United States, 9th April 2026, CyberNewswire]]></description>
+		
+					<wfw:commentRss>https://hackread.com/mallory-launches-ai-native-threat-intelligence-platform-turning-global-threat-data-into-prioritized-action/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>New macOS Malware notnullOSX Targets Crypto Wallets Over $10K</title>
+		<link>https://hackread.com/macos-malware-notnullosx-crypto-wallets/</link>
+					<comments>https://hackread.com/macos-malware-notnullosx-crypto-wallets/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 11:54:34 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Crypto]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[notnullOSX]]></category>
+		<category><![CDATA[Spain]]></category>
+		<category><![CDATA[Taiwan]]></category>
+		<category><![CDATA[Vietnam]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143607</guid>
+
+					<description><![CDATA[macOS Malware notnullOSX targets crypto wallets over $10K, using fake apps, Terminal tricks, and backdoors to steal funds and sensitive data.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/macos-malware-notnullosx-crypto-wallets/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Operation Masquerade: FBI Disrupts Russian Router Hacking Campaign</title>
+		<link>https://hackread.com/operation-masquerade-fbi-russia-router-hacking/</link>
+					<comments>https://hackread.com/operation-masquerade-fbi-russia-router-hacking/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Wed, 08 Apr 2026 16:18:48 +0000</pubDate>
+				<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[APT28]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Fancy Bear]]></category>
+		<category><![CDATA[FBI]]></category>
+		<category><![CDATA[Forest Blizzard]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[Operation Masquerade]]></category>
+		<category><![CDATA[Router]]></category>
+		<category><![CDATA[Russia]]></category>
+		<category><![CDATA[Spying]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143600</guid>
+
+					<description><![CDATA[Operation Masquerade: The FBI and DoJ disrupted a Russian GRU campaign that hijacked routers via DNS attacks to spy on users and steal credentials.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/operation-masquerade-fbi-russia-router-hacking/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

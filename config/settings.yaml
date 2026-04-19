@@ -40,11 +40,11 @@ agent:
 
 ollama:
   enabled: true
-  model: phi3:mini
+  model: llama3.2:3b
   host: http://localhost:11434
-  timeout: 180
-  temperature: 0.2
-  max_tokens: 300
+  timeout: 120
+  temperature: 0.3
+  max_tokens: 512
 
 evaluation:
   enable_audit_trail: true

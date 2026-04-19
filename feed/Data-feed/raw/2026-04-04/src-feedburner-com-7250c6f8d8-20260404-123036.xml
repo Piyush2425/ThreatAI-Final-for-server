@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<atom:link href="https://hackread.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://hackread.com</link>
+	<description></description>
+	<lastBuildDate>Fri, 03 Apr 2026 20:04:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://hackread.com/wp-content/uploads/2023/08/cropped-HACKREAD-32x32.png</url>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<link>https://hackread.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Fake ChatGPT Ad Blocker Chrome Extension Caught Spying on Users</title>
+		<link>https://hackread.com/fake-chatgpt-ad-blocker-chrome-extension-spy-users/</link>
+					<comments>https://hackread.com/fake-chatgpt-ad-blocker-chrome-extension-spy-users/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 20:03:33 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Scams and Fraud]]></category>
+		<category><![CDATA[Ad Blocker]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[Extension]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<category><![CDATA[Scam]]></category>
+		<category><![CDATA[Spying]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143405</guid>
+
+					<description><![CDATA[A fake Chrome browser extension called 'ChatGPT Ad Blocker' was harvesting conversations of ChatGPT users in the name of offering an ad-free experience.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/fake-chatgpt-ad-blocker-chrome-extension-spy-users/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>North Korean Hackers Abuse GitHub to Spy on South Korean Firms</title>
+		<link>https://hackread.com/north-korean-hackers-github-spy-south-korean-firms/</link>
+					<comments>https://hackread.com/north-korean-hackers-github-spy-south-korean-firms/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 17:05:23 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber Attacks]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[FortiGuard]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Lazarus]]></category>
+		<category><![CDATA[North Korea]]></category>
+		<category><![CDATA[PowerShell]]></category>
+		<category><![CDATA[South Korea]]></category>
+		<category><![CDATA[Windows]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143392</guid>
+
+					<description><![CDATA[Researchers from FortiGuard Labs have uncovered a high-severity spying campaign targeting South Korean companies. Discover how North Korean&#8230;]]></description>
+		
+					<wfw:commentRss>https://hackread.com/north-korean-hackers-github-spy-south-korean-firms/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>AI Firm Mercor Confirms Breach as Hackers Claim 4TB of Stolen Data</title>
+		<link>https://hackread.com/ai-firm-mercor-breach-hackers-4tb-data/</link>
+					<comments>https://hackread.com/ai-firm-mercor-breach-hackers-4tb-data/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 15:21:14 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Lapsus]]></category>
+		<category><![CDATA[LiteLLM]]></category>
+		<category><![CDATA[Mercor]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[TeamPCP]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143397</guid>
+
+					<description><![CDATA[AI firm Mercor confirms a breach linked to a LiteLLM supply chain attack, as hackers claim to have stolen 4TB of sensitive data and internal systems.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/ai-firm-mercor-breach-hackers-4tb-data/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>AI Future: The Leading International AI and Web3 Forum to Take Place in April</title>
+		<link>https://hackread.com/ai-future-the-leading-international-ai-and-web3-forum-to-take-place-in-april/</link>
+					<comments>https://hackread.com/ai-future-the-leading-international-ai-and-web3-forum-to-take-place-in-april/#respond</comments>
+		
+		<dc:creator><![CDATA[CyberNewswire]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 13:33:35 +0000</pubDate>
+				<category><![CDATA[Press Release]]></category>
+		<category><![CDATA[Blockchain]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143403</guid>
+
+					<description><![CDATA[Moscow, Russia, 3rd April 2026, CyberNewswire]]></description>
+		
+					<wfw:commentRss>https://hackread.com/ai-future-the-leading-international-ai-and-web3-forum-to-take-place-in-april/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ShinyHunters Hackers Claim Theft of 3M+ Cisco Records, Threaten Public Leak</title>
+		<link>https://hackread.com/shinyhunters-hackers-cisco-records-data-leak/</link>
+					<comments>https://hackread.com/shinyhunters-hackers-cisco-records-data-leak/#respond</comments>
+		
+		<dc:creator><![CDATA[Waqas]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 19:43:18 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cisco]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Salesforce]]></category>
+		<category><![CDATA[ShinyHunters]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143384</guid>
+
+					<description><![CDATA[ShinyHunters hackers claim they stole 3 million+ Cisco records via Salesforce and AWS, warning of a public leak if demands are not met by April 3, 2026.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/shinyhunters-hackers-cisco-records-data-leak/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Microsoft Warns of WhatsApp Attachments Spreading Backdoor on Windows PCs</title>
+		<link>https://hackread.com/microsoft-whatsapp-attachments-backdoor-windows-pcs/</link>
+					<comments>https://hackread.com/microsoft-whatsapp-attachments-backdoor-windows-pcs/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 15:23:27 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Scams and Fraud]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Fraud]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Scam]]></category>
+		<category><![CDATA[Social Engineering]]></category>
+		<category><![CDATA[VBS]]></category>
+		<category><![CDATA[WhatsApp]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143359</guid>
+
+					<description><![CDATA[Microsoft warns of a WhatsApp attachments spreading VBS malware that installs backdoors on Windows PCs, giving hackers remote access and control systems.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/microsoft-whatsapp-attachments-backdoor-windows-pcs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Yurei Ransomware Uses Common Tools, Adds Stranger Things References</title>
+		<link>https://hackread.com/yurei-ransomware-tools-stranger-things-references/</link>
+					<comments>https://hackread.com/yurei-ransomware-tools-stranger-things-references/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 14:07:16 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber Attacks]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Stranger Things]]></category>
+		<category><![CDATA[Team Cymru]]></category>
+		<category><![CDATA[Toolkit]]></category>
+		<category><![CDATA[Yurei]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143349</guid>
+
+					<description><![CDATA[Team Cymru details the Yurei ransomware campaign, using standard tools and a few Stranger Things–named payloads to breach and encrypt systems.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/yurei-ransomware-tools-stranger-things-references/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Storm Infostealer Sold as Service, Targets Browsers, Wallets and Accounts</title>
+		<link>https://hackread.com/storm-infostealer-sold-as-service-browsers-wallets/</link>
+					<comments>https://hackread.com/storm-infostealer-sold-as-service-browsers-wallets/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 13:08:54 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Infostealer]]></category>
+		<category><![CDATA[Storm]]></category>
+		<category><![CDATA[Varonis]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143353</guid>
+
+					<description><![CDATA[New research from Varonis Threat Labs reveals Storm infostealer, a malicious subscription service that bypasses Google Chrome encryption.&#8230;]]></description>
+		
+					<wfw:commentRss>https://hackread.com/storm-infostealer-sold-as-service-browsers-wallets/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Why GitHub Developers Are Targeted by Token Giveaway Scams</title>
+		<link>https://hackread.com/github-developers-targettoken-giveaway-scams/</link>
+					<comments>https://hackread.com/github-developers-targettoken-giveaway-scams/#respond</comments>
+		
+		<dc:creator><![CDATA[Owais Sultan]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 10:38:44 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Scams and Fraud]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Developers]]></category>
+		<category><![CDATA[Fraud]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Giveaway Scam]]></category>
+		<category><![CDATA[Scam]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143338</guid>
+
+					<description><![CDATA[GitHub developers face rising giveaway scams. Verify repos, links, and maintainers before acting. Avoid rushed clicks, fake rewards, and risky wallet actions.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/github-developers-targettoken-giveaway-scams/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Apple Pushes Rare iOS 18 Patch for Devices at Risk from DarkSword Exploit</title>
+		<link>https://hackread.com/apple-pushes-rare-ios-18-patch-darksword-exploit/</link>
+					<comments>https://hackread.com/apple-pushes-rare-ios-18-patch-darksword-exploit/#respond</comments>
+		
+		<dc:creator><![CDATA[Waqas]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 21:15:42 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[iPad]]></category>
+		<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[DarkSword]]></category>
+		<category><![CDATA[Exploit]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143334</guid>
+
+					<description><![CDATA[Apple pushes rare iOS 18 security patch to protect devices at risk from the DarkSword exploit, urging users to update or move to iOS 26 for stronger protection.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/apple-pushes-rare-ios-18-patch-darksword-exploit/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

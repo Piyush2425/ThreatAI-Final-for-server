@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:atom="http://www.w3.org/2005/Atom"
+        >
+
+<channel>
+        <title>BleepingComputer</title>
+
+        <link>https://www.bleepingcomputer.com/</link>
+        <description>BleepingComputer - All Stories</description>
+        <pubDate>Sat, 11 Apr 2026 14:47:42 GMT</pubDate>
+        <generator>https://www.bleepingcomputer.com/</generator>
+        <language>en</language>
+        <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
+        
+ <item>
+        <title>Over 20,000 crypto fraud victims identified in international crackdown</title>
+        <link>https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/</link>
+        <pubDate>Sat, 11 Apr 2026 10:20:40 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/</guid>
+        <description><![CDATA[An international law enforcement action led by the U.K.'s National Crime Agency (NCA) has identified over 20,000 victims of cryptocurrency fraud across Canada, the United Kingdom, and the United States. [...]]]></description>
+ </item>
+
+ <item>
+        <title>ChatGPT rolls out new $100 Pro subscription to challenge Claude</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-new-100-pro-subscription-to-challenge-claude/</link>
+        <pubDate>Fri, 10 Apr 2026 22:08:16 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Business]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-new-100-pro-subscription-to-challenge-claude/</guid>
+        <description><![CDATA[OpenAI has rolled out a new Pro subscription that costs $100 and is in line with Claude's pricing, which also has a $100 subscription, in addition to the $200 Max monthly plan. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Nearly 4,000 US industrial devices exposed to Iranian cyberattacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/</link>
+        <pubDate>Fri, 10 Apr 2026 11:52:45 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/</guid>
+        <description><![CDATA[The attack surface targeted by Iranian-linked hackers in cyberattacks against U.S. critical infrastructure networks includes thousands of Internet-exposed programmable logic controllers (PLCs) manufactured by Rockwell Automation. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Analysis of one billion CISA KEV remediation records exposes limits of human-scale security</title>
+        <link>https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/</link>
+        <pubDate>Fri, 10 Apr 2026 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Qualys</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/</guid>
+        <description><![CDATA[Analysis of 1 billion CISA KEV remediation records reveal a breaking point for human-scale security. Qualys shows most critical flaws are exploited before defenders can patch them. [...]]]></description>
+ </item>
+
+ <item>
+        <title>CPUID hacked to deliver malware via CPU-Z, HWMonitor downloads</title>
+        <link>https://www.bleepingcomputer.com/news/security/supply-chain-attack-at-cpuid-pushes-malware-with-cpu-z-hwmonitor/</link>
+        <pubDate>Fri, 10 Apr 2026 09:12:42 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/supply-chain-attack-at-cpuid-pushes-malware-with-cpu-z-hwmonitor/</guid>
+        <description><![CDATA[Hackers gained access to an API for the CPUID project and changed the download links on the official website to serve malicious executables for the popular CPU-Z and HWMonitor tools. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft: Canadian employees targeted in payroll pirate attacks</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-canadian-employees-targeted-in-payroll-pirate-attacks/</link>
+        <pubDate>Fri, 10 Apr 2026 07:56:14 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-canadian-employees-targeted-in-payroll-pirate-attacks/</guid>
+        <description><![CDATA[A financially motivated threat actor tracked as Storm-2755 is stealing Canadian employees' salary payments after hijacking their accounts in payroll pirate attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Google rolls out Gmail end-to-end encryption on mobile devices</title>
+        <link>https://www.bleepingcomputer.com/news/google/google-rolls-out-gmail-end-to-end-encryption-on-mobile-devices/</link>
+        <pubDate>Fri, 10 Apr 2026 06:44:08 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/google/google-rolls-out-gmail-end-to-end-encryption-on-mobile-devices/</guid>
+        <description><![CDATA[Google says Gmail end-to-end encryption (E2EE) is now available on all Android and iOS devices, allowing enterprise users to read and compose emails without additional tools. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New ‘LucidRook’ malware used in targeted attacks on NGOs, universities</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/</link>
+        <pubDate>Thu, 09 Apr 2026 18:04:31 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/</guid>
+        <description><![CDATA[A new Lua-based malware, called LucidRook, is being used in spear-phishing campaigns targeting non-governmental organizations and universities in Taiwan. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New VENOM phishing attacks steal senior executives' Microsoft logins</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/</link>
+        <pubDate>Thu, 09 Apr 2026 17:37:04 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/</guid>
+        <description><![CDATA[Threat actors using a previously undocumented phishing-as-a-service (PhaaS) platform called "VENOM" are targeting credentials of C-suite executives across multiple industries. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Healthcare IT solutions provider ChipSoft hit by ransomware attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/</link>
+        <pubDate>Thu, 09 Apr 2026 15:46:44 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/</guid>
+        <description><![CDATA[Dutch healthcare software vendor ChipSoft has been impacted by a ransomware attack that forced the company to take offline its website and digital services for patients and healthcare providers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Google Chrome adds infostealer protection against session cookie theft</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/</link>
+        <pubDate>Thu, 09 Apr 2026 14:33:29 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/</guid>
+        <description><![CDATA[Google has rolled out Device Bound Session Credentials (DBSC) protection in Chrome 146 for Windows, designed to block info-stealing malware from harvesting session cookies. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Smart Slider updates hijacked to push malicious WordPress, Joomla versions</title>
+        <link>https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/</link>
+        <pubDate>Thu, 09 Apr 2026 12:15:26 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/</guid>
+        <description><![CDATA[Hackers hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla, and pushed a malicious version with multiple backdoors. [...]]]></description>
+ </item>
+
+ <item>
+        <title>When attackers already have the keys, MFA is just another door to open</title>
+        <link>https://www.bleepingcomputer.com/news/security/when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open/</link>
+        <pubDate>Thu, 09 Apr 2026 10:02:12 -0400</pubDate>
+        <dc:creator>Sponsored by Token</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open/</guid>
+        <description><![CDATA[Stolen credentials turn authentication systems into the attack surface. Token shows how wearable biometric authentication verifies the user—not the session—blocking phishing relays and MFA bypass. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Webinar: From noise to signal - What threat actors are targeting next</title>
+        <link>https://www.bleepingcomputer.com/news/security/webinar-from-noise-to-signal-what-threat-actors-are-targeting-next/</link>
+        <pubDate>Thu, 09 Apr 2026 08:20:28 -0400</pubDate>
+        <dc:creator>BleepingComputer</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/webinar-from-noise-to-signal-what-threat-actors-are-targeting-next/</guid>
+        <description><![CDATA[Threat actors often signal their intentions before launching attacks, from dark web chatter to access-broker listings and credential requests. Join our upcoming webinar with Flare Systems to learn how to turn those early warning signs into proactive defensive action before an intrusion begins. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Eurail says December data breach impacts 300,000 individuals</title>
+        <link>https://www.bleepingcomputer.com/news/security/eurail-says-december-data-breach-impacts-300-000-individuals/</link>
+        <pubDate>Thu, 09 Apr 2026 06:31:54 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/eurail-says-december-data-breach-impacts-300-000-individuals/</guid>
+        <description><![CDATA[Eurail B.V., a European travel operator that provides digital passes covering 33 national railways, says attackers stole the personal information of over 300,000 individuals in a December 2025 data breach. [...]]]></description>
+ </item>
+
+</channel>
+</rss>
