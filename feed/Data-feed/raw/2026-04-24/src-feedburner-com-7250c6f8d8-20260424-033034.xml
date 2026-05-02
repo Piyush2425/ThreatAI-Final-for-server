@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<atom:link href="https://hackread.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://hackread.com</link>
+	<description></description>
+	<lastBuildDate>Thu, 23 Apr 2026 16:42:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://hackread.com/wp-content/uploads/2023/08/cropped-HACKREAD-32x32.png</url>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<link>https://hackread.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Harvester APT Expands Spying Operations with New GoGra Linux Malware</title>
+		<link>https://hackread.com/harvester-apt-spying-new-gogra-linux-malware/</link>
+					<comments>https://hackread.com/harvester-apt-spying-new-gogra-linux-malware/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 16:42:05 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber Attacks]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Afghanistan]]></category>
+		<category><![CDATA[Carbon Black]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[GoGra]]></category>
+		<category><![CDATA[Harvester APT]]></category>
+		<category><![CDATA[India]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Symantec]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144303</guid>
+
+					<description><![CDATA[New GoGra Linux malware linked to Harvester APT targets systems in South Asia, using fake PDFs and Microsoft APIs for covert command and control.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/harvester-apt-spying-new-gogra-linux-malware/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hackers Use Hidden Website Instructions in New Attacks on AI Assistants</title>
+		<link>https://hackread.com/hackers-hidden-site-instruction-attack-ai-assistants/</link>
+					<comments>https://hackread.com/hackers-hidden-site-instruction-attack-ai-assistants/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 10:20:06 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Claude Code]]></category>
+		<category><![CDATA[Copilot]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[GitHub Copilot]]></category>
+		<category><![CDATA[Indirect Prompt Injection]]></category>
+		<category><![CDATA[IPI]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144276</guid>
+
+					<description><![CDATA[Cybersecurity researchers at Forcepoint uncover new indirect prompt injection attacks that use hidden website code to exploit AI assistants like GitHub Copilot.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/hackers-hidden-site-instruction-attack-ai-assistants/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Discord-Linked Group Accessed Anthropic’s Claude Mythos AI in Vendor Breach</title>
+		<link>https://hackread.com/discord-access-anthropic-claude-mythos-ai-breach/</link>
+					<comments>https://hackread.com/discord-access-anthropic-claude-mythos-ai-breach/#respond</comments>
+		
+		<dc:creator><![CDATA[Waqas]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 18:12:28 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[Claude Mythos Preview]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Discord]]></category>
+		<category><![CDATA[Mythos AI]]></category>
+		<category><![CDATA[Project Glasswing]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144272</guid>
+
+					<description><![CDATA[Anthropic is investigating a vendor breach after a Discord-linked group accessed its Claude Mythos AI model, with no evidence of impact on core systems.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/discord-access-anthropic-claude-mythos-ai-breach/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>K2view vs Broadcom For Test Data Management</title>
+		<link>https://hackread.com/k2view-vs-broadcom-test-data-management/</link>
+					<comments>https://hackread.com/k2view-vs-broadcom-test-data-management/#respond</comments>
+		
+		<dc:creator><![CDATA[Owais Sultan]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 16:26:27 +0000</pubDate>
+				<category><![CDATA[Technology]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Broadcom]]></category>
+		<category><![CDATA[CI/CD]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[Data Pipeline]]></category>
+		<category><![CDATA[DevSecOps]]></category>
+		<category><![CDATA[K2view]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143837</guid>
+
+					<description><![CDATA[Compare Broadcom TDM and K2view across architecture, integration, masking, and scalability to find the right test data management solution for your needs.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/k2view-vs-broadcom-test-data-management/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mustang Panda Hits India and S. Korea with Updated LOTUSLITE Backdoor</title>
+		<link>https://hackread.com/mustang-panda-india-s-korea-lotuslite-backdoor/</link>
+					<comments>https://hackread.com/mustang-panda-india-s-korea-lotuslite-backdoor/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 13:57:34 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber Attacks]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Acronis]]></category>
+		<category><![CDATA[backdoor]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[India]]></category>
+		<category><![CDATA[LOTUSLITE]]></category>
+		<category><![CDATA[Mustang Panda]]></category>
+		<category><![CDATA[South Korea]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144226</guid>
+
+					<description><![CDATA[Acronis reveals Mustang Panda is using an updated version of LOTUSLITE backdoor to target Indian banks and Korean diplomats. Learn how this DLL sideloading attack works.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/mustang-panda-india-s-korea-lotuslite-backdoor/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bluesky Back Online After DDoS Attack, as Iran-Linked 313 Team Takes Credit</title>
+		<link>https://hackread.com/bluesky-online-ddos-attack-iran-313-team/</link>
+					<comments>https://hackread.com/bluesky-online-ddos-attack-iran-313-team/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 12:33:28 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber Attacks]]></category>
+		<category><![CDATA[313 Team]]></category>
+		<category><![CDATA[Bluesky]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[DDOS]]></category>
+		<category><![CDATA[Iran]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144237</guid>
+
+					<description><![CDATA[Bluesky is back online after a roughly 24-hour DDoS attack disrupted services, with the Iran-linked 313 Team claiming responsibility and no data breach reported.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/bluesky-online-ddos-attack-iran-313-team/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Microsoft Vulnerabilities Drop, But Critical Flaws Double, Report Warns</title>
+		<link>https://hackread.com/microsoft-vulnerabilities-drop-critical-flaws-double/</link>
+					<comments>https://hackread.com/microsoft-vulnerabilities-drop-critical-flaws-double/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 17:31:30 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[0day]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Azure]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Dynamics 365]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<category><![CDATA[zero-day]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144196</guid>
+
+					<description><![CDATA[Microsoft vulnerabilities fall, but critical flaws double, BeyondTrust report highlights rising risk in Microsoft Office, Azure, and cloud systems.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/microsoft-vulnerabilities-drop-critical-flaws-double/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>BreachLock Named Representative Vendor in the 2026 Gartner Market Guide for Adversarial Exposure Validation</title>
+		<link>https://hackread.com/breachlock-named-representative-vendor-in-the-2026-gartner-market-guide-for-adversarial-exposure-validation/</link>
+					<comments>https://hackread.com/breachlock-named-representative-vendor-in-the-2026-gartner-market-guide-for-adversarial-exposure-validation/#respond</comments>
+		
+		<dc:creator><![CDATA[CyberNewswire]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 14:16:43 +0000</pubDate>
+				<category><![CDATA[Press Release]]></category>
+		<category><![CDATA[Report]]></category>
+		<category><![CDATA[Research]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144224</guid>
+
+					<description><![CDATA[New York, United States, 21st April 2026, CyberNewswire]]></description>
+		
+					<wfw:commentRss>https://hackread.com/breachlock-named-representative-vendor-in-the-2026-gartner-market-guide-for-adversarial-exposure-validation/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Ungoverned Workforce: Cybersecurity Insiders Finds 92% Lack Visibility Into AI Identities</title>
+		<link>https://hackread.com/the-ungoverned-workforce-cybersecurity-insiders-finds-92-lack-visibility-into-ai-identities/</link>
+					<comments>https://hackread.com/the-ungoverned-workforce-cybersecurity-insiders-finds-92-lack-visibility-into-ai-identities/#respond</comments>
+		
+		<dc:creator><![CDATA[CyberNewswire]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 14:00:12 +0000</pubDate>
+				<category><![CDATA[Press Release]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144221</guid>
+
+					<description><![CDATA[Washington D.C., USA, 21st April 2026, CyberNewswire]]></description>
+		
+					<wfw:commentRss>https://hackread.com/the-ungoverned-workforce-cybersecurity-insiders-finds-92-lack-visibility-into-ai-identities/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Threat Intel Scraping Without Burning Your Cover or Your Stack</title>
+		<link>https://hackread.com/threat-intel-scraping-without-burning-stack/</link>
+					<comments>https://hackread.com/threat-intel-scraping-without-burning-stack/#respond</comments>
+		
+		<dc:creator><![CDATA[Owais Sultan]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 11:43:05 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[dark web]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Scraping]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[Threat Intelligence]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144197</guid>
+
+					<description><![CDATA[Threat Intel Scraping sounds simple until it isn’t, here’s how cybersecurity teams avoid blocks, bad data, and unnecessary risk.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/threat-intel-scraping-without-burning-stack/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

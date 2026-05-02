@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Security Affairs</title>
+	<atom:link href="https://securityaffairs.com/feed" rel="self" type="application/rss+xml" />
+	<link>https://securityaffairs.com/</link>
+	<description>Read, think, share … Security is everyone&#039;s responsibility</description>
+	<lastBuildDate>Wed, 22 Apr 2026 18:49:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+<site xmlns="com-wordpress:feed-additions:1">29506073</site>	<item>
+		<title>DDoS wave continues as Mastodon hit after Bluesky incident</title>
+		<link>https://securityaffairs.com/191144/cyber-crime/ddos-wave-continues-as-mastodon-hit-after-bluesky-incident.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 18:49:49 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Intelligence]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[DDoS]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Mastodon]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191144</guid>
+
+					<description><![CDATA[Mastodon suffered a major DDoS attack shortly after a similar incident hit Bluesky. The outage was significant but resolved within a few hours. Mastodon was hit by a major DDoS attack just days after a similar disruption affected Bluesky. Mastodon is a free and open-source software platform for decentralized social networking with microblogging features similar [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Mastodon suffered a major DDoS attack shortly after a similar incident hit Bluesky. The outage was significant but resolved within a few hours.<gwmw style="display:none;"></gwmw></h2>
+
+
+
+<p>Mastodon was hit by a major DDoS attack just days after a <a href="https://securityaffairs.com/191059/security/bluesky-hit-by-24-hour-ddos-attack-as-pro-iran-group-claims-responsibility.html" type="post" id="191059">similar disruption affected Bluesky</a>. Mastodon is a free and open-source software platform for decentralized social networking with microblogging features similar to X.</p>
+
+
+
+<p>The attack caused a major outage, impacting users across the decentralized platform. However, Mastodon’s team responded quickly and mitigated the issue within a few hours, restoring normal service.</p>
+
+
+
+<p>Below is the <a href="https://status.mastodon.social/cmo730jrm05ailojla22drifc">timeline of the attack</a>:</p>
+
+
+
+<ul class="wp-block-list">
+<li>April 20, 2026 at 12:58 PM &#8211; We are currently experiencing a DDoS attack. We are actively investigating the issue.</li>
+
+
+
+<li>April 20, 2026 at 3:05 PM &#8211; We have implemented countermeasure against the DDoS attack, and the site is accessible. We are continuing to monitor the situation.</li>
+
+
+
+<li>April 20, 2026 at 12:58 PM &#8211; We are currently experiencing a DDoS attack. We are actively investigating the issue.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></li>
+</ul>
+
+
+
+<p>A group called <a href="https://securityaffairs.com/tag/313-team" type="post_tag" id="16809">313 Team</a> claimed responsibility for the attack on Bluesky, but no threat actor has publicly taken credit for the Mastodon attack.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, DDOS)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191144</post-id>	</item>
+		<item>
+		<title>Mirai Botnet exploits CVE-2025-29635 to target legacy D-Link routers</title>
+		<link>https://securityaffairs.com/191135/malware/mirai-botnet-exploits-cve-2025-29635-to-target-legacy-d-link-routers.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 17:31:17 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[CVE-2025-29635]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Mirai]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191135</guid>
+
+					<description><![CDATA[Mirai botnet is targeting old D-Link routers using CVE-2025-29635, a command injection flaw exploitable via crafted POST requests after public PoC disclosure. A Mirai botnet is actively exploiting a command injection vulnerability, tracked as CVE-2025-29635, in discontinued D-Link routers, Akamai reports. The flaw allows attackers to inject commands because an attacker-controlled value is copied without [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Mirai botnet is targeting old D-Link routers using CVE-2025-29635, a command injection flaw exploitable via crafted POST requests after public PoC disclosure.</h2>
+
+
+
+<p>A Mirai botnet is actively exploiting a command injection vulnerability, tracked as CVE-2025-29635, in discontinued D-Link routers, Akamai reports. The flaw allows attackers to inject commands because an attacker-controlled value is copied without proper validation. The vulnerability impacts firmware versions 240126 and 24082 of D-Link DIR-823X series routers.</p>
+
+
+
+<p>The experts observed that exploitation began about a year after public disclosure and PoC release, using crafted POST requests to compromise devices.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-73.png?ssl=1"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="378" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-73.png?resize=1024%2C378&#038;ssl=1" alt="" class="wp-image-191138" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-73.png?resize=1024%2C378&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-73.png?resize=300%2C111&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-73.png?resize=768%2C284&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-73.png?w=1158&amp;ssl=1 1158w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p><em>&#8220;The Akamai Security Intelligence and Response Team (SIRT) has identified active exploitation of command injection vulnerability <a href="https://nvd.nist.gov/vuln/detail/CVE-2025-29635" target="_blank" rel="noreferrer noopener">CVE-2025-29635</a> against D-Link DIR-823X series routers. Although the devices were discontinued in 2025, threat actors are using this flaw to deploy Mirai botnet variants.&#8221; reads the report published by Akamai.</em></p>
+
+
+
+<p><em>&#8220;The SIRT first identified this activity in our global network of honeypots in March 2026. This is the first reported active exploitation of these vulnerabilities since their initial disclosures in March 2025. &#8220;</em></p>
+
+
+
+<p>Security researchers Wang Jinshuai and Zhao Jiangting reverse engineered the firmware’s sub_42232C function and found that attacker-controlled <code>macaddr</code> input is copied into a command buffer with <code>snprintf</code> and then passed to <code>system()</code>, enabling remote command execution via a crafted POST request to <code>/goform/set_prohibiting</code>. </p>
+
+
+
+<p>They also published a PoC on GitHub, later removed, while the issue was still absent from CISA’s Known Exploited Vulnerabilities catalog at the time of the report. In early March 2026, Akamai SIRT observed active exploitation attempts using similar request patterns, including shell commands that fetch and execute malware from external infrastructure.</p>
+
+
+
+<p>A simple shell script drops a <a href="https://securityaffairs.com/50929/malware/linux-mirai-elf.html" type="post" id="50929">Mirai</a> variant (“tuxnokill”) from 88.214.20[.]14, supporting multiple architectures. The payload uses XOR encoding (key 0x30), includes standard Mirai strings, and contacts C2 at 64.89.161[.]130:44300. Hard-coded elements suggest manual development. The actor also exploits CVE-2025-29635, <a href="https://securityaffairs.com/147653/hacking/zyxel-cve-2023-27992-nas-devices.html" type="post" id="147653">CVE-2023-1389</a> (TP-Link AX21), and a ZTE ZXV10 H108L RCE.</p>
+
+
+
+<p>Mirai campaigns persist as attackers reuse its leaked code, lowering the barrier to entry and attracting both skilled and inexperienced actors seeking profit. While some threat actors reject AI, others increasingly adopt it to develop malware or discover vulnerabilities. AI thus represents both a growing risk in cybercrime and a valuable tool for defenders.</p>
+
+
+
+<p><em>&#8220;many threat actors in the botnet space frequently target older vulnerabilities. Especially when public PoC exploits exist for these vulnerabilities, attackers can easily incorporate them into their exploitation vectors.&#8221; concludes the report that includes Indicators of Compromise (IoCs) along with Yara rules for malware samples. &#8220;Unfortunately, many organizations globally will improperly configure devices, fail to patch in a timely manner, or continue to use vulnerable devices that have been retired, as in the case with D-Link 823X series routers. We highly recommend that organizations regularly monitor vulnerability disclosures that are relevant to their infrastructure, and apply the proper patches, upgrades, and safeguards to ensure their own operational security.&#8221;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Mirai)</strong><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191135</post-id>	</item>
+		<item>
+		<title>Microsoft out-of-band updates fixed critical ASP.NET Core privilege escalation flaw</title>
+		<link>https://securityaffairs.com/191130/security/microsoft-out-of-band-updates-fixed-critical-asp-net-core-privilege-escalation-flaw.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 14:00:19 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ASP.NET Core]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191130</guid>
+
+					<description><![CDATA[Microsoft fixed critical ASP.NET Core vulnerability, tracked as CVE-2026-40372 (CVSS score of 9.1), that lets attackers escalate privileges. Microsoft released out-of-band updates to address a serious ASP.NET Core vulnerability tracked as CVE-2026-40372 (CVSS score of 9.1). Microsoft fixed the flaw in ASP.NET Core version 10.0.7. An attacker could exploit the flaw to gain SYSTEM-level privileges, access [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Microsoft fixed critical ASP.NET Core vulnerability, tracked as CVE-2026-40372 (CVSS score of 9.1), that lets attackers escalate privileges.</h2>
+
+
+
+<p>Microsoft released out-of-band updates to address a serious ASP.NET Core vulnerability tracked as CVE-2026-40372 (CVSS score of 9.1). Microsoft fixed the flaw in <a href="https://dotnet.microsoft.com/en-us/download/dotnet/10.0">ASP.NET Core version 10.0.7</a>.</p>
+
+
+
+<p>An attacker could exploit the flaw to gain SYSTEM-level privileges, access sensitive files, and modify data, but they cannot disrupt system availability. </p>
+
+
+
+<p>An anonymous researcher reported the flaw, prompting out-of-band patches to reduce risk and protect affected systems.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;Improper verification of cryptographic signature in ASP.NET Core allows an unauthorized attacker to elevate privileges over a network.&#8221; <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40372">reads the advisory</a>. &#8220;An attacker who successfully exploited this vulnerability could gain SYSTEM privileges. Exploiting this vulnerability could allow an attacker to disclose files and modify data, but the attacker cannot impact the availability of the system.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>According to Microsoft, the exploitation of the flaw in attacks in the wild is currently less likely.</p>
+
+
+
+<p>According to Microsoft, a bug in Microsoft.AspNetCore.DataProtection 10.0.0–10.0.6 caused incorrect HMAC validation, sometimes ignoring the correct hash. This could let attackers forge or decrypt protected data like cookies and antiforgery tokens, possibly impersonating users and getting valid sessions or tokens. Even after upgrading to 10.0.7, old tokens may remain valid unless the key ring is rotated.</p>
+
+
+
+<p><em>&#8220;If an attacker used forged payloads to authenticate as a privileged user during the vulnerable window, they may have induced the application to issue legitimately-signed tokens (session refresh, API key, password reset link, etc.) to themselves.&#8221; <a href="https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.7/10.0.7.md">states Microsoft</a>. &#8220;Those tokens remain valid after upgrading to 10.0.7 unless the DataProtection key ring is rotated.&#8221;</em></p>
+
+
+
+<p>The tech giant states that the exploitation requires three conditions: the app uses Microsoft.AspNetCore.DataProtection 10.0.6 from NuGet (directly or via dependencies like StackExchangeRedis), the NuGet version is loaded at runtime, and the application runs on a non-Windows OS such as Linux or macOS.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, ASP.NET Core)</strong><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191130</post-id>	</item>
+		<item>
+		<title>Critical BRIDGE:BREAK flaws impact Lantronix and Silex Technology converters</title>
+		<link>https://securityaffairs.com/191114/hacking/critical-bridgebreak-flaws-impact-lantronix-and-silex-technology-converters.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 13:29:22 +0000</pubDate>
+				<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[BRIDGE:BREAK]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Lantronix]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[Serial-to-IP converters]]></category>
+		<category><![CDATA[Silex Technology]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191114</guid>
+
+					<description><![CDATA[22 BRIDGE:BREAK flaws hit Lantronix and Silex Technology converters, exposing approximately 20,000 devices to hijacking and data tampering. Researchers at Forescout Research Vedere Labs found 22 BRIDGE:BREAK flaws in serial-to-IP devices from Lantronix and Silex Technology. Serial-to-IP converters, also known as serial device servers, connect legacy serial equipment to modern IP networks for remote monitoring [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">22 BRIDGE:BREAK flaws hit Lantronix and Silex Technology converters, exposing approximately 20,000 devices to hijacking and data tampering.<gwmw style="display:none;"></gwmw></h2>
+
+
+
+<p>Researchers at Forescout Research Vedere Labs found 22 BRIDGE:BREAK flaws in serial-to-IP devices from Lantronix and Silex Technology. </p>
+
+
+
+<p>Serial-to-IP converters, also known as serial device servers, connect legacy serial equipment to modern IP networks for remote monitoring and control. They are widely used in sectors like energy (RTUs, relays), industry (PLCs), retail (POS systems), and healthcare (patient monitors). These devices allow organizations to integrate older hardware into TCP/IP networks without replacing existing systems, improving connectivity while extending equipment lifespan.</p>
+
+
+
+<p>The experts warn that around 20,000 devices sit exposed online. Attackers can take control of these converters and manipulate the data they transmit, creating serious risks for industrial and enterprise environments.</p>
+
+
+
+<p><em>&#8220;We discovered 22 new vulnerabilities in hardware from device makers: Lantronix and Silex.&#8221; reads the <a href="https://www.forescout.com/research-labs/bridgebreak-vulnerabilities-thrive-in-serial-to-ethernet-converters/">report</a> published by Forescout. &#8220;Also known as ‘serial-to-IP’ and ‘serial device servers’, these innocuous ‘bridge’ devices are exploitable across critical infrastructure industries, including utilities, healthcare, manufacturing, retail, financial services, transportation, and more.&#8221;</em></p>
+
+
+
+<p><em>&#8220;Some of these vulnerabilities allow attackers to take full control of mission-critical devices connected via serial links.&#8221; added the company.</em></p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-71.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="1007" height="637" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-71.png?resize=1007%2C637&#038;ssl=1" alt="" class="wp-image-191123" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-71.png?w=1007&amp;ssl=1 1007w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-71.png?resize=300%2C190&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-71.png?resize=768%2C486&amp;ssl=1 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw>Researchers analyzed firmware from major serial-to-IP vendors and found widespread security issues. Each device included dozens of software components, thousands of known vulnerabilities, and many existing exploits. A deeper review uncovered 22 new flaws in Lantronix and Silex Technology products, including remote code execution, authentication bypass, firmware tampering, and data exposure.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Researchers identified up to eight vulnerabilities in Lantronix devices (EDS3000PS and EDS5000 series) and 14 in Silex Technology SD330-AC. Below is the list of the flaws: </p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-70.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="787" height="777" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-70.png?resize=787%2C777&#038;ssl=1" alt="" class="wp-image-191120" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-70.png?w=787&amp;ssl=1 787w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-70.png?resize=300%2C296&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-70.png?resize=768%2C758&amp;ssl=1 768w" sizes="(max-width: 787px) 100vw, 787px" /></a></figure>
+</div>
+
+
+<p>Attackers could use these weaknesses to shut down communications (DoS), move laterally across industrial networks, or manipulate data in transit. This means they could alter sensor readings or change commands sent to machines, impacting industrial processes, energy systems, or even healthcare devices.</p>
+
+
+
+<p>In power grids, devices such as protection relays track voltage and can trigger breakers via SCADA systems, while factories connect CNC machines for centralized control. These setups often rely on serial-to-IP converters.</p>
+
+
+
+<p>A typical attack starts when an attacker gains access through exposed edge devices like VPNs or routers. They then exploit vulnerabilities in the converter (e.g., weak authentication or RCE) to take control. Once inside, they can manipulate data in transit—altering sensor readings or commands. For example, stable temperature data can be changed to extreme fluctuations.</p>
+
+
+
+<p>Such manipulation can impact railway signaling, fire alarm systems, or fuel management, causing operational disruption or safety risks.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-72.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="402" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-72.png?resize=1024%2C402&#038;ssl=1" alt="" class="wp-image-191125" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-72.png?resize=1024%2C402&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-72.png?resize=300%2C118&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-72.png?resize=768%2C302&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-72.png?w=1108&amp;ssl=1 1108w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw>Both Lantronix and Silex addressed the identified vulnerabilities with the following releases:<gwmw style="display:none;"></gwmw></p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://ltrxdev.atlassian.net/wiki/spaces/LTRXTS/pages/1349189633/Latest+Firmware+for+the+EDS3000PS+series">Lantronix EDS3000PS Series</a></li>
+
+
+
+<li><a href="https://ltrxdev.atlassian.net/wiki/spaces/LTRXTS/pages/2538438657/Latest+Firmware+for+the+EDS5000+series+EDS5008+EDS5016+EDS5032">Lantronix EDS5000 Series</a></li>
+
+
+
+<li><a href="https://www.silex.jp/support/security-advisories/en/2026-001">Silex</a></li>
+</ul>
+
+
+
+<p>To reduce risks, organizations should patch systems, replace default credentials, and enforce strong passwords. They should keep serial-to-IP converters off the internet, restrict access to trusted workstations, and segment networks using VLANs or dedicated subnets. Monitoring is key: teams must detect exploitation attempts and unusual data flows that may indicate tampering.</p>
+
+
+
+<p>Vendors should adopt secure-by-design practices and a strong SDLC, keep software updated, and track all firmware components. They should harden binaries, test security regularly, and use robust encryption and signing methods. Using modern Linux versions and notifying customers about exposed devices can further reduce risks and improve overall security.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;This research highlights weaknesses in serial-to-IP converters and the risks they can introduce in critical environments. As these devices are increasingly deployed to connect legacy serial equipment to IP networks, vendors and end-users should treat their security implications as a core operational requirement.&#8221; concludes the report. &#8220;Based on the new vulnerabilities and attack scenarios we demonstrated – and supported by evidence of prior attacks and the availability of detailed deployment information through OSINT – we recommend that organizations patch vulnerable serial-to-IP converter devices as soon as possible:&#8221;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, BRIDGE:BREAK</strong> flaws<strong>)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191114</post-id>	</item>
+		<item>
+		<title>Venezuela energy sector targeted by highly destructive Lotus wiper</title>
+		<link>https://securityaffairs.com/191106/malware/venezuela-energy-sector-targeted-by-highly-destructive-lotus-wiper.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 07:53:08 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Lotus Wiper]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[Wiper]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191106</guid>
+
+					<description><![CDATA[Lotus Wiper hit Venezuelan energy systems, used scripts to disable defenses, then erased all data beyond recovery. Kaspersky researchers found Lotus Wiper targeting Venezuela’s energy and utilities sector amid regional tensions in 2025–2026. Attackers first used batch scripts to weaken systems, disable defenses, and prepare the environment. Then they deployed the wiper, which erased recovery [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Lotus Wiper hit Venezuelan energy systems, used scripts to disable defenses, then erased all data beyond recovery.</h2>
+
+
+
+<p><gwmw style="display:none;"></gwmw>Kaspersky researchers found Lotus Wiper targeting Venezuela’s energy and utilities sector amid regional tensions in 2025–2026. Attackers first used batch scripts to weaken systems, disable defenses, and prepare the environment. </p>
+
+
+
+<p>Then they deployed the wiper, which erased recovery tools, overwrote disks, and deleted all files, leaving systems unusable. </p>
+
+
+
+<p><em>&#8220;Two batch scripts are responsible for initiating the destructive phase of the attack and preparing the environment for executing the final wiper payload. These scripts coordinate the start of the operation across the network, weaken system defenses, and disrupt normal operations before retrieving, deobfuscating and executing a previously unknown wiper that we dubbed ‘Lotus Wiper’.&#8221; reads the <a href="https://securelist.com/tr/lotus-wiper/119472/">report</a> published by Kaspersky. &#8220;The wiper removes recovery mechanisms, overwrites the content of physical drives, and systematically deletes files across affected volumes, ultimately leaving the system in an unrecoverable state.&#8221;</em></p>
+
+
+
+<p>The researchers pointed out that no ransom demand appeared, showing that the malware was developed with a destructive purpose rather than profit. The campaign looks highly targeted and designed to permanently disrupt critical infrastructure.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The attack chain begins with a batch file called <em>OhSyncNow.bat</em>. It checks specific folders and network shares, then uses a hidden XML file as a trigger to decide whether to continue. If the conditions are met, it runs a second script that prepares the system for destruction.</p>
+
+
+
+<p>In the next stage, the malware disables user accounts, forces active logoffs, blocks cached logins, and shuts down network interfaces to isolate the machine. It then searches all disk drives and runs destructive commands like <em>diskpart clean all</em>, which overwrites entire volumes and permanently deletes data.</p>
+
+
+
+<p>The script also spreads across directories using file mirroring techniques, overwriting or removing content on a large scale. It then fills remaining disk space with large files to prevent recovery or forensic analysis.</p>
+
+
+
+<p>Finally, it launches disguised system-like executables that hide as legitimate software components. These files load the final payload, known as Lotus Wiper, which completes the attack by erasing all remaining data and leaving the system completely unrecoverable.</p>
+
+
+
+<p>The final stage of the attack runs the Lotus Wiper implant. A system-like executable first decrypts a hidden payload and prepares it for execution. Then the wiper starts with elevated privileges already present on the system. It removes Windows restore points to block recovery and then begins destroying data.</p>
+
+
+
+<p>It wipes all physical disks by writing zeroes across every sector, making recovery impossible. It also clears system logs and update journals to erase traces of activity.</p>
+
+
+
+<p><em>&#8220;In between waves of wiping physical drives, Lotus Wiper makes use of <code>FindFirstVolumeW</code> and then <code>FindNextVolumeW</code>, to identify each mounted volume.&#8221; continues the report. &#8220;It sends the volumes to a new thread that performs two wiping actions: deleting all the system’s files and clearing the volume’s <a href="https://learn.microsoft.com/en-us/windows/win32/fileio/change-journals" target="_blank" rel="noreferrer noopener">change journal</a>.&#8221;</em></p>
+
+
+
+<p>Next, it scans all mounted volumes, deletes files, and corrupts file records. It overwrites file contents with zeroes, renames files with random names, and forces deletion. If a file is locked, it schedules removal on reboot.</p>
+
+
+
+<p>The wiper repeats disk destruction multiple times and updates system disk properties to ensure changes persist. In the end, it fully erases data across drives and volumes, leaving the system permanently unusable.</p>
+
+
+
+<p>Businesses and government bodies should audit permissions on domain shares and monitor NETLOGON for unauthorized changes, since shared files can trigger coordinated attacks across systems. The wiper requires elevated privileges, often gained after attackers move from low-level accounts to higher access.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Security teams should watch for token abuse, credential theft, and privilege escalation in logs. They must also detect unusual use of built-in tools like fsutil, robocopy, and diskpart, commonly used in “living off the land” attacks. Strong backup testing and recovery planning are essential to ensure systems and data can be restored after destructive incidents.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;An essential detail about the presence of Lotus Wiper attackers in the environment is revealed by the batch scripts. Given that the files included certain functionalities targeting older versions of the Windows operating system, the attackers likely had knowledge of the environment and compromised the domain long before the attack occurred.&#8221; conlcudes the report. &#8220;Moreover, we observed that Lotus Wiper was compiled in late September 2025, while the sample was uploaded to a publicly available resource in mid-December of that year. Prior to this, the malware had not been used in any other attacks. Assuming the compilation time of the PE file has not been altered, this indicates that the attacker had been preparing for this attack for several months.&#8221;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, wiper)</strong><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191106</post-id>	</item>
+		<item>
+		<title>Ransomware negotiator caught secretly assisting BlackCat extortion scheme</title>
+		<link>https://securityaffairs.com/191100/security/ransomware-negotiator-caught-secretly-assisting-blackcat-extortion-scheme.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 20:29:23 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Angelo Martino]]></category>
+		<category><![CDATA[BlackCat ransomware]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191100</guid>
+
+					<description><![CDATA[Angelo Martino pleaded guilty to helping BlackCat ransomware group while acting as a ransomware negotiator. Another U.S. cybersecurity expert, Angelo Martino, admitted helping the BlackCat ransomware group while working as a ransomware negotiator. Angelo Martino (41) admitted helping the BlackCat ransomware group while working for a U.S. incident response firm. &#8220;A Florida man, formerly employed [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Angelo Martino pleaded guilty to helping BlackCat ransomware group while acting as a ransomware negotiator.</h2>
+
+
+
+<p>Another U.S. cybersecurity expert, Angelo Martino, admitted helping the <a href="https://securityaffairs.com/tag/blackcat" type="post_tag" id="13087">BlackCat ransomware</a> group while working as a ransomware negotiator.</p>
+
+
+
+<p>Angelo Martino (41) admitted helping the BlackCat ransomware group while working for a U.S. incident response firm. </p>
+
+
+
+<p><em>&#8220;A Florida man, formerly employed as a ransomware negotiator, pleaded guilty to conspiring to commit ransomware attacks against U.S. companies in 2023.&#8221; reads the <a href="https://www.justice.gov/opa/pr/florida-man-working-ransomware-negotiator-pleads-guilty-conspiracy-deploy-ransomware-and">press release</a> published by DoJ.</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;According to court documents, Angelo Martino, 41, of Land O’Lakes, Florida, collaborated with the operators of the Blackcat/ALPHV (“BlackCat”) ransomware variant used by cybercriminals to attack and extort institutions and companies. Beginning in April 2023, Martino abused his role at a U.S.-based cyber incident response company to assist BlackCat actors.&#8221;</em></p>
+
+
+
+<p>The man secretly shared sensitive client details with attackers, like insurance limits and negotiation strategies, while acting as a ransomware negotiator. This information came from five victim cases starting in April 2023 and helped the gang demand higher ransoms. In return, he was reportedly paid by the ransomware operators.</p>
+
+
+
+<p>Angelo Martino conspired with <a href="https://securityaffairs.com/186446/cyber-crime/two-u-s-cybersecurity-professionals-plead-guilty-in-blackcat-alphv-ransomware-case.html" type="post" id="186446">Ryan Goldberg</a> and <a href="https://securityaffairs.com/186446/cyber-crime/two-u-s-cybersecurity-professionals-plead-guilty-in-blackcat-alphv-ransomware-case.html" type="post" id="186446">Kevin Martin</a> to deploy BlackCat ransomware group attacks in the U.S. between April and Nov 2023. Using their cybersecurity skills, they helped extort multiple victims, including one paying about $1.2M in Bitcoin. The proceeds were split among them and laundered through different channels. Law enforcement later seized about $10M in assets from Martino, including crypto, vehicles, a food truck, and a luxury fishing boat bought with illicit funds.</p>
+
+
+
+<p><em>“Ransomware victims turned to this defendant for help, and he sold them out from the inside,” said U.S. Attorney Jason A. Reding Quiñones for the Southern District of Florida. “As he admitted in court, he abused his position at a cyber incident response company to feed confidential information to BlackCat actors, helping them maximize ransom payments from American victims. He then went further, joining the conspiracy himself to deploy ransomware and profit from extortion. This guilty plea makes clear that if you weaponize insider access and cybersecurity expertise against victims in South Florida or anywhere in this country, you will be prosecuted. And as the seizure of more than $10 million in assets shows, you will not get to keep the proceeds of your crime.”</em></p>
+
+
+
+<p>In January, 2026, the U.S. cybersecurity professionals <a href="https://securityaffairs.com/184240/cyber-crime/former-cybersecurity-employees-attempted-to-extort-five-u-s-companies-in-2023-using-blackcat-ransomware-attacks.html">Ryan Goldberg</a> and <a href="https://securityaffairs.com/184240/cyber-crime/former-cybersecurity-employees-attempted-to-extort-five-u-s-companies-in-2023-using-blackcat-ransomware-attacks.html">Kevin Martin</a> <a href="https://securityaffairs.com/186446/cyber-crime/two-u-s-cybersecurity-professionals-plead-guilty-in-blackcat-alphv-ransomware-case.html">pleaded guilty</a> to charges tied to their roles in <a href="https://securityaffairs.com/tag/blackcat-alphv-ransomware">BlackCat/Alphv</a> ransomware attacks that occurred in 2023.</p>
+
+
+
+<p>Court records show Ryan Goldberg, Kevin Martin, and a co-conspirator deployed ALPHV BlackCat ransomware against U.S. victims from April to December 2023, sharing 20% of ransoms with operators. Despite working in cybersecurity, they extorted about $1.2M in Bitcoin from one victim, split the proceeds, and laundered the funds.</p>
+
+
+
+<p><em>“According to court documents, Ryan Goldberg, 40, of Georgia, Kevin Martin, 36, of Texas, and another co-conspirator successfully deployed the ransomware known as ALPHV BlackCat between April 2023 and December 2023 against multiple victims located throughout the United States.” reads the&nbsp;<a href="https://www.justice.gov/opa/pr/two-americans-plead-guilty-targeting-multiple-us-victims-using-alphv-blackcat-ransomware">press release</a>&nbsp;published by DoJ. “All three men worked in the cybersecurity industry — meaning that they had special skills and experience in securing computer systems against harm, including the type of harm they themselves were committing against the victims in this case.”</em></p>
+
+
+
+<p>In November, U.S. prosecutors charged Ryan Clifford Goldberg, Kevin Tyler Martin, and another Florida-based accomplice (aka “Co-Conspirator 1”) for using <a href="https://securityaffairs.com/tag/blackcat-ransomware">BlackCat ransomware</a> to hack and extort five U.S. companies in 2023. The third person was identified in March 2026 as Angelo Martino, a 41-year-old from Florida. He worked as a ransomware negotiator at an incident response firm alongside Kevin Martin. The third conspirator, Ryan Goldberg, was employed at a separate cybersecurity company.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Angelo Martino pleaded guilty to conspiracy linked to extortion in ransomware operations. He faces up to 20 years in prison and will be sentenced on July 9. Kevin Martin and Ryan Goldberg face the same maximum penalty, with sentencing set for April 30. A judge will decide final sentences under federal guidelines.</p>
+
+
+
+<p><em>&#8220;Martino pleaded guilty to one count of conspiracy to obstruct, delay or affect commerce or the movement of any article or commodity in commerce by extortion. He is scheduled to be sentenced on July 9 and faces a maximum penalty of 20 years in prison. Martin and Goldberg separately <a href="https://www.justice.gov/opa/pr/two-americans-plead-guilty-targeting-multiple-us-victims-using-alphv-blackcat-ransomware">entered guilty pleas</a> to the same charge in December 2025.&#8221; concludes DoJ. &#8220;Martin and Goldberg are scheduled to be sentenced on April 30 and each face a maximum penalty of 20 years in prison. A federal district court judge will determine any sentence after considering the U.S. Sentencing Guidelines and other statutory factors.&#8221;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, ransomware)</strong><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191100</post-id>	</item>
+		<item>
+		<title>North Korea’s Lazarus APT stole $290M from Kelp DAO</title>
+		<link>https://securityaffairs.com/191092/digital-id/north-koreas-lazarus-apt-stole-290m-from-kelp-dao.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 18:34:03 +0000</pubDate>
+				<category><![CDATA[APT]]></category>
+		<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Crypto]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Kelp DAO]]></category>
+		<category><![CDATA[Lazarus APT]]></category>
+		<category><![CDATA[North Korea]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191092</guid>
+
+					<description><![CDATA[North Korea-linked Lazarus Group stole $290M from Kelp DAO by abusing LayerZero. A second $95M attempt was stopped. Hackers tied to the North-Korea linked group Lazarus APT carried out a $290M crypto theft targeting Kelp DAO. Kelp DAO is a decentralized finance (DeFi) protocol built on the Ethereum ecosystem that focuses on a concept called [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">North Korea-linked Lazarus Group stole $290M from Kelp DAO by abusing LayerZero. A second $95M attempt was stopped.</h2>
+
+
+
+<p>Hackers tied to the North-Korea linked group <a href="https://securityaffairs.com/tag/lazarus-apt" type="post_tag" id="6618">Lazarus APT</a> carried out a $290M crypto theft targeting Kelp DAO. </p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">Earlier today we identified suspicious cross-chain activity involving rsETH. We have paused rsETH  contracts across mainnet and several L2s while we investigate.<br><br>We are working with <a href="https://twitter.com/LayerZero_Core?ref_src=twsrc%5Etfw">@LayerZero_Core</a>, <a href="https://twitter.com/unichain?ref_src=twsrc%5Etfw">@unichain</a>, our auditors and top security experts on RCA. <br><br>We will keep you…</p>&mdash; Kelp (@KelpDAO) <a href="https://twitter.com/KelpDAO/status/2045595819035046148?ref_src=twsrc%5Etfw">April 18, 2026</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div></figure>
+
+
+
+<p>Kelp DAO is a decentralized finance (DeFi) protocol built on the Ethereum ecosystem that focuses on a concept called liquid restaking. <gwmw style="display:none;"></gwmw>In simple terms, it lets users earn more rewards from their crypto without locking it up.</p>
+
+
+
+<p>Attackers manipulated LayerZero infrastructure, forcing systems to rely on compromised nodes, then issued a malicious command to drain funds. </p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">This is one of the biggest DeFi hacks of 2026 <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6a8.png" alt="🚨" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br><br>Here’s what just happened:<br><br>Kelp DAO’s rsETH bridge got exploited through LayerZero.<br><br>Around 116,500 rsETH was drained.<br><br>That’s $293M gone in minutes.<br><br>Main drain transaction:… <a href="https://t.co/9ZfHqUUsWN">pic.twitter.com/9ZfHqUUsWN</a></p>&mdash; StarPlatinum (@StarPlatinum_) <a href="https://twitter.com/StarPlatinum_/status/2045596948791529683?ref_src=twsrc%5Etfw">April 18, 2026</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div></figure>
+
+
+
+<p>After the breach, the platform froze activity and blocked wallets, stopping a second attempted theft worth about $95M.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;Kelp detected the anomaly, paused all relevant contracts on Ethereum mainnet and L2s, blacklisted all wallets associated with the exploiter, and engaged SEAL-911.&#8221; <a href="https://x.com/KelpDAO/status/2046332070277091807">wrote Kelp</a>. &#8220;A subsequent attempt by the exploiter, leveraging a falsely verified phantom packet to target an additional 40,000 rsETH (~$95M), was fully mitigated by these interventions.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Kelp DAO lets users deposit ETH, restake it via EigenLayer, and receive rsETH to earn extra rewards. It relies on LayerZero to verify transactions across chains. The attack didn’t exploit the core protocol but targeted the verification layer. </p>
+
+
+
+<p>LayerZero checks transactions using multiple servers (RPCs). Attackers hacked two of them and used them to send fake but valid-looking messages. </p>
+
+
+
+<p><em>&#8220;On April 18, 2026, LayerZero Labs’ DVN became the target of a highly sophisticated attack, likely attributable to the Lazarus Group, more specifically TraderTraitor. The attack was specifically engineered to manipulate or poison downstream RPC infrastructure by compromising a quorum of the RPCs the LayerZero Labs DVN relied upon to verify transactions. It was not done through an exploit to the protocol, DVN, key management or other means.&#8221; <a href="https://x.com/LayerZero_Core/status/2046081551574983137">reports LayerZero</a>. &#8220;Rather, the attacker was able to gain access to the list of RPCs our DVN uses, compromise two of them – which were independent nodes running on separate clusters without direct connection to each other – and swap out binaries running the op-geth nodes. Because of our least-privilege principles, they were unable to compromise the actual DVN instances. However, they used this pivot point to execute an RPC-spoofing attack.&#8221;</em></p>
+
+
+
+<p>Then they launched a DDoS attack on the remaining servers, forcing the system to rely on the compromised ones. This allowed malicious transactions to pass. The root cause was Kelp DAO’s insecure “1-of-1” verifier setup, meaning only one DVN checked transactions. This created a single point of failure. Best practice requires multiple independent verifiers, which would have blocked the attack even if one node was compromised.</p>
+
+
+
+<p>LayerZero reported that the breach only affected its rsETH setup and did not spread to other apps, thanks to LayerZero’s modular design. <gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>LayerZero confirmed its infrastructure and protocol worked as designed, isolating the damage. The incident highlights a new type of state-level attack targeting off-chain components like RPCs, rather than core blockchain systems. After the breach, compromised nodes were replaced, and stronger multi-verifier configurations are now being enforced to prevent similar attacks.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>LayerZero says the hack could have been avoided if Kelp DAO had used multiple verifiers (multi-DVN), the industry standard.</p>
+
+
+
+<p><em>&#8220;Industry best practice — and LayerZero&#8217;s express recommendation to all integrators — is to configure a multi-DVN setup with diversity and redundancy. This means no single DVN should represent a unilateral point of trust or failure.&#8221; continues the LayerZero&#8217;s statement. &#8220;Operating a single-point-of-failure configuration meant there was no independent verifier to catch and reject a forged message. LayerZero and other external parties previously communicated best practices around DVN diversification to KelpDAO. Despite these recommendations, KelpDAO chose to utilize a 1/1 DVN configuration.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Kelp DAO refused accusation, saying it followed its default setup and didn’t manage the compromised infrastructure. It’s now focused on limiting damage, with partners like Arbitrum Security Council freezing funds. The impact spread across DeFi, with Aave losing nearly $8B in value.</p>
+
+
+
+<p><em>&#8220;Kelp’s priority is our users and preventing contagion across DeFi. We are working with all ecosystem partners to analyse the impact, rally support, and explore all avenues of mitigation.&#8221; concludes Kelp. &#8220;We are concurrently assessing the potential next steps regarding protocol unpausing, impact assessment, and the way forward, and working with Aave, LZ, and all other key stakeholders.&#8221;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Lazarus APT)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191092</post-id>	</item>
+		<item>
+		<title>The US NSA is using Anthropic&#8217;s Claude Mythos despite supply chain risk</title>
+		<link>https://securityaffairs.com/191087/ai/the-us-nsa-is-using-anthropics-claude-mythos-despite-supply-chain-risk.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 10:26:58 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Intelligence]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Claude Mythos]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[NSA]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191087</guid>
+
+					<description><![CDATA[Axios reports the National Security Agency uses Anthropic Mythos model despite Department of Defense concerns, blurring AI risk vs defense lines. The reported use of Anthropic’s Mythos model by the U.S. National Security Agency is a reminder that the line between AI as a defensive tool and AI as a security risk is getting harder [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Axios reports the National Security Agency uses Anthropic Mythos model despite Department of Defense concerns, blurring AI risk vs defense lines.</h2>
+
+
+
+<p>The reported use of Anthropic’s Mythos model by the U.S. National Security Agency is a reminder that the line between AI as a defensive tool and AI as a security risk is getting harder to draw. According to Axios, the NSA is already using <a href="https://securityaffairs.com/190496/ai/project-glasswing-powered-by-claude-mythos-defending-software-before-hackers-do.html" type="post" id="190496">Mythos Preview</a> even while the Department of Defense has formally treated Anthropic as a supply-chain risk and pushed to cut ties with the company. </p>
+
+
+
+<p><em>&#8220;The National Security Agency is using <a href="https://www.axios.com/2026/04/16/anthropic-claude-opus-model-mythos">Anthropic&#8217;s</a> most powerful model yet, <a href="https://www.axios.com/2026/04/07/anthropic-mythos-preview-cybersecurity-risks">Mythos Preview</a>, despite top officials at the Department of Defense — which oversees the NSA — insisting the company is a &#8220;supply chain risk,&#8221; <a href="https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon">two sources tell Axios</a>.&#8221;</em></p>
+
+
+
+<p>That tension captures a larger reality: governments want the most capable cybersecurity tools available, even when those tools raise concerns about misuse, governance, and strategic dependence.</p>
+
+
+
+<p>Mythos is considered sensitive not just because it’s a powerful AI model, but because it’s especially strong in cybersecurity. Access is limited due to concerns it could be misused for attacks. At the same time, it’s useful for finding vulnerabilities, making it both a helpful defense tool and a potential risk—highlighting a key tension in AI security.</p>
+
+
+
+<p><em>&#8220;Anthropic CEO Dario Amodei <a href="https://www.axios.com/2026/04/17/anthropic-white-house-wiles-bessent-amodei">met</a><strong> </strong>White House chief of staff Susie Wiles and Treasury Secretary Scott Bessent on Friday to discuss the use of Mythos within government and Anthropic&#8217;s wider plans and security practices.&#8221; continues Axios. &#8220;Sources said next steps after the meeting were expected to focus on how departments other than the Pentagon engage with the model. Both sides described the meeting as productive.&#8221;</em></p>
+
+
+
+<p>The NSA story also highlights a basic policy problem: agencies can criticize a vendor in public or in court while still relying on the same vendor’s technology in practice. Reuters <a href="https://www.reuters.com/business/us-security-agency-is-using-anthropics-mythos-despite-blacklist-axios-reports-2026-04-19/">reported</a> the Axios claims, while other outlets noted that the UK’s AI Security Institute <a href="https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities">also has access to Mythos</a>. This suggests that the real competition is not only between governments and AI companies, but also between procurement caution and operational urgency. When cyber defense demands speed, stability, and scale, the newest model can become too valuable to ignore.</p>
+
+
+
+<p>Anthropic says Claude Mythos is a major leap beyond its Haiku, Sonnet, and Opus models, introducing a new top tier called Copybara. It stands out for strong agentic coding and reasoning skills, achieving top scores in software tasks and enabling advanced cybersecurity capabilities.</p>
+
+
+
+<p>Project Glasswing is a joint effort led by Anthropic with major tech and security firms (Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks) to protect critical software using advanced AI.</p>
+
+
+
+<p>It leverages Claude Mythos Preview, a powerful model capable of finding and exploiting vulnerabilities at a level beyond most humans.</p>
+
+
+
+<p>The goal is to use these capabilities defensively, helping organizations detect and fix flaws before attackers can exploit them. Anthropic is sharing access with partners and funding the initiative to strengthen both proprietary and open-source software security.</p>
+
+
+
+<p>Glasswing brings together major tech and security companies to use Mythos defensively, helping secure critical software and infrastructure. Anthropic plans to limit access for now, hoping to improve global cybersecurity before such powerful tools become widely available.</p>
+
+
+
+<p>Modern software underpins critical systems like banking, healthcare, energy, and government, but it has always contained vulnerabilities—some severe enough to enable cyberattacks, data theft, and disruption. These threats are already costly and widespread, with global cybercrime estimated at around $500 billion annually and often driven by state-backed actors.</p>
+
+
+
+<p>With advanced AI models like Claude Mythos, the effort and expertise needed to find and exploit flaws has dropped sharply. These models can identify long-hidden vulnerabilities and develop sophisticated exploits, sometimes outperforming human experts. This raises serious risks, as attacks could become faster, more frequent, and more damaging.</p>
+
+
+
+<p>However, the same capabilities can be used defensively. Initiatives like Project Glasswing aim to harness AI to detect and fix vulnerabilities at scale, helping secure critical infrastructure. The challenge now is to deploy these tools responsibly and quickly, ensuring defenders stay ahead in an AI-driven cybersecurity landscape.</p>
+
+
+
+<p>Anthropic is investing $100M in usage credits and funding open-source security projects, while sharing findings to improve industry-wide defenses. The initiative aims to expand collaboration across tech, security, and governments to develop best practices and strengthen cybersecurity in the AI era.</p>
+
+
+
+<p>For governments, the immediate lesson is uncomfortable but straightforward. They need strong AI tools to defend networks, but they also need procurement rules, audit trails, and usage boundaries that keep those tools from becoming opaque dependencies. The Pentagon’s feud with Anthropic shows what happens when those boundaries are not aligned. If an agency says a vendor is too risky for broad use but still wants the model for its own missions, the issue is no longer just technical. It becomes one of trust, accountability, and national strategy.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>In the end, the NSA–Anthropic story is less about one model and more about the future of cyber power. The organizations that can safely deploy frontier AI will move faster in defense, but they will also face greater pressure to justify how these tools are controlled. Mythos may be a glimpse of what’s coming: a world where the most capable cyber systems are also the most contested, and where operational need often outruns policy comfort.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi Paganini</strong></a><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, <strong>Claude Mythos</strong>)</strong><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191087</post-id>	</item>
+		<item>
+		<title>U.S. CISA adds Cisco Catalyst, Kentico Xperience, PaperCut NG/MF, Synacor ZCS, Quest KACE SMA, and JetBrains TeamCity flaws to its Known Exploited Vulnerabilities catalog</title>
+		<link>https://securityaffairs.com/191080/hacking/u-s-cisa-adds-cisco-catalyst-kentico-xperience-papercut-ng-mf-synacor-zcs-quest-kace-sma-and-jetbrains-teamcity-flaws-to-its-known-exploited-vulnerabilities-catalog.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 09:21:02 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[CISA]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Known Exploited Vulnerabilities Catalog]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191080</guid>
+
+					<description><![CDATA[U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Cisco Catalyst, Kentico Xperience, PaperCut NG/MF, Synacor ZCS, Quest KACE SMA, and JetBrains TeamCity flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added Cisco Catalyst, Kentico Xperience, PaperCut NG/MF, Synacor ZCS, Quest KACE SMA, and JetBrains TeamCity flaws to its Known [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Cisco Catalyst, Kentico Xperience, PaperCut NG/MF, Synacor ZCS, Quest KACE SMA, and JetBrains TeamCity flaws to its Known Exploited Vulnerabilities catalog.</h2>
+
+
+
+<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) <a href="https://www.cisa.gov/news-events/alerts/2026/04/20/cisa-adds-eight-known-exploited-vulnerabilities-catalog">added</a> Cisco Catalyst, Kentico Xperience, PaperCut NG/MF, Synacor ZCS, Quest KACE SMA, and JetBrains TeamCity flaws to its <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">Known Exploited Vulnerabilities (KEV) catalog</a>.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Below are the flaws added to the catalog:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2026-20133" target="_blank" rel="noreferrer noopener"><u>CVE-2026-20133</u></a> Cisco Catalyst SD-WAN Manager Exposure of Sensitive Information to an Unauthorized Actor Vulnerability</li>
+
+
+
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2023-27351" target="_blank" rel="noreferrer noopener"><u>CVE-2023-27351</u></a> PaperCut NG/MF Improper Authentication Vulnerability</li>
+
+
+
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2024-27199" target="_blank" rel="noreferrer noopener"><u>CVE-2024-27199</u></a> JetBrains TeamCity Relative Path Traversal Vulnerability</li>
+
+
+
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2025-2749" target="_blank" rel="noreferrer noopener"><u>CVE-2025-2749</u></a> Kentico Xperience Path Traversal Vulnerability</li>
+
+
+
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2025-32975" target="_blank" rel="noreferrer noopener"><u>CVE-2025-32975</u></a> Quest KACE Systems Management Appliance (SMA) Improper Authentication Vulnerability<gwmw style="display:none;"></gwmw></li>
+
+
+
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2025-48700" target="_blank" rel="noreferrer noopener"><u>CVE-2025-48700</u></a> Synacor Zimbra Collaboration Suite (ZCS) Cross-site Scripting Vulnerability</li>
+
+
+
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2026-20122" target="_blank" rel="noreferrer noopener"><u>CVE-2026-20122</u></a> Cisco Catalyst SD-WAN Manager Incorrect Use of Privileged APIs Vulnerability<gwmw style="display:none;"></gwmw></li>
+
+
+
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2026-20128" target="_blank" rel="noreferrer noopener"><u>CVE-2026-20128</u></a> Cisco Catalyst SD-WAN Manager Storing Passwords in a Recoverable Format Vulnerability<gwmw style="display:none;"></gwmw></li>
+</ul>
+
+
+
+<p><gwmw style="display: none; background-color: transparent;"></gwmw>Several of the listed vulnerabilities are not just theoretical weaknesses but have been actively exploited in real-world attacks, often becoming entry points for ransomware operators and state-linked actors.</p>
+
+
+
+<p>The <a href="https://securityaffairs.com/145215/hacking/papercut-poc-exploit-code.html">CVE-2023-27351</a> flaw in PaperCut NG/MF is a clear example. It was widely abused in 2023 by ransomware groups such as the <a href="https://securityaffairs.com/tag/clop-ransomware" type="post_tag" id="10298">Clop ransomware</a> group and <a href="https://securityaffairs.com/tag/lockbit-ransomware" type="post_tag" id="11454">LockBit</a>, which leveraged the improper authentication issue to gain unauthenticated access to servers, deploy payloads, and move laterally within networks.</p>
+
+
+
+<p>Similarly, <a href="https://securityaffairs.com/159995/security/jetbrains-teamcity-flaws.html" type="post" id="159995">CVE-2024-27199</a> affecting JetBrains TeamCity was <a href="https://securityaffairs.com/190440/cyber-crime/fast-moving-storm-1175-uses-new-exploits-to-breach-networks-and-drop-medusa.html" type="post" id="190440">rapidly weaponized</a> after disclosure. Threat actors exploited the path traversal flaw to access sensitive configuration files, extract credentials, and in some cases deploy backdoors on build servers, critical assets in software supply chains.</p>
+
+
+
+<p>The CVE-2025-32975 in Quest KACE Systems Management Appliance has also been observed in opportunistic attacks, where attackers bypass authentication to gain administrative access, enabling device management abuse and potential malware deployment across managed endpoints.</p>
+
+
+
+<p>On the email front, CVE-2025-48700 impacting Zimbra Collaboration Suite has been linked to exploitation campaigns delivering malicious scripts via cross-site scripting, often used to hijack sessions or steal credentials in targeted attacks.</p>
+
+
+
+<p>For the more recent Cisco issues, CVE-2026-20133, <a href="https://securityaffairs.com/189056/security/cisco-flags-ongoing-exploitation-of-two-recently-patched-catalyst-sd-wan-flaws.html" type="post" id="189056">CVE-2026-20122</a>, and <a href="https://securityaffairs.com/189056/security/cisco-flags-ongoing-exploitation-of-two-recently-patched-catalyst-sd-wan-flaws.html" type="post" id="189056">CVE-2026-20128</a> affecting Cisco Catalyst SD-WAN Manager, public reporting so far indicates a high risk of exploitation, especially given the platform’s role in managing enterprise networks. While large-scale campaigns have not been as widely documented yet, similar Cisco management-plane flaws have historically been quickly adopted by threat actors once proof-of-concept exploits emerge.</p>
+
+
+
+<p>Finally, CVE-2025-2749 in Kentico Xperience represents a classic path traversal issue. Although public evidence of widespread exploitation is still limited, such flaws are routinely abused in web attacks to access sensitive files, and they tend to be incorporated into automated scanning and exploitation frameworks shortly after disclosure.</p>
+
+
+
+<p>Overall, the pattern is consistent: vulnerabilities enabling unauthenticated access, path traversal, or credential exposure are quickly operationalized. Attackers exploit them for initial access, privilege escalation, and persistence, often within days of public disclosure, highlighting the need for rapid patching and continuous monitoring.</p>
+
+
+
+<p>According to&nbsp;<a href="https://cyber.dhs.gov/bod/22-01/" target="_blank" rel="noreferrer noopener">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a>, FCEB agencies have to address the identified vulnerabilities by the due date to protect their networks against attacks exploiting the flaws in the catalog.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Experts also recommend that private organizations review the&nbsp;<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noreferrer noopener">Catalog</a>&nbsp;and address the vulnerabilities in their infrastructure.</p>
+
+
+
+<p>CISA orders federal agencies to fix the vulnerabilities by May 4, 2026, except Cisco Catalyst and Synacor Zimbra Collaboration Suite (ZCS) flaws, which must be addressed by April 23, 2026.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, <strong><strong><a href="https://securityaffairs.com/tag/cisa">CISA</a></strong></strong>)</strong><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191080</post-id>	</item>
+		<item>
+		<title>Bluesky hit by 24-hour DDoS attack as pro-Iran group claims responsibility</title>
+		<link>https://securityaffairs.com/191059/security/bluesky-hit-by-24-hour-ddos-attack-as-pro-iran-group-claims-responsibility.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 07:45:20 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Hacktivism]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[313 Team]]></category>
+		<category><![CDATA[Bluesky]]></category>
+		<category><![CDATA[DDoS]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[Iran]]></category>
+		<category><![CDATA[Islamic Cyber Resistance in Iraq]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191059</guid>
+
+					<description><![CDATA[Bluesky suffered a 24-hour DDoS attack that caused outages. A pro-Iran hacker group claimed responsibility for the disruption. Bluesky experienced a sophisticated DDoS attack that disrupted its services for about 24 hours, starting on April 15. Bluesky is a decentralized, open-source microblogging social media platform similar to X (formerly Twitter). It allows users to post [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Bluesky suffered a 24-hour DDoS attack that caused outages. A pro-Iran hacker group claimed responsibility for the disruption.</h2>
+
+
+
+<p>Bluesky experienced a sophisticated DDoS attack that disrupted its services for about 24 hours, starting on April 15.</p>
+
+
+
+<p>Bluesky is a decentralized, open-source microblogging social media platform similar to X (formerly Twitter). It allows users to post short messages, images, and videos (up to 300 characters) while providing more control over algorithms, data, and moderation.</p>
+
+
+
+<p>The attack disrupted feeds, notifications, threads, and search, causing intermittent outages. A pro-Iran hacker group, called <a href="https://unit42.paloaltonetworks.com/iranian-cyberattacks-2026/">313 Team</a> (aka “Islamic Cyber Resistance in Iraq”), claimed responsibility, highlighting growing threats against social media platforms and the impact of coordinated disruption campaigns.</p>
+
+
+
+<p><em>&#8220;Our team received a report of intermittent app outages at about 11:40pm PDT on April 15, 2026. They worked through the night to mitigate a sophisticated Distributed Denial-of-Service (DDoS) attack, which intensified throughout the day.&#8221; <a href="https://bsky.app/profile/bsky.app/post/3mjnlu7smsk2w" target="_blank" rel="noreferrer noopener">Bluesky announced</a>. &#8220;We have not seen any evidence of unauthorized access to private user data.&#8221;</em></p>
+
+
+
+<p>The company found no signs of data breaches and confirmed it limited the impact of the attack and avoided prolonged outages.</p>
+
+
+
+<p>313 Team is a pro-Iran hacktivist group tied to politically driven cyber activity like DDoS attacks, defacements, phishing, and data-leak claims. It targets public services, government and symbolic platforms to create disruption and amplify geopolitical tensions. Analysts link it to the broader Iran-aligned ecosystem, sometimes close to state interests. However, the group often exaggerates its impact, so claims should be treated with caution.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Islamic Cyber Resistance in Iraq)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191059</post-id>	</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Object Caching 43/57 objects using Memcached
+Page Caching using Memcached (Page is feed) 
+Database Caching 1/27 queries in 0.020 seconds using Memcached (Request-wide modification query)
+
+Served from: securityaffairs.com @ 2026-04-23 03:57:13 by W3 Total Cache
+-->

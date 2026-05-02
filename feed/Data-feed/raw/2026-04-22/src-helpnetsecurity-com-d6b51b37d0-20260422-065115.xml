@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Help Net Security</title>
+	<atom:link href="https://www.helpnetsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.helpnetsecurity.com/</link>
+	<description>Daily information security news with a focus on enterprise security.</description>
+	<lastBuildDate>Tue, 21 Apr 2026 19:19:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.1</generator>
+
+<image>
+	<url>https://img.helpnetsecurity.com/wp-content/uploads/2019/09/09093400/cropped-hns2-32x32.png</url>
+	<title>Help Net Security</title>
+	<link>https://www.helpnetsecurity.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>PentAGI: Open-source autonomous AI penetration testing system</title>
+		<link>https://www.helpnetsecurity.com/2026/04/22/pentagi-autonomous-ai-penetration-testing/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 05:00:31 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[automation]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[penetration testing]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366565</guid>
+
+					<description><![CDATA[<p>Penetration testers have long relied on collections of specialized tools, manual coordination, and documented runbooks to work through a target assessment. PentAGI, an open-source project from VXControl, attempts to automate that entire workflow using a multi-agent AI system that plans, researches, and executes penetration tests with minimal human direction. How the agent system works PentAGI organizes work into a hierarchy of flows, tasks, subtasks, and actions. An orchestrator agent receives a goal and coordinates three &#8230; <a href="https://www.helpnetsecurity.com/2026/04/22/pentagi-autonomous-ai-penetration-testing/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/22/pentagi-autonomous-ai-penetration-testing/">PentAGI: Open-source autonomous AI penetration testing system</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Apple Intelligence flaw kept stolen tokens reusable on another device</title>
+		<link>https://www.helpnetsecurity.com/2026/04/22/apple-intelligence-token-vulnerability-serpent-attack/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 04:30:08 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[attack]]></category>
+		<category><![CDATA[macOS]]></category>
+		<category><![CDATA[research]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366989</guid>
+
+					<description><![CDATA[<p>Apple claims that Apple Intelligence, a GenAI service provided on its operating systems, is designed with an extra focus on user security and privacy through a two-stage authentication and authorization system using anonymous access tokens. However, researchers from The Ohio State University have identified vulnerabilities in this design, demonstrated on macOS 26.0 (Tahoe), that allow attackers to steal and reuse these tokens. Service infrastructure The system offloads complex requests to cloud servers using Private Cloud &#8230; <a href="https://www.helpnetsecurity.com/2026/04/22/apple-intelligence-token-vulnerability-serpent-attack/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/22/apple-intelligence-token-vulnerability-serpent-attack/">Apple Intelligence flaw kept stolen tokens reusable on another device</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Shadow AI, deepfakes, and supply chain compromise are rewriting the financial sector threat playbook</title>
+		<link>https://www.helpnetsecurity.com/2026/04/22/financial-sector-cyber-threats-report/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 04:00:16 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[banks]]></category>
+		<category><![CDATA[CISO]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data]]></category>
+		<category><![CDATA[Filigran]]></category>
+		<category><![CDATA[finance]]></category>
+		<category><![CDATA[fraud]]></category>
+		<category><![CDATA[report]]></category>
+		<category><![CDATA[security controls]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367149</guid>
+
+					<description><![CDATA[<p>Financially motivated attacks continued to drive the bulk of cyber incidents against banks, insurers, and payment processors in 2025. Approximately 90% of breaches affecting financial institutions carried a financial motive, with data breaches accounting for roughly 64% of incidents and ransomware making up the remaining 36%. The average cost of a data breach in the sector reached $5.56 million per incident, placing finance second among all industries by breach cost. Personal data was the most &#8230; <a href="https://www.helpnetsecurity.com/2026/04/22/financial-sector-cyber-threats-report/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/22/financial-sector-cyber-threats-report/">Shadow AI, deepfakes, and supply chain compromise are rewriting the financial sector threat playbook</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Thunderbird 150 arrives with encrypted message search and OpenPGP improvements</title>
+		<link>https://www.helpnetsecurity.com/2026/04/21/thunderbird-150-released/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 19:19:57 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[email]]></category>
+		<category><![CDATA[Mozilla]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367310</guid>
+
+					<description><![CDATA[<p>Released today, Thunderbird 150.0 brings eight new features, a round of bug fixes, and security patches that cover the web engine underlying the email client. Thunderbird 150.0 runs on Windows 10 or later, macOS 10.15 or later, and Linux with GTK+ 3.14 or higher. Encrypted email gets more useful Two of the most notable additions in this release touch how users interact with encrypted mail. Thunderbird 150.0 adds message body search for OpenPGP and S/MIME &#8230; <a href="https://www.helpnetsecurity.com/2026/04/21/thunderbird-150-released/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/21/thunderbird-150-released/">Thunderbird 150 arrives with encrypted message search and OpenPGP improvements</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>VirtualBox 7.2.8 is out with Linux kernel 7.0 support and crash fixes</title>
+		<link>https://www.helpnetsecurity.com/2026/04/21/virtualbox-7-2-8-released/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 18:16:39 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Oracle]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367286</guid>
+
+					<description><![CDATA[<p>Oracle shipped VirtualBox 7.2.8 on April 21, 2026, as a maintenance release covering crashes, networking problems, clipboard issues, and extended Linux kernel compatibility. The update touches the VMM layer, NAT networking, graphics, UEFI, and both Linux and Windows guest support. VMM and core stability A Guru Meditation error carrying the code VERR_IEM_IPE_4 is fixed in this release. The condition occurred when a guest attempted to execute the wrong hypercall instruction and injected an undefined instruction &#8230; <a href="https://www.helpnetsecurity.com/2026/04/21/virtualbox-7-2-8-released/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/21/virtualbox-7-2-8-released/">VirtualBox 7.2.8 is out with Linux kernel 7.0 support and crash fixes</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Ransomware negotiator admits role in attacks he was hired to resolve</title>
+		<link>https://www.helpnetsecurity.com/2026/04/21/ransomware-negotiator-blackcat-alphv-group/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 15:02:06 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[law enforcement]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<category><![CDATA[US DoJ]]></category>
+		<category><![CDATA[USA]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367197</guid>
+
+					<description><![CDATA[<p>A Florida man, formerly employed as a ransomware negotiator, pleaded guilty to conspiring to carry out ransomware attacks against US companies. Prosecutors say Angelo Martino, 41, used his position at DigitalMint, a crypto broker that helps victims negotiate and pay ransomware demands, to pass sensitive information to attackers. Alongside Martino, two more individuals were involved in the scheme: Ryan Goldberg of Georgia and Kevin Martin of Texas. All three men worked in the cybersecurity industry &#8230; <a href="https://www.helpnetsecurity.com/2026/04/21/ransomware-negotiator-blackcat-alphv-group/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/21/ransomware-negotiator-blackcat-alphv-group/">Ransomware negotiator admits role in attacks he was hired to resolve</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Scattered Spider hacker pleads guilty to stealing $8 million in cryptocurrency</title>
+		<link>https://www.helpnetsecurity.com/2026/04/21/british-national-scattered-spider-guilty-sms-phishing/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 13:16:47 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[cybercrime]]></category>
+		<category><![CDATA[law enforcement]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[US DoJ]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367072</guid>
+
+					<description><![CDATA[<p>A British national tied to the Scattered Spider cybercrime group pleaded guilty to hacking multiple companies via SMS phishing and stealing over $8 million in virtual currency from US victims. Tyler Robert Buchanan, 24, of Dundee, Scotland, pleaded guilty to conspiracy to commit wire fraud and aggravated identity theft. In November 2024, US authorities unsealed criminal charges against Buchanan and four other alleged members of the Scattered Spider group, accusing them of using phishing text &#8230; <a href="https://www.helpnetsecurity.com/2026/04/21/british-national-scattered-spider-guilty-sms-phishing/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/21/british-national-scattered-spider-guilty-sms-phishing/">Scattered Spider hacker pleads guilty to stealing $8 million in cryptocurrency</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Ivanti Neurons AI automates IT operations, reducing manual work and security risk</title>
+		<link>https://www.helpnetsecurity.com/2026/04/21/ivanti-neurons-ai/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 12:56:11 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[Ivanti]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367137</guid>
+
+					<description><![CDATA[<p>Ivanti has revealed new solution capabilities, focusing on enabling autonomous IT operations and organizations to secure their environments more efficiently at scale. With these advancements, Ivanti enables IT and security operations to detect, decide, and act autonomously without sacrificing trust, governance, or control. AI capabilities and the threat landscape are changing quickly, and IT and security teams are under constant pressure to keep systems secure while supporting day-to-day work. That means more devices to manage, &#8230; <a href="https://www.helpnetsecurity.com/2026/04/21/ivanti-neurons-ai/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/21/ivanti-neurons-ai/">Ivanti Neurons AI automates IT operations, reducing manual work and security risk</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Silobreaker Mimir adds agentic AI to intelligence workflows with governance and transparency</title>
+		<link>https://www.helpnetsecurity.com/2026/04/21/silobreaker-mimir-adds-agentic-ai-to-intelligence-workflows-with-governance-and-transparency/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 12:39:41 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[Silobreaker]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367115</guid>
+
+					<description><![CDATA[<p>Silobreaker has announced new agentic AI capabilities that combine faster research and deeper contextual analysis with built-in governance and transparency to ensure trusted intelligence can be safely consumed across the wider enterprise. Silobreaker Mimir is an embedded agentic capability for intelligence operations, working directly within the analyst workflow. It helps teams retrieve evidence, deepen analysis, and turn validated findings into native assets and stakeholder ready outputs, such as creating dashboards and reports, without leaving the &#8230; <a href="https://www.helpnetsecurity.com/2026/04/21/silobreaker-mimir-adds-agentic-ai-to-intelligence-workflows-with-governance-and-transparency/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/21/silobreaker-mimir-adds-agentic-ai-to-intelligence-workflows-with-governance-and-transparency/">Silobreaker Mimir adds agentic AI to intelligence workflows with governance and transparency</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>OpenAI’s Chronicle feature lets Codex read your screen, raising privacy concerns</title>
+		<link>https://www.helpnetsecurity.com/2026/04/21/openai-chronicle-codex-screen-context-memories/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 12:25:41 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[macOS]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<category><![CDATA[privacy]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367037</guid>
+
+					<description><![CDATA[<p>OpenAI’s Chronicle is a feature designed to help Codex, an AI-powered coding assistant, better understand what users are working on by capturing context directly from their screens. It uses recent screen activity to build memories, allowing Codex to interpret references, identify relevant sources, and pick up on the tools and workflows users rely on, without requiring them to restate context in every prompt. “In these cases, Codex uses Chronicle to provide additional context. When another &#8230; <a href="https://www.helpnetsecurity.com/2026/04/21/openai-chronicle-codex-screen-context-memories/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/21/openai-chronicle-codex-screen-context-memories/">OpenAI’s Chronicle feature lets Codex read your screen, raising privacy concerns</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SecurityWeek</title>
+	<atom:link href="https://www.securityweek.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.securityweek.com/</link>
+	<description>Cybersecurity News, Insights &#38; Analysis</description>
+	<lastBuildDate>Wed, 22 Apr 2026 13:29:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg</url>
+	<title>SecurityWeek</title>
+	<link>https://www.securityweek.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>After Bluesky, Mastodon Targeted in DDoS Attack</title>
+		<link>https://www.securityweek.com/after-bluesky-mastodon-targeted-in-ddos-attack/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 14:26:00 +0000</pubDate>
+				<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[DDoS]]></category>
+		<category><![CDATA[Mastodon]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46182</guid>
+
+					<description><![CDATA[<p>The DDoS attack caused a major outage, but Mastodon mitigated it within a few hours.</p>
+<p>The post <a href="https://www.securityweek.com/after-bluesky-mastodon-targeted-in-ddos-attack/">After Bluesky, Mastodon Targeted in DDoS Attack</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Most Serious Cyberattacks Against the UK Now From Russia, Iran and China, Cyber Chief Says</title>
+		<link>https://www.securityweek.com/most-serious-cyberattacks-against-the-uk-now-from-russia-iran-and-china-cyber-chief-says/</link>
+		
+		<dc:creator><![CDATA[Associated Press]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 12:57:01 +0000</pubDate>
+				<category><![CDATA[Cyberwarfare]]></category>
+		<category><![CDATA[NCSC]]></category>
+		<category><![CDATA[UK]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46181</guid>
+
+					<description><![CDATA[<p>British businesses need to prepare themselves to defend against cyberattacks because the U.K. could be targeted “at scale,” if it became involved in an international conflict.</p>
+<p>The post <a href="https://www.securityweek.com/most-serious-cyberattacks-against-the-uk-now-from-russia-iran-and-china-cyber-chief-says/">Most Serious Cyberattacks Against the UK Now From Russia, Iran and China, Cyber Chief Says</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New Wiper Malware Targeted Venezuelan Energy Sector Prior to US Intervention </title>
+		<link>https://www.securityweek.com/new-wiper-malware-targeted-venezuelan-energy-sector-prior-to-us-intervention/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 12:10:28 +0000</pubDate>
+				<category><![CDATA[Malware & Threats]]></category>
+		<category><![CDATA[energy]]></category>
+		<category><![CDATA[Lotus Wiper]]></category>
+		<category><![CDATA[power grid]]></category>
+		<category><![CDATA[Venezuela]]></category>
+		<category><![CDATA[wiper]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46180</guid>
+
+					<description><![CDATA[<p>Dubbed Lotus Wiper, the malware targets recovery mechanisms, overwrites drives, and systematically deletes files.</p>
+<p>The post <a href="https://www.securityweek.com/new-wiper-malware-targeted-venezuelan-energy-sector-prior-to-us-intervention/">New Wiper Malware Targeted Venezuelan Energy Sector Prior to US Intervention </a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Mirai Botnet Targets Flaw in Discontinued D-Link Routers</title>
+		<link>https://www.securityweek.com/mirai-botnet-targets-flaw-in-discontinued-d-link-routers/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 11:44:07 +0000</pubDate>
+				<category><![CDATA[Malware & Threats]]></category>
+		<category><![CDATA[botnet]]></category>
+		<category><![CDATA[D-Link]]></category>
+		<category><![CDATA[Mirai]]></category>
+		<category><![CDATA[router]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46179</guid>
+
+					<description><![CDATA[<p>The exploitation of the command injection vulnerability started one year after public disclosure and PoC exploit code publication.</p>
+<p>The post <a href="https://www.securityweek.com/mirai-botnet-targets-flaw-in-discontinued-d-link-routers/">Mirai Botnet Targets Flaw in Discontinued D-Link Routers</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Are SBOMs Failing? Supply Chain Attacks Rise as Security Teams Struggle With SBOM Data</title>
+		<link>https://www.securityweek.com/are-sboms-failing-supply-chain-attacks-rise-as-security-teams-struggle-with-sbom-data/</link>
+		
+		<dc:creator><![CDATA[Kevin Townsend]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 11:30:00 +0000</pubDate>
+				<category><![CDATA[Supply Chain Security]]></category>
+		<category><![CDATA[SBOM]]></category>
+		<category><![CDATA[Supply Chain]]></category>
+		<category><![CDATA[VEX]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46177</guid>
+
+					<description><![CDATA[<p>Researcher says the missing piece is a governance-driven intelligence layer that turns SBOM and VEX data into explainable security decisions.</p>
+<p>The post <a href="https://www.securityweek.com/are-sboms-failing-supply-chain-attacks-rise-as-security-teams-struggle-with-sbom-data/">Are SBOMs Failing? Supply Chain Attacks Rise as Security Teams Struggle With SBOM Data</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Claude Mythos Finds 271 Firefox Vulnerabilities</title>
+		<link>https://www.securityweek.com/claude-mythos-finds-271-firefox-vulnerabilities/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 11:27:46 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Firefox]]></category>
+		<category><![CDATA[Mythos]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46178</guid>
+
+					<description><![CDATA[<p>All the flaws could have also been found by an elite human researcher, according to Mozilla.</p>
+<p>The post <a href="https://www.securityweek.com/claude-mythos-finds-271-firefox-vulnerabilities/">Claude Mythos Finds 271 Firefox Vulnerabilities</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>North Korean Hackers Use AppleScript, ClickFix in Fresh macOS Attacks</title>
+		<link>https://www.securityweek.com/north-korean-hackers-use-applescript-clickfix-in-fresh-macos-attacks/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 10:49:52 +0000</pubDate>
+				<category><![CDATA[Nation-State]]></category>
+		<category><![CDATA[macOS malware]]></category>
+		<category><![CDATA[North Korea]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46175</guid>
+
+					<description><![CDATA[<p>The campaigns focus on financial organizations, including cryptocurrency, venture capital, and blockchain entities.</p>
+<p>The post <a href="https://www.securityweek.com/north-korean-hackers-use-applescript-clickfix-in-fresh-macos-attacks/">North Korean Hackers Use AppleScript, ClickFix in Fresh macOS Attacks</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google Antigravity in Crosshairs of Security Researchers, Cybercriminals</title>
+		<link>https://www.securityweek.com/google-antigravity-in-crosshairs-of-security-researchers-cybercriminals/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 09:53:05 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Malware & Threats]]></category>
+		<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46173</guid>
+
+					<description><![CDATA[<p>Researchers discovered a remote code execution vulnerability and cybercriminals are using its reputation to deliver malware.</p>
+<p>The post <a href="https://www.securityweek.com/google-antigravity-in-crosshairs-of-security-researchers-cybercriminals/">Google Antigravity in Crosshairs of Security Researchers, Cybercriminals</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Oracle Patches 450 Vulnerabilities With April 2026 CPU</title>
+		<link>https://www.securityweek.com/oracle-patches-450-vulnerabilities-with-april-2026-cpu/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 08:41:10 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Oracle]]></category>
+		<category><![CDATA[Oracle CPU]]></category>
+		<category><![CDATA[patches]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46171</guid>
+
+					<description><![CDATA[<p>The company released 481 new security patches across 28 product families, including over 300 fixes for remotely exploitable, unauthenticated flaws.</p>
+<p>The post <a href="https://www.securityweek.com/oracle-patches-450-vulnerabilities-with-april-2026-cpu/">Oracle Patches 450 Vulnerabilities With April 2026 CPU</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Third US Security Expert Admits Helping Ransomware Gang</title>
+		<link>https://www.securityweek.com/third-us-security-expert-admits-helping-ransomware-gang/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 14:44:24 +0000</pubDate>
+				<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[plead guilty]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46170</guid>
+
+					<description><![CDATA[<p>Angelo Martino of Florida has pleaded guilty to collaborating with the BlackCat cybercrime group while working as a ransomware negotiator.</p>
+<p>The post <a href="https://www.securityweek.com/third-us-security-expert-admits-helping-ransomware-gang/">Third US Security Expert Admits Helping Ransomware Gang</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

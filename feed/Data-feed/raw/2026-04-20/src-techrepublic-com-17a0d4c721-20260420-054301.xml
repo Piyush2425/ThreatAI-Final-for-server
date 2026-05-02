@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Security Archives - TechRepublic</title>
+	<atom:link href="https://www.techrepublic.com/rssfeeds/topic/security/?feedType=rssfeeds" rel="self" type="application/rss+xml" />
+	<link>https://www.techrepublic.com/topic/security/</link>
+	<description>News, Tips, and Advice for Technology Professionals</description>
+	<lastBuildDate>Fri, 17 Apr 2026 18:44:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>Anthropic Releases Opus 4.7, Not as ‘Broadly Capable’ as Mythos AI</title>
+		<link>https://www.techrepublic.com/article/news-anthropic-opus-4-7-mythos-ai/</link>
+		
+		<dc:creator><![CDATA[David Curry]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 18:44:00 +0000</pubDate>
+				<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Chatbots]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Developer]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ai models]]></category>
+		<category><![CDATA[ai regulation]]></category>
+		<category><![CDATA[anthropic]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[enterprise ai]]></category>
+		<category><![CDATA[mythos ai]]></category>
+		<category><![CDATA[opus ai]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355990</guid>
+
+					<description><![CDATA[<p>Anthropic launches Opus 4.7 with improved coding and reasoning, as its more “broadly capable” Mythos AI remains restricted over security concerns.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-anthropic-opus-4-7-mythos-ai/">Anthropic Releases Opus 4.7, Not as ‘Broadly Capable’ as Mythos AI</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Clothing Retailer Patches Website Flaw Exposing Customer Data</title>
+		<link>https://www.techrepublic.com/article/news-clothing-retailer-data-exposure-order-link-flaw/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 18:35:35 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[E-Commerce]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[customer data]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[data exposure]]></category>
+		<category><![CDATA[express]]></category>
+		<category><![CDATA[idor]]></category>
+		<category><![CDATA[online privacy]]></category>
+		<category><![CDATA[retail security]]></category>
+		<category><![CDATA[web vulnerability]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355984</guid>
+
+					<description><![CDATA[<p>A clothing retailer patched a website flaw that exposed customer data via order links, highlighting risks associated with predictable URL structures.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-clothing-retailer-data-exposure-order-link-flaw/">Clothing Retailer Patches Website Flaw Exposing Customer Data</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New Phishing Attack Turns n8n Into On-Demand Malware Machine</title>
+		<link>https://www.techrepublic.com/article/news-hackers-abuse-n8n-workflows-malware-delivery/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 14:48:34 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[automation tools]]></category>
+		<category><![CDATA[cisco talos]]></category>
+		<category><![CDATA[cybersecurity threats]]></category>
+		<category><![CDATA[email security]]></category>
+		<category><![CDATA[malware delivery]]></category>
+		<category><![CDATA[n8n]]></category>
+		<category><![CDATA[phishing attacks]]></category>
+		<category><![CDATA[threat intelligence]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355951</guid>
+
+					<description><![CDATA[<p>Hackers are abusing n8n workflows to deliver malware and evade detection, according to Cisco Talos, using trusted automation to bypass security defenses.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-hackers-abuse-n8n-workflows-malware-delivery/">New Phishing Attack Turns n8n Into On-Demand Malware Machine</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Bluesky Outage: Coordinated Traffic Attack Causes Widespread Errors</title>
+		<link>https://www.techrepublic.com/article/news-bluesky-ddos-attack-second-day-outage/</link>
+		
+		<dc:creator><![CDATA[Kezia Jungco]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 13:43:18 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Bluesky]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[DDoS attack]]></category>
+		<category><![CDATA[distributed systems]]></category>
+		<category><![CDATA[downtime]]></category>
+		<category><![CDATA[incident response]]></category>
+		<category><![CDATA[infrastructure]]></category>
+		<category><![CDATA[network security]]></category>
+		<category><![CDATA[outage]]></category>
+		<category><![CDATA[social media]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355936</guid>
+
+					<description><![CDATA[<p>Bluesky’s DDoS attack caused outages for a second day, disrupting feeds, notifications, and search across the platform.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-bluesky-ddos-attack-second-day-outage/">Bluesky Outage: Coordinated Traffic Attack Causes Widespread Errors</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Top 5 Disaster Recovery Companies in 2026</title>
+		<link>https://www.techrepublic.com/article/draas-providers/</link>
+		
+		<dc:creator><![CDATA[Jonathan Kalibbala]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 05:00:54 +0000</pubDate>
+				<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Top Products]]></category>
+		<category><![CDATA[Acronis]]></category>
+		<category><![CDATA[arcserve]]></category>
+		<category><![CDATA[disaster recovery as a service]]></category>
+		<category><![CDATA[kamatera]]></category>
+		<category><![CDATA[microsoft azure]]></category>
+		<category><![CDATA[unitrends]]></category>
+		<category><![CDATA[zerto]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=3966485</guid>
+
+					<description><![CDATA[<p>This is a comprehensive list of the top Disaster Recovery as a Service providers. Use this guide to compare and choose the best solution for you.</p>
+<p>The post <a href="https://www.techrepublic.com/article/draas-providers/">Top 5 Disaster Recovery Companies in 2026</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>McGraw-Hill Confirms Data Exposure, Hackers Claim 45M Salesforce Records Leaked</title>
+		<link>https://www.techrepublic.com/article/news-mcgraw-hill-salesforce-data-exposure-45m-records/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Thu, 16 Apr 2026 19:13:59 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[data exposure]]></category>
+		<category><![CDATA[mcgraw-hill]]></category>
+		<category><![CDATA[misconfiguration]]></category>
+		<category><![CDATA[saas security]]></category>
+		<category><![CDATA[salesforce]]></category>
+		<category><![CDATA[shinyhunters]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355889</guid>
+
+					<description><![CDATA[<p>McGraw-Hill confirms a data exposure tied to a Salesforce misconfiguration as hackers claim 45M records, raising concerns over SaaS security risks.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-mcgraw-hill-salesforce-data-exposure-45m-records/">McGraw-Hill Confirms Data Exposure, Hackers Claim 45M Salesforce Records Leaked</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>NTT Research Launches Scale Academy to Bring Lab Technology to Market</title>
+		<link>https://www.techrepublic.com/article/news-ntt-research-scale-academy/</link>
+		
+		<dc:creator><![CDATA[Zeus Kerravala]]></dc:creator>
+		<pubDate>Thu, 16 Apr 2026 19:01:41 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ai security]]></category>
+		<category><![CDATA[cybersecurity innovation]]></category>
+		<category><![CDATA[data security]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[ntt research]]></category>
+		<category><![CDATA[saltgrain]]></category>
+		<category><![CDATA[scale academy]]></category>
+		<category><![CDATA[zero trust security]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355883</guid>
+
+					<description><![CDATA[<p>NTT Research launches Scale Academy to turn AI and security research into real products, debuting SaltGrain, a zero-trust data security platform.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-ntt-research-scale-academy/">NTT Research Launches Scale Academy to Bring Lab Technology to Market</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Malicious WordPress Plugins with Backdoors Compromise Thousands of Websites</title>
+		<link>https://www.techrepublic.com/article/news-malicious-wordpress-plugins-backdoor-april-2026/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Thu, 16 Apr 2026 16:17:21 +0000</pubDate>
+				<category><![CDATA[Developer]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[backdoor malware]]></category>
+		<category><![CDATA[cybersecurity threat]]></category>
+		<category><![CDATA[malicious plugins]]></category>
+		<category><![CDATA[plugin vulnerability]]></category>
+		<category><![CDATA[supply chain attack]]></category>
+		<category><![CDATA[website security]]></category>
+		<category><![CDATA[wordpress plugins]]></category>
+		<category><![CDATA[wordpress security]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355824</guid>
+
+					<description><![CDATA[<p>More than 30 WordPress plugins were shut down after a supply-chain backdoor compromised thousands of sites through the Essential Plugin portfolio.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-malicious-wordpress-plugins-backdoor-april-2026/">Malicious WordPress Plugins with Backdoors Compromise Thousands of Websites</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Comcast’s $117.5M Breach Settlement: Up to 30M People May Qualify</title>
+		<link>https://www.techrepublic.com/article/news-comcast-117-5m-settlement-30m-data-breach/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Wed, 15 Apr 2026 18:22:51 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[breach settlement]]></category>
+		<category><![CDATA[class action lawsuit]]></category>
+		<category><![CDATA[comcast]]></category>
+		<category><![CDATA[customer data]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[data privacy]]></category>
+		<category><![CDATA[identity theft]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355699</guid>
+
+					<description><![CDATA[<p>Comcast customers affected by the 2023 breach may qualify for cash, reimbursement, and identity protection under a proposed $117.5 million settlement.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-comcast-117-5m-settlement-30m-data-breach/">Comcast’s $117.5M Breach Settlement: Up to 30M People May Qualify</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Massive Chrome Extension Scam Exposes 20,000 Users to Data Theft</title>
+		<link>https://www.techrepublic.com/article/news-malicious-chrome-extensions-data-theft/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Wed, 15 Apr 2026 16:46:46 +0000</pubDate>
+				<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Browsers]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[browser security]]></category>
+		<category><![CDATA[chrome extensions]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[google security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[oauth abuse]]></category>
+		<category><![CDATA[telegram security]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355691</guid>
+
+					<description><![CDATA[<p>Researchers linked 108 malicious Chrome extensions to a coordinated campaign that exposed about 20,000 users to data theft, backdoors, and ad injection.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-malicious-chrome-extensions-data-theft/">Massive Chrome Extension Scam Exposes 20,000 Users to Data Theft</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft Issues Massive Windows Patch for 160+ Bugs, Including Two Zero-Days</title>
+		<link>https://www.techrepublic.com/article/news-microsoft-windows-165-vulnerabilities-april-2026/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Wed, 15 Apr 2026 15:52:14 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[patch tuesday]]></category>
+		<category><![CDATA[remote code execution]]></category>
+		<category><![CDATA[vulnerability management]]></category>
+		<category><![CDATA[windows security]]></category>
+		<category><![CDATA[windows update]]></category>
+		<category><![CDATA[zero day]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355671</guid>
+
+					<description><![CDATA[<p>Microsoft’s April 2026 Patch Tuesday fixes 165 vulnerabilities, including two zero-days, in one of the company’s largest monthly security updates.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-microsoft-windows-165-vulnerabilities-april-2026/">Microsoft Issues Massive Windows Patch for 160+ Bugs, Including Two Zero-Days</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>WhatsApp New Update Lets You Chat Without Sharing Your Phone Number</title>
+		<link>https://www.techrepublic.com/article/news-whatsapp-usernames-feature-privacy-update/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Wed, 15 Apr 2026 14:26:03 +0000</pubDate>
+				<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Social Media]]></category>
+		<category><![CDATA[cybersecurity trends]]></category>
+		<category><![CDATA[digital privacy]]></category>
+		<category><![CDATA[end-to-end encryption]]></category>
+		<category><![CDATA[Messaging apps]]></category>
+		<category><![CDATA[meta privacy]]></category>
+		<category><![CDATA[social media updates]]></category>
+		<category><![CDATA[whatsapp]]></category>
+		<category><![CDATA[whatsapp usernames]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355656</guid>
+
+					<description><![CDATA[<p>WhatsApp is testing usernames that could let users chat without sharing phone numbers, adding a new privacy layer now rolling out to some beta users.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-whatsapp-usernames-feature-privacy-update/">WhatsApp New Update Lets You Chat Without Sharing Your Phone Number</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Adobe Issues Emergency Patch for Critical PDF Flaw Exploited For Months</title>
+		<link>https://www.techrepublic.com/article/news-adobe-critical-pdf-flaw-exploited-months-emergency-patch/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 18:14:23 +0000</pubDate>
+				<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Adobe Acrobat]]></category>
+		<category><![CDATA[adobe vulnerability]]></category>
+		<category><![CDATA[cybersecurity news]]></category>
+		<category><![CDATA[malware delivery]]></category>
+		<category><![CDATA[pdf exploit]]></category>
+		<category><![CDATA[sandbox bypass]]></category>
+		<category><![CDATA[security patch]]></category>
+		<category><![CDATA[zero day exploit]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355527</guid>
+
+					<description><![CDATA[<p>Adobe patches a critical PDF flaw exploited for months, allowing attackers to bypass sandbox protections and deliver malware. Users urged to update now.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-adobe-critical-pdf-flaw-exploited-months-emergency-patch/">Adobe Issues Emergency Patch for Critical PDF Flaw Exploited For Months</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google $135M Settlement: Millions of Android Users May Qualify for Payout</title>
+		<link>https://www.techrepublic.com/article/news-google-135m-android-data-settlement-payout/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 14:22:20 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[android users]]></category>
+		<category><![CDATA[class action lawsuit]]></category>
+		<category><![CDATA[data privacy]]></category>
+		<category><![CDATA[editors picks]]></category>
+		<category><![CDATA[google android]]></category>
+		<category><![CDATA[google settlement]]></category>
+		<category><![CDATA[legal settlement]]></category>
+		<category><![CDATA[mobile data usage]]></category>
+		<category><![CDATA[tech news]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355481</guid>
+
+					<description><![CDATA[<p>Android users may be eligible for a payout from Google’s $135 million settlement over background data use. Here’s who qualifies and how to claim.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-google-135m-android-data-settlement-payout/">Google $135M Settlement: Millions of Android Users May Qualify for Payout</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>GrafanaGhost: The AI That Leaked Everything Without Being Hacked</title>
+		<link>https://www.techrepublic.com/article/news-grafanaghost-ai-data-exfiltration-security-risk/</link>
+		
+		<dc:creator><![CDATA[Tim Freestone]]></dc:creator>
+		<pubDate>Mon, 13 Apr 2026 20:28:21 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[ai risk]]></category>
+		<category><![CDATA[ai security]]></category>
+		<category><![CDATA[cloud security]]></category>
+		<category><![CDATA[cybersecurity threats]]></category>
+		<category><![CDATA[data exfiltration]]></category>
+		<category><![CDATA[grafana]]></category>
+		<category><![CDATA[prompt injection]]></category>
+		<category><![CDATA[vulnerability disclosure]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355384</guid>
+
+					<description><![CDATA[<p>A newly disclosed vulnerability reveals how AI assistants can become invisible channels for data exfiltration — and why security enforcement must shift to the data layer.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-grafanaghost-ai-data-exfiltration-security-risk/">GrafanaGhost: The AI That Leaked Everything Without Being Hacked</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Booking.com Hack Exposes Customer Data, Sparks Travel Scam Fears</title>
+		<link>https://www.techrepublic.com/article/news-booking-com-data-breach-traveler-scam-risk/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Mon, 13 Apr 2026 17:36:43 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[booking.com breach]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[online fraud]]></category>
+		<category><![CDATA[personal data exposure]]></category>
+		<category><![CDATA[phishing scams]]></category>
+		<category><![CDATA[travel security]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355363</guid>
+
+					<description><![CDATA[<p>Booking.com confirms a data breach that exposed traveler details, raising urgent concerns about highly targeted phishing scams and customer safety.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-booking-com-data-breach-traveler-scam-risk/">Booking.com Hack Exposes Customer Data, Sparks Travel Scam Fears</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google Rolls Out End-to-End Encryption to Eligible Gmail Users on Mobile</title>
+		<link>https://www.techrepublic.com/article/news-gmail-end-to-end-encryption-mobile/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Mon, 13 Apr 2026 17:20:13 +0000</pubDate>
+				<category><![CDATA[Developer]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data privacy]]></category>
+		<category><![CDATA[email security]]></category>
+		<category><![CDATA[end-to-end encryption]]></category>
+		<category><![CDATA[enterprise security]]></category>
+		<category><![CDATA[Gmail]]></category>
+		<category><![CDATA[Google Workspace]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355356</guid>
+
+					<description><![CDATA[<p>Google has brought end-to-end encrypted Gmail to Android and iOS for eligible Workspace users, extending secure mobile email without extra apps.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-gmail-end-to-end-encryption-mobile/">Google Rolls Out End-to-End Encryption to Eligible Gmail Users on Mobile</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft: Third-Party Android Vulnerability Leaves Over 50M Users Exposed</title>
+		<link>https://www.techrepublic.com/article/news-engagelab-sdk-android-vulnerability-malware-bridge/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 17:02:52 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[android malware]]></category>
+		<category><![CDATA[android security]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[intent redirection]]></category>
+		<category><![CDATA[malware threat]]></category>
+		<category><![CDATA[microsoft security]]></category>
+		<category><![CDATA[mobile app security]]></category>
+		<category><![CDATA[sdk vulnerability]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355155</guid>
+
+					<description><![CDATA[<p>A flaw in the EngageLab SDK exposed 50 million Android users, allowing malicious apps to exploit trusted permissions and access sensitive data.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-engagelab-sdk-android-vulnerability-malware-bridge/">Microsoft: Third-Party Android Vulnerability Leaves Over 50M Users Exposed</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AI Expansion, Security Crises, and Workforce Upheaval Define This Week in Tech</title>
+		<link>https://www.techrepublic.com/article/ai-expansion-security-crises-and-workforce-upheaval-define-this-week-in-tech/</link>
+		
+		<dc:creator><![CDATA[TechRepublic Staff]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 14:00:51 +0000</pubDate>
+				<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Browsers]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Tech & Work]]></category>
+		<category><![CDATA[Weekly Roundup]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[Workforce]]></category>
+		<category><![CDATA[Adobe Acrobat]]></category>
+		<category><![CDATA[ai news]]></category>
+		<category><![CDATA[anthropic news]]></category>
+		<category><![CDATA[apple news]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<category><![CDATA[CISA]]></category>
+		<category><![CDATA[Daily Tech Insider]]></category>
+		<category><![CDATA[goldman sachs]]></category>
+		<category><![CDATA[google news]]></category>
+		<category><![CDATA[layoffs]]></category>
+		<category><![CDATA[Netflix]]></category>
+		<category><![CDATA[Newsletter Roundup]]></category>
+		<category><![CDATA[openai news]]></category>
+		<category><![CDATA[samsung]]></category>
+		<category><![CDATA[tech news]]></category>
+		<category><![CDATA[trump]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355136</guid>
+
+					<description><![CDATA[<p>See what you missed in Daily Tech Insider from April 6–10.</p>
+<p>The post <a href="https://www.techrepublic.com/article/ai-expansion-security-crises-and-workforce-upheaval-define-this-week-in-tech/">AI Expansion, Security Crises, and Workforce Upheaval Define This Week in Tech</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Hackers Exploit Adobe PDF Flaw for Months to Steal Data, No Fix Yet</title>
+		<link>https://www.techrepublic.com/article/news-adobe-acrobat-zero-day-pdf-exploit-months/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 18:33:04 +0000</pubDate>
+				<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Adobe Acrobat]]></category>
+		<category><![CDATA[adobe reader vulnerability]]></category>
+		<category><![CDATA[cybersecurity threats]]></category>
+		<category><![CDATA[data breach risks]]></category>
+		<category><![CDATA[pdf malware]]></category>
+		<category><![CDATA[phishing attacks]]></category>
+		<category><![CDATA[remote code execution]]></category>
+		<category><![CDATA[zero day exploit]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355034</guid>
+
+					<description><![CDATA[<p>A critical Adobe Acrobat zero-day has been exploited for months via malicious PDFs to steal data and potentially take over systems, with no patch yet available.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-adobe-acrobat-zero-day-pdf-exploit-months/">Hackers Exploit Adobe PDF Flaw for Months to Steal Data, No Fix Yet</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

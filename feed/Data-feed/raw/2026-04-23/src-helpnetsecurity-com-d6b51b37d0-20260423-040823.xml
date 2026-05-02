@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Help Net Security</title>
+	<atom:link href="https://www.helpnetsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.helpnetsecurity.com/</link>
+	<description>Daily information security news with a focus on enterprise security.</description>
+	<lastBuildDate>Wed, 22 Apr 2026 19:58:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.1</generator>
+
+<image>
+	<url>https://img.helpnetsecurity.com/wp-content/uploads/2019/09/09093400/cropped-hns2-32x32.png</url>
+	<title>Help Net Security</title>
+	<link>https://www.helpnetsecurity.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Ransomware, fraud, and lawsuits drive cyber insurance claims to new peaks</title>
+		<link>https://www.helpnetsecurity.com/2026/04/23/cyber-insurance-claims-report/</link>
+		
+		<dc:creator><![CDATA[Mirko Zorz]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 04:00:36 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[At-Bay]]></category>
+		<category><![CDATA[cyber insurance]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<category><![CDATA[remote access]]></category>
+		<category><![CDATA[report]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367331</guid>
+
+					<description><![CDATA[<p>The 2026 InsurSec Report from At-Bay, covering more than 100,000 policy years of claims data, documents a 7% year-over-year rise in overall claim frequency and an all-time high average severity of $221,000. Ransomware severity reached $508,000, up 16% from the prior year, making it the costliest incident type by a wide margin. Remote access weaknesses dominate ransomware entry Remote access services served as the entry point for 87% of ransomware claims in 2025, up from &#8230; <a href="https://www.helpnetsecurity.com/2026/04/23/cyber-insurance-claims-report/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/23/cyber-insurance-claims-report/">Ransomware, fraud, and lawsuits drive cyber insurance claims to new peaks</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google’s Workspace Intelligence promises privacy while running on your data</title>
+		<link>https://www.helpnetsecurity.com/2026/04/22/google-workspace-intelligence-feature/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 19:55:20 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Google Workspace]]></category>
+		<category><![CDATA[privacy]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367526</guid>
+
+					<description><![CDATA[<p>Security and data governance are among the key considerations in Google’s latest AI update, which introduces Workspace Intelligence within Google Workspace. Google describes the feature as “a secure, dynamic system that inherently understands complex semantic relationships within your Workspace apps (such as Docs, Slides, or Gmail) content, your active projects, your collaborators, and your organization&#8217;s domain knowledge.” &#8220;Workspace Intelligence is built on the same reliable, secure, and compliant infrastructure as the rest of Workspace,&#8221; Yulie &#8230; <a href="https://www.helpnetsecurity.com/2026/04/22/google-workspace-intelligence-feature/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/22/google-workspace-intelligence-feature/">Google’s Workspace Intelligence promises privacy while running on your data</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Cyberattack on French government agency triggers phishing alert</title>
+		<link>https://www.helpnetsecurity.com/2026/04/22/france-titres-online-portal-data-breach/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 16:44:54 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[breach]]></category>
+		<category><![CDATA[cybercrime]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[EU]]></category>
+		<category><![CDATA[France]]></category>
+		<category><![CDATA[phishing]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367487</guid>
+
+					<description><![CDATA[<p>France Titres, a French government agency, has disclosed a data breach that may have exposed user data from its online portal. France Titres, also known as the Agence nationale des titres sécurisés (ANTS), operates under the French Ministry of the Interior and manages systems for official identity and registration documents, including driver’s licences, national ID cards, passports, and immigration documents. According to the agency, the incident was detected on Wednesday, April 15, and remains under &#8230; <a href="https://www.helpnetsecurity.com/2026/04/22/france-titres-online-portal-data-breach/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/22/france-titres-online-portal-data-breach/">Cyberattack on French government agency triggers phishing alert</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Claude Mythos finds 271 Firefox flaws, Mozilla believes it shifts security toward defenders</title>
+		<link>https://www.helpnetsecurity.com/2026/04/22/claude-mythos-mozilla-vulnerabilities-scanning/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 14:40:09 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Mozilla]]></category>
+		<category><![CDATA[vulnerability management]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367410</guid>
+
+					<description><![CDATA[<p>The Mozilla Foundation tested Claude Mythos, an Anthropic AI model that has stirred debate in the cybersecurity community. Before granting access to Mythos, Mozilla scanned Firefox using Opus 4.6, which led to fixes for 22 security-sensitive bugs in Firefox 148. For instance, Mythos identified 271 vulnerabilities in Firefox 150. Firefox CTO Bobby Holley said other teams are beginning to experience the same “vertigo” that Mozilla felt when the findings first came into focus. “For a &#8230; <a href="https://www.helpnetsecurity.com/2026/04/22/claude-mythos-mozilla-vulnerabilities-scanning/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/22/claude-mythos-mozilla-vulnerabilities-scanning/">Claude Mythos finds 271 Firefox flaws, Mozilla believes it shifts security toward defenders</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Prove Identity Platform connects verification, authentication, and fraud prevention</title>
+		<link>https://www.helpnetsecurity.com/2026/04/22/prove-identity-platform/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 13:50:28 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[Prove Identity]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367451</guid>
+
+					<description><![CDATA[<p>Prove has launched the Prove Identity Platform, turning identity verification into an ongoing, real-time process for users, businesses, and AI agents. AI agents are already initiating real transactions on behalf of real people. OpenAI and Stripe launched the Agentic Commerce Protocol in September. Visa named Anthropic, OpenAI, and Perplexity as agentic commerce partners. As that shift accelerates, the central question facing every organization becomes: Is this person real, and did they authorize this specific action, &#8230; <a href="https://www.helpnetsecurity.com/2026/04/22/prove-identity-platform/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/22/prove-identity-platform/">Prove Identity Platform connects verification, authentication, and fraud prevention</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New Mirai variants target routers and DVRs in parallel campaigns</title>
+		<link>https://www.helpnetsecurity.com/2026/04/22/new-mirai-variants-target-routers-and-dvrs-via-old-flaws/</link>
+		
+		<dc:creator><![CDATA[Zeljka Zorz]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 13:24:09 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Akamai]]></category>
+		<category><![CDATA[botnet]]></category>
+		<category><![CDATA[consumer]]></category>
+		<category><![CDATA[DDoS]]></category>
+		<category><![CDATA[DVR]]></category>
+		<category><![CDATA[end of support]]></category>
+		<category><![CDATA[enterprise]]></category>
+		<category><![CDATA[exploit]]></category>
+		<category><![CDATA[Fortinet]]></category>
+		<category><![CDATA[Internet of Things]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[router]]></category>
+		<category><![CDATA[SMBs]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367439</guid>
+
+					<description><![CDATA[<p>Hidden inside newly discovered botnet malware is an unusual message from its creator: &#8220;AI.NEEDS.TO.DIE&#8221;. Dubbed &#8220;tuxnokill&#8221; by researchers at Akamai, the malware is one of two fresh Mirai botnet variants documented this month by major cybersecurity firms and, judging by the aforementioned hard-coded string, this particular variant might have been coded the old-fashioned way. &#8220;Tuxnokill&#8221; and &#8220;Nexcorium&#8221; Based on hits on the company&#8217;s global network of honeypots, Akamai found that tuxnokill is spreading through CVE-2025-29635, &#8230; <a href="https://www.helpnetsecurity.com/2026/04/22/new-mirai-variants-target-routers-and-dvrs-via-old-flaws/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/22/new-mirai-variants-target-routers-and-dvrs-via-old-flaws/">New Mirai variants target routers and DVRs in parallel campaigns</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Acronis GenAI Protection gives MSPs control over AI usage and data risks</title>
+		<link>https://www.helpnetsecurity.com/2026/04/22/acronis-genai-protection/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 13:24:08 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[Acronis]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367438</guid>
+
+					<description><![CDATA[<p>Acronis has launced Acronis GenAI Protection, a monitoring and security solution that enables managed service providers (MSPs) to control generative AI usage across client environments, preventing sensitive data exposure and protecting against malicious prompt manipulation. Acronis GenAI Protection represents the initial phase of Acronis Cyber Workspace, with additional capabilities planned for release to deliver a protected AI workspace, natively integrated into the Acronis platform. As organisations rapidly adopt generative AI tools, businesses face growing risks &#8230; <a href="https://www.helpnetsecurity.com/2026/04/22/acronis-genai-protection/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/22/acronis-genai-protection/">Acronis GenAI Protection gives MSPs control over AI usage and data risks</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Elastic MCP Apps bring security and observability workflows into AI tools</title>
+		<link>https://www.helpnetsecurity.com/2026/04/22/elastic-mcp-apps/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 12:51:51 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[Elastic]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367424</guid>
+
+					<description><![CDATA[<p>Elastic has announced MCP Apps for Elastic, delivering agent-native UI experiences for security and observability workflows across third-party coding tools and chat clients. The new MCP Apps enable teams to investigate threats, diagnose system behavior, and act on data directly within the AI tools they already use, without switching tools or stitching together separate systems. Built on the Model Context Protocol (MCP) apps spec, the open standard co-authored by Anthropic and OpenAI, these apps allow &#8230; <a href="https://www.helpnetsecurity.com/2026/04/22/elastic-mcp-apps/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/22/elastic-mcp-apps/">Elastic MCP Apps bring security and observability workflows into AI tools</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Progress Software fixes sneaky WAF bypass vulnerability (CVE-2026-21876)</title>
+		<link>https://www.helpnetsecurity.com/2026/04/22/progress-waf-bypass-cve-2026-21876/</link>
+		
+		<dc:creator><![CDATA[Zeljka Zorz]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 11:29:19 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[enterprise]]></category>
+		<category><![CDATA[firewall]]></category>
+		<category><![CDATA[OWASP]]></category>
+		<category><![CDATA[Progress]]></category>
+		<category><![CDATA[security update]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<category><![CDATA[web application security]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367394</guid>
+
+					<description><![CDATA[<p>Progress Software has fixed a slew of high-severity vulnerabilities in MOVEit WAF and LoadMaster, including a flaw (CVE-2026-21876) that may allow attackers to bypass firewall detection. MOVEit WAF (web application firewall) is designed to protect Progress&#8217;s managed file transfer platform MOVEit Transfer from web-based attacks. (A zero-day vulnerability in MOVEit Transfer was infamously exploited in 2023 by the Cl0p cyber extortion gang to grab data from hundreds of organizations.) LoadMaster is the company&#8217;s general-purpose enterprise &#8230; <a href="https://www.helpnetsecurity.com/2026/04/22/progress-waf-bypass-cve-2026-21876/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/22/progress-waf-bypass-cve-2026-21876/">Progress Software fixes sneaky WAF bypass vulnerability (CVE-2026-21876)</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Tencent&#8217;s QClaw AI agent app arrives on Windows and macOS</title>
+		<link>https://www.helpnetsecurity.com/2026/04/22/tencent-qclaw-ai-agent-windows-macos/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 10:32:02 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[OpenClaw]]></category>
+		<category><![CDATA[Tencent]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=367377</guid>
+
+					<description><![CDATA[<p>Tencent has opened an international beta of QClaw, an AI agent application aimed at consumers in Canada, Japan, Singapore, South Korea, and the United States. The first wave is capped at 20,000 users. Additional markets are scheduled to follow. QClaw runs on Windows and MacOS. Setup takes about three minutes and involves downloading the application, registering an account, and scanning a QR code. The software is built on OpenClaw, the open-source personal AI assistant project. &#8230; <a href="https://www.helpnetsecurity.com/2026/04/22/tencent-qclaw-ai-agent-windows-macos/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/22/tencent-qclaw-ai-agent-windows-macos/">Tencent&#8217;s QClaw AI agent app arrives on Windows and macOS</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

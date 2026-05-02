@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SecurityWeek</title>
+	<atom:link href="https://www.securityweek.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.securityweek.com/</link>
+	<description>Cybersecurity News, Insights &#38; Analysis</description>
+	<lastBuildDate>Wed, 22 Apr 2026 03:56:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg</url>
+	<title>SecurityWeek</title>
+	<link>https://www.securityweek.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Third US Security Expert Admits Helping Ransomware Gang</title>
+		<link>https://www.securityweek.com/third-us-security-expert-admits-helping-ransomware-gang/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 14:44:24 +0000</pubDate>
+				<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[plead guilty]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46170</guid>
+
+					<description><![CDATA[<p>Angelo Martino of Florida has pleaded guilty to collaborating with the BlackCat cybercrime group while working as a ransomware negotiator.</p>
+<p>The post <a href="https://www.securityweek.com/third-us-security-expert-admits-helping-ransomware-gang/">Third US Security Expert Admits Helping Ransomware Gang</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Dozens of Malicious Crypto Apps Land in Apple App Store</title>
+		<link>https://www.securityweek.com/dozens-of-malicious-crypto-apps-land-in-apple-app-store/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 14:05:01 +0000</pubDate>
+				<category><![CDATA[Malware & Threats]]></category>
+		<category><![CDATA[Mobile & Wireless]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Apple App Store]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[malware]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46169</guid>
+
+					<description><![CDATA[<p>Masquerading as popular cryptocurrency wallets, the apps can hijack recovery phrases and private keys.</p>
+<p>The post <a href="https://www.securityweek.com/dozens-of-malicious-crypto-apps-land-in-apple-app-store/">Dozens of Malicious Crypto Apps Land in Apple App Store</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Unsecured Perforce Servers Expose Sensitive Data From Major Orgs</title>
+		<link>https://www.securityweek.com/unsecured-perforce-servers-expose-sensitive-data-from-major-orgs/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 12:37:49 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[exposed]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[misconfiguration]]></category>
+		<category><![CDATA[Perforce]]></category>
+		<category><![CDATA[server]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46166</guid>
+
+					<description><![CDATA[<p>Things are improving, but a researcher has still identified over 1,500 Perforce P4 instances allowing attackers to read files on the server.</p>
+<p>The post <a href="https://www.securityweek.com/unsecured-perforce-servers-expose-sensitive-data-from-major-orgs/">Unsecured Perforce Servers Expose Sensitive Data From Major Orgs</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Progress Patches Multiple Vulnerabilities in MOVEit WAF, LoadMaster</title>
+		<link>https://www.securityweek.com/progress-patches-multiple-vulnerabilities-in-moveit-waf-loadmaster/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 12:14:26 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[MOVEit]]></category>
+		<category><![CDATA[Progress Software]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46165</guid>
+
+					<description><![CDATA[<p>The security defects could be exploited for remote code execution, OS command injection, and WAF detection bypass.</p>
+<p>The post <a href="https://www.securityweek.com/progress-patches-multiple-vulnerabilities-in-moveit-waf-loadmaster/">Progress Patches Multiple Vulnerabilities in MOVEit WAF, LoadMaster</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Organizations Warned of Exploited Cisco, Kentico, Zimbra Vulnerabilities</title>
+		<link>https://www.securityweek.com/organizations-warned-of-exploited-cisco-kentico-zimbra-vulnerabilities/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 11:19:45 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[CISA KEV]]></category>
+		<category><![CDATA[Cisco]]></category>
+		<category><![CDATA[exploited]]></category>
+		<category><![CDATA[Kentico]]></category>
+		<category><![CDATA[Zimbra]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46164</guid>
+
+					<description><![CDATA[<p>CISA expanded the KEV catalog with eight flaws, but five of them have been flagged as exploited before.</p>
+<p>The post <a href="https://www.securityweek.com/organizations-warned-of-exploited-cisco-kentico-zimbra-vulnerabilities/">Organizations Warned of Exploited Cisco, Kentico, Zimbra Vulnerabilities</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Data Breaches at Healthcare Organizations in Illinois and Texas Affect 600,000</title>
+		<link>https://www.securityweek.com/data-breaches-at-healthcare-organizations-in-illinois-and-texas-affect-600000/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 11:02:29 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[healthcare]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46163</guid>
+
+					<description><![CDATA[<p>Data breaches were disclosed by Southern Illinois Dermatology, Saint Anthony Hospital, and North Texas Behavioral Health Authority.</p>
+<p>The post <a href="https://www.securityweek.com/data-breaches-at-healthcare-organizations-in-illinois-and-texas-affect-600000/">Data Breaches at Healthcare Organizations in Illinois and Texas Affect 600,000</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>$290 Million Kelp DAO Crypto Heist Blamed on North Korea</title>
+		<link>https://www.securityweek.com/290-million-kelp-dao-crypto-heist-blamed-on-north-korea/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 10:02:09 +0000</pubDate>
+				<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[cryptocurrency heist]]></category>
+		<category><![CDATA[DeFi]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Kelp DAO]]></category>
+		<category><![CDATA[North Korea]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46162</guid>
+
+					<description><![CDATA[<p>The hackers targeted LayerZero’s DVN, compromising certain RPCs and DDoSing others to trigger failover to the poisoned infrastructure.  </p>
+<p>The post <a href="https://www.securityweek.com/290-million-kelp-dao-crypto-heist-blamed-on-north-korea/">$290 Million Kelp DAO Crypto Heist Blamed on North Korea</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Serial-to-IP Converter Flaws Expose OT and Healthcare Systems to Hacking</title>
+		<link>https://www.securityweek.com/serial-to-ip-converter-flaws-expose-ot-and-healthcare-systems-to-hacking/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 15:42:22 +0000</pubDate>
+				<category><![CDATA[ICS/OT]]></category>
+		<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[ICS]]></category>
+		<category><![CDATA[Lantronix]]></category>
+		<category><![CDATA[Silex]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46160</guid>
+
+					<description><![CDATA[<p>Forescout researchers discovered 20 new vulnerabilities in Lantronix and Silex products and described theoretical attack scenarios.</p>
+<p>The post <a href="https://www.securityweek.com/serial-to-ip-converter-flaws-expose-ot-and-healthcare-systems-to-hacking/">Serial-to-IP Converter Flaws Expose OT and Healthcare Systems to Hacking</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>British Scattered Spider Hacker Pleads Guilty in the US</title>
+		<link>https://www.securityweek.com/british-scattered-spider-hacker-pleads-guilty-in-the-us/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 12:21:16 +0000</pubDate>
+				<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[hacker]]></category>
+		<category><![CDATA[plead guilty]]></category>
+		<category><![CDATA[Scattered Spider]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46159</guid>
+
+					<description><![CDATA[<p>Tyler Buchanan admitted in court to hacking into various companies, defrauding them, and stealing cryptocurrency from multiple individuals.</p>
+<p>The post <a href="https://www.securityweek.com/british-scattered-spider-hacker-pleads-guilty-in-the-us/">British Scattered Spider Hacker Pleads Guilty in the US</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Hackers Abuse QEMU for Defense Evasion</title>
+		<link>https://www.securityweek.com/hackers-abuse-qemu-for-defense-evasion/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 11:35:29 +0000</pubDate>
+				<category><![CDATA[Malware & Threats]]></category>
+		<category><![CDATA[Evasion]]></category>
+		<category><![CDATA[QEMU]]></category>
+		<category><![CDATA[VM]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46158</guid>
+
+					<description><![CDATA[<p>The machine emulator has been abused in at least two different campaigns distributing ransomware and remote access tools.</p>
+<p>The post <a href="https://www.securityweek.com/hackers-abuse-qemu-for-defense-evasion/">Hackers Abuse QEMU for Defense Evasion</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

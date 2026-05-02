@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:atom="http://www.w3.org/2005/Atom"
+        >
+
+<channel>
+        <title>BleepingComputer</title>
+
+        <link>https://www.bleepingcomputer.com/</link>
+        <description>BleepingComputer - All Stories</description>
+        <pubDate>Wed, 22 Apr 2026 06:53:10 GMT</pubDate>
+        <generator>https://www.bleepingcomputer.com/</generator>
+        <language>en</language>
+        <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
+        
+ <item>
+        <title>Over 1,300 Microsoft SharePoint servers vulnerable to spoofing attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/</link>
+        <pubDate>Wed, 22 Apr 2026 02:53:02 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/</guid>
+        <description><![CDATA[Over 1,300 Microsoft SharePoint servers exposed online remain unpatched against a spoofing vulnerability that was exploited as a zero-day and is still being abused in ongoing attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>French govt agency confirms breach as hacker offers to sell data</title>
+        <link>https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/</link>
+        <pubDate>Tue, 21 Apr 2026 17:46:04 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Government]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/</guid>
+        <description><![CDATA[France Titres, the government agency in France for issuing and managince administrative documents has disclosed a data breach after a threat actor claimed the attack and stealing citizen data. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New Lotus data wiper used against Venezuelan energy, utility firms</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-lotus-data-wiper-used-against-venezuelan-energy-utility-firms/</link>
+        <pubDate>Tue, 21 Apr 2026 14:38:40 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-lotus-data-wiper-used-against-venezuelan-energy-utility-firms/</guid>
+        <description><![CDATA[A previously undocumented data-wiping malware dubbed Lotus was used last year in targeted attacks against energy and utilities organizations in Venezuela. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Stopping Fraud at Each Stage of the Customer Journey Without Adding Friction</title>
+        <link>https://www.bleepingcomputer.com/news/security/stopping-fraud-at-each-stage-of-the-customer-journey-without-adding-friction/</link>
+        <pubDate>Tue, 21 Apr 2026 10:02:12 -0400</pubDate>
+        <dc:creator>Sponsored by IPQS</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/stopping-fraud-at-each-stage-of-the-customer-journey-without-adding-friction/</guid>
+        <description><![CDATA[Fraud prevention and user experience don't have to be a tradeoff. IPQS shows how combining identity, device, and network signals stops fraud without adding friction. [...]]]></description>
+ </item>
+
+ <item>
+        <title>UK probes Telegram, teen chat sites over CSAM sharing concerns</title>
+        <link>https://www.bleepingcomputer.com/news/security/uk-probes-telegram-teen-chat-sites-over-csam-sharing-concerns/</link>
+        <pubDate>Tue, 21 Apr 2026 09:49:10 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/uk-probes-telegram-teen-chat-sites-over-csam-sharing-concerns/</guid>
+        <description><![CDATA[Ofcom, the United Kingdom's independent communications regulator, has launched an investigation into Telegram based on evidence suggesting it's being used to share child sexual abuse material (CSAM). [...]]]></description>
+ </item>
+
+ <item>
+        <title>CISA flags new SD-WAN flaw as actively exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-flags-new-sd-wan-flaw-as-actively-exploited-in-attacks/</link>
+        <pubDate>Tue, 21 Apr 2026 08:30:50 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-flags-new-sd-wan-flaw-as-actively-exploited-in-attacks/</guid>
+        <description><![CDATA[​CISA has given U.S. government agencies four days to secure their systems against another Catalyst SD-WAN Manager vulnerability it flagged as actively exploited in attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Actively exploited Apache ActiveMQ flaw impacts 6,400 servers</title>
+        <link>https://www.bleepingcomputer.com/news/security/actively-exploited-apache-activemq-flaw-impacts-6-400-servers/</link>
+        <pubDate>Tue, 21 Apr 2026 07:17:51 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/actively-exploited-apache-activemq-flaw-impacts-6-400-servers/</guid>
+        <description><![CDATA[Nonprofit security organization Shadowserver found that over 6,400 Apache ActiveMQ servers exposed online are vulnerable to ongoing attacks exploiting a high-severity code injection vulnerability. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Former ransomware negotiator pleads guilty to BlackCat attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/</link>
+        <pubDate>Tue, 21 Apr 2026 06:12:21 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/</guid>
+        <description><![CDATA[41-year-old Angelo Martino, a former employee of cybersecurity incident response company DigitalMint, has pleaded guilty to targeting U.S. companies in BlackCat (ALPHV) ransomware attacks in 2023. [...]]]></description>
+ </item>
+
+ <item>
+        <title>NGate Android malware uses HandyPay NFC app to steal card data</title>
+        <link>https://www.bleepingcomputer.com/news/security/ngate-android-malware-uses-handypay-nfc-app-to-steal-card-data/</link>
+        <pubDate>Tue, 21 Apr 2026 05:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ngate-android-malware-uses-handypay-nfc-app-to-steal-card-data/</guid>
+        <description><![CDATA[A new variant of the NGate malware that steals NFC payment data is targeting Android users by hiding in a trojanized version of HandyPay, a legitimate mobile payments processing tool. [...]]]></description>
+ </item>
+
+ <item>
+        <title>KelpDAO suffers $290 million heist tied to Lazarus hackers</title>
+        <link>https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/</link>
+        <pubDate>Mon, 20 Apr 2026 18:23:52 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/</guid>
+        <description><![CDATA[State-sponsored North Korean hackers are likely behind the $290 million crypto-heist that impacted the KelpDAO DeFi project on Saturday. [...]]]></description>
+ </item>
+
+ <item>
+        <title>China's Apple App Store infiltrated by crypto-stealing wallet apps</title>
+        <link>https://www.bleepingcomputer.com/news/security/chinas-apple-app-store-infiltrated-by-crypto-stealing-wallet-apps/</link>
+        <pubDate>Mon, 20 Apr 2026 17:52:54 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/chinas-apple-app-store-infiltrated-by-crypto-stealing-wallet-apps/</guid>
+        <description><![CDATA[A set of 26 malicious apps on Apple App Store impersonate popular wallets, such as Metamask, Coinbase, Trust Wallet, and OneKey, to steal recovery or seed phrases and drain them of cryptocurrency assets. [...]]]></description>
+ </item>
+
+ <item>
+        <title>The Gentlemen ransomware now uses SystemBC for bot-powered attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/the-gentlemen-ransomware-now-uses-systembc-for-bot-powered-attacks/</link>
+        <pubDate>Mon, 20 Apr 2026 16:02:37 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/the-gentlemen-ransomware-now-uses-systembc-for-bot-powered-attacks/</guid>
+        <description><![CDATA[A SystemBC proxy malware botnet of more than 1,570 hosts, believed to be corporate victims, has been discovered following an investigation into a Gentlemen ransomware attack carried out by a gang affiliate. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Seiko USA website defaced as hacker claims customer data theft</title>
+        <link>https://www.bleepingcomputer.com/news/security/seiko-usa-website-defaced-as-hacker-claims-customer-data-theft/</link>
+        <pubDate>Mon, 20 Apr 2026 14:22:31 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/seiko-usa-website-defaced-as-hacker-claims-customer-data-theft/</guid>
+        <description><![CDATA[The Seiko USA website was defaced over the weekend, displaying a message from attackers claiming they stole its Shopify customer database and threatening to leak it unless a ransom is paid. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft: Teams increasingly abused in helpdesk impersonation attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-teams-increasingly-abused-in-helpdesk-impersonation-attacks/</link>
+        <pubDate>Mon, 20 Apr 2026 11:11:24 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-teams-increasingly-abused-in-helpdesk-impersonation-attacks/</guid>
+        <description><![CDATA[Microsoft is warning of threat actors increasingly abusing external Microsoft Teams collaboration and relying on legitimate tools for access and lateral movement on enterprise networks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>The backup myth that is putting businesses at risk</title>
+        <link>https://www.bleepingcomputer.com/news/security/the-backup-myth-that-is-putting-businesses-at-risk/</link>
+        <pubDate>Mon, 20 Apr 2026 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Datto</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/the-backup-myth-that-is-putting-businesses-at-risk/</guid>
+        <description><![CDATA[Backups protect data, but don't keep your business running during downtime. Datto shows why BCDR is essential to keep operations running during ransomware and outages. [...]]]></description>
+ </item>
+
+</channel>
+</rss>

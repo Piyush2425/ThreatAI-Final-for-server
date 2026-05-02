@@ -1,0 +1,208 @@
+ <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/" >
+
+<channel>
+	<title>BlackFog</title>
+	<atom:link href="https://www.blackfog.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.blackfog.com</link>
+	<description>AI Security for Data Exfiltration, Shadow AI and Ransomware Prevention</description>
+	<lastBuildDate>Tue, 21 Apr 2026 09:05:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>10 Data Exfiltration Risks That Emerge With Agentic AI</title>
+		<link>https://www.blackfog.com/10-data-exfiltration-risks-that-emerge-with-agentic-ai/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 06:01:09 +0000</pubDate>
+				<category><![CDATA[Concepts]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68694</guid>
+
+					<description><![CDATA[From poisoned tool descriptions to agent memory attacks, agentic AI creates data exfiltration pathways that traditional security controls cannot detect. Here are 10 threats to watch for and what you can do about them.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Agentic AI: The Data Exfiltration Risk Hiding Inside Your AI Agent</title>
+		<link>https://www.blackfog.com/agentic-ai-risk-hiding-inside-your-ai-agent/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 06:00:23 +0000</pubDate>
+				<category><![CDATA[Data Exfiltration]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68687</guid>
+
+					<description><![CDATA[Agentic AI is creating unsupervised data exfiltration paths that traditional security tools struggle to detect. This blog examines the attack surface and how to address it.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>From Zoom Calls to Desert Adventures: Our First Ever BlackFog Kick Off</title>
+		<link>https://www.blackfog.com/first-ever-blackfog-kick-off-arizona/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Wed, 15 Apr 2026 06:00:43 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68325</guid>
+
+					<description><![CDATA[BlackFog’s first global Kick Off brought the team together in Arizona for strategy, connection, and unforgettable desert adventures.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The Marks &#038; Spencer Cyberattack One Year On</title>
+		<link>https://www.blackfog.com/the-marks-spencer-cyberattack-one-year-on/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Mon, 13 Apr 2026 09:03:46 +0000</pubDate>
+				<category><![CDATA[Concepts]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68706</guid>
+
+					<description><![CDATA[In April 2025, Marks &amp; Spencer was hit by a major ransomware attack that exposed how modern cyber threats truly work. A year later, it stands as a clear example of the risks posed by data exfiltration, social engineering, and third-party compromise.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>DaVita Ransomware Attack: 2.7M Affected in Major Data Breach</title>
+		<link>https://www.blackfog.com/davita-ransomware-attack-major-data-breach/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 06:00:14 +0000</pubDate>
+				<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Breach]]></category>
+		<category><![CDATA[Healthcare]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68352</guid>
+
+					<description><![CDATA[The DaVita ransomware attack exposed 2.7 million patient records. Learn what happened, what data was stolen, and how the Interlock gang pulled it off.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Confronting INC Ransom: BlackFog’s Prevention-First Strategy for Affiliate-Driven Ransomware</title>
+		<link>https://www.blackfog.com/confronting-inc-ransom-blackfogs-prevention-first-strategy-for-affiliate-driven-ransomware/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 14:13:11 +0000</pubDate>
+				<category><![CDATA[Threats]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68506</guid>
+
+					<description><![CDATA[Confronting INC Ransom, BlackFog’s Prevention-First Strategy for Affiliate-Driven Ransomware.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>CamoLeak: How GitHub Copilot Became An Exfiltration Channel</title>
+		<link>https://www.blackfog.com/camoleak-how-github-copilot-became-an-exfiltration-channel/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Wed, 08 Apr 2026 10:13:03 +0000</pubDate>
+				<category><![CDATA[Data Exfiltration]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Breach]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68346</guid>
+
+					<description><![CDATA[CamoLeak (CVE-2025-59145) turned GitHub Copilot into a silent data exfiltration channel via prompt injection and GitHub's own image proxy. CVSS 9.6.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The State of Ransomware: March 2026</title>
+		<link>https://www.blackfog.com/the-state-of-ransomware-march-2026/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 15:29:25 +0000</pubDate>
+				<category><![CDATA[The State Of Ransomware]]></category>
+		<category><![CDATA[2026]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Research]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68452</guid>
+
+					<description><![CDATA[BlackFog's state of ransomware March 2026 measures publicly disclosed and non-disclosed attacks globally.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Venom Stealer Turns ClickFix Into a Full Exfiltration Pipeline</title>
+		<link>https://www.blackfog.com/venom-stealer-turns-clickfix-into-a-full-exfiltration-pipeline/</link>
+		
+		<dc:creator><![CDATA[Darren Williams]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 13:00:17 +0000</pubDate>
+				<category><![CDATA[Data Exfiltration]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Exploits]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68308</guid>
+
+					<description><![CDATA[BlackFog analyzes Venom Stealer, a new MaaS infostealer that uses ClickFix delivery to launch an automated exfiltration pipeline covering credential theft, wallet cracking, and fund sweeping.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What Enterprises Need To Know About Cyber Governance, Risk And Compliance</title>
+		<link>https://www.blackfog.com/what-enterprises-need-to-know-about-cyber-governance-risk-and-compliance/</link>
+		
+		<dc:creator><![CDATA[Brenda Robb]]></dc:creator>
+		<pubDate>Fri, 27 Mar 2026 15:42:42 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Network Protection]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68229</guid>
+
+					<description><![CDATA[Learn all about cyber governance, risk and compliance in 2026 and why this must be a consideration at the highest levels of all organizations.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Navigating Essential Cybersecurity Compliance Standards: What To Know</title>
+		<link>https://www.blackfog.com/navigating-essential-cybersecurity-compliance-standards-what-to-know/</link>
+		
+		<dc:creator><![CDATA[Brenda Robb]]></dc:creator>
+		<pubDate>Fri, 27 Mar 2026 15:39:18 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Network Protection]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68225</guid>
+
+					<description><![CDATA[There are a range of cybersecurity compliance standards firms of all sizes must deal with, including mandatory and voluntary frameworks. Here's what you need to know.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Understanding The Requirements Of Information Security Compliance</title>
+		<link>https://www.blackfog.com/understanding-the-requirements-of-information-security-compliance/</link>
+		
+		<dc:creator><![CDATA[Brenda Robb]]></dc:creator>
+		<pubDate>Fri, 27 Mar 2026 15:36:26 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Network Protection]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68221</guid>
+
+					<description><![CDATA[Learn precisely what information security compliance entails and the various steps that go into making this effective.]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

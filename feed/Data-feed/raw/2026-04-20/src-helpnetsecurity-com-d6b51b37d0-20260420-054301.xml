@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Help Net Security</title>
+	<atom:link href="https://www.helpnetsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.helpnetsecurity.com/</link>
+	<description>Daily information security news with a focus on enterprise security.</description>
+	<lastBuildDate>Fri, 17 Apr 2026 12:27:54 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.1</generator>
+
+<image>
+	<url>https://img.helpnetsecurity.com/wp-content/uploads/2019/09/09093400/cropped-hns2-32x32.png</url>
+	<title>Help Net Security</title>
+	<link>https://www.helpnetsecurity.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>SmokedMeat: Open-source tool shows what attackers do inside CI/CD pipelines</title>
+		<link>https://www.helpnetsecurity.com/2026/04/20/smokedmeat-ci-cd-pipeline-attacks/</link>
+		
+		<dc:creator><![CDATA[Mirko Zorz]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 05:30:15 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[DevOps]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366666</guid>
+
+					<description><![CDATA[<p>Boost Security has released SmokedMeat, an open-source framework that runs attack chains against CI/CD infrastructure so engineering and security teams can see what an attacker would do in their specific environment. What the tool does SmokedMeat takes a flagged pipeline vulnerability and executes a live demonstration against a team&#8217;s own infrastructure. Starting from a single vulnerability, it deploys a payload, compromises the runner, harvests credentials from process memory, exchanges those credentials for cloud access, exposes &#8230; <a href="https://www.helpnetsecurity.com/2026/04/20/smokedmeat-ci-cd-pipeline-attacks/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/20/smokedmeat-ci-cd-pipeline-attacks/">SmokedMeat: Open-source tool shows what attackers do inside CI/CD pipelines</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>How to spot a North Korean fake in a job interview</title>
+		<link>https://www.helpnetsecurity.com/2026/04/20/north-korean-job-interview-infiltration-video/</link>
+		
+		<dc:creator><![CDATA[Help Net Security]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 05:00:52 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Video]]></category>
+		<category><![CDATA[deepfakes]]></category>
+		<category><![CDATA[Flare]]></category>
+		<category><![CDATA[identity]]></category>
+		<category><![CDATA[threat intelligence]]></category>
+		<category><![CDATA[video]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366415</guid>
+
+					<description><![CDATA[<p>North Korean operatives are getting hired at companies by passing job interviews using fake identities and AI tools. In this Help Net Security video, Adrian Cheek, a senior cybercrime researcher at Flare, outlines several ways organizations can catch these attempts before extending an offer. Basic video checks, like asking candidates to move their head or place objects in front of the camera, can expose low-quality deepfake setups. Requiring an in-person interview at a later stage &#8230; <a href="https://www.helpnetsecurity.com/2026/04/20/north-korean-job-interview-infiltration-video/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/20/north-korean-job-interview-infiltration-video/">How to spot a North Korean fake in a job interview</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Product showcase: Syncthing for secure, private file synchronization</title>
+		<link>https://www.helpnetsecurity.com/2026/04/20/product-showcase-syncthing-private-file-synchronization-app/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 04:30:14 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[file-sharing]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[product showcase]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366563</guid>
+
+					<description><![CDATA[<p>Syncthing is a free and open-source application that synchronizes files directly between your devices. Instead of uploading data to a central server, it uses a peer-to-peer approach, transferring files whenever peers are online. This decentralized model ensures that your data remains private and under your control. Syncthing monitors shared folders for changes. When a file is created, modified, or removed, updates are propagated to connected peers. Synchronization happens automatically once they are online, keeping folder &#8230; <a href="https://www.helpnetsecurity.com/2026/04/20/product-showcase-syncthing-private-file-synchronization-app/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/20/product-showcase-syncthing-private-file-synchronization-app/">Product showcase: Syncthing for secure, private file synchronization</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Week in review: Acrobat Reader flaw exploited, Claude Mythos offensive capabilities and limits</title>
+		<link>https://www.helpnetsecurity.com/2026/04/19/week-in-review-acrobat-reader-flaw-exploited-claude-mythos-offensive-capabilities-and-limits/</link>
+		
+		<dc:creator><![CDATA[Help Net Security]]></dc:creator>
+		<pubDate>Sun, 19 Apr 2026 08:00:06 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Week in review]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366738</guid>
+
+					<description><![CDATA[<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Bringing governance and visibility to machine and AI identities In this Help Net Security interview, Archit Lohokare, CEO of AppViewX, explains how the rise of AI marked a turning point where machine and AI agent identities began converging into a single problem. Drawing on his experience across IBM and CyberArk, he describes the shift from human-driven systems to autonomous machines. &#8230; <a href="https://www.helpnetsecurity.com/2026/04/19/week-in-review-acrobat-reader-flaw-exploited-claude-mythos-offensive-capabilities-and-limits/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/19/week-in-review-acrobat-reader-flaw-exploited-claude-mythos-offensive-capabilities-and-limits/">Week in review: Acrobat Reader flaw exploited, Claude Mythos offensive capabilities and limits</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google wipes out 602 million scam ads with Gemini on duty</title>
+		<link>https://www.helpnetsecurity.com/2026/04/17/google-gemini-harmful-ads-blocking/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 10:59:38 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[cybercrime]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[malvertising]]></category>
+		<category><![CDATA[scams]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366754</guid>
+
+					<description><![CDATA[<p>Google claims that its security teams work around the clock using its Gemini AI models to detect and stop harmful ads. &#8220;Bad actors are using generative AI to create deceptive ads at scale, and Gemini helps us detect and block them in real time&#8221; Keerat Sharma, VP and GM, Ads Privacy and Safety, Google, said. &#8220;Our models analyze hundreds of billions of signals — including account age, behavioral cues and campaign patterns — to stop &#8230; <a href="https://www.helpnetsecurity.com/2026/04/17/google-gemini-harmful-ads-blocking/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/17/google-gemini-harmful-ads-blocking/">Google wipes out 602 million scam ads with Gemini on duty</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Researcher drops two more Microsoft Defender zero-days, all three now exploited in the wild</title>
+		<link>https://www.helpnetsecurity.com/2026/04/17/microsoft-defender-zero-days-exploited/</link>
+		
+		<dc:creator><![CDATA[Zeljka Zorz]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 10:04:26 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[0-day]]></category>
+		<category><![CDATA[exploit]]></category>
+		<category><![CDATA[Huntress]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Microsoft Defender]]></category>
+		<category><![CDATA[PoC]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366771</guid>
+
+					<description><![CDATA[<p>The security researcher who earlier this month published a proof-of-concept (PoC) exploit for a zero-day privilege escalation vulnerability in Microsoft Defender is back with two more. The first, dubbed &#8220;RedSun,&#8221; is another privilege escalation flaw in the same platform. The second, &#8220;UnDefend,&#8221; allows a standard user to block Microsoft Defender from receiving signature updates or disable it entirely (if Microsoft pushes a major Defender update). And, according to Huntress researchers, all three exploitation techniques have &#8230; <a href="https://www.helpnetsecurity.com/2026/04/17/microsoft-defender-zero-days-exploited/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/17/microsoft-defender-zero-days-exploited/">Researcher drops two more Microsoft Defender zero-days, all three now exploited in the wild</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>GitLab 18.11 brings agentic AI to security fixes, CI pipelines, and delivery analytics</title>
+		<link>https://www.helpnetsecurity.com/2026/04/17/gitlab-18-11-agentic-ai/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 09:35:45 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[GitLab]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366762</guid>
+
+					<description><![CDATA[<p>GitLab has released GitLab 18.11, expanding agentic AI across the entire software lifecycle with security remediation, pipeline configuration, and delivery analytics. AI-generated code moves faster than the systems around it can keep up with, creating the AI paradox: faster code generation without faster delivery, security, or operations to match. As code volume grows, so does the backlog of pipelines to configure, security findings to remediate, and delivery questions to answer. GitLab 18.11 helps address those &#8230; <a href="https://www.helpnetsecurity.com/2026/04/17/gitlab-18-11-agentic-ai/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/17/gitlab-18-11-agentic-ai/">GitLab 18.11 brings agentic AI to security fixes, CI pipelines, and delivery analytics</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Liongard upgrades LiongardIQ with AI access, live asset data, and deeper discovery</title>
+		<link>https://www.helpnetsecurity.com/2026/04/17/liongard-expands-liongardiq/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 09:23:17 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[Liongard]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366758</guid>
+
+					<description><![CDATA[<p>Liongard has announced the expansion of LiongardIQ with new capabilities spanning programmatic AI integration, conversational querying, enhanced network discovery, and deeper identity mapping, extending its system of authority for asset intelligence across the full IT stack. Without a trusted foundation of asset intelligence, automation runs on assumptions, AI agents query stale data, and security gaps go undetected. LiongardIQ is that foundation, continuously discovering and monitoring every asset, identity, and configuration across the IT stack. &#8220;The &#8230; <a href="https://www.helpnetsecurity.com/2026/04/17/liongard-expands-liongardiq/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/17/liongard-expands-liongardiq/">Liongard upgrades LiongardIQ with AI access, live asset data, and deeper discovery</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Mozilla challenges enterprise AI providers with Thunderbolt, open-source AI client under your control</title>
+		<link>https://www.helpnetsecurity.com/2026/04/17/mozilla-thunderbolt-open-source-ai-client-enterprise-data-control/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 09:03:30 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[Mozilla]]></category>
+		<category><![CDATA[open source]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366683</guid>
+
+					<description><![CDATA[<p>For organizations that want to keep company data within their own systems and have more control over how AI is deployed, Mozilla is offering an alternative to externally hosted AI services with Thunderbolt, an open-source AI client designed for self-hosted use. Thunderbolt is available through a waitlist, with native applications for web, macOS, Windows, Linux, iOS, and Android. Its source code is published on GitHub. Mozilla says Thunderbolt “gives organizations what proprietary AI services can’t,” &#8230; <a href="https://www.helpnetsecurity.com/2026/04/17/mozilla-thunderbolt-open-source-ai-client-enterprise-data-control/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/17/mozilla-thunderbolt-open-source-ai-client-enterprise-data-control/">Mozilla challenges enterprise AI providers with Thunderbolt, open-source AI client under your control</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Codex can now operate between apps. Where are the boundaries?</title>
+		<link>https://www.helpnetsecurity.com/2026/04/17/openai-codex-desktop-update-macos/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 08:38:04 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[macOS]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=366697</guid>
+
+					<description><![CDATA[<p>OpenAI is rolling out a major update to the Codex desktop app for users signed in with ChatGPT. Personalization features, including context-aware suggestions and memory, will roll out to Enterprise, Edu, and users in the EU and UK soon. Computer use is initially available on macOS and will expand to EU and UK users in the near future. Screenshot of Codex computer use on Mac (Source: OpenAI) The update expands Codex into a more capable &#8230; <a href="https://www.helpnetsecurity.com/2026/04/17/openai-codex-desktop-update-macos/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/04/17/openai-codex-desktop-update-macos/">Codex can now operate between apps. Where are the boundaries?</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

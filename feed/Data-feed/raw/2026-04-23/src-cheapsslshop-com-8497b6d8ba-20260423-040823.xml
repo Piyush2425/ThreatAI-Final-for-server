@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Blog &#8211; CheapSSLShop Blogs, News, Updates and Online Security Tips</title>
+	<atom:link href="https://www.cheapsslshop.com/blog/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.cheapsslshop.com</link>
+	<description>cheap price ssls</description>
+	<lastBuildDate>Thu, 16 Apr 2026 13:30:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.5</generator>
+
+<image>
+	<url>https://www.cheapsslshop.com/wp-content/uploads/2022/06/favicon.png</url>
+	<title>Blog &#8211; CheapSSLShop Blogs, News, Updates and Online Security Tips</title>
+	<link>https://www.cheapsslshop.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Multi-Domain SSL vs. Multiple Single-Domain SSL Certificates: Which is More Cost-Effective?</title>
+		<link>https://www.cheapsslshop.com/blog/multi-domain-ssl-vs-multiple-single-domain-ssl-certificate</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 16 Apr 2026 13:30:38 +0000</pubDate>
+				<category><![CDATA[SSL University]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14118</guid>
+
+					<description><![CDATA[Managing SSL certificates across multiple domains is an operational and financial decision. Every domain you add either goes on an existing certificate or triggers a new purchase, a new validation cycle, and another expiry date to track. This guide breaks down the actual cost difference between multi-domain SSL certificates and running multiple single-domain certificates &#8211; covering direct pricing, management overhead, and security risk, so you can make the right call for your infrastructure without overcomplicating it. What are you actually comparing? The comparison of multi-domain SSL and multiple single-domain-SSL certificates is logical when it comes to comparing methods of securing several websites. Both are different in terms of assisting in securing various domains. What is a Multi-Domain SSL Certificate? A multi-domain SSL certificate secures many domains and sub-domains under a single certificate with the use of Subject Alternative Names, also known as SANs. This implies that a single certificate can be used to secure multiple company domains, such as company.com, company.net, company.org, and subdomains such as shop.company.com or blog.company.com. It is also referred to as a UCC SSL certificate. You put it on a single server and have a single validation process that encompasses all domains included. Some of the [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>VMC Certificate for E-Commerce: Reducing Cart Abandonment Through Inbox Trust</title>
+		<link>https://www.cheapsslshop.com/blog/vmc-certificate-for-e-commerce-reduce-cart-abandonment</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 06:16:56 +0000</pubDate>
+				<category><![CDATA[Anti-Phishing & Email Security]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14104</guid>
+
+					<description><![CDATA[E-commerce brands lose billions every year to cart abandonment, but not all of that loss happens at checkout. A significant part of it happens in the inbox, in the few seconds where a customer decides whether to open a recovery email at all. eCommerce is one of the most impersonated categories in phishing, and shoppers have adapted. They learned to hesitate on urgent transactional emails, which is exactly the kind brands rely on for recovery. Verified Mark Certificates address that hesitation directly &#8211; closing the inbox trust gap that quietly drains e-commerce email performance before a single click happens. This post breaks down why that matters specifically for e-commerce, what the prerequisites look like, and where the revenue impact actually shows up. Why E-Commerce Emails Are a Prime Phishing Target E-commerce businesses have a certain communication pattern. Most of their emails are urgent and transactional. Order confirmations, shipping updates, and payment reminders &#8211; these require immediate response. Because of this, attackers find them very appealing. Phishing campaigns rely on urgency and familiarity. An email that says “Your order has been shipped” or “Complete your purchase before items sell out” doesn’t feel unusual. It feels expected. Attackers don’t need to invent [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Why Your Wildcard SSL Certificate isn&#8217;t Working on Some Subdomains (And How to Fix It)</title>
+		<link>https://www.cheapsslshop.com/blog/why-your-wildcard-ssl-is-not-working-on-some-subdomains</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 13:59:48 +0000</pubDate>
+				<category><![CDATA[SSL University]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14094</guid>
+
+					<description><![CDATA[You install a wildcard SSL certificate, everything looks right and then one subdomain throws a domain mismatch error. The browser flags it as untrusted, users see a warning and your certificate, which you paid for and configured correctly, appears to be broken. The problem is usually a single misconception that a wildcard certificate secures all subdomains under your domain. But it covers exactly one level of subdomain depth, and anything deeper falls outside its scope entirely. This guide explains why that boundary exists, how to identify which subdomains are affected, and which certificate type actually solves the problem for your setup. What a Wildcard SSL Certificate Actually Covers A wildcard certificate like *.yourdomain.com uses an asterisk as a placeholder for a single label, the part directly to the left of your root domain. That means: blog.yourdomain.com → covered shop.yourdomain.com → covered mail.yourdomain.com → covered dev.api.yourdomain.com → not covered secure.shop.yourdomain.com → not covered auth.portal.yourdomain.com → not covered Most commercial wildcards secure the base domain as a Subject Alternative Name, or SAN, so yourdomain.com itself is usually protected too. But go one level deeper, and the whole thing breaks. If you use SSL certificate for subdomains, wildcard certificates are genuinely cheaper than [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Why Unsigned Software Triggers Security Warnings (&#038; How Code Signing Prevents It)</title>
+		<link>https://www.cheapsslshop.com/blog/why-unsigned-software-triggers-security-warnings</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2026 07:30:56 +0000</pubDate>
+				<category><![CDATA[Code Signing]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14088</guid>
+
+					<description><![CDATA[Unsigned software triggers security warnings because operating systems have no way to verify who built the file or whether it has been tampered with. Windows and macOS run a trust check on every executable before it is executed, and without a valid signature, that check fails by default. But signing alone does not eliminate every warning. Software reputation plays a role too, and most developers only find out after release. This post covers how OS trust evaluation works, what code signing does, and what to get right before distributing software publicly. What Happens When You Run Unsigned Software When a user launches downloaded software, the OS attempts to check the publisher and the code of the software. They verify publisher identity, file integrity, and reputation. Without digital signatures of the software, the operating system does not know who created the software and treats unsigned software as a potential threat. Typical Warning Examples The OS stops the execution and shows the user one of the following: The publisher warning: Windows UAC has the label of an unverified and untrusted publisher. Windows Defender SmartScreen alert: Prevents the execution of unidentified or unverified files with respect to the Microsoft database of cloud recognition. [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What is an SSL Stripping Attack and How to Prevent It</title>
+		<link>https://www.cheapsslshop.com/blog/what-is-ssl-stripping-attack-how-to-prevent-it</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 19 Mar 2026 09:15:56 +0000</pubDate>
+				<category><![CDATA[SSL University]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14078</guid>
+
+					<description><![CDATA[For years, people learned to associate HTTPS with a “secure site.” When a browser connects using SSL/TLS, the traffic between the user and the server is encrypted, which prevents outsiders from reading or modifying the data in transit. SSL stripping attacks exploit a weak moment in that process. An attacker positioned on the network intercepts the initial request and prevents the browser from switching to HTTPS. The victim continues over plain HTTP, while the attacker keeps a secure session with the real server in the background. What looks like a normal browsing session is actually exposed traffic. This article walks through what SSL stripping is, how the attack works, the risks it creates, and the practical defenses that stop it. What is an SSL Stripping Attack? An SSL stripping attack is a downgrade technique that forces a web session to stay on HTTP instead of upgrading to secure network. Because it forces a downgrade from HTTPS to HTTP, the technique is often called an SSL downgrade attack. In this man-in-the-middle attack, the perpetrator intercepts network traffic and either deletes or strips out the encryption layer between the browser and the web server. SSL certificates encrypt the traffic and authenticate the [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>How to Set Up DMARC &#038; Prepare Your Domain for VMC Certificate</title>
+		<link>https://www.cheapsslshop.com/blog/how-to-set-up-dmarc-and-prepare-your-domain-for-vmc-certificate</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 12 Mar 2026 13:34:43 +0000</pubDate>
+				<category><![CDATA[Anti-Phishing & Email Security]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14069</guid>
+
+					<description><![CDATA[Email providers no longer trust a domain just because it appears in the “From” address. Authentication has to back it up and that’s where DMARC comes in. Any domain planning to deploy a Verified Mark Certificate must first run DMARC with an enforcement policy. Mail providers rely on that policy to verify the sender before showing a brand logo in the inbox. This guide walks through the practical side of it: setting up DMARC and moving the domain toward enforcement, so it’s ready for BIMI and VMC deployment. What is DMARC? DMARC (Domain-based Message Authentication, Reporting &#38; Conformance) is an email authentication policy published as a TXT record in DNS. It lets receiving mail servers verify whether messages claiming to come from your domain are actually authorized. DMARC works on top of SPF and DKIM, checking that at least one of them passes and aligns with the sending domain. The record also tells receivers what to do when authentication fails. Three policies exist: p=none for monitoring p=quarantine to route suspicious mail to spam p=reject to block it outright Beyond enforcement, DMARC produces reports that show which systems are sending mail using your domain and whether those messages pass authentication. Also [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>HSM vs TPM: Security Comparison, Use Cases, and Deployment</title>
+		<link>https://www.cheapsslshop.com/blog/hsm-vs-tpm-security-comparison-use-cases-and-deployment</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 05 Mar 2026 12:38:58 +0000</pubDate>
+				<category><![CDATA[Code Signing]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14061</guid>
+
+					<description><![CDATA[Hardware Security Modules (HSM) and Trusted Platform Modules (TPM) are hardware-based security components built to protect cryptographic keys and operations. Both generate and protect cryptographic keys, but they operate in very different ways. They solve different problems and are not interchangeable. HSMs protect sensitive data in regulated industries without becoming a performance bottleneck. TPMs are built to secure individual devices at the hardware level. The real distinction comes down to scope, control, and deployment model. This guide compares HSM vs TPM across security architecture, real-world use cases, and operational deployment decisions &#8211; without blurring the line between device trust and enterprise cryptography. What is a TPM? Trusted Platform Modules (TPM) is a dedicated security chip that has been directly embedded into the motherboard of a device. It is a hardware root of trust that creates a base layer of security on which the operating system and software can depend. TPM is entirely device-oriented as opposed to centralized security systems. It also creates and stores cryptographic keys in the local environment. This localized manner would enable the TPM to contribute to such critical functions as secure boot and device integrity checks. It ensures system firmware or software does not get compromised [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>How to Trademark Your Logo for a Verified Mark Certificate (VMC)</title>
+		<link>https://www.cheapsslshop.com/blog/how-to-trademark-your-logo-for-a-verified-mark-certificate</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 27 Feb 2026 09:18:50 +0000</pubDate>
+				<category><![CDATA[Anti-Phishing & Email Security]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14051</guid>
+
+					<description><![CDATA[If you want your logo to appear next to your emails with a Verified Mark Certificate, one of the core prerequisites is that your logo must be a registered trademark. This guide walks through what qualifies as an acceptable trademark, how to register your logo correctly, and what to prepare before submitting VMC validation. Why Trademarking Your Logo is Required for a VMC Certificate A Verified Mark Certificate allows a registered logo next to authenticated emails in supported inboxes such as Gmail and Apple Mail. The certificate is issued against a logo that has an active, fully registered trademark. Trademark registration establishes legal ownership through a recognized intellectual property office. During VMC issuance, the Certificate Authority verifies that ownership directly in the official trademark database and confirms that the submitted logo matches the registered design. From an enforcement standpoint, this makes sense. This requirement exists to prevent logo spoofing within the BIMI framework. Inbox logo display creates a visual trust signal, and in supported environments like Gmail it also includes the verified blue checkmark. Without trademark validation, anyone could upload a polished logo and claim it. Registering the logo ties it to a legal entity. That connection is what allows [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AES vs DES Encryption Algorithms: Comparison Guide</title>
+		<link>https://www.cheapsslshop.com/blog/aes-vs-des-encryption-algorithms-comparison-guide</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 20 Feb 2026 06:26:23 +0000</pubDate>
+				<category><![CDATA[SSL University]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14035</guid>
+
+					<description><![CDATA[Encryption is a control layer, standing between your production database and a ransom note. It protects data at rest, in motion, and inside applications. If the algorithm is weak, everything above it is exposed, TLS, VPNs, disk encryption, authentication systems, all of it. AES and DES both come from the same world: symmetric block ciphers, single secret key, predictable structure. That’s where the similarity ends. DES was built for hardware from another era. Its key space is small enough to be brute-forced with rented cloud time. It survives today only because legacy systems still depend on it. AES was created to replace DES, not extend it. It uses 128-bit blocks, supports 128/192/256-bit keys, and scales across software and hardware platforms. It is fast, resistant to known cryptanalytic attacks, and widely implemented in modern protocols. This guide breaks down AES vs DES &#8211; how they’re built, how they behave under real workloads, and why one is still safe to deploy while the other is not. What is DES (Data Encryption Standard)? Data Encryption Standard (DES) is a symmetric cipher, which is mostly used for legacy applications. First developed by IBM, it was initially used to protect sensitive US government data. DES [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>10 Cost-Saving Tips to Buy SSL Certificates at the Best Price</title>
+		<link>https://www.cheapsslshop.com/blog/cost-saving-tips-to-buy-ssl-certificate-at-best-price</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 13 Feb 2026 09:03:52 +0000</pubDate>
+				<category><![CDATA[SSL University]]></category>
+		<guid isPermaLink="false">https://www.cheapsslshop.com/?p=14022</guid>
+
+					<description><![CDATA[Every website need SSL certificate that handles forms, logins, payments, or user data. If encryption is not enabled, browsers block forms, APIs fail behind mixed content, and search engines flag unencrypted pages. Certificates that use the same encryption and are trusted by the same browsers can still cost different amounts. The difference is it&#8217;s structure, coverage, validation, and how the certificate is bought and renewed. Most teams overspend because they pick the wrong type or buy without checking alternatives. This guide shows where SSL costs come from and how to cut them without weakening security. Why SSL Prices Vary So Widely SSL certificates cost can vary, even when they meet the same browser trust and encryption standards. The gap comes from how the certificate is issued, what it can secure, and how it is supported over its lifetime. The first cost driver is verification effort. Some certificates are issued almost instantly, while others require manual business checks, legal reviews, and audit documentation. More human validation means higher operational cost. The second driver is certificate scope. A certificate that secures a single hostname is priced differently from one that can protect multiple domains or entire subdomain trees. Greater coverage brings more [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

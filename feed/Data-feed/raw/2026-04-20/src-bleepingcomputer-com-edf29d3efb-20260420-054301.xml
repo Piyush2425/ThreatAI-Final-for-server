@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:atom="http://www.w3.org/2005/Atom"
+        >
+
+<channel>
+        <title>BleepingComputer</title>
+
+        <link>https://www.bleepingcomputer.com/</link>
+        <description>BleepingComputer - All Stories</description>
+        <pubDate>Mon, 20 Apr 2026 05:36:32 GMT</pubDate>
+        <generator>https://www.bleepingcomputer.com/</generator>
+        <language>en</language>
+        <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
+        
+ <item>
+        <title>Vercel confirms breach as hackers claim to be selling stolen data</title>
+        <link>https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/</link>
+        <pubDate>Sun, 19 Apr 2026 13:32:45 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/</guid>
+        <description><![CDATA[Cloud development platform Vercel has disclosed a security incident after threat actors claimed to have breached its systems and are attempting to sell stolen data. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Apple account change alerts abused to send phishing emails</title>
+        <link>https://www.bleepingcomputer.com/news/security/apple-account-change-alerts-abused-to-send-phishing-emails/</link>
+        <pubDate>Sun, 19 Apr 2026 12:03:01 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/apple-account-change-alerts-abused-to-send-phishing-emails/</guid>
+        <description><![CDATA[Apple account change notifications are being abused to send fake iPhone purchase phishing scams within legitimate emails sent from Apple's servers, increasing legitimacy and potentially allowing them to bypass spam filters. [...]]]></description>
+ </item>
+
+ <item>
+        <title>NIST to stop rating non-priority flaws due to volume increase</title>
+        <link>https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/</link>
+        <pubDate>Sun, 19 Apr 2026 10:17:43 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/</guid>
+        <description><![CDATA[The National Institute of Standards and Technology will stop assigning severity scores to lower-priority vulnerabilities due to the growing workload from rising submission volumes. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Critical flaw in Protobuf library enables JavaScript code execution</title>
+        <link>https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library-enables-javascript-code-execution/</link>
+        <pubDate>Sat, 18 Apr 2026 11:09:44 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library-enables-javascript-code-execution/</guid>
+        <description><![CDATA[Proof-of-concept exploit code has been published for a critical remote code execution flaw in protobuf.js, a widely used JavaScript implementation of Google's Protocol Buffers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft Teams right-click paste broken by Edge update bug</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-right-click-paste-broken-by-edge-update-bug/</link>
+        <pubDate>Sat, 18 Apr 2026 10:11:21 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-right-click-paste-broken-by-edge-update-bug/</guid>
+        <description><![CDATA[Microsoft is warning that a recent Microsoft Edge browser update introduced a bug that breaks right-click paste in chats in the Microsoft Teams desktop client. [...]]]></description>
+ </item>
+
+ <item>
+        <title>NAKIVO v11.2: Ransomware Defense, Faster Replication, vSphere 9, and Proxmox VE 9.0 Support</title>
+        <link>https://www.bleepingcomputer.com/news/security/nakivo-v112-ransomware-defense-faster-replication-vsphere-9-and-proxmox-ve-90-support/</link>
+        <pubDate>Sat, 18 Apr 2026 09:45:54 -0400</pubDate>
+        <dc:creator>Sponsored by NAKIVO</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/nakivo-v112-ransomware-defense-faster-replication-vsphere-9-and-proxmox-ve-90-support/</guid>
+        <description><![CDATA[NAKIVO Inc. announced the general availability of NAKIVO Backup & Replication v11.2, focused on fast, reliable, and proactive data protection. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Payouts King ransomware uses QEMU VMs to bypass endpoint security</title>
+        <link>https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/</link>
+        <pubDate>Fri, 17 Apr 2026 15:10:19 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/</guid>
+        <description><![CDATA[The Payouts King ransomware is using the QEMU emulator as a reverse SSH backdoor to run hidden virtual machines on compromised systems and bypass endpoint security. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Grinex exchange blames "Western intelligence" for $13.7M crypto hack</title>
+        <link>https://www.bleepingcomputer.com/news/security/grinex-exchange-blames-western-intelligence-for-137m-crypto-hack/</link>
+        <pubDate>Fri, 17 Apr 2026 11:08:53 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/grinex-exchange-blames-western-intelligence-for-137m-crypto-hack/</guid>
+        <description><![CDATA[Kyrgyzstan-based cryptocurrency exchange Grinex has suspended its operations after suffering a $13.7 million hack attributed to Western intelligence agencies. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Inside an Underground Guide: How Threat Actors Vet Stolen Credit Card Shops</title>
+        <link>https://www.bleepingcomputer.com/news/security/inside-an-underground-guide-how-threat-actors-vet-stolen-credit-card-shops/</link>
+        <pubDate>Fri, 17 Apr 2026 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Flare</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/inside-an-underground-guide-how-threat-actors-vet-stolen-credit-card-shops/</guid>
+        <description><![CDATA[In cybercrime markets, trust isn't assumed, it's verified. Flare reveals how underground guides teach actors to evaluate carding shops based on data quality, reputation, and survivability. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Webinar: From phishing to fallout — Why MSPs must rethink both security and recovery</title>
+        <link>https://www.bleepingcomputer.com/news/security/webinar-from-phishing-to-fallout-why-msps-must-rethink-both-security-and-recovery/</link>
+        <pubDate>Fri, 17 Apr 2026 08:20:28 -0400</pubDate>
+        <dc:creator>BleepingComputer</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/webinar-from-phishing-to-fallout-why-msps-must-rethink-both-security-and-recovery/</guid>
+        <description><![CDATA[Cyberattacks are evolving faster than many MSP and corporate defenses can keep up, with phishing driving much of today's cybercrime. Join our upcoming webinar to learn how to combine security and recovery strategies to reduce risk and maintain business continuity. [...]]]></description>
+ </item>
+
+ <item>
+        <title>CISA flags Apache ActiveMQ flaw as actively exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/</link>
+        <pubDate>Fri, 17 Apr 2026 05:30:15 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/</guid>
+        <description><![CDATA[CISA warned that attackers are now exploiting a high-severity Apache ActiveMQ vulnerability, which was patched earlier this month after going undetected for 13 years. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft: Some Windows servers enter reboot loops after April patches</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-reboot-loops-affecting-some-domain-controllers/</link>
+        <pubDate>Fri, 17 Apr 2026 03:59:47 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-reboot-loops-affecting-some-domain-controllers/</guid>
+        <description><![CDATA[Microsoft warns that some Windows domain controllers are entering restart loops after installing the April 2026 security updates. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Man gets 30 months for selling thousands of hacked DraftKings accounts</title>
+        <link>https://www.bleepingcomputer.com/news/security/man-gets-30-months-for-selling-thousands-of-hacked-draftkings-accounts/</link>
+        <pubDate>Fri, 17 Apr 2026 03:10:32 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/man-gets-30-months-for-selling-thousands-of-hacked-draftkings-accounts/</guid>
+        <description><![CDATA[23-year-old Kamerin Stokes of Memphis, Tennessee, was sentenced to 30 months in prison for selling access to tens of thousands of hacked DraftKings accounts. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Recently leaked Windows zero-days now exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/recently-leaked-windows-zero-days-now-exploited-in-attacks/</link>
+        <pubDate>Fri, 17 Apr 2026 02:14:52 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/recently-leaked-windows-zero-days-now-exploited-in-attacks/</guid>
+        <description><![CDATA[Threat actors are exploiting three recently disclosed Windows security vulnerabilities in attacks aimed at gaining SYSTEM or elevated administrator permissions. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Operation PowerOFF identifies 75k DDoS users, takes down 53 domains</title>
+        <link>https://www.bleepingcomputer.com/news/security/operation-poweroff-identifies-75k-ddos-users-takes-down-53-domains/</link>
+        <pubDate>Thu, 16 Apr 2026 18:26:34 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/operation-poweroff-identifies-75k-ddos-users-takes-down-53-domains/</guid>
+        <description><![CDATA[The latest wave of "Operation PowerOFF," on April 13, 2026, targeted the distributed denial-of-service (DDoS) ecosystem and its users across 21 countries. [...]]]></description>
+ </item>
+
+</channel>
+</rss>

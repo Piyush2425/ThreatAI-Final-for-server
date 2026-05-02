@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+        >
+
+<channel>
+    <title>Palo Alto Networks Blog</title>
+    <atom:link href="https://www.paloaltonetworks.com/blog/feed/" rel="self" type="application/rss+xml" />
+    <link>https://www.paloaltonetworks.com/blog/</link>
+    <description>Palo Alto Networks Blog</description>
+    <lastBuildDate>Fri, 17 Apr 2026 19:22:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>
+	hourly    </sy:updatePeriod>
+    <sy:updateFrequency>
+	1    </sy:updateFrequency>
+    <generator>https://wordpress.org/?v=6.9.1</generator>
+    <item>
+	<title>The AI Ecosystem Edge — Introducing Our Frontier AI Alliance</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/04/ai-ecosystem-edge-introducing-frontier-ai-alliance/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/04/ai-ecosystem-edge-introducing-frontier-ai-alliance/#respond</comments>
+	    
+	<dc:creator><![CDATA[Simone Gammeri]]></dc:creator>
+	<pubDate>Fri, 17 Apr 2026 19:00:34 +0000</pubDate>
+		<dcterms:extent>4</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/AdobeStock_321371261-edit-Op2-7-scaled.jpg" type="image/jpeg"  length="553183"/>
+	    		<category><![CDATA[AI Governance]]></category>
+		<category><![CDATA[AI Security]]></category>
+		<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Company & Culture]]></category>
+		<category><![CDATA[Frontier AI Defense]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=357015</guid>
+
+	    		<description><![CDATA[<p>Frontier AI accelerates cyberattacks. Palo Alto Networks and the Frontier AI Alliance deliver an industry-standard, unified defense for enterprise AI resilience.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/ai-ecosystem-edge-introducing-frontier-ai-alliance/">The AI Ecosystem Edge — Introducing Our Frontier AI Alliance</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<h3>Acting swiftly with intent, together with Accenture, Deloitte, IBM, NTT DATA and PwC</h3>
+<p>With the imminent release of unbounded frontier models, the barrier to entry for sophisticated cyberattacks has vanished. Anthropic’s Mythos represents a 50% leap in coding capability over previous models. It’s a leap that, as <a href="/blog/2026/04/defenders-guide-frontier-ai-impact-cybersecurity/">Lee Klarich stated</a>, translates into autonomous agents capable of both surfacing a massive surge of vulnerabilities and exploiting them faster than we’ve ever seen or imagined.</p>
+<p>In this new era, business continuity requires more than just better tools; it requires a unified ecosystem of experts capable of orchestrating a defense that matches this new pace of attack.</p>
+<p>As we drive the industry standard for addressing these emerging risks with our <a href="/blog/2026/04/introducing-unit-42-frontier-ai-defense/">Unit 42<sup>®</sup> Frontier AI Defense</a>, we’ve united an alliance of global transformation leaders, starting with Accenture, Deloitte, IBM, NTT DATA and PwC, and will continue to scale these alliances to ensure every enterprise has a rapid path to AI resilience.</p>
+<p><img fetchpriority="high" decoding="async" class="wp-image-357032 aligncenter" src="/blog/wp-content/uploads/2026/04/image-42-e1776450838359-230x67.png" alt="Frontier AI Alliance: Palo Alto Networks, Accenture, Deloitte, IBM, NTT Data, pwc." width="670" height="195" srcset="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/image-42-e1776450838359-230x67.png 230w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/image-42-e1776450838359-500x145.png 500w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/image-42-e1776450838359-768x222.png 768w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/image-42-e1776450838359-510x148.png 510w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/image-42-e1776450838359-138x40.png 138w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/image-42-e1776450838359-650x188.png 650w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/image-42-e1776450838359.png 960w" sizes="(max-width: 670px) 100vw, 670px" /></p>
+<p>By combining the world’s most advanced AI security platform with deep industry expertise, we are delivering the security assessment and rapid protection needed to help customers stop emerging threats and keep their business resilient.</p>
+<p><strong>Rex Thexton, Chief Technology Officer, Accenture Cybersecurity:</strong></p>
+<blockquote><p>As AI-driven attacks accelerate to machine speed, organizations must rethink how they protect critical assets. Together with Palo Alto Networks, we’re helping clients automate protection and reduce risk. By enabling an autonomous defense posture that detects and responds in minutes, we can empower organizations to scale their AI innovation with confidence.</p></blockquote>
+<p><strong>Deborah Golden, principal, Deloitte:</strong></p>
+<blockquote><p>As AI-driven threats accelerate, our mission is to help clients move even faster. By combining Deloitte’s implementation experience with Palo Alto Networks’ AI blueprint, we are rapidly delivering more complete security coverage to clients with near-real-time responsiveness, turning potential vulnerabilities into a foundation for resilient innovation.</p></blockquote>
+<p><strong>Mark Hughes, Global Managing Partner of Cybersecurity Services, IBM Consulting:</strong></p>
+<blockquote><p>In an environment where frontier models let attackers move faster than ever, organizations need defenses that can keep up. Joining the Frontier AI Alliance strengthens our commitment to helping organizations prepare for this new class of agentic, machine speed threats. IBM Autonomous Security plus Palo Alto Networks technologies bring together interoperable, vendor-agnostic digital workers that operate across an organization's full security stack, enabling security programs to act as a system rather than a collection of disconnected tools.</p></blockquote>
+<p><strong>Sandip Gupta, Head of Global Strategic Alliances, NTT DATA:</strong></p>
+<blockquote><p>Frontier AI is reshaping the economics of cyber defense. As threat actors move faster and operate with greater automation, organizations need a more resilient and adaptive approach to protecting business continuity. Through the Frontier AI Alliance, NTT DATA is combining Palo Alto Networks’ innovation with its global cybersecurity solutions and deep industry experience to help clients close critical security gaps, reduce complexity and strengthen resilience against AI-powered threats.</p></blockquote>
+<p><strong>Morgan Adamski, Principal and Cyber, Data, &amp; Technology Risk Leader, PwC:</strong></p>
+<blockquote><p>As AI-enabled cyber risk accelerates in both speed and scale, organizations cannot remediate issues fast enough through traditional approaches. Palo Alto Networks Unit 42 Frontier AI Defense combines Palo Alto Networks innovation in vulnerability discovery with PwC’s expertise to prioritize what matters, accelerate remediation, and build governance and resilience frameworks that operate at machine speed.</p></blockquote>
+<p>By engaging directly with Palo Alto Networks, or working with our partners through the Frontier AI Alliance, our customers can move past the complexity of building an AI-ready defense from scratch and gain:</p>
+<ul>
+<li>Accelerated Immunity: Go from a high-exposure state to a hardened posture using a prevalidated AI Defense Blueprint, delivering coverage in weeks, not years.</li>
+<li>On-Demand Expertise: Our partners provide the specialized prompting and verification required to make the latest AI Frontier models work for the defender.</li>
+<li>Operational Resilience: While Unit 42 provides the Frontier AI Exposure Analysis, our ecosystem partners provide the boots on the ground to remediate those findings and leverage our product portfolio to deliver AI-readiness to your enterprise.</li>
+</ul>
+<p>The threat of Mythos-class models is imminent, but the path to resilience is clear. Whether you are looking for an immediate strategic assessment or a deep operational overhaul, the Frontier AI Alliance is ready to move at the speed of your business.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/ai-ecosystem-edge-introducing-frontier-ai-alliance/">The AI Ecosystem Edge — Introducing Our Frontier AI Alliance</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/04/ai-ecosystem-edge-introducing-frontier-ai-alliance/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">357015</post-id>    </item>
+        <item>
+	<title>Defender&#039;s Guide to the Frontier AI Impact on Cybersecurity</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/04/defenders-guide-frontier-ai-impact-cybersecurity/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/04/defenders-guide-frontier-ai-impact-cybersecurity/#respond</comments>
+	    
+	<dc:creator><![CDATA[Lee Klarich]]></dc:creator>
+	<pubDate>Fri, 17 Apr 2026 13:51:12 +0000</pubDate>
+		<dcterms:extent>7</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/PANW-Unit42-AIAdvantage-e1776433374428.jpg" type="image/jpeg"  length="237669"/>
+	    		<category><![CDATA[AI Governance]]></category>
+		<category><![CDATA[AI Security]]></category>
+		<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Points of View]]></category>
+		<category><![CDATA[Products and Services]]></category>
+		<category><![CDATA[Unit 42 Frontier AI Defense]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=356996</guid>
+
+	    		<description><![CDATA[<p>Frontier AI models accelerate attacks. Learn the three-phase framework: Assessment, Protection, Platformization. Modernize security operations and match machine speed.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/defenders-guide-frontier-ai-impact-cybersecurity/">Defender&#039;s Guide to the Frontier AI Impact on Cybersecurity</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<p>The release of the newest frontier AI models marks <a href="/perspectives/weaponized-intelligence/">a turning point for cybersecurity</a>. Palo Alto Networks has conducted early testing of the latest frontier AI models, including Anthropic’s Mythos model as part of <a href="https://www.anthropic.com/glasswing" rel="nofollow,noopener" >Project Glasswing</a> and OpenAI’s latest models as part of <a href="https://openai.com/index/accelerating-cyber-defense-ecosystem/" rel="nofollow,noopener" >Trusted Access for Cyber</a> program. The conclusion is clear: They are extraordinarily capable at finding vulnerabilities and generating corresponding exploits.</p>
+<p>This generational improvement in coding ability directly translates to a significant advance in vulnerability discovery and exploit generation. These capabilities, however guardrailed, will not stay contained. Similar advances will appear across other major AI labs, Chinese models, and open source models. Attackers will find the seams in those guardrails. They will use advanced AI to discover zero-day vulnerabilities at scale, generate exploits in near real time, and develop autonomous attack agents unlike anything the industry has faced.</p>
+<p>Within six months, advanced AI models with deep cybersecurity capabilities will become commonplace. Organizations that have not put appropriate safeguards in place will face an entirely new class of risk across their enterprise and critical infrastructure.</p>
+<h2><a id="post-356996-_hywktaqby7vq"></a>Frontier AI: A Quantum Leap in Code Fluency</h2>
+<p>As you have probably already seen, the latest unbounded models like Mythos represent roughly a 50% improvement in coding efficiency over Anthropic’s previous leading model. Palo Alto Networks has had early access unbounded models and we’ve been able to leverage this vast improvement in coding to a quantum leap in scanning and offensive capability.</p>
+<p>Hundreds of our best security engineers have been assessing these capabilities and developing best practices for using it effectively. The results revealed several core truths:</p>
+<ul>
+<li><em>Vulnerability discovery at scale</em>: Frontier AI is exceptionally effective at identifying vulnerabilities in code. In less than three weeks, it accomplished the equivalent of a full year’s worth of penetration testing effort.</li>
+<li><em>Attack path determination</em>: Perhaps more impressive than finding individual vulnerabilities, Frontier AI excels at vulnerability chaining, combining multiple lower-severity issues into critical-level exploit paths. For example, linking two medium-severity and one low-severity vulnerability into a single critical exploit.</li>
+<li><em>Full-stack logic analysis</em>: Frontier AI can analyze the full exposure surface of applications, including SaaS and public-facing platforms, identifying logic-based vulnerabilities that traditional tools miss.</li>
+</ul>
+<h2><a id="post-356996-_1hfq80uqokqu"></a>Impacts on the Cyber Landscape</h2>
+<p>Attackers have been using LLMs for years, but based on our testing of frontier AI models, there are three key areas where they will have a significant impact on the cybersecurity landscape:</p>
+<ol>
+<li><em>The Vulnerability Deluge</em>: Frontier AI models will dramatically accelerate the rate at which vulnerabilities are discovered, by defenders and attackers alike. This will be particularly acute in open source and critically, the flood of patches that follows will itself create risk. Every patch that is not applied immediately becomes a known, targetable vulnerability. Organizations will need to accelerate and automate their patching programs, rethink how they prioritize and apply patches, and ensure best-in-class protections are in place to mitigate vulnerability until they can be remediated.</li>
+<li><em>Rise of Inside-Out Attacks</em>: Recent supply chain attacks on tools like LiteLLM and Trivy demonstrate a growing pattern where attacks land adversaries inside an organization’s infrastructure, bypassing multiple conventional attack steps and reducing the number of prevention opportunities available to defenders. The rapid deployment of AI infrastructure has made this problem more acute as the AI supply chain, including runtime environments, communication infrastructure, and model dependencies, is often insufficiently protected. While open source usage and patching practices must become significantly more robust, organizations will need structural containment of potential attacks through zero trust, identity modernization, outbound connection restrictions and lateral movement protections.</li>
+<li><em>Faster AI-Assisted Attack Cycles</em>: I expect the most consequential shift with frontier AI models is the move from AI-assisted to AI-driven attacks. Attackers will build autonomous attack agents that dramatically compress attack cycle times. What once took days or weeks of skilled manual effort will soon be executed in minutes. This democratization of advanced attack capabilities means that defenders must match that speed with near-real-time detection and response, which is only possible with extensive AI and automation throughout security operations. Organizations whose Mean Time to Detection and Mean Time to Response are not measured in low single-digit minutes will be outpaced.</li>
+</ol>
+<h2><a id="post-356996-_235pv6hjhjlw"></a>The Defenders Guide: Assessment, Protection, Platformization</h2>
+<p>The framework for defending against AI-driven threats is not completely new, but the standard for execution must be absolute. Organizations that are “mostly protected” are effectively unprotected. What follows is a phased approach – assessment, protection and platformization – that organizations should pursue in parallel to close gaps before attackers exploit them.</p>
+<p><strong>Assessment:</strong> Every organization should use the latest AI models to assess its entire code and application landscape and build a comprehensive asset and exposure inventory.</p>
+<p>Key priorities:</p>
+<ul>
+<li>Leverage AI models to identify vulnerabilities across your codebase, applications and infrastructure before attackers do.</li>
+<li>Evaluate exposure with full context, including how vulnerabilities chain together to form critical exploit paths.</li>
+<li>Audit your open source supply chain, including AI infrastructure, runtime environments and model dependencies.</li>
+<li>Map your current sensor coverage. Detection, prevention and telemetry gaps represent critical blind spots.</li>
+</ul>
+<p><strong>Protect &amp; Remediation: </strong>Remediating and reducing exposure is table-stakes. What in the past may have been difficult due to cross-organizational friction of finding and fixing at pace should now be accelerated with the c-suite attention of these new AI models. But this must go further and extend to comprehensive deployment of best-in-class attack prevention capabilities where the new standard is 100% coverage and optimization.</p>
+<ul>
+<li>XDR everywhere, with emphasis on real-time ML-based detection and prevention of attacks; all hosts on prem and cloud included.</li>
+<li>Agentic endpoint security to secure wide-scale adoption of vibe coding and AI security across the enterprise (e.g. Prisma AIRS and our recent acquisition of Koi is now a necessity for securing the agentic endpoint).</li>
+<li>With an average of 85% of work now happening in the browser, secure enterprise browsers with real-time security become a must-have for attack prevention.</li>
+<li>Zero trust and identity security are foundational to securing every user and every connection.</li>
+</ul>
+<p><strong>Real-Time Security Operations:</strong> With attack cycle times shrinking rapidly, the legacy approach to security operations simply doesn’t work. Disparate tools analyzing data in silos overlaid with manual processes must be replaced with AI and automation throughout. Cortex XSIAM, our AI-driven SOC platform, is what I consider to be the gold standard for how to take a next-generation approach to deliver MTTD and MTTR in single digit minutes.</p>
+<ul>
+<li>Attack detections must be AI/ML driven to detect even frequently-changing and novel attacks at scale.</li>
+<li>These AI detections must operate against a wide range of 1st party and 3rd party data sources – a best in class AI SOC must operate on ALL relevant data sources.</li>
+<li>Automation both natively integrated and throughout the SOC lifecycle is necessary to achieve single digit MTTR; this automation will increasingly be agentic.</li>
+<li>This must be delivered as a platform to remove the seams and gaps between point solutions.</li>
+</ul>
+<h2><a id="post-356996-_mftxthxx0x9a"></a>We’re Here to Help</h2>
+<p>Achieving this level of resilience requires the right platforms and the right expertise.</p>
+<p>To help you navigate this shift, we are introducing <a href="/unit42/ai-advantage" target="_blank" rel="noopener">Unit 42 Frontier AI Defense</a>. This new offering is designed to discover and remediate your current exposure before attackers do, strengthen controls that reduce exposure and contain impact and modernize operations so teams can detect and respond at machine speed.</p>
+<p>This is the moment we’ve been preparing for. The threat has never been more sophisticated, but the path forward has never been clearer, and we’re here to partner with you on what comes next.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/defenders-guide-frontier-ai-impact-cybersecurity/">Defender&#039;s Guide to the Frontier AI Impact on Cybersecurity</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/04/defenders-guide-frontier-ai-impact-cybersecurity/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">356996</post-id>    </item>
+        <item>
+	<title>Introducing Unit 42 Frontier AI Defense</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/04/introducing-unit-42-frontier-ai-defense/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/04/introducing-unit-42-frontier-ai-defense/#respond</comments>
+	    
+	<dc:creator><![CDATA[Sam Rubin]]></dc:creator>
+	<pubDate>Fri, 17 Apr 2026 13:13:41 +0000</pubDate>
+		<dcterms:extent>3</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/unit42_fight-ai_webpage-hero_1920x1080-1.jpg" type="image/jpeg"  length="337253"/>
+	    		<category><![CDATA[AI Governance]]></category>
+		<category><![CDATA[AI Security]]></category>
+		<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Products and Services]]></category>
+		<category><![CDATA[Unit 42]]></category>
+		<category><![CDATA[Unit 42 Frontier AI Defense]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=356826</guid>
+
+	    		<description><![CDATA[<p>AI is changing attacks. Unit 42 Frontier AI Defense helps you modernize your security operations to contain machine-speed threats.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/introducing-unit-42-frontier-ai-defense/">Introducing Unit 42 Frontier AI Defense</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<p>Frontier AI models have given the security industry a preview of what comes next. As they become weaponized, attackers will automate the discovery and chaining of vulnerabilities in near real-time – compressing timelines, increasing scale and outpacing human-led defense.</p>
+<p><img decoding="async" class="wp-image-356966 aligncenter" src="/blog/wp-content/uploads/2026/04/Screenshot-2026-04-16-at-7.18.07-PM-230x54.png" alt="Zero-day discovery at scale, immediate exploitation, defense-in-depth evasion, systemic supply chain exposure, autonomous attack execution." width="762" height="179" srcset="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/Screenshot-2026-04-16-at-7.18.07-PM-230x54.png 230w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/Screenshot-2026-04-16-at-7.18.07-PM-500x116.png 500w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/Screenshot-2026-04-16-at-7.18.07-PM-768x179.png 768w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/Screenshot-2026-04-16-at-7.18.07-PM-510x119.png 510w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/Screenshot-2026-04-16-at-7.18.07-PM-172x40.png 172w" sizes="(max-width: 762px) 100vw, 762px" /></p>
+<p>Until now, defenders have had time to detect activity, investigate signals and contain threats before exposures were chained into full attacks. AI is quickly closing this window.</p>
+<p>Defending against AI-driven threats means engineering a resilient architecture that limits how easily attackers can exploit discovered weaknesses, that contains the blast radius when they do, and enables faster response at scale. It also means using AI to accelerate the security program itself, from vulnerability discovery and code review to triage, remediation and incident response.</p>
+<p>The transition should cover three areas. First, discover and remediate your current exposure before attackers do. Second, strengthen controls that reduce exposure and contain impact. Third, modernize operations so teams can detect and respond in real-time.</p>
+<p><strong>To help organizations make this shift, Palo Alto Networks is launching </strong><a href="/unit42/ai-advantage"><strong>Unit 42<sup><span style="font-weight: 400;">®</span></sup> Frontier AI Defense</strong></a><strong>.</strong></p>
+<p>Powered by the latest AI models, Unit 42 Frontier AI Defense helps organizations answer a critical question: Are your defenses ready for AI-powered attacks?</p>
+<p>Unit 42 Frontier AI Defense combines three core components delivered by expert consultants, coupled with 6 months of complimentary access to <a href="/cortex/cortex-xdr">Cortex<sup><span style="font-weight: 400;">® </span></sup>XDR</a>, <a href="http://paloaltonetworks.com/cortex/cortex-xpanse">Cortex Xpanse<sup><span style="font-weight: 400;">®</span></sup></a> and <a href="/blog/2026/02/securing-the-agentic-endpoint/">Koi Agentic Security</a>.</p>
+<p><strong>Frontier AI Exposure Analysis:</strong> Identify and validate the exposures most likely to be chained into real attacks before attackers weaponize them.</p>
+<p style="padding-left: 40px;"><strong>Actions</strong></p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>Use the latest frontier models, Unit 42 offensive security expertise, threat telemetry and Unit 42 Threat Intelligence to assess your environment.</li>
+<li>Identify the vulnerabilities, misconfigurations and posture gaps most likely to be exploited across infrastructure, applications, code, identity and cloud.</li>
+<li>Validate the attack paths most likely to matter in real-world attacks.</li>
+</ul>
+</li>
+</ul>
+<p style="padding-left: 40px;"><strong>Outputs</strong></p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>A prioritized view of vulnerabilities and attack paths that matter most</li>
+<li>Clear actions to fix the exposures that matter first</li>
+</ul>
+</li>
+</ul>
+<p><strong>Autonomous Security Blueprint:</strong> Benchmark current capabilities and define the changes required for machine-speed defense.</p>
+<p style="padding-left: 40px;"><strong>Actions</strong></p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>Assess current-state capabilities across attack surface, identity, software supply chain, zero trust containment, as well as real-time detection and response.</li>
+<li>Identify where AI-powered threats create the greatest exposure and where current controls are most likely to fail.</li>
+<li>Define the technical and operational changes required to close those gaps.</li>
+</ul>
+</li>
+</ul>
+<p style="padding-left: 40px;"><strong>Outputs</strong></p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>A clear blueprint for immediate action</li>
+<li>A prioritized roadmap to reduce exposure, strengthen containment and modernize security for the AI era</li>
+</ul>
+</li>
+</ul>
+<p><strong>Agentic Defense Transformation:</strong> Implement the prioritized architecture, control and operating changes needed to modernize defenses for AI-driven threats.</p>
+<p style="padding-left: 40px;"><strong>Actions</strong></p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>Implement the architectural, operational and control changes required to defend against AI-driven threats.</li>
+<li>Modernize exposure management, harden the software supply chain, and advance zero trust architecture.</li>
+<li>Build response capabilities that can keep pace with autonomous attacks.</li>
+</ul>
+</li>
+</ul>
+<p style="padding-left: 40px;"><strong>Outputs</strong></p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>Accelerated implementation of the changes that matter most</li>
+<li>A more modern security architecture, built to reduce exposure and improve containment</li>
+</ul>
+</li>
+</ul>
+<h2><a id="post-356826-_9j6zb312sn2e"></a>The Window Is Still Open, for Now</h2>
+<p>AI is the biggest security inflection point since enterprises moved to the cloud. Organizations that act now will be the ones that are ready. Those that wait will be forced to respond under maximum pressure on the worst possible day.</p>
+<p>Frontier AI is changing what is possible for attackers. In the hands of defenders, it can become a decisive advantage.</p>
+<p>Human-speed security is no longer enough. A modern security approach is required. <a href="/unit42/ai-advantage">Get started with Unit 42 Frontier AI Defense today</a>.</p>
+<p><span style="font-size: 10pt;"><em>*The complimentary offer is not available to public sector customers or current Cortex XDR, Cortex Xpanse or Koi customers.</em></span></p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/introducing-unit-42-frontier-ai-defense/">Introducing Unit 42 Frontier AI Defense</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/04/introducing-unit-42-frontier-ai-defense/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">356826</post-id>    </item>
+        <item>
+	<title>Securing the UK’s Digital Future</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/04/securing-uks-digital-future/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/04/securing-uks-digital-future/#respond</comments>
+	    
+	<dc:creator><![CDATA[Alistair Wildman]]></dc:creator>
+	<pubDate>Thu, 16 Apr 2026 08:00:12 +0000</pubDate>
+		<dcterms:extent>6</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/GettyImages-949580946-edit-scaled.jpg" type="image/jpeg"  length="275651"/>
+	    		<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Government]]></category>
+		<category><![CDATA[Products and Services]]></category>
+		<category><![CDATA[Public Sector]]></category>
+		<category><![CDATA[national security]]></category>
+		<category><![CDATA[UK Government]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=356720</guid>
+
+	    		<description><![CDATA[<p>Palo Alto Networks reaffirms its deep commitment to UK digital security, ensuring data autonomy, resilience and control for British organizations.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/securing-uks-digital-future/">Securing the UK’s Digital Future</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<h1><a id="post-356720-_2cezo4gcw7ye"></a>Our Commitment to Data Autonomy and National Resilience</h1>
+<p>The United Kingdom has established itself as a leading global cyber power. Over the last decade, Palo Alto Networks has been proud to work alongside British institutions to protect the digital borders of a highly innovative economy. As UK organisations navigate an evolving threat landscape and adopt transformative technologies, like AI, the need for security partners who understand British operational realities has never been greater.</p>
+<h2><a id="post-356720-_jqm4z22ymcck"></a>The Path to Digital Autonomy, Resilience and Control</h2>
+<p>Organisations today require more than a technology provider. They need a partner that understands the specific legal frameworks and strategic priorities of the British landscape. We are reaffirming our deep commitment to the UK, safeguarding British data as a core part of national resilience, even as both technology and cyber adversaries evolve.</p>
+<p>The targeting of UK infrastructure is a daily operational reality. According to our <a href="/resources/research/unit-42-incident-response-report">Unit 42 2026 Global Incident Response Report</a>, attackers are moving at unprecedented speed, with exfiltration speeds for the fastest attacks quadrupling in 2025. Identity weaknesses played a material role in almost 90% of Unit 42® investigations, as attackers increasingly exploit stolen credentials and fragmented identity systems to escalate privileges and move laterally. These threats span across all sectors, from NHS patient data to local government systems and energy networks.</p>
+<p>UK organisations need partners who understand their unique requirements. While our broader <a href="/blog/2025/07/building-trust-in-digital-age/">European commitments</a> provide a strong foundation, we recognise that the UK requires a dedicated focus across data protection, critical infrastructure security and public-private collaboration. This includes a deep-rooted local presence, aligning our operations with national standards of protection to support British ingenuity and ambition.</p>
+<h2><a id="post-356720-_25mqb69p112o"></a>Control Over Your Data</h2>
+<p>Genuine data control requires two things: understanding exactly how and under which laws your information is handled and having the technical capabilities to enforce that control.</p>
+<p>For UK customers, we provide the capability to host data within <a href="/products/regional-cloud-locations">UK-based infrastructure</a>, ensuring that critical data can be stored in regions that align with UK data protection requirements. Additionally, for applicable products and services, we offer Bring Your Own Encryption Keys (BYOK) capabilities, giving you direct control over the encryption protecting your data.</p>
+<p>Our agreements are built to comply with UK GDPR requirements and include the necessary protections for any cross-border data transfers. But beyond contractual obligations, we operate on a fundamental principle: Your data serves only the purpose for which you’ve engaged us.</p>
+<p>How we handle different data categories:</p>
+<p style="padding-left: 40px;"><strong>1. Customer and Personal Data Are Processed Only to Serve You</strong></p>
+<p style="padding-left: 40px;">We process your Customer Data and Personal Data exclusively to deliver the services you have purchased. This includes the content of your communications and files uploaded for support. The purpose is singular: delivering the security and protection you’ve contracted us to provide.</p>
+<p style="padding-left: 40px;"><strong>2. Systems Data Is Used to Enhance Functionality and Collective Defence</strong></p>
+<p style="padding-left: 40px;">To provide effective security, our products generate Systems Data, which includes technical logs, performance metrics and threat indicators. This information serves three main purposes: ensuring the day-to-day functionality of your services, enabling our teams to provide expert technical support and troubleshooting, and powering our global threat research capabilities.</p>
+<p>When a new threat is detected against a specific UK sector, our entire network receives updated protection within minutes. This allows British organisations to benefit from global threat intelligence. We handle Systems Data in ways that preserve your operational privacy, ensuring the intelligence value comes from understanding threat patterns, not identifying individual organisations.</p>
+<p>For detailed technical information on how we categorise and handle data, see our <a href="/content/dam/pan/en_US/assets/pdf/legal/customer-data.pdf" rel="nofollow,noopener" >Customer Data</a>, <a href="/content/dam/pan/en_US/assets/pdf/legal/personal-data.pdf" rel="nofollow,noopener" >Personal Data and</a> <a href="/content/dam/pan/en_US/assets/pdf/legal/systems-data.pdf" rel="nofollow,noopener" >Systems Data</a> whitepapers.</p>
+<h2><a id="post-356720-_dwf74g9kmksm"></a>Transparency in Practice</h2>
+<p>We publish a biannual <a href="/content/dam/pan/en_US/assets/pdf/legal/transparency-report.pdf" rel="nofollow,noopener" >Transparency Report </a>detailing all government and law enforcement data requests we receive. This isn’t simply about compliance. It’s about providing UK organisations with verifiable evidence of how we handle requests, enabling informed risk assessment and governance oversight. For more information, please visit the <a href="/legal-notices/trust-center/privacy">Privacy Section</a> in our Trust Center.</p>
+<h2><a id="post-356720-_77ivtaiu2pq2"></a>Securing Critical National Infrastructure</h2>
+<p>The UK’s <a href="https://www.npsa.gov.uk/about-npsa/critical-national-infrastructure" rel="nofollow,noopener" >13 sectors</a> of Critical National Infrastructure represent the backbone of society. These sectors require security solutions built with an understanding of their unique threat models, from the specific requirements of an NHS trust to the challenges facing an energy provider.</p>
+<p>We currently serve hundreds of UK public sector organisations across government, health and critical infrastructure sectors, which include the UK Government, UK Home Office and the Ministry of Justice<em>. </em></p>
+<h2><a id="post-356720-_l649qxybhn73"></a>Operational Resilience</h2>
+<p>For the UK’s most critical services, operational resilience is paramount. Our security platforms are designed for high availability and reliability, helping organisations maintain continuous protection even during disruptions.</p>
+<h2><a id="post-356720-_gi7mnjrp7cuv"></a>Trust and Transparency</h2>
+<p>Palo Alto Networks is deeply integrated into the UK’s security ecosystem, ensuring our solutions exceed national benchmarks for resilience and transparency.</p>
+<p>We hold <a href="/legal-notices/trust-center/cyber-essentials-plus">Cyber Essentials Plus certification</a> and align with the <a href="/resources/whitepapers/palo-alto-networks-ncsc-vendor-response">NCSC Cloud Security Principles</a>, providing assurance to customers that we adhere to the highest security protocols to protect their most critical assets. As a Software Security Ambassador and a committed supporter of the NCSC Telecom Vendor Assessment, we are committed to enhancing the security of the UK’s telecommunications and software supply chains.</p>
+<p>Beyond compliance, our Unit 42 team serves as an <a href="/legal-notices/trust-center/ncsc-cir-enhanced-level-assured-service-provider">NCSC-assured Cyber Incident Response (CIR) Enhanced Level provider</a>, offering specialised incident support to help UK organisations navigate and recover from the most complex incidents. For customers with specific requirements, particularly in defence and national security, we can provide support from personnel in countries with compatible security standards and legal frameworks. We are <a href="/resources/whitepapers/palo-alto-networks-uk-telecoms-security-framework-alignment-statement">committed</a> to the Telecommunications Security Act (TSA) Code of Practice, supporting the resilience of the UK’s public telecommunications networks.</p>
+<p><strong>Strengthening Local Expertise with National Impact</strong></p>
+<p>Our investment in the UK extends across our people, infrastructure and local expertise. Operating from our London hub, we remain deeply connected to the communities we serve and make a direct and indirect contribution to the UK economy. Our UK-based teams span engineering, threat research, professional services, policy and security strategy, and have a deep understanding of the UK market and the requirements of our customers. We also partner with NCSC CyberFirst and others on developing the next generation of cyber talent, and our Cyber Academy Program partners with universities and colleges all over the UK to train the next generation of cyber defenders.</p>
+<h2><a id="post-356720-_di42v15owy1l"></a>A Partnership Built on Trust and Verifiable Commitments</h2>
+<p>The UK’s digital autonomy increasingly depends on its ability to secure both cyber infrastructure and the emerging AI economy. This requires partnerships that serve the UK’s long-term national interests, grounded in trusted institutions, local expertise and transparency that enables commitments to be verified, not simply asserted.</p>
+<p>We recognise that the UK’s cyber landscape is shaped by its legal framework, strategic priorities and threat environment. From protecting critical infrastructure to enabling the secure adoption of AI, organisations across the UK need to trust their security partner to deliver on their commitments. Palo Alto Networks is committed to maintaining and increasing that trust through verifiable action, transparency, accountability and an enduring partnership.</p>
+<p>To learn more about our comprehensive commitment to digital trust, privacy and security, visit the Palo Alto Networks <a href="/legal-notices/trust-center">Trust Center</a>.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/securing-uks-digital-future/">Securing the UK’s Digital Future</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/04/securing-uks-digital-future/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">356720</post-id>    </item>
+        <item>
+	<title>Announcing ADEM Universal Agent</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/04/announcing-adem-universal-agent/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/04/announcing-adem-universal-agent/#respond</comments>
+	    
+	<dc:creator><![CDATA[Priya Ramarathnam, Chitra Shastri and Akshay Viswanathan]]></dc:creator>
+	<pubDate>Wed, 08 Apr 2026 14:00:29 +0000</pubDate>
+		<dcterms:extent>5</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/AdobeStock_459952088-edit-9-scaled.jpg" type="image/jpeg"  length="344488"/>
+	    		<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Products and Services]]></category>
+		<category><![CDATA[ADEM Universal Agent]]></category>
+		<category><![CDATA[Prisma Access]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=356251</guid>
+
+	    		<description><![CDATA[<p>The ADEM Universal Agent for Prisma Access unifies network data across branch sites to fuel agentic autonomous operations. Get full-stack visibility.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/announcing-adem-universal-agent/">Announcing ADEM Universal Agent</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<h1><a id="post-356251-_a0ygow1mfqqb"></a>Delivering Exceptional Branch Experience for Modern Distributed Enterprises</h1>
+<p>In modern enterprises, the "network perimeter" is a relic of the past. As organizations scale globally to support home offices, satellite branches and third-party clouds, the challenge has shifted. Now the onus is on optimizing the end-to-end digital experience. And to maintain that edge, enterprises must operate at machine speed, supported by agentic autonomous operations. They must make sure that every user, regardless of their location or underlying hardware, experiences uninterrupted performance, seamless security and peak user experience from “Day 0” to keep pace with the speed of business.</p>
+<p>To meet this demand, we are proud to announce the general availability of the <a href="/sase/adem" target="_blank" rel="noopener">Autonomous Digital Experience Management Universal Agent</a>, or ADEM Universal Agent, for Prisma<sup>®</sup> Access customers. This breakthrough marks a significant milestone in our mission to automate deployment and operations by unifying fragmented infrastructure and providing the flexibility to deploy, using infrastructure hardware of your choice.</p>
+<h3><a id="post-356251-_x047gx16ubn9"></a>Continued Data Gap Is a Roadblock for Agentic Operations</h3>
+<p>Organizations are shifting toward "best-of-breed" architectures to operate at machine speed, but they often lack the unified telemetry required for automated operations. Any tool built on top of this architecture to enhance the digital experience is only as effective as the data it consumes. Traditional monitoring tools often lack the precise data and contextual correlation needed to drive agentic resolution. In this siloed landscape, three critical gaps have emerged:</p>
+<ul>
+<li><strong>Data Entropy:</strong> Fragmented data is inconsistent and leads to unreliable automation. Without unified data, automated workflows become unreliable and risky to execute at scale.</li>
+<li><strong>Hardware Dependency:</strong> Traditional monitoring agents often require specific hardware platforms, which can severely limit deployment speed and the ability to adapt to diverse customer infrastructures.</li>
+<li><strong>Blind Spots:</strong> Data entropy and hardware dependency have resulted in data gaps, and therefore visibility gaps at the edge, and as a result, automated systems cannot pinpoint root causes, leaving IT teams trapped in manual troubleshooting.</li>
+</ul>
+<p>To operate at machine speed, enterprises need more than <em>visibility</em>. They need a unified, high-fidelity data engine to create the foundation of fail-safe autonomous operations for a stellar digital experience.</p>
+<h3><a id="post-356251-_pqj3q48jfcok"></a>The Universal Agent Contributes to a Unified Data Engine for Agentic Autonomy</h3>
+<p>The ADEM Universal Agent is a hardware-agnostic solution that can be deployed on any branch site connecting to Prisma Access. It can be hosted on virtual machines or Docker containers, regardless of the underlying infrastructure. ADEM Universal Agent transforms branch experiences by providing a unified data engine for agentic operations:</p>
+<ul>
+<li><strong>Deploy Anywhere and Monitor Everywhere<br />
+</strong>The Universal Agent can be deployed at any branch site connected to Prisma Access, enabling IT teams to run synthetic tests from the branch regardless of underlying infrastructure hardware.</li>
+</ul>
+<ul>
+<li><strong>Bridge the Gap Between Vendor-Locked Silos and Machine-Speed Operations<br />
+</strong>The Universal Agent aggregates disparate environment data into key metrics geared toward agentic operations, enabling IT teams to move beyond fragmented troubleshooting, toward unified, proactive governance of their entire IT footprint.</li>
+</ul>
+<ul>
+<li><strong>Accelerate Troubleshooting with Granular Path Analysis<br />
+</strong>When a user in a remote branch reports a slowdown, IT teams need more than a "red/green" status light. The Universal Agent provides a granular path analysis, delivering a hop-by-hop visualization with both overlay and underlay tunnel metrics, enabling them to quickly pinpoint bottlenecks.</li>
+</ul>
+<p>Thus, by mapping the entire path from the Universal Agent to the target application, IT teams can pinpoint exactly where the friction lies.</p>
+<ul>
+<li>Is it a local network issue?</li>
+<li>An ISP (internet service provider) bottleneck?</li>
+<li>A bottleneck at a handoff between providers?</li>
+<li>Is the application's own network at fault?</li>
+</ul>
+<figure id="attachment_356265" aria-describedby="caption-attachment-356265" style="width: 796px" class="wp-caption aligncenter"><img decoding="async" class="wp-image-356265" src="/blog/wp-content/uploads/2026/04/word-image-356251-1.gif" alt="Universal Agent example. " width="796" height="496" /><figcaption id="caption-attachment-356265" class="wp-caption-text">ADEM Universal Agent at a glance.</figcaption></figure>
+<h3><a id="post-356251-_nynzgdrkkndc"></a>The Universal Agent Offers Inherent Security and Operational Simplicity</h3>
+<p>To help ensure that organizations can maintain peak performance and security amidst a constant stream of changes, the Universal Agent is built on a foundation of robust features:</p>
+<ul>
+<li><strong>Native Integration with Prisma Access for Accelerated Troubleshooting<br />
+</strong>The Universal Agent is natively integrated with Prisma Access and automatically discovers the POP (Point of Presence) location and IP infrastructure where the branch site is connected to monitor overlay and underlay, hop-by-hop, ISP health, all the way to the application to deliver precise root-cause analysis.</li>
+</ul>
+<figure id="attachment_356278" aria-describedby="caption-attachment-356278" style="width: 723px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="wp-image-356278" src="/blog/wp-content/uploads/2026/04/word-image-356251-2.png" alt="From the Universal Agent to the network node." width="723" height="402" srcset="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-2.png 1852w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-2-230x128.png 230w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-2-500x278.png 500w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-2-768x427.png 768w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-2-1536x854.png 1536w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-2-510x284.png 510w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-2-72x40.png 72w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-2-539x300.png 539w" sizes="auto, (max-width: 723px) 100vw, 723px" /><figcaption id="caption-attachment-356278" class="wp-caption-text">Native integration with Prisma Access.</figcaption></figure>
+<ul>
+<li><strong>Simplified Deployment at Scale<br />
+</strong>IT teams can deploy and manage multiple agents at scale with just a few clicks from the Strata&#x2122; Cloud Manager Platform. Through our autonomous AI operations platform, we leverage enriched telemetry to watch the network and proactively manage it all from a unified platform.</li>
+</ul>
+<figure id="attachment_356291" aria-describedby="caption-attachment-356291" style="width: 801px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="wp-image-356291" src="/blog/wp-content/uploads/2026/04/word-image-356251-3.png" alt="Dashboard of Access Experience Management " width="801" height="499" srcset="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-3.png 2048w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-3-230x143.png 230w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-3-500x311.png 500w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-3-768x478.png 768w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-3-1536x956.png 1536w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-3-482x300.png 482w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-3-64x40.png 64w" sizes="auto, (max-width: 801px) 100vw, 801px" /><figcaption id="caption-attachment-356291" class="wp-caption-text">Bulk deployment of Universal Agent with just a few clicks.</figcaption></figure>
+<ul>
+<li><strong>Comprehensive Full-Stack Visibility<br />
+</strong>We utilize a single agent per branch site to deliver deep visibility into both overlay and underlay tunnel metrics. This granular path analysis allows IT teams to pinpoint network bottlenecks using hop-by-hop visualizations from the Universal Agent all the way to the target application.</li>
+</ul>
+<figure id="attachment_356304" aria-describedby="caption-attachment-356304" style="width: 824px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="wp-image-356304" src="/blog/wp-content/uploads/2026/04/word-image-356251-4.png" alt="Application Performance Metrics" width="824" height="326" srcset="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-4.png 2048w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-4-230x91.png 230w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-4-500x198.png 500w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-4-768x304.png 768w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-4-1536x608.png 1536w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-4-510x202.png 510w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-4-101x40.png 101w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-356251-4-650x257.png 650w" sizes="auto, (max-width: 824px) 100vw, 824px" /><figcaption id="caption-attachment-356304" class="wp-caption-text">Hop-by-hop visualization with overlay and underlay tunnel metrics.</figcaption></figure>
+<h3><a id="post-356251-_wzcuqxarq1id"></a>The Universal Agent Optimizes End-to-End Digital Experience with Unified Operations</h3>
+<p>The launch of the ADEM Universal Agent represents a fundamental shift in how we architect the distributed enterprise, from moving beyond managing data gaps into agentic, machine-speed orchestration. Natively integrated with Prisma Access, the Universal Agent synthesizes disparate network data across multiple branch sites into a unified, vendor-agnostic ecosystem. By eliminating the 'noise' of traditional monitoring, it provides the deterministic precision and real-time context required to fuel agentic autonomous operations, enabling every automated action to be accurate, impactful and optimized for a flawless digital experience.</p>
+<p><span style="font-weight: 400;">Ready to gain complete application experience from all branch sites and remote users? Watch our announcement video below to see the Universal Agent in action. </span><span style="font-weight: 400;">Visit the</span> <a href="/sase/adem"><span style="font-weight: 400;">ADEM webpage</span></a><span style="font-weight: 400;"> for more information or</span> <a href="/sase/adem#connect"><span style="font-weight: 400;">request a demo</span></a><span style="font-weight: 400;">.</span></p>
+<p><div class="styleIt" style="width:560px;height:315px;"><lite-youtube videoid="e1YeVZ1_uAk" ></lite-youtube></div></p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/announcing-adem-universal-agent/">Announcing ADEM Universal Agent</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/04/announcing-adem-universal-agent/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">356251</post-id>    </item>
+        <item>
+	<title>Palo Alto Networks at Nutanix .NEXT 2026</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/04/at-nutanix-next-2026/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/04/at-nutanix-next-2026/#respond</comments>
+	    
+	<dc:creator><![CDATA[Lee Space]]></dc:creator>
+	<pubDate>Tue, 07 Apr 2026 18:31:20 +0000</pubDate>
+		<dcterms:extent>8</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/GettyImages-1163368823-edit-scaled.jpg" type="image/jpeg"  length="271200"/>
+	    		<category><![CDATA[AI Security]]></category>
+		<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Partners]]></category>
+		<category><![CDATA[Zero Trust Security]]></category>
+		<category><![CDATA[Awards]]></category>
+		<category><![CDATA[multicloud]]></category>
+		<category><![CDATA[Nutanix]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=355469</guid>
+
+	    		<description><![CDATA[<p>Discover how Palo Alto Networks and Nutanix are Securing the AI-Powered Hybrid Multicloud with zero trust and Prisma AIRS.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/at-nutanix-next-2026/">Palo Alto Networks at Nutanix .NEXT 2026</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<h1><a id="post-355469-_ye3lj6p2t1y"></a><strong>Securing the AI-Powered Hybrid Multicloud</strong></h1>
+<p>At the core of every modern enterprise is a fundamental need: The ability to innovate across hybrid environments without sacrificing security. For over five years, Palo Alto Networks and Nutanix have partnered to meet this need, building a collaborative ecosystem where industry-leading infrastructure meets the world’s most comprehensive AI-powered security.</p>
+<p>As we look toward the future of the enterprise at <strong>Nutanix .NEXT 2026</strong>, our focus remains on a shared vision for the "Secure Nutanix Cloud."</p>
+<h2><a id="post-355469-_xtdjcggb3lqs"></a><strong>2026 Global Security Partner of the Year</strong></h2>
+<p>We are deeply honored to be named the <strong>Nutanix 2026 Global Security Partner of the Year</strong>. This recognition reflects our commitment to delivering integrated, automated security that feels like a native part of the Nutanix experience. Together, we have helped thousands of joint customers move from reactive security to a proactive, zero trust posture that spans the data center, the edge and the public cloud.</p>
+<h2><a id="post-355469-_wlav3yfwf8fw"></a><strong>The Existing Partnership Is the Foundation of Trust</strong></h2>
+<p>Our partnership is built on the belief that security should be invisible, automated and inseparable from the infrastructure it protects. We’ve worked alongside Nutanix to enable enterprises to scale their hybrid multicloud, and their security posture scales with it. Current integrations provide zero trust protection across the Nutanix environment:</p>
+<ul>
+<li><strong>VM-Series Virtual Firewalls</strong> – Seamlessly integrated with Nutanix AHV and Flow Network Security, our virtual firewalls provide Layer 7 visibility and advanced threat prevention for east-west traffic. This integration leverages Nutanix Flow service chaining to automatically steer traffic through VM-Series firewalls for deep packet inspection without manual reconfiguration. It delivers full functional parity and operational continuity for Nutanix AHV environments, allowing security teams to maintain high-performance standards using familiar Panorama® management and persistent, tag-based policies that migrate with workloads across clusters.</li>
+<li><strong>Hybrid Cloud Security</strong> – We provide consistent security for Nutanix Cloud Clusters <strong>(NC2)</strong> on both AWS and Azure, enabling your policies to follow your workloads wherever they reside.</li>
+<li><strong>Automation &amp; Orchestration</strong> – Leveraging the Panorama® plugin for Nutanix, teams can automate security provisioning and use Dynamic Address Groups to sync application attributes instantly.</li>
+</ul>
+<h2><a id="post-355469-_nr3i72br47t2"></a><strong>New Integration Secures Nutanix Enterprise AI (NAI)</strong></h2>
+<p>Building on this foundation, the highlight of this year’s show is our groundbreaking integration designed to accelerate Enterprise AI adoption. NAI provides a simplified, cloud-native stack that allows organizations to deploy and scale large language models (LLMs) across their choice of infrastructure with push-button simplicity. We are collaborating on a first-of-its-kind, end-to-end security solution for NAI.</p>
+<p>This integration, launching soon, will bring AI Model Security and AI Red Teaming directly into the NAI, creating a seamless experience where security is built in, not bolted on. By allowing only Prisma AIRS&#x2122; validated models to reach production, we eliminate security friction at the start of the AI lifecycle. Every model will undergo rigorous scans for known vulnerabilities before deployment, providing a "clean room" environment for AI development. Providing a proactive test of AI defenses, Prisma AIRS AI Red Teaming will be available within NAI as an autonomous solution that integrates seamlessly into the development pipeline, utilizing a combination of a profiler and an attacker agent to perform contextual iterative simulations that mirror real-world attacker behavior. By providing detailed reports that map vulnerabilities directly to the OWASP Top 10 for LLMs and NIST AI RMF, it equips teams with the precise context needed to secure AI applications continuously and effectively.</p>
+<p>By proactively identifying and neutralizing emerging threats, we will give organizations the confidence to deploy AI bravely, knowing their innovation is anchored in the world’s most robust security platform.</p>
+<p>Powered by Prisma AIRS, this integration will bring a "security-first" approach to your AI deployments:</p>
+<ul>
+<li><strong>AI Model Security</strong> – Scans AI models during the download phase to block malicious code and hidden backdoors before they reach your environment.</li>
+<li><strong>AI Red Teaming</strong> – Provides continuous, autonomous vulnerability hunting on models, application and agent endpoints, testing your AI behavior against more than 750 real-world attack scenarios and contextual agentic risk assessment.</li>
+<li><strong>Unified Visibility</strong> – Provides a complete overview of your AI risk posture and scan summaries directly within your<strong> NAI dashboards.</strong></li>
+</ul>
+<figure id="attachment_355483" aria-describedby="caption-attachment-355483" style="width: 785px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="wp-image-355483" src="/blog/wp-content/uploads/2026/04/word-image-355469-1.png" alt="Screenshot of Nutanix Enterprise AI dashboard." width="785" height="425" srcset="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-355469-1.png 2048w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-355469-1-230x124.png 230w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-355469-1-500x271.png 500w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-355469-1-768x416.png 768w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-355469-1-1536x831.png 1536w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-355469-1-510x276.png 510w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-355469-1-74x40.png 74w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/word-image-355469-1-555x300.png 555w" sizes="auto, (max-width: 785px) 100vw, 785px" /><figcaption id="caption-attachment-355483" class="wp-caption-text">Unified Security Dashboard with AI Model Security and AI Red Teaming</figcaption></figure>
+<h2><a id="post-355469-_4qlscvbp8nmn"></a>Benefits:</h2>
+<h5><a id="post-355469-_5fguxtx98zsw"></a>Seamless and Frictionless Deployment</h5>
+<p>We will prioritize a fast and frictionless deployment experience, ensuring that robust AI security does not come at the cost of development speed. By integrating these controls directly into the NAI workflow, organizations will be able to deploy and scale their AI initiatives with "push-button" simplicity, removing the traditional complexity and friction associated with securing large language models.</p>
+<h5><a id="post-355469-_hvfo0e8lq68p"></a>Proactive Protection Against Emerging Threats</h5>
+<p>Leveraging our deep expertise in threat prevention, this solution will proactively identify and block vulnerable or malicious models before they can impact the enterprise environment. By scanning models for hidden backdoors and malicious code during the initial download phase, we will stop threats at the perimeter, allowing only validated, secure models to ever reach your production environment.</p>
+<h5><a id="post-355469-_um7fw8qmzhr"></a>A Comprehensive Enterprise Cloud AI Solution</h5>
+<p>This integration will deliver a comprehensive enterprise cloud AI solution, merging Nutanix’s industry-leading infrastructure with our next-generation security controls. The result will be a unified, cloud-native stack where security is built in rather than bolted on after the workload deployment, providing a secured deployment environment, which is consistent across the data center, the edge and public cloud.</p>
+<h5>Evolving Insights and Real-Time Remediation</h5>
+<p>The vulnerability insights from AI Red Teaming are coupled with remediation insights. The platform will provide a prioritized list of remediation steps that are tailor-made for the endpoint. This allows organizations to battle-test their inference endpoints before deploying them at scale.</p>
+<h3><a id="post-355469-_zaij1ysqoofy"></a><strong>Key Takeaways</strong></h3>
+<ul>
+<li><strong>A Proven, Award-Winning Partnership:</strong> Celebrating five years of collaboration, Palo Alto Networks has been named the <strong>Nutanix 2026 Global Security Partner of the Year</strong>, highlighting a shared commitment to delivering native, automated zero trust security for hybrid multicloud environments.</li>
+<li><strong>Seamless Zero Trust for Hybrid Workloads:</strong> Through deep integrations with VM-Series virtual firewalls and Nutanix Cloud Clusters (NC2), organizations can maintain consistent Layer 7 visibility and tag-based security policies that automatically follow workloads across on-premises data centers and public clouds.</li>
+<li><strong>Securing the AI Lifecycle with Prisma AIRS:</strong> The new integration with <strong>NAI,</strong> launching soon, will bring a security-first approach to AI adoption, utilizing Prisma AIRS to scan LLMs for vulnerabilities during download, and perform autonomous Red Teaming to neutralize emerging threats before they reach production.</li>
+</ul>
+<h2><a id="post-355469-_xgl1txtglnly"></a>Don’t Miss Our Speaking Session</h2>
+<p>Want to see the integration in action? Join our experts, <strong>Shrikant Brahmbhatt</strong> (Palo Alto Networks) and <strong>Ashwini Vasanth</strong> (Nutanix), on Tuesday April 7 3:30-4pm for an exclusive look at how we are securing the "Challenge of Hybrid AI." We’ll dive into the architecture that allows you to discover, assess and protect your entire AI ecosystem (apps, agents and models alike).</p>
+<h4><a id="post-355469-_7ugukvoojruc"></a>Visit Us at Booth #G2</h4>
+<p>Stop by the Palo Alto Networks booth (<strong>#G2</strong>) to meet our team of over <strong><em>19,000 active threat researchers </em></strong>and see live demos of our joint solutions. Whether you are building the next generation of agentic AI or securing your virtual desktop infrastructure (VDI), we have the tools to help you innovate at machine speed.</p>
+<p>Ready to secure your journey? Visit the <a href="https://technologypartners.paloaltonetworks.com/English/listing/nutanix">Palo Alto Networks partner directory</a> or learn more about <a href="/prisma/prisma-ai-runtime-security">Prisma AIRS.</a></p>
+<p><span style="font-size: 10pt;"><strong><em>Forward-Looking Statements</em></strong></span></p>
+<p><span style="font-size: 10pt;"><em>This blog contains forward-looking statements that involve risks, uncertainties and assumptions, including, without limitation, statements regarding the benefits, impact, or performance or potential benefits, impact or performance of our products and technologies or future products and technologies. These forward-looking statements are not guarantees of future performance, and there are a significant number of factors that could cause actual results to differ materially from statements made in this blog, including, without limitation: developments and changes in general market, political, economic, and business conditions; risks associated with managing our growth; risks associated with new products and subscription and support offerings; shifts in priorities or delays in the development or release of new offerings, or the failure to timely develop, release and achieve market acceptance of new products and subscriptions as well as existing products and subscription and support offerings; failure of our business strategies; rapidly evolving technological developments in the market for security products and subscription and support offerings; our customers’ purchasing decisions and the length of sales cycles; our competition; our ability to attract and retain new customers; and our ability to acquire and integrate other companies, products, or technologies. We identify certain important risks and uncertainties that could affect our results and performance in our most recent Annual Report on Form 10-K, our most recent Quarterly Report on Form 10-Q, and our other filings with the U.S. Securities and Exchange Commission from time-to-time, each of which are available on our website at investors.paloaltonetworks.com and on the SEC's website at www.sec.gov. All forward-looking statements in this blog are based on information available to us as of the date hereof, and we do not assume any obligation to update the forward-looking statements provided to reflect events that occur or circumstances that exist after the date on which they were made.</em></span></p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/at-nutanix-next-2026/">Palo Alto Networks at Nutanix .NEXT 2026</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/04/at-nutanix-next-2026/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">355469</post-id>    </item>
+        <item>
+	<title>Closing the Gap by Enhancing Visibility and Mitigating Risks</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/04/enhancing-visibility-and-mitigating-risks/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/04/enhancing-visibility-and-mitigating-risks/#respond</comments>
+	    
+	<dc:creator><![CDATA[Viv Danks]]></dc:creator>
+	<pubDate>Wed, 01 Apr 2026 08:00:42 +0000</pubDate>
+		<dcterms:extent>5</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/03/GettyImages-629200230-edit-scaled.jpg" type="image/jpeg"  length="385624"/>
+	    		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Government]]></category>
+		<category><![CDATA[Products and Services]]></category>
+		<category><![CDATA[Public Sector]]></category>
+		<category><![CDATA[Cortex Xpanse]]></category>
+		<category><![CDATA[EASM]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=355192</guid>
+
+	    		<description><![CDATA[<p>Secure your UK public sector digital estate. Cortex Xpanse delivers active External Attack Surface Management (EASM) with continuous monitoring, NCSC alignment and risk mitigation.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/enhancing-visibility-and-mitigating-risks/">Closing the Gap by Enhancing Visibility and Mitigating Risks</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<p>In the race to digitise public services, the UK’s digital estate has grown into a vast, borderless ecosystem that manual audits can no longer track. For UK Government departments, local authorities and NHS trusts, it is a sprawling, shifting landscape of cloud workloads, legacy infrastructure, shadow IT and third-party supplier connections.</p>
+<p>This complexity creates blind spots that modern threats exploit. Recognising this vulnerability, the UK Government is moving toward a secure-by-design digital infrastructure, with the <a href="https://www.gov.uk/government/publications/government-cyber-action-plan/government-cyber-action-plan" rel="nofollow,noopener" >2026 Government Cyber Action Plan</a> (GCAP) setting a high bar for resilience. A central theme of the GCAP is the urgent need for the government to have better visibility of cyber security and resilience risk. Fundamentally, organisations cannot secure what they cannot see. As the GCAP explicitly states, the Government will use “data sources from across the government to truly understand government-wide and departmental cyber risks.”</p>
+<h4><a id="post-355192-_smlq22mdh2bp"></a>The Challenge: Visibility in a “Landscape”</h4>
+<p>Many public sector organisations rely on a complex web of spreadsheets, data calls, legacy tools and manually curated lists to create an inventory of their internet-connected assets. But attackers do not look at an organisation's internal lists; they scan the internet for what they have forgotten to secure. Whether it is an unpatched server from a legacy project or a misconfigured database in a department, these "unknown unknowns" are the primary entry points for attackers.</p>
+<h4><a id="post-355192-_abj6982bkgu1"></a>The Strategic Mission: Empowering the Public Sector and Critical Industries</h4>
+<p><a href="/cortex/cortex-xpanse">Palo Alto Networks Cortex Xpanse®</a> is an active external attack surface management (EASM) solution that provides an <em>outside-in</em> view of organisations' entire digital footprint. It helps leaders meet national resilience goals:</p>
+<ul>
+<li><em>Comprehensive, Continuous Visibility</em>: Xpanse scans the global internet space continuously and identifies every asset associated with an organisation, without requiring software agents to be installed on your systems.</li>
+<li><em>Accelerate Response: </em>Leveraging automation, the solution streamlines response processes and enhances collaboration across dispersed teams from the sharing of findings to tracking actions and remediation.</li>
+<li><em>Supply Chain Integrity: </em>Inline with the new <a href="https://bills.parliament.uk/bills/4035" rel="nofollow,noopener" >Cyber Security and Resilience Bill</a> (bringing managed service providers and critical third parties into scope), Xpanse allows organisations to assess the internet-facing security posture of third-party partners and suppliers, ensuring a weak link elsewhere doesn't compromise the broader mission.</li>
+<li><em>Alignment with GovAssure:</em> Xpanse provides a consolidated risk profile and inventory for all internet-facing and cloud assets required for GovAssure assessments, turning a manual, months-long audit process into a continuous, data-driven cycle.</li>
+<li><em>Investment prioritisation: </em>Xpanse provides that much needed visibility to help executive committees and boards prioritise investment decisions on legacy IT and technical debt.</li>
+</ul>
+<h2><a id="post-355192-_jzz6tbj7fg42"></a>Aligning to National Cybersecurity Centre (NCSC) Guidance</h2>
+<p><strong><img loading="lazy" decoding="async" class="aligncenter wp-image-355193" src="/blog/wp-content/uploads/2026/03/word-image-355192-1.png" alt="How external attack surface management products work." width="727" height="513" srcset="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/03/word-image-355192-1.png 1024w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/03/word-image-355192-1-230x162.png 230w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/03/word-image-355192-1-500x353.png 500w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/03/word-image-355192-1-768x542.png 768w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/03/word-image-355192-1-425x300.png 425w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/03/word-image-355192-1-57x40.png 57w" sizes="auto, (max-width: 727px) 100vw, 727px" /></strong></p>
+<p>Palo Alto Networks Cortex Xpanse aligns with the National Cyber Security Centre (NCSC) external attack surface management (EASM) buyer's guide by providing automated discovery, continuous monitoring and risk prioritisation of internet-facing assets. It replaces manual, point-in-time audits with a proactive, agentless solution. By automating the discovery of all internet-accessible assets (including shadow IT and unmanaged cloud operations) the platform fulfills the NCSC’s core requirement for continuous global monitoring and rapid attribution. This data-driven approach allows for the automated prioritisation of critical exposures, such as RDP, and integrates seamlessly with multiple third-party automation and visualisation tools, including Cortex XSOAR® and XSIAM, to accelerate remediation with national incident response standards.</p>
+<p>In fact, with Palo Alto Networks deployment of Cortex Xpanse, we were able to achieve a <a href="/customers/palo-alto-networks-slashes-false-positives-with-cortex-attack-surface-management">95% reduction in external vulnerability management</a> spending across more than 700,000 cloud instances, while improving coverage and outcomes.</p>
+<h5><a id="post-355192-_wx3crfw8x7z8"></a>Palo Alto Networks Cortex Xpanse Capabilities</h5>
+<ul>
+<li><strong>Discover Assets:</strong> Leveraging organisations' known asset inventory and other data points, Xpanse performs continual, automated discovery of all internet-accessible assets, effectively eliminating blind spots created by shadow IT and unmanaged cloud operations.</li>
+<li><strong>Obtain Information: </strong>Always-on, continuous monitoring of an organisation's entire attack surface through daily scans of the global IP address space, ensuring that newly exposed services are identified quickly and accurately.</li>
+<li><strong>Perform Analysis: </strong>Xpanse automates and prioritises alerts on all identified risks by severity, enabling organisations to optimise resolution and risk management, allowing teams to properly allocate resources and focus on the most critical risks to the organisation.</li>
+<li><strong>Display Information and Provide Advice: </strong>Leveraging a unified view of the internet facing and cloud-based estate, Xpanse provides specific resolver guidance for every identified issue, supporting and monitoring automated resolution through multiple native integrations.</li>
+<li><strong>Monitor Risk: </strong>Always on, discreet continual monitoring provides an independent real time status of the digital estate. Leveraging the threat intelligence capabilities of Palo Alto Networks, Xpanse is uniquely positioned to provide rapid coverage for newly discovered vulnerabilities, exploits or misconfigurations.</li>
+</ul>
+<p>Securing the public sector requires a move from manual, point in time assessments to data-driven intelligence. Cortex Xpanse provides the foundations to remove blind spots, secure the supply chain and prevent unknown vulnerabilities in the face of sophisticated threats.</p>
+<p>For further information and case studies, visit the links below, or <a href="https://www.paloaltonetworks.co.uk/cortex/cortex-xpanse" rel="nofollow,noopener" >schedule a demo</a>.</p>
+<ul>
+<li><a href="https://www.paloaltonetworks.co.uk/customers/palo-alto-networks-slashes-false-positives-with-cortex-attack-surface-management" rel="nofollow,noopener" >Palo Alto Networks:</a> Slash false positives, remediation time budget with Cortex attack surface management.</li>
+<li><a href="/company/press/2022/palo-alto-networks-cortex-xpanse-to-supercharge-cyber-defenses-for-department-of-defense">U.S. Pentagon</a>: Palo Alto Networks Cortex Xpanse supercharge the Cyber Defences for the Department of Defense.</li>
+<li><a href="https://www.paloaltonetworks.co.uk/customers/accenture-secures-rapid-growth-with-cortex-xpanse" rel="nofollow,noopener" >Accenture</a>: Secure rapid growth with Cortex Xpanse.</li>
+</ul>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/enhancing-visibility-and-mitigating-risks/">Closing the Gap by Enhancing Visibility and Mitigating Risks</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/04/enhancing-visibility-and-mitigating-risks/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">355192</post-id>    </item>
+        <item>
+	<title>Five Browser and AI Security Questions Keeping CxOs up at Night</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/03/five-browser-ai-security-questions-keeping-cxos/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/03/five-browser-ai-security-questions-keeping-cxos/#respond</comments>
+	    
+	<dc:creator><![CDATA[Yonatan Gotlib]]></dc:creator>
+	<pubDate>Tue, 31 Mar 2026 12:00:30 +0000</pubDate>
+		<dcterms:extent>7</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/03/GettyImages-618547538-edit-1.jpg" type="image/jpeg"  length="381639"/>
+	    		<category><![CDATA[AI Security]]></category>
+		<category><![CDATA[Products and Services]]></category>
+		<category><![CDATA[Web Application & API Security]]></category>
+		<category><![CDATA[Web Security]]></category>
+		<category><![CDATA[CXOs]]></category>
+		<category><![CDATA[Prisma Browser]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=355173</guid>
+
+	    		<description><![CDATA[<p>Prisma Browser secures the last mile of work, data, and AI interactions by addressing CxO concerns: shadow AI, unmanaged devices, agentic AI and data leakage.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/03/five-browser-ai-security-questions-keeping-cxos/">Five Browser and AI Security Questions Keeping CxOs up at Night</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<p>Work has fundamentally shifted from applications and networks to the browser itself. Today, the browser is where employees access SaaS, collaborate and interact with AI, making it the true operating system of modern work. But as work moved into the browser, security controls didn’t follow. Within the last year, <a href="https://live.paloaltonetworks.com/t5/community-blogs/is-your-browser-ground-zero-for-cyberattacks/ba-p/1225643#:~:text=We're%20seeing%20a%20rise,protection%2C%20security%20incidents%20still%20happen.">95% of organizations</a> have reported a security incident originating in the browser, as attackers shift their focus from hardened networks to exposed web sessions.</p>
+<p>Legacy security tools were built for defined perimeters and managed endpoints, not for AI-powered workflows running across encrypted traffic, SaaS applications and unmanaged devices. As work increasingly happens inside the browser, many of the traditional controls that organizations have relied on simply no longer apply.</p>
+<p>The result is a growing visibility, governance and control gap at the exact point where work happens. As AI, SaaS and browser-based workflows become the default, enterprise security leaders are forced to confront a new set of risks and questions they can no longer ignore.</p>
+<p>Here are the five questions keeping Chief Experience Officers (CxOs) up at night that <a href="/sase/prisma-browser">Prisma<sup>®</sup> Browser&#x2122;</a> helps address.</p>
+<h3><a id="post-355173-_eupx4djuwso"></a>1. Are Employees Exposing Trade Secrets to AI?</h3>
+<p>For organizations, GenAI is a double-edged sword. It drives incredible speed, but it introduces massive shadow AI risks, which will only increase as <a href="/resources/research/state-of-genai-2025">12 thousand AI apps </a>are expected to be in use by 2030. The danger usually isn't malicious intent; it’s the hundreds of microdecisions employees make daily. In the rush to be productive, employees may unknowingly submit proprietary code, model parameters, sensitive customer data or other confidential information into unsanctioned GenAI prompts, exposing the organization to significant risk.</p>
+<p>For CxOs, this raises the prospect of intellectual property loss from everyday AI use that remains largely invisible to security teams. Legacy network tools are unable to notice these specific last-mile actions, so security teams often resort to bluntly blocking GenAI apps entirely.</p>
+<h3><a id="post-355173-_g878fl9cpc9w"></a>2. Can Employees’ Personal Devices Let Hackers In?</h3>
+<p>As work moves into the browser, the network perimeter has quietly shifted from the office firewall to an employee’s kitchen counter. Unmanaged personal devices are an invisible risk, whether it’s a contractor accessing a sensitive application, an employee checking email after hours from a personal desktop, or a user connecting from a mobile device outside corporate oversight. The statistics are alarming: <a href="https://www.microsoft.com/en-us/security/security-insider/threat-landscape/microsoft-digital-defense-report-2024" rel="nofollow,noopener" >92% of successful ransomware attacks </a>originate from unmanaged devices<strong>. </strong>These devices often run gaming apps or risky extensions that fall completely outside of corporate control. For CxOs, this means a single infected personal device can become a direct path to ransomware, data loss and other threats.</p>
+<h3><a id="post-355173-_gwxly0ppbzob"></a>3. Are There Attacks Hiding in the Browser?</h3>
+<p>Legacy tools cannot see what happens within the browser. Organizations increasingly face new threats that evade network security, such as reassembly attacks, where malware is chopped into innocent-looking fragments to bypass firewalls, only to reassemble inside the browser’s memory. At the same time, <a href="https://blog.sekoia.io/targeted-supply-chain-attack-against-chrome-browser-extensions/?utm_source=chatgpt.com" rel="nofollow,noopener" >malicious browser extensions</a> can abuse trusted permissions to steal credentials, capture sessions or exfiltrate data without triggering traditional controls. Combined with AI-driven spear phishing that creates clean, unique typo-free lures, attackers can hijack identities and exfiltrate data while your network logs remain perfectly clean. For CxOs, this creates a dangerous blind spot where breaches can unfold inside trusted web sessions without detection, until sensitive data has already been compromised.</p>
+<h3><a id="post-355173-_3pmuh75ftkz1"></a>4. Could My AI Browser Go Rogue?</h3>
+<p>The world is shifting from the tools you chat with to the tools that act on your behalf, and that’s where agentic browsers come into the picture. This creates two massive risks:</p>
+<ul>
+<li><strong>Unintended actions</strong>, where an <a href="https://cybersecuritynews.com/chatgpt-atlas-exposes-users/" rel="nofollow,noopener" >AI exposes authentication data and enables unauthorized access</a> to user accounts.</li>
+<li><strong>Prompt injection</strong>, where hidden website commands can jailbreak the AI to perform unauthorized actions without the user clicking a button.</li>
+</ul>
+<p>Compounding this problem is the inability to distinguish between actions taken by a human vs. an agent. For CxOs, this introduces an entirely new governance challenge: Ensuring AI systems cannot take unauthorized actions, access sensitive systems, or operate without clear accountability and oversight.</p>
+<h3><a id="post-355173-_xy96gn4o81tt"></a><strong>5. Can Users Leak Customer Data?</strong></h3>
+<p>In a browser-first world, data leakage rarely looks like a breach; it just looks like everyday work. Employees move data between SaaS applications or share content across personal and corporate environments in the name of productivity. The problem for CxOs is that these actions happen inside trusted sessions, often beyond the reach of traditional enterprise security controls. As AI accelerates workflows and data moves faster than policies can keep up, accidental exposure becomes a board-level risk, carrying regulatory, financial and reputational consequences that organizations may not detect until it is too late.</p>
+<h1><a id="post-355173-_6hc8avxtyl8g"></a>Browse Bravely and Be in Control with Prisma Browser</h1>
+<p>This is how <a href="/sase/prisma-browser">Prisma Browser</a> helps answer these questions, addressing these challenges by securing the last mile where work, data and AI interactions actually happen.</p>
+<p><strong>1. Control AI Use With Confidence: </strong>Stop saying “no” to innovation. Prisma Browser enables safe AI usage with surgical precision. Instead of disrupting workflows, it enforces granular content and context-aware policies, such as blocking file uploads to public LLMs while allowing uploads to your private internal sandbox. With <a href="/sase/enterprise-data-loss-prevention">Enterprise DLP</a>, Prisma Browser identifies sensitive data and prevents data leaks into GenAI prompts before data leaves the enterprise environment, while providing detailed auditing and visibility to support compliance requirements.</p>
+<p><strong>2. Secure Hybrid Work: </strong>Prisma Browser creates a secure isolated workspace on any device, enabling secure work from any location, any application and any device. For IT and security teams, this eliminates the cost and friction of VDI and shipping laptops and enables zero-trust access for personal devices and for independent contractors in minutes. By embedding enterprise-grade DLP directly into a familiar interface and leveraging AI-driven security, it prevents data exfiltration and mitigates even the most advanced web threats.</p>
+<p><strong>3. Prevent Evasive Threats in Real-Time:</strong> Prisma Browser continuously scans every page in real-time before it loads in the browser, catching the evasive threats that legacy tools miss. It identifies malware hiding in encrypted traffic, malicious scripts and web-based threats, such as AI-powered spear phishing attacks. The browser protects against malicious extensions by continuously monitoring permissions, updates and usage, while blocking malicious or risky extensions automatically. With this visibility, security teams finally regain control of what was once a blind spot in the browser ecosystem.</p>
+<p><strong>4. Govern Agentic AI: </strong>Prisma Browser brings an AI assistant with agentic browsing capabilities into the modern workspace while extending all AI-powered last-mile security controls to agent-driven actions. It applies DLP and identity controls to distinguish between human and AI activity, enforce inline governance, while enabling step-up MFA and just-in-time permissions for sensitive actions. Integrated with <a href="/prisma/prisma-ai-runtime-security">Prisma AIRS&#x2122;</a> for topic guardrails, the browser defends against prompt-injection attempts and supports a flexible BYO-LLM model, so organizations can securely govern agentic workflows while maintaining full control.</p>
+<p><strong>5. Protect Customer Data: </strong>Prisma Browser eliminates the visibility gaps that plague traditional security by providing insights into every user interaction across all web, SaaS and GenAI applications in use, including unsanctioned applications. By securing the last mile, the critical point where data is rendered and manipulated, the browser applies granular controls that stop leaks in real time. From masking sensitive, personally identifiable information (PII) and blocking unauthorized uploads to restricting copy-paste and screenshots, Prisma Browser enforces strict controls over how data is handled. This ensures your proprietary data stays within corporate boundaries, even on unmanaged devices, and reduces the risk of accidental data loss.</p>
+<h1><a id="post-355173-_6g1c4qc85k0"></a>Secure AI Usage at Enterprise Scale</h1>
+<p>Shift the browser from a liability you manage to a high-performance workspace you trust.</p>
+<p>Prisma Browser is designed to let you embrace cloud applications and AI with confidence. It’s time to protect data, govern AI use and stop threats where work happens.</p>
+<h5><a id="post-355173-_2g36m2h9tspy"></a>Check out our <a href="/sase/prisma-browser#webinars">on-demand webinars</a> from industry experts to learn more on securing the modern workspace with an Enterprise Browser.</h5>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/03/five-browser-ai-security-questions-keeping-cxos/">Five Browser and AI Security Questions Keeping CxOs up at Night</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/03/five-browser-ai-security-questions-keeping-cxos/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">355173</post-id>    </item>
+        <item>
+	<title>Securing the Era of Agentic AI with Prisma SASE</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/03/agentic-ai-with-prisma-sase/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/03/agentic-ai-with-prisma-sase/#respond</comments>
+	    
+	<dc:creator><![CDATA[Anupam Upadhyaya]]></dc:creator>
+	<pubDate>Mon, 23 Mar 2026 21:27:47 +0000</pubDate>
+		<dcterms:extent>9</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/03/GettyImages-1070902426-edit-scaled.jpg" type="image/jpeg"  length="358804"/>
+	    		<category><![CDATA[AI Governance]]></category>
+		<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Products and Services]]></category>
+		<category><![CDATA[Agentic AI]]></category>
+		<category><![CDATA[Prisma SASE]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=354530</guid>
+
+	    		<description><![CDATA[<p>Prisma SASE is the comprehensive platform for the agentic AI era. Govern new AI identities, protect data from AI sprawl, and enable autonomous operations.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/03/agentic-ai-with-prisma-sase/">Securing the Era of Agentic AI with Prisma SASE</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<p>In the modern enterprise, the <em>productivity mandate</em> is no longer a goal, it is a requirement for survival. To stay competitive, organizations are racing to embrace AI-driven workflows that allow them to operate at machine speed.</p>
+<p>However, we have reached a critical inflection point in this journey. AI is no longer just a tool that assists us; it is becoming an active participant. We are entering the era of agentic AI, where autonomous agents execute tasks, access sensitive data, and navigate the web with the same privileges as human users.</p>
+<p>This shift changes everything. When your new workforce includes agents with identities operating 24/7, the traditional, human-centric security model is no longer enough. As enterprises become AI-driven, SASE must evolve to govern these new AI identities, secure their interactions, and keep data protected while work flows at machine speed.</p>
+<p>Today, I am thrilled to announce the next evolution of <a href="/sase">Prisma<sup>®</sup> SASE</a>: The Industry’s Most Comprehensive SASE Platform built for the agentic AI era.</p>
+<h2><a id="post-354530-_i8ybafo5ur9l"></a><strong>Why Legacy Approaches Can’t Keep up with the AI-Driven Enterprise</strong></h2>
+<p>Traditional SASE solutions are tethered to a human-centric past. Designed for human-to-app connections, these solutions cannot distinguish between a human user and an autonomous agent. Lacking the insights to determine intent, they fail to differentiate between a legitimate employee, a helpful agent, a rogue agent or a bad actor. This inability to validate the "why" behind an action creates significant risks that stall strategic AI innovation and leave enterprises vulnerable in the era of agentic AI.</p>
+<p>Today, the browser is not only where the majority of work happens but it is now the central hub for AI interactions and AI-driven productivity. However, as we evolve from merely using AI tools to leveraging autonomous agents, organizations are exposed to risks, such as prompt injection and agent hijacking, that traditional solutions simply cannot see.</p>
+<p>Simultaneously, sensitive data is no longer confined to predictable silos. It is flowing into applications, LLMs and automated pipelines, creating an "AI data sprawl" that traditional DLP fails to detect and secure.</p>
+<p>Beyond security, the operational burden is reaching a breaking point. IT teams are drowning in "ticket fatigue" while trying to manage high-volume, AI-driven traffic with reactive tools. And in the always-on agentic enterprise, even a minor outage can disrupt the machine-speed productivity that drives your business forward. You shouldn’t have to trade security for speed, performance or innovation.</p>
+<h2><a id="post-354530-_krt113h2932q"></a><strong>A Unified Foundation for the Agentic AI Era</strong></h2>
+<p>To close these gaps, we have unified the secure agentic workspace, AI-lifecycle data protection, and autonomous operations into a single, resilient, always-on SASE platform. This isn't just a collection of features; it is a fundamental architectural shift designed to support the way work happens today and moving forward.</p>
+<h3><a id="post-354530-_t8h3iinsneh8"></a><strong>Reimagining the Workspace with Prisma Browser</strong></h3>
+<p>Because the browser is the primary interface for AI interactions, we have transformed <a href="/blog/sase/prisma-browser-where-agentic-ai-meets-enterprise-grade-security">Prisma Browser<sup>®</sup></a> into a high-performance, secure AI workspace. It empowers organizations to bridge the gap between human and machine work by allowing teams to leverage the LLM of their choice, ensuring they can utilize the most effective AI tools for any specific task without the risk of unmanaged agents and AI-driven workflows.</p>
+<p>Prisma Browser provides unparalleled visibility and data security for user-to-AI application interactions, discovering AI activity across the organization to ensure that human workflows remain protected. We are now extending these robust, content-aware boundaries to agentic interactions, keeping autonomous agents within their intended scope and preventing sensitive data from leaking into unmanaged or public AI environments during automated tasks. It acts as a defense for these new digital identities, identifying prompt injection attacks and preventing agent hijacking in real time to keep autonomous workflows secure and on track. Ultimately, Prisma Browser provides the visibility and security needed to distinguish between human and machine actions, ensuring safe actions by assessing the true intent of every identity, whether human or nonhuman.</p>
+<h3><a id="post-354530-_n9s8276ppedv"></a><strong>Protecting Sensitive Data Across the AI Lifecycle</strong></h3>
+<p>AI-driven productivity starts in the browser, but it must be secured across the entire enterprise. As sensitive data flows into GenAI apps, through agentic workflows and to nonhuman identities. It creates critical blind spots across all channels in the enterprise (endpoint, network, SaaS apps, browser, etc.). To eliminate these risks, Prisma SASE provides unified AI-powered data security to protect sensitive data throughout its entire journey.</p>
+<p>The foundational layer of this defense is establishing comprehensive AI application visibility to move beyond “shadow AI” and uncover insights into employee GenAI usage. Through AI Access Security&#x2122;, we provide real-time visibility and granular control over more than 6,000 GenAI apps. This allows security teams to block unsanctioned apps while safely accelerating the usage of tools that drive the business forward. Beyond application visibility, AI Access Security also performs real-time AI-Powered Prompt Analysis to detect and block sensitive data exposure through GenAI and maintains a complete prompt history for audits.</p>
+<p>The next essential requirement is deep data visibility to combat the proliferation of shadow data. The rise of AI and agentic workflows has massively increased the risk of sensitive information hiding in unexpected and forgotten places. Powered by Precision AI<sup>®</sup>, Prisma SASE provides automated shadow data discovery to find and classify all types of sensitive data, whether structured or unstructured, across every channel.</p>
+<p>Finally, our comprehensive coverage of all data exposure channels now extends to sensitive data at rest on endpoints. Organizations gain visibility into the data stored locally on their employees’ devices and implement controls to prevent exfiltration. This helps ensure a uniform, consistent policy is enforced enterprise-wide, securing data throughout the AI lifecycle and preventing leaks into unmanaged GenAI tools or misconfigured environments.</p>
+<h2><a id="post-354530-_46xb93g6v1ba"></a>From Reactive IT to Autonomous Operations</h2>
+<p>As AI powers every workflow and accelerates the enterprise to move at machine speed, IT and Security teams must move past the era of manual troubleshooting. By integrating autonomous agentic operations, Prisma SASE enables proactive remediation by diagnosing and resolving security and connectivity issues before they ever impact the business.</p>
+<p>Instead of wading through alerts, teams can now leverage AI agents to build robust deployment plans and optimize configurations based on automated best-practice recommendations. We have transformed real-time network context into guided, simplified troubleshooting that pinpoints root causes with precision. By eliminating manual triage with automated multilayer investigations, we accelerate resolution while involving human authority only when strategic decisions are needed. This shift doesn't just eliminate "ticket fatigue," it removes blind spots through simplified deployment at scale, freeing your teams from the "work of yesterday," so they can focus on enabling the AI-driven enterprise of tomorrow.</p>
+<h2><a id="post-354530-_ang9r6rvikms"></a>Architecting for Always-On Resilience</h2>
+<p>Finally, with agents working around the clock, the always-on agentic enterprise demands a foundation defined by unmatched performance and resilience. By leveraging global hyperscalers (Amazon Web Services, Google Cloud, Oracle Cloud), we provide the massive scale and reach that modern organizations require to ensure their AI-driven workflows are never interrupted. This resilience extends to the edge of the user workspace. Prisma Browser serves as a critical component of Business Continuity Planning (BCP), enabling employees to remain productive and secure regardless of network conditions.</p>
+<p>To address specialized high-performance and sensitive needs, we are introducing <a href="/blog/sase/bringing-zero-trust-sase-to-your-doorstep-with-sase-private-location/">SASE Private Location</a>. This new offering brings the same cloud-delivered resilience directly to your campus by extending our multicloud fabric into high-bandwidth sites, processing high volumes of traffic without backhauling to the cloud and eliminating single points of failure. By maintaining consistent policies across campus, branch and multicloud environments, we remove the "security vs. speed" trade-off once and for all, providing the infrastructure necessary for an era where downtime is not an option.</p>
+<h2><a id="post-354530-_fxltdeqmr4bp"></a><strong>Unleashing the True Velocity of Autonomous Work</strong></h2>
+<p>The transition to an AI-driven enterprise, powered by a new workforce of agents, is the greatest productivity opportunity of our generation. However, it is impossible to grant true autonomy without first providing absolute security. That productivity is only sustainable if it is built on a foundation of trust that ensures every agentic action is governed and every interaction is protected.</p>
+<p>Prisma SASE converges secure agentic browsing, autonomous operations and AI-powered data protection into a single solution. We aren’t just helping you secure the use of AI, we are helping you transform your AI-driven workflows into a growth engine that operates at machine speed, without compromise.</p>
+<p>The future of work is autonomous. It’s time your SASE platform was, too.</p>
+<p>To learn more about how we are redefining security for the agentic AI era, read the full <a href="/company/press/2026/palo-alto-networks-unveils-the-industrys-most-secure-browser-built-for-agentic-ai">press release</a><span style="font-weight: 400;"> and sign up for our event, </span><a href="https://start.paloaltonetworks.com/tomorrow-secured.html"><span style="font-weight: 400;">“Tomorrow Secured,”</span></a><span style="font-weight: 400;"> during cybersecurity's biggest week. </span></p>
+<p><span style="font-size: 10pt;"><strong><em>Forward-Looking Statements</em></strong></span></p>
+<p><span style="font-size: 10pt;"><em>This blog contains forward-looking statements that involve risks, uncertainties and assumptions, including, without limitation, statements regarding the benefits, impact, or performance or potential benefits, impact or performance of our products and technologies or future products and technologies. These forward-looking statements are not guarantees of future performance, and there are a significant number of factors that could cause actual results to differ materially from statements made in this blog, including, without limitation: developments and changes in general market, political, economic, and business conditions; risks associated with managing our growth; risks associated with new products and subscription and support offerings; shifts in priorities or delays in the development or release of new offerings, or the failure to timely develop, release and achieve market acceptance of new products and subscriptions as well as existing products and subscription and support offerings; failure of our business strategies; rapidly evolving technological developments in the market for security products and subscription and support offerings; our customers’ purchasing decisions and the length of sales cycles; our competition; our ability to attract and retain new customers; and our ability to acquire and integrate other companies, products, or technologies. We identify certain important risks and uncertainties that could affect our results and performance in our most recent Annual Report on Form 10-K, our most recent Quarterly Report on Form 10-Q, and our other filings with the U.S. Securities and Exchange Commission from time-to-time, each of which are available on our website at investors.paloaltonetworks.com and on the SEC's website at www.sec.gov. All forward-looking statements in this blog are based on information available to us as of the date hereof, and we do not assume any obligation to update the forward-looking statements provided to reflect events that occur or circumstances that exist after the date on which they were made.</em></span></p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/03/agentic-ai-with-prisma-sase/">Securing the Era of Agentic AI with Prisma SASE</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/03/agentic-ai-with-prisma-sase/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">354530</post-id>    </item>
+        <item>
+	<title>The Cryptographic Reset Has Begun</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/03/cryptographic-reset-has-begun/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/03/cryptographic-reset-has-begun/#respond</comments>
+	    
+	<dc:creator><![CDATA[Shivajee Samdarshi]]></dc:creator>
+	<pubDate>Mon, 23 Mar 2026 21:26:08 +0000</pubDate>
+		<dcterms:extent>6</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/03/AdobeStock_621254974-edit-4-scaled.jpeg" type="image/jpeg"  length="420423"/>
+	    		<category><![CDATA[AI Security]]></category>
+		<category><![CDATA[Next-Generation Firewalls]]></category>
+		<category><![CDATA[Products and Services]]></category>
+		<category><![CDATA[Next-Gen Trust Security]]></category>
+		<category><![CDATA[Quantum Cryptography]]></category>
+		<category><![CDATA[TLS]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=354191</guid>
+
+	    		<description><![CDATA[<p>The 200-day TLS certificates signals a structural change in cryptographic trust. Continuous enforcement is key. Discover Next-Generation Trust Security.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/03/cryptographic-reset-has-begun/">The Cryptographic Reset Has Begun</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<h1><a id="post-354191-_w7qqtcmwmigi"></a><strong>A Structural Shift in Cryptographic Trust and Integrity</strong></h1>
+<p>For decades, the digital economy has operated on a model of static cryptographic trust.</p>
+<p>Certificates were issued for long periods of time. The same encryption algorithms protected data for decades. Security teams could simply increase key lengths to stay ahead of advances in computing power. Trust infrastructure changed slowly and predictably.</p>
+<p>That era is over.</p>
+<p>Over the next several years, the foundations of cryptographic trust will change more dramatically than at any point since the modern internet was created. The cryptographic mechanisms that establish identity, secure communication and protect sensitive data are entering a period of continuous change.</p>
+<p>Organizations are now confronting what can best be described as a <em>cryptographic reset</em>.</p>
+<p>Security teams are fighting a battle on two fronts: <em>Trust and Integrity</em>.</p>
+<p>At the same time, the scale of digital infrastructure continues to grow rapidly. Cloud services, distributed applications and autonomous agents are multiplying across enterprise environments. Each device, workload, service and agent ultimately depends on certificates and cryptographic keys to establish trust within the network.</p>
+<p>As this ecosystem expands, automation and continuous visibility must replace human-led manual processes. For this to happen efficiently, the network must become the ultimate point of cryptographic control.</p>
+<h2><a id="post-354191-_gfa43tmf9w4h"></a><strong>The First Front Is Trust</strong></h2>
+<p>The first major shift is happening in how digital trust is maintained.</p>
+<p>On March 15, 2026, the <a href="https://cabforum.org/2025/04/11/ballot-sc081v3-introduce-schedule-of-reducing-validity-and-data-reuse-periods/" rel="nofollow,noopener" >CA/Browser Forum </a>reduced the maximum validity period for public TLS certificates from 398 days to 200 days. This change begins a phased transition that will reduce certificate lifetimes further to 100 days in 2027 and ultimately to <em>47 days by 2029</em>.</p>
+<p>At first glance, this may appear to be a simple policy change. In reality, it represents a fundamental shift in operational requirements.</p>
+<p>When certificate lifetimes shrink, <em>renewal velocity increases dramatically</em>.</p>
+<p>A certificate that previously required renewal once per year will soon require renewal multiple times per year. At 47 days, the renewal workload increases roughly twelvefold.</p>
+<p>Many organizations today still manage certificates through manual processes. Expiration dates are tracked in spreadsheets. Calendar reminders are used to trigger renewals. Scripts and ticket workflows coordinate deployment.</p>
+<p>These approaches do not scale to the new reality. For an enterprise managing 1,000 public TLS certificates, manual renewal already consumes roughly 4,000 hours per year, which is about two engineers' worth of work. As lifecycles shrink toward 47 days and renewal velocity increases 12×, that workload jumps to nearly 48,000 hours annually, which is the equivalent of 24 engineers.</p>
+<p>Shorter lifecycles transform certificate management from an occasional administrative task into a continuous operational process. If manual workflows remain in place, the likelihood of business-impacting outages rises sharply.</p>
+<p>Consider a common scenario.</p>
+<p>A VPN gateway relies on a public TLS certificate. The expiration date is tracked in a spreadsheet maintained by an operations team. A renewal reminder is scheduled on a shared calendar.</p>
+<p>If the reminder is missed and the certificate expires, the gateway stops accepting secure connections. Remote employees lose access to corporate resources. The help desk begins receiving calls. Security and infrastructure teams are forced into emergency remediation.</p>
+<p>What appears to be a minor configuration detail becomes a <em>service outage affecting the entire workforce</em>.</p>
+<p>In a world of 47-day certificates, the traditional “set it and forget it” approach is no longer viable. The operational risk is simply too high.</p>
+<p>This challenge can no longer be addressed through manual processes or additional staffing.</p>
+<p>Maintaining digital trust at this velocity requires <em>complete visibility into certificates and fully automated lifecycle management</em><strong>.</strong></p>
+<p>Discovery, renewal, deployment and governance must operate continuously across environments without manual intervention.</p>
+<h2><a id="post-354191-_74gqm8b0ocq5"></a>The Second Front: Integrity</h2>
+<p>While trust lifecycles are accelerating, another change is unfolding simultaneously.</p>
+<p>The mathematics protecting modern encryptions are approaching a breaking point.</p>
+<p>Advances in quantum computing threaten to undermine the public key cryptography that secures most digital communications today. Within the coming decade, sufficiently powerful quantum systems are expected to break widely used algorithms such as RSA and ECC.</p>
+<p>But the risk is not limited to a future breakthrough.</p>
+<p>Adversaries are already exploiting this transition through a strategy known as <em>“harvest now, decrypt later.”</em></p>
+<p>In this model, attackers collect encrypted data today and store it for later decryption once quantum capabilities become available. Sensitive information captured now may remain vulnerable for years into the future.</p>
+<p>This means the integrity of encrypted data is already at risk.</p>
+<p>Organizations must prepare for the operational challenges of shorter certificate lifecycles, as well as the cryptographic transition required to protect data against quantum threats.</p>
+<h2><a id="post-354191-_vydki4fzd9dw"></a>Turning the Network into the Trust Control Plane</h2>
+<p>Surviving the cryptographic reset does not require deploying another collection of isolated point products or rebuilding security infrastructure from scratch.</p>
+<p>Instead, organizations can leverage the infrastructure they already operate.</p>
+<p>Network security platforms already sit in the path of critical traffic, observing encrypted communications across the enterprise. These systems can serve as powerful sensors and enforcement points for managing cryptographic trust.</p>
+<p>By elevating the network into a control plane for cryptography, organizations gain the visibility and automation required to navigate both the trust and integrity challenges ahead.</p>
+<p>Earlier this year, Palo Alto Networks introduced an end-to-end quantum security architecture designed to help organizations inventory cryptographic assets, assess risk exposure, and accelerate the transition to post-quantum cryptography. One of its key innovations is <em>cipher translation</em>, which allows organizations to upgrade cryptographic protections for devices and applications without modifying application code.</p>
+<p>These capabilities address the <em>integrity</em> side of the cryptographic reset.</p>
+<p>But organizations must also solve the operational challenge of managing <em>trust</em> at scale.</p>
+<h2><a id="post-354191-_gc7yuu624mrm"></a>Introducing Next-Generation Trust Security</h2>
+<p>Today we are introducing a new capability designed to address the growing operational risk associated with certificate lifecycles.</p>
+<p>We call it <strong>Next-Generation Trust Security</strong>.</p>
+<p>Next-Generation Trust Security brings certificate lifecycle management directly into the network security platform. It combines network-native discovery, continuous certificate visibility, and fully automated lifecycle management.</p>
+<p>Because the network already observes encrypted traffic and certificate usage, discovery happens automatically across environments through existing NGFW and SASE infrastructure.</p>
+<p>Once certificates are discovered, automated lifecycle workflows ensure they are renewed, deployed and governed according to policy.</p>
+<p>Tasks that previously required hours of manual work can now be executed automatically.</p>
+<p>In many environments, remediation that once required hours of investigation and coordination can occur automatically with no manual intervention.</p>
+<p>The result is a system that continuously maintains digital trust without placing an additional operational burden on security teams.</p>
+<h2><a id="post-354191-_ju00o7rrh1pb"></a>From Cryptographic Reset to Operational Resilience</h2>
+<p>The forces reshaping digital trust are not temporary disruptions.</p>
+<p>Shorter certificate lifecycles will continue. Cryptographic algorithms will evolve. Quantum-resistant protections will become necessary. Organizations must adapt their operational models accordingly.</p>
+<p>By transforming the network into the control plane for cryptographic trust and security, enterprises can address both fronts of the cryptographic reset.</p>
+<p>They can maintain trust as certificate lifecycles accelerate. They can protect data integrity as encryption standards evolve. Most importantly, they can reduce the operational risk that threatens service availability, security enforcement and business continuity.</p>
+<p>The cryptographic reset is underway.</p>
+<p>The organizations that prepare now will be positioned to secure both <em>what’s running today and what comes next.</em></p>
+<p>Next-Generation Trust Security is designed to help organizations operate in this new reality, where certificates renew continuously and cryptographic standards are evolving.</p>
+<p>To learn more about how organizations can prepare for shorter certificate lifecycles, visit the <a href="/network-security/next-gen-trust-security">Next-Generation Trust Security</a> page.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/03/cryptographic-reset-has-begun/">The Cryptographic Reset Has Begun</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/03/cryptographic-reset-has-begun/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">354191</post-id>    </item>
+    </channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Page Caching using Disk: Enhanced (Page is feed) 
+
+Served from: www.paloaltonetworks.com @ 2026-04-19 22:44:02 by W3 Total Cache
+-->

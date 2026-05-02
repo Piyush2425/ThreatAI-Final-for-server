@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<atom:link href="https://hackread.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://hackread.com</link>
+	<description></description>
+	<lastBuildDate>Sat, 18 Apr 2026 14:37:01 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://hackread.com/wp-content/uploads/2023/08/cropped-HACKREAD-32x32.png</url>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<link>https://hackread.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>ShowDoc Vulnerability Patched in 2020 Now Used in Active Server Takeovers</title>
+		<link>https://hackread.com/showdoc-vulnerability-patch-2020-server-takeover/</link>
+					<comments>https://hackread.com/showdoc-vulnerability-patch-2020-server-takeover/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Sat, 18 Apr 2026 14:25:37 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[RCE]]></category>
+		<category><![CDATA[ShowDoc]]></category>
+		<category><![CDATA[VulnCheck]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=143941</guid>
+
+					<description><![CDATA[Hackers are exploiting a 5-year-old ShowDoc vulnerability (CVE-2025-0520) to deploy web shells, enabling RCE and full server takeover worldwide.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/showdoc-vulnerability-patch-2020-server-takeover/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Operation PowerOFF: 75K Users of DDoS-for-Hire Services Identified and Warned</title>
+		<link>https://hackread.com/operation-poweroff-ddos-for-hire-services-identified/</link>
+					<comments>https://hackread.com/operation-poweroff-ddos-for-hire-services-identified/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Sat, 18 Apr 2026 11:23:52 +0000</pubDate>
+				<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[DDOS]]></category>
+		<category><![CDATA[Europol]]></category>
+		<category><![CDATA[Operation PowerOFF]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144085</guid>
+
+					<description><![CDATA[Operation PowerOFF identifies and warns 75K users of DDoS-for-hire services, nets 4 arrests, and seizes 53 domains in a Europol-led crackdown.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/operation-poweroff-ddos-for-hire-services-identified/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		<enclosure url="https://operation-poweroff.com/assets/video.mp4" length="80859510" type="video/mp4" />
+
+			</item>
+		<item>
+		<title>Founder Liquidity Without Compromising on Growth</title>
+		<link>https://hackread.com/founder-liquidity-without-compromising-growth/</link>
+					<comments>https://hackread.com/founder-liquidity-without-compromising-growth/#respond</comments>
+		
+		<dc:creator><![CDATA[Owais Sultan]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 19:42:51 +0000</pubDate>
+				<category><![CDATA[Fintech]]></category>
+		<category><![CDATA[Business]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Finteh]]></category>
+		<category><![CDATA[Liquidity]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144096</guid>
+
+					<description><![CDATA[Founders can access liquidity without exiting by selling shares via secondary deals, reducing financial pressure while staying focused on long-term growth.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/founder-liquidity-without-compromising-growth/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>New RecruitRat, SaferRat, Astrinox, Massiv Android Malware Found Targeting 800 Apps</title>
+		<link>https://hackread.com/recruitrat-saferrat-astrinox-massiv-android-malware/</link>
+					<comments>https://hackread.com/recruitrat-saferrat-astrinox-massiv-android-malware/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 18:44:32 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Scams and Fraud]]></category>
+		<category><![CDATA[Astrinox]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Massiv]]></category>
+		<category><![CDATA[RecruitRat]]></category>
+		<category><![CDATA[SaferRat]]></category>
+		<category><![CDATA[Scam]]></category>
+		<category><![CDATA[Zimperium]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144072</guid>
+
+					<description><![CDATA[New research from Zimperium reveals four active Android malware campaigns, RecruitRat, SaferRat, Astrinox, and Massiv, targeting over 800 banking apps globally.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/recruitrat-saferrat-astrinox-massiv-android-malware/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Race to Quantum-Proof the Internet Has Already Begun</title>
+		<link>https://hackread.com/race-to-quantum-proof-the-internet/</link>
+					<comments>https://hackread.com/race-to-quantum-proof-the-internet/#respond</comments>
+		
+		<dc:creator><![CDATA[Owais Sultan]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 17:44:46 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Security]]></category>
+		<category><![CDATA[Fhenix]]></category>
+		<category><![CDATA[internet]]></category>
+		<category><![CDATA[Quantum Computing]]></category>
+		<category><![CDATA[Technology]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144080</guid>
+
+					<description><![CDATA[The race to quantum-proof the internet is underway as experts warn of “harvest now, decrypt later” risks and slow migration to post-quantum security.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/race-to-quantum-proof-the-internet/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>New Mirai Variant Nexcorium Hijacks DVR Devices for DDoS Attacks</title>
+		<link>https://hackread.com/mirai-variant-nexcorium-dvr-devices-ddos-attacks/</link>
+					<comments>https://hackread.com/mirai-variant-nexcorium-dvr-devices-ddos-attacks/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 14:00:59 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[DDOS]]></category>
+		<category><![CDATA[FortiGuard]]></category>
+		<category><![CDATA[Fortinet]]></category>
+		<category><![CDATA[IoT]]></category>
+		<category><![CDATA[Mirai]]></category>
+		<category><![CDATA[Nexcorium]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144042</guid>
+
+					<description><![CDATA[Cybersecurity researchers at Fortinet have discovered Nexcorium, a new Mirai-based malware targeting TBK DVR systems to turn them into a botnet for DDoS attacks.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/mirai-variant-nexcorium-dvr-devices-ddos-attacks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>New ZionSiphon Malware Discovered Targeting Israeli Water Systems</title>
+		<link>https://hackread.com/zionsiphon-malware-target-israeli-water-systems/</link>
+					<comments>https://hackread.com/zionsiphon-malware-target-israeli-water-systems/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 11:00:56 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Iran]]></category>
+		<category><![CDATA[Israel]]></category>
+		<category><![CDATA[OT]]></category>
+		<category><![CDATA[Palestine]]></category>
+		<category><![CDATA[Water]]></category>
+		<category><![CDATA[ZionSiphon]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144040</guid>
+
+					<description><![CDATA[Researchers at Darktrace have identified ZionSiphon, a new malware targeting Israeli water treatment plants. Learn how this OT-focused&#8230;]]></description>
+		
+					<wfw:commentRss>https://hackread.com/zionsiphon-malware-target-israeli-water-systems/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>New CGrabber and Direct-Sys Malware Spread Through GitHub ZIP Files</title>
+		<link>https://hackread.com/cgrabber-direct-sys-malware-github-zip-files/</link>
+					<comments>https://hackread.com/cgrabber-direct-sys-malware-github-zip-files/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 09:25:45 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[CGrabber]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Developers]]></category>
+		<category><![CDATA[Direct-Sys]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144034</guid>
+
+					<description><![CDATA[Hackers spread CGrabber and Direct-Sys malware through GitHub ZIP files, bypassing security tools to steal passwords, crypto wallets, and user data.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/cgrabber-direct-sys-malware-github-zip-files/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>OpenAI Launches GPT-5.4-Cyber to Boost Defensive Cybersecurity</title>
+		<link>https://hackread.com/openai-gpt-5-4-cyber-boost-defensive-cybersecurity/</link>
+					<comments>https://hackread.com/openai-gpt-5-4-cyber-boost-defensive-cybersecurity/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Thu, 16 Apr 2026 14:59:48 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[GPT-5.4-Cyber]]></category>
+		<category><![CDATA[Mythos]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144012</guid>
+
+					<description><![CDATA[OpenAI unveils GPT-5.4-Cyber, a cybersecurity-focused model built to help defenders analyze malware and fix software bugs. The company is also expanding its Trusted Access for Cyber (TAC) program to thousands of verified experts.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/openai-gpt-5-4-cyber-boost-defensive-cybersecurity/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cybersecurity Risks of Hiring a Virtual Assistant and How to Protect Your Business</title>
+		<link>https://hackread.com/cybersecurity-risks-hiring-virtual-assistant-business/</link>
+					<comments>https://hackread.com/cybersecurity-risks-hiring-virtual-assistant-business/#respond</comments>
+		
+		<dc:creator><![CDATA[Owais Sultan]]></dc:creator>
+		<pubDate>Thu, 16 Apr 2026 11:23:46 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Business]]></category>
+		<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Virtual Assistant]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144017</guid>
+
+					<description><![CDATA[Virtual assistants boost productivity but add cybersecurity risks. Poor access control, weak devices, and credential sharing can expose sensitive business data.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/cybersecurity-risks-hiring-virtual-assistant-business/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

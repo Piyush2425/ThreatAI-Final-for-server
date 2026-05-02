@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:docs="http://schemas.google.com/docs/2007" xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml" xmlns:itms="http://phobos.apple.com/rss/1.0/modules/itms/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/" xmlns:twitter="http://api.twitter.com" xmlns:wfw="http://wellformedweb.org/CommentAPI/" version="2.0">
+  <channel>
+    <title>Trend Micro Research, News and Perspectives</title>
+    <link>http://feed.informer.com/digests/G5HRN3DTV4/feeder</link>
+    <description></description>
+    <copyright>Respective post owners and feed distributors</copyright>
+    <pubDate>Tue, 09 Nov 2021 16:45:03 +0000</pubDate>
+    <generator>Feed Informer http://feed.informer.com/</generator>
+    <atom:link href="http://feed.informer.com/digests/G5HRN3DTV4/feeder" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Void Dokkaebi Uses Fake Job Interview Lure to Spread Malware via Code Repositories</title>
+      <link>https://www.trendmicro.com/en_us/research/26/d/void-dokkaebi-uses-fake-job-interview-lure-to-spread-malware-via-code-repositories.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:8f974fda-7558-7a9b-31fb-0440c1b55662</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <description>Our research on Void Dokkaebi’s operations uncovered a campaign that turns infected developer repositories into malware delivery channels. By spreading through trusted workflows, organizational codebases, and open-source projects, the threat can scale from a single compromise to a broader supply chain risk.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/void-dokkaebi-weaponizes-developer-ecosystem:Large?qlt=80"/>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Research</category>
+      <author>Feike Hacquebord</author>
+    </item>
+    <item>
+      <title>Identity Protection in the AI Era</title>
+      <link>https://www.trendmicro.com/en_us/research/26/d/ai-era-identity-production.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:f27cadb5-8b6a-9475-fc04-3ca62eafa0e7</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <description>Enterprises aiming to predict and mitigate human, machine, and AI‑agent risks at scale demand AI‑powered identity‑first security without compromise.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/identity-protection-in-the-ai-era-blog-img:Large?qlt=80"/>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Web</category>
+      <category>Trend Micro Research : Phishing</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <author>Sara Atie</author>
+    </item>
+    <item>
+      <title>U.S. Public Sector Under Siege: Threat Intelligence for Q1 2026</title>
+      <link>https://www.trendmicro.com/en_us/research/26/d/us-public-sector-under-siege.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:74201df5-6fa6-543d-15fd-03350fdd676e</guid>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <description>The first quarter of 2026 has reinforced a hard truth: U.S. government agencies and educational institutions are operating in the most hostile cyber threat environment ever recorded.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/us-public-sector-under-siege:Large?qlt=80"/>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <author>Jon Clay</author>
+    </item>
+    <item>
+      <title>Claude Code Packaging Error Remains a Lure in an Active Campaign: What Defenders Should Do </title>
+      <link>https://www.trendmicro.com/en_us/research/26/d/claude-code-remains-a-lure-what-defenders-should-do.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:788d6ca5-c382-1f99-8405-0bbffcfab2af</guid>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <description>Threat actors leveraged Anthropic’s Claude Code npm release packaging error to distribute Vidar, GhostSocks, and PureLog Stealer. This blog details immediate steps organizations can take and best practices to prevent further risk.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/claude-code-still-a-lure-fig1-hero:Large?qlt=80"/>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <author>Jacob Santos</author>
+    </item>
+    <item>
+      <title>Weaponizing Trust Signals: Claude Code Lures and GitHub Release Payloads</title>
+      <link>https://www.trendmicro.com/en_us/research/26/d/weaponizing-trust-claude-code-lures-and-github-release-payloads.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:5e6f918c-4be7-d420-20bd-f009c4439d1a</guid>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+      <description>A packaging error in Anthropic’s Claude Code npm release briefly exposed internal source code. This entry examines how threat actors rapidly weaponized the resulting attention, pivoting an existing AI-themed campaign to spread Vidar and GhostSocks.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/claudecodetomalware-976:Large?qlt=80"/>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <author>Jacob Santos</author>
+    </item>
+    <item>
+      <title>TrendAI Insight: New U.S. National Cyber Strategy</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/trendai-insight-new-us-national-cyber-strategy.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:a570caae-8840-6c08-74ca-5044b2f244db</guid>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <description>TrendAI reviews the White House National Cyber Strategy, outlining six pillars to strengthen U.S. cybersecurity—from deterrence and regulation to federal modernization, critical infrastructure protection, AI leadership, and workforce development.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/trendai-insight-new-us-national-cyber-strategy-tn:Large?qlt=80"/>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <author>Jon Clay</author>
+    </item>
+    <item>
+      <title>TrendAI™ Research at RSAC 2026: Advancing Defense Across AI‑Driven and Cyber‑Physical Threats</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/trendai-research-at-rsac-2026.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:ea299908-8a8c-9124-e9d2-c198c16eefde</guid>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <description>TrendAI™ Research explored agentic AI cybercrime and EV infrastructure security through two research sessions at RSAC 2026.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/RSAC1_for_thumbnail:Large?qlt=80"/>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <author>TrendAI™ Research</author>
+    </item>
+    <item>
+      <title>The Real Risk of Vibecoding</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/the-real-risk-of-vibecoding.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:fdcd43f4-10d1-03c3-99d1-5ad3e1e45c7d</guid>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <description>This blog looks at how AI‑driven vibecoding speeds up software development while increasing security risk by outpacing traditional review and ownership. It explains why security needs to move earlier and be built into modern development workflows.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/the-real-risk-of-vibecoding:Large?qlt=80"/>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Data center</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <author>Bestin Koruthu</author>
+    </item>
+    <item>
+      <title>Axios NPM Package Compromised: Supply Chain Attack Hits JavaScript HTTP Client with 100M+ Weekly Downloads</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/axios-npm-package-compromised.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:9e4c9e6d-1b3d-d870-3e8a-f44de9d04c29</guid>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <description>A supply chain attack hit Axios when attackers used stolen npm credentials to publish malicious versions containing a phantom dependency. This triggered a cross-platform RAT during installation and replaced its files with clean decoys, making detection challenging.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/axios-supply-chain-attack-thumbnail:Large?qlt=80"/>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <author>Peter Girnus</author>
+    </item>
+    <item>
+      <title>TeamPCP’s Telnyx Attack Marks a Shift in Tactics Beyond LiteLLM</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/teampcp-telnyx-attack-marks-a-shift-in-tactics.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:7d1fa150-1d19-6f02-4740-6ec0059d1fa1</guid>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Moving beyond their LiteLLM campaign, TeamPCP weaponizes the Telnyx Python SDK with stealthy WAV‑based payloads to steal credentials across Linux, macOS, and Windows.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/Telnyx-976:Large?qlt=80"/>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <author>John Rainier Navato</author>
+    </item>
+    <item>
+      <title>Pawn Storm Campaign Deploys PRISMEX, Targets Government and Critical Infrastructure Entities </title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/pawn-storm-targets-govt-infra.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:37b12a6b-9e12-4a63-a80b-f1c8c060ee76</guid>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <description>This blog discusses the steganography, cloud abuse, and email-based backdoors used against the Ukrainian defense supply chain in the latest Pawn Storm campaign that TrendAI™ Research observed and analyzed. </description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/pawn-storm-malware:Large?qlt=80"/>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <author>Feike Hacquebord</author>
+    </item>
+    <item>
+      <title>Your AI Gateway Was a Backdoor: Inside the LiteLLM Supply Chain Compromise </title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:f6b39715-a45b-518b-f5cc-78f6f1d15e41</guid>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <description>TeamPCP orchestrated one of the most sophisticated multi-ecosystem supply chain campaigns publicly documented to date that cascaded through developer tooling and compromised LiteLLM, exposing how AI proxy services that concentrate API keys and cloud credentials become high-value collateral when supply chain attacks compromise upstream dependencies.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/litellm-compromise-thumb:Large?qlt=80"/>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Threats</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <author>Peter Girnus</author>
+    </item>
+    <item>
+      <title>Your AI Stack Just Handed Over Your Root Keys: Inside the litellm PyPI Breach</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/your-ai-stack-just-handed-over-your-root-keys-inside-the-litellm-pypi-breach.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:42881fbb-d5c1-e682-2d28-5fc652b4bbdb</guid>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Litellm PyPI breach explained: malicious versions steal cloud credentials, SSH keys, and Kubernetes secrets. Learn impact and urgent mitigation steps.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/pypi-breach-blog:Large?qlt=80"/>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Data center</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <author>Fernando Tucci</author>
+    </item>
+    <item>
+      <title>Copyright Lures Mask a Multi‑Stage PureLog Stealer Attack on Key Industries</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/copyright-lures-mask-a-multistage-purelog-stealer-attack.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:ba06859f-924f-ba8b-a65d-a5b130191c13</guid>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <description>We look into a stealthy multi‑stage attack campaign that delivers PureLog Stealer entirely in memory using encrypted, fileless techniques.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/purelog976:Large?qlt=80"/>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Phishing</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <author>Mohamed Fahmy</author>
+    </item>
+    <item>
+      <title>Why East-West Visibility Matters for Grid Security</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/why-east-west-visibility-matters-for-grid-security.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:1b280c61-1f39-eba4-19d3-64aa292453d6</guid>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Learn how east-west traffic visibility helps detect and stop lateral movement attacks inside electric grid infrastructure and critical OT networks.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/why-east-west-visibility-matters-for-grid-security-tn:Large?qlt=80"/>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Consumer Focus</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Privacy &amp; Risks</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : ICS OT</category>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Network</category>
+      <author>Vitaliy Shtym</author>
+    </item>
+    <item>
+      <title>From Misconfigured Spring Boot Actuator to SharePoint Exfiltration: How Stolen Credentials Bypass MFA</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/from-misconfigured-spring-boot-actuator-to-sharepoint-exfiltrati.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:e42d74b4-632a-aaa4-c844-c7e41f9ede22</guid>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Not every cloud breach starts with malware or a zero-day. In this incident, attackers discovered an exposed Spring Boot Actuator endpoint, harvested credentials from leaked configuration data, then used the OAuth2 Resource Owner Password Credentials (ROPC) flow to authenticate without MFA.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/sharepoint-976:Large?qlt=80"/>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Investigations</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <author>Ryan Soliven</author>
+    </item>
+    <item>
+      <title>Web Shells, Tunnels, and Ransomware: Dissecting a Warlock Attack</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/dissecting-a-warlock-attack.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:993ee1ab-f64f-4d2d-1ead-a7e3a1ecdadf</guid>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Warlock continues to enhance its attack chain with new tactics to improve persistence, lateral movement, and defense evasion using an expanded toolset: TightVNC Yuze, and a persistent BYOVD technique leveraging the NSec driver.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/dissecting-hero:Large?qlt=80"/>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <author>Maristel Policarpio</author>
+    </item>
+    <item>
+      <title>Securing Autonomous AI Agents with TrendAI &amp; NVIDIA OpenShell</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/securing-autonomous-ai-agents-with-trendai-and-nvidia-openshell.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:d2ec24f2-7d4f-f8a5-35b9-7c43275dc265</guid>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Learn how TrendAI and NVIDIA OpenShell help secure autonomous AI agents and build trusted enterprise AI systems with stronger visibility and control.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/securing-autonomous-ai-agents-with-trendai-and-nvidia-openshell:Large?qlt=80"/>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <author>Fernando Cardoso</author>
+    </item>
+    <item>
+      <title>TrendAI™ Supports Global Law Enforcement Efforts</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/trendai-supports-global-law-enforcement-efforts.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:321b9a6d-923e-1767-a66b-0675e7b04892</guid>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Learn how TrendAI™  and our researchers contributed threat intelligence and analysis to support INTERPOL against cybercrime.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/lea-operation-img:Large?qlt=80"/>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <author>TrendAI™ Research</author>
+    </item>
+    <item>
+      <title>CISOs in a Pinch: A Security Analysis of OpenClaw</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/cisos-in-a-pinch-a-security-analysis-openclaw.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:ce477bda-6e36-8f54-f21e-e867f7b90b45</guid>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Learn about OpenClaw (a sovereign agent) and how this can be viable for enterprises.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/security-analysis-of-openclaw-img:Large?qlt=80"/>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <author>Fernando Tucci</author>
+    </item>
+    <item>
+      <title>Through the Lens of MDR: Analysis of KongTuke’s ClickFix Abuse of Compromised WordPress Sites</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/kongtuke-clickfix-abuse-of-compromised-wordpress-sites.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:7b84d5db-10d8-28c5-2fa4-ffd34b0d875c</guid>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Our analysis of an active KongTuke campaign deploying modeloRAT — malware capable of reconnaissance, command execution, and persistent access — through compromised WordPress sites and fake CAPTCHA lures shows that the group still operates this delivery chain in parallel with the newer CrashFix technique.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/clickfix-976:Large?qlt=80"/>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Phishing</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <author>Aira Marcelo</author>
+    </item>
+    <item>
+      <title>TrendAI™ at [un]prompted 2026: From KYC Exploits to Agentic Defense</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/trendai-at-unprompted-2026.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:8a69d4f5-567b-5f62-296d-ae431a301837</guid>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <description>At [un]prompted 2026, TrendAI™ demonstrated how documents can be used to exploit AI-driven KYC pipelines and introduced FENRIR, an automated system for discovering AI vulnerabilities at scale.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/unprompted-976-2:Large?qlt=80"/>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <author>TrendAI™ Research</author>
+    </item>
+    <item>
+      <title>New BoryptGrab Stealer Targets Windows Users via Deceptive GitHub Pages</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/boryptgrab-stealer-targets-users-via-deceptive-github-pages.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:3503a9ec-9ac1-d90d-2d0d-e22b946ab38d</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <description>The BoryptGrab campaign uses fake SEO‑optimized GitHub repositories and deceptive download pages to distribute a data‑stealing malware family that delivers multiple payloads, including a reverse SSH backdoor, to Windows users.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/AsyncRAT-cover:Large?qlt=80"/>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <author>Mingyue Shirley Yang</author>
+    </item>
+    <item>
+      <title> Europol, Microsoft, TrendAI™ and Collaborators Halt Tycoon 2FA Operations</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/tycoon2fa-takedown.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:f24361b0-e1e9-3853-bb0b-525385edf1de</guid>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Tycoon 2FA was dismantled this week by law enforcement and industry partners including TrendAI™. The phishing-as-a-service platform offered MFA bypass services using adversary-in-the-middle (AitM) proxying.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/phaas-takedown-thumb:Large?qlt=80"/>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Phishing</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <author>Christopher Boyton</author>
+    </item>
+    <item>
+      <title>Claude Code Security set the Cybersecurity Stocks on Fire - Here's the Signal in the Smoke</title>
+      <link>https://www.trendmicro.com/en_us/research/26/c/claude-code-security-set-the-cybersecurity-stocks-on-fire.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:0261a6c8-89b5-4911-2b8c-745efd284083</guid>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Learn how Claude Code Security set Cybersecurity stocks on fire.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/claude-code-security-img:Large?qlt=80"/>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <author>Fernando Tucci</author>
+    </item>
+    <item>
+      <title>Malicious OpenClaw Skills Used to Distribute Atomic macOS Stealer</title>
+      <link>https://www.trendmicro.com/en_us/research/26/b/openclaw-skills-used-to-distribute-atomic-macos-stealer.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:392bab82-e934-5dbf-e1ea-8da869075933</guid>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <description>Malicious OpenClaw skills trick AI agents and users into installing a new AMOS variant that steals extensive data at scale.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/amos-976:Large?qlt=80"/>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Research</category>
+      <author>Alfredo Oliveira</author>
+    </item>
+    <item>
+      <title>Spam Campaign Abuses Atlassian Jira, Targets Government and Corporate Entities</title>
+      <link>https://www.trendmicro.com/en_us/research/26/b/spam-campaign-abuses-atlassian-jira.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:967c3ce0-574d-cb1f-dab4-82b8dfc3a76c</guid>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <description>We uncover how a campaign used Atlassian Jira Cloud to launch automated and targeted spam campaigns, exploiting trusted SaaS workflows to bypass security controls.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/atlassian_spam_campaign:Large?qlt=80"/>
+      <category>Trend Micro Research : Spam</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Research</category>
+      <author>TrendAI™ Research</author>
+    </item>
+    <item>
+      <title>U.S. Public Sector Under Siege</title>
+      <link>https://www.trendmicro.com/en_us/research/26/b/us-public-sector-under-siege.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:29760f73-d471-2ebe-b337-5d1df968af19</guid>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <description>Discover why Government and Education must prioritize Cyber Risk Management.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/thmb-us-public-sector-under-siege-blog-img:Large?qlt=80"/>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <author>Jon Clay</author>
+    </item>
+    <item>
+      <title>Viral AI, Invisible Risks:  What OpenClaw Reveals About Agentic Assistants</title>
+      <link>https://www.trendmicro.com/en_us/research/26/b/what-openclaw-reveals-about-agentic-assistants.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:e46c9969-df8a-4189-ef1d-7fcca8992ac8</guid>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <description>OpenClaw (aka Clawdbot or Moltbot) represents a new frontier in agentic AI: powerful, highly autonomous, and surprisingly easy to use. In this research, we examine how its capabilities compare to its predecessors’ and highlight the security risks inherent to the agentic AI paradigm.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/OpenClaw-976:Large?qlt=80"/>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Research</category>
+      <author>Salvatore Gariuolo</author>
+    </item>
+    <item>
+      <title>PeckBirdy: A Versatile Script Framework for LOLBins Exploitation Used by China-aligned Threat Groups</title>
+      <link>https://www.trendmicro.com/en_us/research/26/a/peckbirdy-script-framework.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:5265919b-48a6-cabb-22d6-2dfda1459765</guid>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <description>PeckBirdy is a sophisticated JScript-based C&amp;C framework used by China-aligned APT groups to exploit LOLBins across multiple environments, delivering advanced backdoors to target gambling industries and Asian government entities.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/peckbirdy-976:Large?qlt=80"/>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Research</category>
+      <author>Ted Lee</author>
+    </item>
+    <item>
+      <title>Embracing Choice in Cybersecurity: TrendAI Vision One™ and SentinelOne Integration</title>
+      <link>https://www.trendmicro.com/en_us/research/26/a/embracing-choice-in-cybersecurity.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:19f1c700-cf5b-ffbd-7bb6-ff5b2c17ee3e</guid>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <description>Discover how the TrendAI Vision One and SentinelOne integration exemplifies our commitment to endpoint flexibility.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/vision-one-sentinel-one-integration-blog:Large?qlt=80"/>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Security Strategies</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <author>Jenny Hua</author>
+    </item>
+    <item>
+      <title>Pwn2Own: Researchers Earn $1 Million for 76 Zero-Days</title>
+      <link>https://www.trendmicro.com/en_us/research/26/a/pwn2own-researchers-earn-1-million-for-76-zero-days.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:8c265779-825d-3330-61c0-2f0a444cae15</guid>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <description>Discover how TrendAI Zero Day Initiative (ZDI) identified critical vulnerabilities across connected vehicles, EV chargers, and automotive systems.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/thmb-pwn2own-researchers-earn-1-million-for-76-zero-days:Large?qlt=80"/>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Connected Car</category>
+      <author>Trend Micro Research</author>
+    </item>
+    <item>
+      <title>Watering Hole Attack Targets EmEditor Users with Information-Stealing Malware</title>
+      <link>https://www.trendmicro.com/en_us/research/26/a/watering-hole-attack-targets-emeditor-users.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:a6da7eaa-2589-b04f-79b9-e465a0e571b0</guid>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+      <description>TrendAI™ Research provides a technical analysis of a compromised EmEditor installer used to deliver multistage malware that performs a range of malicious actions. </description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/emeditor-976:Large?qlt=80"/>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Cyber Risk</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <author>Don Ovid Ladores</author>
+    </item>
+    <item>
+      <title>From Extension to Infection: An In-Depth Analysis of the Evelyn Stealer Campaign Targeting Software Developers</title>
+      <link>https://www.trendmicro.com/en_us/research/26/a/analysis-of-the-evelyn-stealer-campaign.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:c77b422b-be37-352e-b09a-e30c1b66d1ae</guid>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <description>This blog entry provides an in-depth analysis of the multistage delivery of the Evelyn information stealer, which was used in a campaign targeting software developers.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/Evelyn-cover:Large?qlt=80"/>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <author>Ahmed Mohamed Ibrahim </author>
+    </item>
+    <item>
+      <title>Your 100 Billion Parameter Behemoth is a Liability</title>
+      <link>https://www.trendmicro.com/en_us/research/26/a/your-100-billion-parameter-behemoth-is-a-liability.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:bdb58958-1d59-3c68-7a9c-74640dfd8204</guid>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <description>The "bigger is better" era of AI is hitting a wall. We are in an LLM bubble, characterized by ruinous inference costs and diminishing returns. The future belongs to Agentic AI powered by specialized Small Language Models (SLMs). Think of it as a shift from hiring a single expensive genius to running a highly efficient digital factory. It’s cheaper, faster, and frankly, the only way to make agents work at scale.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/your-100-billion-parameter-behemoth-is-a-liability:Large?qlt=80"/>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Data center</category>
+      <author>Fernando Tucci</author>
+    </item>
+    <item>
+      <title>Introducing ÆSIR: Finding Zero-Day Vulnerabilities at the Speed of AI</title>
+      <link>https://www.trendmicro.com/en_us/research/26/a/aesir.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:610b0598-74d4-e994-ab77-4bfc411651e5</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <description>TrendAI™’s ÆSIR platform combines AI automation with expert oversight to discover zero-day vulnerabilities in AI infrastructure – 21 CVEs across NVIDIA, Tencent, and MLflow since mid-2025.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/AESIR_thumbnail:Large?qlt=80"/>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <author>Peter Girnus</author>
+    </item>
+    <item>
+      <title>Key Insights on SHADOW-AETHER-015 and Earth Preta from the 2025 MITRE ATT&amp;CK Evaluation with TrendAI Vision One™ </title>
+      <link>https://www.trendmicro.com/en_us/research/26/a/shadow-aether-015-earth-preta-mitre.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:e989da45-5d8e-3c50-de58-2180649db40d</guid>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+      <description>This blog discusses notable modern TTPs observed from SHADOW-AETHER-015 and Earth Preta, from TrendAI Research™ monitoring and TrendAI Vision One™ intelligence. These findings support the performance of TrendAI™ in the 2025 MITRE ATT&amp;CK Evaluations.  </description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/shadow-aether-earth-preta_thumb:Large?qlt=80"/>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+    </item>
+    <item>
+      <title>Analyzing a Multi-Stage AsyncRAT Campaign via Managed Detection and Response</title>
+      <link>https://www.trendmicro.com/en_us/research/26/a/analyzing-a-a-multi-stage-asyncrat-campaign-via-mdr.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:98864a5c-15b1-5f41-793a-699ae3f530cf</guid>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <description>Threat actors exploited Cloudflare's free-tier infrastructure and legitimate Python environments to deploy the AsyncRAT remote access trojan, demonstrating advanced evasion techniques that abuse trusted cloud services for malicious operations.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/asyncrat-cover:Large?qlt=80"/>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Phishing</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <author>Buddy Tancio</author>
+    </item>
+    <item>
+      <title>Get Executives on board with managing Cyber Risk</title>
+      <link>https://www.trendmicro.com/en_us/research/25/l/managing-cyber-risk-with-executives.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:950b3327-4476-8f3d-87cb-45a1e290cf1e</guid>
+      <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
+      <description>Learn how the 2025 Trend Micro Defenders Survey Report helps paint a clear picture of how security teams are looking to work with executive leaders to manage cyber risk.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/executives-managing-cyber-risk-blog-img:Large?qlt=80"/>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Annual Predictions</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+    </item>
+    <item>
+      <title>Trend Micro's Pivotal Role in INTERPOL's Operation Sentinel: Dismantling Digital Extortion Networks Across Africa</title>
+      <link>https://www.trendmicro.com/en_us/research/25/l/operation-sentinel-digital-extortion-campaigns-identified.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:2a2f419d-e176-2a5c-1c24-d92f2bc9fc32</guid>
+      <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
+      <description>Continuing a Legacy of Successful Collaboration</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/operation-sentinel:Large?qlt=80"/>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+    </item>
+    <item>
+      <title>What Does it Take to Manage Cloud Risk?</title>
+      <link>https://www.trendmicro.com/en_us/research/25/l/managing-cloud-risk.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:e2d82863-e8d2-615c-48a3-f3218e9e1c0b</guid>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <description>Learn why hybrid and multi-cloud environments are vital for IT and business success from our 2025 Trend Micro Defenders Survey.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/what-it-takes-to-manage-cloud-risk-blog-thmb:Large?qlt=80"/>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Annual Predictions</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+    </item>
+    <item>
+      <title>What Cyber Defenders Really Think About AI Risk</title>
+      <link>https://www.trendmicro.com/en_us/research/25/l/cyber-defenders-and-ai-risks.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:a3f21819-3e60-6587-e548-c3a7ed7ac4f4</guid>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <description>Learn how Trend Micro's 2025 Trend Micro Defenders Survey Report highlights current AI-related cybersecurity priorities and where security professionals use AI to their advantage.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/cyber-defenders-and-ai-risks-blog-thmb:Large?qlt=80"/>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Annual Predictions</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+    </item>
+    <item>
+      <title>Cyber Risk Management: Defenders Tell It Like It Is</title>
+      <link>https://www.trendmicro.com/en_us/research/25/l/trend-micros-2025-defenders-survey-report.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:bb1885a8-decd-0473-1e31-0be307325b21</guid>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <description>Based on more than 3,000 responses from cybersecurity professionals in nearly 90 countries, our Trend Micro Defenders Survey Report 2025 shines a bright light on the current state of cyber risk management. From the impact of cloud and AI on IT environments to top technical and human challenges, this year’s findings have a lot to say about the pressures security teams are under and what organizations are doing to tighten their grip on cyber risk.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/trend-micros-2025-defenders-survey-report:Large?qlt=80"/>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Report</category>
+      <category>Trend Micro Research : Annual Predictions</category>
+    </item>
+    <item>
+      <title>Enhancing Security Awareness with Cyber Risk Exposure Management</title>
+      <link>https://www.trendmicro.com/en_us/research/25/l/optimize-security-management-in-cyber-risk-exposure-management.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:87e053b4-76eb-4603-5198-36c512939171</guid>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <description>Learn how to strategically tackle human risk for smarter prioritization and lasting behavioral change.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/how-to-make-people-part-of-your-security-strategy-blog-img:Large?qlt=80"/>
+      <category>Trend Micro Research : Phishing</category>
+      <category>Trend Micro Research : Security Strategies</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <author>Sanjana Sadh</author>
+    </item>
+    <item>
+      <title>SHADOW-VOID-042 Targets Multiple Industries with Void Rabisu-like Tactics</title>
+      <link>https://www.trendmicro.com/en_us/research/25/l/SHADOW-VOID-042.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:aa9af7e3-cfd7-1ff1-64c0-d3a0cde68434</guid>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      <description>In November, a targeted spear-phishing campaign was observed using Trend Micro-themed lures against various industries, but this was quickly detected and thwarted by the Trend Vision One™ platform.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/SHADOW-VOID-042_thumbnail:Large?qlt=80"/>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Phishing</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <author>Daniel Lunghi</author>
+    </item>
+    <item>
+      <title>Trend Vision One™ Integration with AWS Security Hub CSPM: Unifying Cloud Security</title>
+      <link>https://www.trendmicro.com/en_us/research/25/l/aws-security-hub-integration.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:7d63291d-f40f-4726-c6ab-0f5ce42e301d</guid>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+      <description>The integration between Trend Vision One and Security Hub CSPM is exactly that, two powerful platforms enhancing each other to keep your AWS infrastructure protected.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/aws-security-hub-integration:Large?qlt=80"/>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : How To</category>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Phishing</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Deep Web</category>
+      <category>Trend Micro Research : Privacy &amp; Risks</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Spam</category>
+      <author>Eduardo Castro</author>
+    </item>
+    <item>
+      <title>Trend Vision One™ Stacks Up Against Scattered Spider and Mustang Panda in 2025 MITRE ATT&amp;CK® Evaluations</title>
+      <link>https://www.trendmicro.com/en_us/research/25/l/cloud-automation-2025-mitre-attack-round-7.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:be28d7f8-6fae-a25f-6383-7a2f673f61f6</guid>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+      <description>Enterprise 2025 introduces the first full cloud adversary emulation and expanded multi-platform testing, focusing on two advanced threat areas: Scattered Spider’s cloud-centric attacks and Mustang Panda’s long-term espionage operations.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/cloud-automation-2025-mitre-attack-round-7:Large?qlt=80"/>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Privacy &amp; Risks</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Artificial Intelligence (AI)</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+    </item>
+    <item>
+      <title>CVE-2025-55182: React2Shell Analysis, Proof-of-Concept Chaos, and In-the-Wild Exploitation </title>
+      <link>https://www.trendmicro.com/en_us/research/25/l/CVE-2025-55182-analysis-poc-itw.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:c96b74f4-45d2-b27c-4fc2-70d60688ee2a</guid>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+      <description>CVE-2025-55182 is a CVSS 10.0 pre-authentication RCE affecting React Server Components. Amid the flood of fake proof-of-concept exploits, scanners, exploits, and widespread misconceptions, this technical analysis intends to cut through the noise.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/CVE-2025-55182-thumb:Large?qlt=80"/>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <author>Peter Girnus</author>
+    </item>
+    <item>
+      <title>AI-Automated Threat Hunting Brings GhostPenguin Out of the Shadows</title>
+      <link>https://www.trendmicro.com/en_us/research/25/l/ghostpenguin.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:5886d7f9-4d21-6eef-6093-8c0699ec2eb3</guid>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+      <description>In this blog entry, Trend™ Research provides a comprehensive breakdown of GhostPenguin, a previously undocumented Linux backdoor with low detection rates that was discovered through AI-powered threat hunting and in-depth malware analysis.</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/GhostPenguin_thumbnail:Large?qlt=80"/>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Research</category>
+      <author>Aliakbar Zahravi</author>
+    </item>
+    <item>
+      <title>Critical React Server Components Vulnerability CVE-2025-55182: What Security Teams Need to Know</title>
+      <link>https://www.trendmicro.com/en_us/research/25/l/critical-react-server-components-vulnerability.html</link>
+      <source url="https://www.trendmicro.com/en_us/research.html">Research, News, and Perspective</source>
+      <guid isPermaLink="false">urn:uuid:b1facb91-7069-e8ec-f5cc-50bc1045b886</guid>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      <description>CVE-2025-55182 is a critical (CVSS 10.0) pre-authentication remote code execution vulnerability affecting React Server Components used in React.js, Next.js, and related frameworks (see the context section for a more exhaustive list of affected frameworks).</description>
+      <enclosure length="0" type="image/jpeg" url="https://trendmicro.scene7.com/is/image/trendmicro/critical-react-server-components-vulnerability-tn:Large?qlt=80"/>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <author>Peter Girnus</author>
+    </item>
+  </channel>
+</rss>

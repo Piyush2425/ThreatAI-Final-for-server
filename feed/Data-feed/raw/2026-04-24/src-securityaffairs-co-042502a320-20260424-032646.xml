@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Security Affairs</title>
+	<atom:link href="https://securityaffairs.com/feed" rel="self" type="application/rss+xml" />
+	<link>https://securityaffairs.com/</link>
+	<description>Read, think, share … Security is everyone&#039;s responsibility</description>
+	<lastBuildDate>Thu, 23 Apr 2026 17:32:20 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+<site xmlns="com-wordpress:feed-additions:1">29506073</site>	<item>
+		<title>Luxury cosmetics giant Rituals discloses data breach impacting member personal details</title>
+		<link>https://securityaffairs.com/191192/data-breach/rituals-discloses-a-data-breach-impacting-member-personal-details.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 17:32:19 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Data Breach]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Rituals]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191192</guid>
+
+					<description><![CDATA[Rituals disclosed a breach where hackers accessed and downloaded some My Rituals members’ data, including names and addresses. Luxury cosmetics giant Rituals disclosed a data breach impacting My Rituals members after attackers gained unauthorized access to its systems and downloaded part of the database. The security breach occurred earlier this month, and the company is [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Rituals disclosed a breach where hackers accessed and downloaded some My Rituals members’ data, including names and addresses.</h2>
+
+
+
+<p>Luxury cosmetics giant Rituals disclosed a data breach impacting My Rituals members after attackers gained unauthorized access to its systems and downloaded part of the database. The security breach occurred earlier this month, and the company is now notifying affected users.</p>
+
+
+
+<p><em>&#8220;We have identified an unauthorised download of part of our members’ data.  As soon as we were alerted to this incident, we acted promptly to resolve it. We can confirm that no passwords or payment information were accessed.&#8221; reads the statement published by the company.</em></p>
+
+
+
+<p>Upon discovering the incident, the company quickly took measures and stopped the unauthorised download. </p>
+
+
+
+<p><em>&#8220;We have initiated an in-depth forensic investigation to understand how this happened and what measures we can take to prevent a similar incident in the future. We have also reported it to the relevant authorities. &#8221; continues the report.</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>My Rituals confirmed that it has contained the intrusion, however, attackers gained access to the personal data of impacted users, including full name, email address, phone number, date of birth, gender, home address. The luxury cosmetics firm pointed out that passwords or payment information were compromised. <gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The company is not aware of the public availability of the stolen data, but warns users to stay alert for phishing messages.</p>
+
+
+
+<p>At this time, it is unclear how many users were impacted and is the company was victim of a ransomware attack. </p>
+
+
+
+<p>At this time, no known ransomware or extortion group claimed responsibility for the security breach.</p>
+
+
+
+<p>Rituals is a premium lifestyle brand offering bath, body, and home products inspired by Eastern traditions. It has seen strong growth in recent years, with annual revenues exceeding €1 billion, driven by global retail expansion and e-commerce. Its portfolio includes skincare, fragrances, and wellness items.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, data breach)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191192</post-id>	</item>
+		<item>
+		<title>iOS Flaw Let Deleted Notifications Linger, Apple Issues Fix</title>
+		<link>https://securityaffairs.com/191183/mobile-2/ios-flaw-let-deleted-notifications-linger-apple-issues-fix.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 14:05:43 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[Signal]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191183</guid>
+
+					<description><![CDATA[Apple fixed an iOS flaw that kept deleted notifications on devices, allowing recovery of messages, including from apps like Signal. Apple released updates for iOS and iPadOS to address the vulnerability CVE-2026-28950, a flaw in Notification Services that stored notifications even after deletion. This logging issue could allow recovery of sensitive data, including messages from [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Apple fixed an iOS flaw that kept deleted notifications on devices, allowing recovery of messages, including from apps like Signal.</h2>
+
+
+
+<p>Apple released updates for iOS and iPadOS to address the vulnerability CVE-2026-28950, a flaw in Notification Services that stored notifications even after deletion. This logging issue could allow recovery of sensitive data, including messages from apps like Signal. The company resolved it by improving how data is redacted and handled on devices.</p>
+
+
+
+<p>The recent revelations <a href="https://securityaffairs.com/190740/security/iphone-forensics-expose-signal-messages-after-app-removal-in-u-s-case.html">about FBI forensic access to Signal messages on an iPhone</a> have reignited a long-standing misunderstanding about mobile privacy: the belief that disappearing messages and encrypted apps guarantee that no trace of communication remains once a message is deleted or an app is removed. A court case in Texas, reported by 404 Media and later analyzed by multiple security researchers, shows why that assumption does not match how modern smartphones actually work.</p>
+
+
+
+<p><em>“The FBI was able to forensically extract copies of incoming Signal messages from a defendant’s iPhone, even after the app was deleted, because copies of the content were saved in the device’s push notification database, multiple people present for FBI testimony in a recent trial told 404 Media. The case involved a group of people setting off fireworks and vandalizing property at the ICE Prairieland Detention Facility in Alvarado, Texas in July, and one shooting a police officer in the neck.” reads the&nbsp;<a href="https://www.404media.co/fbi-extracts-suspects-deleted-signal-messages-saved-in-iphone-notification-database-2/"><strong>post</strong></a>&nbsp;published by 404 Media. “The news shows how forensic extraction—when someone has physical access to a device and is able to run specialized software on it—can yield sensitive data derived from secure messaging apps in unexpected places.”</em></p>
+
+
+
+<p>Investigators were able to recover incoming messages from a suspect’s iPhone even after Signal had been uninstalled, even though the messages were configured to disappear after a short time. The FBI did not break Signal’s encryption, nor did they exploit any vulnerability in its protocol. Instead, the data was retrieved from a completely different layer of the system: Apple’s own notification storage.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Court testimony reveals that&nbsp;only incoming iPhone messages were recovered, not outgoing ones. This is key because&nbsp;incoming messages&nbsp;are processed by Apple’s push notification system, temporarily stored for lock screen/notification previews, and may leave OS traces even if deleted from the app. Outgoing messages lack this notification trail, explaining the investigators’ limitation.</p>
+
+
+
+<p>Users misunderstand what “deleting” or “disappearing” actually means, instant messaging apps like Signal encrypt in transit and delete from their interface per timer, but once delivered, messages decrypt on the recipient’s device for display. The OS may then cache notification content independently, outside Signal’s control.</p>
+
+
+
+<p><em>“There is an important detail to keep in mind here: only incoming messages were recovered, not outgoing ones. This is entirely consistent with how push notifications work.” reads an&nbsp;<a href="https://andreafortuna.org/2026/04/11/signal-fbi-iphone-notifications-forensics/">analysis</a>&nbsp;published by researcher Andrea Fortuna. “When someone sends you a message on Signal, the app server pushes a notification to Apple’s infrastructure, which then delivers it to your device. If the notification content was not stripped before delivery, the text lands in the operating system’s notification database. Outgoing messages, which originate directly from your device to the server, never go through this pathway and therefore leave no equivalent trace.”</em></p>
+
+
+
+<p>Apple’s Push Notification service routes encrypted messages to devices via secure tokens. Payloads with visible alerts (if previews enabled) are decrypted locally but rendered by iOS, which caches notification data for history/reboot recovery. iOS databases persist fragments even after app deletion, enabling forensic recovery of past notifications despite end-to-end encryption.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>According to Apple, the issue impacts the following devices:</p>
+
+
+
+<ul class="wp-block-list">
+<li>iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later. </li>
+
+
+
+<li>iPhone XR, iPhone XS, iPhone XS Max, iPhone 11 (all models), iPhone SE (2nd generation), iPhone 12 (all models), iPhone 13 (all models), iPhone SE (3rd generation), iPhone 14 (all models), iPhone 15 (all models), iPhone 16 (all models), iPhone 16e, iPad mini (5th generation &#8211; A17 Pro), iPad (7th generation &#8211; A16), iPad Air (3rd &#8211; 5th generation), iPad Air 11-inch (M2 &#8211; M3), iPad Air 13-inch (M2 &#8211; M3), iPad Pro 11-inch (1st generation &#8211; M4), iPad Pro 12.9-inch (3rd &#8211; 6th generation), and iPad Pro 13-inch (M4).<gwmw style="display:none;"></gwmw></li>
+</ul>
+
+
+
+<p><a href="https://support.apple.com/en-us/127002">iOS 26.4.2, iPadOS 26.4.2</a>, <a href="https://support.apple.com/en-us/127003">iOS 18.7.8, and iPadOS 18.7.8</a> releases address the flaw.</p>
+
+
+
+<p>Signal welcomed Apple’s quick fix, noting that no user action is needed. After installing the update, any stored notifications are deleted and future ones won’t be retained.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;We are very happy that today Apple issued a patch and a security advisory. This comes following <a href="https://x.com/404mediaco">@404mediaco</a> reporting that the FBI accessed Signal message notification content via iOS despite the app being deleted.&#8221;Signal <a href="https://x.com/signalapp/status/2047070518776356996" target="_blank" rel="noreferrer noopener">wrote on X</a>. “Note that no action is needed for this fix to protect Signal users on iOS. Once you install the patch, all inadvertently-preserved notifications will be deleted and no forthcoming notifications will be preserved for deleted applications,”</em></p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">We are very happy that today Apple issued a patch and a security advisory. This comes following <a href="https://twitter.com/404mediaco?ref_src=twsrc%5Etfw">@404mediaco</a> reporting that the FBI accessed Signal message notification content via iOS despite the app being deleted. <br><br>Apple’s advisory confirmed that the bugs that allowed this to…</p>&mdash; Signal (@signalapp) <a href="https://twitter.com/signalapp/status/2047070518776356996?ref_src=twsrc%5Etfw">April 22, 2026</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div></figure>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Signal)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191183</post-id>	</item>
+		<item>
+		<title>RAMP Uncovered: Anatomy of Russia’s Ransomware Marketplace</title>
+		<link>https://securityaffairs.com/191171/cyber-crime/ramp-uncovered-anatomy-of-russias-ransomware-marketplace.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 10:16:59 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[data leak]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[RAMP]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191171</guid>
+
+					<description><![CDATA[Leaked data from RAMP reveals Russia’s ransomware ecosystem, analyzing 1,732 threads, 7,707 users, and 340,000 IP records from the forum. RAMP was not just another dark web forum. It was one of the clearest examples of how ransomware has become an organized marketplace, with sellers, buyers, brokers, and recruiters all playing different roles in the [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading" id="inside-ramp-what-a-leaked-database-reveals-about-r">Leaked data from RAMP reveals Russia’s ransomware ecosystem, analyzing 1,732 threads, 7,707 users, and 340,000 IP records from the forum.</h2>
+
+
+
+<p>RAMP was not just another dark web forum. It was one of the clearest examples of how ransomware has become an organized marketplace, with sellers, buyers, brokers, and recruiters all playing different roles in the same criminal ecosystem.</p>
+
+
+
+<p>A leaked database from RAMP gives us a rare look behind the curtain. It shows how cybercrime works when it becomes structured, commercial, and repeatable. Instead of random hackers acting alone, RAMP functioned like a business platform where criminals could sell access, recruit affiliates, advertise ransomware, and negotiate deals in private.</p>
+
+
+
+<h2 class="wp-block-heading" id="what-the-leak-exposed">What the leak exposed<gwmw style="display:none;"></gwmw></h2>
+
+
+
+<p>The leaked data covers activity from November 2021 to January 2024 and includes user records, forum threads, private messages, IP logs, and admin activity. That matters because it shows both the public side of the forum and the hidden conversations that helped turn forum posts into real attacks.</p>
+
+
+
+<p><em>&#8220;Comparitech gained exclusive access to a leaked database from RAMP. The full MySQL dump contains user records, forum threads, private messages, IP logs, and admin activity spanning November 2021 through January 2024.&#8221; reads the <a href="https://www.comparitech.com/news/inside-ramp-what-a-leaked-database-reveals-about-russias-ransomware-marketplace/">analysis</a> published by Comparitech.</em></p>
+
+
+
+<p>The scale is significant. Comparitech’s analysis found 7,707 registered users, 1,732 forum threads, 340,333 IP log records, 1,899 private conversations, and 3,875 private messages. In other words, this was not a small corner of the internet. It was a large criminal marketplace with a lot of movement and a lot of participants.</p>
+
+
+
+<h2 class="wp-block-heading" id="ramp-in-numbers">RAMP in numbers</h2>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Metric</th><th>Figure</th></tr></thead><tbody><tr><td>Registered users</td><td>7,707</td></tr><tr><td>Forum threads</td><td>1,732</td></tr><tr><td>IP log records</td><td>340,333</td></tr><tr><td>Private conversations</td><td>1,899</td></tr><tr><td>Private messages</td><td>3,875</td></tr><tr><td>RaaS programs advertised</td><td>14</td></tr><tr><td>Leak sites referenced</td><td>250+</td></tr></tbody></table></figure>
+
+
+
+<p>These numbers show a mature underground community, not a loose collection of opportunists.</p>
+
+
+
+<h2 class="wp-block-heading" id="why-ramp-mattered">Why RAMP mattered</h2>
+
+
+
+<p>RAMP became popular because it supported the full ransomware chain. That means it was not only a place to talk about attacks. It was a place to buy access, find partners, exchange tools, and recruit affiliates.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The forum’s access market was especially important. The database shows 333 threads offering access to compromised corporate networks. That is a big deal, because initial access is often the hardest part of a ransomware operation. Once criminals get inside a network, the rest of the attack becomes much easier.</p>
+
+
+
+<p>The forum also hosted 60 threads in its ransomware-as-a-service section. That section revealed a growing trend toward generous profit splits, with affiliates getting up to 90% of ransom payments in some cases. That kind of arrangement helps explain why ransomware keeps attracting new actors. It is a criminal business model designed to scale.</p>
+
+
+
+<h2 class="wp-block-heading" id="what-was-being-sold">What was being sold</h2>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Category</th><th>What it tells us</th></tr></thead><tbody><tr><td>Access listings</td><td>Criminals were selling entry into real corporate networks</td></tr><tr><td>RaaS recruitment</td><td>Operators were hiring affiliates to spread attacks</td></tr><tr><td>Private messages</td><td>Deals were negotiated behind the scenes</td></tr><tr><td>IP logs</td><td>Activity was tracked and monitored at scale</td></tr></tbody></table></figure>
+
+
+
+<p>This mix of public listings and private negotiations shows how ransomware markets move from advertisement to execution.</p>
+
+
+
+<h2 class="wp-block-heading" id="targets-and-sectors">Targets and sectors</h2>
+
+
+
+<p>The leak also shows what kinds of organizations were being targeted. RAMP listings included defense contractors, banks, hospitals, energy companies, technology firms, and government agencies across more than 20 countries.</p>
+
+
+
+<p>The United States was the top target. It appeared in 40% of listings where a country could be identified. Government agencies were the most targeted sector, with 21 listings, followed by finance and banking, and technology and telecom, each with 11 listings.</p>
+
+
+
+<p>That pattern is important. It shows that ransomware actors are not just chasing easy victims. They are targeting organizations that are likely to be pressured into paying because they cannot afford downtime, data loss, or public exposure.</p>
+
+
+
+<h2 class="wp-block-heading" id="the-hidden-layer">The hidden layer</h2>
+
+
+
+<p>The most revealing part of the leak may be the private conversations. The database included 1,899 conversations and 3,875 messages. These messages covered topics like VPN access, stealer logs, and private RaaS partnership requests.</p>
+
+
+
+<p>That hidden layer matters because public forum posts do not tell the whole story. A public listing can advertise access, but a private conversation is where the real business happens. This is where criminals confirm details, negotiate price, and decide whether a listing is worth moving forward.</p>
+
+
+
+<p>The leaked data also suggests that a single access broker posted 41 separate listings. That suggests some actors were operating like wholesalers, moving multiple entry points into corporate networks rather than focusing on just one victim.</p>
+
+
+
+<h2 class="wp-block-heading" id="why-this-matters-today">Why this matters today</h2>
+
+
+
+<p>RAMP helps explain why ransomware remains such a serious threat. The forum made it easier for criminals to specialize. One person could steal access, another could sell malware, and another could launch the final attack. That division of labor makes ransomware faster, cheaper, and harder to stop.</p>
+
+
+
+<p>It also shows why law enforcement pressure does not automatically end the problem. Even when a major forum is disrupted, the ecosystem can fragment and move elsewhere. Criminal markets often adapt rather than disappear.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>In practice, this means defenders need to think beyond malware alone. They need to monitor stolen credentials, exposed remote access, suspicious logins, and signs of initial access being sold or traded. The earliest stage of the attack chain is often the most important one to catch.</p>
+
+
+
+<h2 class="wp-block-heading" id="what-organizations-should-learn">What organizations should learn</h2>
+
+
+
+<p>The RAMP leak reinforces a simple lesson: ransomware is an ecosystem, not just a piece of malware. If attackers can buy access, recruit help, and sell stolen access in one place, then defenders need to protect every stage of the environment, from identity to endpoint to remote access.</p>
+
+
+
+<p>Organizations should focus on a few practical controls:</p>
+
+
+
+<ul class="wp-block-list">
+<li>reduce exposed services and external access paths,</li>
+
+
+
+<li>enforce MFA everywhere possible,</li>
+
+
+
+<li>detect unusual login behavior,</li>
+
+
+
+<li>monitor dark web exposure for corporate credentials,</li>
+
+
+
+<li>and improve incident response before an attack happens.<gwmw style="display:none;"></gwmw></li>
+</ul>
+
+
+
+<p>The leaked database is valuable because it shows the real machinery behind ransomware. It is not just about encryption at the end of an attack. It is about the marketplace that makes the attack possible in the first place.</p>
+
+
+
+<p><em>&#8220;This analysis is based on a MySQL database dump of the RAMP forum’s XenForo installation. We parsed raw SQL to extract structured data from the xf_user (7,707 records), xf_thread (1,732 records), xf_post, xf_ip (340,333 records), xf_admin_log, xf_conversation_master (1,899 records), and xf_conversation_message (3,875 records) tables.&#8221; concludes the analysis. &#8220;IP addresses were decoded from binary format and geolocated against known ISP allocations. All findings are based on data as it existed in the database dump and have not been independently verified against live sources.&#8221;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, data leak)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191171</post-id>	</item>
+		<item>
+		<title>U.S. CISA adds a flaw in Microsoft Defender to its Known Exploited Vulnerabilities catalog</title>
+		<link>https://securityaffairs.com/191164/hacking/u-s-cisa-adds-a-flaw-in-microsoft-defender-to-its-known-exploited-vulnerabilities-catalog.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 09:23:55 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[CISA]]></category>
+		<category><![CDATA[CVE-2026-33825]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Known Exploited Vulnerabilities Catalog]]></category>
+		<category><![CDATA[Microsoft Defender]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191164</guid>
+
+					<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in Microsoft Defender to its Known Exploited Vulnerabilities catalog The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a flaw in Microsoft Defender, tracked as CVE-2026-33825 (CVSS score of 7.8), to its Known Exploited Vulnerabilities (KEV) catalog. CVE-2026-33825 is a Microsoft Defender flaw that can be exploited [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in Microsoft Defender to its Known Exploited Vulnerabilities catalog</h2>
+
+
+
+<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) <a href="https://www.cisa.gov/news-events/alerts/2026/04/22/cisa-adds-one-known-exploited-vulnerability-catalog">added</a> a flaw in Microsoft Defender, tracked as <a href="https://www.cve.org/CVERecord?id=CVE-2026-33825" target="_blank" rel="noreferrer noopener">CVE-2026-33825</a> (CVSS score of 7.8), to its <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">Known Exploited Vulnerabilities (KEV) catalog</a>.</p>
+
+
+
+<p>CVE-2026-33825 is a Microsoft Defender flaw that can be exploited to achieve privilege escalation. Microsoft fixed it with the release of <a href="https://securityaffairs.com/190831/security/microsoft-patch-tuesday-for-april-2026-fixed-actively-exploited-sharepoint-zero-day.html">Patch Tuesday security updates for April 2026</a>. </p>
+
+
+
+<p>Last week, Huntress researchers reported that attackers are exploiting three recently disclosed zero-day flaws in Microsoft Defender to gain higher privileges on compromised systems, including <a href="https://securityaffairs.com/190961/hacking/microsoft-defender-under-attack-as-three-zero-days-two-of-them-still-unpatched-enable-elevated-access.html" type="post" id="190961">CVE-2026-33825</a> (aka BlueHammer). The vulnerabilities, called BlueHammer, RedSun, and UnDefend, were revealed by a researcher known as Chaotic Eclipse after criticizing Microsoft’s handling of the disclosure.</p>
+
+
+
+<p>Chaotic Eclipse also&nbsp;<a href="https://deadeclipse666.blogspot.com/2026/04/public-disclosure.html">published proof-of-concept code</a>&nbsp;for the unpatched Windows bug.</p>
+
+
+
+<p>BlueHammer and RedSun let attackers escalate privileges locally in Microsoft Defender. UnDefend instead triggers a denial-of-service, blocking security definition updates and weakening protection.</p>
+
+
+
+<p>At this time, Microsoft has only fixed the flawok <a href="https://securityaffairs.com/190831/security/microsoft-patch-tuesday-for-april-2026-fixed-actively-exploited-sharepoint-zero-day.html">CVE-2026-33825</a>, but the others remain unpatched.</p>
+
+
+
+<p>Huntress researchers reported attackers are exploiting the three Windows flaws to target systems, though the victims and attackers remain unknown.</p>
+
+
+
+<p>Huntress said it saw real-world exploitation of all three flaws. Attackers used BlueHammer starting April 10, 2026, then followed with RedSun and UnDefend proof-of-concept exploits on April 16.</p>
+
+
+
+<p>Researchers believe attackers are using public exploit code released online by Chaotic Eclipse. Huntress said attackers started exploiting BlueHammer on April 10, 2026, then followed with RedSun and UnDefend proof-of-concept exploits on April 16.</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">The Huntress SOC is observing the use of Nightmare-Eclipse&#39;s BlueHammer, RedSun, and UnDefend exploitation techniques.<br><br>Investigation by: <a href="https://twitter.com/wbmmfq?ref_src=twsrc%5Etfw">@wbmmfq</a>, <a href="https://twitter.com/Curity4201?ref_src=twsrc%5Etfw">@Curity4201</a>, + <a href="https://twitter.com/_JohnHammond?ref_src=twsrc%5Etfw">@_JohnHammond</a> <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9f5.png" alt="🧵" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f447.png" alt="👇" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a href="https://t.co/ZFRI2XAYIA">pic.twitter.com/ZFRI2XAYIA</a></p>&mdash; Huntress (@HuntressLabs) <a href="https://twitter.com/HuntressLabs/status/2044882050314817880?ref_src=twsrc%5Etfw">April 16, 2026</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div></figure>
+
+
+
+<p>When exploit code becomes publicly available, threat actors can quickly weaponize it in attacks in the wild.</p>
+
+
+
+<p>According to&nbsp;<a href="https://cyber.dhs.gov/bod/22-01/" target="_blank" rel="noreferrer noopener">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a>, FCEB agencies have to address the identified vulnerabilities by the due date to protect their networks against attacks exploiting the flaws in the catalog.</p>
+
+
+
+<p>Experts also recommend that private organizations review the&nbsp;<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noreferrer noopener">Catalog</a>&nbsp;and address the vulnerabilities in their infrastructure.</p>
+
+
+
+<p>CISA orders federal agencies to fix the vulnerability by May 6, 2026.</p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, US CISA <a href="https://securityaffairs.com/165513/security/cisa-adds-windows-rejetto-http-file-server-bugs-known-exploited-vulnerabilities-catalog.html">Known Exploited Vulnerabilities catalog</a>)</strong><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191164</post-id>	</item>
+		<item>
+		<title>Microsoft Graph API misused by new GoGra Linux malware for hidden communication</title>
+		<link>https://securityaffairs.com/191153/uncategorized/microsoft-graph-api-misused-by-new-gogra-linux-malware-for-hidden-communication.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 07:49:13 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[GoGra Linux malware]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[LINUX]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191153</guid>
+
+					<description><![CDATA[A new GoGra Linux malware uses Microsoft Graph API and an Outlook inbox to deliver payloads, making it stealthy and hard to detect. A new Linux version of the GoGra backdoor uses Microsoft’s Graph API and an Outlook inbox to deliver malicious payloads stealthily. The malware is linked to the Harvester cyberespionage group, which is [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">A new GoGra Linux malware uses Microsoft Graph API and an Outlook inbox to deliver payloads, making it stealthy and hard to detect.</h2>
+
+
+
+<p>A new Linux version of the GoGra backdoor uses Microsoft’s Graph API and an Outlook inbox to deliver malicious payloads stealthily. The malware is linked to the Harvester cyberespionage group, which is believed to be a nation-state actor. The malicious code blends in with legitimate traffic, making detection more difficult and increasing its effectiveness in targeted cyber espionage operations.</p>
+
+
+
+<p><em>&#8220;The Harvester APT group has developed a new, highly-evasive, Linux version of its GoGra backdoor. The malware uses the legitimate Microsoft Graph API and Outlook mailboxes as a covert command-and-control (C2) channel, allowing it to bypass traditional perimeter network defenses.&#8221; reads the <a href="https://www.broadcom.com/support/security-center/protection-bulletin/harvester-apt-group-expands-toolset-with-new-gogra-linux-backdoor">report</a> published by Broadcom Symantec. &#8220;The Symantec and Carbon Black Threat Hunter Team linked this new Linux malware to a previously known Windows espionage campaign by Harvester due to similarities in code, demonstrating that the threat actor is actively expanding its cross-platform capabilities.&#8221;</em></p>
+
+
+
+<p>Initial evidence suggests the campaign targeted South Asia, with early samples submitted from India and Afghanistan and the use of localized decoy documents indicating a tailored approach. The Harvester group, active since at least 2021 uses both custom malware and public tools, including Graphon, a backdoor similar to GoGra that relies on Microsoft infrastructure for command-and-control.</p>
+
+
+
+<p>The <em>GoGra </em>backdoor abuses Microsoft cloud services by using hardcoded Azure AD credentials to obtain OAuth2 tokens. It polls a specific Outlook mailbox folder via Microsoft Graph API, looking for emails with commands. These are decrypted and executed on the system, while results are encrypted and sent back.</p>
+
+
+
+<p><em>&#8220;It uses OData queries to poll a specific mailbox folder, named “Zomato Pizza”, at two-second intervals. OData (Open Data Protocol) query is the syntax used to filter, sort, and shape data when interacting with the Microsoft Graph API. Interestingly, the Windows version of the malware used a mailbox named “Dragan Dash”. <a href="https://www.google.com/search?sca_esv=55e9f3c856495c1e&amp;rlz=1C5GCEM_enIE1099IE1100&amp;sxsrf=ANbL-n4cBNYA-tghggGNlPVbVmpC_KHhwg%3A1776264450357&amp;q=Dragan+Dash+Kitchen&amp;nfpr=1&amp;sa=X&amp;ved=2ahUKEwif9fvejPCTAxWNa0EAHfSxB8QQgK4QegQIARAB&amp;biw=1806&amp;bih=842&amp;dpr=2&amp;mstk=AUtExfDWHAsbdO9hx4GIdCj7c0_YWULqYNqbdUf_662pqo2-QGYGu1cl1tyfnEE2oOpcraRu01IfwFnoAxqCBC-idIGDuzs1fZAEmIae1POT5QjPp_hHQ4sqQqjGQOPIeDFHrl7RENbNquWLZROr5sERB801ox0V9mxvmLmLKR-BBpICeEMlG7VkKRkTWmzggPeYACa-fWouoFiXgbQJaloQLfW9rzq4V7h6YUHhDTMfWehs_DMQbdVVd7GoEKpMvUln9L7J3xDB0g99ksGGCa5772RN&amp;csui=3">Dragan Dash Kitchen</a> is a food delivery restaurant located in in the Indian city of Hyderabad.&#8221; continues the report. &#8220;The backdoor filters for incoming email messages with a subject line starting with the word ‘Input’. Upon receiving an email, it decrypts the base64-wrapped message body using AES-CBC encryption, and executes the payload on the host via /bin/bash -c.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Afterward, the malware deletes the messages to erase traces and remain stealthy.</p>
+
+
+
+<p>The researchers noted that Linux and Windows versions of GoGra share a nearly identical codebase, indicating a cross-platform development effort by the Harvester group. Despite different OS targets, both variants keep the same command-and-control logic and even share identical coding mistakes, suggesting a single developer.</p>
+
+
+
+<p>Both versions use the same AES key and similar modules, but differ in architecture, beacon timing, and mailbox names used for command delivery.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-74.png?ssl=1"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="651" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-74.png?resize=1024%2C651&#038;ssl=1" alt="" class="wp-image-191160" style="aspect-ratio:1.5730337078651686;width:676px;height:auto" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-74.png?resize=1024%2C651&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-74.png?resize=300%2C191&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-74.png?resize=768%2C488&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-74.png?w=1133&amp;ssl=1 1133w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+</div>
+
+
+<p><em>&#8220;The use of a new Linux backdoor shows that Harvester is continuing to expand its toolset and actively develop new tooling in order to go after a wider range of victims and machines.&#8221; concludes the report. &#8220;While we did not see victims in this activity, it seems clear that the group continues to retain an interest in the South Asia region for espionage purposes. &#8220;</em></p>
+
+
+
+<p><a href="https://hubs.li/Q04crVgD0" target="_blank" rel="noreferrer noopener"></a><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, malware)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191153</post-id>	</item>
+		<item>
+		<title>DDoS wave continues as Mastodon hit after Bluesky incident</title>
+		<link>https://securityaffairs.com/191144/cyber-crime/ddos-wave-continues-as-mastodon-hit-after-bluesky-incident.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 18:49:49 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Intelligence]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[DDoS]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Mastodon]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191144</guid>
+
+					<description><![CDATA[Mastodon suffered a major DDoS attack shortly after a similar incident hit Bluesky. The outage was significant but resolved within a few hours. Mastodon was hit by a major DDoS attack just days after a similar disruption affected Bluesky. Mastodon is a free and open-source software platform for decentralized social networking with microblogging features similar [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Mastodon suffered a major DDoS attack shortly after a similar incident hit Bluesky. The outage was significant but resolved within a few hours.<gwmw style="display:none;"></gwmw></h2>
+
+
+
+<p>Mastodon was hit by a major DDoS attack just days after a <a href="https://securityaffairs.com/191059/security/bluesky-hit-by-24-hour-ddos-attack-as-pro-iran-group-claims-responsibility.html" type="post" id="191059">similar disruption affected Bluesky</a>. Mastodon is a free and open-source software platform for decentralized social networking with microblogging features similar to X.</p>
+
+
+
+<p>The attack caused a major outage, impacting users across the decentralized platform. However, Mastodon’s team responded quickly and mitigated the issue within a few hours, restoring normal service.</p>
+
+
+
+<p>Below is the <a href="https://status.mastodon.social/cmo730jrm05ailojla22drifc">timeline of the attack</a>:</p>
+
+
+
+<ul class="wp-block-list">
+<li>April 20, 2026 at 12:58 PM &#8211; We are currently experiencing a DDoS attack. We are actively investigating the issue.</li>
+
+
+
+<li>April 20, 2026 at 3:05 PM &#8211; We have implemented countermeasure against the DDoS attack, and the site is accessible. We are continuing to monitor the situation.</li>
+
+
+
+<li>April 20, 2026 at 12:58 PM &#8211; We are currently experiencing a DDoS attack. We are actively investigating the issue.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></li>
+</ul>
+
+
+
+<p>A group called <a href="https://securityaffairs.com/tag/313-team" type="post_tag" id="16809">313 Team</a> claimed responsibility for the attack on Bluesky, but no threat actor has publicly taken credit for the Mastodon attack.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, DDOS)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191144</post-id>	</item>
+		<item>
+		<title>Mirai Botnet exploits CVE-2025-29635 to target legacy D-Link routers</title>
+		<link>https://securityaffairs.com/191135/malware/mirai-botnet-exploits-cve-2025-29635-to-target-legacy-d-link-routers.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 17:31:17 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[CVE-2025-29635]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Mirai]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191135</guid>
+
+					<description><![CDATA[Mirai botnet is targeting old D-Link routers using CVE-2025-29635, a command injection flaw exploitable via crafted POST requests after public PoC disclosure. A Mirai botnet is actively exploiting a command injection vulnerability, tracked as CVE-2025-29635, in discontinued D-Link routers, Akamai reports. The flaw allows attackers to inject commands because an attacker-controlled value is copied without [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Mirai botnet is targeting old D-Link routers using CVE-2025-29635, a command injection flaw exploitable via crafted POST requests after public PoC disclosure.</h2>
+
+
+
+<p>A Mirai botnet is actively exploiting a command injection vulnerability, tracked as CVE-2025-29635, in discontinued D-Link routers, Akamai reports. The flaw allows attackers to inject commands because an attacker-controlled value is copied without proper validation. The vulnerability impacts firmware versions 240126 and 24082 of D-Link DIR-823X series routers.</p>
+
+
+
+<p>The experts observed that exploitation began about a year after public disclosure and PoC release, using crafted POST requests to compromise devices.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-73.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="1024" height="378" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-73.png?resize=1024%2C378&#038;ssl=1" alt="" class="wp-image-191138" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-73.png?resize=1024%2C378&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-73.png?resize=300%2C111&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-73.png?resize=768%2C284&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-73.png?w=1158&amp;ssl=1 1158w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p><em>&#8220;The Akamai Security Intelligence and Response Team (SIRT) has identified active exploitation of command injection vulnerability <a href="https://nvd.nist.gov/vuln/detail/CVE-2025-29635" target="_blank" rel="noreferrer noopener">CVE-2025-29635</a> against D-Link DIR-823X series routers. Although the devices were discontinued in 2025, threat actors are using this flaw to deploy Mirai botnet variants.&#8221; reads the report published by Akamai.</em></p>
+
+
+
+<p><em>&#8220;The SIRT first identified this activity in our global network of honeypots in March 2026. This is the first reported active exploitation of these vulnerabilities since their initial disclosures in March 2025. &#8220;</em></p>
+
+
+
+<p>Security researchers Wang Jinshuai and Zhao Jiangting reverse engineered the firmware’s sub_42232C function and found that attacker-controlled <code>macaddr</code> input is copied into a command buffer with <code>snprintf</code> and then passed to <code>system()</code>, enabling remote command execution via a crafted POST request to <code>/goform/set_prohibiting</code>. </p>
+
+
+
+<p>They also published a PoC on GitHub, later removed, while the issue was still absent from CISA’s Known Exploited Vulnerabilities catalog at the time of the report. In early March 2026, Akamai SIRT observed active exploitation attempts using similar request patterns, including shell commands that fetch and execute malware from external infrastructure.</p>
+
+
+
+<p>A simple shell script drops a <a href="https://securityaffairs.com/50929/malware/linux-mirai-elf.html" type="post" id="50929">Mirai</a> variant (“tuxnokill”) from 88.214.20[.]14, supporting multiple architectures. The payload uses XOR encoding (key 0x30), includes standard Mirai strings, and contacts C2 at 64.89.161[.]130:44300. Hard-coded elements suggest manual development. The actor also exploits CVE-2025-29635, <a href="https://securityaffairs.com/147653/hacking/zyxel-cve-2023-27992-nas-devices.html" type="post" id="147653">CVE-2023-1389</a> (TP-Link AX21), and a ZTE ZXV10 H108L RCE.</p>
+
+
+
+<p>Mirai campaigns persist as attackers reuse its leaked code, lowering the barrier to entry and attracting both skilled and inexperienced actors seeking profit. While some threat actors reject AI, others increasingly adopt it to develop malware or discover vulnerabilities. AI thus represents both a growing risk in cybercrime and a valuable tool for defenders.</p>
+
+
+
+<p><em>&#8220;many threat actors in the botnet space frequently target older vulnerabilities. Especially when public PoC exploits exist for these vulnerabilities, attackers can easily incorporate them into their exploitation vectors.&#8221; concludes the report that includes Indicators of Compromise (IoCs) along with Yara rules for malware samples. &#8220;Unfortunately, many organizations globally will improperly configure devices, fail to patch in a timely manner, or continue to use vulnerable devices that have been retired, as in the case with D-Link 823X series routers. We highly recommend that organizations regularly monitor vulnerability disclosures that are relevant to their infrastructure, and apply the proper patches, upgrades, and safeguards to ensure their own operational security.&#8221;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Mirai)</strong><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191135</post-id>	</item>
+		<item>
+		<title>Microsoft out-of-band updates fixed critical ASP.NET Core privilege escalation flaw</title>
+		<link>https://securityaffairs.com/191130/security/microsoft-out-of-band-updates-fixed-critical-asp-net-core-privilege-escalation-flaw.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 14:00:19 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ASP.NET Core]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191130</guid>
+
+					<description><![CDATA[Microsoft fixed critical ASP.NET Core vulnerability, tracked as CVE-2026-40372 (CVSS score of 9.1), that lets attackers escalate privileges. Microsoft released out-of-band updates to address a serious ASP.NET Core vulnerability tracked as CVE-2026-40372 (CVSS score of 9.1). Microsoft fixed the flaw in ASP.NET Core version 10.0.7. An attacker could exploit the flaw to gain SYSTEM-level privileges, access [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Microsoft fixed critical ASP.NET Core vulnerability, tracked as CVE-2026-40372 (CVSS score of 9.1), that lets attackers escalate privileges.</h2>
+
+
+
+<p>Microsoft released out-of-band updates to address a serious ASP.NET Core vulnerability tracked as CVE-2026-40372 (CVSS score of 9.1). Microsoft fixed the flaw in <a href="https://dotnet.microsoft.com/en-us/download/dotnet/10.0">ASP.NET Core version 10.0.7</a>.</p>
+
+
+
+<p>An attacker could exploit the flaw to gain SYSTEM-level privileges, access sensitive files, and modify data, but they cannot disrupt system availability. </p>
+
+
+
+<p>An anonymous researcher reported the flaw, prompting out-of-band patches to reduce risk and protect affected systems.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;Improper verification of cryptographic signature in ASP.NET Core allows an unauthorized attacker to elevate privileges over a network.&#8221; <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40372">reads the advisory</a>. &#8220;An attacker who successfully exploited this vulnerability could gain SYSTEM privileges. Exploiting this vulnerability could allow an attacker to disclose files and modify data, but the attacker cannot impact the availability of the system.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>According to Microsoft, the exploitation of the flaw in attacks in the wild is currently less likely.</p>
+
+
+
+<p>According to Microsoft, a bug in Microsoft.AspNetCore.DataProtection 10.0.0–10.0.6 caused incorrect HMAC validation, sometimes ignoring the correct hash. This could let attackers forge or decrypt protected data like cookies and antiforgery tokens, possibly impersonating users and getting valid sessions or tokens. Even after upgrading to 10.0.7, old tokens may remain valid unless the key ring is rotated.</p>
+
+
+
+<p><em>&#8220;If an attacker used forged payloads to authenticate as a privileged user during the vulnerable window, they may have induced the application to issue legitimately-signed tokens (session refresh, API key, password reset link, etc.) to themselves.&#8221; <a href="https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.7/10.0.7.md">states Microsoft</a>. &#8220;Those tokens remain valid after upgrading to 10.0.7 unless the DataProtection key ring is rotated.&#8221;</em></p>
+
+
+
+<p>The tech giant states that the exploitation requires three conditions: the app uses Microsoft.AspNetCore.DataProtection 10.0.6 from NuGet (directly or via dependencies like StackExchangeRedis), the NuGet version is loaded at runtime, and the application runs on a non-Windows OS such as Linux or macOS.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, ASP.NET Core)</strong><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191130</post-id>	</item>
+		<item>
+		<title>Critical BRIDGE:BREAK flaws impact Lantronix and Silex Technology converters</title>
+		<link>https://securityaffairs.com/191114/hacking/critical-bridgebreak-flaws-impact-lantronix-and-silex-technology-converters.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 13:29:22 +0000</pubDate>
+				<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[BRIDGE:BREAK]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Lantronix]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[Serial-to-IP converters]]></category>
+		<category><![CDATA[Silex Technology]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191114</guid>
+
+					<description><![CDATA[22 BRIDGE:BREAK flaws hit Lantronix and Silex Technology converters, exposing approximately 20,000 devices to hijacking and data tampering. Researchers at Forescout Research Vedere Labs found 22 BRIDGE:BREAK flaws in serial-to-IP devices from Lantronix and Silex Technology. Serial-to-IP converters, also known as serial device servers, connect legacy serial equipment to modern IP networks for remote monitoring [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">22 BRIDGE:BREAK flaws hit Lantronix and Silex Technology converters, exposing approximately 20,000 devices to hijacking and data tampering.<gwmw style="display:none;"></gwmw></h2>
+
+
+
+<p>Researchers at Forescout Research Vedere Labs found 22 BRIDGE:BREAK flaws in serial-to-IP devices from Lantronix and Silex Technology. </p>
+
+
+
+<p>Serial-to-IP converters, also known as serial device servers, connect legacy serial equipment to modern IP networks for remote monitoring and control. They are widely used in sectors like energy (RTUs, relays), industry (PLCs), retail (POS systems), and healthcare (patient monitors). These devices allow organizations to integrate older hardware into TCP/IP networks without replacing existing systems, improving connectivity while extending equipment lifespan.</p>
+
+
+
+<p>The experts warn that around 20,000 devices sit exposed online. Attackers can take control of these converters and manipulate the data they transmit, creating serious risks for industrial and enterprise environments.</p>
+
+
+
+<p><em>&#8220;We discovered 22 new vulnerabilities in hardware from device makers: Lantronix and Silex.&#8221; reads the <a href="https://www.forescout.com/research-labs/bridgebreak-vulnerabilities-thrive-in-serial-to-ethernet-converters/">report</a> published by Forescout. &#8220;Also known as ‘serial-to-IP’ and ‘serial device servers’, these innocuous ‘bridge’ devices are exploitable across critical infrastructure industries, including utilities, healthcare, manufacturing, retail, financial services, transportation, and more.&#8221;</em></p>
+
+
+
+<p><em>&#8220;Some of these vulnerabilities allow attackers to take full control of mission-critical devices connected via serial links.&#8221; added the company.</em></p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-71.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="1007" height="637" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-71.png?resize=1007%2C637&#038;ssl=1" alt="" class="wp-image-191123" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-71.png?w=1007&amp;ssl=1 1007w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-71.png?resize=300%2C190&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-71.png?resize=768%2C486&amp;ssl=1 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw>Researchers analyzed firmware from major serial-to-IP vendors and found widespread security issues. Each device included dozens of software components, thousands of known vulnerabilities, and many existing exploits. A deeper review uncovered 22 new flaws in Lantronix and Silex Technology products, including remote code execution, authentication bypass, firmware tampering, and data exposure.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Researchers identified up to eight vulnerabilities in Lantronix devices (EDS3000PS and EDS5000 series) and 14 in Silex Technology SD330-AC. Below is the list of the flaws: </p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-70.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="787" height="777" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-70.png?resize=787%2C777&#038;ssl=1" alt="" class="wp-image-191120" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-70.png?w=787&amp;ssl=1 787w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-70.png?resize=300%2C296&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-70.png?resize=768%2C758&amp;ssl=1 768w" sizes="auto, (max-width: 787px) 100vw, 787px" /></a></figure>
+</div>
+
+
+<p>Attackers could use these weaknesses to shut down communications (DoS), move laterally across industrial networks, or manipulate data in transit. This means they could alter sensor readings or change commands sent to machines, impacting industrial processes, energy systems, or even healthcare devices.</p>
+
+
+
+<p>In power grids, devices such as protection relays track voltage and can trigger breakers via SCADA systems, while factories connect CNC machines for centralized control. These setups often rely on serial-to-IP converters.</p>
+
+
+
+<p>A typical attack starts when an attacker gains access through exposed edge devices like VPNs or routers. They then exploit vulnerabilities in the converter (e.g., weak authentication or RCE) to take control. Once inside, they can manipulate data in transit—altering sensor readings or commands. For example, stable temperature data can be changed to extreme fluctuations.</p>
+
+
+
+<p>Such manipulation can impact railway signaling, fire alarm systems, or fuel management, causing operational disruption or safety risks.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-72.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="402" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-72.png?resize=1024%2C402&#038;ssl=1" alt="" class="wp-image-191125" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-72.png?resize=1024%2C402&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-72.png?resize=300%2C118&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-72.png?resize=768%2C302&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/04/image-72.png?w=1108&amp;ssl=1 1108w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw>Both Lantronix and Silex addressed the identified vulnerabilities with the following releases:<gwmw style="display:none;"></gwmw></p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://ltrxdev.atlassian.net/wiki/spaces/LTRXTS/pages/1349189633/Latest+Firmware+for+the+EDS3000PS+series">Lantronix EDS3000PS Series</a></li>
+
+
+
+<li><a href="https://ltrxdev.atlassian.net/wiki/spaces/LTRXTS/pages/2538438657/Latest+Firmware+for+the+EDS5000+series+EDS5008+EDS5016+EDS5032">Lantronix EDS5000 Series</a></li>
+
+
+
+<li><a href="https://www.silex.jp/support/security-advisories/en/2026-001">Silex</a></li>
+</ul>
+
+
+
+<p>To reduce risks, organizations should patch systems, replace default credentials, and enforce strong passwords. They should keep serial-to-IP converters off the internet, restrict access to trusted workstations, and segment networks using VLANs or dedicated subnets. Monitoring is key: teams must detect exploitation attempts and unusual data flows that may indicate tampering.</p>
+
+
+
+<p>Vendors should adopt secure-by-design practices and a strong SDLC, keep software updated, and track all firmware components. They should harden binaries, test security regularly, and use robust encryption and signing methods. Using modern Linux versions and notifying customers about exposed devices can further reduce risks and improve overall security.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;This research highlights weaknesses in serial-to-IP converters and the risks they can introduce in critical environments. As these devices are increasingly deployed to connect legacy serial equipment to IP networks, vendors and end-users should treat their security implications as a core operational requirement.&#8221; concludes the report. &#8220;Based on the new vulnerabilities and attack scenarios we demonstrated – and supported by evidence of prior attacks and the availability of detailed deployment information through OSINT – we recommend that organizations patch vulnerable serial-to-IP converter devices as soon as possible:&#8221;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, BRIDGE:BREAK</strong> flaws<strong>)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191114</post-id>	</item>
+		<item>
+		<title>Venezuela energy sector targeted by highly destructive Lotus wiper</title>
+		<link>https://securityaffairs.com/191106/malware/venezuela-energy-sector-targeted-by-highly-destructive-lotus-wiper.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 07:53:08 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Lotus Wiper]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[Wiper]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191106</guid>
+
+					<description><![CDATA[Lotus Wiper hit Venezuelan energy systems, used scripts to disable defenses, then erased all data beyond recovery. Kaspersky researchers found Lotus Wiper targeting Venezuela’s energy and utilities sector amid regional tensions in 2025–2026. Attackers first used batch scripts to weaken systems, disable defenses, and prepare the environment. Then they deployed the wiper, which erased recovery [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Lotus Wiper hit Venezuelan energy systems, used scripts to disable defenses, then erased all data beyond recovery.</h2>
+
+
+
+<p><gwmw style="display:none;"></gwmw>Kaspersky researchers found Lotus Wiper targeting Venezuela’s energy and utilities sector amid regional tensions in 2025–2026. Attackers first used batch scripts to weaken systems, disable defenses, and prepare the environment. </p>
+
+
+
+<p>Then they deployed the wiper, which erased recovery tools, overwrote disks, and deleted all files, leaving systems unusable. </p>
+
+
+
+<p><em>&#8220;Two batch scripts are responsible for initiating the destructive phase of the attack and preparing the environment for executing the final wiper payload. These scripts coordinate the start of the operation across the network, weaken system defenses, and disrupt normal operations before retrieving, deobfuscating and executing a previously unknown wiper that we dubbed ‘Lotus Wiper’.&#8221; reads the <a href="https://securelist.com/tr/lotus-wiper/119472/">report</a> published by Kaspersky. &#8220;The wiper removes recovery mechanisms, overwrites the content of physical drives, and systematically deletes files across affected volumes, ultimately leaving the system in an unrecoverable state.&#8221;</em></p>
+
+
+
+<p>The researchers pointed out that no ransom demand appeared, showing that the malware was developed with a destructive purpose rather than profit. The campaign looks highly targeted and designed to permanently disrupt critical infrastructure.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The attack chain begins with a batch file called <em>OhSyncNow.bat</em>. It checks specific folders and network shares, then uses a hidden XML file as a trigger to decide whether to continue. If the conditions are met, it runs a second script that prepares the system for destruction.</p>
+
+
+
+<p>In the next stage, the malware disables user accounts, forces active logoffs, blocks cached logins, and shuts down network interfaces to isolate the machine. It then searches all disk drives and runs destructive commands like <em>diskpart clean all</em>, which overwrites entire volumes and permanently deletes data.</p>
+
+
+
+<p>The script also spreads across directories using file mirroring techniques, overwriting or removing content on a large scale. It then fills remaining disk space with large files to prevent recovery or forensic analysis.</p>
+
+
+
+<p>Finally, it launches disguised system-like executables that hide as legitimate software components. These files load the final payload, known as Lotus Wiper, which completes the attack by erasing all remaining data and leaving the system completely unrecoverable.</p>
+
+
+
+<p>The final stage of the attack runs the Lotus Wiper implant. A system-like executable first decrypts a hidden payload and prepares it for execution. Then the wiper starts with elevated privileges already present on the system. It removes Windows restore points to block recovery and then begins destroying data.</p>
+
+
+
+<p>It wipes all physical disks by writing zeroes across every sector, making recovery impossible. It also clears system logs and update journals to erase traces of activity.</p>
+
+
+
+<p><em>&#8220;In between waves of wiping physical drives, Lotus Wiper makes use of <code>FindFirstVolumeW</code> and then <code>FindNextVolumeW</code>, to identify each mounted volume.&#8221; continues the report. &#8220;It sends the volumes to a new thread that performs two wiping actions: deleting all the system’s files and clearing the volume’s <a href="https://learn.microsoft.com/en-us/windows/win32/fileio/change-journals" target="_blank" rel="noreferrer noopener">change journal</a>.&#8221;</em></p>
+
+
+
+<p>Next, it scans all mounted volumes, deletes files, and corrupts file records. It overwrites file contents with zeroes, renames files with random names, and forces deletion. If a file is locked, it schedules removal on reboot.</p>
+
+
+
+<p>The wiper repeats disk destruction multiple times and updates system disk properties to ensure changes persist. In the end, it fully erases data across drives and volumes, leaving the system permanently unusable.</p>
+
+
+
+<p>Businesses and government bodies should audit permissions on domain shares and monitor NETLOGON for unauthorized changes, since shared files can trigger coordinated attacks across systems. The wiper requires elevated privileges, often gained after attackers move from low-level accounts to higher access.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Security teams should watch for token abuse, credential theft, and privilege escalation in logs. They must also detect unusual use of built-in tools like fsutil, robocopy, and diskpart, commonly used in “living off the land” attacks. Strong backup testing and recovery planning are essential to ensure systems and data can be restored after destructive incidents.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;An essential detail about the presence of Lotus Wiper attackers in the environment is revealed by the batch scripts. Given that the files included certain functionalities targeting older versions of the Windows operating system, the attackers likely had knowledge of the environment and compromised the domain long before the attack occurred.&#8221; conlcudes the report. &#8220;Moreover, we observed that Lotus Wiper was compiled in late September 2025, while the sample was uploaded to a publicly available resource in mid-December of that year. Prior to this, the malware had not been used in any other attacks. Assuming the compilation time of the PE file has not been altered, this indicates that the attacker had been preparing for this attack for several months.&#8221;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, wiper)</strong><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191106</post-id>	</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Object Caching 47/58 objects using Memcached
+Page Caching using Memcached (Page is feed) 
+Database Caching 10/24 queries in 0.019 seconds using Memcached (Request-wide modification query)
+
+Served from: securityaffairs.com @ 2026-04-24 02:57:41 by W3 Total Cache
+-->

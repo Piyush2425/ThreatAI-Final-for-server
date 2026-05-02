@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<atom:link href="https://hackread.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://hackread.com</link>
+	<description></description>
+	<lastBuildDate>Tue, 21 Apr 2026 18:01:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://hackread.com/wp-content/uploads/2023/08/cropped-HACKREAD-32x32.png</url>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<link>https://hackread.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Microsoft Vulnerabilities Drop, But Critical Flaws Double, Report Warns</title>
+		<link>https://hackread.com/microsoft-vulnerabilities-drop-critical-flaws-double/</link>
+					<comments>https://hackread.com/microsoft-vulnerabilities-drop-critical-flaws-double/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 17:31:30 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[0day]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Azure]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Dynamics 365]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<category><![CDATA[zero-day]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144196</guid>
+
+					<description><![CDATA[Microsoft vulnerabilities fall, but critical flaws double, BeyondTrust report highlights rising risk in Microsoft Office, Azure, and cloud systems.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/microsoft-vulnerabilities-drop-critical-flaws-double/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>BreachLock Named Representative Vendor in the 2026 Gartner Market Guide for Adversarial Exposure Validation</title>
+		<link>https://hackread.com/breachlock-named-representative-vendor-in-the-2026-gartner-market-guide-for-adversarial-exposure-validation/</link>
+					<comments>https://hackread.com/breachlock-named-representative-vendor-in-the-2026-gartner-market-guide-for-adversarial-exposure-validation/#respond</comments>
+		
+		<dc:creator><![CDATA[CyberNewswire]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 14:16:43 +0000</pubDate>
+				<category><![CDATA[Press Release]]></category>
+		<category><![CDATA[Report]]></category>
+		<category><![CDATA[Research]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144224</guid>
+
+					<description><![CDATA[New York, United States, 21st April 2026, CyberNewswire]]></description>
+		
+					<wfw:commentRss>https://hackread.com/breachlock-named-representative-vendor-in-the-2026-gartner-market-guide-for-adversarial-exposure-validation/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Ungoverned Workforce: Cybersecurity Insiders Finds 92% Lack Visibility Into AI Identities</title>
+		<link>https://hackread.com/the-ungoverned-workforce-cybersecurity-insiders-finds-92-lack-visibility-into-ai-identities/</link>
+					<comments>https://hackread.com/the-ungoverned-workforce-cybersecurity-insiders-finds-92-lack-visibility-into-ai-identities/#respond</comments>
+		
+		<dc:creator><![CDATA[CyberNewswire]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 14:00:12 +0000</pubDate>
+				<category><![CDATA[Press Release]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144221</guid>
+
+					<description><![CDATA[Washington D.C., USA, 21st April 2026, CyberNewswire]]></description>
+		
+					<wfw:commentRss>https://hackread.com/the-ungoverned-workforce-cybersecurity-insiders-finds-92-lack-visibility-into-ai-identities/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Threat Intel Scraping Without Burning Your Cover or Your Stack</title>
+		<link>https://hackread.com/threat-intel-scraping-without-burning-stack/</link>
+					<comments>https://hackread.com/threat-intel-scraping-without-burning-stack/#respond</comments>
+		
+		<dc:creator><![CDATA[Owais Sultan]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 11:43:05 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[dark web]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Scraping]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[Threat Intelligence]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144197</guid>
+
+					<description><![CDATA[Threat Intel Scraping sounds simple until it isn’t, here’s how cybersecurity teams avoid blocks, bad data, and unnecessary risk.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/threat-intel-scraping-without-burning-stack/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Grinex crypto exchange shuts down, blames Western agencies for $13.7M breach</title>
+		<link>https://hackread.com/grinex-crypto-exchange-shuts-down-west-agency-breach/</link>
+					<comments>https://hackread.com/grinex-crypto-exchange-shuts-down-west-agency-breach/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 09:31:16 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[Crypto]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Grinex]]></category>
+		<category><![CDATA[Kyrgyzstan]]></category>
+		<category><![CDATA[Russia]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144173</guid>
+
+					<description><![CDATA[Grinex exchange collapses after $13.7M breach, blames Western spies as Chainalysis flags possible exit scam and sanctions evasion network links claims.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/grinex-crypto-exchange-shuts-down-west-agency-breach/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Vercel Breach Linked to Context.ai, ShinyHunters Says It’s Not Involved</title>
+		<link>https://hackread.com/vercel-breach-context-ai-shinyhunters-not-involved/</link>
+					<comments>https://hackread.com/vercel-breach-context-ai-shinyhunters-not-involved/#respond</comments>
+		
+		<dc:creator><![CDATA[Waqas]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 21:21:48 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[BreachForums]]></category>
+		<category><![CDATA[Context.ai]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[ShinyHunters]]></category>
+		<category><![CDATA[Vercel]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144160</guid>
+
+					<description><![CDATA[Vercel confirms a breach linked to Context.ai as a hacker lists alleged data for $2M. ShinyHunters denies involvement and flags imposters.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/vercel-breach-context-ai-shinyhunters-not-involved/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Fake TikTok Downloaders on Chrome and Edge Spying on 130,000 Users</title>
+		<link>https://hackread.com/fake-tiktok-downloaders-chrome-edge-spy-users/</link>
+					<comments>https://hackread.com/fake-tiktok-downloaders-chrome-edge-spy-users/#respond</comments>
+		
+		<dc:creator><![CDATA[Waqas]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 15:35:04 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Social Media]]></category>
+		<category><![CDATA[Browser]]></category>
+		<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Edge]]></category>
+		<category><![CDATA[Extension]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[LayerX]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Scam]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144159</guid>
+
+					<description><![CDATA[Over 130,000 users are at risk from fake TikTok downloader extensions on Chrome and Microsoft Edge. Researchers discovered these malicious tools use device fingerprinting to spy on users and steal sensitive browser data.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/fake-tiktok-downloaders-chrome-edge-spy-users/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Remove Objects from Video: AI Tools &#038; Pro Tips (2026)</title>
+		<link>https://hackread.com/how-to-remove-objects-from-video-ai-tools-2026/</link>
+					<comments>https://hackread.com/how-to-remove-objects-from-video-ai-tools-2026/#respond</comments>
+		
+		<dc:creator><![CDATA[Owais Sultan]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 14:18:50 +0000</pubDate>
+				<category><![CDATA[How To]]></category>
+		<category><![CDATA[Software Reviews]]></category>
+		<category><![CDATA[AI Tools]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Video]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144151</guid>
+
+					<description><![CDATA[Remove unwanted objects from video effortlessly with AI in 2026. Learn step-by-step methods, best tools, and pro tips to clean up your footage like a professional.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/how-to-remove-objects-from-video-ai-tools-2026/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>British Hacker Tyler Buchanan Pleads Guilty to $8M Hacking Scheme in US</title>
+		<link>https://hackread.com/british-hacker-tyler-buchanan-guilty-hacking-scheme/</link>
+					<comments>https://hackread.com/british-hacker-tyler-buchanan-guilty-hacking-scheme/#respond</comments>
+		
+		<dc:creator><![CDATA[Waqas]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 12:43:48 +0000</pubDate>
+				<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[Crypto]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Phishing]]></category>
+		<category><![CDATA[Scattered Spider]]></category>
+		<category><![CDATA[Tyler Robert Buchanan]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144140</guid>
+
+					<description><![CDATA[Tyler Robert Buchanan, a 24-year-old British hacker linked to Scattered Spider, admits to a multi-year US hacking scheme involving at least $8M in crypto theft.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/british-hacker-tyler-buchanan-guilty-hacking-scheme/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>52M-Download protobuf.js Library Hit by RCE in Schema Handling</title>
+		<link>https://hackread.com/52m-download-protobuf-js-library-rce-schema-handle/</link>
+					<comments>https://hackread.com/52m-download-protobuf-js-library-rce-schema-handle/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 10:42:15 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[cloud]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[NPM]]></category>
+		<category><![CDATA[protobuf]]></category>
+		<category><![CDATA[RCE]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144126</guid>
+
+					<description><![CDATA[Critical RCE flaw in protobuf.js lets attackers execute code via malicious schemas. Learn who is at risk, affected versions, and how to fix it.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/52m-download-protobuf-js-library-rce-schema-handle/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

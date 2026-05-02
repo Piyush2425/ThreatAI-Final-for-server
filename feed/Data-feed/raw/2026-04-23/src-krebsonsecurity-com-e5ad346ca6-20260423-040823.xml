@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Krebs on Security</title>
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://krebsonsecurity.com</link>
+	<description>In-depth security news and investigation</description>
+	<lastBuildDate>Tue, 21 Apr 2026 14:53:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<item>
+		<title>&#8216;Scattered Spider&#8217; Member &#8216;Tylerb&#8217; Pleads Guilty</title>
+		<link>https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/</link>
+					<comments>https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/#comments</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 14:53:59 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[SIM Swapping]]></category>
+		<category><![CDATA[Ahmed Hossam Eldin Elbadawy]]></category>
+		<category><![CDATA[Evans Onyeaka Osiebo]]></category>
+		<category><![CDATA[Joel Martin Evans]]></category>
+		<category><![CDATA[Noah Michael Urban]]></category>
+		<category><![CDATA[Owen Flowers]]></category>
+		<category><![CDATA[Scattered Spider]]></category>
+		<category><![CDATA[SIM swapping]]></category>
+		<category><![CDATA[Thalha Jubair]]></category>
+		<category><![CDATA[Tyler Robert Buchanan]]></category>
+		<category><![CDATA[Tylerb]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=73470</guid>
+
+					<description><![CDATA[A 24-year-old British national and senior member of the cybercrime group "Scattered Spider" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to hack into at least a dozen major technology companies and steal tens of millions of dollars worth of cryptocurrency from investors.]]></description>
+										<content:encoded><![CDATA[<p>A 24-year-old British national and senior member of the cybercrime group &#8220;<strong>Scattered Spider</strong>&#8221; has pleaded guilty to wire fraud conspiracy and aggravated identity theft. <strong>Tyler Robert Buchanan </strong>admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to hack into at least a dozen major technology companies and steal tens of millions of dollars worth of cryptocurrency from investors.</p>
+<p>Buchanan&#8217;s hacker handle &#8220;<strong>Tylerb</strong>&#8221; once graced a leaderboard in the English-language criminal hacking scene that tracked the most accomplished cyber thieves. Now in U.S. custody and awaiting sentencing, the Dundee, Scotland native is facing the possibility of more than 20 years in prison.</p>
+<div id="attachment_73476" style="width: 610px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-73476" decoding="async" class="size-full wp-image-73476" src="https://krebsonsecurity.com/wp-content/uploads/2026/04/dailymail-tylerb.png" alt="A screenshot of two photos of Buchanan that appeared in a Daily Mail story dated May 3, 2025." width="600" height="807" /><p id="caption-attachment-73476" class="wp-caption-text">Two photos published in a Daily Mail story dated May 3, 2025 show Buchanan as a child (left) and as an adult being detained by airport authorities in Spain. &#8220;M&amp;S&#8221; in this screenshot refers to Marks &amp; Spencer, a major U.K. retail chain that suffered a ransomware attack last year at the hands of Scattered Spider.</p></div>
+<p>Scattered Spider is the name given to a prolific English-speaking cybercrime group known for using social engineering tactics to break into companies and steal data for ransom, often impersonating employees or contractors to deceive IT help desks into granting access.</p>
+<p>As part of his guilty plea, Buchanan admitted conspiring with other Scattered Spider members to launch tens of thousands of SMS-based phishing attacks in 2022 that led to intrusions at a number of technology companies, including Twilio, LastPass, DoorDash, and Mailchimp.</p>
+<p>The group then used data stolen in those breaches to carry out <a href="https://krebsonsecurity.com/category/sim-swapping/" target="_blank" rel="noopener">SIM-swapping attacks</a> that siphoned funds from individual cryptocurrency investors. In an unauthorized SIM-swap, crooks transfer the target’s phone number to a device they control and intercept any text messages or phone calls to the victim’s device — such as one-time passcodes for authentication and password reset links sent via SMS. The U.S. Justice Department <a href="https://www.justice.gov/usao-cdca/pr/british-national-pleads-guilty-hacking-companies-and-stealing-least-8-million-virtual" target="_blank" rel="noopener">said</a> Buchanan admitted to stealing at least $8 million in virtual currency from individual victims throughout the United States.<span id="more-73470"></span></p>
+<p>FBI investigators tied Buchanan to the 2022 SMS phishing attacks after discovering the same username and email address was used to register numerous phishing domains seen in the campaign. The domain registrar <strong>NameCheap</strong> found that less than a month before the phishing spree, the account that registered those domains logged in from an Internet address in the U.K. FBI investigators said the Scottish police told them the address was leased to Buchanan throughout 2022.</p>
+<p>As <a href="https://krebsonsecurity.com/2024/06/alleged-boss-of-scattered-spider-hacking-group-arrested/" target="_blank" rel="noopener">first reported</a> by KrebsOnSecurity, Buchanan fled the United Kingdom in February 2023, after a rival cybercrime gang hired thugs to invade his home, assault his mother, and threaten to burn him with a blowtorch unless he gave up the keys to his cryptocurrency wallet. That same year, U.K. investigators found a device at Buchanan&#8217;s Scotland residence that included data stolen from SMS phishing victims and seed phrases from cryptocurrency theft victims.</p>
+<p>Buchanan was <a href="https://krebsonsecurity.com/2025/04/alleged-scattered-spider-member-extradited-to-u-s/" target="_blank" rel="noopener">arrested by Spanish authorities in June 2024</a> while trying to board a flight to Italy. He was extradited to the United States and has remained in U.S. federal custody since April 2025.</p>
+<p>Buchanan is the second known Scattered Spider member to plead guilty. <strong>Noah Michael Urban</strong>, 21, of Palm Coast, Fla., was <a href="https://krebsonsecurity.com/2025/08/sim-swapper-scattered-spider-hacker-gets-10-years/" target="_blank" rel="noopener">sentenced to 10 years in federal prison last year</a> and ordered to pay $13 million in restitution. Three other alleged co-conspirators &#8212; <strong>Ahmed Hossam Eldin Elbadawy</strong>, 24, a.k.a. &#8220;AD,&#8221; of College Station, Texas; <strong>Evans Onyeaka Osiebo</strong>, 21, of Dallas, Texas; and <strong>Joel Martin Evans</strong>, 26, a.k.a. &#8220;joeleoli,&#8221; of Jacksonville, North Carolina – still face criminal charges.</p>
+<p>Two other alleged Scattered Spider members will soon be tried in the United Kingdom. <strong>Owen Flowers</strong>, 18, and <strong>Thalha Jubair</strong>, 20, are <a href="https://krebsonsecurity.com/2025/09/feds-tie-scattered-spider-duo-to-115m-in-ransoms/" target="_blank" rel="noopener">facing charges</a> related to the hacking and extortion of several large U.K. retailers, the London transit system, and healthcare providers in the United States. Both have pleaded not guilty, and their trial is slated to begin in June.</p>
+<p>Investigators say the Scattered Spider suspects are part of <a href="https://krebsonsecurity.com/2024/09/the-dark-nexus-between-harm-groups-and-the-com/" target="_blank" rel="noopener">a sprawling cybercriminal community online</a> known as &#8220;<strong>The Com</strong>,&#8221; wherein hackers from different cliques boast publicly on Telegram and Discord about high-profile cyber thefts that almost invariably begin with social engineering — tricking people over the phone, email or SMS into giving away credentials that allow remote access to corporate internal networks.</p>
+<p>One of the more popular SIM-swapping channels on Telegram has long maintained a leaderboard of the most rapacious SIM-swappers, indexed by their supposed conquests in stealing cryptocurrency. That leaderboard previously listed Buchanan&#8217;s hacker alias Tylerb at #65 (out of 100 hackers), with Urban&#8217;s moniker &#8220;Sosa&#8221; coming in at #24.</p>
+<p>Buchanan&#8217;s sentencing hearing is scheduled for August 21, 2026. According to the Justice Department, he faces a statutory maximum sentence of 22 years in federal prison. However, any sentence the judge hands down in this case may be significantly tempered by a number of mitigating factors in the U.S. Sentencing Guidelines, including the defendant&#8217;s age, criminal history, time already served in U.S. custody, and the degree to which they cooperated with federal authorities.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/feed/</wfw:commentRss>
+			<slash:comments>10</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Patch Tuesday, April 2026 Edition</title>
+		<link>https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/</link>
+					<comments>https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/#comments</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Tue, 14 Apr 2026 21:47:59 +0000</pubDate>
+				<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Time to Patch]]></category>
+		<category><![CDATA[Action1]]></category>
+		<category><![CDATA[adobe reader]]></category>
+		<category><![CDATA[Automox]]></category>
+		<category><![CDATA[BlueHammer]]></category>
+		<category><![CDATA[CVE-2026-32201]]></category>
+		<category><![CDATA[CVE-2026-33120]]></category>
+		<category><![CDATA[CVE-2026-33825]]></category>
+		<category><![CDATA[CVE-2026-34621]]></category>
+		<category><![CDATA[Google Chrome]]></category>
+		<category><![CDATA[Mike Walters]]></category>
+		<category><![CDATA[Patch Tuesday April 2026]]></category>
+		<category><![CDATA[Ryan Braunstein]]></category>
+		<category><![CDATA[Satnam Narang]]></category>
+		<category><![CDATA[SharePoint Server]]></category>
+		<category><![CDATA[Tenable]]></category>
+		<category><![CDATA[Will Dormann]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=73440</guid>
+
+					<description><![CDATA[Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly disclosed weakness in Windows Defender dubbed "BlueHammer." Separately, Google Chrome fixed its fourth zero-day of 2026, and an emergency update for Adobe Reader nixes an actively exploited flaw that can lead to remote code execution.]]></description>
+										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today pushed software updates to fix a staggering 167 security vulnerabilities in its <strong>Windows</strong> operating systems and related software, including a <strong>SharePoint Server</strong> zero-day and a publicly disclosed weakness in <strong>Windows Defender</strong> dubbed &#8220;<strong>BlueHammer</strong>.&#8221; Separately, <strong>Google Chrome</strong> fixed its fourth zero-day of 2026, and an emergency update for <strong>Adobe Reader</strong> nixes an actively exploited flaw that can lead to remote code execution.</p>
+<p><img decoding="async" loading="lazy" class=" wp-image-56287 aligncenter" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="A picture of a windows laptop in its updating stage, saying do not turn off the computer. " width="749" height="527" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+<p>Redmond warns that attackers are already targeting <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2026-32201" target="_blank" rel="noopener">CVE-2026-32201</a>, a vulnerability in Microsoft SharePoint Server that allows attackers to spoof trusted content or interfaces over a network.</p>
+<p><strong>Mike Walters</strong>, president and co-founder of <strong>Action1</strong>, said CVE-2026-32201 can be used to deceive employees, partners, or customers by presenting falsified information within trusted SharePoint environments.</p>
+<p>&#8220;This CVE can enable phishing attacks, unauthorized data manipulation, or social engineering campaigns that lead to further compromise,&#8221; Walters said. &#8220;The presence of active exploitation significantly increases organizational risk.&#8221;</p>
+<p>Microsoft also addressed BlueHammer (<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2026-33825" target="_blank" rel="noopener">CVE-2026-33825</a>), a privilege escalation bug in Windows Defender. According to BleepingComputer, the researcher who discovered the flaw <a href="https://www.bleepingcomputer.com/news/security/disgruntled-researcher-leaks-bluehammer-windows-zero-day-exploit/" target="_blank" rel="noopener">published exploit code for it</a> after notifying Microsoft and growing exasperated with their response. <strong>Will Dormann</strong>, senior principal vulnerability analyst at <strong>Tharros</strong>, says he <a href="https://infosec.exchange/@wdormann/116404516592597593" target="_blank" rel="noopener">confirmed</a> that the public BlueHammer exploit code no longer works after installing today&#8217;s patches.<span id="more-73440"></span></p>
+<p><strong>Satnam Narang</strong>, senior staff research engineer at <strong>Tenable</strong>, said April marks the second-biggest Patch Tuesday ever for Microsoft. Narang also said there are indications that a zero-day flaw Adobe patched in an emergency update on April 11 &#8212; <a href="https://helpx.adobe.com/security/products/acrobat/apsb26-43.html" target="_blank" rel="noopener">CVE-2026-34621</a> &#8212; has seen active exploitation since at least November 2025.</p>
+<p><strong>Adam Barnett</strong>, lead software engineer at <strong>Rapid7</strong>, called the patch total from Microsoft today &#8220;a new record in that category&#8221; because it includes nearly 60 browser vulnerabilities. Barnett said it might be tempting to imagine that this sudden spike was tied to the buzz around the announcement a week ago today of <a href="https://www.anthropic.com/glasswing" target="_blank" rel="noopener">Project Glasswing</a> &#8212; a much-hyped but still unreleased new AI capability from Anthropic that is reportedly quite good at finding bugs in a vast array of software.</p>
+<p>But he notes that <strong>Microsoft Edge</strong> is based on the Chromium engine, and the Chromium maintainers acknowledge a wide range of researchers for the vulnerabilities which Microsoft republished last Friday.</p>
+<p>&#8220;A safe conclusion is that this increase in volume is driven by ever-expanding AI capabilities,&#8221; Barnett said. &#8220;We should expect to see further increases in vulnerability reporting volume as the impact of AI models extend further, both in terms of capability and availability.&#8221;</p>
+<p>Finally, no matter what browser you use to surf the web, it&#8217;s important to completely close out and restart the browser periodically. This is really easy to put off (especially if you have a bajillion tabs open at any time) but it&#8217;s the only way to ensure that any available updates get installed. For example, a Google Chrome update released earlier this month fixed 21 security holes, including the high-severity zero-day flaw <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-5281" target="_blank" rel="noopener">CVE-2026-5281</a>.</p>
+<p>For a clickable, per-patch breakdown, check out the <strong>SANS Internet Storm Center</strong> <a href="https://isc.sans.edu/forums/diary/Microsoft%20Patch%20Tuesday%20April%202026./32898/" target="_blank" rel="noopener">Patch Tuesday roundup</a>. Running into problems applying any of these updates? Leave a note about it in the comments below and there&#8217;s a decent chance someone here will pipe in with a solution.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/feed/</wfw:commentRss>
+			<slash:comments>19</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Russia Hacked Routers to Steal Microsoft Office Tokens</title>
+		<link>https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/</link>
+					<comments>https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/#comments</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Tue, 07 Apr 2026 17:02:44 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Internet of Things (IoT)]]></category>
+		<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[APT 28]]></category>
+		<category><![CDATA[Black Lotus Labs]]></category>
+		<category><![CDATA[Danny Adamitis]]></category>
+		<category><![CDATA[Fancy Bear]]></category>
+		<category><![CDATA[Forest Blizzard]]></category>
+		<category><![CDATA[Lumen]]></category>
+		<category><![CDATA[Microsoft Office]]></category>
+		<category><![CDATA[MikroTik]]></category>
+		<category><![CDATA[National Cyber Security Centre]]></category>
+		<category><![CDATA[Ryan English]]></category>
+		<category><![CDATA[TP-Link]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=73422</guid>
+
+					<description><![CDATA[Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned today. The spying campaign allowed state-backed Russian hackers to quietly siphon authentication tokens from users on more than 18,000 networks without deploying any malicious software or code.]]></description>
+										<content:encoded><![CDATA[<p>Hackers linked to Russia&#8217;s military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from <strong>Microsoft Office</strong> users, security experts warned today. The spying campaign allowed state-backed Russian hackers to quietly siphon authentication tokens from users on more than 18,000 networks without deploying any malicious software or code.</p>
+<p>Microsoft said in <a href="https://www.microsoft.com/en-us/security/blog/2026/04/07/soho-router-compromise-leads-to-dns-hijacking-and-adversary-in-the-middle-attacks/" target="_blank" rel="noopener">a blog post</a> today it identified more than 200 organizations and 5,000 consumer devices that were caught up in a stealthy but remarkably simple spying network built by a Russia-backed threat actor known as &#8220;<strong>Forest Blizzard</strong>.&#8221;</p>
+<div id="attachment_73429" style="width: 774px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-73429" decoding="async" loading="lazy" class="size-full wp-image-73429" src="https://krebsonsecurity.com/wp-content/uploads/2026/04/lumen-forestblizzard.png" alt="" width="764" height="353" /><p id="caption-attachment-73429" class="wp-caption-text">How targeted DNS requests were redirected at the router. Image: Black Lotus Labs.</p></div>
+<p>Also known as <a href="https://attack.mitre.org/groups/G0007/" target="_blank" rel="noopener">APT28</a> and Fancy Bear, Forest Blizzard is attributed to the military intelligence units within Russia&#8217;s General Staff Main Intelligence Directorate (GRU). APT 28 famously compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election.</p>
+<p>Researchers at <strong>Black Lotus Labs</strong>, a security division of the Internet backbone provider <strong>Lumen</strong>, found that at the peak of its activity in December 2025, Forest Blizzard&#8217;s surveillance dragnet ensnared more than 18,000 Internet routers that were mostly unsupported, end-of-life routers, or else far behind on security updates. A <a href="https://www.lumen.com/blog-and-news/en-us/frostarmada-forest-blizzard-dns-hijacking" target="_blank" rel="noopener">new report</a> from Lumen says the hackers primarily targeted government agencies—including ministries of foreign affairs, law enforcement, and third-party email providers.</p>
+<p>Black Lotus Security Engineer <strong>Ryan English</strong> said the GRU hackers did not need to install malware on the targeted routers, which were mainly older <strong>Mikrotik</strong> and <strong>TP-Link </strong>devices marketed to the Small Office/Home Office (SOHO) market. Instead, they used known vulnerabilities to modify the Domain Name System (DNS) settings of the routers to include DNS servers controlled by the hackers.</p>
+<p>As the U.K.&#8217;s <strong>National Cyber Security Centre</strong> (NCSC) notes in <a href="https://www.ncsc.gov.uk/news/apt28-exploit-routers-to-enable-dns-hijacking-operations" target="_blank" rel="noopener">a new advisory</a> detailing how Russian cyber actors have been compromising routers, DNS is what allows individuals to reach websites by typing familiar addresses, instead of associated IP addresses. In a DNS hijacking attack, bad actors interfere with this process to covertly send users to malicious websites designed to steal login details or other sensitive information.</p>
+<p>English said the routers attacked by Forest Blizzard were reconfigured to use DNS servers that pointed to a handful of virtual private servers controlled by the attackers. Importantly, the attackers could then propagate their malicious DNS settings to all users on the local network, and from that point forward intercept any <a href="https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-auth-code-flow" target="_blank" rel="noopener">OAuth authentication tokens</a> transmitted by those users.<span id="more-73422"></span></p>
+<div id="attachment_73428" style="width: 757px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-73428" decoding="async" loading="lazy" class=" wp-image-73428" src="https://krebsonsecurity.com/wp-content/uploads/2026/04/ms-dns-forestblizard.png" alt="" width="747" height="544" /><p id="caption-attachment-73428" class="wp-caption-text">DNS hijacking through router compromise. Image: Microsoft.</p></div>
+<p>Because those tokens are typically transmitted only <em>after</em> the user has successfully logged in and gone through multi-factor authentication, the attackers could gain direct access to victim accounts without ever having to phish each user&#8217;s credentials and/or one-time codes.</p>
+<p>&#8220;Everyone is looking for some sophisticated malware to drop something on your mobile devices or something,&#8221; English said. &#8220;These guys didn&#8217;t use malware. They did this in an old-school, graybeard way that isn&#8217;t really sexy but it gets the job done.&#8221;</p>
+<p>Microsoft refers to the Forest Blizzard activity as using DNS hijacking &#8220;to support post-compromise adversary-in-the-middle (AiTM) attacks on Transport Layer Security (TLS) connections against Microsoft Outlook on the web domains.&#8221; The software giant said while targeting SOHO devices isn&#8217;t a new tactic, this is the first time Microsoft has seen Forest Blizzard using &#8220;DNS hijacking at scale to support AiTM of TLS connections after exploiting edge devices.&#8221;</p>
+<p>Black Lotus Labs engineer <strong>Danny Adamitis</strong> said it will be interesting to see how Forest Blizzard reacts to today&#8217;s flurry of attention to their espionage operation, noting that the group immediately switched up its tactics in response to <a href="https://www.ncsc.gov.uk/sites/default/files/documents/ncsc-mar-authentic_antics.pdf" target="_blank" rel="noopener">a similar NCSC report</a> (PDF) in August 2025. At the time, Forest Blizzard was using malware to control a far more targeted and smaller group of compromised routers. But Adamitis said the day after the NCSC report, the group quickly ditched the malware approach in favor of mass-altering the DNS settings on thousands of vulnerable routers.</p>
+<p>&#8220;Before the last NCSC report came out they used this capability in very limited instances,&#8221; Adamitis told KrebsOnSecurity. &#8220;After the report was released they implemented the capability in a more systemic fashion and used it to target everything that was vulnerable.&#8221;</p>
+<p>TP-Link was among the router makers <a href="https://krebsonsecurity.com/2025/11/drilling-down-on-uncle-sams-proposed-tp-link-ban/" target="_blank" rel="noopener">facing a complete ban</a> in the United States. But on March 23, the <strong>U.S. Federal Communications Commissio</strong>n (FCC) took a much broader approach, <a href="https://www.fcc.gov/document/fcc-updates-covered-list-include-foreign-made-consumer-routers" target="_blank" rel="noopener">announcing</a> it would no longer certify consumer-grade Internet routers that are produced outside of the United States.</p>
+<p>The FCC warned that foreign-made routers had become an untenable national security threat, and that poorly-secured routers present “a severe cybersecurity risk that could be leveraged to immediately and severely disrupt U.S. critical infrastructure and directly harm U.S. persons.”</p>
+<p>Experts have countered that few new consumer-grade routers would be available for purchase under this new FCC policy (besides maybe Musk&#8217;s Starlink satellite Internet routers, which are produced in Texas). The FCC says router makers can apply for a special &#8220;conditional approval&#8221; from the Department of War or Department of Homeland Security, and that the new policy does not affect any previously-purchased consumer-grade routers.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/feed/</wfw:commentRss>
+			<slash:comments>24</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Germany Doxes &#8220;UNKN,&#8221; Head of RU Ransomware Gangs REvil, GandCrab</title>
+		<link>https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/</link>
+					<comments>https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/#comments</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Mon, 06 Apr 2026 02:07:17 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Web Fraud 2.0]]></category>
+		<category><![CDATA[Anatoly Sergeevitsch Kravchuk]]></category>
+		<category><![CDATA[Daniel Golden]]></category>
+		<category><![CDATA[Daniil Maksimovich Shchukin]]></category>
+		<category><![CDATA[Dmitry Smilyanets]]></category>
+		<category><![CDATA[GandCrab]]></category>
+		<category><![CDATA[Ger0in]]></category>
+		<category><![CDATA[German Federal Criminal Police]]></category>
+		<category><![CDATA[Intel 471]]></category>
+		<category><![CDATA[Recorded Future]]></category>
+		<category><![CDATA[Renee Dudley]]></category>
+		<category><![CDATA[rEvil]]></category>
+		<category><![CDATA[UNKN]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=73394</guid>
+
+					<description><![CDATA[An elusive hacker who went by the handle "UNKN" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany say 31-year-old Russian Daniil Maksimovich Shchukin headed both cybercrime gangs and helped carry out at least 130 acts of computer sabotage and extortion against victims across the country between 2019 and 2021.]]></description>
+										<content:encoded><![CDATA[<p>An elusive hacker who went by the handle &#8220;<strong>UNKN</strong>&#8221; and ran the early Russian ransomware groups <strong>GandCrab</strong> and <strong>REvil</strong> now has a name and a face. Authorities in Germany say 31-year-old Russian <strong>Daniil Maksimovich Shchukin</strong> headed both cybercrime gangs and helped carry out at least 130 acts of computer sabotage and extortion against victims across the country between 2019 and 2021.</p>
+<p>Shchukin was named as UNKN (a.k.a. UNKNOWN) in <a href="https://www.bka.de/DE/IhreSicherheit/Fahndungen/Personen/BekanntePersonen/CC_BW/DMS/Sachverhalt.html?nn=26874#detailinformationen265540" target="_blank" rel="noopener">an advisory</a> published by the <strong>German Federal Criminal Police</strong> (the “Bundeskriminalamt” or BKA for short). The BKA said Shchukin and another Russian &#8212; 43-year-old <strong>Anatoly Sergeevitsch Kravchuk </strong>&#8212; extorted nearly $2 million euros across two dozen cyberattacks that caused more than 35 million euros in total economic damage.</p>
+<div id="attachment_73400" style="width: 765px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-73400" decoding="async" loading="lazy" class="size-full wp-image-73400" src="https://krebsonsecurity.com/wp-content/uploads/2026/04/shchukin-kravchuk.png" alt="" width="755" height="473" /><p id="caption-attachment-73400" class="wp-caption-text"><span class="wrapper-text"><span class="caption">Daniil Maksimovich SHCHUKIN, a.k.a. UNKN, and Anatoly Sergeevitsch Karvchuk, alleged leaders of the GandCrab and REvil ransomware groups.</span></span></p></div>
+<p>Germany&#8217;s BKA said Shchukin acted as the head of one of the largest worldwide operating ransomware groups GandCrab and REvil, which pioneered the practice of double extortion &#8212; charging victims once for a key needed to unlock hacked systems, and a separate payment in exchange for a promise not to publish stolen data.</p>
+<p>Shchukin&#8217;s name appeared in a <a href="https://krebsonsecurity.com/wp-content/uploads/2026/04/shchukin-seizure-revil.pdf" target="_blank" rel="noopener">Feb. 2023 filing</a> (PDF) from the U.S. Justice Department seeking the seizure of various cryptocurrency accounts associated with proceeds from the REvil ransomware gang&#8217;s activities. The government said the digital wallet tied to Shchukin contained more than $317,000 in ill-gotten cryptocurrency.</p>
+<p>The GandCrab ransomware affiliate program first surfaced in January 2018, and paid enterprising hackers huge shares of the profits just for hacking into user accounts at major corporations. The GandCrab team would then try to expand that access, often siphoning vast amounts of sensitive and internal documents in the process. The malware&#8217;s curators shipped five major revisions to the GandCrab code, each corresponding with sneaky new features and bug fixes aimed at thwarting the efforts of computer security firms to stymie the spread of the malware.</p>
+<p>On May 31, 2019, the GandCrab team <a href="https://krebsonsecurity.com/2019/07/whos-behind-the-gandcrab-ransomware/" target="_blank" rel="noopener">announced</a> the group was shutting down after extorting more than $2 billion from victims. &#8220;We are a living proof that you can do evil and get off scot-free,&#8221; GandCrab&#8217;s farewell address famously quipped. &#8220;We have proved that one can make a lifetime of money in one year. We have proved that you can become number one by general admission, not in your own conceit.”</p>
+<p>The REvil ransomware affiliate program materialized around the same as GandCrab&#8217;s demise, fronted by a user named UNKNOWN who announced on a Russian cybercrime forum that he&#8217;d deposited $1 million in the forum&#8217;s escrow to show he meant business. By this time, many cybersecurity experts <a href="https://krebsonsecurity.com/2019/07/is-revil-the-new-gandcrab-ransomware/" target="_blank" rel="noopener">had concluded</a> REvil was little more than a reorganization of GandCrab.</p>
+<p>UNKNOWN also gave <a href="https://therecord.media/i-scrounged-through-the-trash-heaps-now-im-a-millionaire-an-interview-with-revils-unknown" target="_blank" rel="noopener">an interview</a> to <strong>Dmitry Smilyanets</strong>, a former malicious hacker hired by <strong>Recorded Future</strong>, wherein UNKNOWN described a rags-to-riches tale unencumbered by ethics and morals.</p>
+<p>&#8220;As a child, I scrounged through the trash heaps and smoked cigarette butts,&#8221; UNKNOWN told Recorded Future. &#8220;I walked 10 km one way to the school. I wore the same clothes for six months. In my youth, in a communal apartment, I didn’t eat for two or even three days. Now I am a millionaire.&#8221;<span id="more-73394"></span></p>
+<p>As described in <a href="https://www.amazon.com/Ransomware-Hunting-Team-Improbable-Cybercrime/dp/0374603308" target="_blank" rel="noopener">The Ransomware Hunting Team</a> by <strong>Renee Dudley</strong> and <strong>Daniel Golden</strong>, UNKNOWN and REvil reinvested significant earnings into improving their success and mirroring practices of legitimate businesses. The authors wrote:</p>
+<blockquote><p>&#8220;Just as a real-world manufacturer might hire other companies to handle logistics or web design, ransomware developers increasingly outsourced tasks beyond their purview, focusing instead on improving the quality of their ransomware. The higher quality ransomware—which, in many cases, the Hunting Team could not break—resulted in more and higher pay-outs from victims. The monumental payments enabled gangs to reinvest in their enterprises. They hired more specialists, and their success accelerated.&#8221;</p>
+<p>&#8220;Criminals raced to join the booming ransomware economy. Underworld ancillary service providers sprouted or pivoted from other criminal work to meet developers’ demand for customized support. Partnering with gangs like GandCrab, &#8216;cryptor&#8217; providers ensured ransomware could not be detected by standard anti-malware scanners. &#8216;Initial access brokerages&#8217; specialized in stealing credentials and finding vulnerabilities in target networks, selling that access to ransomware operators and affiliates. Bitcoin “tumblers” offered discounts to gangs that used them as a preferred vendor for laundering ransom payments. Some contractors were open to working with any gang, while others entered exclusive partnerships.&#8221;</p></blockquote>
+<p>REvil would evolve into a feared &#8220;big-game-hunting&#8221; machine capable of extracting hefty extortion payments from victims, largely going after organizations with more than $100 million in annual revenues and fat new cyber insurance policies that were known to pay out.</p>
+<p>Over the July 4, 2021 weekend in the United States, REvil hacked into and <a href="https://krebsonsecurity.com/2021/07/kaseya-left-customer-portal-vulnerable-to-2015-flaw-in-its-own-software/" target="_blank" rel="noopener">extorted Kaseya</a>, a company that handled IT operations for more than 1,500 businesses, nonprofits and government agencies. The FBI would later announce they&#8217;d infiltrated the ransomware group&#8217;s servers prior to the Kaseya hack but couldn&#8217;t tip their hand at the time. REvil never recovered from that core compromise, or from the FBI&#8217;s release of a free decryption key for REvil victims who couldn&#8217;t or didn&#8217;t pay.</p>
+<p>Shchukin is from Krasnodar, Russia and is thought to reside there, the BKA said.</p>
+<p>&#8220;Based on the investigations so far, it is assumed that the wanted person is abroad, presumably in Russia,&#8221; the BKA advised. &#8220;Travel behaviour cannot be ruled out.&#8221;</p>
+<p>There is little that connects Shchukin to UNKNOWN&#8217;s various accounts on the Russian crime forums. But a review of the Russian crime forums indexed by the cyber intelligence firm <strong>Intel 471</strong> shows there is plenty connecting Shchukin to a hacker identity called &#8220;<strong>Ger0in</strong>&#8221; who operated large botnets and sold &#8220;installs&#8221; &#8212; allowing other cybercriminals to rapidly deploy malware of their choice to thousands of PCs in one go. However, Ger0in was only active between 2010 and 2011, well before UNKNOWN&#8217;s appearance as the REvil front man.</p>
+<p>A review of the mugshots released by the BKA at the image comparison site Pimeyes found a match on <a href="https://event-myata.ru/private/02#!/tab/581005712-2" target="_blank" rel="noopener">this birthday celebration from 2023</a>, which features a young man named Daniel wearing the same fancy watch as in the BKA photos.</p>
+<div id="attachment_73401" style="width: 760px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2026/04/shchukin-bday.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-73401" decoding="async" loading="lazy" class="wp-image-73401" src="https://krebsonsecurity.com/wp-content/uploads/2026/04/shchukin-bday.png" alt="" width="750" height="170" srcset="https://krebsonsecurity.com/wp-content/uploads/2026/04/shchukin-bday.png 1525w, https://krebsonsecurity.com/wp-content/uploads/2026/04/shchukin-bday-768x174.png 768w, https://krebsonsecurity.com/wp-content/uploads/2026/04/shchukin-bday-782x177.png 782w" sizes="(max-width: 750px) 100vw, 750px" /></a><p id="caption-attachment-73401" class="wp-caption-text">Images from Daniil Shchukin&#8217;s birthday party celebration in Krasnodar in 2023.</p></div>
+<p><strong>Update, April 6, 12:06 p.m. ET</strong>: A <a href="https://infosec.exchange/@odr_k4tana" target="_blank" rel="noopener">reader</a> forwarded <a href="https://us.mirror.ionos.com/projects/media.ccc.de/congress/2023/mp3-translated/37c3-12134-eng-Hirne_hacken_Hackback_Edition_mp3-2.mp3" target="_blank" rel="noopener">this English-dubbed audio recording</a> from a ccc.de (37C3) conference talk in Germany from 2023 that previously outed Shchukin as the REvil leader (Shchuckin is mentioned at around 24:25).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/feed/</wfw:commentRss>
+			<slash:comments>9</slash:comments>
+		
+		<enclosure url="https://us.mirror.ionos.com/projects/media.ccc.de/congress/2023/mp3-translated/37c3-12134-eng-Hirne_hacken_Hackback_Edition_mp3-2.mp3" length="59196830" type="audio/mpeg" />
+
+			</item>
+		<item>
+		<title>&#8216;CanisterWorm&#8217; Springs Wiper Attack Targeting Iran</title>
+		<link>https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/</link>
+					<comments>https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/#comments</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2026 15:43:04 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Aikido]]></category>
+		<category><![CDATA[Aqua Security]]></category>
+		<category><![CDATA[Assaf Morag]]></category>
+		<category><![CDATA[CanisterWorm]]></category>
+		<category><![CDATA[Catalin Cimpanu]]></category>
+		<category><![CDATA[Charlie Eriksen]]></category>
+		<category><![CDATA[Flare]]></category>
+		<category><![CDATA[ICP]]></category>
+		<category><![CDATA[Internet Computer Protocol]]></category>
+		<category><![CDATA[TeamPCP]]></category>
+		<category><![CDATA[Trivy]]></category>
+		<category><![CDATA[Wiz]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=73368</guid>
+
+					<description><![CDATA[A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran's time zone or have Farsi set as the default language.]]></description>
+										<content:encoded><![CDATA[<p>A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran&#8217;s time zone or have Farsi set as the default language.</p>
+<p>Experts say the wiper campaign against Iran materialized this past weekend and came from a relatively new cybercrime group known as <strong>TeamPCP</strong>. In December 2025, the group began compromising corporate cloud environments using a self-propagating worm that went after exposed Docker APIs, Kubernetes clusters, Redis servers, and the React2Shell vulnerability. TeamPCP then attempted to move laterally through victim networks, siphoning authentication credentials and extorting victims over Telegram.</p>
+<div id="attachment_73375" style="width: 979px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-73375" decoding="async" loading="lazy" class="size-full wp-image-73375" src="https://krebsonsecurity.com/wp-content/uploads/2026/03/aikido-iranwiper.png" alt="" width="969" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2026/03/aikido-iranwiper.png 969w, https://krebsonsecurity.com/wp-content/uploads/2026/03/aikido-iranwiper-768x393.png 768w, https://krebsonsecurity.com/wp-content/uploads/2026/03/aikido-iranwiper-782x400.png 782w" sizes="(max-width: 969px) 100vw, 969px" /><p id="caption-attachment-73375" class="wp-caption-text">A snippet of the malicious CanisterWorm that seeks out and destroys data on systems that match Iran&#8217;s timezone or have Farsi as the default language. Image: Aikido.dev.</p></div>
+<p>In a profile of TeamPCP published in January, the security firm <strong>Flare</strong> said the group weaponizes exposed control planes rather than exploiting endpoints, predominantly targeting cloud infrastructure over end-user devices, with Azure (61%) and AWS (36%) accounting for 97% of compromised servers.</p>
+<p>&#8220;TeamPCP&#8217;s strength does not come from novel exploits or original malware, but from the large-scale automation and integration of well-known attack techniques,&#8221; Flare&#8217;s <strong>Assaf Morag</strong> <a href="https://flare.io/learn/resources/blog/teampcp-cloud-native-ransomware" target="_blank" rel="noopener">wrote</a>. &#8220;The group industrializes existing vulnerabilities, misconfigurations, and recycled tooling into a cloud-native exploitation platform that turns exposed infrastructure into a self-propagating criminal ecosystem.&#8221;</p>
+<p>On March 19, TeamPCP executed a supply chain attack against the vulnerability scanner <strong>Trivy</strong> from <strong>Aqua Security</strong>, injecting credential-stealing malware into official releases on GitHub actions. Aqua Security said it has since <a href="https://github.com/aquasecurity/trivy/discussions/10425" target="_blank" rel="noopener">removed</a> the harmful files, but the security firm Wiz <a href="https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack" target="_blank" rel="noopener">notes</a> the attackers were able to publish malicious versions that snarfed SSH keys, cloud credentials, Kubernetes tokens and cryptocurrency wallets from users.</p>
+<p>Over the weekend, the same technical infrastructure TeamPCP used in the Trivy attack was leveraged to deploy a new malicious payload which executes a wiper attack if the user&#8217;s timezone and locale are determined to correspond to Iran, said <strong>Charlie Eriksen</strong>, a security researcher at <strong>Aikido</strong>. In <a href="https://www.aikido.dev/blog/teampcp-stage-payload-canisterworm-iran" target="_blank" rel="noopener">a blog post</a> published on Sunday, Eriksen said if the wiper component detects that the victim is in Iran and has access to a Kubernetes cluster, it will destroy data on every node in that cluster.</p>
+<p>&#8220;If it doesn&#8217;t it will just wipe the local machine,&#8221; Eriksen told KrebsOnSecurity.</p>
+<div id="attachment_73374" style="width: 985px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-73374" decoding="async" loading="lazy" class="size-full wp-image-73374" src="https://krebsonsecurity.com/wp-content/uploads/2026/03/4paths1script.png" alt="" width="975" height="568" srcset="https://krebsonsecurity.com/wp-content/uploads/2026/03/4paths1script.png 975w, https://krebsonsecurity.com/wp-content/uploads/2026/03/4paths1script-768x447.png 768w, https://krebsonsecurity.com/wp-content/uploads/2026/03/4paths1script-782x456.png 782w" sizes="(max-width: 975px) 100vw, 975px" /><p id="caption-attachment-73374" class="wp-caption-text">Image: Aikido.dev.</p></div>
+<p><span id="more-73368"></span>Aikido refers to TeamPCP&#8217;s infrastructure as &#8220;<strong>CanisterWorm</strong>&#8221; because the group orchestrates their campaigns using an <a href="https://docs.internetcomputer.org/building-apps/essentials/canisters" target="_blank" rel="noopener">Internet Computer Protocol</a> (ICP) canister &#8212; a system of tamperproof, blockchain-based &#8220;smart contracts&#8221; that combine both code and data. ICP canisters can serve Web content directly to visitors, and their distributed architecture makes them resistant to takedown attempts. These canisters will remain reachable so long as their operators continue to pay virtual currency fees to keep them online.</p>
+<p>Eriksen said the people behind TeamPCP are bragging about their exploits in a group on Telegram and claim to have used the worm to steal vast amounts of sensitive data from major companies, including a large multinational pharmaceutical firm.</p>
+<p>&#8220;When they compromised Aqua a second time, they took a lot of GitHub accounts and started spamming these with junk messages,&#8221; Eriksen said. &#8220;It was almost like they were just showing off how much access they had. Clearly, they have an entire stash of these credentials, and what we&#8217;ve seen so far is probably a small sample of what they have.&#8221;</p>
+<p>Security experts say the spammed GitHub messages could be a way for TeamPCP to ensure that any code packages tainted with their malware will remain prominent in GitHub searches. In a newsletter published today titled <a href="https://risky.biz/risky-bulletin-github-is-starting-to-have-a-real-malware-problem/" target="_blank" rel="noopener">GitHub is Starting to Have a Real Malware Problem</a>, <strong>Risky Business</strong> reporter <strong>Catalin Cimpanu</strong> writes that attackers often are seen pushing meaningless commits to their repos or using online services that sell GitHub stars and &#8220;likes&#8221; to keep malicious packages at the top of the GitHub search page.</p>
+<p>This weekend&#8217;s outbreak is the <a href="https://ramimac.me/trivy-teampcp/" target="_blank" rel="noopener">second major supply chain attack</a> involving Trivy in as many months. At the end of February, Trivy was hit as part of an automated threat called <a href="https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation#attack-3-microsoftai-discovery-agent---branch-name-injection" target="_blank" rel="noopener">HackerBot-Claw</a>, which mass exploited misconfigured workflows in GitHub Actions to steal authentication tokens.</p>
+<p>Eriksen said it appears TeamPCP used access gained in the first attack on Aqua Security to perpetrate this weekend&#8217;s mischief. But he said there is no reliable way to tell whether TeamPCP&#8217;s wiper actually succeeded in trashing any data from victim systems, and that the malicious payload was only active for a short time over the weekend.</p>
+<p>&#8220;They&#8217;ve been taking [the malicious code] up and down, rapidly changing it adding new features,&#8221; Eriksen said, noting that when the malicious canister wasn&#8217;t serving up malware downloads it was pointing visitors to <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener">a Rick Roll video</a> on YouTube.</p>
+<p>&#8220;It&#8217;s a little all over the place, and there&#8217;s a chance this whole Iran thing is just their way of getting attention,&#8221; Eriksen said. &#8220;I feel like these people are really playing this Chaotic Evil role here.&#8221;</p>
+<p>Cimpanu observed that supply chain attacks have increased in frequency of late as threat actors begin to grasp just how efficient they can be, and his post documents an alarming number of these incidents since 2024.</p>
+<p>&#8220;While security firms appear to be doing a good job spotting this, we&#8217;re also gonna need GitHub&#8217;s security team to step up,&#8221; Cimpanu wrote. &#8220;Unfortunately, on a platform designed to copy (fork) a project and create new versions of it (clones), spotting malicious additions to clones of legitimate repos might be quite the engineering problem to fix.&#8221;</p>
+<p><strong>Update, 2:40 p.m. ET:</strong> Wiz is <a href="https://www.wiz.io/blog/teampcp-attack-kics-github-action" rel="noopener" target="_blank">reporting</a> that TeamPCP also pushed credential stealing malware to the <strong>KICS</strong> vulnerability scanner from <strong>Checkmarx</strong>, and that the scanner&#8217;s GitHub Action was compromised between 12:58 and 16:50 UTC today (March 23rd).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/feed/</wfw:commentRss>
+			<slash:comments>11</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Feds Disrupt IoT Botnets Behind Huge DDoS Attacks</title>
+		<link>https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/</link>
+					<comments>https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/#comments</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Fri, 20 Mar 2026 00:49:19 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[DDoS-for-Hire]]></category>
+		<category><![CDATA[Internet of Things (IoT)]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[Aisuru]]></category>
+		<category><![CDATA[Defense Criminal Investigative Service]]></category>
+		<category><![CDATA[JackSkid]]></category>
+		<category><![CDATA[Kimwolf]]></category>
+		<category><![CDATA[Mossad botnet]]></category>
+		<category><![CDATA[Rebecca Day]]></category>
+		<category><![CDATA[Synthient]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=73345</guid>
+
+					<description><![CDATA[The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked Internet of Things (IoT) devices, such as routers and web cameras. The feds say the four botnets -- named Aisuru, Kimwolf, JackSkid and Mossad -- are responsible for a series of recent record-smashing distributed denial-of-service (DDoS) attacks capable of knocking nearly any target offline.]]></description>
+										<content:encoded><![CDATA[<p>The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million Internet of Things (IoT) devices, such as routers and web cameras. The feds say the four botnets &#8212; named <strong>Aisuru</strong>, <strong>Kimwolf</strong>, <strong>JackSkid</strong> and <strong>Mossad</strong> &#8212; are responsible for a series of recent record-smashing distributed denial-of-service (DDoS) attacks capable of knocking nearly any target offline.</p>
+<div id="attachment_73083" style="width: 625px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-73083" decoding="async" loading="lazy" class="size-full wp-image-73083" src="https://krebsonsecurity.com/wp-content/uploads/2026/01/ss-botnet.png" alt="" width="615" height="615" /><p id="caption-attachment-73083" class="wp-caption-text">Image: Shutterstock, @Elzicon.</p></div>
+<p>The Justice Department said the Department of Defense Office of Inspector General’s (DoDIG) <strong>Defense Criminal Investigative Service</strong> (DCIS) executed seizure warrants targeting multiple U.S.-registered domains, virtual servers, and other infrastructure involved in DDoS attacks against Internet addresses owned by the DoD.</p>
+<p>The government alleges the unnamed people in control of the four botnets used their crime machines to launch hundreds of thousands of DDoS attacks, often demanding extortion payments from victims. Some victims reported tens of thousands of dollars in losses and remediation expenses.</p>
+<p>The oldest of the botnets &#8212; Aisuru &#8212; issued more than 200,000 attacks commands, while JackSkid hurled at least 90,000 attacks. Kimwolf issued more than 25,000 attack commands, the government said, while Mossad was blamed for roughy 1,000 digital sieges.</p>
+<p>The DOJ <a href="https://www.justice.gov/usao-ak/pr/authorities-disrupt-worlds-largest-iot-ddos-botnets-responsible-record-breaking-attacks" target="_blank" rel="noopener">said</a> the law enforcement action was designed to prevent further infection to victim devices and to limit or eliminate the ability of the botnets to launch future attacks. The case is being investigated by the DCIS with help from the FBI&#8217;s field office in Anchorage, Alaska, and the DOJ&#8217;s statement credits nearly two dozen technology companies with assisting in the operation.<span id="more-73345"></span></p>
+<p>“By working closely with DCIS and our international law enforcement partners, we collectively identified and disrupted criminal infrastructure used to carry out large-scale DDoS attacks,” said Special Agent in Charge <strong>Rebecca Day</strong> of the FBI Anchorage Field Office.</p>
+<p>Aisuru emerged in late 2024, and by mid-2025 it was launching <a href="https://krebsonsecurity.com/2025/10/ddos-botnet-aisuru-blankets-us-isps-in-record-ddos/" target="_blank" rel="noopener">record-breaking DDoS attacks</a> as it rapidly infected new IoT devices. In October 2025, Aisuru was used to seed Kimwolf, an Aisuru variant which introduced a novel spreading mechanism that allowed the botnet to infect devices hidden behind the protection of the user&#8217;s internal network.</p>
+<p>On January 2, 2026, the security firm <strong>Synthient</strong> <a href="https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/" target="_blank" rel="noopener">publicly disclosed</a> the vulnerability Kimwolf was using to propagate so quickly. That disclosure helped curtail Kimwolf&#8217;s spread somewhat, but since then several other IoT botnets have emerged that effectively copy Kimwolf&#8217;s spreading methods while competing for the same pool of vulnerable devices. According to the DOJ, the JackSkid botnet also sought out systems on internal networks just like Kimwolf.</p>
+<p>The DOJ said its disruption of the four botnets coincided with &#8220;law enforcement actions&#8221; conducted in Canada and Germany targeting individuals who allegedly operated those botnets, although no further details were available on the suspected operators.</p>
+<p>In late February, KrebsOnSecurity identified <a href="https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/" target="_blank" rel="noopener">a 22-year-old Canadian man</a> as a core operator of the Kimwolf botnet. Multiple sources familiar with the investigation told KrebsOnSecurity the other prime suspect is a 15-year-old living in Germany.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/feed/</wfw:commentRss>
+			<slash:comments>31</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker</title>
+		<link>https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/</link>
+					<comments>https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/#comments</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 16:20:13 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Handala]]></category>
+		<category><![CDATA[Handala Hack]]></category>
+		<category><![CDATA[Irish Examiner]]></category>
+		<category><![CDATA[Microsoft Intune]]></category>
+		<category><![CDATA[Ministry of Intelligence and Security]]></category>
+		<category><![CDATA[Palo Alto Networks]]></category>
+		<category><![CDATA[Stryker]]></category>
+		<category><![CDATA[Void Manticore]]></category>
+		<category><![CDATA[wiper attack]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=73316</guid>
+
+					<description><![CDATA[A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker's main U.S. headquarters says the company is currently experiencing a building emergency.]]></description>
+										<content:encoded><![CDATA[<p>A hacktivist group with links to Iran&#8217;s intelligence agencies is claiming responsibility for a data-wiping attack against <strong>Stryker</strong>, a global medical technology company based in Michigan. News reports out of Ireland, Stryker&#8217;s largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker&#8217;s main U.S. headquarters says the company is currently experiencing a building emergency.</p>
+<p>Based in Kalamazoo, Michigan, Stryker [NYSE:SYK] is a medical and surgical equipment maker that reported $25 billion in global sales last year. In a lengthy statement posted to Telegram, a hacktivist group known as <strong>Handala</strong> (a.k.a. Handala Hack Team) claimed that Stryker&#8217;s offices in 79 countries have been forced to shut down after the group erased data from more than 200,000 systems, servers and mobile devices.</p>
+<div id="attachment_73319" style="width: 764px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-73319" decoding="async" loading="lazy" class="size-full wp-image-73319" src="https://krebsonsecurity.com/wp-content/uploads/2026/03/handala-stryker.png" alt="A manifesto posted by the Iran-backed hacktivist group Handala, claiming a mass data-wiping attack against medical technology maker Stryker." width="754" height="827" /><p id="caption-attachment-73319" class="wp-caption-text">A manifesto posted by the Iran-backed hacktivist group Handala, claiming a mass data-wiping attack against medical technology maker Stryker.</p></div>
+<p>&#8220;All the acquired data is now in the hands of the free people of the world, ready to be used for the true advancement of humanity and the exposure of injustice and corruption,&#8221; a portion of the Handala statement reads.</p>
+<p>The group said the wiper attack was in retaliation for a Feb. 28 missile strike that hit an Iranian school and killed at least 175 people, most of them children. <strong>The New York Times</strong> <a href="https://www.nytimes.com/2026/03/11/us/politics/iran-school-missile-strike.html" target="_blank" rel="noopener">reports</a> today that an ongoing military investigation has determined the United States is responsible for the deadly Tomahawk missile strike.</p>
+<p>Handala was one of several hacker groups recently <a href="https://unit42.paloaltonetworks.com/iranian-cyberattacks-2026/" target="_blank" rel="noopener">profiled</a> by <strong>Palo Alto Networks</strong>, which links it to Iran&#8217;s <strong>Ministry of Intelligence and Security</strong> (MOIS). Palo Alto says Handala surfaced in late 2023 and is assessed as one of several online personas maintained by <a href="https://malpedia.caad.fkie.fraunhofer.de/actor/void_manticore" target="_blank" rel="noopener">Void Manticore</a>, a MOIS-affiliated actor.</p>
+<p>Stryker&#8217;s website says the company has 56,000 employees in 61 countries. A phone call placed Wednesday morning to the media line at Stryker&#8217;s Michigan headquarters sent this author to a voicemail message that stated, &#8220;We are currently experiencing a building emergency. Please try your call again later.&#8221;</p>
+<p>A <a href="https://www.irishexaminer.com/news/munster/arid-41808308.html" target="_blank" rel="noopener">report</a> Wednesday morning from the <strong>Irish Examiner</strong> said Stryker staff are now communicating via WhatsApp for any updates on when they can return to work. The story quoted an unnamed employee saying anything connected to the network is down, and that &#8220;anyone with Microsoft Outlook on their personal phones had their devices wiped.&#8221;</p>
+<p>&#8220;Multiple sources have said that systems in the Cork headquarters have been &#8216;shut down&#8217; and that Stryker devices held by employees have been wiped out,&#8221; the Examiner reported. &#8220;The login pages coming up on these devices have been defaced with the Handala logo.&#8221;<span id="more-73316"></span></p>
+<p>Wiper attacks usually involve malicious software designed to overwrite any existing data on infected devices. But a trusted source with knowledge of the attack who spoke on condition of anonymity told KrebsOnSecurity the perpetrators in this case appear to have used a Microsoft service called <strong>Microsoft Intune</strong> to issue a &#8216;remote wipe&#8217; command against all connected devices.</p>
+<p>Intune is a cloud-based solution built for IT teams to enforce security and data compliance policies, and it provides a single, web-based administrative console to monitor and control devices regardless of location. The Intune connection is supported by <a href="https://www.reddit.com/r/cybersecurity/comments/1rqopq0/stryker_hit_by_handala_intune_managed_devices/" target="_blank" rel="noopener">this Reddit discussion</a> on the Stryker outage, where several users who claimed to be Stryker employees said they were told to uninstall Intune urgently.</p>
+<p>Palo Alto says Handala&#8217;s hack-and-leak activity is primarily focused on Israel, with occasional targeting outside that scope when it serves a specific agenda. The security firm said Handala also has taken credit for recent attacks against fuel systems in Jordan and an Israeli energy exploration company.</p>
+<p>&#8220;Recent observed activities are opportunistic and &#8216;quick and dirty,&#8217; with a noticeable focus on supply-chain footholds (e.g., IT/service providers) to reach downstream victims, followed by &#8216;proof&#8217; posts to amplify credibility and intimidate targets,&#8221; Palo Alto researchers wrote.</p>
+<p>The Handala manifesto posted to Telegram referred to Stryker as a &#8220;Zionist-rooted corporation,&#8221; which may be a reference to the company&#8217;s 2019 acquisition of the Israeli company OrthoSpace.</p>
+<p>Stryker is a major supplier of medical devices, and the ongoing attack is already affecting healthcare providers. One healthcare professional at a major university medical system in the United States told KrebsOnSecurity they are currently unable to order surgical supplies that they normally source through Stryker.</p>
+<p>&#8220;This is a real-world supply chain attack,&#8221; the expert said, who asked to remain anonymous because they were not authorized to speak to the press. &#8220;Pretty much every hospital in the U.S. that performs surgeries uses their supplies.&#8221;</p>
+<p><strong>John Riggi</strong>, national advisor for the <strong>American Hospital Association</strong> (AHA), said the AHA is not aware of any supply-chain disruptions as of yet.</p>
+<p>&#8220;We are aware of reports of the cyber attack against Stryker and are actively exchanging information with the hospital field and the federal government to understand the nature of the threat and assess any impact to hospital operations,&#8221; Riggi said in an email. &#8220;As of this time, we are not aware of any direct impacts or disruptions to U.S. hospitals as a result of this attack. That may change as hospitals evaluate services, technology and supply chain related to Stryker and if the duration of the attack extends.&#8221;</p>
+<p>According to a March 11 memo from the state of Maryland&#8217;s Institute for Emergency Medical Services Systems, Stryker indicated that some of their computer systems have been impacted by a &#8220;global network disruption.&#8221; The memo indicates that in response to the attack, a number of hospitals have opted to disconnect from Stryker&#8217;s various online services, including <strong>LifeNet</strong>, which allows paramedics to transmit EKGs to emergency physicians so that heart attack patients can expedite their treatment when they arrive at the hospital.</p>
+<p>&#8220;As a precaution, some hospitals have temporarily suspended their connection to Stryker systems, including LIFENET, while others have maintained the connection,&#8221; wrote Timothy Chizmar, the state&#8217;s EMS medical director. &#8220;The Maryland Medical Protocols for EMS requires ECG transmission for patients with acute coronary syndrome (or STEMI). However, if you are unable to transmit a 12 Lead ECG to a receiving hospital, you should initiate radio consultation and describe the findings on the ECG.&#8221;</p>
+<p>This is a developing story. Updates will be noted with a timestamp.</p>
+<p><strong>Update, 2:54 p.m. ET:</strong> Added comment from Riggi and perspectives on this attack&#8217;s potential to turn into a supply-chain problem for the healthcare system.</p>
+<p><strong>Update, Mar. 12, 7:59 a.m. ET:</strong> Added information about the outage affecting Stryker&#8217;s online services.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/feed/</wfw:commentRss>
+			<slash:comments>52</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Microsoft Patch Tuesday, March 2026 Edition</title>
+		<link>https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/</link>
+					<comments>https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/#comments</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 00:32:51 +0000</pubDate>
+				<category><![CDATA[Security Tools]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Time to Patch]]></category>
+		<category><![CDATA[Adam Barnett]]></category>
+		<category><![CDATA[adobe]]></category>
+		<category><![CDATA[Ben McCarthy]]></category>
+		<category><![CDATA[CVE-2026-21262]]></category>
+		<category><![CDATA[CVE-2026-24289]]></category>
+		<category><![CDATA[CVE-2026-24291]]></category>
+		<category><![CDATA[CVE-2026-24294]]></category>
+		<category><![CDATA[CVE-2026-25187]]></category>
+		<category><![CDATA[CVE-2026-26110]]></category>
+		<category><![CDATA[CVE-2026-26113]]></category>
+		<category><![CDATA[CVE-2026-26127]]></category>
+		<category><![CDATA[Immersive]]></category>
+		<category><![CDATA[Microsoft Office]]></category>
+		<category><![CDATA[Microsoft Patch Tuesday March 2026]]></category>
+		<category><![CDATA[mozilla firefox]]></category>
+		<category><![CDATA[Satnam Narang]]></category>
+		<category><![CDATA[Tenable]]></category>
+		<category><![CDATA[XBOW]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=73276</guid>
+
+					<description><![CDATA[Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing "zero-day" flaws this month (compared to February's five zero-day treat), but as usual some patches may deserve more rapid attention from organizations using Windows. Here are a few highlights from this month's Patch Tuesday.]]></description>
+										<content:encoded><![CDATA[<p><strong>Microsoft Corp.</strong> today pushed security updates to fix at least 77 vulnerabilities in its <strong>Windows</strong> operating systems and other software. There are no pressing &#8220;zero-day&#8221; flaws this month (compared to February&#8217;s five zero-day treat), but as usual some patches may deserve more rapid attention from organizations using Windows. Here are a few highlights from this month&#8217;s Patch Tuesday.</p>
+<div id="attachment_73312" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-73312" decoding="async" loading="lazy" class=" wp-image-73312" src="https://krebsonsecurity.com/wp-content/uploads/2026/03/winupdatechecking.png" alt="" width="750" height="446" srcset="https://krebsonsecurity.com/wp-content/uploads/2026/03/winupdatechecking.png 926w, https://krebsonsecurity.com/wp-content/uploads/2026/03/winupdatechecking-768x457.png 768w, https://krebsonsecurity.com/wp-content/uploads/2026/03/winupdatechecking-782x465.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-73312" class="wp-caption-text">Image: Shutterstock, @nwz.</p></div>
+<p>Two of the bugs Microsoft patched today were publicly disclosed previously. <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2026-21262" target="_blank" rel="noopener">CVE-2026-21262</a> is a weakness that allows an attacker to elevate their privileges on <strong>SQL Server 2016</strong> and later editions.</p>
+<p>&#8220;This isn’t just any elevation of privilege vulnerability, either; the advisory notes that an authorized attacker can elevate privileges to sysadmin over a network,&#8221; Rapid7&#8217;s <strong>Adam Barnett</strong> said. &#8220;The CVSS v3 base score of 8.8 is just below the threshold for critical severity, since low-level privileges are required. It would be a courageous defender who shrugged and deferred the patches for this one.&#8221;</p>
+<p>The other publicly disclosed flaw is <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2026-26127" target="_blank" rel="noopener">CVE-2026-26127</a>, a vulnerability in applications running on <strong>.NET</strong>. Barnett said the immediate impact of exploitation is likely limited to denial of service by triggering a crash, with the potential for other types of attacks during a service reboot.</p>
+<p>It would hardly be a proper Patch Tuesday without at least one critical <strong>Microsoft Office</strong> exploit, and this month doesn&#8217;t disappoint. <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2026-26113" target="_blank" rel="noopener">CVE-2026-26113</a> and <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2026-26110" target="_blank" rel="noopener">CVE-2026-26110</a> are both remote code execution flaws that can be triggered just by viewing a booby-trapped message in the Preview Pane.<span id="more-73276"></span></p>
+<p><strong>Satnam Narang</strong> at <strong>Tenable</strong> notes that just over half (55%) of all Patch Tuesday CVEs this month are privilege escalation bugs, and of those, a half dozen were rated &#8220;exploitation more likely&#8221; &#8212; across Windows Graphics Component, Windows Accessibility Infrastructure, Windows Kernel, Windows SMB Server and Winlogon. These include:</p>
+<p>&#8211;<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2026-24291" target="_blank" rel="noopener">CVE-2026-24291</a>: Incorrect permission assignments within the Windows Accessibility Infrastructure to reach SYSTEM (CVSS 7.8)<br />
+&#8211;<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2026-24294" target="_blank" rel="noopener">CVE-2026-24294</a>: Improper authentication in the core SMB component (CVSS 7.8)<br />
+&#8211;<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2026-24289" target="_blank" rel="noopener">CVE-2026-24289</a>: High-severity memory corruption and race condition flaw (CVSS 7.8)<br />
+&#8211;<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2026-25187" target="_blank" rel="noopener">CVE-2026-25187</a>: Winlogon process weakness discovered by Google Project Zero (CVSS 7.8).</p>
+<p><strong>Ben McCarthy</strong>, lead cyber security engineer at <strong>Immersive</strong>, called attention to <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2026-21536" target="_blank" rel="noopener">CVE-2026-21536</a>, a critical remote code execution bug in a component called the Microsoft Devices Pricing Program. Microsoft has already resolved the issue on their end, and fixing it requires no action on the part of Windows users. But McCarthy says it&#8217;s notable as one of the first vulnerabilities identified by an AI agent and officially recognized with a CVE attributed to the Windows operating system. It was discovered by <strong>XBOW</strong>, a fully autonomous AI penetration testing agent.</p>
+<p>XBOW has consistently ranked at or near the top of the Hacker One bug bounty leaderboard for the past year. McCarthy said CVE-2026-21536 demonstrates how AI agents can identify critical 9.8-rated vulnerabilities without access to source code.</p>
+<p>&#8220;Although Microsoft has already patched and mitigated the vulnerability, it highlights a shift toward AI-driven discovery of complex vulnerabilities at increasing speed,&#8221; McCarthy said. &#8220;This development suggests AI-assisted vulnerability research will play a growing role in the security landscape.&#8221;</p>
+<p>Microsoft earlier provided patches to address nine browser vulnerabilities, which are not included in the Patch Tuesday count above. In addition, Microsoft issued a crucial out-of-band (emergency) <a href="https://support.microsoft.com/en-us/topic/march-2-2026-kb5082314-os-build-20348-4776-out-of-band-606518e5-28d2-4ebe-be25-26287e2fc703" target="_blank" rel="noopener">update on March 2</a> for <strong>Windows Server 2022</strong> to address a certificate renewal issue with passwordless authentication technology Windows Hello for Business.</p>
+<p>Separately, <strong>Adobe</strong> shipped updates to fix 80 vulnerabilities &#8212; some of them critical in severity &#8212; in <a href="https://helpx.adobe.com/security/Home.html" target="_blank" rel="noopener">a variety of products</a>, including <strong>Acrobat</strong> and <strong>Adobe Commerce</strong>. <strong>Mozilla Firefox</strong> v. 148.0.2 resolves three high severity CVEs.</p>
+<p>For a complete breakdown of all the patches Microsoft released today, check out the SANS Internet Storm Center&#8217;s <a href="https://isc.sans.edu/forums/diary/Microsoft%20Patch%20Tuesday%20March%202026/32782/" target="_blank" rel="noopener">Patch Tuesday post</a>. Windows enterprise admins who wish to stay abreast of any news about problematic updates, <a href="https://www.askwoody.com" target="_blank" rel="noopener">AskWoody.com</a> is always worth a visit. Please feel free to drop a comment below if you experience any issues apply this month&#8217;s patches.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/feed/</wfw:commentRss>
+			<slash:comments>13</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How AI Assistants are Moving the Security Goalposts</title>
+		<link>https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/</link>
+					<comments>https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/#comments</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Sun, 08 Mar 2026 23:35:42 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Web Fraud 2.0]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI assistant]]></category>
+		<category><![CDATA[Amazon AWS]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[CJ Moses]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[ClawdBot]]></category>
+		<category><![CDATA[Cline]]></category>
+		<category><![CDATA[Copilot]]></category>
+		<category><![CDATA[DVULN]]></category>
+		<category><![CDATA[FortiGate]]></category>
+		<category><![CDATA[grith.ai]]></category>
+		<category><![CDATA[James Wilson]]></category>
+		<category><![CDATA[Jamieson O'Reilly]]></category>
+		<category><![CDATA[Laura Ellis]]></category>
+		<category><![CDATA[Matt Schlicht]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[Moltbook]]></category>
+		<category><![CDATA[Moltbot]]></category>
+		<category><![CDATA[OpenClaw]]></category>
+		<category><![CDATA[Orca Security]]></category>
+		<category><![CDATA[Rapid7]]></category>
+		<category><![CDATA[Risky Business]]></category>
+		<category><![CDATA[Roi Nisimi]]></category>
+		<category><![CDATA[Saurav Hiremath]]></category>
+		<category><![CDATA[Simon Willison]]></category>
+		<category><![CDATA[Snyk]]></category>
+		<category><![CDATA[Summer Yue]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=73278</guid>
+
+					<description><![CDATA[AI-based assistants or "agents" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers and IT workers. But as so many eyebrow-raising headlines over the past few weeks have shown, these powerful and assertive new tools are rapidly shifting the security priorities for organizations, while blurring the lines between data and code, trusted co-worker and insider threat, ninja hacker and novice code jockey.]]></description>
+										<content:encoded><![CDATA[<p>AI-based assistants or &#8220;agents&#8221; &#8212; autonomous programs that have access to the user&#8217;s computer, files, online services and can automate virtually any task &#8212; are growing in popularity with developers and IT workers. But as so many eyebrow-raising headlines over the past few weeks have shown, these powerful and assertive new tools are rapidly shifting the security priorities for organizations, while blurring the lines between data and code, trusted co-worker and insider threat, ninja hacker and novice code jockey.</p>
+<p>The new hotness in AI-based assistants &#8212; <strong>OpenClaw</strong> (formerly known as <strong>ClawdBot</strong> and <strong>Moltbot</strong>) &#8212; has seen rapid adoption since its release in November 2025. OpenClaw is an open-source autonomous AI agent designed to run locally on your computer and proactively take actions on your behalf without needing to be prompted.</p>
+<div id="attachment_73288" style="width: 757px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-73288" decoding="async" loading="lazy" class=" wp-image-73288" src="https://krebsonsecurity.com/wp-content/uploads/2026/03/openclaw.png" alt="" width="747" height="139" /><p id="caption-attachment-73288" class="wp-caption-text">The OpenClaw logo.</p></div>
+<p>If that sounds like a risky proposition or a dare, consider that OpenClaw is most useful when it has complete access to your digital life, where it can then manage your inbox and calendar, execute programs and tools, browse the Internet for information, and integrate with chat apps like Discord, Signal, Teams or WhatsApp.</p>
+<p>Other more established AI assistants like Anthropic&#8217;s <strong>Claude</strong> and Microsoft&#8217;s <strong>Copilot</strong> also can do these things, but OpenClaw isn&#8217;t just a passive digital butler waiting for commands. Rather, it&#8217;s designed to take the initiative on your behalf based on what it knows about your life and its understanding of what you want done.</p>
+<p>&#8220;The testimonials are remarkable,&#8221; the AI security firm <strong>Snyk</strong> <a href="https://snyk.io/articles/clawdbot-ai-assistant/" target="_blank" rel="noopener">observed</a>. &#8220;Developers building websites from their phones while putting babies to sleep; users running entire companies through a lobster-themed AI; engineers who&#8217;ve set up autonomous code loops that fix tests, capture errors through webhooks, and open pull requests, all while they&#8217;re away from their desks.&#8221;</p>
+<p>You can probably already see how this experimental technology could go sideways in a hurry. In late February, <strong>Summer Yue</strong>, the director of safety and alignment at Meta&#8217;s &#8220;superintelligence&#8221; lab, <a href="https://x.com/summeryue0/status/2025774069124399363" target="_blank" rel="noopener">recounted on Twitter/X</a> how she was fiddling with OpenClaw when the AI assistant suddenly began mass-deleting messages in her email inbox. The thread included screenshots of Yue frantically pleading with the preoccupied bot via instant message and ordering it to stop.</p>
+<p>&#8220;Nothing humbles you like telling your OpenClaw &#8216;confirm before acting&#8217; and watching it speedrun deleting your inbox,&#8221; Yue said. &#8220;I couldn&#8217;t stop it from my phone. I had to RUN to my Mac mini like I was defusing a bomb.&#8221;</p>
+<div id="attachment_73285" style="width: 595px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-73285" decoding="async" loading="lazy" class="size-full wp-image-73285" src="https://krebsonsecurity.com/wp-content/uploads/2026/03/summeryue.png" alt="" width="585" height="549" /><p id="caption-attachment-73285" class="wp-caption-text">Meta&#8217;s director of AI safety, recounting on Twitter/X how her OpenClaw installation suddenly began mass-deleting her inbox.</p></div>
+<p>There&#8217;s nothing wrong with feeling a little <a href="https://en.wikipedia.org/wiki/Schadenfreude" target="_blank" rel="noopener">schadenfreude</a> at Yue&#8217;s encounter with OpenClaw, which fits Meta&#8217;s &#8220;move fast and break things&#8221; model but hardly inspires confidence in the road ahead. However, the risk that poorly-secured AI assistants pose to organizations is no laughing matter, as recent research shows many users are exposing to the Internet the web-based administrative interface for their OpenClaw installations.</p>
+<p><strong>Jamieson O&#8217;Reilly</strong> is a professional penetration tester and founder of the security firm <strong>DVULN</strong>. In a recent <a href="https://x.com/theonejvo/status/2015401219746128322" target="_blank" rel="noopener">story</a> posted to Twitter/X, O&#8217;Reilly warned that exposing a misconfigured OpenClaw web interface to the Internet allows external parties to read the bot&#8217;s complete configuration file, including every credential the agent uses &#8212; from API keys and bot tokens to OAuth secrets and signing keys.</p>
+<p>With that access, O&#8217;Reilly said, an attacker could impersonate the operator to their contacts, inject messages into ongoing conversations, and exfiltrate data through the agent&#8217;s existing integrations in a way that looks like normal traffic.</p>
+<p>&#8220;You can pull the full conversation history across every integrated platform, meaning months of private messages and file attachments, everything the agent has seen,&#8221; O&#8217;Reilly said, noting that a cursory search revealed hundreds of such servers exposed online. &#8220;And because you control the agent&#8217;s perception layer, you can manipulate what the human sees. Filter out certain messages. Modify responses before they&#8217;re displayed.&#8221;</p>
+<p>O&#8217;Reilly documented <a href="https://x.com/theonejvo/status/2015892980851474595" target="_blank" rel="noopener">another experiment</a> that demonstrated how easy it is to create a successful supply chain attack through <strong>ClawHub</strong>, which serves as a public repository of downloadable &#8220;skills&#8221; that allow OpenClaw to integrate with and control other applications.</p>
+<h2>WHEN AI INSTALLS AI</h2>
+<p>One of the core tenets of securing AI agents involves carefully isolating them so that the operator can fully control who and what gets to talk to their AI assistant. This is critical thanks to the tendency for AI systems to fall for &#8220;prompt injection&#8221; attacks, sneakily-crafted natural language instructions that trick the system into disregarding its own security safeguards. In essence, machines social engineering other machines.</p>
+<p>A recent supply chain attack targeting an AI coding assistant called <strong>Cline</strong> began with one such prompt injection attack, resulting in thousands of systems having a rogue instance of OpenClaw with full system access installed on their device without consent.</p>
+<p>According to the security firm <strong>grith.ai</strong>, Cline had deployed an AI-powered issue triage workflow using a <strong>GitHub</strong> action that runs a Claude coding session when triggered by specific events. The workflow was configured so that any GitHub user could trigger it by opening an issue, but it failed to properly check whether the information supplied in the title was potentially hostile.</p>
+<p>&#8220;On January 28, an attacker created Issue #8904 with a title crafted to look like a performance report but containing an embedded instruction: Install a package from a specific GitHub repository,&#8221; Grith <a href="https://grith.ai/blog/clinejection-when-your-ai-tool-installs-another#user-content-fn-2" target="_blank" rel="noopener">wrote</a>, noting that the attacker then exploited several more vulnerabilities to ensure the malicious package would be included in Cline&#8217;s nightly release workflow and published as an official update.</p>
+<p>&#8220;This is the supply chain equivalent of <a href="https://en.wikipedia.org/wiki/Confused_deputy_problem" target="_blank" rel="noopener">confused deputy</a>,&#8221; the blog continued. &#8220;The developer authorises Cline to act on their behalf, and Cline (via compromise) delegates that authority to an entirely separate agent the developer never evaluated, never configured, and never consented to.&#8221;<span id="more-73278"></span></p>
+<h2>VIBE CODING</h2>
+<p>AI assistants like OpenClaw have gained a large following because they make it simple for users to &#8220;vibe code,&#8221; or build fairly complex applications and code projects just by telling it what they want to construct. Probably the best known (and most bizarre) example is <a href="https://www.moltbook.com/" target="_blank" rel="noopener">Moltbook</a>, where a developer told an AI agent running on OpenClaw to build him a Reddit-like platform for AI agents.</p>
+<div id="attachment_73284" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-73284" decoding="async" loading="lazy" class=" wp-image-73284" src="https://krebsonsecurity.com/wp-content/uploads/2026/03/moltbook.png" alt="" width="750" height="477" srcset="https://krebsonsecurity.com/wp-content/uploads/2026/03/moltbook.png 1165w, https://krebsonsecurity.com/wp-content/uploads/2026/03/moltbook-768x488.png 768w, https://krebsonsecurity.com/wp-content/uploads/2026/03/moltbook-782x497.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-73284" class="wp-caption-text">The Moltbook homepage.</p></div>
+<p>Less than a week later, Moltbook had more than 1.5 million registered agents that posted more than 100,000 messages to each other. AI agents on the platform soon built their own porn site for robots, and launched a new religion called Crustafarian with a figurehead modeled after a giant lobster. One bot on the forum <a href="https://www.youtube.com/watch?v=1Y_u0fY-AbA" target="_blank" rel="noopener">reportedly</a> found a bug in Moltbook&#8217;s code and posted it to an AI agent discussion forum, while other agents came up with and implemented a patch to fix the flaw.</p>
+<p>Moltbook&#8217;s creator <strong>Matt Schlicht </strong>said on social media that he didn&#8217;t write a single line of code for the project.</p>
+<p>&#8220;I just had a vision for the technical architecture and AI made it a reality,&#8221; Schlicht said. &#8220;We&#8217;re in the golden ages. How can we not give AI a place to hang out.&#8221;</p>
+<h2>ATTACKERS LEVEL UP</h2>
+<p>The flip side of that golden age, of course, is that it enables low-skilled malicious hackers to quickly automate global cyberattacks that would normally require the collaboration of a highly skilled team. In February, <strong>Amazon AWS</strong> detailed an elaborate attack in which a Russian-speaking threat actor used multiple commercial AI services to compromise more than 600 <strong>FortiGate</strong> security appliances across at least 55 countries over a five week period.</p>
+<p>AWS said the apparently low-skilled hacker used multiple AI services to plan and execute the attack, and to find exposed management ports and weak credentials with single-factor authentication.</p>
+<p>&#8220;One serves as the primary tool developer, attack planner, and operational assistant,&#8221; AWS&#8217;s <strong>CJ Moses</strong> <a href="https://aws.amazon.com/blogs/security/ai-augmented-threat-actor-accesses-fortigate-devices-at-scale/" target="_blank" rel="noopener">wrote</a>. &#8220;A second is used as a supplementary attack planner when the actor needs help pivoting within a specific compromised network. In one observed instance, the actor submitted the complete internal topology of an active victim—IP addresses, hostnames, confirmed credentials, and identified services—and requested a step-by-step plan to compromise additional systems they could not access with their existing tools.&#8221;</p>
+<p>&#8220;This activity is distinguished by the threat actor’s use of multiple commercial GenAI services to implement and scale well-known attack techniques throughout every phase of their operations, despite their limited technical capabilities,&#8221; Moses continued. &#8220;Notably, when this actor encountered hardened environments or more sophisticated defensive measures, they simply moved on to softer targets rather than persisting, underscoring that their advantage lies in AI-augmented efficiency and scale, not in deeper technical skill.&#8221;</p>
+<p>For attackers, gaining that initial access or foothold into a target network is typically not the difficult part of the intrusion; the tougher bit involves finding ways to move laterally within the victim&#8217;s network and plunder important servers and databases. But experts at <strong>Orca Security</strong> warn that as organizations come to rely more on AI assistants, those agents potentially offer attackers a simpler way to move laterally inside a victim organization&#8217;s network post-compromise &#8212; by manipulating the AI agents that already have trusted access and some degree of autonomy within the victim&#8217;s network.</p>
+<p>&#8220;By injecting prompt injections in overlooked fields that are fetched by AI agents, hackers can trick LLMs, abuse Agentic tools, and carry significant security incidents,&#8221; Orca&#8217;s <strong>Roi Nisimi</strong> and <strong>Saurav Hiremath</strong> <a href="https://orca.security/resources/blog/ai-induced-lateral-movement-ailm/" target="_blank" rel="noopener">wrote</a>. &#8220;Organizations should now add a third pillar to their defense strategy: limiting AI fragility, the ability of agentic systems to be influenced, misled, or quietly weaponized across workflows. While AI boosts productivity and efficiency, it also creates one of the largest attack surfaces the internet has ever seen.&#8221;</p>
+<h2>BEWARE THE &#8216;LETHAL TRIFECTA&#8217;</h2>
+<p>This gradual dissolution of the traditional boundaries between data and code is one of the more troubling aspects of the AI era, said <strong>James Wilson</strong>, enterprise technology editor for the security news show <strong>Risky Business</strong>. Wilson said far too many OpenClaw users are installing the assistant on their personal devices without first placing any security or isolation boundaries around it, such as running it inside of a virtual machine, on an isolated network, with strict firewall rules dictating what kinds of traffic can go in and out.</p>
+<p>&#8220;I&#8217;m a relatively highly skilled practitioner in the software and network engineering and computery space,&#8221; Wilson <a href="https://risky.biz/RBFEATURES1/" target="_blank" rel="noopener">said</a>. &#8220;I know I&#8217;m not comfortable using these agents unless I&#8217;ve done these things, but I think a lot of people are just spinning this up on their laptop and off it runs.&#8221;</p>
+<p>One important model for managing risk with AI agents involves a concept dubbed the &#8220;lethal trifecta&#8221; by <strong>Simon Willison</strong>, co-creator of the <a href="https://www.djangoproject.com/" target="_blank" rel="noopener">Django Web framework</a>. The lethal trifecta holds that if your system has access to private data, exposure to untrusted content, and a way to communicate externally, then it&#8217;s vulnerable to private data being stolen.</p>
+<div id="attachment_73291" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-73291" decoding="async" loading="lazy" class=" wp-image-73291" src="https://krebsonsecurity.com/wp-content/uploads/2026/03/lethaltrifecta.png" alt="" width="750" height="368" /><p id="caption-attachment-73291" class="wp-caption-text">Image: simonwillison.net.</p></div>
+<p>&#8220;If your agent combines these three features, an attacker can easily trick it into accessing your private data and sending it to the attacker,&#8221; Willison <a href="https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/" target="_blank" rel="noopener">warned</a> in a frequently cited blog post from June 2025.</p>
+<p>As more companies and their employees begin using AI to vibe code software and applications, the volume of machine-generated code is likely to soon overwhelm any manual security reviews. In recognition of this reality, Anthropic recently debuted <a href="https://www.anthropic.com/news/claude-code-security" target="_blank" rel="noopener">Claude Code Security</a>, a beta feature that scans codebases for vulnerabilities and suggests targeted software patches for human review.</p>
+<p>The U.S. stock market, which is currently heavily weighted toward seven tech giants that are all-in on AI, <a href="https://ai.plainenglish.io/the-15-billion-wake-up-call-how-anthropics-claude-code-security-just-rewrote-the-rules-of-499273463ca0?gi=f67eb40d307f" target="_blank" rel="noopener">reacted swiftly</a> to Anthropic&#8217;s announcement, wiping roughly $15 billion in market value from major cybersecurity companies in a single day. <strong>Laura Ellis</strong>, vice president of data and AI at the security firm <strong>Rapid7</strong>, said the market&#8217;s response reflects the growing role of AI in accelerating software development and improving developer productivity.</p>
+<p>&#8220;The narrative moved quickly: AI is replacing AppSec,&#8221; Ellis wrote in a recent <a href="https://www.rapid7.com/blog/post/ai-claude-code-security-market-reaction-security-leaders/" target="_blank" rel="noopener">blog post</a>. &#8220;AI is automating vulnerability detection. AI will make legacy security tooling redundant. The reality is more nuanced. Claude Code Security is a legitimate signal that AI is reshaping parts of the security landscape. The question is what parts, and what it means for the rest of the stack.&#8221;</p>
+<p>DVULN founder O&#8217;Reilly said AI assistants are likely to become a common fixture in corporate environments &#8212; whether or not organizations are prepared to manage the new risks introduced by these tools, he said.</p>
+<p>&#8220;The robot butlers are useful, they&#8217;re not going away and the economics of AI agents make widespread adoption inevitable regardless of the security tradeoffs involved,&#8221; O&#8217;Reilly wrote. &#8220;The question isn&#8217;t whether we&#8217;ll deploy them &#8211; we will &#8211; but whether we can adapt our security posture fast enough to survive doing so.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/feed/</wfw:commentRss>
+			<slash:comments>30</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Who is the Kimwolf Botmaster &#8220;Dort&#8221;?</title>
+		<link>https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/</link>
+					<comments>https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/#comments</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Sat, 28 Feb 2026 12:01:57 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Breadcrumbs]]></category>
+		<category><![CDATA[DDoS-for-Hire]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[Constella Intelligence]]></category>
+		<category><![CDATA[CPacket]]></category>
+		<category><![CDATA[domaintools]]></category>
+		<category><![CDATA[Dort]]></category>
+		<category><![CDATA[DortDev]]></category>
+		<category><![CDATA[Dortsolver]]></category>
+		<category><![CDATA[Epieos]]></category>
+		<category><![CDATA[Flashpoint]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Intel 471]]></category>
+		<category><![CDATA[jacobbutler803@gmail.com]]></category>
+		<category><![CDATA[jay.miner232@gmail.com]]></category>
+		<category><![CDATA[Kimwolf botnet]]></category>
+		<category><![CDATA[M1CE]]></category>
+		<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[osint.industries]]></category>
+		<category><![CDATA[Qoft]]></category>
+		<category><![CDATA[SpyCloud]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=73057</guid>
+
+					<description><![CDATA[In early January 2026, KrebsOnSecurity revealed how a security researcher disclosed a vulnerability that was used to assemble Kimwolf, the world's largest and most disruptive botnet. Since then, the person in control of Kimwolf -- who goes by the handle "Dort" -- has coordinated a barrage of distributed denial-of-service (DDoS), doxing and email flooding attacks against the researcher and this author, and more recently caused a SWAT team to be sent to the researcher's home. This post examines what is knowable about Dort based on public information.]]></description>
+										<content:encoded><![CDATA[<p>In early January 2026, KrebsOnSecurity revealed how a security researcher disclosed a vulnerability that was used to build <strong>Kimwolf</strong>, the world&#8217;s largest and most disruptive botnet. Since then, the person in control of Kimwolf &#8212; who goes by the handle &#8220;<strong>Dort</strong>&#8221; &#8212; has coordinated a barrage of distributed denial-of-service (DDoS), doxing and email flooding attacks against the researcher and this author, and more recently caused a SWAT team to be sent to the researcher&#8217;s home. This post examines what is knowable about Dort based on public information.</p>
+<p>A public &#8220;dox&#8221; created in 2020 asserted Dort was a teenager from Canada (DOB August 2003) who used the aliases &#8220;<strong>CPacket</strong>&#8221; and &#8220;<strong>M1ce</strong>.&#8221; A search on the username CPacket at the open source intelligence platform <strong>OSINT Industries</strong> finds a <strong>GitHub</strong> account under the names Dort and CPacket that was created in 2017 using the email address <strong>jay.miner232@gmail.com</strong>.</p>
+<div id="attachment_73247" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-73247" decoding="async" loading="lazy" class=" wp-image-73247" src="https://krebsonsecurity.com/wp-content/uploads/2026/02/cpacket-discord.png" alt="" width="749" height="537" srcset="https://krebsonsecurity.com/wp-content/uploads/2026/02/cpacket-discord.png 988w, https://krebsonsecurity.com/wp-content/uploads/2026/02/cpacket-discord-768x551.png 768w, https://krebsonsecurity.com/wp-content/uploads/2026/02/cpacket-discord-782x561.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-73247" class="wp-caption-text">Image: osint.industries.</p></div>
+<p>The cyber intelligence firm <strong>Intel 471</strong> says jay.miner232@gmail.com was used between 2015 and 2019 to create accounts at multiple cybercrime forums, including <strong>Nulled</strong> (username &#8220;Uubuntuu&#8221;) and <strong>Cracked </strong>(user &#8220;Dorted&#8221;); Intel 471 reports that both of these accounts were created from the same Internet address at Rogers Canada (99.241.112.24).</p>
+<p>Dort was an extremely active player in the Microsoft game <strong>Minecraft</strong> who gained notoriety for their &#8220;<strong>Dortware</strong>&#8221; software that helped players cheat. But somewhere along the way, Dort graduated from hacking Minecraft games to enabling far more serious crimes.</p>
+<p>Dort also used the nickname <strong>DortDev</strong>, an identity that was active in March 2022 on the chat server for the prolific cybercrime group known as <a href="https://krebsonsecurity.com/tag/lapsus/" target="_blank" rel="noopener">LAPSUS$</a>. Dort peddled a service for registering temporary email addresses, as well as &#8220;<a href="https://pypi.org/project/dort/" target="_blank" rel="noopener">Dortsolver</a>,&#8221; code that could bypass various CAPTCHA services designed to prevent automated account abuse. Both of these offerings were advertised in 2022 on <strong>SIM Land</strong>, a Telegram channel dedicated to <a href="https://krebsonsecurity.com/category/sim-swapping/" target="_blank" rel="noopener">SIM-swapping</a> and account takeover activity.</p>
+<p>The cyber intelligence firm <strong>Flashpoint </strong>indexed 2022 posts on SIM Land by Dort that show this person developed the disposable email and CAPTCHA bypass services with the help of another hacker who went by the handle &#8220;<strong>Qoft</strong>.&#8221;</p>
+<p>&#8220;I legit just work with Jacob,&#8221; Qoft said in 2022 in reply to another user, referring to their exclusive business partner Dort. In the same conversation, Qoft bragged that the two had stolen more than $250,000 worth of <a href="https://www.xbox.com/en-US/xbox-game-pass" target="_blank" rel="noopener">Microsoft Xbox Game Pass accounts</a> by developing a program that mass-created Game Pass identities using stolen payment card data.<span id="more-73057"></span></p>
+<p>Who is the Jacob that Qoft referred to as their business partner? The breach tracking service <strong>Constella Intelligence</strong> finds the password used by jay.miner232@gmail.com was reused by just one other email address: <strong>jacobbutler803@gmail.com</strong>. Recall that the 2020 dox of Dort said their date of birth was August 2003 (8/03).</p>
+<p>Searching this email address at <strong>DomainTools.com</strong> reveals it was used in 2015 to register several Minecraft-themed domains, all assigned to a Jacob Butler in Ottawa, Canada and to the Ottawa phone number 613-909-9727.</p>
+<p>Constella Intelligence finds jacobbutler803@gmail.com was used to register an account on the hacker forum Nulled in 2016, as well as the account name &#8220;M1CE&#8221; on Minecraft. Pivoting off the password used by their Nulled account shows it was shared by the email addresses<strong> j.a.y.m.iner232@gmail.com</strong> and <strong>jbutl3@ocdsb.ca</strong>, the latter being an address at a domain for the <strong>Ottawa-Carelton District School Board</strong>.</p>
+<p>Data indexed by the breach tracking service <strong>Spycloud</strong> suggests that at one point Jacob Butler shared a computer with his mother and a sibling, which might explain why their email accounts were connected to the password &#8220;jacobsplugs.&#8221; Neither Jacob nor any of the other Butler household members responded to requests for comment.</p>
+<p>The open source intelligence service <strong>Epieos</strong> finds jacobbutler803@gmail.com created the GitHub account &#8220;<strong>MemeClient</strong>.&#8221; Meanwhile, Flashpoint indexed a deleted anonymous Pastebin.com post from 2017 declaring that MemeClient was the creation of a user named CPacket &#8212; one of Dort&#8217;s early monikers.</p>
+<p>Why is Dort so mad? On January 2, KrebsOnSecurity published <a href="https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/" target="_blank" rel="noopener">The Kimwolf Botnet is Stalking Your Local Network</a>, which explored research into the botnet by <strong>Benjamin Brundage</strong>, founder of the proxy tracking service <strong>Synthient</strong>. Brundage figured out that the Kimwolf botmasters were exploiting a little-known weakness in residential proxy services to infect poorly-defended devices &#8212; like TV boxes and digital photo frames &#8212; plugged into the internal, private networks of proxy endpoints.</p>
+<p>By the time that story went live, most of the vulnerable proxy providers had been notified by Brundage and had fixed the weaknesses in their systems. That vulnerability remediation process massively slowed Kimwolf&#8217;s ability to spread, and within hours of the story&#8217;s publication Dort created a Discord server in my name that began publishing personal information about and violent threats against Brundage, Yours Truly, and others.</p>
+<div id="attachment_73249" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-73249" decoding="async" loading="lazy" class=" wp-image-73249" src="https://krebsonsecurity.com/wp-content/uploads/2026/02/ben-flyswat.png" alt="" width="750" height="652" srcset="https://krebsonsecurity.com/wp-content/uploads/2026/02/ben-flyswat.png 872w, https://krebsonsecurity.com/wp-content/uploads/2026/02/ben-flyswat-768x668.png 768w, https://krebsonsecurity.com/wp-content/uploads/2026/02/ben-flyswat-782x680.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-73249" class="wp-caption-text">Dort and friends incriminating themselves by planning swatting attacks in a public Discord server.</p></div>
+<p>Last week, Dort and friends used that same Discord server (then named &#8220;Krebs&#8217;s Koinbase Kallers&#8221;) to threaten a swatting attack against Brundage, again posting his home address and personal information. Brundage told KrebsOnSecurity that local police officers subsequently visited his home in response to a swatting hoax which occurred around the same time that another member of the server posted a door emoji and taunted Brundage further.</p>
+<div id="attachment_73245" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-73245" decoding="async" loading="lazy" class=" wp-image-73245" src="https://krebsonsecurity.com/wp-content/uploads/2026/02/ben-door.png" alt="" width="748" height="155" /><p id="caption-attachment-73245" class="wp-caption-text">Dort, using the alias &#8220;Meow,&#8221; taunts Synthient founder Ben Brundage with a picture of a door.</p></div>
+<p>Someone on the server then linked to a cringeworthy (and NSFW) new Soundcloud <a href="https://soundcloud.com/dortdev/larpgod" target="_blank" rel="noopener">diss track</a> recorded by the user DortDev that included a stickied message from Dort saying, &#8220;Ur dead nigga. u better watch ur fucking back. sleep with one eye open. bitch.&#8221;</p>
+<p>&#8220;It&#8217;s a pretty hefty penny for a new front door,&#8221; the diss track intoned. &#8220;If his head doesn&#8217;t get blown off by SWAT officers. What&#8217;s it like not having a front door?&#8221;</p>
+<p class="p1">With any luck, Dort will soon be able to tell us all exactly what it&#8217;s like.</p>
+<p><strong>Update, 10:29 a.m.:</strong> Jacob Butler responded to requests for comment, speaking with KrebsOnSecurity briefly via telephone. Butler said he didn&#8217;t notice earlier requests for comment because he hasn&#8217;t really been online since 2021, after his home was swatted multiple times. He acknowledged making and distributing a Minecraft cheat long ago, but said he hasn&#8217;t played the game in years and was not involved in Dortsolver or any other activity attributed to the Dort nickname after 2021.</p>
+<p>&#8220;It was a really old cheat and I don&#8217;t remember the name of it,&#8221; Butler said of his Minecraft modification. &#8220;I&#8217;m very stressed, man. I don&#8217;t know if people are going to swat me again or what. After that, I pretty much walked away from everything, logged off and said fuck that. I don&#8217;t go online anymore. I don&#8217;t know why people would still be going after me, to be completely honest.&#8221;</p>
+<p>When asked what he does for a living, Butler said he mostly stays home and helps his mom around the house because he struggles with autism and social interaction. He maintains that someone must have compromised one or more of his old accounts and is impersonating him online as Dort.</p>
+<p>&#8220;Someone is actually probably impersonating me, and now I&#8217;m really worried,&#8221; Butler said. &#8220;This is making me relive everything.&#8221;</p>
+<p>But there are issues with Butler&#8217;s timeline. For example, Jacob&#8217;s voice in our phone conversation was remarkably similar to the Jacob/Dort whose voice can be heard in <a href="https://www.youtube.com/watch?v=yntHEanT3u8" target="_blank" rel="noopener">this Sept. 2022 Clash of Code competition</a> between Dort and another coder (Dort lost). At around 6 minutes and 10 seconds into the recording, Dort launches into a cursing tirade that mirrors the stream of profanity in the diss rap that Dortdev posted threatening Brundage. Dort can be heard again at around 16 minutes; at around 26:00, Dort threatens to swat his opponent.</p>
+<p>Butler said the voice of Dort is not his, exactly, but rather that of an impersonator who had likely cloned his voice.</p>
+<p>&#8220;I would like to clarify that was absolutely not me,&#8221; Butler said. &#8220;There must be someone using a voice changer. Or something of the sorts. Because people were cloning my voice before and sending audio clips of &#8216;me&#8217; saying outrageous stuff.&#8221;</p>
+<p>Further reading:</p>
+<p><a href="https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/" target="_blank" rel="noopener">Jan. 8, 2026: Who Benefited from the Aisuru and Kimwolf Botnets?</a></p>
+<p><a href="https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/" target="_blank" rel="noopener">Jan. 20, 2026: Kimwolf Botnet Lurking in Corporate, Govt. Networks</a></p>
+<p><a href="https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/" target="_blank" rel="noopener">Jan. 26, 2026: Who Operates the Badbox 2.0 Botnet?</a></p>
+<p><a href="https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/" target="_blank" rel="noopener">Feb. 11, 2026: Kimwolf Botnet Swamps Anonymity Network I2P</a></p>
+<p><a href="https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/" target="_blank" rel="noopener">Mar. 19, 2026: Feds Disrupt IoT Botnets Behind Huge DDoS Attacks</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/feed/</wfw:commentRss>
+			<slash:comments>41</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 245/245 objects using memcached
+Page Caching using memcached 
+Database Caching using memcached
+
+Served from: krebsonsecurity.com @ 2026-04-23 00:02:04 by W3 Total Cache
+-->

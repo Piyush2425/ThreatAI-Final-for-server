@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>be4sec</title>
+	<atom:link href="https://be4sec.wordpress.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://be4sec.wordpress.com</link>
+	<description>An Information Security Blog</description>
+	<lastBuildDate>Thu, 03 Jul 2025 06:15:40 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+
+<image>
+	<url>https://be4sec.wordpress.com/wp-content/uploads/2020/11/cropped-be4logo.png?w=32</url>
+	<title>be4sec</title>
+	<link>https://be4sec.wordpress.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">185877848</site><cloud domain='be4sec.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<atom:link rel="search" type="application/opensearchdescription+xml" href="https://be4sec.wordpress.com/osd.xml" title="be4sec" />
+	<atom:link rel='hub' href='https://be4sec.wordpress.com/?pushpress=hub'/>
+	<item>
+		<title>How Do Threat Actors Use AppInit_DLLs?</title>
+		<link>https://be4sec.wordpress.com/2025/07/03/how-do-threat-actors-use-appinit_dlls/</link>
+					<comments>https://be4sec.wordpress.com/2025/07/03/how-do-threat-actors-use-appinit_dlls/#respond</comments>
+		
+		<dc:creator><![CDATA[be4sec]]></dc:creator>
+		<pubDate>Thu, 03 Jul 2025 06:15:40 +0000</pubDate>
+				<category><![CDATA[BlueTeam]]></category>
+		<category><![CDATA[AppInit_DLL]]></category>
+		<category><![CDATA[DLL]]></category>
+		<category><![CDATA[DLP]]></category>
+		<category><![CDATA[Persistence]]></category>
+		<category><![CDATA[Privilege Escalation]]></category>
+		<guid isPermaLink="false">http://be4sec.com/?p=6712</guid>
+
+					<description><![CDATA[&#8220;AppInit_DLLs&#8221; is a powerful, yet often overlooked, mechanism in Windows that attackers frequently exploit for persistence, privilege escalation, and code injection. This technique allows adversaries to load their malicious Dynamic Link Libraries (DLLs) into nearly every process that loads user32.dll, which is most user-mode applications. Here&#8217;s a breakdown of how attackers leverage AppInit_DLLs: Understanding AppInit_DLLs [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://be4sec.wordpress.com/2025/07/03/how-do-threat-actors-use-appinit_dlls/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">6712</post-id>
+		<media:thumbnail url="https://be4sec.wordpress.com/wp-content/uploads/2025/02/37f84-htasibt001.jpeg" />
+		<media:content url="https://be4sec.wordpress.com/wp-content/uploads/2025/02/37f84-htasibt001.jpeg" medium="image">
+			<media:title type="html">htasibt001</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/707fdd73f19cd3851cc369d2c6186ec2c76849d8a04ac99c9596c65fc6654a59?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">be4sec</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Threats to the Gaming Industry</title>
+		<link>https://be4sec.wordpress.com/2025/07/02/threats-to-the-gaming-industry/</link>
+					<comments>https://be4sec.wordpress.com/2025/07/02/threats-to-the-gaming-industry/#respond</comments>
+		
+		<dc:creator><![CDATA[be4sec]]></dc:creator>
+		<pubDate>Wed, 02 Jul 2025 10:50:04 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Credential Dump]]></category>
+		<category><![CDATA[KSA]]></category>
+		<category><![CDATA[phpMyAdmin]]></category>
+		<category><![CDATA[PII]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Saudi]]></category>
+		<guid isPermaLink="false">http://be4sec.com/?p=6708</guid>
+
+					<description><![CDATA[The digital battleground extends far beyond virtual realms, directly impacting the thriving global gaming industry. In 2025, game developers, publishers, and even individual players find themselves increasingly under siege by sophisticated cyber threats, ranging from data breaches and ransomware to advanced cheating mechanisms and targeted intellectual property theft. The sheer volume of sensitive player data, [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://be4sec.wordpress.com/2025/07/02/threats-to-the-gaming-industry/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">6708</post-id>
+		<media:thumbnail url="https://be4sec.wordpress.com/wp-content/uploads/2025/07/tttgi001.png" />
+		<media:content url="https://be4sec.wordpress.com/wp-content/uploads/2025/07/tttgi001.png" medium="image">
+			<media:title type="html">tttgi001</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/707fdd73f19cd3851cc369d2c6186ec2c76849d8a04ac99c9596c65fc6654a59?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">be4sec</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Monthly Cloud Security Report</title>
+		<link>https://be4sec.wordpress.com/2025/07/01/monthly-cloud-security-report/</link>
+					<comments>https://be4sec.wordpress.com/2025/07/01/monthly-cloud-security-report/#respond</comments>
+		
+		<dc:creator><![CDATA[be4sec]]></dc:creator>
+		<pubDate>Tue, 01 Jul 2025 19:50:57 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[AWS]]></category>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[DragonForce/Scattered]]></category>
+		<category><![CDATA[IAM]]></category>
+		<category><![CDATA[Ivanti]]></category>
+		<category><![CDATA[Misconfiguration]]></category>
+		<category><![CDATA[Samsung]]></category>
+		<category><![CDATA[UK]]></category>
+		<guid isPermaLink="false">http://be4sec.com/?p=6705</guid>
+
+					<description><![CDATA[Executive Summary May 2025 proved to be a challenging month for cloud security, marked by a significant increase in sophisticated cyberattacks impacting various sectors, including finance, retail, healthcare, and technology. These incidents consistently highlighted persistent vulnerabilities such as third-party compromises, pervasive misconfigurations, and the growing threat of ransomware and zero-day exploits. This report summarizes key [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://be4sec.wordpress.com/2025/07/01/monthly-cloud-security-report/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">6705</post-id>
+		<media:thumbnail url="https://be4sec.wordpress.com/wp-content/uploads/2021/09/socc002.png" />
+		<media:content url="https://be4sec.wordpress.com/wp-content/uploads/2021/09/socc002.png" medium="image">
+			<media:title type="html">socc002</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/707fdd73f19cd3851cc369d2c6186ec2c76849d8a04ac99c9596c65fc6654a59?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">be4sec</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Cyberespionage Campaign Targets Iraqi and Kurdish Officials with Sophisticated Malware</title>
+		<link>https://be4sec.wordpress.com/2025/06/06/cyberespionage-campaign-targets-iraqi-and-kurdish-officials-with-sophisticated-malware/</link>
+					<comments>https://be4sec.wordpress.com/2025/06/06/cyberespionage-campaign-targets-iraqi-and-kurdish-officials-with-sophisticated-malware/#respond</comments>
+		
+		<dc:creator><![CDATA[be4sec]]></dc:creator>
+		<pubDate>Fri, 06 Jun 2025 13:00:56 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[BladedFeline]]></category>
+		<category><![CDATA[Cyberespionage]]></category>
+		<category><![CDATA[Eset]]></category>
+		<category><![CDATA[IIS]]></category>
+		<category><![CDATA[Iran]]></category>
+		<category><![CDATA[Iraq]]></category>
+		<guid isPermaLink="false">http://be4sec.com/?p=6700</guid>
+
+					<description><![CDATA[A sophisticated cyberespionage campaign, dubbed &#8220;BladedFeline&#8221; by security researchers at ESET, has been uncovered targeting high-ranking Iraqi and Kurdish officials. The operation leverages a trio of malicious tools – Whisper, PrimeCache, and a previously identified backdoor known as Shahmaran – to gain and maintain unauthorized access to the officials&#8217; computer systems, primarily through compromised webmail [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://be4sec.wordpress.com/2025/06/06/cyberespionage-campaign-targets-iraqi-and-kurdish-officials-with-sophisticated-malware/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">6700</post-id>
+		<media:thumbnail url="https://be4sec.wordpress.com/wp-content/uploads/2025/06/cectikg001.png" />
+		<media:content url="https://be4sec.wordpress.com/wp-content/uploads/2025/06/cectikg001.png" medium="image">
+			<media:title type="html">cectikg001</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/707fdd73f19cd3851cc369d2c6186ec2c76849d8a04ac99c9596c65fc6654a59?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">be4sec</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Quantum Leap in Computing Threatens Current Encryption Standards</title>
+		<link>https://be4sec.wordpress.com/2025/06/06/quantum-leap-in-computing-threatens-current-encryption-standards/</link>
+					<comments>https://be4sec.wordpress.com/2025/06/06/quantum-leap-in-computing-threatens-current-encryption-standards/#respond</comments>
+		
+		<dc:creator><![CDATA[be4sec]]></dc:creator>
+		<pubDate>Fri, 06 Jun 2025 11:21:59 +0000</pubDate>
+				<category><![CDATA[Architectural]]></category>
+		<category><![CDATA[Encryption]]></category>
+		<category><![CDATA[Quantum Computing]]></category>
+		<category><![CDATA[Threat]]></category>
+		<guid isPermaLink="false">http://be4sec.com/?p=6692</guid>
+
+					<description><![CDATA[The burgeoning field of quantum computing, while promising revolutionary advancements in various sectors, presents a significant and looming threat to current cybersecurity practices, particularly in the realm of encryption. Experts warn that the very principles that give quantum computers their immense processing power could render many of today&#8217;s security protocols obsolete, demanding an urgent shift [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://be4sec.wordpress.com/2025/06/06/quantum-leap-in-computing-threatens-current-encryption-standards/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">6692</post-id>
+		<media:thumbnail url="https://be4sec.wordpress.com/wp-content/uploads/2025/06/qlctces001.png" />
+		<media:content url="https://be4sec.wordpress.com/wp-content/uploads/2025/06/qlctces001.png" medium="image">
+			<media:title type="html">qlctces001</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/707fdd73f19cd3851cc369d2c6186ec2c76849d8a04ac99c9596c65fc6654a59?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">be4sec</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>AI&#8217;s Hidden Hand: &#8220;Slopsquatting&#8221; Emerges as a New Cyber Threat from Code-Generating AI</title>
+		<link>https://be4sec.wordpress.com/2025/06/05/ais-hidden-hand-slopsquatting-emerges-as-a-new-cyber-threat-from-code-generating-ai/</link>
+					<comments>https://be4sec.wordpress.com/2025/06/05/ais-hidden-hand-slopsquatting-emerges-as-a-new-cyber-threat-from-code-generating-ai/#respond</comments>
+		
+		<dc:creator><![CDATA[be4sec]]></dc:creator>
+		<pubDate>Thu, 05 Jun 2025 15:59:09 +0000</pubDate>
+				<category><![CDATA[BlueTeam]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Artifical Intelligence]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Gemini]]></category>
+		<category><![CDATA[LLM]]></category>
+		<category><![CDATA[Slopsquatting]]></category>
+		<guid isPermaLink="false">http://be4sec.com/?p=6696</guid>
+
+					<description><![CDATA[In the ever-evolving landscape of cybersecurity threats, a novel and insidious technique has emerged, exploiting the growing reliance on artificial intelligence in software development. Dubbed &#8220;slopsquatting,&#8221; this method takes aim not at human error, but at the creative (and sometimes incorrect) output of Large Language Models (LLMs) used for code generation, posing a significant risk [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://be4sec.wordpress.com/2025/06/05/ais-hidden-hand-slopsquatting-emerges-as-a-new-cyber-threat-from-code-generating-ai/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">6696</post-id>
+		<media:thumbnail url="https://be4sec.wordpress.com/wp-content/uploads/2025/06/ahhsenct001.png" />
+		<media:content url="https://be4sec.wordpress.com/wp-content/uploads/2025/06/ahhsenct001.png" medium="image">
+			<media:title type="html">ahhsenct001</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/707fdd73f19cd3851cc369d2c6186ec2c76849d8a04ac99c9596c65fc6654a59?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">be4sec</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>RAT in the Machine: Popular Code Library Hides Remote Access Trojan</title>
+		<link>https://be4sec.wordpress.com/2025/06/05/rat-in-the-machine-popular-code-library-hides-remote-access-trojan/</link>
+					<comments>https://be4sec.wordpress.com/2025/06/05/rat-in-the-machine-popular-code-library-hides-remote-access-trojan/#respond</comments>
+		
+		<dc:creator><![CDATA[be4sec]]></dc:creator>
+		<pubDate>Thu, 05 Jun 2025 11:18:26 +0000</pubDate>
+				<category><![CDATA[BlueTeam]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[MFA]]></category>
+		<category><![CDATA[Mitre]]></category>
+		<category><![CDATA[RAT]]></category>
+		<category><![CDATA[Supply Chain]]></category>
+		<guid isPermaLink="false">http://be4sec.com/?p=6686</guid>
+
+					<description><![CDATA[Cybersecurity experts are sounding the alarm after a sophisticated supply chain attack was identified involving the widely used rand-user-agent package. The malicious activity, discovered on May 5, 2025, highlights the persistent and evolving threat landscape facing cloud environments and digital infrastructure. The attack, dubbed &#8220;Catching a RAT&#8221; (Remote Access Trojan), centered on rand-user-agent@1.0.110, a seemingly [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://be4sec.wordpress.com/2025/06/05/rat-in-the-machine-popular-code-library-hides-remote-access-trojan/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">6686</post-id>
+		<media:thumbnail url="https://be4sec.wordpress.com/wp-content/uploads/2025/06/ritmpc001.png" />
+		<media:content url="https://be4sec.wordpress.com/wp-content/uploads/2025/06/ritmpc001.png" medium="image">
+			<media:title type="html">ritmpc001</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/707fdd73f19cd3851cc369d2c6186ec2c76849d8a04ac99c9596c65fc6654a59?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">be4sec</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Victoria&#8217;s Secret Website Offline Amidst &#8220;Security Incident&#8221;</title>
+		<link>https://be4sec.wordpress.com/2025/06/03/victorias-secret-website-offline-amidst-security-incident/</link>
+					<comments>https://be4sec.wordpress.com/2025/06/03/victorias-secret-website-offline-amidst-security-incident/#respond</comments>
+		
+		<dc:creator><![CDATA[be4sec]]></dc:creator>
+		<pubDate>Tue, 03 Jun 2025 09:47:46 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Suspicious]]></category>
+		<category><![CDATA[USA]]></category>
+		<guid isPermaLink="false">http://be4sec.com/?p=6682</guid>
+
+					<description><![CDATA[Lingerie giant Victoria&#8217;s Secret has confirmed that its U.S. website was taken offline as a &#8220;precautionary measure&#8221; following a &#8220;security incident&#8221; that began impacting operations earlier this week. While the company has been tight-lipped on the exact nature of the disruption, the widespread outages and the engagement of third-party experts suggest a significant cybersecurity event. [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://be4sec.wordpress.com/2025/06/03/victorias-secret-website-offline-amidst-security-incident/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">6682</post-id>
+		<media:thumbnail url="https://be4sec.wordpress.com/wp-content/uploads/2025/06/vswoasi001.png" />
+		<media:content url="https://be4sec.wordpress.com/wp-content/uploads/2025/06/vswoasi001.png" medium="image">
+			<media:title type="html">vswoasi001</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/707fdd73f19cd3851cc369d2c6186ec2c76849d8a04ac99c9596c65fc6654a59?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">be4sec</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Medusa Ransomware is Targeting Critical Infrastructure</title>
+		<link>https://be4sec.wordpress.com/2025/03/16/medusa-ransomware-is-targeting-critical-infrastructure/</link>
+					<comments>https://be4sec.wordpress.com/2025/03/16/medusa-ransomware-is-targeting-critical-infrastructure/#respond</comments>
+		
+		<dc:creator><![CDATA[be4sec]]></dc:creator>
+		<pubDate>Sun, 16 Mar 2025 06:35:25 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[CISA]]></category>
+		<category><![CDATA[FBI]]></category>
+		<category><![CDATA[Medusa]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<guid isPermaLink="false">http://be4sec.com/?p=4377</guid>
+
+					<description><![CDATA[Medusa Ransomware is Targeting Critical Infrastructure The Federal Bureau of Investigation (FBI) and the Cybersecurity and Infrastructure Security Agency (CISA) have issued a warning in March 2025 regarding the escalating threat posed by the Medusa ransomware . This ransomware-as-a-service (RaaS) operation, active since 2021, has recently intensified its attacks, impacting hundreds of organizations, particularly within [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://be4sec.wordpress.com/2025/03/16/medusa-ransomware-is-targeting-critical-infrastructure/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">4377</post-id>
+		<media:thumbnail url="https://be4sec.wordpress.com/wp-content/uploads/2025/03/mritciac001.jpeg" />
+		<media:content url="https://be4sec.wordpress.com/wp-content/uploads/2025/03/mritciac001.jpeg" medium="image">
+			<media:title type="html">mritciac001</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/707fdd73f19cd3851cc369d2c6186ec2c76849d8a04ac99c9596c65fc6654a59?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">be4sec</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Key Ransomware Group Activities &#8211; January 2025</title>
+		<link>https://be4sec.wordpress.com/2025/03/15/key-ransomware-group-activities-january-2025/</link>
+					<comments>https://be4sec.wordpress.com/2025/03/15/key-ransomware-group-activities-january-2025/#respond</comments>
+		
+		<dc:creator><![CDATA[be4sec]]></dc:creator>
+		<pubDate>Sat, 15 Mar 2025 20:43:49 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Clop]]></category>
+		<category><![CDATA[Lockbit]]></category>
+		<category><![CDATA[Medusa]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<guid isPermaLink="false">http://be4sec.com/?p=4382</guid>
+
+					<description><![CDATA[Key Ransomware Group Activities &#8211; January 2025 This report summarizes the key activities of prominent ransomware groups in January 2025, based on available cybersecurity intelligence. Medusa Medusa ransomware attacks showed a significant increase in January 2025, with almost twice as many attacks observed compared to the same period in 2024. Symantec&#8217;s Threat Hunter team tracked [&#8230;]]]></description>
+		
+					<wfw:commentRss>https://be4sec.wordpress.com/2025/03/15/key-ransomware-group-activities-january-2025/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">4382</post-id>
+		<media:thumbnail url="https://be4sec.wordpress.com/wp-content/uploads/2025/03/krgaj2001.jpeg" />
+		<media:content url="https://be4sec.wordpress.com/wp-content/uploads/2025/03/krgaj2001.jpeg" medium="image">
+			<media:title type="html">krgaj2001</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/707fdd73f19cd3851cc369d2c6186ec2c76849d8a04ac99c9596c65fc6654a59?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">be4sec</media:title>
+		</media:content>
+	</item>
+	</channel>
+</rss>

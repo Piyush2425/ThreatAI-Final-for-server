@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Security Archives - TechRepublic</title>
+	<atom:link href="https://www.techrepublic.com/rssfeeds/topic/security/?feedType=rssfeeds" rel="self" type="application/rss+xml" />
+	<link>https://www.techrepublic.com/topic/security/</link>
+	<description>News, Tips, and Advice for Technology Professionals</description>
+	<lastBuildDate>Wed, 22 Apr 2026 18:57:37 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>Vonage, Girls Who Code Show What ‘Responsible AI’ Looks Like</title>
+		<link>https://www.techrepublic.com/article/news-vonage-girls-who-code-ai-talent-pipeline/</link>
+		
+		<dc:creator><![CDATA[Zeus Kerravala]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 18:57:37 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Collaboration]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Developer]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Tech & Work]]></category>
+		<category><![CDATA[Tech Industry]]></category>
+		<category><![CDATA[ai skills gap]]></category>
+		<category><![CDATA[ai talent pipeline]]></category>
+		<category><![CDATA[ai workforce]]></category>
+		<category><![CDATA[cybersecurity careers]]></category>
+		<category><![CDATA[developer education]]></category>
+		<category><![CDATA[diversity in tech]]></category>
+		<category><![CDATA[girls who code]]></category>
+		<category><![CDATA[vonage]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4356622</guid>
+
+					<description><![CDATA[<p>Vonage’s partnership with Girls Who Code is more than feel-good philanthropy; it’s a blueprint for building diverse AI talent pipelines.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-vonage-girls-who-code-ai-talent-pipeline/">Vonage, Girls Who Code Show What ‘Responsible AI’ Looks Like</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Mozilla Fixes 271 Firefox Bugs Using Anthropic’s Mythos AI</title>
+		<link>https://www.techrepublic.com/article/news-mozilla-firefox-150-patched-271-security-flaws/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 18:50:45 +0000</pubDate>
+				<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Chatbots]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ai security]]></category>
+		<category><![CDATA[anthropic]]></category>
+		<category><![CDATA[claude mythos]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[firefox]]></category>
+		<category><![CDATA[mozilla]]></category>
+		<category><![CDATA[software security]]></category>
+		<category><![CDATA[vulnerability management]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4356617</guid>
+
+					<description><![CDATA[<p>Mozilla says Firefox 150 patches 271 vulnerabilities found with Anthropic’s restricted Mythos AI, highlighting how quickly AI-driven bug hunting is accelerating.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-mozilla-firefox-150-patched-271-security-flaws/">Mozilla Fixes 271 Firefox Bugs Using Anthropic’s Mythos AI</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Fake Google Antigravity Installer Can Steal Accounts in Minutes</title>
+		<link>https://www.techrepublic.com/article/news-fake-google-antigravity-downloads-steal-accounts-minutes/</link>
+		
+		<dc:creator><![CDATA[Kezia Jungco]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 17:37:44 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[account takeover]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data theft]]></category>
+		<category><![CDATA[Google Antigravity]]></category>
+		<category><![CDATA[infostealer]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[powershell]]></category>
+		<category><![CDATA[threat intel]]></category>
+		<category><![CDATA[windows defender]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4356606</guid>
+
+					<description><![CDATA[<p>Fake Antigravity downloads are enabling fast account takeovers using hidden malware and stolen session cookies.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-fake-google-antigravity-downloads-steal-accounts-minutes/">Fake Google Antigravity Installer Can Steal Accounts in Minutes</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft: Most Windows 11 Users Don’t Need Third-Party Antivirus</title>
+		<link>https://www.techrepublic.com/article/news-microsoft-windows-11-no-third-party-antivirus-needed/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 17:28:19 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[antivirus software]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[endpoint security]]></category>
+		<category><![CDATA[Microsoft Defender]]></category>
+		<category><![CDATA[microsoft windows]]></category>
+		<category><![CDATA[ransomware protection]]></category>
+		<category><![CDATA[third-party antivirus]]></category>
+		<category><![CDATA[windows 11 security]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4356598</guid>
+
+					<description><![CDATA[<p>Microsoft says Windows 11’s built-in security is strong enough for most users, though power users and enterprises may still want third-party protection.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-microsoft-windows-11-no-third-party-antivirus-needed/">Microsoft: Most Windows 11 Users Don’t Need Third-Party Antivirus</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New Apple Phishing Scam Uses Fake $899 iPhone Purchase Alert</title>
+		<link>https://www.techrepublic.com/article/news-apple-phishing-scam-fake-899-iphone-purchase-alert/</link>
+		
+		<dc:creator><![CDATA[Esther Shein]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 17:20:44 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[fraud]]></category>
+		<category><![CDATA[iphone]]></category>
+		<category><![CDATA[paypal]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[phishing scam]]></category>
+		<category><![CDATA[scam alert]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4356594</guid>
+
+					<description><![CDATA[<p>An Apple account notification has been exploited in a new email phishing attack that comes with a fake iPhone purchase claim.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-apple-phishing-scam-fake-899-iphone-purchase-alert/">New Apple Phishing Scam Uses Fake $899 iPhone Purchase Alert</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Hackers Impersonate IT Help Desk on Microsoft Teams to Gain Access, Steal Data</title>
+		<link>https://www.techrepublic.com/article/news-hackers-microsoft-teams-social-engineering-it-help-desk-scam/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 17:05:44 +0000</pubDate>
+				<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cybercrime]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Microsoft Teams]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[quick assist]]></category>
+		<category><![CDATA[social engineering]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4356588</guid>
+
+					<description><![CDATA[<p>Hackers are abusing Microsoft Teams chats to impersonate IT support, gain remote access, move laterally, and steal company data, Microsoft warns.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-hackers-microsoft-teams-social-engineering-it-help-desk-scam/">Hackers Impersonate IT Help Desk on Microsoft Teams to Gain Access, Steal Data</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Malicious TikTok Downloader Extensions Quietly Compromised 130K Users</title>
+		<link>https://www.techrepublic.com/article/news-malicious-tiktok-downloader-extensions/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 15:48:49 +0000</pubDate>
+				<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Browsers]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[browser security]]></category>
+		<category><![CDATA[chrome extensions]]></category>
+		<category><![CDATA[cybersecurity threats]]></category>
+		<category><![CDATA[data exfiltration]]></category>
+		<category><![CDATA[edge browser]]></category>
+		<category><![CDATA[enterprise security]]></category>
+		<category><![CDATA[malicious extensions]]></category>
+		<category><![CDATA[tiktok downloader]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4356575</guid>
+
+					<description><![CDATA[<p>Malicious browser extensions disguised as TikTok downloaders compromised 130,000 users, exposing a growing blind spot in enterprise security.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-malicious-tiktok-downloader-extensions/">Malicious TikTok Downloader Extensions Quietly Compromised 130K Users</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>This VPN Lets You Verify Your Business Privacy For $130</title>
+		<link>https://www.techrepublic.com/article/vpnet-3-year-subscription/</link>
+		
+		<dc:creator><![CDATA[TechRepublic Academy]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 19:58:13 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[TR Academy]]></category>
+		<category><![CDATA[business privacy]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[vp.net]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4356230</guid>
+
+					<description><![CDATA[<p>VP.NET makes VPN privacy verifiable, not just policy-based, with secure enclave tech for up to five devices.</p>
+<p>The post <a href="https://www.techrepublic.com/article/vpnet-3-year-subscription/">This VPN Lets You Verify Your Business Privacy For $130</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Amtrak Data Breach Exposes 2.1M Records, Reports Suggest Larger Leak</title>
+		<link>https://www.techrepublic.com/article/news-amtrak-data-breach-2-1m-records/</link>
+		
+		<dc:creator><![CDATA[Kezia Jungco]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 19:31:12 +0000</pubDate>
+				<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[Enterprise Software]]></category>
+		<category><![CDATA[IT Leadership]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[2026 breach]]></category>
+		<category><![CDATA[Amtrak]]></category>
+		<category><![CDATA[cloud security]]></category>
+		<category><![CDATA[CRM breach]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[identity theft]]></category>
+		<category><![CDATA[saas security]]></category>
+		<category><![CDATA[salesforce]]></category>
+		<category><![CDATA[shinyhunters]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4356221</guid>
+
+					<description><![CDATA[<p>Amtrak data breach exposes over 2.1 million customer records after CRM access. Learn what was leaked, risks, and steps users and IT teams should take now.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-amtrak-data-breach-2-1m-records/">Amtrak Data Breach Exposes 2.1M Records, Reports Suggest Larger Leak</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The MCP Disclosure Is the AI Era’s ‘Open Redirect’ Moment</title>
+		<link>https://www.techrepublic.com/article/news-mcp-ai-security-vulnerability-data-layer-governance/</link>
+		
+		<dc:creator><![CDATA[Tim Freestone]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 19:22:23 +0000</pubDate>
+				<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[agentic ai]]></category>
+		<category><![CDATA[ai security]]></category>
+		<category><![CDATA[ai supply chain attacks]]></category>
+		<category><![CDATA[cybersecurity trends]]></category>
+		<category><![CDATA[data security]]></category>
+		<category><![CDATA[mcp vulnerability]]></category>
+		<category><![CDATA[model context protocol]]></category>
+		<category><![CDATA[zero trust security]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4356215</guid>
+
+					<description><![CDATA[<p>The MCP flaw reveals a systemic AI security gap, exposing enterprise systems to supply chain attacks and forcing a shift toward data-layer governance.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-mcp-ai-security-vulnerability-data-layer-governance/">The MCP Disclosure Is the AI Era’s ‘Open Redirect’ Moment</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft Defender Flaws Exploited on Windows, Two Left Unpatched</title>
+		<link>https://www.techrepublic.com/article/news-microsoft-defender-flaws-exploited-windows-10-11/</link>
+		
+		<dc:creator><![CDATA[J.R. Johnivan]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 18:18:10 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[cybersecurity threats]]></category>
+		<category><![CDATA[endpoint security]]></category>
+		<category><![CDATA[Microsoft Defender]]></category>
+		<category><![CDATA[privilege escalation]]></category>
+		<category><![CDATA[system-level access]]></category>
+		<category><![CDATA[vulnerability patching]]></category>
+		<category><![CDATA[windows security]]></category>
+		<category><![CDATA[zero day exploits]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4356206</guid>
+
+					<description><![CDATA[<p>Although the team with Microsoft moved swiftly to patch the BlueHammer vulnerability, other exploits still threaten Microsoft Defender and Windows users.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-microsoft-defender-flaws-exploited-windows-10-11/">Microsoft Defender Flaws Exploited on Windows, Two Left Unpatched</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Over 800 Android Apps Targeted in PIN-Stealing Trojan Campaign</title>
+		<link>https://www.techrepublic.com/article/news-android-malware-stealing-pin-overlay-attack/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 18:03:59 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[accessibility abuse]]></category>
+		<category><![CDATA[android malware]]></category>
+		<category><![CDATA[android security]]></category>
+		<category><![CDATA[banking trojan]]></category>
+		<category><![CDATA[cybersecurity threats]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<category><![CDATA[overlay attacks]]></category>
+		<category><![CDATA[phishing attacks]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4356196</guid>
+
+					<description><![CDATA[<p>Four Android banking malware campaigns are targeting more than 800 apps by abusing overlays, Accessibility permissions, and sideloaded fake apps to steal PINs.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-android-malware-stealing-pin-overlay-attack/">Over 800 Android Apps Targeted in PIN-Stealing Trojan Campaign</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Chrome Privacy Concerns Rise as Expert Warns of Fingerprinting Risks</title>
+		<link>https://www.techrepublic.com/article/news-chrome-browser-fingerprinting-privacy-concerns/</link>
+		
+		<dc:creator><![CDATA[Esther Shein]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 17:46:32 +0000</pubDate>
+				<category><![CDATA[Browsers]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[browser fingerprinting]]></category>
+		<category><![CDATA[cybersecurity news]]></category>
+		<category><![CDATA[data privacy]]></category>
+		<category><![CDATA[google chrome]]></category>
+		<category><![CDATA[online privacy]]></category>
+		<category><![CDATA[privacy sandbox]]></category>
+		<category><![CDATA[third-party cookies]]></category>
+		<category><![CDATA[web tracking]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4356189</guid>
+
+					<description><![CDATA[<p>A privacy expert warns Chrome still allows browser fingerprinting and tracking, raising concerns after Google’s shift away from third-party cookie changes.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-chrome-browser-fingerprinting-privacy-concerns/">Chrome Privacy Concerns Rise as Expert Warns of Fingerprinting Risks</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Vercel Confirms Major Security Incident as Hacker Claims $2M Ransom Demand</title>
+		<link>https://www.techrepublic.com/article/news-vercel-security-incident-ransom-claims/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 17:14:05 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[api keys]]></category>
+		<category><![CDATA[ci/cd]]></category>
+		<category><![CDATA[cloud security]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[devops security]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<category><![CDATA[supply chain attack]]></category>
+		<category><![CDATA[vercel]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4356180</guid>
+
+					<description><![CDATA[<p>Vercel confirms a security incident after a threat actor claims internal access and demands a $2M ransom, raising concerns about API keys, CI/CD pipelines, and cloud security.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-vercel-security-incident-ransom-claims/">Vercel Confirms Major Security Incident as Hacker Claims $2M Ransom Demand</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>2026’s Breach List So Far: FBI Hacked, 1B Androids at Risk, 270M iPhones Vulnerable</title>
+		<link>https://www.techrepublic.com/article/news-top-cyberattacks-2026-so-far/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 16:53:28 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[EU]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[android security]]></category>
+		<category><![CDATA[cybercrime]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breaches]]></category>
+		<category><![CDATA[iphone security]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<category><![CDATA[zero day exploits]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4356170</guid>
+
+					<description><![CDATA[<p>From the FBI breach to the DarkSword iPhone exploit, these are the biggest cyber attacks and security failures that have shaped 2026 so far.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-top-cyberattacks-2026-so-far/">2026’s Breach List So Far: FBI Hacked, 1B Androids at Risk, 270M iPhones Vulnerable</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The 5 Best VPN Extensions for Chrome</title>
+		<link>https://www.techrepublic.com/article/best-chrome-vpn-extensions/</link>
+		
+		<dc:creator><![CDATA[Luis Millares]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 12:00:14 +0000</pubDate>
+				<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Top Products]]></category>
+		<category><![CDATA[chrome]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4122763</guid>
+
+					<description><![CDATA[<p>Looking for the best Chrome VPN extensions in 2026 to enhance your online security and privacy? Dive into our list of top-rated VPNs and find your best fit.</p>
+<p>The post <a href="https://www.techrepublic.com/article/best-chrome-vpn-extensions/">The 5 Best VPN Extensions for Chrome</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Anthropic Releases Opus 4.7, Not as ‘Broadly Capable’ as Mythos AI</title>
+		<link>https://www.techrepublic.com/article/news-anthropic-opus-4-7-mythos-ai/</link>
+		
+		<dc:creator><![CDATA[David Curry]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 18:44:00 +0000</pubDate>
+				<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Chatbots]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Developer]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ai models]]></category>
+		<category><![CDATA[ai regulation]]></category>
+		<category><![CDATA[anthropic]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[enterprise ai]]></category>
+		<category><![CDATA[mythos ai]]></category>
+		<category><![CDATA[opus ai]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355990</guid>
+
+					<description><![CDATA[<p>Anthropic launches Opus 4.7 with improved coding and reasoning, as its more “broadly capable” Mythos AI remains restricted over security concerns.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-anthropic-opus-4-7-mythos-ai/">Anthropic Releases Opus 4.7, Not as ‘Broadly Capable’ as Mythos AI</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Clothing Retailer Patches Website Flaw Exposing Customer Data</title>
+		<link>https://www.techrepublic.com/article/news-clothing-retailer-data-exposure-order-link-flaw/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 18:35:35 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[E-Commerce]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[customer data]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[data exposure]]></category>
+		<category><![CDATA[express]]></category>
+		<category><![CDATA[idor]]></category>
+		<category><![CDATA[online privacy]]></category>
+		<category><![CDATA[retail security]]></category>
+		<category><![CDATA[web vulnerability]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355984</guid>
+
+					<description><![CDATA[<p>A clothing retailer patched a website flaw that exposed customer data via order links, highlighting risks associated with predictable URL structures.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-clothing-retailer-data-exposure-order-link-flaw/">Clothing Retailer Patches Website Flaw Exposing Customer Data</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New Phishing Attack Turns n8n Into On-Demand Malware Machine</title>
+		<link>https://www.techrepublic.com/article/news-hackers-abuse-n8n-workflows-malware-delivery/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 14:48:34 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[automation tools]]></category>
+		<category><![CDATA[cisco talos]]></category>
+		<category><![CDATA[cybersecurity threats]]></category>
+		<category><![CDATA[email security]]></category>
+		<category><![CDATA[malware delivery]]></category>
+		<category><![CDATA[n8n]]></category>
+		<category><![CDATA[phishing attacks]]></category>
+		<category><![CDATA[threat intelligence]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355951</guid>
+
+					<description><![CDATA[<p>Hackers are abusing n8n workflows to deliver malware and evade detection, according to Cisco Talos, using trusted automation to bypass security defenses.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-hackers-abuse-n8n-workflows-malware-delivery/">New Phishing Attack Turns n8n Into On-Demand Malware Machine</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Bluesky Outage: Coordinated Traffic Attack Causes Widespread Errors</title>
+		<link>https://www.techrepublic.com/article/news-bluesky-ddos-attack-second-day-outage/</link>
+		
+		<dc:creator><![CDATA[Kezia Jungco]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 13:43:18 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Bluesky]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[DDoS attack]]></category>
+		<category><![CDATA[distributed systems]]></category>
+		<category><![CDATA[downtime]]></category>
+		<category><![CDATA[incident response]]></category>
+		<category><![CDATA[infrastructure]]></category>
+		<category><![CDATA[network security]]></category>
+		<category><![CDATA[outage]]></category>
+		<category><![CDATA[social media]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4355936</guid>
+
+					<description><![CDATA[<p>Bluesky’s DDoS attack caused outages for a second day, disrupting feeds, notifications, and search across the platform.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-bluesky-ddos-attack-second-day-outage/">Bluesky Outage: Coordinated Traffic Attack Causes Widespread Errors</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

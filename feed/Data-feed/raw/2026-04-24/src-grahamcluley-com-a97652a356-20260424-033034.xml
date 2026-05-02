@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>GRAHAM CLULEY</title>
+	<atom:link href="https://grahamcluley.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://grahamcluley.com</link>
+	<description>Cybersecurity keynote speaker</description>
+	<lastBuildDate>Wed, 22 Apr 2026 22:21:42 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://grahamcluley.com/wp-content/uploads/2022/12/cropped-android-chrome-512x512-2-32x32.png</url>
+	<title>GRAHAM CLULEY</title>
+	<link>https://grahamcluley.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Smashing Security podcast #464: Rockstar got hacked. The data was junk. The secrets it revealed were not</title>
+		<link>https://grahamcluley.com/smashing-security-podcast-464-rockstar-got-hacked-the-data-was-junk-the-secrets-it-revealed-were-not/</link>
+					<comments>https://grahamcluley.com/smashing-security-podcast-464-rockstar-got-hacked-the-data-was-junk-the-secrets-it-revealed-were-not/#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 22:20:26 +0000</pubDate>
+				<category><![CDATA[Data loss]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[GTA]]></category>
+		<category><![CDATA[police]]></category>
+		<category><![CDATA[Rockstar]]></category>
+		<category><![CDATA[Smashing Security]]></category>
+		<category><![CDATA[video game]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17351261</guid>
+
+					<description><![CDATA[A company that ran anonymous tip lines for 35,000 American schools - handling reports of bullying, weapons, and self-harm - boasted on its website that it had suffered zero security breaches in over 20 years. A hacker called Internet Yiff Machine thought that sounded like a challenge, with predictable results...
+
+Meanwhile, Rockstar Games gets hacked again - and the stolen data turns out to be less embarrassing than the financial secrets it accidentally revealed. GTA Online is still making half a billion dollars a year. Red Dead Redemption is not.
+
+All this and more in episode 464 of the "Smashing Security" podcast with cybersecurity keynote speaker and industry veteran Graham Cluley, joined this week by special guest BBC cybersecurity correspondent Joe Tidy.
+
+Plus! Don't miss our featured interview with Ryan Benson of Meter.]]></description>
+		
+					<wfw:commentRss>https://grahamcluley.com/smashing-security-podcast-464-rockstar-got-hacked-the-data-was-junk-the-secrets-it-revealed-were-not/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Singer loses life savings to fake wallet downloaded from the Apple App Store</title>
+		<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/singer-loses-life-savings-fake-wallet</link>
+					<comments>https://www.bitdefender.com/en-us/blog/hotforsecurity/singer-loses-life-savings-fake-wallet#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2026 11:36:58 +0000</pubDate>
+				<category><![CDATA[Guest blog]]></category>
+		<category><![CDATA[macOS]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[Ledger]]></category>
+		<category><![CDATA[Mac App Store]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17351243</guid>
+
+					<description><![CDATA[If you hold cryptocurrency, there's a very simple golden rule that you should always follow. Never hand over your seed phrase.
+
+Garrett Dutton, better known as G. Love - the front man of blues-hip-hop outfit G. Love &#038; Special Sauce - has learnt that lesson the hard way.
+
+Read more in my article on the Hot for Security blog.]]></description>
+		
+					<wfw:commentRss>https://www.bitdefender.com/en-us/blog/hotforsecurity/singer-loses-life-savings-fake-wallet/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Sometimes changing the password on your email mailbox isn&#8217;t enough</title>
+		<link>https://www.fortra.com/blog/sometimes-changing-password-your-email-mailbox-isnt-enough</link>
+					<comments>https://www.fortra.com/blog/sometimes-changing-password-your-email-mailbox-isnt-enough#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Thu, 16 Apr 2026 15:37:52 +0000</pubDate>
+				<category><![CDATA[Business email compromise]]></category>
+		<category><![CDATA[Guest blog]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[business email compromise]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[email]]></category>
+		<category><![CDATA[Microsoft 365]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17351248</guid>
+
+					<description><![CDATA[Have you ever taken a look at your Microsoft 365 mailbox rules? If not, it might be worth a few minutes of your time. Because newly released research reveals that hackers may already have beaten you to it.
+
+Read more in my article on the Fortra blog.]]></description>
+		
+					<wfw:commentRss>https://www.fortra.com/blog/sometimes-changing-password-your-email-mailbox-isnt-enough/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Smashing Security podcast #463: This AI company leaked its own code. It&#8217;s also built something terrifying</title>
+		<link>https://grahamcluley.com/smashing-security-podcast-463/</link>
+					<comments>https://grahamcluley.com/smashing-security-podcast-463/#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Wed, 15 Apr 2026 23:24:44 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Data loss]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Security threats]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<category><![CDATA[data leak]]></category>
+		<category><![CDATA[floods]]></category>
+		<category><![CDATA[Italy]]></category>
+		<category><![CDATA[Smashing Security]]></category>
+		<category><![CDATA[Venice]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17351230</guid>
+
+					<description><![CDATA[A hacking group claims to have broken into the flood defence system protecting Venice's Piazza San Marco - and is offering to sell access to whoever wants it. The asking price? A frankly insulting $600.
+
+Meanwhile, Anthropic accidentally leaked the source code for Claude Code via a basic packaging mistake. Oh, and by the way, they've also just revealed they've built an AI model called Mythos that can find and chain together software vulnerabilities faster than any human. Sleep well.
+
+All this and more in episode 463 of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, joined this week by special guest Tanya Janca.]]></description>
+		
+					<wfw:commentRss>https://grahamcluley.com/smashing-security-podcast-463/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>108 malicious Chrome extensions caught stealing Google and Telegram data from 20,000 users</title>
+		<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/malicious-chrome-extensions-steal-google-telegram-data</link>
+					<comments>https://www.bitdefender.com/en-us/blog/hotforsecurity/malicious-chrome-extensions-steal-google-telegram-data#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Wed, 15 Apr 2026 11:05:56 +0000</pubDate>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[Google Chrome]]></category>
+		<category><![CDATA[Guest blog]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[browser extension]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17351225</guid>
+
+					<description><![CDATA[Cybersecurity researchers have revealed that 108 malicious Google Chrome extensions have been quietly stealing user credentials, hijacking Telegram sessions, and injecting unwanted ads and scripts into browsers - all reporting back to the same central point.
+
+Read more in my article on the Hot for Security blog.]]></description>
+		
+					<wfw:commentRss>https://www.bitdefender.com/en-us/blog/hotforsecurity/malicious-chrome-extensions-steal-google-telegram-data/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>AI and cryptocurrency scams are costing Americans billions, FBI reports</title>
+		<link>https://www.fortra.com/blog/ai-and-cryptocurrency-scams-are-costing-americans-billions-fbi-reports</link>
+					<comments>https://www.fortra.com/blog/ai-and-cryptocurrency-scams-are-costing-americans-billions-fbi-reports#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Fri, 10 Apr 2026 15:36:41 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Guest blog]]></category>
+		<category><![CDATA[Law & order]]></category>
+		<category><![CDATA[Security threats]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[romance baiting]]></category>
+		<category><![CDATA[Scam]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17351215</guid>
+
+					<description><![CDATA[The fraud landscape has been changed by AI and cryptocurrency in a way that should concern organisations and individuals alike.
+
+Read more in my article on the Fortra blog.
+]]></description>
+		
+					<wfw:commentRss>https://www.fortra.com/blog/ai-and-cryptocurrency-scams-are-costing-americans-billions-fbi-reports/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Smashing Security podcast #462: LinkedIn is spying on you, and you agreed to nothing</title>
+		<link>https://grahamcluley.com/smashing-security-podcast-462/</link>
+					<comments>https://grahamcluley.com/smashing-security-podcast-462/#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Wed, 08 Apr 2026 23:27:17 +0000</pubDate>
+				<category><![CDATA[Google Chrome]]></category>
+		<category><![CDATA[Law & order]]></category>
+		<category><![CDATA[LinkedIn]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[browser extension]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[linkedin]]></category>
+		<category><![CDATA[Smashing Security]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17351191</guid>
+
+					<description><![CDATA[LinkedIn has been secretly scanning your browser for over 6,000 installed extensions — on every single click you make. It can tell if you're job hunting, what religion you are, and whether you have ADHD. And none of this is mentioned anywhere in their privacy policy.
+
+Meanwhile, California's crypto millionaires are learning that no amount of encryption can protect you from someone who knocks on your door pretending to deliver a pizza.
+
+All this and more in episode 462 of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, joined this week by special guest Dave Bittner.]]></description>
+		
+					<wfw:commentRss>https://grahamcluley.com/smashing-security-podcast-462/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Life imprisonment for Cambodian scam compound operators &#8211; but will it make a difference?</title>
+		<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/life-imprisonment-cambodian-scam-operators</link>
+					<comments>https://www.bitdefender.com/en-us/blog/hotforsecurity/life-imprisonment-cambodian-scam-operators#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Tue, 07 Apr 2026 08:57:17 +0000</pubDate>
+				<category><![CDATA[Guest blog]]></category>
+		<category><![CDATA[Law & order]]></category>
+		<category><![CDATA[Cambodia]]></category>
+		<category><![CDATA[compound]]></category>
+		<category><![CDATA[romance baiting]]></category>
+		<category><![CDATA[Scam]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17351184</guid>
+
+					<description><![CDATA[Cambodia has taken a dramatic step in its fight against scam compounds that have imprisoned innocent people, and forced them to work as virtual slaves defrauding victims via the internet around the world with romance scams and dodgy investment schemes.
+
+Read more in my article on the Hot for Security blog.]]></description>
+		
+					<wfw:commentRss>https://www.bitdefender.com/en-us/blog/hotforsecurity/life-imprisonment-cambodian-scam-operators/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Nigerian romance scammer jailed after being caught out by fellow fraudster</title>
+		<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/nigerian-romance-scammer-jailed</link>
+					<comments>https://www.bitdefender.com/en-us/blog/hotforsecurity/nigerian-romance-scammer-jailed#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Fri, 03 Apr 2026 09:38:30 +0000</pubDate>
+				<category><![CDATA[Guest blog]]></category>
+		<category><![CDATA[Law & order]]></category>
+		<category><![CDATA[Romance baiting]]></category>
+		<category><![CDATA[romance baiting]]></category>
+		<category><![CDATA[romance scam]]></category>
+		<category><![CDATA[Scam]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17351143</guid>
+
+					<description><![CDATA[A Nigerian fraudster spent years posing as a woman online, romancing unsuspecting American men out of their savings - until he accidentally tried the same trick on a fellow scammer, who told him to "learn how to do a clean job."
+
+The recovered chat logs helped put him behind bars for 15 years.
+
+Read more in my article on the Hot for Security blog.]]></description>
+		
+					<wfw:commentRss>https://www.bitdefender.com/en-us/blog/hotforsecurity/nigerian-romance-scammer-jailed/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Smashing Security podcast #461: This man hid $400 million in a fishing rod. Then it vanished</title>
+		<link>https://grahamcluley.com/smashing-security-podcast-461/</link>
+					<comments>https://grahamcluley.com/smashing-security-podcast-461/#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 23:26:02 +0000</pubDate>
+				<category><![CDATA[Data loss]]></category>
+		<category><![CDATA[Law & order]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[football]]></category>
+		<category><![CDATA[Smashing Security]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17351081</guid>
+
+					<description><![CDATA[A cannabis-growing, beekeeping, gyrocopter-flying Irishman invested his drug money in Bitcoin back in 2011 - and now sits on a fortune worth $400 million. There's just one small problem: the access codes were tucked inside his fishing rod case, which has mysteriously vanished. Or has it? Because this week, one of his frozen wallets suddenly woke up and moved $35 million - and someone had to identify themselves to do it.
+
+Meanwhile, Ajax Football Club scores a spectacular cyber own-goal, as a data breach that the club claimed affected "a few hundred" fans turns out to may have exposed the personal details of 300,000 supporters - along with the ability to steal match tickets and quietly remove people from the stadium ban list.
+
+All this and more in episode 461 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, joined this week by special guest Danny Palmer.]]></description>
+		
+					<wfw:commentRss>https://grahamcluley.com/smashing-security-podcast-461/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Alleged RedLine malware developer extradited to United States</title>
+		<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/redline-malware-developer-extradited</link>
+					<comments>https://www.bitdefender.com/en-us/blog/hotforsecurity/redline-malware-developer-extradited#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 09:00:13 +0000</pubDate>
+				<category><![CDATA[Guest blog]]></category>
+		<category><![CDATA[Law & order]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[RedLine]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17351057</guid>
+
+					<description><![CDATA[A man has appeared in federal court in Austin, Texas, after being extradited to the United States to face charges related to his alleged role as a key developer of the notorious RedLine malware.
+
+Read more in my article on the Hot for Security blog.]]></description>
+		
+					<wfw:commentRss>https://www.bitdefender.com/en-us/blog/hotforsecurity/redline-malware-developer-extradited/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Iranian hackers breach FBI director&#8217;s personal email, and post his CV and photos online</title>
+		<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/iranian-hackers-breach-fbi-directors-personal-email-post-cv-and-photos-online</link>
+					<comments>https://www.bitdefender.com/en-us/blog/hotforsecurity/iranian-hackers-breach-fbi-directors-personal-email-post-cv-and-photos-online#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 07:37:52 +0000</pubDate>
+				<category><![CDATA[Data loss]]></category>
+		<category><![CDATA[Guest blog]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[FBI]]></category>
+		<category><![CDATA[gmail]]></category>
+		<category><![CDATA[government]]></category>
+		<category><![CDATA[Iran]]></category>
+		<category><![CDATA[Kash Patel]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17351046</guid>
+
+					<description><![CDATA[It's not every day that you read that the head of America's top law enforcement agency has been hacked, but then - these aren't ordinary times.
+
+Read more in my article on the Hot for Security blog.]]></description>
+		
+					<wfw:commentRss>https://www.bitdefender.com/en-us/blog/hotforsecurity/iranian-hackers-breach-fbi-directors-personal-email-post-cv-and-photos-online/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>World Leaks data extortion: What you need to know</title>
+		<link>https://www.fortra.com/blog/world-leaks-data-extortion-what-you-need-know</link>
+					<comments>https://www.fortra.com/blog/world-leaks-data-extortion-what-you-need-know#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2026 18:57:03 +0000</pubDate>
+				<category><![CDATA[Data loss]]></category>
+		<category><![CDATA[Guest blog]]></category>
+		<category><![CDATA[Security threats]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[extortion]]></category>
+		<category><![CDATA[World Leaks]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17350991</guid>
+
+					<description><![CDATA[World Leaks is a cyber extortion operation that steals sensitive data from organizations and threatens to leak it via the dark web if a ransom is not paid.
+
+Read more in my article on the Fortra blog.]]></description>
+		
+					<wfw:commentRss>https://www.fortra.com/blog/world-leaks-data-extortion-what-you-need-know/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Smashing Security podcast #460: Never knock on the door of a nuclear submarine base and ask for a selfie</title>
+		<link>https://grahamcluley.com/smashing-security-podcast-460/</link>
+					<comments>https://grahamcluley.com/smashing-security-podcast-460/#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2026 11:27:56 +0000</pubDate>
+				<category><![CDATA[Data loss]]></category>
+		<category><![CDATA[Law & order]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Security threats]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[extortion]]></category>
+		<category><![CDATA[Iran]]></category>
+		<category><![CDATA[Smashing Security]]></category>
+		<category><![CDATA[submarine]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17350984</guid>
+
+					<description><![CDATA[A disgruntled data analyst decides that the best response to losing his contract is to steal the entire company payroll database and demand $2.5 million in Bitcoin - signing his extortion emails from a company called "Loot."
+
+Meanwhile, two people drive up to the entrance of the UK's nuclear submarine base at Faslane and politely ask if they can have a look around. Tourists? Spies? Something in between?
+
+All this and more in episode 460 of the "Smashing Security" podcast with cybersecurity veteran and keynote speaker Graham Cluley, and special guest Jenny Radcliffe.]]></description>
+		
+					<wfw:commentRss>https://grahamcluley.com/smashing-security-podcast-460/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How one man used 10,000 bots to steal $8,000,000 from music artists</title>
+		<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/10k-bots-steal-8-million-from-music-artists</link>
+					<comments>https://www.bitdefender.com/en-us/blog/hotforsecurity/10k-bots-steal-8-million-from-music-artists#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Wed, 25 Mar 2026 10:22:04 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Guest blog]]></category>
+		<category><![CDATA[Law & order]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<category><![CDATA[spotify]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17350959</guid>
+
+					<description><![CDATA[A man has pleaded guilty to defrauding online music streaming platforms out of more than US $8 million, after creating hundreds of thousands of songs with AI, and then using bots to play them billions of times.
+
+Read more in my article on the Hot for Security blog.]]></description>
+		
+					<wfw:commentRss>https://www.bitdefender.com/en-us/blog/hotforsecurity/10k-bots-steal-8-million-from-music-artists/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Denver&#8217;s crosswalks hacked to broadcast anti-Trump messages</title>
+		<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/denvers-crosswalks-hacked-broadcast-anti-trump-messages</link>
+					<comments>https://www.bitdefender.com/en-us/blog/hotforsecurity/denvers-crosswalks-hacked-broadcast-anti-trump-messages#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Fri, 20 Mar 2026 15:24:45 +0000</pubDate>
+				<category><![CDATA[Guest blog]]></category>
+		<category><![CDATA[Security threats]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[road sign]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17350866</guid>
+
+					<description><![CDATA[Pedestrians crossing a street in Denver, Colorado, got rather more than they bargained for last weekend, when the audio signals at two crosswalks began broadcasting a political message alongside their usual walking instructions.
+
+Read more in my article on the Hot for Security blog.]]></description>
+		
+					<wfw:commentRss>https://www.bitdefender.com/en-us/blog/hotforsecurity/denvers-crosswalks-hacked-broadcast-anti-trump-messages/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>LeakNet ransomware: what you need to know</title>
+		<link>https://www.fortra.com/blog/leaknet-ransomware-what-you-need-know</link>
+					<comments>https://www.fortra.com/blog/leaknet-ransomware-what-you-need-know#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Fri, 20 Mar 2026 10:18:08 +0000</pubDate>
+				<category><![CDATA[Data loss]]></category>
+		<category><![CDATA[Guest blog]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[LeakNet]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17350860</guid>
+
+					<description><![CDATA[A ransomware gang that claims to be a group of "investigative journalists"? Meet LeakNet - the group using fake CAPTCHA pages to trick employees into hacking themselves.
+
+Read more in my article on the Fortra blog.]]></description>
+		
+					<wfw:commentRss>https://www.fortra.com/blog/leaknet-ransomware-what-you-need-know/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Smashing Security podcast #459: This clever scam nearly hijacked a tech CEO&#8217;s Apple ID</title>
+		<link>https://grahamcluley.com/smashing-security-podcast-459/</link>
+					<comments>https://grahamcluley.com/smashing-security-podcast-459/#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Thu, 19 Mar 2026 00:15:54 +0000</pubDate>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Phishing]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Apple ID]]></category>
+		<category><![CDATA[healthcare]]></category>
+		<category><![CDATA[Matt Mullenweg]]></category>
+		<category><![CDATA[NHS]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[Smashing Security]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17350838</guid>
+
+					<description><![CDATA[In episode 459 of Smashing Security, we dive into a chillingly clever account takeover attempt targeting WordPress co-founder Matt Mullenweg - involving MFA fatigue, real Apple alerts, a convincing support call, and a phishing page that oh-so-nearly worked. If a famous techie could have this happen to you, can you be sure you're immune?
+
+Plus: would you donate your lifetime medical history to science if you were promised anonymity? We unpack serious concerns around UK Biobank, where “de-identified” data may not be as anonymous as you think — and how surprisingly little information it takes to reveal everything.
+
+And! Human-powered “AI”, and a punishment worse than prison: eight hours on the RSA expo floor...
+
+All this, and much more, in episode 459 of the "Smashing Security" podcast with cybersecurity veteran and keynote speaker Graham Cluley, and special guest Paul Ducklin.]]></description>
+		
+					<wfw:commentRss>https://grahamcluley.com/smashing-security-podcast-459/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Free parking in Russia after Distributed Denial-of-Service attack knocks city&#8217;s parking system offline</title>
+		<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/free-parking-russia-distributed-denial-of-service-attack-parking-system</link>
+					<comments>https://www.bitdefender.com/en-us/blog/hotforsecurity/free-parking-russia-distributed-denial-of-service-attack-parking-system#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Mon, 16 Mar 2026 17:27:34 +0000</pubDate>
+				<category><![CDATA[Denial of Service]]></category>
+		<category><![CDATA[Guest blog]]></category>
+		<category><![CDATA[DDoS]]></category>
+		<category><![CDATA[parking meter]]></category>
+		<category><![CDATA[russia]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17350828</guid>
+
+					<description><![CDATA[Drivers in the Russian city of Perm have been enjoying an unexpected bonus this week: free parking.
+
+Not because the city council suddenly decided to embrace generosity - but rather because hackers succeeded in knocking the city's payment system offline.
+
+Read more in my article on the Hot for Security blog.]]></description>
+		
+					<wfw:commentRss>https://www.bitdefender.com/en-us/blog/hotforsecurity/free-parking-russia-distributed-denial-of-service-attack-parking-system/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Fraudsters are using public planning records to target permit applicants</title>
+		<link>https://www.fortra.com/blog/fraudsters-are-using-public-planning-records-target-permit-applicants</link>
+					<comments>https://www.fortra.com/blog/fraudsters-are-using-public-planning-records-target-permit-applicants#respond</comments>
+		
+		<dc:creator><![CDATA[Graham Cluley]]></dc:creator>
+		<pubDate>Thu, 12 Mar 2026 18:31:52 +0000</pubDate>
+				<category><![CDATA[Guest blog]]></category>
+		<category><![CDATA[Law & order]]></category>
+		<category><![CDATA[Phishing]]></category>
+		<category><![CDATA[Spam]]></category>
+		<category><![CDATA[phishing]]></category>
+		<guid isPermaLink="false">https://grahamcluley.com/?p=17350833</guid>
+
+					<description><![CDATA[If you're in the middle of applying for a planning or zoning permit, there is some unwelcome news: cyber-criminals have found a way to exploit the bureaucratic tedium of the process against you.
+
+Read more in my article on the Fortra blog.]]></description>
+		
+					<wfw:commentRss>https://www.fortra.com/blog/fraudsters-are-using-public-planning-records-target-permit-applicants/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

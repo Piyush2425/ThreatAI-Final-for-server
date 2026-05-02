@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:atom="http://www.w3.org/2005/Atom"
+        >
+
+<channel>
+        <title>BleepingComputer</title>
+
+        <link>https://www.bleepingcomputer.com/</link>
+        <description>BleepingComputer - All Stories</description>
+        <pubDate>Fri, 24 Apr 2026 03:34:49 GMT</pubDate>
+        <generator>https://www.bleepingcomputer.com/</generator>
+        <language>en</language>
+        <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
+        
+ <item>
+        <title>Hackers exploit file upload bug in Breeze Cache WordPress plugin</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-file-upload-bug-in-breeze-cache-wordpress-plugin/</link>
+        <pubDate>Thu, 23 Apr 2026 17:33:45 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-file-upload-bug-in-breeze-cache-wordpress-plugin/</guid>
+        <description><![CDATA[Hackers are actively exploiting a critical vulnerability in the Breeze Cache plugin for WordPress that allows uploading arbitrary files on the server without authentication. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Bitwarden CLI npm package compromised to steal developer credentials</title>
+        <link>https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/</link>
+        <pubDate>Thu, 23 Apr 2026 15:21:01 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/</guid>
+        <description><![CDATA[The Bitwarden CLI was briefly compromised after attackers uploaded a malicious @bitwarden/cli package to npm containing a credential-stealing payload capable of spreading to other projects. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Trigona ransomware attacks use custom exfiltration tool to steal data</title>
+        <link>https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/</link>
+        <pubDate>Thu, 23 Apr 2026 14:59:39 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/</guid>
+        <description><![CDATA[Recently observed Trigona ransomware attacks are using a custom, command-line tool to steal data from compromised environments faster and more efficiently. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New Checkmarx supply-chain breach affects KICS analysis tool</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-checkmarx-supply-chain-breach-affects-kics-analysis-tool/</link>
+        <pubDate>Thu, 23 Apr 2026 12:05:12 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-checkmarx-supply-chain-breach-affects-kics-analysis-tool/</guid>
+        <description><![CDATA[Hackers have compromised Docker images, VSCode and Open VSX extensions for the Checkmarx KICS analysis tool to harvest sensitive data from developer environments. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Cosmetics giant Rituals discloses data breach affecting customers</title>
+        <link>https://www.bleepingcomputer.com/news/security/cosmetics-giant-rituals-discloses-data-breach-affecting-customers/</link>
+        <pubDate>Thu, 23 Apr 2026 10:16:21 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cosmetics-giant-rituals-discloses-data-breach-affecting-customers/</guid>
+        <description><![CDATA[Dutch cosmetics giant Rituals disclosed a data breach after attackers stole the personal information of an undisclosed number of customers from its "My Rituals" membership database. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Regular Password Resets Aren’t as Safe as You Think</title>
+        <link>https://www.bleepingcomputer.com/news/security/regular-password-resets-arent-as-safe-as-you-think/</link>
+        <pubDate>Thu, 23 Apr 2026 10:10:20 -0400</pubDate>
+        <dc:creator>Sponsored by Specops Software</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/regular-password-resets-arent-as-safe-as-you-think/</guid>
+        <description><![CDATA[Password resets are one of the easiest ways for attackers to bypass security controls. Specops Software shows how helpdesk social engineering turns a seemingly legitimate reset request into full account compromise. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft: Some Teams users can’t join meetings after Edge update</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-some-teams-users-cant-join-meetings-after-edge-update/</link>
+        <pubDate>Thu, 23 Apr 2026 09:18:10 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-some-teams-users-cant-join-meetings-after-edge-update/</guid>
+        <description><![CDATA[Microsoft confirmed that a recent Microsoft Edge browser update introduced a bug that prevents Windows users from joining Teams meetings. [...]]]></description>
+ </item>
+
+ <item>
+        <title>UK warns of Chinese hackers using proxy networks to evade detection</title>
+        <link>https://www.bleepingcomputer.com/news/security/uk-warns-of-chinese-hackers-using-botnets-of-hijacked-consumer-devices-to-evade-detection/</link>
+        <pubDate>Thu, 23 Apr 2026 08:28:39 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/uk-warns-of-chinese-hackers-using-botnets-of-hijacked-consumer-devices-to-evade-detection/</guid>
+        <description><![CDATA[The United Kingdom's National Cyber Security Centre (NCSC-UK) and international partners warned that China-nexus hackers are increasingly using large-scale proxy networks of hijacked consumer devices to evade detection and disguise their malicious activity. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New GopherWhisper APT group abuses Outlook, Slack, Discord for comms</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-gopherwhisper-apt-group-abuses-outlook-slack-discord-for-comms/</link>
+        <pubDate>Thu, 23 Apr 2026 08:06:18 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-gopherwhisper-apt-group-abuses-outlook-slack-discord-for-comms/</guid>
+        <description><![CDATA[A previously undocumented state-backed threat actor named GopherWhisper is using a Go-based custom toolkit and legitimate services like Microsoft 365 Outlook, Slack, and Discord in attacks against government entities. [...]]]></description>
+ </item>
+
+ <item>
+        <title>CISA orders feds to patch BlueHammer flaw exploited as zero-day</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/</link>
+        <pubDate>Thu, 23 Apr 2026 07:05:57 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/</guid>
+        <description><![CDATA[CISA has ordered U.S. federal agencies to patch a Microsoft Defender privilege escalation flaw (dubbed BlueHammer) that has been exploited in zero-day attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Apple fixes bug that let the FBI recover deleted Signal messages</title>
+        <link>https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/</link>
+        <pubDate>Wed, 22 Apr 2026 16:58:58 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/</guid>
+        <description><![CDATA[Apple has released out-of-band security updates for iPhone and iPad devices to fix a Notification Services flaw that could allow notifications marked for deletion to remain stored on the device. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New Mirai campaign exploits RCE flaw in EoL D-Link routers</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/</link>
+        <pubDate>Wed, 22 Apr 2026 16:04:46 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Hardware]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/</guid>
+        <description><![CDATA[A new Mirai-based malware campaign is actively exploiting CVE-2025-29635, a high-severity command-injection vulnerability affecting D-Link DIR-823X routers, to enlist devices into the botnet. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Kyber ransomware gang toys with post-quantum encryption on Windows</title>
+        <link>https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/</link>
+        <pubDate>Wed, 22 Apr 2026 14:52:29 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/</guid>
+        <description><![CDATA[A new Kyber ransomware operation is targeting Windows systems and VMware ESXi endpoints in recent attacks, with one variant implementing Kyber1024 post-quantum encryption. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Spain dismantles major $4.7M manga piracy platform, arrests four</title>
+        <link>https://www.bleepingcomputer.com/news/security/spain-dismantles-major-47m-manga-piracy-platform-arrests-four/</link>
+        <pubDate>Wed, 22 Apr 2026 11:06:34 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/spain-dismantles-major-47m-manga-piracy-platform-arrests-four/</guid>
+        <description><![CDATA[The Spanish police have dismantled the largest Spanish-language manga piracy platform, operating since 2014, with millions of monthly users from around the globe. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Inside Caller-as-a-Service Fraud: The Scam Economy Has a Hiring Process</title>
+        <link>https://www.bleepingcomputer.com/news/security/inside-caller-as-a-service-fraud-the-scam-economy-has-a-hiring-process/</link>
+        <pubDate>Wed, 22 Apr 2026 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Flare</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/inside-caller-as-a-service-fraud-the-scam-economy-has-a-hiring-process/</guid>
+        <description><![CDATA[Fraud operations now operate like call centers, complete with hiring, training, and performance tracking. Flare reveals how cybercriminals manage "Caller-as-a-Service" operations like a professional sales team. [...]]]></description>
+ </item>
+
+</channel>
+</rss>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SecurityWeek</title>
+	<atom:link href="https://www.securityweek.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.securityweek.com/</link>
+	<description>Cybersecurity News, Insights &#38; Analysis</description>
+	<lastBuildDate>Thu, 23 Apr 2026 15:04:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg</url>
+	<title>SecurityWeek</title>
+	<link>https://www.securityweek.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Cloudsmith Raises $72 Million in Series C Funding</title>
+		<link>https://www.securityweek.com/cloudsmith-raises-72-million-in-series-c-funding/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 15:03:59 +0000</pubDate>
+				<category><![CDATA[Cybersecurity Funding]]></category>
+		<category><![CDATA[Cloudsmith]]></category>
+		<category><![CDATA[funding]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46196</guid>
+
+					<description><![CDATA[<p>The company will use the investment to accelerate product development and grow go-to-market efforts.</p>
+<p>The post <a href="https://www.securityweek.com/cloudsmith-raises-72-million-in-series-c-funding/">Cloudsmith Raises $72 Million in Series C Funding</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Chinese Cybersecurity Firm&#8217;s AI Hacking Claims Draw Comparisons to Claude Mythos</title>
+		<link>https://www.securityweek.com/chinese-cybersecurity-firms-ai-hacking-claims-draw-comparisons-to-claude-mythos/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 12:36:45 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[Mythos]]></category>
+		<category><![CDATA[Qihoo 360]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46195</guid>
+
+					<description><![CDATA[<p>360 Digital Security Group claims to have uncovered 1,000 vulnerabilities using AI, including at the Tianfu Cup hacking contest.</p>
+<p>The post <a href="https://www.securityweek.com/chinese-cybersecurity-firms-ai-hacking-claims-draw-comparisons-to-claude-mythos/">Chinese Cybersecurity Firm&#8217;s AI Hacking Claims Draw Comparisons to Claude Mythos</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Rilian Raises $17.5 Million for AI-Native Security Orchestration</title>
+		<link>https://www.securityweek.com/rilian-raises-17-5-million-for-ai-native-security-orchestration/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 11:45:30 +0000</pubDate>
+				<category><![CDATA[Cybersecurity Funding]]></category>
+		<category><![CDATA[funding]]></category>
+		<category><![CDATA[Rilian]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46194</guid>
+
+					<description><![CDATA[<p>The company will hire new talent and expand operations across the US and other allied countries.</p>
+<p>The post <a href="https://www.securityweek.com/rilian-raises-17-5-million-for-ai-native-security-orchestration/">Rilian Raises $17.5 Million for AI-Native Security Orchestration</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The Behavioral Shift: Why Trusted Relationships Are the Newest Attack Surface</title>
+		<link>https://www.securityweek.com/the-behavioral-shift-why-trusted-relationships-are-the-newest-attack-surface/</link>
+		
+		<dc:creator><![CDATA[Kevin Townsend]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 11:06:44 +0000</pubDate>
+				<category><![CDATA[Email Security]]></category>
+		<category><![CDATA[Phishing]]></category>
+		<category><![CDATA[phishing]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46189</guid>
+
+					<description><![CDATA[<p>New analysis from Abnormal AI reveals how attackers have abandoned technical exploits to weaponize routine workflows and internal trust.</p>
+<p>The post <a href="https://www.securityweek.com/the-behavioral-shift-why-trusted-relationships-are-the-newest-attack-surface/">The Behavioral Shift: Why Trusted Relationships Are the Newest Attack Surface</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Luxury Cosmetics Giant Rituals Discloses Data Breach</title>
+		<link>https://www.securityweek.com/luxury-cosmetics-giant-rituals-discloses-data-breach/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 11:04:51 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Rituals]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46191</guid>
+
+					<description><![CDATA[<p>The company is notifying My Rituals members that hackers downloaded part of their data, including names and addresses.</p>
+<p>The post <a href="https://www.securityweek.com/luxury-cosmetics-giant-rituals-discloses-data-breach/">Luxury Cosmetics Giant Rituals Discloses Data Breach</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AI Can Autonomously Hack Cloud Systems With Minimal Oversight: Researchers </title>
+		<link>https://www.securityweek.com/ai-can-autonomously-hack-cloud-systems-with-minimal-oversight-researchers/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 10:09:40 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[autonomous hacking]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46187</guid>
+
+					<description><![CDATA[<p>Palo Alto Networks has developed Zealot, a multi-agent penetration testing PoC capable of reconnaissance, exploitation, and exfiltration. </p>
+<p>The post <a href="https://www.securityweek.com/ai-can-autonomously-hack-cloud-systems-with-minimal-oversight-researchers/">AI Can Autonomously Hack Cloud Systems With Minimal Oversight: Researchers </a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Apple Patches iOS Flaw Allowing Recovery of Deleted Chats</title>
+		<link>https://www.securityweek.com/apple-patches-ios-flaw-allowing-recovery-of-deleted-chats/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 08:50:19 +0000</pubDate>
+				<category><![CDATA[Data Protection]]></category>
+		<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[data recovery]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[Patch]]></category>
+		<category><![CDATA[Signal]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46186</guid>
+
+					<description><![CDATA[<p>Apple rolled out the security patches for dozens of iPhone and iPad models and generations.</p>
+<p>The post <a href="https://www.securityweek.com/apple-patches-ios-flaw-allowing-recovery-of-deleted-chats/">Apple Patches iOS Flaw Allowing Recovery of Deleted Chats</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Recent Microsoft Defender Vulnerability Exploited as Zero-Day</title>
+		<link>https://www.securityweek.com/recent-microsoft-defender-vulnerability-exploited-as-zero-day/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 08:00:36 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[BlueHammer]]></category>
+		<category><![CDATA[exploited]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Microsoft Defender]]></category>
+		<category><![CDATA[RedSun]]></category>
+		<category><![CDATA[UnDefend]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46185</guid>
+
+					<description><![CDATA[<p>The flaw allows attackers to access the SAM database, extract NTLM hashes, and gain System privileges.</p>
+<p>The post <a href="https://www.securityweek.com/recent-microsoft-defender-vulnerability-exploited-as-zero-day/">Recent Microsoft Defender Vulnerability Exploited as Zero-Day</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>After Bluesky, Mastodon Targeted in DDoS Attack</title>
+		<link>https://www.securityweek.com/after-bluesky-mastodon-targeted-in-ddos-attack/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 14:26:00 +0000</pubDate>
+				<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[DDoS]]></category>
+		<category><![CDATA[Mastodon]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46182</guid>
+
+					<description><![CDATA[<p>The DDoS attack caused a major outage, but Mastodon mitigated it within a few hours.</p>
+<p>The post <a href="https://www.securityweek.com/after-bluesky-mastodon-targeted-in-ddos-attack/">After Bluesky, Mastodon Targeted in DDoS Attack</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Most Serious Cyberattacks Against the UK Now From Russia, Iran and China, Cyber Chief Says</title>
+		<link>https://www.securityweek.com/most-serious-cyberattacks-against-the-uk-now-from-russia-iran-and-china-cyber-chief-says/</link>
+		
+		<dc:creator><![CDATA[Associated Press]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 12:57:01 +0000</pubDate>
+				<category><![CDATA[Cyberwarfare]]></category>
+		<category><![CDATA[NCSC]]></category>
+		<category><![CDATA[UK]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46181</guid>
+
+					<description><![CDATA[<p>British businesses need to prepare themselves to defend against cyberattacks because the U.K. could be targeted “at scale,” if it became involved in an international conflict.</p>
+<p>The post <a href="https://www.securityweek.com/most-serious-cyberattacks-against-the-uk-now-from-russia-iran-and-china-cyber-chief-says/">Most Serious Cyberattacks Against the UK Now From Russia, Iran and China, Cyber Chief Says</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>
