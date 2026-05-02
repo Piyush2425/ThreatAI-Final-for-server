@@ -41,6 +41,7 @@ class AnswerExtractor:
             QueryIntent.ASSOCIATIONS: self._extract_associations,
             QueryIntent.TARGETS: self._extract_targets,
             QueryIntent.TOOLS: self._extract_tools,
+            QueryIntent.VULNERABILITIES: self._extract_vulnerabilities,
             QueryIntent.ORIGIN: self._extract_origin,
             QueryIntent.CAMPAIGNS: self._extract_campaigns,
             QueryIntent.TIMELINE: self._extract_timeline,
@@ -419,6 +420,76 @@ class AnswerExtractor:
             'extracted_info': tools,
             'summary': summary,
             'confidence': min(len(tools) * 0.2, 0.8)
+        }
+
+    def _extract_vulnerabilities(self, evidence: List[Dict[str, Any]], query: str) -> Dict[str, Any]:
+        """Extract vulnerabilities, CVEs, and exploit context from evidence."""
+        vulnerabilities = []
+        seen = set()
+
+        sentence_splitter = re.compile(r'(?<=[.!?])\s+')
+        cve_pattern = re.compile(r'\bCVE-\d{4}-\d+\b', re.IGNORECASE)
+        vuln_keywords = re.compile(r'\b(vulnerabilit(?:y|ies)|zero[- ]?day|0[- ]?day|n[- ]?day|exploit(?:ed|ing|s)?|patched)\b', re.IGNORECASE)
+
+        def add_finding(name: str, context: str, source: str):
+            cleaned = name.strip()
+            if not cleaned:
+                return
+            key = cleaned.lower()
+            if key in seen:
+                return
+            vulnerabilities.append({
+                'vulnerability': cleaned,
+                'context': context[:260] + '...' if len(context) > 260 else context,
+                'source': source,
+            })
+            seen.add(key)
+
+        for chunk in evidence:
+            text = chunk.get('text', '')
+            metadata = chunk.get('metadata', {})
+            source = metadata.get('source_field', 'description')
+
+            for cve in cve_pattern.findall(text):
+                add_finding(cve.upper(), text, source)
+
+            lowered = text.lower()
+            if vuln_keywords.search(text):
+                for sentence in sentence_splitter.split(text):
+                    if vuln_keywords.search(sentence):
+                        sentence_text = sentence.strip()
+                        if len(sentence_text) < 20:
+                            continue
+                        match = cve_pattern.search(sentence_text)
+                        if match:
+                            add_finding(match.group(0).upper(), sentence_text, source)
+                            continue
+
+                        exploit_match = re.search(
+                            r'((?:[A-Z][A-Za-z0-9]+(?:\s+[A-Z][A-Za-z0-9]+){0,4}|[A-Z][A-Za-z0-9-]+\d{0,4}(?:[A-Z][A-Za-z0-9-]+)*)\s+(?:vulnerability|exploit(?:ed|ing|s)?|zero[- ]?day|0[- ]?day))',
+                            sentence_text,
+                        )
+                        if exploit_match:
+                            add_finding(exploit_match.group(1).strip(), sentence_text, source)
+                        else:
+                            snippet = sentence_text[:140]
+                            add_finding(snippet, sentence_text, source)
+
+        summary_lines = ["**Exploited Vulnerabilities**"]
+        if vulnerabilities:
+            for finding in vulnerabilities[:8]:
+                summary_lines.append(f"- {finding['vulnerability']}")
+                if finding.get('context'):
+                    clean_context = re.sub(r'\s+', ' ', finding['context']).strip()
+                    summary_lines.append(f"  Context: {clean_context[:220]}")
+        else:
+            summary_lines.append("No specific CVEs or named vulnerabilities were identified in the available evidence.")
+            summary_lines.append("The evidence instead points to a pattern of phishing, zero-days, and exploitation of exposed services.")
+
+        return {
+            'extracted_info': vulnerabilities,
+            'summary': "\n".join(summary_lines).strip(),
+            'confidence': min(max(len(vulnerabilities) * 0.2, 0.25), 1.0),
         }
     
     def _extract_origin(self, evidence: List[Dict[str, Any]], query: str) -> Dict[str, Any]:
@@ -969,6 +1040,19 @@ class AnswerExtractor:
         summary = "**Tools & Malware**\n"
         summary += ", ".join(tool_names)
         return summary
+
+    def _format_vulnerabilities_summary(self, vulnerabilities: List[Dict], query: str) -> str:
+        """Format vulnerability findings into a summary."""
+        if not vulnerabilities:
+            return (
+                "No specific CVEs or named vulnerabilities were identified in the available data.\n"
+                "The evidence instead points to a pattern of phishing, zero-days, and exploitation of exposed services."
+            )
+
+        summary = "**Exploited Vulnerabilities**\n"
+        for finding in vulnerabilities[:8]:
+            summary += f"- {finding['vulnerability']}\n"
+        return summary.strip()
     
     def _format_origin_summary(self, origin: Dict, query: str) -> str:
         """Format origin information into a summary."""

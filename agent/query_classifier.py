@@ -14,6 +14,7 @@ class QueryIntent(Enum):
     ASSOCIATIONS = "associations"  # Related actors, connections
     TARGETS = "targets"  # Victims, sectors, regions
     TOOLS = "tools"  # Malware, toolsets, infrastructure
+    VULNERABILITIES = "vulnerabilities"  # CVEs, zero-days, exploited flaws
     ORIGIN = "origin"  # Country, attribution
     CAMPAIGNS = "campaigns"  # Specific operations
     TIMELINE = "timeline"  # Activity period, first seen
@@ -57,6 +58,10 @@ class QueryClassifier:
             "tool", "tools", "malware", "backdoor", "trojan", "rat",
             "implant", "payload", "exploit", "software", "infrastructure",
             "c2", "command and control", "domain", "ip"
+        ],
+        QueryIntent.VULNERABILITIES: [
+            "vulnerability", "vulnerabilities", "cve", "zero-day", "0-day",
+            "n-day", "patched", "exploit chain", "exploited flaw"
         ],
         QueryIntent.ORIGIN: [
             "origin", "country", "from", "where", "location", "nation",
@@ -201,6 +206,21 @@ class QueryClassifier:
                 'confidence': 0.9,
                 'all_scores': {QueryIntent.OVERVIEW: 9}
             }
+
+        vulnerability_patterns = [
+            r'\bvulnerabilit(?:y|ies)\b',
+            r'\bcve-\d{4}-\d+\b',
+            r'\b(?:zero|0)[- ]?day\b',
+            r'\bn[- ]?day\b',
+        ]
+        if any(re.search(pattern, query_lower) for pattern in vulnerability_patterns):
+            logger.info("Classified query as: vulnerabilities (explicit vulnerability terms matched)")
+            return {
+                'primary_intent': QueryIntent.VULNERABILITIES,
+                'secondary_intents': [],
+                'confidence': 0.9,
+                'all_scores': {QueryIntent.VULNERABILITIES: 9}
+            }
         
         # Score each intent
         intent_scores = {}
@@ -296,6 +316,14 @@ class QueryClassifier:
                 'look_for_patterns': [
                     r'malware', r'backdoor', r'trojan', r'RAT', r'implant',
                     r'tool', r'exploit', r'c2', r'infrastructure'
+                ],
+                'response_format': 'list'
+            },
+            QueryIntent.VULNERABILITIES: {
+                'focus_on': ['vulnerabilities', 'CVEs', 'zero-days', 'exploits'],
+                'look_for_patterns': [
+                    r'vulnerabilit', r'cve-\d{4}-\d+', r'zero[- ]?day',
+                    r'0[- ]?day', r'n[- ]?day', r'patch(ed|ing)'
                 ],
                 'response_format': 'list'
             },
