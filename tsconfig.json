@@ -25,6 +25,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
+    "ignoreDeprecations": "6.0",
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
