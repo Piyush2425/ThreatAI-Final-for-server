@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SecurityWeek</title>
+	<atom:link href="https://www.securityweek.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.securityweek.com/</link>
+	<description>Cybersecurity News, Insights &#38; Analysis</description>
+	<lastBuildDate>Tue, 05 May 2026 09:27:19 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg</url>
+	<title>SecurityWeek</title>
+	<link>https://www.securityweek.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>MetInfo, Weaver E-cology Vulnerabilities in Attackers&#8217; Crosshairs</title>
+		<link>https://www.securityweek.com/metinfo-weaver-e-cology-vulnerabilities-in-attackers-crosshairs/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 09:27:14 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[exploited]]></category>
+		<category><![CDATA[MetInfo]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<category><![CDATA[Weaver E-cology]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46331</guid>
+
+					<description><![CDATA[<p>The security defects allow unauthenticated, remote attackers to execute arbitrary code through crafted requests.</p>
+<p>The post <a href="https://www.securityweek.com/metinfo-weaver-e-cology-vulnerabilities-in-attackers-crosshairs/">MetInfo, Weaver E-cology Vulnerabilities in Attackers&#8217; Crosshairs</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>WhatsApp Discloses File Spoofing, Arbitrary URL Scheme Vulnerabilities</title>
+		<link>https://www.securityweek.com/whatsapp-discloses-file-spoofing-arbitrary-url-scheme-vulnerabilities/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 09:01:14 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Patch]]></category>
+		<category><![CDATA[spoofing]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<category><![CDATA[WhatsApp]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46330</guid>
+
+					<description><![CDATA[<p>The vulnerabilities were reported to Meta through its bug bounty program and were patched with updates released earlier this year.</p>
+<p>The post <a href="https://www.securityweek.com/whatsapp-discloses-file-spoofing-arbitrary-url-scheme-vulnerabilities/">WhatsApp Discloses File Spoofing, Arbitrary URL Scheme Vulnerabilities</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Cisco Moves to Acquire Astrix Security to Tackle Non-Human Identity Risks</title>
+		<link>https://www.securityweek.com/cisco-moves-to-acquire-astrix-security-to-tackle-non-human-identity-risks/</link>
+		
+		<dc:creator><![CDATA[Mike Lennon]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 19:00:26 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Identity & Access]]></category>
+		<category><![CDATA[Acquisition]]></category>
+		<category><![CDATA[Cisco]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46325</guid>
+
+					<description><![CDATA[<p>The acquisition strengthens Cisco’s push into identity-centric security for AI and machine access.</p>
+<p>The post <a href="https://www.securityweek.com/cisco-moves-to-acquire-astrix-security-to-tackle-non-human-identity-risks/">Cisco Moves to Acquire Astrix Security to Tackle Non-Human Identity Risks</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Trellix Source Code Repository Breached</title>
+		<link>https://www.securityweek.com/trellix-source-code-repository-breached/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 17:23:54 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[security company hacked]]></category>
+		<category><![CDATA[source code]]></category>
+		<category><![CDATA[Trellix]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46322</guid>
+
+					<description><![CDATA[<p>The cybersecurity firm’s investigation has not found any impact on its source code release or distribution process. </p>
+<p>The post <a href="https://www.securityweek.com/trellix-source-code-repository-breached/">Trellix Source Code Repository Breached</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Cybersecurity M&#038;A Roundup: 33 Deals Announced in April 2026</title>
+		<link>https://www.securityweek.com/cybersecurity-ma-roundup-33-deals-announced-in-april-2026/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 13:02:28 +0000</pubDate>
+				<category><![CDATA[Funding/M&A]]></category>
+		<category><![CDATA[M&A Tracker]]></category>
+		<category><![CDATA[Acquisitions]]></category>
+		<category><![CDATA[M&A]]></category>
+		<category><![CDATA[Mergers]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46320</guid>
+
+					<description><![CDATA[<p>Significant cybersecurity M&#038;A deals announced by Airbus, Cyera, Fortra, Palo Alto Networks, Silverfort, and Socket.</p>
+<p>The post <a href="https://www.securityweek.com/cybersecurity-ma-roundup-33-deals-announced-in-april-2026/">Cybersecurity M&#038;A Roundup: 33 Deals Announced in April 2026</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>DigiCert Revokes Certificates After Support Portal Hack</title>
+		<link>https://www.securityweek.com/digicert-revokes-certificates-after-support-portal-hack/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 12:46:53 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[certificates]]></category>
+		<category><![CDATA[DigiCert]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[malware]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46318</guid>
+
+					<description><![CDATA[<p>Hackers delivered malware via a customer chat channel, infected an analyst’s system, and accessed the internal support portal.</p>
+<p>The post <a href="https://www.securityweek.com/digicert-revokes-certificates-after-support-portal-hack/">DigiCert Revokes Certificates After Support Portal Hack</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Exploitation of &#8216;Copy Fail&#8217; Linux Vulnerability Begins</title>
+		<link>https://www.securityweek.com/exploitation-of-copy-fail-linux-vulnerability-begins/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 10:42:33 +0000</pubDate>
+				<category><![CDATA[Endpoint Security]]></category>
+		<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[Copy Fail]]></category>
+		<category><![CDATA[exploited]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Linux vulnerability]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46317</guid>
+
+					<description><![CDATA[<p>CISA has added the bug to its KEV list, and Microsoft has observed limited exploitation, mainly associated with PoC testing.</p>
+<p>The post <a href="https://www.securityweek.com/exploitation-of-copy-fail-linux-vulnerability-begins/">Exploitation of &#8216;Copy Fail&#8217; Linux Vulnerability Begins</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>OpenAI Rolls Out Advanced Security for ChatGPT Accounts</title>
+		<link>https://www.securityweek.com/openai-rolls-out-advanced-security-for-chatgpt-accounts/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 09:29:30 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Identity & Access]]></category>
+		<category><![CDATA[account security]]></category>
+		<category><![CDATA[Advanced Account Security]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46316</guid>
+
+					<description><![CDATA[<p>Advanced Account Security provides stronger login methods, more secure account recovery, shorter sessions, and training exclusion.</p>
+<p>The post <a href="https://www.securityweek.com/openai-rolls-out-advanced-security-for-chatgpt-accounts/">OpenAI Rolls Out Advanced Security for ChatGPT Accounts</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Over 40,000 Servers Compromised in Ongoing cPanel Exploitation</title>
+		<link>https://www.securityweek.com/over-40000-servers-compromised-in-ongoing-cpanel-exploitation/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 08:25:04 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[cPanel]]></category>
+		<category><![CDATA[exploited]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46312</guid>
+
+					<description><![CDATA[<p>The attacks likely target CVE-2026-41940, a recently patched zero-day leading to administrative access.</p>
+<p>The post <a href="https://www.securityweek.com/over-40000-servers-compromised-in-ongoing-cpanel-exploitation/">Over 40,000 Servers Compromised in Ongoing cPanel Exploitation</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Edtech Firm Instructure Discloses Data Breach Amid Hacker Leak Threats</title>
+		<link>https://www.securityweek.com/edtech-firm-instructure-discloses-data-breach/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 07:02:51 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[education]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Instructure]]></category>
+		<category><![CDATA[ShinyHunters]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46309</guid>
+
+					<description><![CDATA[<p>Hackers disrupted services and stole names, email addresses, student ID numbers, and user messages.</p>
+<p>The post <a href="https://www.securityweek.com/edtech-firm-instructure-discloses-data-breach/">Edtech Firm Instructure Discloses Data Breach Amid Hacker Leak Threats</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Cyber Defense Magazine</title>
+	<atom:link href="https://www.cyberdefensemagazine.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.cyberdefensemagazine.com/</link>
+	<description>InfoSec  Knowledge is Power</description>
+	<lastBuildDate>Thu, 30 Apr 2026 17:37:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://www.cyberdefensemagazine.com/wp-content/uploads/2019/01/cropped-cdm-logo-2019-1-150x150.png</url>
+	<title>Cyber Defense Magazine</title>
+	<link>https://www.cyberdefensemagazine.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Innovator Spotlight: The Open Group</title>
+		<link>https://www.cyberdefensemagazine.com/innovator-spotlight-the-open-group/</link>
+		
+		<dc:creator><![CDATA[Gary Miliefsky]]></dc:creator>
+		<pubDate>Thu, 30 Apr 2026 17:37:10 +0000</pubDate>
+				<category><![CDATA[Spotlight]]></category>
+		<category><![CDATA[Compliance Framework]]></category>
+		<category><![CDATA[Cybersecurity Standards]]></category>
+		<category><![CDATA[Enterprise Security Architecture]]></category>
+		<category><![CDATA[Governance Models]]></category>
+		<category><![CDATA[Risk Accountability]]></category>
+		<category><![CDATA[Security Responsibilities]]></category>
+		<category><![CDATA[Security Roles Framework]]></category>
+		<category><![CDATA[SOC operations]]></category>
+		<category><![CDATA[Workforce Security]]></category>
+		<category><![CDATA[Zero Trust Roles]]></category>
+		<guid isPermaLink="false">https://www.cyberdefensemagazine.com/?p=61696</guid>
+
+					<description><![CDATA[<img width="800" height="533" src="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/theopengroupspot26.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" decoding="async" fetchpriority="high" srcset="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/theopengroupspot26.jpg 800w, https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/theopengroupspot26-768x512.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /><p>The Open Group’s Quiet Revolution In Security Roles If you have been around this industry long enough to remember the Unix wars, you already know that most &#8220;new&#8221; ideas in...</p>
+<p>The post <a href="https://www.cyberdefensemagazine.com/innovator-spotlight-the-open-group/" data-wpel-link="internal">Innovator Spotlight: The Open Group</a> appeared first on <a href="https://www.cyberdefensemagazine.com" data-wpel-link="internal">Cyber Defense Magazine</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Preparing For Hybrid Warfare: Actions To Take When The Cloud Goes Dark</title>
+		<link>https://www.cyberdefensemagazine.com/preparing-for-hybrid-warfare-actions-to-take-when-the-cloud-goes-dark/</link>
+		
+		<dc:creator><![CDATA[News team]]></dc:creator>
+		<pubDate>Thu, 30 Apr 2026 13:00:13 +0000</pubDate>
+				<guid isPermaLink="false">https://www.cyberdefensemagazine.com/?p=61548</guid>
+
+					<description><![CDATA[<img width="1024" height="768" src="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/Preparing-for-Hybrid-Warfare-Actions-to-take-when-the-cloud-goes-dark.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" decoding="async" srcset="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/Preparing-for-Hybrid-Warfare-Actions-to-take-when-the-cloud-goes-dark.jpg 1024w, https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/Preparing-for-Hybrid-Warfare-Actions-to-take-when-the-cloud-goes-dark-768x576.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><p>By the end of 2024, Amazon reported detecting approximately 750 million cyberthreat or intrusion attempts per day, which was up from 100 million over the past six or seven months, according...</p>
+<p>The post <a href="https://www.cyberdefensemagazine.com/preparing-for-hybrid-warfare-actions-to-take-when-the-cloud-goes-dark/" data-wpel-link="internal">Preparing For Hybrid Warfare: Actions To Take When The Cloud Goes Dark</a> appeared first on <a href="https://www.cyberdefensemagazine.com" data-wpel-link="internal">Cyber Defense Magazine</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Operationalizing Cyber Resilience: A Practitioner’s Framework for Real-World Security Constraints</title>
+		<link>https://www.cyberdefensemagazine.com/operationalizing-cyber-resilience-a-practitioners-framework-for-real-world-security-constraints/</link>
+		
+		<dc:creator><![CDATA[News team]]></dc:creator>
+		<pubDate>Wed, 29 Apr 2026 13:00:36 +0000</pubDate>
+				<guid isPermaLink="false">https://www.cyberdefensemagazine.com/?p=61539</guid>
+
+					<description><![CDATA[<img width="1024" height="768" src="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/Operationalizing-Cyber-Resilience-A-Practitioners-Framework-for-Real-World-Security-Constraints.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" decoding="async" srcset="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/Operationalizing-Cyber-Resilience-A-Practitioners-Framework-for-Real-World-Security-Constraints.jpg 1024w, https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/Operationalizing-Cyber-Resilience-A-Practitioners-Framework-for-Real-World-Security-Constraints-768x576.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><p>Cybersecurity frameworks such as NIST CSF, ISO/IEC 27001, and the CIS Critical Security Controls have significantly contributed to standardizing security practices across industries. They provide a common language, define control...</p>
+<p>The post <a href="https://www.cyberdefensemagazine.com/operationalizing-cyber-resilience-a-practitioners-framework-for-real-world-security-constraints/" data-wpel-link="internal">Operationalizing Cyber Resilience: A Practitioner’s Framework for Real-World Security Constraints</a> appeared first on <a href="https://www.cyberdefensemagazine.com" data-wpel-link="internal">Cyber Defense Magazine</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Innovator Spotlight: Puneet Bhatnagar</title>
+		<link>https://www.cyberdefensemagazine.com/innovator-spotlight-puneet-bhatnagar/</link>
+		
+		<dc:creator><![CDATA[Gary]]></dc:creator>
+		<pubDate>Tue, 28 Apr 2026 17:42:21 +0000</pubDate>
+				<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Spotlight]]></category>
+		<category><![CDATA[access control]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI governance]]></category>
+		<category><![CDATA[authority control plane]]></category>
+		<category><![CDATA[Cyber Risk]]></category>
+		<category><![CDATA[cybersecurity innovation]]></category>
+		<category><![CDATA[decision-centric security]]></category>
+		<category><![CDATA[identity governance]]></category>
+		<category><![CDATA[Identity Security]]></category>
+		<category><![CDATA[zero trust]]></category>
+		<guid isPermaLink="false">https://www.cyberdefensemagazine.com/?p=61687</guid>
+
+					<description><![CDATA[<img width="800" height="534" src="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/puneetspot26.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" decoding="async" loading="lazy" srcset="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/puneetspot26.jpg 800w, https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/puneetspot26-768x513.jpg 768w" sizes="auto, (max-width: 800px) 100vw, 800px" /><p>AI Agents, Denominator Problems, and the New Authority Control Plane: Why Identity Governance Has to Grow Up Fast, and the Guy Who Can Get You There If you have been...</p>
+<p>The post <a href="https://www.cyberdefensemagazine.com/innovator-spotlight-puneet-bhatnagar/" data-wpel-link="internal">Innovator Spotlight: Puneet Bhatnagar</a> appeared first on <a href="https://www.cyberdefensemagazine.com" data-wpel-link="internal">Cyber Defense Magazine</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Cybersecurity Risks in 2026</title>
+		<link>https://www.cyberdefensemagazine.com/cybersecurity-risks-in-2026/</link>
+		
+		<dc:creator><![CDATA[News team]]></dc:creator>
+		<pubDate>Tue, 28 Apr 2026 13:00:36 +0000</pubDate>
+				<guid isPermaLink="false">https://www.cyberdefensemagazine.com/?p=61604</guid>
+
+					<description><![CDATA[<img width="1024" height="768" src="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/Cybersecurity-Risks-in-2026.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" decoding="async" loading="lazy" srcset="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/Cybersecurity-Risks-in-2026.jpg 1024w, https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/Cybersecurity-Risks-in-2026-768x576.jpg 768w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><p>Geopolitical shifts, the strategic use of key supply chains, and the rapid spread of generative AI are transforming how organizations handle risk. As we approach 2026, businesses must shift from...</p>
+<p>The post <a href="https://www.cyberdefensemagazine.com/cybersecurity-risks-in-2026/" data-wpel-link="internal">Cybersecurity Risks in 2026</a> appeared first on <a href="https://www.cyberdefensemagazine.com" data-wpel-link="internal">Cyber Defense Magazine</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Retro-Coding and the Roots of Logic: Why The Byte Brothers: Program a Problem Still Matters</title>
+		<link>https://www.cyberdefensemagazine.com/retro-coding-and-the-roots-of-logic-why-the-byte-brothers-program-a-problem-still-matters/</link>
+		
+		<dc:creator><![CDATA[Gary]]></dc:creator>
+		<pubDate>Tue, 28 Apr 2026 00:32:09 +0000</pubDate>
+				<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Popular]]></category>
+		<category><![CDATA[BASIC]]></category>
+		<category><![CDATA[coding education]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[interactive learning]]></category>
+		<category><![CDATA[logic]]></category>
+		<category><![CDATA[problem-solving]]></category>
+		<category><![CDATA[programming]]></category>
+		<category><![CDATA[retro computing]]></category>
+		<category><![CDATA[structured thinking]]></category>
+		<category><![CDATA[threat analysis]]></category>
+		<guid isPermaLink="false">https://www.cyberdefensemagazine.com/?p=61676</guid>
+
+					<description><![CDATA[<img width="800" height="533" src="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/bytebro.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" decoding="async" loading="lazy" srcset="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/bytebro.jpg 800w, https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/bytebro-768x512.jpg 768w" sizes="auto, (max-width: 800px) 100vw, 800px" /><p>Book Review: The Bytes Brothers Program a Problem (Solve-It-Yourself Computer Mystery) Imagine solving a mystery not by guessing the culprit, but by writing code. Long before modern cybersecurity, artificial intelligence,...</p>
+<p>The post <a href="https://www.cyberdefensemagazine.com/retro-coding-and-the-roots-of-logic-why-the-byte-brothers-program-a-problem-still-matters/" data-wpel-link="internal">Retro-Coding and the Roots of Logic: Why The Byte Brothers: Program a Problem Still Matters</a> appeared first on <a href="https://www.cyberdefensemagazine.com" data-wpel-link="internal">Cyber Defense Magazine</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Innovator Spotlight: TokenCore</title>
+		<link>https://www.cyberdefensemagazine.com/innovator-spotlight-tokencore/</link>
+		
+		<dc:creator><![CDATA[Gary]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 19:59:00 +0000</pubDate>
+				<category><![CDATA[Spotlight]]></category>
+		<category><![CDATA[Assured Identity]]></category>
+		<category><![CDATA[biometric authentication]]></category>
+		<category><![CDATA[Fingerprint Security]]></category>
+		<category><![CDATA[Hardware Authentication]]></category>
+		<category><![CDATA[Identity Protection]]></category>
+		<category><![CDATA[Identity Threat Prevention]]></category>
+		<category><![CDATA[MFA Bypass]]></category>
+		<category><![CDATA[Passwordless Security]]></category>
+		<category><![CDATA[Phishing Resistance]]></category>
+		<category><![CDATA[Zero Trust Identity]]></category>
+		<guid isPermaLink="false">https://www.cyberdefensemagazine.com/?p=61668</guid>
+
+					<description><![CDATA[<img width="800" height="533" src="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/tokencore.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" decoding="async" loading="lazy" srcset="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/tokencore.jpg 800w, https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/tokencore-768x512.jpg 768w" sizes="auto, (max-width: 800px) 100vw, 800px" /><p>TokenCore and The End of MFA As We Know It If you are a CISO still feeling smug about that big MFA rollout from the last two years, this one...</p>
+<p>The post <a href="https://www.cyberdefensemagazine.com/innovator-spotlight-tokencore/" data-wpel-link="internal">Innovator Spotlight: TokenCore</a> appeared first on <a href="https://www.cyberdefensemagazine.com" data-wpel-link="internal">Cyber Defense Magazine</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Platform Engineering: The Rise of a Disciplinary Rethink</title>
+		<link>https://www.cyberdefensemagazine.com/platform-engineering-the-rise-of-a-disciplinary-rethink/</link>
+		
+		<dc:creator><![CDATA[Stevin]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 13:36:08 +0000</pubDate>
+				<category><![CDATA[Featured]]></category>
+		<category><![CDATA[pvotal]]></category>
+		<guid isPermaLink="false">https://www.cyberdefensemagazine.com/?p=61663</guid>
+
+					<description><![CDATA[<img width="1024" height="768" src="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/Platform-Engineering-The-Rise-of-a-Disciplinary-Rethink.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" decoding="async" loading="lazy" srcset="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/Platform-Engineering-The-Rise-of-a-Disciplinary-Rethink.jpg 1024w, https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/Platform-Engineering-The-Rise-of-a-Disciplinary-Rethink-768x576.jpg 768w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><p>For years, organizations have celebrated the developer as the engine of innovation. They have invested in faster laptops, refined IDEs (Integrated Development Environments), and sprawling cloud environments, all in the...</p>
+<p>The post <a href="https://www.cyberdefensemagazine.com/platform-engineering-the-rise-of-a-disciplinary-rethink/" data-wpel-link="internal">Platform Engineering: The Rise of a Disciplinary Rethink</a> appeared first on <a href="https://www.cyberdefensemagazine.com" data-wpel-link="internal">Cyber Defense Magazine</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>60% Of Cyberattacks Are Identity Based — Is Identity First A Bad Idea?</title>
+		<link>https://www.cyberdefensemagazine.com/60-of-cyberattacks-are-identity-based-is-identity-first-a-bad-idea/</link>
+		
+		<dc:creator><![CDATA[News team]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 13:00:31 +0000</pubDate>
+				<guid isPermaLink="false">https://www.cyberdefensemagazine.com/?p=61600</guid>
+
+					<description><![CDATA[<img width="1024" height="768" src="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/60-of-Cyberattacks-Are-Identity-Based-—-Is-Identity-First-a-Bad-Idea.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" decoding="async" loading="lazy" srcset="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/60-of-Cyberattacks-Are-Identity-Based-—-Is-Identity-First-a-Bad-Idea.jpg 1024w, https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/60-of-Cyberattacks-Are-Identity-Based-—-Is-Identity-First-a-Bad-Idea-768x576.jpg 768w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><p>For years, cybersecurity has shifted from network perimeters to identity first approaches. Zero Trust calls for verifying identity before every access, and the industry embraced this idea and tried to...</p>
+<p>The post <a href="https://www.cyberdefensemagazine.com/60-of-cyberattacks-are-identity-based-is-identity-first-a-bad-idea/" data-wpel-link="internal">60% Of Cyberattacks Are Identity Based — Is Identity First A Bad Idea?</a> appeared first on <a href="https://www.cyberdefensemagazine.com" data-wpel-link="internal">Cyber Defense Magazine</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>From Threat Detection To Decision Intelligence: Rethinking Modern Cyber Defense</title>
+		<link>https://www.cyberdefensemagazine.com/from-threat-detection-to-decision-intelligence-rethinking-modern-cyber-defense/</link>
+		
+		<dc:creator><![CDATA[News team]]></dc:creator>
+		<pubDate>Sun, 26 Apr 2026 13:00:45 +0000</pubDate>
+				<guid isPermaLink="false">https://www.cyberdefensemagazine.com/?p=61596</guid>
+
+					<description><![CDATA[<img width="1024" height="768" src="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/From-Threat-Detection-to-Decision-Intelligence-Rethinking-Modern-Cyber-Defense.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" decoding="async" loading="lazy" srcset="https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/From-Threat-Detection-to-Decision-Intelligence-Rethinking-Modern-Cyber-Defense.jpg 1024w, https://www.cyberdefensemagazine.com/wp-content/uploads/2026/04/From-Threat-Detection-to-Decision-Intelligence-Rethinking-Modern-Cyber-Defense-768x576.jpg 768w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><p>The Illusion of Progress in Cyber Defence  Certainly, cyber defense has achieved an irrefutable advancement over the last ten years. The number of security tools being deployed by organisations, large amounts of telemetry being gathered, and threats are being identified faster than...</p>
+<p>The post <a href="https://www.cyberdefensemagazine.com/from-threat-detection-to-decision-intelligence-rethinking-modern-cyber-defense/" data-wpel-link="internal">From Threat Detection To Decision Intelligence: Rethinking Modern Cyber Defense</a> appeared first on <a href="https://www.cyberdefensemagazine.com" data-wpel-link="internal">Cyber Defense Magazine</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Page Caching using Disk: Enhanced (Page is feed) 
+Lazy Loading (feed)
+Minified using Disk
+Database Caching using Disk (Request-wide modification query)
+
+Served from: www.cyberdefensemagazine.com @ 2026-05-05 05:32:52 by W3 Total Cache
+-->

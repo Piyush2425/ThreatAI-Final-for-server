@@ -6,6 +6,7 @@ import hashlib
 import logging
 import re
 import time
+import json
 from datetime import datetime
 from difflib import SequenceMatcher
 from typing import Any, Dict, Optional
@@ -211,10 +212,27 @@ class QueryOrchestrator:
             query_type = ComparisonDetector.get_query_type(query_text, current_actor)
             logger.info("Query type: %s", query_type)
 
+            attributes = self._extract_attributes_with_mcp(query_text)
+            logger.info("Extracted attributes: %s", attributes)
+
             retrieval_start = time.time()
-            retrieval_result = self.retriever.retrieve_actor_scoped(query_text, retrieval_mode="full_actor")
+            actor_names = attributes.get('actor_names') if isinstance(attributes, dict) else None
+            if actor_names:
+                retrieval_result = self.retriever.retrieve_actor_scoped(query_text, retrieval_mode="full_actor")
+            elif attributes:
+                retrieval_result = self.retriever.retrieve_with_filters(
+                    query_text,
+                    attributes=attributes,
+                    top_k=5,
+                )
+            else:
+                retrieval_result = self.retriever.retrieve_actor_scoped(query_text, retrieval_mode="full_actor")
             retrieval_time = time.time() - retrieval_start
             logger.info("⏱️ Retrieval completed in %.2fs (mode: %s)", retrieval_time, retrieval_result.get("retrieval_mode", "hybrid"))
+
+            if not retrieval_result.get("evidence") and actor_names:
+                logger.info("Actor-scoped retrieval fallback triggered for actor names: %s", actor_names)
+                retrieval_result = self.retriever.retrieve_actor_scoped(query_text, retrieval_mode="full_actor")
 
             evidence = retrieval_result.get("evidence", [])
             response_mode = retrieval_result.get("response_mode", "adaptive")
@@ -328,6 +346,8 @@ class QueryOrchestrator:
                         "score": round(e.get("similarity_score", 0), 4),
                         "source": e["metadata"].get("source_field", "unknown"),
                         "actor": e["metadata"].get("actor_name", "unknown"),
+                        "source_system": e["metadata"].get("source_system", "unknown"),
+                        "source_ids": e["metadata"].get("source_ids", []),
                         "links": e["metadata"].get("information_sources", []),
                     }
                     for e in evidence
@@ -355,3 +375,55 @@ class QueryOrchestrator:
         except Exception as exc:
             logger.error("Error processing query: %s", exc)
             return {"error": str(exc)}
+
+    def _extract_attributes_with_mcp(self, query_text: str) -> Dict[str, Any]:
+        """Extract query attributes using the MCP hybrid prompt."""
+        if not self.interpreter or not getattr(self.interpreter, "use_ollama", False):
+            return self._extract_attributes_fallback(query_text)
+
+        try:
+            from agent.hybrid_prompts import SYSTEM_PROMPT_INTENT_CLASSIFIER
+        except Exception as exc:
+            logger.warning("Hybrid prompt load failed: %s", exc)
+            return {}
+
+        prompt = (
+            f"{SYSTEM_PROMPT_INTENT_CLASSIFIER}\n\n"
+            "User Query: "
+            f"{query_text}\n\n"
+            "Return ONLY JSON."
+        )
+
+        try:
+            raw = self.interpreter.llm.generate(prompt=prompt, temperature=0.2, max_tokens=350, timeout=60)
+            if not raw:
+                return self._extract_attributes_fallback(query_text)
+            extracted = json.loads(raw)
+            attrs = extracted.get('extracted_attributes') or {}
+            if isinstance(attrs, dict) and attrs:
+                return attrs
+            return self._extract_attributes_fallback(query_text)
+        except Exception as exc:
+            logger.warning("MCP attribute extraction failed: %s", exc)
+            return self._extract_attributes_fallback(query_text)
+
+    def _extract_attributes_fallback(self, query_text: str) -> Dict[str, Any]:
+        """Deterministically extract broad filters when MCP is empty."""
+        try:
+            from agent.hybrid_prompts import FILTER_MAPPINGS
+        except Exception:
+            FILTER_MAPPINGS = {}
+
+        query_lower = (query_text or "").lower()
+        attributes: Dict[str, Any] = {}
+
+        for term, mapping in FILTER_MAPPINGS.items():
+            if term in query_lower:
+                for key, value in mapping.items():
+                    existing = attributes.get(key)
+                    if existing is None:
+                        attributes[key] = [value]
+                    elif isinstance(existing, list) and value not in existing:
+                        existing.append(value)
+
+        return attributes

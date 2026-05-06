@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Security Archives - TechRepublic</title>
+	<atom:link href="https://www.techrepublic.com/rssfeeds/topic/security/?feedType=rssfeeds" rel="self" type="application/rss+xml" />
+	<link>https://www.techrepublic.com/topic/security/</link>
+	<description>News, Tips, and Advice for Technology Professionals</description>
+	<lastBuildDate>Tue, 05 May 2026 17:38:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>New WhatsApp Flaws Could Affect Billions of Users After Meta Security Patch</title>
+		<link>https://www.techrepublic.com/article/news-whatsapp-users-update-meta-security-flaws/</link>
+		
+		<dc:creator><![CDATA[Kezia Jungco]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 17:38:38 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[Social Media]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<category><![CDATA[security updates]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+		<category><![CDATA[whatsapp]]></category>
+		<category><![CDATA[windows security]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358165</guid>
+
+					<description><![CDATA[<p>Meta patched two WhatsApp flaws affecting iOS, Android, and Windows users, including bugs tied to risky files, links, and Reels previews.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-whatsapp-users-update-meta-security-flaws/">New WhatsApp Flaws Could Affect Billions of Users After Meta Security Patch</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google AppSheet Abuse Helped Phish 30,000 Facebook Accounts</title>
+		<link>https://www.techrepublic.com/article/news-google-appsheet-facebook-phishing-accountdumpling/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 16:46:16 +0000</pubDate>
+				<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Social Media]]></category>
+		<category><![CDATA[accountdumpling]]></category>
+		<category><![CDATA[credential theft]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[google appsheet]]></category>
+		<category><![CDATA[guardio]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[phishing]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358159</guid>
+
+					<description><![CDATA[<p>Hackers abused Google AppSheet to send Meta phishing emails, compromising 30,000 Facebook business accounts across 50 countries.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-google-appsheet-facebook-phishing-accountdumpling/">Google AppSheet Abuse Helped Phish 30,000 Facebook Accounts</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google Update: Android Flaw Could Put Billions of Devices at Risk</title>
+		<link>https://www.techrepublic.com/article/news-google-android-zero-click-rce-patch/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 16:29:02 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[cve-2026-0073]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<category><![CDATA[rce vulnerability]]></category>
+		<category><![CDATA[remote code execution]]></category>
+		<category><![CDATA[zero-click vulnerability]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358155</guid>
+
+					<description><![CDATA[<p>Google patched an Android zero-click RCE flaw affecting multiple versions. Here’s what IT teams should know and how to reduce mobile risk.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-google-android-zero-click-rce-patch/">Google Update: Android Flaw Could Put Billions of Devices at Risk</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What If Your Digital Footprint Could Shrink?</title>
+		<link>https://www.techrepublic.com/article/surfshark-one-incogni-2-year-plan/</link>
+		
+		<dc:creator><![CDATA[TechRepublic Academy]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 13:23:51 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[TR Academy]]></category>
+		<category><![CDATA[antivirus]]></category>
+		<category><![CDATA[identity protection]]></category>
+		<category><![CDATA[incogni]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[surfshark]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358129</guid>
+
+					<description><![CDATA[<p>Get Surfshark One+ with Incogni for $91.99 (reg. $500.40) and cover VPN, alerts, antivirus, and data removal.</p>
+<p>The post <a href="https://www.techrepublic.com/article/surfshark-one-incogni-2-year-plan/">What If Your Digital Footprint Could Shrink?</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft Defender Bug Triggers False Malware Alerts for DigiCert Certificates</title>
+		<link>https://www.techrepublic.com/article/news-microsoft-defender-digicert-certificates-false-positive/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 21:12:38 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[code signing]]></category>
+		<category><![CDATA[digicert]]></category>
+		<category><![CDATA[endpoint security]]></category>
+		<category><![CDATA[false positive]]></category>
+		<category><![CDATA[malware detection]]></category>
+		<category><![CDATA[Microsoft Defender]]></category>
+		<category><![CDATA[root certificates]]></category>
+		<category><![CDATA[windows security]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358083</guid>
+
+					<description><![CDATA[<p>Microsoft fixed a Defender false positive that flagged legitimate DigiCert certificates as malware, disrupting Windows trust stores for some IT teams.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-microsoft-defender-digicert-certificates-false-positive/">Microsoft Defender Bug Triggers False Malware Alerts for DigiCert Certificates</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>5 Best VPNs for Android in 2026</title>
+		<link>https://www.techrepublic.com/article/best-vpn-for-android/</link>
+		
+		<dc:creator><![CDATA[Luis Millares]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 19:22:15 +0000</pubDate>
+				<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4210755</guid>
+
+					<description><![CDATA[<p>Explore the best VPNs for Android devices in 2026. Find out which VPN offers the best security, speed and features for your Android device.</p>
+<p>The post <a href="https://www.techrepublic.com/article/best-vpn-for-android/">5 Best VPNs for Android in 2026</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The 7 Best iPhone VPNs in 2026</title>
+		<link>https://www.techrepublic.com/article/best-vpn-for-iphone/</link>
+		
+		<dc:creator><![CDATA[Franklin Okeke]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 19:12:47 +0000</pubDate>
+				<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[iPhone VPN]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4133049</guid>
+
+					<description><![CDATA[<p>Which VPN works best on iPhones? Use our guide to compare the pricing and features of the 7 best VPNs for iPhone in 2026.</p>
+<p>The post <a href="https://www.techrepublic.com/article/best-vpn-for-iphone/">The 7 Best iPhone VPNs in 2026</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Indirect Prompt Injection Is Now a Real-World AI Security Threat</title>
+		<link>https://www.techrepublic.com/article/news-ai-agents-prompt-injection-data-security/</link>
+		
+		<dc:creator><![CDATA[Tim Freestone]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 18:01:34 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Chatbots]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Developer]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ai agents]]></category>
+		<category><![CDATA[ai security]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data exfiltration]]></category>
+		<category><![CDATA[data governance]]></category>
+		<category><![CDATA[enterprise security]]></category>
+		<category><![CDATA[llm security]]></category>
+		<category><![CDATA[prompt injection]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358060</guid>
+
+					<description><![CDATA[<p>AI agents are now being weaponized through prompt injection, exposing why model guardrails are not enough to protect enterprise data.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-ai-agents-prompt-injection-data-security/">Indirect Prompt Injection Is Now a Real-World AI Security Threat</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Canvas Breach May Put 275M Users, 9,000 Schools at Risk</title>
+		<link>https://www.techrepublic.com/article/news-canvas-instructure-breach-275m-users/</link>
+		
+		<dc:creator><![CDATA[Liz Ticong]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 12:38:18 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[breach]]></category>
+		<category><![CDATA[canvas lms]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[Edtech]]></category>
+		<category><![CDATA[leak]]></category>
+		<category><![CDATA[shinyhunters. security]]></category>
+		<category><![CDATA[stolen data]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358009</guid>
+
+					<description><![CDATA[<p>Instructure confirms a Canvas breach involving user information and messages as hackers claim 275M users and nearly 9,000 schools were affected.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-canvas-instructure-breach-275m-users/">Canvas Breach May Put 275M Users, 9,000 Schools at Risk</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>OpenAI Introduces Password-Free Login for Millions of ChatGPT Users</title>
+		<link>https://www.techrepublic.com/article/news-openai-chatgpt-advanced-account-security-passkeys/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Fri, 01 May 2026 15:20:48 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Developer]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[account security]]></category>
+		<category><![CDATA[chatgpt]]></category>
+		<category><![CDATA[codex]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[passkeys]]></category>
+		<category><![CDATA[security keys]]></category>
+		<category><![CDATA[Yubico]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4357884</guid>
+
+					<description><![CDATA[<p>OpenAI’s Advanced Account Security lets ChatGPT and Codex users replace passwords with passkeys or security keys, but recovery is limited.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-openai-chatgpt-advanced-account-security-passkeys/">OpenAI Introduces Password-Free Login for Millions of ChatGPT Users</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft Flagged 8.3B Phishing Emails in Q1 as QR Codes, CAPTCHAs Rise</title>
+		<link>https://www.techrepublic.com/article/news-microsoft-phishing-emails-qr-codes-captcha-phaas/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Fri, 01 May 2026 15:10:55 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[business email compromise]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[email security]]></category>
+		<category><![CDATA[Microsoft Defender]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[phishing-as-a-service]]></category>
+		<category><![CDATA[tycoon2fa]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4357881</guid>
+
+					<description><![CDATA[<p>Microsoft flagged 8.3 billion phishing emails as attackers turned to QR codes, fake CAPTCHAs, PhaaS kits, and file-based payloads.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-microsoft-phishing-emails-qr-codes-captcha-phaas/">Microsoft Flagged 8.3B Phishing Emails in Q1 as QR Codes, CAPTCHAs Rise</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Billions of Chrome Users Urged to Update After Google Patches 30 Security Flaws</title>
+		<link>https://www.techrepublic.com/article/news-google-chrome-security-update-30-vulnerabilities-april-2026/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Fri, 01 May 2026 02:47:45 +0000</pubDate>
+				<category><![CDATA[Browsers]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[browser security]]></category>
+		<category><![CDATA[chrome]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[firefox]]></category>
+		<category><![CDATA[google chrome]]></category>
+		<category><![CDATA[mozilla]]></category>
+		<category><![CDATA[security update]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4357850</guid>
+
+					<description><![CDATA[<p>Google patched 30 Chrome vulnerabilities, including four Critical flaws. Here’s what users should know and how to update Chrome and Firefox.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-google-chrome-security-update-30-vulnerabilities-april-2026/">Billions of Chrome Users Urged to Update After Google Patches 30 Security Flaws</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Samsung’s Free Android Upgrade Brings Better Security to Galaxy Phones</title>
+		<link>https://www.techrepublic.com/article/news-samsung-one-ui-8-5-galaxy-security-battery-drain/</link>
+		
+		<dc:creator><![CDATA[Esther Shein]]></dc:creator>
+		<pubDate>Thu, 30 Apr 2026 20:48:37 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Samsung]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[galaxy s24]]></category>
+		<category><![CDATA[galaxy s25]]></category>
+		<category><![CDATA[google pixel]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<category><![CDATA[one ui]]></category>
+		<category><![CDATA[samsung]]></category>
+		<category><![CDATA[software updates]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4357838</guid>
+
+					<description><![CDATA[<p>Samsung’s One UI 8.5 update may bring stronger Galaxy security controls as users report battery drain and overheating after recent patches.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-samsung-one-ui-8-5-galaxy-security-battery-drain/">Samsung’s Free Android Upgrade Brings Better Security to Galaxy Phones</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New Global Scam Uses Fake Meeting Links to Run PowerShell Malware</title>
+		<link>https://www.techrepublic.com/article/news-lazarus-bluenoroff-fake-video-call-malware/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Thu, 30 Apr 2026 20:34:22 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[arctic wolf]]></category>
+		<category><![CDATA[bluenoroff]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[fileless malware]]></category>
+		<category><![CDATA[lazarus group]]></category>
+		<category><![CDATA[powershell]]></category>
+		<category><![CDATA[social engineering]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4357827</guid>
+
+					<description><![CDATA[<p>BlueNoroff hackers used fake Zoom calls, ClickFix prompts, and fileless PowerShell malware to steal credentials from Web3 and crypto targets. </p>
+<p>The post <a href="https://www.techrepublic.com/article/news-lazarus-bluenoroff-fake-video-call-malware/">New Global Scam Uses Fake Meeting Links to Run PowerShell Malware</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Cisco Introduces Model Provenance Kit to Strengthen AI Supply Chain Security</title>
+		<link>https://www.techrepublic.com/article/news-cisco-model-provenance-kit-ai-supply-chain-security/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Thu, 30 Apr 2026 19:57:42 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Chatbots]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[AI governance]]></category>
+		<category><![CDATA[ai security]]></category>
+		<category><![CDATA[ai supply chain]]></category>
+		<category><![CDATA[cisco]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[model provenance]]></category>
+		<category><![CDATA[open source security]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4357821</guid>
+
+					<description><![CDATA[<p>Cisco’s open-source Model Provenance Kit helps organizations verify AI model origins, trace lineage, and reduce AI supply chain security risks.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-cisco-model-provenance-kit-ai-supply-chain-security/">Cisco Introduces Model Provenance Kit to Strengthen AI Supply Chain Security</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>6 Best Enterprise Antivirus Software Choices in 2026</title>
+		<link>https://www.techrepublic.com/article/best-antivirus-software/</link>
+		
+		<dc:creator><![CDATA[Luis Millares]]></dc:creator>
+		<pubDate>Thu, 30 Apr 2026 08:45:41 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Top Products]]></category>
+		<category><![CDATA[antivirus software]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=3951559</guid>
+
+					<description><![CDATA[<p>We reviewed the leading enterprise antivirus and EDR tools for 2026 and found SentinelOne Singularity to be the best overall, followed closely by Microsoft Defender and CrowdStrike Falcon.</p>
+<p>The post <a href="https://www.techrepublic.com/article/best-antivirus-software/">6 Best Enterprise Antivirus Software Choices in 2026</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft Confirms Windows Flaw Is Being Exploited After Incomplete Patch</title>
+		<link>https://www.techrepublic.com/article/news-microsoft-windows-zero-click-flaw-incomplete-patch/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Thu, 30 Apr 2026 00:15:30 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[apt28]]></category>
+		<category><![CDATA[cve-2026-32202]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[editors picks]]></category>
+		<category><![CDATA[fancy bear]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[windows]]></category>
+		<category><![CDATA[zero-click exploit]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4357695</guid>
+
+					<description><![CDATA[<p>Microsoft confirmed a Windows zero-click flaw tied to an incomplete patch is being exploited, putting credentials at risk for unpatched users.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-microsoft-windows-zero-click-flaw-incomplete-patch/">Microsoft Confirms Windows Flaw Is Being Exploited After Incomplete Patch</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Hackers Abuse Robinhood Signup Process to Deliver Phishing Emails</title>
+		<link>https://www.techrepublic.com/article/news-robinhood-phishing-emails-official-address/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Wed, 29 Apr 2026 19:34:52 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Finance]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[credential theft]]></category>
+		<category><![CDATA[cyberattacks]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[email security]]></category>
+		<category><![CDATA[online scams]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[robinhood]]></category>
+		<category><![CDATA[security breach]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4357654</guid>
+
+					<description><![CDATA[<p>Robinhood fixed an account-creation flaw that hackers abused to send convincing phishing emails from its own system to some users over the weekend.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-robinhood-phishing-emails-official-address/">Hackers Abuse Robinhood Signup Process to Deliver Phishing Emails</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>ClickUp Data Leak Exposes Enterprise Emails for Over a Year</title>
+		<link>https://www.techrepublic.com/article/news-clickup-api-key-email-exposure/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Tue, 28 Apr 2026 21:22:15 +0000</pubDate>
+				<category><![CDATA[Collaboration]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Enterprise Technology]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[api security]]></category>
+		<category><![CDATA[ClickUp]]></category>
+		<category><![CDATA[data exposure]]></category>
+		<category><![CDATA[feature flags]]></category>
+		<category><![CDATA[hardcoded api key]]></category>
+		<category><![CDATA[phishing attacks]]></category>
+		<category><![CDATA[saas security]]></category>
+		<category><![CDATA[third party risk]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4357489</guid>
+
+					<description><![CDATA[<p>A hardcoded ClickUp API key exposed hundreds of corporate and government emails for over a year, raising new SaaS security concerns.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-clickup-api-key-email-exposure/">ClickUp Data Leak Exposes Enterprise Emails for Over a Year</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>ADT Confirms Major Data Breach Exposing Millions of Names, Partial SSNs</title>
+		<link>https://www.techrepublic.com/article/news-adt-data-breach-millions-customer-records/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Tue, 28 Apr 2026 16:49:19 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[adt]]></category>
+		<category><![CDATA[customer data]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[identity theft]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[shinyhunters]]></category>
+		<category><![CDATA[social engineering]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4357464</guid>
+
+					<description><![CDATA[<p>ADT confirmed a data breach exposing customer names, addresses, phone numbers, and partial SSNs, with millions of records reportedly affected.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-adt-data-breach-millions-customer-records/">ADT Confirms Major Data Breach Exposing Millions of Names, Partial SSNs</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

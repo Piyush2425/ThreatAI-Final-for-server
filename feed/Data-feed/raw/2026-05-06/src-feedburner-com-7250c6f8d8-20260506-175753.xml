@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<atom:link href="https://hackread.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://hackread.com</link>
+	<description></description>
+	<lastBuildDate>Wed, 06 May 2026 13:42:47 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://hackread.com/wp-content/uploads/2023/08/cropped-HACKREAD-32x32.png</url>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<link>https://hackread.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Building Strategic Advantage With Integrated Planning</title>
+		<link>https://hackread.com/building-strategic-advantage-integrated-planning/</link>
+					<comments>https://hackread.com/building-strategic-advantage-integrated-planning/#respond</comments>
+		
+		<dc:creator><![CDATA[Owais Sultan]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 13:42:45 +0000</pubDate>
+				<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Business]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144898</guid>
+
+					<description><![CDATA[Siloed planning slows decisions and hides risk. Integrated business planning connects finance, demand, supply, and strategy into a single disciplined cycle.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/building-strategic-advantage-integrated-planning/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The &#8220;Juice&#8221; Factor: Designing Game Feel</title>
+		<link>https://hackread.com/the-juice-factor-designing-game-feel/</link>
+					<comments>https://hackread.com/the-juice-factor-designing-game-feel/#respond</comments>
+		
+		<dc:creator><![CDATA[Uzair Amir]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 12:13:14 +0000</pubDate>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[gaming]]></category>
+		<category><![CDATA[Technology]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144892</guid>
+
+					<description><![CDATA[Designing game feel requires responsive controls, hit-stop, sound, animation, and feedback systems that make gameplay satisfying.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/the-juice-factor-designing-game-feel/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Application Security Strategies Are Changing as AI-generated Code Floods the SDLC</title>
+		<link>https://hackread.com/application-security-strategies-ai-generated-code-sdlc/</link>
+					<comments>https://hackread.com/application-security-strategies-ai-generated-code-sdlc/#respond</comments>
+		
+		<dc:creator><![CDATA[Owais Sultan]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 09:40:15 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Application Security]]></category>
+		<category><![CDATA[Coding]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[GenAI]]></category>
+		<category><![CDATA[LLM]]></category>
+		<category><![CDATA[SDLC]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144889</guid>
+
+					<description><![CDATA[AI-generated code is changing AppSec workflows, forcing teams to rethink SDLC security, dependency checks, code review, and risk prioritization.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/application-security-strategies-ai-generated-code-sdlc/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Massive “Low and Slow” DDoS Attack Hits Platform With 2.45 Billion in 5 Hours</title>
+		<link>https://hackread.com/low-and-slow-ddos-attack-hits-2-45-billion-5-hours/</link>
+					<comments>https://hackread.com/low-and-slow-ddos-attack-hits-2-45-billion-5-hours/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 07:59:56 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber Attacks]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[DataDome]]></category>
+		<category><![CDATA[DDOS]]></category>
+		<category><![CDATA[IP Address]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144876</guid>
+
+					<description><![CDATA[DataDome researchers uncovered a massive low and slow DDoS attack that delivered 2.45 billion requests using 1.2 million IP addresses.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/low-and-slow-ddos-attack-hits-2-45-billion-5-hours/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>LuxSci Launches Enterprise-Grade HIPAA-Compliant Email Security for Mid-Sized Healthcare Organizations</title>
+		<link>https://hackread.com/luxsci-launches-enterprise-grade-hipaa-compliant-email-security-for-mid-sized-healthcare-organizations/</link>
+					<comments>https://hackread.com/luxsci-launches-enterprise-grade-hipaa-compliant-email-security-for-mid-sized-healthcare-organizations/#respond</comments>
+		
+		<dc:creator><![CDATA[CyberNewswire]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 13:30:19 +0000</pubDate>
+				<category><![CDATA[Press Release]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144870</guid>
+
+					<description><![CDATA[Cambridge, MA, 5th May 2026, CyberNewswire]]></description>
+		
+					<wfw:commentRss>https://hackread.com/luxsci-launches-enterprise-grade-hipaa-compliant-email-security-for-mid-sized-healthcare-organizations/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Anti-ICE Site GTFO ICE Accused of Exposing Data of 17,000+ Activists</title>
+		<link>https://hackread.com/anti-ice-site-gtfo-ice-expose-activists-data/</link>
+					<comments>https://hackread.com/anti-ice-site-gtfo-ice-expose-activists-data/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 12:43:30 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Leaks]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[GTFO ICE]]></category>
+		<category><![CDATA[ICE]]></category>
+		<category><![CDATA[LEAKS]]></category>
+		<category><![CDATA[Miles Taylor]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144853</guid>
+
+					<description><![CDATA[An anti-ICE website, GTFO ICE, linked to Miles Taylor, is accused of exposing the personal details of 17,662 activists, sparking concerns that the data may have reached government agencies.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/anti-ice-site-gtfo-ice-expose-activists-data/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>FEMITBOT Network Abuses Telegram Mini Apps for Crypto Scams and Android Malware</title>
+		<link>https://hackread.com/femitbot-telegram-mini-apps-crypto-scam-android-malware/</link>
+					<comments>https://hackread.com/femitbot-telegram-mini-apps-crypto-scam-android-malware/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 10:34:59 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Crypto]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Scams and Fraud]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[FEMITBOT]]></category>
+		<category><![CDATA[Scams]]></category>
+		<category><![CDATA[Telegram]]></category>
+		<category><![CDATA[Telegram Mini]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144843</guid>
+
+					<description><![CDATA[A massive fraud network called FEMITBOT uses Telegram Mini Apps and fake brand names like Apple, Disney, and&#8230;]]></description>
+		
+					<wfw:commentRss>https://hackread.com/femitbot-telegram-mini-apps-crypto-scam-android-malware/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Wiz ZeroDay.Cloud Event Reveals 20-Year-Old PostgreSQL Vulnerabilities</title>
+		<link>https://hackread.com/wiz-zeroday-cloud-event-postgresql-vulnerabilities/</link>
+					<comments>https://hackread.com/wiz-zeroday-cloud-event-postgresql-vulnerabilities/#respond</comments>
+		
+		<dc:creator><![CDATA[Waqas]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 15:08:40 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[MariaDB]]></category>
+		<category><![CDATA[PostgreSQL]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<category><![CDATA[Wiz]]></category>
+		<category><![CDATA[ZeroDay.Cloud]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144827</guid>
+
+					<description><![CDATA[Researchers revealed 20-year-old PostgreSQL flaws at Wiz ZeroDay.Cloud event, exposing critical bugs in pgcrypto and prompting urgent patches for database security.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/wiz-zeroday-cloud-event-postgresql-vulnerabilities/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cyber-Secure Philanthropy: Tech Infrastructure for Global Donations</title>
+		<link>https://hackread.com/cyber-secure-philanthropy-tech-infrastructure-global-donations/</link>
+					<comments>https://hackread.com/cyber-secure-philanthropy-tech-infrastructure-global-donations/#respond</comments>
+		
+		<dc:creator><![CDATA[Owais Sultan]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 10:55:27 +0000</pubDate>
+				<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Fintech]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Donations]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144810</guid>
+
+					<description><![CDATA[Secure philanthropy needs hardened payments, API security, and compliance controls to protect global donations from fraud and attacks.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/cyber-secure-philanthropy-tech-infrastructure-global-donations/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>7 Key Features That Make Secure Browsers Safer</title>
+		<link>https://hackread.com/7-key-features-make-secure-browsers-safer/</link>
+					<comments>https://hackread.com/7-key-features-make-secure-browsers-safer/#respond</comments>
+		
+		<dc:creator><![CDATA[Owais Sultan]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 09:48:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Anonymity]]></category>
+		<category><![CDATA[Browser]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144807</guid>
+
+					<description><![CDATA[Secure Browsers boost safety with tracking blocks, fingerprint protection, session control, and real-time threat defense against modern web attacks.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/7-key-features-make-secure-browsers-safer/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

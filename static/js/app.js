@@ -137,6 +137,9 @@ function buildEvidenceTableHtml(evidence) {
     const rows = evidence.slice(0, maxRows).map((item, idx) => {
         const links = Array.isArray(item.links) ? item.links.filter((l) => typeof l === 'string') : [];
         const link = links.length ? links[0] : '';
+        const sourceSystem = item.source_system || 'unknown';
+        const sourceIds = Array.isArray(item.source_ids) ? item.source_ids.filter((v) => typeof v === 'string' && v.trim()) : [];
+        const sourceLabel = sourceIds.length ? `${sourceSystem} (${sourceIds.join(', ')})` : sourceSystem;
         const linkHtml = link
             ? `<a href="${encodeURI(link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(link)}</a>`
             : 'N/A';
@@ -144,7 +147,7 @@ function buildEvidenceTableHtml(evidence) {
             <tr>
                 <td>${idx + 1}</td>
                 <td>${escapeHtml(item.actor || 'Unknown')}</td>
-                <td>${escapeHtml(item.source || 'Unknown')}</td>
+                <td>${escapeHtml(item.source || 'Unknown')}<div class="evidence-source-system">${escapeHtml(sourceLabel)}</div></td>
                 <td>${typeof item.score === 'number' ? item.score.toFixed(3) : '0.000'}</td>
                 <td class="evidence-link-cell">${linkHtml}</td>
             </tr>
@@ -478,11 +481,15 @@ function displayResults(result) {
         html += '<div class="evidence-list">';
         
         result.evidence.forEach((e, i) => {
+            const sourceSystem = e.source_system || 'unknown';
+            const sourceIds = Array.isArray(e.source_ids) ? e.source_ids.filter((v) => typeof v === 'string' && v.trim()) : [];
+            const provenance = sourceIds.length ? `${sourceSystem} • ${sourceIds.join(', ')}` : sourceSystem;
             html += '<div class="evidence-item">';
             html += '<div class="evidence-meta">';
             html += `<span class="evidence-source">[${i+1}] ${escapeHtml(e.actor || 'Unknown')} • ${escapeHtml(e.source)}</span>`;
             html += `<span class="evidence-score">Score: ${e.score.toFixed(3)}</span>`;
             html += '</div>';
+            html += `<div class="evidence-provenance">${escapeHtml(provenance)}</div>`;
             html += `${formatEvidenceLinks(e.links)}`;
             html += `<div class="evidence-text">${escapeHtml(e.text)}</div>`;
             html += '</div>';

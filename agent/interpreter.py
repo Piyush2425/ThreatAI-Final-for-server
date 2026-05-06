@@ -506,13 +506,15 @@ Keep the answer factual and grounded in the provided intelligence."""
         max_chars = 500
         for i, chunk in enumerate(evidence[:max_chunks], 1):
             source = chunk['metadata'].get('source_field', 'unknown')
+            source_system = chunk['metadata'].get('source_system', '')
             score = chunk.get('similarity_score', 0.0)
             text = chunk['text']
             if source in ['last_updated', 'last_card_change', 'last-card-change']:
                 text = f"Last Known Activity: {text}"
             if len(text) > max_chars:
                 text = text[:max_chars].rstrip() + "..."
-            formatted.append(f"[{i}] ({source}, score: {score:.2f}): {text}")
+            source_label = f"{source} | {source_system}" if source_system else source
+            formatted.append(f"[{i}] ({source_label}, score: {score:.2f}): {text}")
         
         return "\n".join(formatted)
 
@@ -618,14 +620,18 @@ Keep the answer factual and grounded in the provided intelligence."""
                     key = src
                     if key in index:
                         continue
+                    source_system = metadata.get('source_system') or 'unknown'
                     label = self._source_label(src, chunk.get('text', ''))
+                    if source_system and source_system != 'unknown':
+                        label = f"{label} | {source_system}"
                     index[key] = {'label': label, 'url': src}
                     order.append(key)
             else:
-                key = f"{metadata.get('actor_name', 'unknown')}::{metadata.get('source_field', 'unknown')}"
+                source_system = metadata.get('source_system') or 'unknown'
+                key = f"{metadata.get('actor_name', 'unknown')}::{metadata.get('source_field', 'unknown')}::{source_system}"
                 if key not in index:
                     index[key] = {
-                        'label': metadata.get('source_field', 'unknown'),
+                        'label': f"{metadata.get('source_field', 'unknown')} ({source_system})",
                         'url': ''
                     }
                     order.append(key)
@@ -658,7 +664,8 @@ Keep the answer factual and grounded in the provided intelligence."""
                     if entry and entry['id'] not in ids:
                         ids.append(entry['id'])
             else:
-                key = f"{metadata.get('actor_name', 'unknown')}::{metadata.get('source_field', 'unknown')}"
+                source_system = metadata.get('source_system') or 'unknown'
+                key = f"{metadata.get('actor_name', 'unknown')}::{metadata.get('source_field', 'unknown')}::{source_system}"
                 entry = source_index.get(key)
                 if entry and entry['id'] not in ids:
                     ids.append(entry['id'])
@@ -763,7 +770,7 @@ Keep the answer factual and grounded in the provided intelligence."""
             QueryIntent.COUNTER_OPERATIONS: {'counter_operations', 'counter-operations'},
             QueryIntent.SOURCES: {'information'},
             QueryIntent.OVERVIEW: {'entity_profile', 'description', 'aliases', 'countries', 'sponsor', 'first_seen', 'last_seen', 'last_updated',
-                                   'observed_sectors', 'observed-sectors', 'observed_countries', 'observed-countries', 'targets', 'tools', 'ttps',
+                                   'observed_sectors', 'observed-sectors', 'observed_countries', 'observed-countries', 'targets', 'tools', 'ttps', 'tactics',
                                    'campaigns', 'counter_operations', 'counter-operations', 'motivation', 'motivations'}
         }
 
@@ -1008,7 +1015,9 @@ Keep the answer factual and grounded in the provided intelligence."""
             "Observed Countries",
             "Targets",
             "Tools",
+            "Software Used",
             "TTPs",
+            "Techniques Used",
             "Campaigns",
             "Counter Operations",
             "Description",
@@ -1051,8 +1060,12 @@ Keep the answer factual and grounded in the provided intelligence."""
                 fields['targets'] = [v.strip() for v in value.split(',') if v.strip()]
             elif label == 'tools':
                 fields['tools'] = [v.strip() for v in value.split(',') if v.strip()]
+            elif label == 'software used':
+                fields['software_used'] = [v.strip() for v in value.split(' || ') if v.strip()] if ' || ' in value else [v.strip() for v in value.split(',') if v.strip()]
             elif label == 'ttps':
                 fields['ttps'] = [v.strip() for v in value.split(',') if v.strip()]
+            elif label == 'techniques used':
+                fields['techniques_used'] = [v.strip() for v in value.split(' || ') if v.strip()] if ' || ' in value else [v.strip() for v in value.split(',') if v.strip()]
             elif label == 'campaigns':
                 if ' | ' in value:
                     fields['campaigns'] = [v.strip() for v in value.split(' | ') if v.strip()]
@@ -1174,10 +1187,12 @@ RESPONSE:
                 max_tokens=min(max_tokens, self.default_max_tokens),
                 timeout=self.default_timeout,
             )
-            return response.strip() if response else self._generate_summary(query, [])
+            if response and response.strip():
+                return response.strip()
+            return self._generate_summary(query, [])
         except Exception as e:
             logger.error(f"Ollama generation error: {e}")
-            return "Error generating response from local LLM."
+            return self._generate_summary(query, [])
     
     def _get_mode_instruction(self, response_mode: str) -> str:
         """Get instruction text based on response mode."""
@@ -1278,10 +1293,18 @@ RESPONSE:
                     by_field['tools'] = parsed['tools']
                     if entity_profile_chunk:
                         by_field_chunks['tools'] = [entity_profile_chunk]
+                if parsed.get('software_used') and 'software_used' not in by_field:
+                    by_field['software_used'] = parsed['software_used']
+                    if entity_profile_chunk:
+                        by_field_chunks['software_used'] = [entity_profile_chunk]
                 if parsed.get('ttps') and 'ttps' not in by_field:
                     by_field['ttps'] = parsed['ttps']
                     if entity_profile_chunk:
                         by_field_chunks['ttps'] = [entity_profile_chunk]
+                if parsed.get('techniques_used') and 'techniques_used' not in by_field:
+                    by_field['techniques_used'] = parsed['techniques_used']
+                    if entity_profile_chunk:
+                        by_field_chunks['techniques_used'] = [entity_profile_chunk]
                 if parsed.get('campaigns') and 'campaigns' not in by_field:
                     by_field['campaigns'] = parsed['campaigns']
                 if parsed.get('counter_operations') and 'counter_operations' not in by_field:
@@ -1432,15 +1455,32 @@ RESPONSE:
 
             # Capabilities
             tools = [t for t in by_field.get('tools', []) if t]
+            software_used = [s for s in by_field.get('software_used', []) if s]
+            tactic_items = [t for t in by_field.get('tactics', []) if t]
+            technique_items = [t for t in by_field.get('techniques_used', []) if t]
             ttps_items = [
                 t for t in by_field.get('ttps', [])
                 if t and not re.match(r'^(https?://|//)', t.strip())
             ]
-            if tools or ttps_items:
+            if tactic_items or technique_items or ttps_items:
+                summary_parts.append("\n**Techniques & Tactics**\n")
+                if tactic_items:
+                    cites = self._format_citations(self._citation_ids_for_chunks(by_field_chunks.get('tactics', []), source_index))
+                    summary_parts.append("- **Tactics:** " + ', '.join(tactic_items[:12]) + f"{cites}\n")
+                if technique_items:
+                    cites = self._format_citations(self._citation_ids_for_chunks(by_field_chunks.get('techniques_used', []), source_index))
+                    summary_parts.append("- **MITRE Techniques:** " + ', '.join(technique_items[:8]) + f"{cites}\n")
+                if ttps_items:
+                    cites = self._format_citations(self._citation_ids_for_chunks(by_field_chunks.get('ttps', []), source_index))
+                    summary_parts.append("- **Techniques / TTPs:** " + ', '.join(ttps_items[:12]) + f"{cites}\n")
+            if tools or software_used or ttps_items:
                 summary_parts.append("\n**Capabilities**\n")
                 if tools:
                     cites = self._format_citations(self._citation_ids_for_chunks(by_field_chunks.get('tools', []), source_index))
                     summary_parts.append("- **Tools & Malware:** " + ', '.join(tools[:12]) + f"{cites}\n")
+                if software_used:
+                    cites = self._format_citations(self._citation_ids_for_chunks(by_field_chunks.get('software_used', []), source_index))
+                    summary_parts.append("- **Software Details:** " + ', '.join(software_used[:6]) + f"{cites}\n")
                 if ttps_items:
                     cites = self._format_citations(self._citation_ids_for_chunks(by_field_chunks.get('ttps', []), source_index))
                     summary_parts.append("- **TTPs:** " + ', '.join(ttps_items[:12]) + f"{cites}\n")

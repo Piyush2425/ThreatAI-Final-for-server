@@ -83,6 +83,9 @@ class VectorStore:
                     'chunk_index': str(chunk['metadata'].get('chunk_index', 0)),
                     'actor_name': chunk['metadata'].get('actor_name', ''),
                     'primary_name': chunk['metadata'].get('primary_name', ''),
+                    'source_system': chunk['metadata'].get('source_system', ''),
+                    'last_activity': chunk['metadata'].get('last_activity', ''),
+                    'country_primary': chunk['metadata'].get('country_primary', ''),
                 }
                 
                 # Add name_giver if present
@@ -98,11 +101,35 @@ class VectorStore:
                 countries = chunk['metadata'].get('countries', [])
                 if countries:
                     metadata['countries'] = ','.join(str(c) for c in countries if c)
+
+                attack_methods = chunk['metadata'].get('attack_methods', [])
+                if attack_methods:
+                    metadata['attack_methods'] = ','.join(str(m) for m in attack_methods if m)
+
+                target_sectors = chunk['metadata'].get('target_sectors', [])
+                if target_sectors:
+                    metadata['target_sectors'] = ','.join(str(s) for s in target_sectors if s)
+
+                tactics = chunk['metadata'].get('tactics', [])
+                if tactics:
+                    metadata['tactics'] = ','.join(str(t) for t in tactics if t)
+
+                observed_sectors = chunk['metadata'].get('observed_sectors', [])
+                if observed_sectors:
+                    metadata['observed_sectors'] = ','.join(str(s) for s in observed_sectors if s)
+
+                observed_countries = chunk['metadata'].get('observed_countries', [])
+                if observed_countries:
+                    metadata['observed_countries'] = ','.join(str(c) for c in observed_countries if c)
                 
                 # Store information_sources
                 info_sources = chunk['metadata'].get('information_sources', [])
                 if info_sources:
                     metadata['information_sources'] = ','.join(str(s) for s in info_sources if s)
+
+                source_ids = chunk['metadata'].get('source_ids', [])
+                if source_ids:
+                    metadata['source_ids'] = ','.join(str(s) for s in source_ids if s)
                 
                 # Store related_actors
                 related_actors = chunk['metadata'].get('related_actors', [])
@@ -201,13 +228,42 @@ class VectorStore:
                         'aliases': aliases,
                         'countries': countries,
                         'information_sources': info_sources,
-                        'related_actors': related_actors
+                        'source_ids': [s.strip() for s in metadata.get('source_ids', '').split(',') if s.strip()],
+                        'related_actors': related_actors,
+                        'source_system': metadata.get('source_system', ''),
+                        'last_activity': metadata.get('last_activity', ''),
+                        'country_primary': metadata.get('country_primary', '')
                     }
                 }
                 
                 # Add name_giver if present
                 if 'name_giver' in metadata:
                     chunk['metadata']['name_giver'] = metadata['name_giver']
+
+                if metadata.get('attack_methods'):
+                    chunk['metadata']['attack_methods'] = [
+                        m.strip() for m in metadata['attack_methods'].split(',') if m.strip()
+                    ]
+
+                if metadata.get('target_sectors'):
+                    chunk['metadata']['target_sectors'] = [
+                        s.strip() for s in metadata['target_sectors'].split(',') if s.strip()
+                    ]
+
+                if metadata.get('tactics'):
+                    chunk['metadata']['tactics'] = [
+                        t.strip() for t in metadata['tactics'].split(',') if t.strip()
+                    ]
+
+                if metadata.get('observed_sectors'):
+                    chunk['metadata']['observed_sectors'] = [
+                        s.strip() for s in metadata['observed_sectors'].split(',') if s.strip()
+                    ]
+
+                if metadata.get('observed_countries'):
+                    chunk['metadata']['observed_countries'] = [
+                        c.strip() for c in metadata['observed_countries'].split(',') if c.strip()
+                    ]
                 
                 matches.append((chunk, similarity))
             

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:atom="http://www.w3.org/2005/Atom"
+        >
+
+<channel>
+        <title>BleepingComputer</title>
+
+        <link>https://www.bleepingcomputer.com/</link>
+        <description>BleepingComputer - All Stories</description>
+        <pubDate>Tue, 05 May 2026 09:24:11 GMT</pubDate>
+        <generator>https://www.bleepingcomputer.com/</generator>
+        <language>en</language>
+        <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
+        
+ <item>
+        <title>ScarCruft hackers push BirdCall Android malware via game platform</title>
+        <link>https://www.bleepingcomputer.com/news/security/scarcruft-hackers-push-birdcall-android-malware-via-game-platform/</link>
+        <pubDate>Tue, 05 May 2026 05:04:13 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/scarcruft-hackers-push-birdcall-android-malware-via-game-platform/</guid>
+        <description><![CDATA[The North Korean hacker group APT37 has been delivering an Android version of a backdoor called BirdCall in a supply-chain attack through a video game platform. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Weaver E-cology critical bug exploited in attacks since March</title>
+        <link>https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/</link>
+        <pubDate>Mon, 04 May 2026 18:12:57 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/</guid>
+        <description><![CDATA[Hackers have been exploiting a critical vulnerability (CVE-2026-22679) in the Weaver E-cology office automation since mid-March to run discovery commands. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Amazon SES increasingly abused in phishing to evade detection</title>
+        <link>https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/</link>
+        <pubDate>Mon, 04 May 2026 16:03:28 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/</guid>
+        <description><![CDATA[The Amazon Simple Email Service (SES) is being increasingly abused to send convincing phishing emails that can bypass standard security filters and render reputation-based blocks ineffective. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Backdoored PyTorch Lightning package drops credential stealer</title>
+        <link>https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/</link>
+        <pubDate>Mon, 04 May 2026 13:15:27 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/</guid>
+        <description><![CDATA[A malicious version of the PyTorch Lightning package published on the Python Package Index (PyPI) delivers a credential-stealing payload targeting browsers, environment files, and cloud services. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Trellix discloses data breach after source code repository hack</title>
+        <link>https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/</link>
+        <pubDate>Mon, 04 May 2026 12:25:07 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/</guid>
+        <description><![CDATA[Cybersecurity firm Trellix disclosed a data breach after attackers gained access to "a portion" of its source code repository. [...]]]></description>
+ </item>
+
+ <item>
+        <title>They don’t hack, they borrow: How fraudsters target credit unions</title>
+        <link>https://www.bleepingcomputer.com/news/security/they-dont-hack-they-borrow-how-fraudsters-target-credit-unions/</link>
+        <pubDate>Mon, 04 May 2026 09:42:51 -0400</pubDate>
+        <dc:creator>Sponsored by Flare</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/they-dont-hack-they-borrow-how-fraudsters-target-credit-unions/</guid>
+        <description><![CDATA[Fraudsters aren't hacking credit unions, they are exploiting normal business processes. Flare reveals how structured loan fraud methods use stolen identities to pass verification and secure funds. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Progress warns of critical MOVEit Automation auth bypass flaw</title>
+        <link>https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/</link>
+        <pubDate>Mon, 04 May 2026 08:18:57 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/</guid>
+        <description><![CDATA[Progress Software warned customers to patch a critical authentication bypass vulnerability in its MOVEit Automation enterprise-grade managed file transfer (MFT) application. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Webinar: Why MSPs must rethink security and backup strategies</title>
+        <link>https://www.bleepingcomputer.com/news/security/webinar-why-msps-must-rethink-security-and-backup-strategies/</link>
+        <pubDate>Mon, 04 May 2026 08:16:24 -0400</pubDate>
+        <dc:creator>BleepingComputer</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/webinar-why-msps-must-rethink-security-and-backup-strategies/</guid>
+        <description><![CDATA[Security breaches don't just test your defenses—they test your recovery. Join Kaseya in our upcoming webinar to learn how MSPs strengthen resilience with SaaS backups and BCDR to stay operational after attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>CISA says ‘Copy Fail’ flaw now exploited to root Linux systems</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/</link>
+        <pubDate>Mon, 04 May 2026 07:28:15 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Linux]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/</guid>
+        <description><![CDATA[CISA has warned that threat actors have started exploiting the "Copy Fail" Linux security vulnerability in the wild, one day after Theori researchers disclosed it and shared a proof-of-concept (PoC) exploit. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft confirms April Windows updates cause backup failures</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-backup-failures-caused-by-vulnerable-driver-block/</link>
+        <pubDate>Mon, 04 May 2026 06:40:11 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-backup-failures-caused-by-vulnerable-driver-block/</guid>
+        <description><![CDATA[Microsoft has confirmed that the April 2026 security updates are causing failures in third-party backup applications using the psmounterex.sys driver. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Instructure confirms data breach, ShinyHunters claims attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/</link>
+        <pubDate>Sun, 03 May 2026 18:16:27 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Education]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/</guid>
+        <description><![CDATA[Educational tech giant Instructure has confirmed that data was stolen in a cyberattack, with the ShinyHunters extortion gang claiming responsibility. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/</link>
+        <pubDate>Sun, 03 May 2026 14:11:25 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/</guid>
+        <description><![CDATA[Microsoft Defender is detecting legitimate DigiCert root certificates as Trojan:Win32/Cerdigent.A!dha, resulting in widespread false-positive alerts, and in some cases, removing certificates from Windows. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Telegram Mini Apps abused for crypto scams, Android malware delivery</title>
+        <link>https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/</link>
+        <pubDate>Sun, 03 May 2026 10:11:21 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/</guid>
+        <description><![CDATA[Cybersecurity researchers have uncovered a large-scale fraud operation that uses Telegram's Mini App feature to run crypto scams, impersonate well-known brands, and distribute Android malware. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Critrical cPanel flaw mass-exploited in "Sorry" ransomware attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/</link>
+        <pubDate>Sat, 02 May 2026 17:54:00 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/</guid>
+        <description><![CDATA[A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited to breach websites and encrypt data in "Sorry" ransomware attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>ConsentFix v3 attacks target Azure with automated OAuth abuse</title>
+        <link>https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/</link>
+        <pubDate>Sat, 02 May 2026 10:32:25 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/</guid>
+        <description><![CDATA[A new attack type, dubbed ConsentFix v3, has been circulating on hacker forums, building on the previous technique by adding automation and scaling potential. [...]]]></description>
+ </item>
+
+</channel>
+</rss>

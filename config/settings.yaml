@@ -5,6 +5,7 @@ app:
 
 data:
   raw_path: data/raw/threat_actor_profiles.json
+  mitre_path: data/raw/mitre_attack.groups.json
   canonical_path: data/canonical/actors.json
   chunks_path: data/derived/semantic_chunks.jsonl
   schema_path: data/derived/chunk_schema.json
@@ -40,7 +41,7 @@ agent:
 
 ollama:
   enabled: true
-  model: llama3.2:3b
+  model: llama3:8b
   host: http://localhost:11434
   timeout: 120
   temperature: 0.3

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<atom:link href="https://hackread.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://hackread.com</link>
+	<description></description>
+	<lastBuildDate>Mon, 04 May 2026 15:13:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://hackread.com/wp-content/uploads/2023/08/cropped-HACKREAD-32x32.png</url>
+	<title>Hackread &#8211; Cybersecurity News, Data Breaches, AI and More</title>
+	<link>https://hackread.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Wiz ZeroDay.Cloud Event Reveals 20-Year-Old PostgreSQL Vulnerabilities</title>
+		<link>https://hackread.com/wiz-zeroday-cloud-event-postgresql-vulnerabilities/</link>
+					<comments>https://hackread.com/wiz-zeroday-cloud-event-postgresql-vulnerabilities/#respond</comments>
+		
+		<dc:creator><![CDATA[Waqas]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 15:08:40 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[MariaDB]]></category>
+		<category><![CDATA[PostgreSQL]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<category><![CDATA[Wiz]]></category>
+		<category><![CDATA[ZeroDay.Cloud]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144827</guid>
+
+					<description><![CDATA[Researchers revealed 20-year-old PostgreSQL flaws at Wiz ZeroDay.Cloud event, exposing critical bugs in pgcrypto and prompting urgent patches for database security.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/wiz-zeroday-cloud-event-postgresql-vulnerabilities/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cyber-Secure Philanthropy: Tech Infrastructure for Global Donations</title>
+		<link>https://hackread.com/cyber-secure-philanthropy-tech-infrastructure-global-donations/</link>
+					<comments>https://hackread.com/cyber-secure-philanthropy-tech-infrastructure-global-donations/#respond</comments>
+		
+		<dc:creator><![CDATA[Owais Sultan]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 10:55:27 +0000</pubDate>
+				<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Fintech]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Donations]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144810</guid>
+
+					<description><![CDATA[Secure philanthropy needs hardened payments, API security, and compliance controls to protect global donations from fraud and attacks.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/cyber-secure-philanthropy-tech-infrastructure-global-donations/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>7 Key Features That Make Secure Browsers Safer</title>
+		<link>https://hackread.com/7-key-features-make-secure-browsers-safer/</link>
+					<comments>https://hackread.com/7-key-features-make-secure-browsers-safer/#respond</comments>
+		
+		<dc:creator><![CDATA[Owais Sultan]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 09:48:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Anonymity]]></category>
+		<category><![CDATA[Browser]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144807</guid>
+
+					<description><![CDATA[Secure Browsers boost safety with tracking blocks, fingerprint protection, session control, and real-time threat defense against modern web attacks.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/7-key-features-make-secure-browsers-safer/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Paying Ransom Won’t Help as VECT 2.0 Ransomware Destroys Data Irreversibly</title>
+		<link>https://hackread.com/paying-ransom-vect-2-0-ransomware-destroys-data/</link>
+					<comments>https://hackread.com/paying-ransom-vect-2-0-ransomware-destroys-data/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Sun, 03 May 2026 16:07:49 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber Attacks]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Check Point]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[RaaS]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[VECT]]></category>
+		<category><![CDATA[Windows]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144783</guid>
+
+					<description><![CDATA[VECT 2.0 ransomware contains fatal flaws that permanently destroy files, making recovery impossible and rendering ransom payments useless for victims worldwide.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/paying-ransom-vect-2-0-ransomware-destroys-data/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Google AppSheet Exploited in 30,000-User Facebook Phishing Operation</title>
+		<link>https://hackread.com/google-appsheet-facebook-accountdumpling-scam/</link>
+					<comments>https://hackread.com/google-appsheet-facebook-accountdumpling-scam/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Sat, 02 May 2026 18:07:25 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Phishing Scam]]></category>
+		<category><![CDATA[AccountDumpling]]></category>
+		<category><![CDATA[AppSheet]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Fraud]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Google Drive]]></category>
+		<category><![CDATA[Phishing]]></category>
+		<category><![CDATA[Scam]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144775</guid>
+
+					<description><![CDATA[Scammers are abusing Google AppSheet and Google Drive to bypass security filters and steal thousands of Facebook Business accounts globally.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/google-appsheet-facebook-accountdumpling-scam/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>2 US Cybersecurity Experts Jailed for Aiding ALPHV (BlackCat) Ransomware</title>
+		<link>https://hackread.com/us-cybersecurity-experts-jail-alphv-blackcat-ransomware/</link>
+					<comments>https://hackread.com/us-cybersecurity-experts-jail-alphv-blackcat-ransomware/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Sat, 02 May 2026 12:28:23 +0000</pubDate>
+				<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Cyber Attacks]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ALPHV]]></category>
+		<category><![CDATA[BlackCat]]></category>
+		<category><![CDATA[cyber attacks]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[FBI]]></category>
+		<category><![CDATA[Kevin Martin]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Ryan Goldberg]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144761</guid>
+
+					<description><![CDATA[Two US cybersecurity experts jailed for aiding BlackCat ransomware group, extorting victims worldwide and exploiting insider access for profit.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/us-cybersecurity-experts-jail-alphv-blackcat-ransomware/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>45,000 Attacks, 5,300+ Backdoors Tied to China-Linked Cybercrime Operation</title>
+		<link>https://hackread.com/45k-attacks-53k-backdoor-china-cybercrime-operation/</link>
+					<comments>https://hackread.com/45k-attacks-53k-backdoor-china-cybercrime-operation/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Fri, 01 May 2026 19:38:50 +0000</pubDate>
+				<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[backdoor]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[OpenClaw]]></category>
+		<category><![CDATA[SOCRadar]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144727</guid>
+
+					<description><![CDATA[SOCRadar researchers have uncovered a massive Chinese cybercrime operation using the OpenClaw and Paperclip systems to automate global attacks.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/45k-attacks-53k-backdoor-china-cybercrime-operation/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hackers Use Jenkins Access to Deploy DDoS Botnet Against Gaming Servers</title>
+		<link>https://hackread.com/hackers-jenkins-ddos-botnet-gaming-servers/</link>
+					<comments>https://hackread.com/hackers-jenkins-ddos-botnet-gaming-servers/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Fri, 01 May 2026 17:21:29 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cyber Attacks]]></category>
+		<category><![CDATA[Botnet]]></category>
+		<category><![CDATA[Cyber Attack]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Darktrace]]></category>
+		<category><![CDATA[DDOS]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[RCE]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144740</guid>
+
+					<description><![CDATA[A new campaign shows misconfigured Jenkins servers abused to deploy a DDoS botnet targeting gaming systems, with Valve Corporation infrastructure in focus.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/hackers-jenkins-ddos-botnet-gaming-servers/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Criminal IP and Securonix ThreatQ Collaborate to Enhance Threat Intelligence Operations</title>
+		<link>https://hackread.com/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/</link>
+					<comments>https://hackread.com/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/#respond</comments>
+		
+		<dc:creator><![CDATA[CyberNewswire]]></dc:creator>
+		<pubDate>Fri, 01 May 2026 14:00:27 +0000</pubDate>
+				<category><![CDATA[Press Release]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144738</guid>
+
+					<description><![CDATA[Torrance, United States / California, 1st May 2026, CyberNewswire]]></description>
+		
+					<wfw:commentRss>https://hackread.com/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Critical cPanel Vulnerability Lets Attackers Bypass Login, Gain Root Access</title>
+		<link>https://hackread.com/cpanel-vulnerability-attacker-bypass-login-root-access/</link>
+					<comments>https://hackread.com/cpanel-vulnerability-attacker-bypass-login-root-access/#respond</comments>
+		
+		<dc:creator><![CDATA[Deeba Ahmed]]></dc:creator>
+		<pubDate>Fri, 01 May 2026 11:02:37 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[0day]]></category>
+		<category><![CDATA[Critical]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[EOL]]></category>
+		<category><![CDATA[Vulnerability]]></category>
+		<category><![CDATA[WHM]]></category>
+		<guid isPermaLink="false">https://hackread.com/?p=144715</guid>
+
+					<description><![CDATA[A critical cPanel vulnerability lets attackers bypass login and gain root access, with active exploitation reported before patches were released.]]></description>
+		
+					<wfw:commentRss>https://hackread.com/cpanel-vulnerability-attacker-bypass-login-root-access/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		<enclosure url="https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/media/2026/04/whm-demo.mp4" length="512125" type="video/mp4" />
+
+			</item>
+	</channel>
+</rss>

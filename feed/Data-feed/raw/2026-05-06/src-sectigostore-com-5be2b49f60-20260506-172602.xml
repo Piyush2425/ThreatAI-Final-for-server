@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+>
+
+<channel>
+	<title>InfoSec Insights</title>
+	<atom:link href="https://sectigostore.com/blog/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sectigostore.com/blog/</link>
+	<description>SectigoStore.com Blog</description>
+	<lastBuildDate>Wed, 11 Mar 2026 14:38:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+	<item>
+		<title>SSL/TLS Certificate Lifespans Are Decreasing to 200 Days</title>
+		<link>https://sectigostore.com/blog/ssl-tls-certificate-lifespans-are-decreasing-to-200-days/</link>
+		
+		<dc:creator><![CDATA[Casey Crane]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 14:37:24 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[certificate validity]]></category>
+		<category><![CDATA[SSL certificates]]></category>
+		<guid isPermaLink="false">https://sectigostore.com/blog/?p=3923</guid>
+
+					<description><![CDATA[<p>Sectigo will begin issuing 199-day certificates starting March 12, 2026. Are you ready to handle doubling certificate reissuances? The CA/Browser Forum’s (CABF) Sunday, March 15, 2026 deadline to reduce certificate...</p>
+<p>The post <a href="https://sectigostore.com/blog/ssl-tls-certificate-lifespans-are-decreasing-to-200-days/">SSL/TLS Certificate Lifespans Are Decreasing to 200 Days</a> appeared first on <a href="https://sectigostore.com/blog">InfoSec Insights</a>.</p>
+]]></description>
+		
+		
+		
+			<media:content url="https://sectigostore.com/blog/wp-content/uploads/2026/02/ssl-220-day-validity-feature-final-560x350.jpg" medium="image" />
+	</item>
+		<item>
+		<title>A Guide to PKI Authentication with 8 Examples</title>
+		<link>https://sectigostore.com/blog/pki-authentication-examples/</link>
+		
+		<dc:creator><![CDATA[Nadia Bonini]]></dc:creator>
+		<pubDate>Tue, 11 Nov 2025 16:15:40 +0000</pubDate>
+				<category><![CDATA[Web Security]]></category>
+		<category><![CDATA[authentication]]></category>
+		<category><![CDATA[PKI authentication]]></category>
+		<guid isPermaLink="false">https://sectigostore.com/blog/?p=3898</guid>
+
+					<description><![CDATA[<p>$900 million and counting — that’s the price the UnitedHealth Group is paying for a data breach and ransomware attack caused by weak authentication practices. PKI certificate-based authentication isn&#8217;t new,...</p>
+<p>The post <a href="https://sectigostore.com/blog/pki-authentication-examples/">A Guide to PKI Authentication with 8 Examples</a> appeared first on <a href="https://sectigostore.com/blog">InfoSec Insights</a>.</p>
+]]></description>
+		
+		
+		
+			<media:content url="https://sectigostore.com/blog/wp-content/uploads/2025/11/pki-authentication-feature-560x350.jpg" medium="image" />
+	</item>
+		<item>
+		<title>How to Open 443 Port and Check If It Is Enabled or Not</title>
+		<link>https://sectigostore.com/blog/how-to-open-443-port-and-check-if-it-is-enabled-or-not/</link>
+		
+		<dc:creator><![CDATA[Nadia Bonini]]></dc:creator>
+		<pubDate>Tue, 28 Oct 2025 16:55:07 +0000</pubDate>
+				<category><![CDATA[Cyber Security]]></category>
+		<category><![CDATA[port 443]]></category>
+		<guid isPermaLink="false">https://sectigostore.com/blog/?p=3863</guid>
+
+					<description><![CDATA[<p>Cybersecurity extends beyond preventing malware and protecting your code. Learn how to open the 443 port to beef up your website and improve your organization’s overall security posture Port 443...</p>
+<p>The post <a href="https://sectigostore.com/blog/how-to-open-443-port-and-check-if-it-is-enabled-or-not/">How to Open 443 Port and Check If It Is Enabled or Not</a> appeared first on <a href="https://sectigostore.com/blog">InfoSec Insights</a>.</p>
+]]></description>
+		
+		
+		
+			<media:content url="https://sectigostore.com/blog/wp-content/uploads/2025/10/how-to-open-443-port-feature-sm-560x350.jpg" medium="image" />
+	</item>
+		<item>
+		<title>4 Key SMB Takeaways from OWASP&#8217;s GenAI Security Incident Response Guide</title>
+		<link>https://sectigostore.com/blog/smb-takeaways-owasps-genai-security-incident-response-guide/</link>
+		
+		<dc:creator><![CDATA[Nadia Bonini]]></dc:creator>
+		<pubDate>Fri, 10 Oct 2025 15:01:07 +0000</pubDate>
+				<category><![CDATA[Web Security]]></category>
+		<category><![CDATA[GenAI]]></category>
+		<guid isPermaLink="false">https://sectigostore.com/blog/?p=3848</guid>
+
+					<description><![CDATA[<p>78% of GitHub’s developer survey respondents currently use (or plan to use) generative AI (GenAI) within two years. Explore OWASP’s GenAI Security Incident guide, which shares insights into how small-...</p>
+<p>The post <a href="https://sectigostore.com/blog/smb-takeaways-owasps-genai-security-incident-response-guide/">4 Key SMB Takeaways from OWASP&#8217;s GenAI Security Incident Response Guide</a> appeared first on <a href="https://sectigostore.com/blog">InfoSec Insights</a>.</p>
+]]></description>
+		
+		
+		
+			<media:content url="https://sectigostore.com/blog/wp-content/uploads/2025/10/generative-ai-feature--560x350.jpg" medium="image" />
+	</item>
+		<item>
+		<title>The Ultimate Guide to Software Supply Chain Security Risks, Threats, and Mitigations</title>
+		<link>https://sectigostore.com/blog/software-supply-chain-security-risks-threats-and-mitigations/</link>
+		
+		<dc:creator><![CDATA[Nadia Bonini]]></dc:creator>
+		<pubDate>Tue, 19 Aug 2025 11:44:00 +0000</pubDate>
+				<category><![CDATA[Code Signing]]></category>
+		<category><![CDATA[software supply chain security]]></category>
+		<guid isPermaLink="false">https://sectigostore.com/blog/?p=3832</guid>
+
+					<description><![CDATA[<p>In July 2025, a core node package manager (npm) package with 28+ million downloads per week was compromised, exposing millions of projects and development environments. Discover how to enhance your...</p>
+<p>The post <a href="https://sectigostore.com/blog/software-supply-chain-security-risks-threats-and-mitigations/">The Ultimate Guide to Software Supply Chain Security Risks, Threats, and Mitigations</a> appeared first on <a href="https://sectigostore.com/blog">InfoSec Insights</a>.</p>
+]]></description>
+		
+		
+		
+			<media:content url="https://sectigostore.com/blog/wp-content/uploads/2025/08/guide-to-software-supply-chain-security-560x350.jpg" medium="image" />
+	</item>
+		<item>
+		<title>5 Real-World Software Nightmares That Code Integrity Verification Could Have Prevented</title>
+		<link>https://sectigostore.com/blog/5-nightmares-that-code-integrity-verification-could-have-prevented/</link>
+		
+		<dc:creator><![CDATA[Nadia Bonini]]></dc:creator>
+		<pubDate>Tue, 29 Jul 2025 09:55:00 +0000</pubDate>
+				<category><![CDATA[Code Signing]]></category>
+		<category><![CDATA[Web Security]]></category>
+		<category><![CDATA[code integrity]]></category>
+		<category><![CDATA[code integrity verification]]></category>
+		<guid isPermaLink="false">https://sectigostore.com/blog/?p=3807</guid>
+
+					<description><![CDATA[<p>Learn from the past to prepare for the future with these 5 infamous cyber attacks (and their disastrous consequences) that could have been prevented with code integrity check. Operational downtime,...</p>
+<p>The post <a href="https://sectigostore.com/blog/5-nightmares-that-code-integrity-verification-could-have-prevented/">5 Real-World Software Nightmares That Code Integrity Verification Could Have Prevented</a> appeared first on <a href="https://sectigostore.com/blog">InfoSec Insights</a>.</p>
+]]></description>
+		
+		
+		
+			<media:content url="https://sectigostore.com/blog/wp-content/uploads/2025/07/code-integrity-check-feature-560x350.jpg" medium="image" />
+	</item>
+		<item>
+		<title>How Does PKI Work? A Look at the Inner Workings of Public Key Infrastructure</title>
+		<link>https://sectigostore.com/blog/how-does-pki-work/</link>
+		
+		<dc:creator><![CDATA[Nadia Bonini]]></dc:creator>
+		<pubDate>Thu, 12 Jun 2025 14:53:28 +0000</pubDate>
+				<category><![CDATA[Cyber Security]]></category>
+		<category><![CDATA[Encryption]]></category>
+		<category><![CDATA[how does pki work]]></category>
+		<category><![CDATA[pki it security]]></category>
+		<category><![CDATA[pki technology]]></category>
+		<guid isPermaLink="false">https://sectigostore.com/blog/?p=3782</guid>
+
+					<description><![CDATA[<p>You enjoy the benefits of PKI every day, but have you ever wondered what goes on behind the scenes? Learn how public key infrastructure works to ensure data security and...</p>
+<p>The post <a href="https://sectigostore.com/blog/how-does-pki-work/">How Does PKI Work? A Look at the Inner Workings of Public Key Infrastructure</a> appeared first on <a href="https://sectigostore.com/blog">InfoSec Insights</a>.</p>
+]]></description>
+		
+		
+		
+			<media:content url="https://sectigostore.com/blog/wp-content/uploads/2025/06/how-pki-works-feature-v2-560x350.jpg" medium="image" />
+	</item>
+		<item>
+		<title>8 Practical PKI Uses &#038; Applications That Drive SMB Security</title>
+		<link>https://sectigostore.com/blog/practical-pki-uses-and-applications/</link>
+		
+		<dc:creator><![CDATA[Nadia Bonini]]></dc:creator>
+		<pubDate>Fri, 23 May 2025 16:22:38 +0000</pubDate>
+				<category><![CDATA[Cyber Security]]></category>
+		<category><![CDATA[pki]]></category>
+		<category><![CDATA[pki it security]]></category>
+		<category><![CDATA[SMB]]></category>
+		<guid isPermaLink="false">https://sectigostore.com/blog/?p=3709</guid>
+
+					<description><![CDATA[<p>More than half of the breaches investigated by Verizon in its 2025 DBIR report stemmed from system intrusions. Discover which PKI use cases every small and mid-size business can implement...</p>
+<p>The post <a href="https://sectigostore.com/blog/practical-pki-uses-and-applications/">8 Practical PKI Uses &amp; Applications That Drive SMB Security</a> appeared first on <a href="https://sectigostore.com/blog">InfoSec Insights</a>.</p>
+]]></description>
+		
+		
+		
+			<media:content url="https://sectigostore.com/blog/wp-content/uploads/2025/05/pki-uses-and-applications-feature-560x350.jpg" medium="image" />
+	</item>
+		<item>
+		<title>Demystifying PKI Technology: An Essential Guide for IT Security Professionals</title>
+		<link>https://sectigostore.com/blog/demystifying-pki-technology-it-security/</link>
+		
+		<dc:creator><![CDATA[Nadia Bonini]]></dc:creator>
+		<pubDate>Fri, 09 May 2025 14:59:06 +0000</pubDate>
+				<category><![CDATA[Cyber Security]]></category>
+		<category><![CDATA[pki]]></category>
+		<category><![CDATA[pki it security]]></category>
+		<category><![CDATA[pki technology]]></category>
+		<guid isPermaLink="false">https://sectigostore.com/blog/?p=3689</guid>
+
+					<description><![CDATA[<p>Learn everything you need to know about PKI technology in IT security that enables organizations to establish trust in a digital world where the physical verification of identities is impossible...</p>
+<p>The post <a href="https://sectigostore.com/blog/demystifying-pki-technology-it-security/">Demystifying PKI Technology: An Essential Guide for IT Security Professionals</a> appeared first on <a href="https://sectigostore.com/blog">InfoSec Insights</a>.</p>
+]]></description>
+		
+		
+		
+			<media:content url="https://sectigostore.com/blog/wp-content/uploads/2025/05/pki-technology-feature-560x350.jpg" medium="image" />
+	</item>
+		<item>
+		<title>10 Digital Identity Examples for Small Business Owners</title>
+		<link>https://sectigostore.com/blog/digital-identity-examples/</link>
+		
+		<dc:creator><![CDATA[Nadia Bonini]]></dc:creator>
+		<pubDate>Mon, 28 Apr 2025 11:55:32 +0000</pubDate>
+				<category><![CDATA[Cyber Security]]></category>
+		<category><![CDATA[Other]]></category>
+		<category><![CDATA[digital identity]]></category>
+		<category><![CDATA[digital identity examples]]></category>
+		<guid isPermaLink="false">https://sectigostore.com/blog/?p=3666</guid>
+
+					<description><![CDATA[<p>VikingCloud reports that one in five SMBs believe they’d be forced out of business if they fell prey to a cyber attack. Discover 10 ways SMB owners like you can...</p>
+<p>The post <a href="https://sectigostore.com/blog/digital-identity-examples/">10 Digital Identity Examples for Small Business Owners</a> appeared first on <a href="https://sectigostore.com/blog">InfoSec Insights</a>.</p>
+]]></description>
+		
+		
+		
+			<media:content url="https://sectigostore.com/blog/wp-content/uploads/2025/04/digita-identity-examples-feature2-560x350.jpg" medium="image" />
+	</item>
+	</channel>
+</rss>

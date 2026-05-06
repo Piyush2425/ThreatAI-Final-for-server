@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SecurityWeek</title>
+	<atom:link href="https://www.securityweek.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.securityweek.com/</link>
+	<description>Cybersecurity News, Insights &#38; Analysis</description>
+	<lastBuildDate>Wed, 06 May 2026 17:44:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg</url>
+	<title>SecurityWeek</title>
+	<link>https://www.securityweek.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Autonomous Offensive Security Firm XBOW Raises $35 Million</title>
+		<link>https://www.securityweek.com/autonomous-offensive-security-firm-xbow-raises-35-million/</link>
+		
+		<dc:creator><![CDATA[SecurityWeek News]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 14:49:33 +0000</pubDate>
+				<category><![CDATA[Cybersecurity Funding]]></category>
+		<category><![CDATA[funding]]></category>
+		<category><![CDATA[XBOW]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46355</guid>
+
+					<description><![CDATA[<p>The company raised another $35 million as an extension to its previously announced Series C funding round.</p>
+<p>The post <a href="https://www.securityweek.com/autonomous-offensive-security-firm-xbow-raises-35-million/">Autonomous Offensive Security Firm XBOW Raises $35 Million</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Herd Security Raises $3 Million for AI-Powered Training Platform</title>
+		<link>https://www.securityweek.com/herd-security-raises-3-million-for-ai-powered-training-platform/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 13:30:00 +0000</pubDate>
+				<category><![CDATA[Cybersecurity Funding]]></category>
+		<category><![CDATA[Training & Awareness]]></category>
+		<category><![CDATA[funding]]></category>
+		<category><![CDATA[Herd Security]]></category>
+		<category><![CDATA[Training]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46352</guid>
+
+					<description><![CDATA[<p>The startup will invest in expanding its training categories, optimizing video generation, and growing its partnership ecosystem.</p>
+<p>The post <a href="https://www.securityweek.com/herd-security-raises-3-million-for-ai-powered-training-platform/">Herd Security Raises $3 Million for AI-Powered Training Platform</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Iranian APT Intrusion Masquerades as Chaos Ransomware Attack</title>
+		<link>https://www.securityweek.com/iranian-apt-intrusion-masquerades-as-chaos-ransomware-attack/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[Nation-State]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Chaos]]></category>
+		<category><![CDATA[false flag]]></category>
+		<category><![CDATA[Iran]]></category>
+		<category><![CDATA[MuddyWater]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46350</guid>
+
+					<description><![CDATA[<p>Likely perpetrated by MuddyWater, the attack combined social engineering, persistence, credential harvesting, and data theft.</p>
+<p>The post <a href="https://www.securityweek.com/iranian-apt-intrusion-masquerades-as-chaos-ransomware-attack/">Iranian APT Intrusion Masquerades as Chaos Ransomware Attack</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Romanian Man Extradited to US for Role in Hacking Scheme 17 Years Ago</title>
+		<link>https://www.securityweek.com/romanian-extradited-to-us-for-role-in-hacking-scheme-17-years-ago/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 11:57:40 +0000</pubDate>
+				<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[charged]]></category>
+		<category><![CDATA[hacker]]></category>
+		<category><![CDATA[vishing]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46353</guid>
+
+					<description><![CDATA[<p>Gavril Sandu, 53, was indicted in 2017, but was arrested and extradited to the United States only in 2026.</p>
+<p>The post <a href="https://www.securityweek.com/romanian-extradited-to-us-for-role-in-hacking-scheme-17-years-ago/">Romanian Man Extradited to US for Role in Hacking Scheme 17 Years Ago</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>CISA Launches ‘CI Fortify’ to Prepare Critical Infrastructure for Geopolitical Cyber Conflict</title>
+		<link>https://www.securityweek.com/cisa-critical-infrastructure-must-master-isolation-recovery/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 10:15:34 +0000</pubDate>
+				<category><![CDATA[Government]]></category>
+		<category><![CDATA[ICS/OT]]></category>
+		<category><![CDATA[Incident Response]]></category>
+		<category><![CDATA[CI Fortify]]></category>
+		<category><![CDATA[CISA]]></category>
+		<category><![CDATA[critical infrastructure]]></category>
+		<category><![CDATA[guidance]]></category>
+		<category><![CDATA[isolation]]></category>
+		<category><![CDATA[OT]]></category>
+		<category><![CDATA[recovery]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46348</guid>
+
+					<description><![CDATA[<p>Agency issued guidance and calls on operators to build resilient OT environments capable of surviving extended isolation and cyber compromise.</p>
+<p>The post <a href="https://www.securityweek.com/cisa-critical-infrastructure-must-master-isolation-recovery/">CISA Launches ‘CI Fortify’ to Prepare Critical Infrastructure for Geopolitical Cyber Conflict</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Sophisticated Quasar Linux RAT Targets Software Developers</title>
+		<link>https://www.securityweek.com/sophisticated-quasar-linux-rat-targets-software-developers/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 09:48:39 +0000</pubDate>
+				<category><![CDATA[Malware & Threats]]></category>
+		<category><![CDATA[Linux malware]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[QLNX]]></category>
+		<category><![CDATA[Quasar Linux]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46345</guid>
+
+					<description><![CDATA[<p>The persistent, evasive implant provides remote access, surveillance, and credential exfiltration capabilities.</p>
+<p>The post <a href="https://www.securityweek.com/sophisticated-quasar-linux-rat-targets-software-developers/">Sophisticated Quasar Linux RAT Targets Software Developers</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Government, Scientific Entities Hit via Daemon Tools Supply Chain Attack</title>
+		<link>https://www.securityweek.com/government-scientific-entities-hit-via-daemon-tools-supply-chain-attack/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 08:33:40 +0000</pubDate>
+				<category><![CDATA[Malware & Threats]]></category>
+		<category><![CDATA[Supply Chain Security]]></category>
+		<category><![CDATA[Daemon Tools]]></category>
+		<category><![CDATA[supply chain attack]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46344</guid>
+
+					<description><![CDATA[<p>While trojanized Daemon Tools versions were installed worldwide, a sophisticated backdoor was dropped only on a dozen systems.</p>
+<p>The post <a href="https://www.securityweek.com/government-scientific-entities-hit-via-daemon-tools-supply-chain-attack/">Government, Scientific Entities Hit via Daemon Tools Supply Chain Attack</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Oracle Debuts Monthly Critical Security Patch Updates</title>
+		<link>https://www.securityweek.com/oracle-debuts-monthly-critical-security-patch-updates/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 06:32:17 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[CSPU]]></category>
+		<category><![CDATA[Oracle]]></category>
+		<category><![CDATA[Patch]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46343</guid>
+
+					<description><![CDATA[<p>Containing fixes for critical-severity vulnerabilities, the monthly rollouts will focus on addressing priority issues faster.</p>
+<p>The post <a href="https://www.securityweek.com/oracle-debuts-monthly-critical-security-patch-updates/">Oracle Debuts Monthly Critical Security Patch Updates</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Palo Alto Networks to Patch Zero-Day Exploited to Hack Firewalls</title>
+		<link>https://www.securityweek.com/palo-alto-networks-to-patch-zero-day-exploited-to-hack-firewalls/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 04:46:23 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[exploited]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[firewall]]></category>
+		<category><![CDATA[Palo Alto Networks]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<category><![CDATA[Zero-Day]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46341</guid>
+
+					<description><![CDATA[<p>CVE-2026-0300 affects the Captive Portal service of PAN-OS software on PA and VM series firewalls.</p>
+<p>The post <a href="https://www.securityweek.com/palo-alto-networks-to-patch-zero-day-exploited-to-hack-firewalls/">Palo Alto Networks to Patch Zero-Day Exploited to Hack Firewalls</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft Warns of Sophisticated Phishing Campaign Targeting US Organizations</title>
+		<link>https://www.securityweek.com/microsoft-warns-of-sophisticated-phishing-campaign-targeting-us-organizations/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 14:45:04 +0000</pubDate>
+				<category><![CDATA[Phishing]]></category>
+		<category><![CDATA[AitM]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[phishing]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46339</guid>
+
+					<description><![CDATA[<p>The malicious emails claim to contain a conduct report and lure victims to a Microsoft phishing website that leverages AitM.</p>
+<p>The post <a href="https://www.securityweek.com/microsoft-warns-of-sophisticated-phishing-campaign-targeting-us-organizations/">Microsoft Warns of Sophisticated Phishing Campaign Targeting US Organizations</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Application and Cybersecurity Blog</title>
+    <link>https://blog.securityinnovation.com</link>
+    <description>Learn about application and cybersecurity from the experts at Security Innovation.</description>
+    <language>en-us</language>
+    <pubDate>Wed, 04 Jun 2025 14:02:13 GMT</pubDate>
+    <dc:date>2025-06-04T14:02:13Z</dc:date>
+    <dc:language>en-us</dc:language>
+    <item>
+      <title>Defend the Airport</title>
+      <link>https://blog.securityinnovation.com/defend-the-airport</link>
+      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="https://blog.securityinnovation.com/defend-the-airport" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.securityinnovation.com/hubfs/Defend%20the%20airport.png" alt="Defend the Airport" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p&gt;Every day, millions of passengers depend on a vast, complex airport ecosystem to get from Point A to Point B. From airline check-ins and baggage handling to air traffic control and terminal operations, the aviation sector is an intricate web of interconnected third-party providers, technologies, and stakeholders.&lt;/p&gt; 
+&lt;p&gt;In this high-stakes environment, a cybersecurity breach is not a single point of failure, it’s a ripple effect waiting to happen.&lt;/p&gt;</description>
+      <content:encoded>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="https://blog.securityinnovation.com/defend-the-airport" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.securityinnovation.com/hubfs/Defend%20the%20airport.png" alt="Defend the Airport" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p&gt;Every day, millions of passengers depend on a vast, complex airport ecosystem to get from Point A to Point B. From airline check-ins and baggage handling to air traffic control and terminal operations, the aviation sector is an intricate web of interconnected third-party providers, technologies, and stakeholders.&lt;/p&gt; 
+&lt;p&gt;In this high-stakes environment, a cybersecurity breach is not a single point of failure, it’s a ripple effect waiting to happen.&lt;/p&gt;  
+&lt;img src="https://track.hubspot.com/__ptq.gif?a=49125&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblog.securityinnovation.com%2Fdefend-the-airport&amp;amp;bu=https%253A%252F%252Fblog.securityinnovation.com&amp;amp;bvt=rss" alt="" width="1" height="1" style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; "&gt;</content:encoded>
+      <category>cybersecurity</category>
+      <category>cyber crisis management</category>
+      <pubDate>Wed, 04 Jun 2025 14:02:13 GMT</pubDate>
+      <guid>https://blog.securityinnovation.com/defend-the-airport</guid>
+      <dc:date>2025-06-04T14:02:13Z</dc:date>
+      <dc:creator>Floris Duvekot</dc:creator>
+    </item>
+    <item>
+      <title>Securing LLMs Against Prompt Injection Attacks - A Technical Primer for AI Security Teams</title>
+      <link>https://blog.securityinnovation.com/securing-llms-against-prompt-injection-attacks</link>
+      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="https://blog.securityinnovation.com/securing-llms-against-prompt-injection-attacks" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.securityinnovation.com/hubfs/Technical%20LLM%20injection.png" alt="Securing LLMs Against Prompt Injection Attacks - A Technical Primer for AI Security Teams" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;h2&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt; 
+&lt;p&gt;Large Language Models (LLMs) have rapidly become integral to applications, but they come with some very interesting security pitfalls. Chief among these is &lt;strong&gt;prompt injection&lt;/strong&gt;, where cleverly crafted inputs make an LLM bypass its instructions or leak secrets. Prompt injection in fact is so wildly popular that, OWASP now ranks prompt injection as the #1 AI security risk for modern LLM applications as shown in their OWASP &lt;a href="https://genai.owasp.org/llmrisk/llm01-prompt-injection/"&gt;&lt;span style="color: #467886;"&gt;GenAI top 10&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;We’ve provided a higher-level overview about Prompt Injection in our &lt;a href="https://blog.securityinnovation.com/llm-prompt-injection-whats-the-business-risk"&gt;other blog&lt;/a&gt;, so in this one we’ll focus on the concept with the technical audience in mind. Here we’ll explore how LLMs can be vulnerable at the architectural level and the sophisticated ways attackers exploit them. We’ll also examine effective defenses, from system prompt design to “sandwich” prompting techniques. We’ll also discuss a few tools that can help test and secure LLMs.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
+      <content:encoded>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="https://blog.securityinnovation.com/securing-llms-against-prompt-injection-attacks" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.securityinnovation.com/hubfs/Technical%20LLM%20injection.png" alt="Securing LLMs Against Prompt Injection Attacks - A Technical Primer for AI Security Teams" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;h2&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt; 
+&lt;p&gt;Large Language Models (LLMs) have rapidly become integral to applications, but they come with some very interesting security pitfalls. Chief among these is &lt;strong&gt;prompt injection&lt;/strong&gt;, where cleverly crafted inputs make an LLM bypass its instructions or leak secrets. Prompt injection in fact is so wildly popular that, OWASP now ranks prompt injection as the #1 AI security risk for modern LLM applications as shown in their OWASP &lt;a href="https://genai.owasp.org/llmrisk/llm01-prompt-injection/"&gt;&lt;span style="color: #467886;"&gt;GenAI top 10&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;We’ve provided a higher-level overview about Prompt Injection in our &lt;a href="https://blog.securityinnovation.com/llm-prompt-injection-whats-the-business-risk"&gt;other blog&lt;/a&gt;, so in this one we’ll focus on the concept with the technical audience in mind. Here we’ll explore how LLMs can be vulnerable at the architectural level and the sophisticated ways attackers exploit them. We’ll also examine effective defenses, from system prompt design to “sandwich” prompting techniques. We’ll also discuss a few tools that can help test and secure LLMs.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;  
+&lt;img src="https://track.hubspot.com/__ptq.gif?a=49125&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblog.securityinnovation.com%2Fsecuring-llms-against-prompt-injection-attacks&amp;amp;bu=https%253A%252F%252Fblog.securityinnovation.com&amp;amp;bvt=rss" alt="" width="1" height="1" style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; "&gt;</content:encoded>
+      <category>cybersecurity</category>
+      <category>LLM</category>
+      <pubDate>Wed, 14 May 2025 17:54:47 GMT</pubDate>
+      <author>dshetty@securityinnovation.com (Dinesh Shetty)</author>
+      <guid>https://blog.securityinnovation.com/securing-llms-against-prompt-injection-attacks</guid>
+      <dc:date>2025-05-14T17:54:47Z</dc:date>
+    </item>
+    <item>
+      <title>LLM Prompt Injection - What's the Business Risk, and What to Do About It</title>
+      <link>https://blog.securityinnovation.com/llm-prompt-injection-whats-the-business-risk</link>
+      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="https://blog.securityinnovation.com/llm-prompt-injection-whats-the-business-risk" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.securityinnovation.com/hubfs/Securing%20LLM.png" alt="LLM Prompt Injection - What's the Business Risk, and What to Do About It" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p&gt;The rise of generative AI offers incredible opportunities for businesses. Large Language Models can automate customer service, generate insightful analytics, and accelerate content creation. But alongside these benefits comes a new category of security risk that business leaders must understand: &lt;strong&gt;&lt;em&gt;Prompt Injection Attacks&lt;/em&gt;&lt;/strong&gt;. In simple terms, a prompt injection is when someone feeds an AI model malicious or deceptive input that causes it to behave in an unintended, and often harmful way. This isn’t just a technical glitch, it’s a serious threat that can lead to brand embarrassment, data leaks, or compliance violations if not addressed. As organizations rush to adopt AI capabilities, ensuring the security of those AI systems is now a board-level concern. In this post we’ll provide a high-level overview of prompt injection risks, why they matter to your business, and how Security Innovation’s GenAI Penetration Testing and related services help mitigate these threats so you can innovate safely.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
+      <content:encoded>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="https://blog.securityinnovation.com/llm-prompt-injection-whats-the-business-risk" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.securityinnovation.com/hubfs/Securing%20LLM.png" alt="LLM Prompt Injection - What's the Business Risk, and What to Do About It" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p&gt;The rise of generative AI offers incredible opportunities for businesses. Large Language Models can automate customer service, generate insightful analytics, and accelerate content creation. But alongside these benefits comes a new category of security risk that business leaders must understand: &lt;strong&gt;&lt;em&gt;Prompt Injection Attacks&lt;/em&gt;&lt;/strong&gt;. In simple terms, a prompt injection is when someone feeds an AI model malicious or deceptive input that causes it to behave in an unintended, and often harmful way. This isn’t just a technical glitch, it’s a serious threat that can lead to brand embarrassment, data leaks, or compliance violations if not addressed. As organizations rush to adopt AI capabilities, ensuring the security of those AI systems is now a board-level concern. In this post we’ll provide a high-level overview of prompt injection risks, why they matter to your business, and how Security Innovation’s GenAI Penetration Testing and related services help mitigate these threats so you can innovate safely.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;  
+&lt;img src="https://track.hubspot.com/__ptq.gif?a=49125&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblog.securityinnovation.com%2Fllm-prompt-injection-whats-the-business-risk&amp;amp;bu=https%253A%252F%252Fblog.securityinnovation.com&amp;amp;bvt=rss" alt="" width="1" height="1" style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; "&gt;</content:encoded>
+      <category>cybersecurity</category>
+      <category>LLM</category>
+      <pubDate>Fri, 09 May 2025 13:07:20 GMT</pubDate>
+      <author>dshetty@securityinnovation.com (Dinesh Shetty)</author>
+      <guid>https://blog.securityinnovation.com/llm-prompt-injection-whats-the-business-risk</guid>
+      <dc:date>2025-05-09T13:07:20Z</dc:date>
+    </item>
+    <item>
+      <title>Quest Accepted: Setting Up a Pentesting Environment for the Meta Quest 2</title>
+      <link>https://blog.securityinnovation.com/setting-up-a-pentesting-environment-for-the-meta-quest-2</link>
+      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="https://blog.securityinnovation.com/setting-up-a-pentesting-environment-for-the-meta-quest-2" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.securityinnovation.com/hubfs/Meta%20Quest.png" alt="Quest Accepted: Setting Up a Pentesting Environment for the Meta Quest 2" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p&gt;With the advent of commercially available virtual reality headsets, such as the Meta Quest, the integration of virtual and augmented reality into our daily lives feels closer than ever before. As these devices become more common, so too will the need to secure and protect the data collected and stored by them.&lt;/p&gt; 
+&lt;p&gt;The intention of this blog post is to establish a baseline security testing environment for Meta Quest 2 applications and is split into three sections: Enabling Developer Mode, Establishing an Intercepting Proxy, and Injecting Frida Gadget. The Quest 2 runs on a modified version of the Android Open Source Project (AOSP) in addition to proprietary software developed by Meta, allowing the adoption of many established Android testing methods.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
+      <content:encoded>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="https://blog.securityinnovation.com/setting-up-a-pentesting-environment-for-the-meta-quest-2" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.securityinnovation.com/hubfs/Meta%20Quest.png" alt="Quest Accepted: Setting Up a Pentesting Environment for the Meta Quest 2" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p&gt;With the advent of commercially available virtual reality headsets, such as the Meta Quest, the integration of virtual and augmented reality into our daily lives feels closer than ever before. As these devices become more common, so too will the need to secure and protect the data collected and stored by them.&lt;/p&gt; 
+&lt;p&gt;The intention of this blog post is to establish a baseline security testing environment for Meta Quest 2 applications and is split into three sections: Enabling Developer Mode, Establishing an Intercepting Proxy, and Injecting Frida Gadget. The Quest 2 runs on a modified version of the Android Open Source Project (AOSP) in addition to proprietary software developed by Meta, allowing the adoption of many established Android testing methods.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;  
+&lt;img src="https://track.hubspot.com/__ptq.gif?a=49125&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblog.securityinnovation.com%2Fsetting-up-a-pentesting-environment-for-the-meta-quest-2&amp;amp;bu=https%253A%252F%252Fblog.securityinnovation.com&amp;amp;bvt=rss" alt="" width="1" height="1" style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; "&gt;</content:encoded>
+      <category>penetration testing</category>
+      <category>cybersecurity</category>
+      <pubDate>Mon, 28 Apr 2025 13:27:16 GMT</pubDate>
+      <guid>https://blog.securityinnovation.com/setting-up-a-pentesting-environment-for-the-meta-quest-2</guid>
+      <dc:date>2025-04-28T13:27:16Z</dc:date>
+      <dc:creator>Cosmo Mailhot</dc:creator>
+    </item>
+    <item>
+      <title>LLM Security by Design: Involving Security at Every Stage of Development</title>
+      <link>https://blog.securityinnovation.com/llm-security-by-design</link>
+      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="https://blog.securityinnovation.com/llm-security-by-design" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.securityinnovation.com/hubfs/LLM%20Security.png" alt="LLM Security by Design: Involving Security at Every Stage of Development" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p&gt;As large language models (LLMs) become increasingly prevalent in businesses and applications, the need for robust security measures has never been greater. An LLM, if not properly secured, can pose significant risks in terms of data breaches, model manipulation, and even regulatory compliance issues. This is where engaging an external security company becomes crucial.&lt;/p&gt; 
+&lt;p&gt;In this blog, we will explore the key considerations for companies looking to hire a security team to assess and secure their LLM-powered systems, as well as the specific tasks that should be undertaken at different stages of the LLM development lifecycle.&lt;/p&gt;</description>
+      <content:encoded>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="https://blog.securityinnovation.com/llm-security-by-design" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.securityinnovation.com/hubfs/LLM%20Security.png" alt="LLM Security by Design: Involving Security at Every Stage of Development" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p&gt;As large language models (LLMs) become increasingly prevalent in businesses and applications, the need for robust security measures has never been greater. An LLM, if not properly secured, can pose significant risks in terms of data breaches, model manipulation, and even regulatory compliance issues. This is where engaging an external security company becomes crucial.&lt;/p&gt; 
+&lt;p&gt;In this blog, we will explore the key considerations for companies looking to hire a security team to assess and secure their LLM-powered systems, as well as the specific tasks that should be undertaken at different stages of the LLM development lifecycle.&lt;/p&gt;  
+&lt;img src="https://track.hubspot.com/__ptq.gif?a=49125&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblog.securityinnovation.com%2Fllm-security-by-design&amp;amp;bu=https%253A%252F%252Fblog.securityinnovation.com&amp;amp;bvt=rss" alt="" width="1" height="1" style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; "&gt;</content:encoded>
+      <category>cloud security</category>
+      <category>cybersecurity</category>
+      <category>LLM</category>
+      <pubDate>Fri, 04 Apr 2025 12:46:51 GMT</pubDate>
+      <guid>https://blog.securityinnovation.com/llm-security-by-design</guid>
+      <dc:date>2025-04-04T12:46:51Z</dc:date>
+      <dc:creator>Fabian Vilela</dc:creator>
+    </item>
+  </channel>
+</rss>

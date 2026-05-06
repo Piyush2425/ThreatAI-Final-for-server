@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Security Affairs</title>
+	<atom:link href="https://securityaffairs.com/feed" rel="self" type="application/rss+xml" />
+	<link>https://securityaffairs.com/</link>
+	<description>Read, think, share … Security is everyone&#039;s responsibility</description>
+	<lastBuildDate>Tue, 05 May 2026 07:48:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+<site xmlns="com-wordpress:feed-additions:1">29506073</site>	<item>
+		<title>Educational tech firm Instructure data breach may have impacted 9,000 schools</title>
+		<link>https://securityaffairs.com/191686/cyber-crime/educational-tech-firm-instructure-data-breach-may-have-impacted-9000-schools.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 07:48:31 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Data Breach]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[Instructure]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[ShinyHunters]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191686</guid>
+
+					<description><![CDATA[Instructure, maker of the Canvas learning platform, is investigating a cyber incident that exposed users’ personal data. Instructure is a U.S.-based educational technology company best known for developing Canvas, one of the world’s most widely used learning management systems (LMS).  The U.S. firm confirrmed a cybersecurity incident that exposed users’ personal information. The company is working with external [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Instructure, maker of the Canvas learning platform, is investigating a cyber incident that exposed users’ personal data.</h2>
+
+
+
+<p>Instructure is a U.S.-based educational technology company best known for developing Canvas, one of the world’s most widely used learning management systems (LMS). </p>
+
+
+
+<p>The U.S. firm confirrmed a cybersecurity incident that exposed users’ personal information. The company is working with external cybersecurity experts and law enforcement to investigate the breach. Canvas is widely used by schools and universities to manage courses, assignments, and online learning, raising concerns about student and staff data security.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The company says the security incident appears to be contained while investigations continue. Instructure revoked privileged credentials and access tokens, deployed security patches, rotated some keys as a precaution, and increased monitoring across systems.</p>
+
+
+
+<p><em>&#8220;Out of an abundance of caution, we rotated certain keys, even though there is no evidence they were misused &#8211; Implemented increased monitoring across all platforms.&#8221; reads the <a href="https://status.instructure.com/history">Incident Report</a>. &#8220;While we continue actively investigating, thus far, indications are that the information involved consists of certain identifying information of users at affected institutions, such as names, email addresses, and student ID numbers, as well as messages among users. At this time, we have found no evidence that passwords, dates of birth, government identifiers, or financial information were involved.&#8221;</em></p>
+
+
+
+<p>So far, the exposed data likely includes user identifiers such as names, email addresses, student ID numbers, and some user messages. The company states that there is currently no evidence that passwords, dates of birth, government IDs, or financial data were affected.</p>
+
+
+
+<p>The educational technology firm continues to monitor the situation and will notify institutions if new findings emerge, while updating its status page and working to strengthen system security.</p>
+
+
+
+<p>Instructure did not share details about the attack, however, the <a href="https://securityaffairs.com/tag/shinyhunters" type="post_tag" id="11035">ShinyHunters</a> extortion group claimed responsibility for the attack and added the company to its Tor data leak site.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-9.png?ssl=1"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="447" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-9.png?resize=1024%2C447&#038;ssl=1" alt="" class="wp-image-191689" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-9.png?resize=1024%2C447&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-9.png?resize=300%2C131&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-9.png?resize=768%2C335&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-9.png?resize=1536%2C671&amp;ssl=1 1536w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-9.png?w=1608&amp;ssl=1 1608w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;Nearly 9,000 schools worldwide affected. 275 million individuals data ranging from students, teachers, and other staff containing PII. Several billions of private messages among students and teachers and students and other students involved, containing personal conversations and other PII. Your Salesforce instance was also breached and a lot more other data is involved. <strong>Pay or Leak.</strong>&#8221; the group wrote on its leak site. &#8220;This is a final warning to reach out by 6 May 2026 before we leak along with several annoying (digital) problems that&#8217;ll come your way. <strong>Make the right decision, don&#8217;t be the next headline.</strong>,&#8221; reads the data leak site.</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, data breach)</strong><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191686</post-id>	</item>
+		<item>
+		<title>MOVEit automation flaws could enable full system compromise</title>
+		<link>https://securityaffairs.com/191681/security/moveit-automation-flaws-could-enable-full-system-compromise.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 21:32:10 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[CVE-2026-4670]]></category>
+		<category><![CDATA[CVE-2026-5174]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[MOVEit]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Progress]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191681</guid>
+
+					<description><![CDATA[Progress fixes critical MOVEit Automation flaws, including an authentication bypass bug that could let attackers gain unauthorized access to systems. Progress Software addressed two vulnerabilities in MOVEit Automation, a critical authentication bypass flaw tracked as CVE-2026-4670 and a privilege escalation issue tracked as CVE-2026-5174. If exploited, these bugs could allow attackers to gain unauthorized access [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Progress fixes critical MOVEit Automation flaws, including an authentication bypass bug that could let attackers gain unauthorized access to systems.</h2>
+
+
+
+<p>Progress Software addressed two vulnerabilities in MOVEit Automation, a critical authentication bypass flaw tracked as CVE-2026-4670 and a privilege escalation issue tracked as CVE-2026-5174. If exploited, these bugs could allow attackers to gain unauthorized access or elevate privileges.</p>
+
+
+
+<p>MOVEit Automation is an enterprise managed file transfer (MFT) solution developed by Progress Software. <gwmw style="display: none; background-color: transparent;"></gwmw>It’s designed to securely move, schedule, and automate file transfers between systems, applications, and partners, without needing custom scripts.</p>
+
+
+
+<p>MOVEit Automation is widely used to manage and automate file transfers in enterprise environments. </p>
+
+
+
+<p><em>&#8220;Critical and high vulnerabilities in MOVEit Automation may allow authentication bypass and privilege escalation through the service backend command port interfaces&#8221; <a href="https://community.progress.com/s/article/MOVEit-Automation-Critical-Security-Alert-Bulletin-April-2026-CVE-2026-4670-CVE-2026-5174">reads the advisory</a>.  &#8220;Exploitation may lead to unauthorized access, administrative control, and data exposure.&#8221;</em></p>
+
+
+
+<p>The vulnerabilities impact the following versions:</p>
+
+
+
+<ul class="wp-block-list">
+<li>MOVEit Automation &lt;= 2025.1.4</li>
+
+
+
+<li>MOVEit Automation &lt;= 2025.0.8</li>
+
+
+
+<li>MOVEit Automation &lt;= 2024.1.7</li>
+</ul>
+
+
+
+<p>Airbus SecLab researchers Anaïs Gantet, Delphine Gourdou, Quentin Liddell, and Matteo Ricordeau discovered and reported the vulnerabilities. </p>
+
+
+
+<p>According to the advisory, no workarounds are available.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Flaws like this are especially dangerous because they can be weaponized quickly and at scale once discovered.</p>
+
+
+
+<p>A vulnerability such as an authentication bypass or privilege escalation can let attackers gain access to many systems in a short time, especially when the affected software is widely used in enterprises. Once a working exploit exists, it often gets reused in large automated campaigns, not just targeted attacks.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>This is what happened in past incidents involving ransomware groups like Clop ransomware group. They repeatedly abused vulnerabilities in file transfer systems (like <a href="https://securityaffairs.com/149921/hacking/massive-moveit-campaign-campaign.html">MOVEit in 2023</a>) to steal data from hundreds of organizations at once, before victims even had time to patch.</p>
+
+
+
+<p>In August 2023, cybersecurity firm Emsisoft <a href="https://securityaffairs.com/149921/hacking/massive-moveit-campaign-campaign.html">shared</a> disconcerting details about a massive hacking campaign conducted by the <a href="https://securityaffairs.com/tag/cl0p-ransomware" type="post_tag" id="15791">Cl0p ransomware</a> group that targeted the <a href="https://securityaffairs.com/147264/cyber-crime/clop-testing-moveit-transfer-bug-2021.html">MOVEit Transfer file</a> transfer platform designed by Progress Software Corporation.</p>
+
+
+
+<p>According to the experts, the attacks impacted approximately 1,000 Organizations and 60,144,069 individuals. The Cl0p ransomware gang exploited the zero-day vulnerability <a href="https://securityaffairs.com/146998/security/cisa-moveit-transfer-0day-catalog.html">CVE-2023-34362</a> to hack the platforms used by organizations worldwide and steal their data.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>That’s why these bugs are high-risk: they don’t just affect one company, they can become the entry point for mass exploitation, data theft, and ransomware extortion campaigns worldwide.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, MOVEit Automation)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191681</post-id>	</item>
+		<item>
+		<title>Hackers target governments and MSPs via critical cPanel flaw CVE-2026-41940</title>
+		<link>https://securityaffairs.com/191666/breaking-news/hackers-target-governments-and-msps-via-critical-cpanel-flaw-cve-2026-41940.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 19:10:42 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cPanel]]></category>
+		<category><![CDATA[CVE-2026-41940]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191666</guid>
+
+					<description><![CDATA[Attackers exploit a critical cPanel flaw to target government and MSP networks across Southeast Asia and several countries, including the U.S. and Canada. A threat actor is exploiting critical cPanel vulnerability CVE-2026-41940 to target government and military organizations in Southeast Asia, along with MSPs and hosting providers in countries like the Philippines, Laos, Canada, South [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading"><strong>A</strong>ttackers exploit a critical cPanel flaw to target government and MSP networks across Southeast Asia and several countries, including the U.S. and Canada.<gwmw style="display:none;"></gwmw></h2>
+
+
+
+<p>A threat actor is exploiting critical cPanel vulnerability <a href="https://thehackernews.com/2026/04/critical-cpanel-authentication.html">CVE-2026-41940</a> to target government and military organizations in Southeast Asia, along with MSPs and hosting providers in countries like the Philippines, Laos, Canada, South Africa, and the U.S. The attacks highlight the rapid weaponization of newly disclosed flaws.</p>
+
+
+
+<p><a href="https://securityaffairs.com/tag/cpanel">cPanel</a>&nbsp;is a widely used web hosting control panel that lets users manage websites and servers through a graphical interface instead of command-line tools.</p>
+
+
+
+<p><a href="https://securityaffairs.com/191613/hacking/u-s-cisa-adds-a-flaw-in-webpros-cpanel-to-its-known-exploited-vulnerabilities-catalog.html"><strong>CVE-2026-41940 is an authentication bypass flaw</strong></a> affecting cPanel and WHM versions after 11.40. A weakness in the login flow allows remote attackers to skip or manipulate authentication checks, granting access to the control panel without valid credentials. This could let attackers manage hosting settings, access sensitive data, or take control of the server.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Cybersecurity experts at watchTowr first&nbsp;<a href="https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/">disclosed</a>&nbsp;the flaw last week and released a tool to help defenders identify vulnerable hosts in their estates.</p>
+
+
+
+<p><em>“As we stated above, in-the-wild exploitation has already begun, according to KnownHost.” reads the&nbsp;<a href="https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/">advisory</a>&nbsp;by watchTowr. “Therefore, we’re releasing our&nbsp;<a href="https://github.com/watchtowrlabs/watchTowr-vs-cPanel-WHM-AuthBypass-to-RCE.py?ref=labs.watchtowr.com">Detection Artifact Generator</a>&nbsp;to enable defenders to identify vulnerable hosts in their estates.”</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>According to the Shadowserver Foundation, thousands of instances may be exposed.</p>
+
+
+
+<p>On May 2, 2026, researchers at Ctrl-Alt-Intel detected attacks exploiting CVE-2026-41940. The activity, linked to the IP address 95.111.250[.]175, targeted government and military domains in the Philippines and Laos, along with MSPs and hosting providers, using public PoCs (<a href="https://github.com/watchtowrlabs/watchTowr-vs-cPanel-WHM-AuthBypass-to-RCE.py">watchTowr-vs-cPanel-WHM-AuthBypass-to-RCE.py</a>, <a href="https://github.com/debugactiveprocess/cPanel-WHM-AuthBypass-Session-Checker">check_session.py</a>). </p>
+
+
+
+<p><em>&#8220;On 2nd May 2026, Ctrl-Alt-Intel identified an exposed attacker staging server that provided direct visibility into one such operation.&#8221; reads the <a href="https://ctrlaltintel.com/research/SEA-CPanel/">report</a> published by Ctrl-Alt-Intel. &#8220;From this infrastructure, we observed an unknown threat actor interactively targeting&nbsp;<strong>government and military entities in South-East Asia</strong>, alongside a smaller set of&nbsp;<strong>MSPs and hosting providers</strong>&nbsp;in the Philippines, Laos, Canada, South Africa, and the United States.&nbsp;&#8220;</em></p>
+
+
+
+<p>The same actor also used a custom exploit chain against an Indonesian defense training portal, combining SQL injection and remote code execution, after obtaining valid credentials.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Leaked data links the threat actor to a custom exploit chain targeting an Indonesian defense training portal and to earlier theft of Chinese railway-sector data. The stolen information centers on the China Railway Society Electrification Committee and related groups, mapping technical, organizational, and personal details tied to rail infrastructure and CCP-aligned scientific networks.</p>
+
+
+
+<p>Researchers pointed out that cPanel exploitation was only part of the attacker’s activity. The same actor developed a custom exploit chain against an Indonesian defense training portal, using valid credentials and bypassing CAPTCHA by reading values from session cookies. </p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-8.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="722" height="537" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-8.png?resize=722%2C537&#038;ssl=1" alt="cPanel CVE-2026-41940" class="wp-image-191673" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-8.png?w=722&amp;ssl=1 722w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-8.png?resize=300%2C223&amp;ssl=1 300w" sizes="(max-width: 722px) 100vw, 722px" /></a></figure>
+</div>
+
+
+<p>They injected SQL into a document field, escalating it to remote code execution via PostgreSQL. The attack enabled command execution and file access, with results exfiltrated through the app. An AdaptixC2 malware payload was also identified, indicating active command-and-control operations.</p>
+
+
+
+<p>Analysis of exposed payloads shows the attacker used AdaptixC2 for command and control, along with a PowerShell reverse shell. They built a persistent pivoting infrastructure using OpenVPN and Ligolo, creating tunnels and routes to access internal networks. Custom Linux services ensured long-term access.</p>
+
+
+
+<p>The actor moved laterally into a Chinese network, interacting with internal systems and using scripts to exfiltrate data. Around 110 files (4.37GB) were stolen, including technical documents on railway electrification and sensitive personal data such as IDs, bank details, and phone numbers.</p>
+
+
+
+<p>Overall, the operation combined C2 control, stealthy persistence, network pivoting, and targeted data theft.</p>
+
+
+
+<p>Ctrl-Alt-Intel has not attributed the campaign to any specific actor or country. Although Vietnamese comments appeared in scripts and tools, they are not reliable evidence and may have been intentionally added to mislead analysts and obscure attribution.</p>
+
+
+
+<p><em>&#8220;Although we do not make a firm attribution, the combination of victimology, post-compromise pivoting, and the nature of the exfiltrated data makes this activity more significant than routine opportunistic exploitation.&#8221; concludes the report. &#8220;The targeting of South-East Asian military and government infrastructure, combined with confirmed theft of Chinese transport-sector material, is consistent with a broad regional collection effort.&#8221;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong>&nbsp;–&nbsp;hacking,&nbsp;CVE-2026-41940)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191666</post-id>	</item>
+		<item>
+		<title>U.S. CISA adds a flaw in Linux Kernel to its Known Exploited Vulnerabilities catalog</title>
+		<link>https://securityaffairs.com/191629/hacking/u-s-cisa-adds-a-flaw-in-linux-kernel-to-its-known-exploited-vulnerabilities-catalog.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 10:26:17 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[CISA]]></category>
+		<category><![CDATA[Copy Fail]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Known Exploited Vulnerabilities Catalog]]></category>
+		<category><![CDATA[LINUX]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191629</guid>
+
+					<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in Linux Kernel to its Known Exploited Vulnerabilities catalog The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a flaw in the Linux Kernel, tracked as CVE-2026-31431 (CVSS score of 7.8), to its Known Exploited Vulnerabilities (KEV) catalog. Recently, Xint Code researchers warned of a serious Linux [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in Linux Kernel to its Known Exploited Vulnerabilities catalog</h2>
+
+
+
+<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) <a href="https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog">added</a> a flaw in the Linux Kernel, tracked as <a href="https://www.cve.org/CVERecord?id=CVE-2026-31431" target="_blank" rel="noreferrer noopener">CVE-2026-31431</a> (CVSS score of 7.8), to its <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">Known Exploited Vulnerabilities (KEV) catalog</a>.</p>
+
+
+
+<p>Recently, Xint Code researchers <a href="https://securityaffairs.com/191519/hacking/copy-fail-new-linux-bug-enables-root-via-page-cache-corruption.html">warned</a> of a serious Linux flaw, <a href="https://securityaffairs.com/191519/hacking/copy-fail-new-linux-bug-enables-root-via-page-cache-corruption.html">tracked as <strong>CVE-2026-31431</strong></a>, dubbed Copy Fail. It lets any local, unprivileged user write four controlled bytes into the page cache of any readable file, enabling escalation to root on major distributions.</p>
+
+
+
+<p>The bug combines AF_ALG and splice() to write 4 bytes into the page cache of any readable file. A 732-byte script can modify a setuid binary in memory, without changing the file on disk, making detection difficult. The issue affects major distributions like Ubuntu, RHEL, SUSE, and Amazon Linux, and can even cross container boundaries due to shared page cache.</p>
+
+
+
+<p>“<a href="http://copy.fail/" target="_blank" rel="noreferrer noopener"><em>Copy Fail</em></a><em>&nbsp;(CVE-2026-</em>31431<em>) is a logic bug in the Linux kernel’s&nbsp;authencesn&nbsp;cryptographic template. It lets an unprivileged local user trigger a deterministic, controlled 4-byte write into the page cache of any readable file on the system.” reads the&nbsp;<a href="https://xint.io/blog/copy-fail-linux-distributions">report</a>&nbsp;published by Xint Code</em>.<em>&nbsp;“A single 732-byte Python script can edit a setuid binary and obtain root on essentially all Linux distributions shipped since 2017.</em>“</p>
+
+
+
+<p>Copy Fail exploits a kernel logic flaw where corrupted page‑cache data is never marked dirty, leaving disk files unchanged while the in‑memory version is silently altered. Because the page cache is what processes read, an unprivileged user can corrupt a setuid binary’s cached page and gain root. The shared cache also lets the attack cross container boundaries. The bug, surfaced through AI‑assisted analysis of crypto‑subsystem behavior, is portable, tiny, race‑free, and stealthy, unlike&nbsp;<a href="https://securityaffairs.com/tag/dirty-cow">Dirty Cow</a>&nbsp;or&nbsp;<a href="https://securityaffairs.com/129076/hacking/qnap-nas-dirty-pipe.html">Dirty Pipe</a>. It works across major distros and architectures and forms the basis for both local privilege escalation and Kubernetes container escapes.</p>
+
+
+
+<p>The bug starts in AF_ALG, which lets any user access the kernel crypto subsystem without privileges. Attackers use splice() to map file page cache pages directly into a crypto scatterlist, so operations act on real file-backed memory. During AEAD decryption, the kernel sets the operation in-place, mixing user buffers with page cache pages in one writable structure.</p>
+
+
+
+<p>The authencesn algorithm breaks expectations: it uses the output buffer as scratch space and writes 4 bytes past the allowed boundary. In this setup, that write lands directly in the page cache of a chosen file. Attackers control the file, offset, and value, enabling precise memory corruption and privilege escalation.</p>
+
+
+
+<p>This flaw emerged from combined changes over years, authencesn design, AF_ALG support, and a 2017 in-place optimization, creating a long-hidden but critical vulnerability.</p>
+
+
+
+<p>The exploit targets&nbsp;<code>/usr/bin/su</code>, a common setuid-root binary on Linux systems.</p>
+
+
+
+<ul class="wp-block-list">
+<li>First, the attacker opens an AF_ALG socket and binds it to the vulnerable authencesn AEAD mode. No privileges are required. The attacker sets a cryptographic key and creates a request socket.</li>
+
+
+
+<li>Next, the attacker prepares each 4-byte write. The AAD carries the exact 4-byte value to inject, while splice() maps page cache pages from the target file into the crypto operation. Carefully chosen parameters force the kernel to treat a specific offset inside <code>/usr/bin/su</code> as writable memory.</li>
+
+
+
+<li>Then the attacker triggers recv(), which runs the decrypt operation. The kernel reads AAD data, performs the authencesn scratch write, and copies 4 bytes into the page cache of the target binary. The HMAC fails, but the corrupted memory remains. The process repeats until enough shellcode is injected into the cached binary.</li>
+
+
+
+<li>Finally, the attacker runs <code>execve("/usr/bin/su")</code>. The kernel loads the modified version from the page cache instead of disk. Since su runs with setuid-root privileges, the injected code executes as root, giving full system control.</li>
+</ul>
+
+
+
+<p>The researchers published a demo showing the same 732-byte exploit run on four Linux distributions, where a normal user (uid 1001) consistently gains root access. Tested systems include Ubuntu 24.04 LTS, Amazon Linux 2023, RHEL 10.1, and SUSE 16, covering kernel versions 6.12 to 6.18, all successfully compromised.</p>
+
+
+
+<p><em>“If your kernel was built between 2017 and the patch — which covers essentially every mainstream Linux distribution — you’re in scope.”&nbsp;<a href="https://copy.fail/">the researchers wrote</a>. “Copy Fail requires only an unprivileged local user account — no network access, no kernel debugging features, no pre-installed primitives. The kernel crypto API (<code>AF_ALG</code>) ships enabled in essentially every mainstream distro’s default config, so the entire 2017 → patch window is in play out of the box.”</em></p>
+
+
+
+<p>According to&nbsp;<a href="https://cyber.dhs.gov/bod/22-01/" target="_blank" rel="noreferrer noopener">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a>, FCEB agencies have to address the identified vulnerabilities by the due date to protect their networks against attacks exploiting the flaws in the catalog.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Experts also recommend that private organizations review the&nbsp;<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noreferrer noopener">Catalog</a>&nbsp;and address the vulnerabilities in their infrastructure.</p>
+
+
+
+<p>CISA orders federal agencies to fix the vulnerability by May 15, 2026.</p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, US CISA <a href="https://securityaffairs.com/165513/security/cisa-adds-windows-rejetto-http-file-server-bugs-known-exploited-vulnerabilities-catalog.html">Known Exploited Vulnerabilities catalog</a>)</strong><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191629</post-id>	</item>
+		<item>
+		<title>AI speeds flaw discovery, forcing rapid updates, UK NCSC warns</title>
+		<link>https://securityaffairs.com/191657/security/ai-speeds-flaw-discovery-forcing-rapid-updates-uk-ncsc-warns.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 09:18:27 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[NCSC]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191657</guid>
+
+					<description><![CDATA[The UK cyber agency NCSC warns AI is speeding up vulnerability discovery, likely causing a “patch wave” of urgent software updates to fix exposed flaws. The UK’s National Cyber Security Centre (NCSC) warns that AI is rapidly accelerating the discovery of software vulnerabilities, increasing the risk of large-scale exploitation. CTO Ollie Whitehouse says skilled attackers [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">The UK cyber agency NCSC warns AI is speeding up vulnerability discovery, likely causing a “patch wave” of urgent software updates to fix exposed flaws.</h2>
+
+
+
+<p>The UK’s National Cyber Security Centre (NCSC) warns that AI is rapidly accelerating the discovery of software vulnerabilities, increasing the risk of large-scale exploitation. </p>
+
+
+
+<p>CTO Ollie Whitehouse says skilled attackers using AI can uncover hidden flaws faster than before, forcing organizations to respond with a wave of urgent security updates. Governments and companies will need to patch systems quickly as more vulnerabilities are exposed in a short time, creating pressure on global cybersecurity defenses.</p>
+
+
+
+<p><em>&#8220;Artificial Intelligence, when used by sufficiently-skilled and knowledgeable individuals, is showing the ability to exploit this technical debt at scale and at pace across the technology ecosystem. As a result, the NCSC expect there will be a ‘forced correction’ to address this technical debt across all types of software, including open source, commercial, proprietary and software as a service.&#8221; <a href="https://www.ncsc.gov.uk/blogs/prepare-for-vulnerability-patch-wave">states NCSC</a>.</em></p>
+
+
+
+<p><em>&#8220;This is why we are encouraging all organisations to prepare now for when a ‘patch wave’ arrives; a rush of software updates that will need to be applied across the technology stack to address the disclosure of new vulnerabilities.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Organizations should reduce their internet-facing and externally exposed attack surfaces as quickly as possible. They should first secure perimeter technologies, then move inward to cloud and on-premise systems to limit exposure from newly discovered vulnerabilities.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>If full patching isn’t possible, priority should go to external systems and critical security infrastructure. However, patching alone is not enough. Legacy or end-of-life systems that no longer receive updates create ongoing risk. In these cases, organizations must replace outdated technologies or restore vendor support, especially when they are exposed to the internet.</p>
+
+
+
+<p><em>&#8220;It is also important for organisations to realise that patching alone will <strong>not</strong> always suffice; some technical debt may be present in ‘end of life’ or legacy technology that is out of support, and so can’t receive updates.&#8221; continues the blog post published by the UK agency. &#8220;In such instances, organisations will need to replace technologies, or bring them back within support, especially where it presents an external attack surface.&#8221;</em></p>
+
+
+
+<p>Organizations are urged to apply security updates faster, more often, and across supply chains due to a rise in vulnerabilities, including critical ones. The NCSC advises enabling automatic “hot patching” and automatic updates where possible to reduce workload and speed response. </p>
+
+
+
+<p>When automation isn’t available, organizations should use risk-based prioritization (e.g. <a href="https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc" target="_blank" rel="noreferrer noopener">Stakeholder Specific Vulnerability Categorisation (SSVC)</a>) to manage updates safely. If a critical flaw is actively exploited, especially on internet-facing systems, patches must be applied immediately. The guidance promotes an “update by default” approach, with exceptions for safety-critical systems.</p>
+
+
+
+<p>The UK agency pointed out that patching alone isn’t enough to solve deeper security issues. Vendors should reduce risk by adopting safer designs like memory safety and containment technologies such as <a href="https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-941.pdf">CHERI</a>.</p>
+
+
+
+<p>Organizations must also strengthen basic cyber hygiene using frameworks like Cyber Essentials or the Cyber Assessment Framework for critical sectors.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>For higher-risk environments, NCSC recommends privileged access workstations, stronger cross-domain architecture, and better threat detection through observability and threat hunting.</p>
+
+
+
+<p><em>&#8220;In conclusion, the NCSC advise all organisations, irrespective of size, to plan and prepare for the vulnerability patch wave.&#8221; concludes the agency. &#8220;A good place to start is by reading the NCSC’s updated <a href="https://www.ncsc.gov.uk/collection/vulnerability-management">Vulnerability Management guidance</a>.&#8221;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, NCSC)</strong></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191657</post-id>	</item>
+		<item>
+		<title>Bluekit phishing kit enables automated phishing with 40+ templates and AI tools</title>
+		<link>https://securityaffairs.com/191646/cyber-crime/bluekit-phishing-kit-enables-automated-phishing-with-40-templates-and-ai-tools.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 06:46:14 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Bluekit]]></category>
+		<category><![CDATA[Bluekit phishing kit]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191646</guid>
+
+					<description><![CDATA[Bluekit is a new phishing kit with AI features, automated domain setup, and tools like spoofing, voice cloning, and 40+ attack templates. Bluekit is a newly discovered phishing kit still in development that includes advanced features such as an AI assistant and automated domain registration. According to Varonis, it offers over 40 website templates along [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Bluekit is a new phishing kit with AI features, automated domain setup, and tools like spoofing, voice cloning, and 40+ attack templates.</h2>
+
+
+
+<p>Bluekit is a newly discovered phishing kit still in development that includes advanced features such as an AI assistant and automated domain registration. According to Varonis, it offers over 40 website templates along with tools for spoofing, voice cloning, antibot protection, geolocation tricks, and two-factor authentication bypass support.</p>
+
+
+
+<p><em>&#8220;<a href="https://www.varonis.com/varonis-threat-labs?hsLang=en">Varonis Threat Labs</a> recently discovered Bluekit, a new phishing kit pitching a broader model. It advertises 40+ website templates, automated domain purchase and registration, 2FA support, spoofing, geolocation emulation, Telegram and browser notifications, antibot cloaking, and add-ons like an AI assistant, voice cloning, and a mail sender.&#8221; reads the <a href="https://www.varonis.com/blog/bluekit"><strong>report</strong></a> published by Varonis.</em></p>
+
+
+
+<p>Bluekit supports multiple phishing templates targeting major services such as iCloud, Apple ID, Gmail, Outlook, Yahoo, ProtonMail, GitHub, Twitter, Zoho, Zara, and Ledger. It combines email, cloud, crypto, and developer platforms in one kit.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-6.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="1024" height="446" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-6.png?resize=1024%2C446&#038;ssl=1" alt="" class="wp-image-191648" style="aspect-ratio:2.2960621850175107;width:604px;height:auto" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-6.png?resize=1024%2C446&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-6.png?resize=300%2C131&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-6.png?resize=768%2C335&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-6.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+</div>
+
+
+<p><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw>The researchers accessed Bluekit to analyze its internal dashboard, which centralizes phishing operations in a single interface. Operators can create campaigns, register or link domains, manage captured credentials, and send stolen data via Telegram.</p>
+
+
+
+<p>The kit also includes a site-builder where users select domains, templates, and target brands. It provides detailed control over phishing pages, including login detection, redirects, anti-analysis checks, spoofing, and device filtering.</p>
+
+
+
+<p>Bluekit tracks sessions in real time, storing cookies and login data, and displays post-login activity. Overall, it acts as a full phishing platform rather than a simple credential-stealing tool.</p>
+
+
+
+<p>Bluekit includes an AI Assistant panel with multiple model options such as Llama (default), GPT-4.1, Claude Sonnet 4, Gemini, and DeepSeek variants. </p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-7.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="791" height="558" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-7.png?resize=791%2C558&#038;ssl=1" alt="" class="wp-image-191649" style="width:613px;height:auto" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-7.png?w=791&amp;ssl=1 791w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-7.png?resize=300%2C212&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-7.png?resize=768%2C542&amp;ssl=1 768w" sizes="auto, (max-width: 791px) 100vw, 791px" /></a></figure>
+</div>
+
+
+<p>The researcher noted that in testing, only the default Llama model was usable, while the others appeared but required extra configuration, suggesting possible use of jailbroken or non-standard setups if activated in practice.</p>
+
+
+
+<p>The researchers tested the assistant with a phishing scenario targeting a Microsoft 365 MFA reset for a company executive, including QR-based lures and credential-harvesting pages.</p>
+
+
+
+<p>Instead of producing a ready-made phishing campaign, the AI generated only a structured draft. The output relied heavily on placeholders and generic text, requiring manual refinement.</p>
+
+
+
+<p><em>&#8220;We expected something closer to a polished phishing copilot: a finished lure, cleaner email copy, and perhaps even a workable QR-driven flow with less manual effort. What we received was much more limited.&#8221; continues the report. &#8220;The assistant returned a structured campaign draft, and much of it relied on placeholders instead of content that looked ready to use as-is.&#8221;</em></p>
+
+
+
+<p>Overall, the AI Assistant acts more as a tool for building campaign outlines rather than delivering fully functional phishing kits.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Bluekit has been monitored over time not just for isolated campaigns, but for how quickly it evolves. Researchers initially aimed to catch it in real-world phishing activity, but its rapid development made the release cycle itself part of the observation. New features and templates were added so frequently that tracking updates became as important as identifying active deployments.</p>
+
+
+
+<p><em>&#8220;Compared with similar phishing kits that have already advanced further into automation and operator convenience, Bluekit still appears to be a kit in active development.&#8221; concludes the report. &#8220;The feature set keeps evolving as we track it, and if that pace continues with broader adoption, Bluekit is likely to surface in future campaigns.&#8221;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Bluekit phishing kit)</strong><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191646</post-id>	</item>
+		<item>
+		<title>Salt Typhoon breach IBM subsidiary in Italy: a warning for Europe’s digital defenses</title>
+		<link>https://securityaffairs.com/191638/apt/salt-typhoon-breach-ibm-subsidiary-in-italy-a-warning-for-europes-digital-defenses.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Sun, 03 May 2026 20:56:00 +0000</pubDate>
+				<category><![CDATA[APT]]></category>
+		<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Intelligence]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Salt Typhoon]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191638</guid>
+
+					<description><![CDATA[April 2026 breach at Sistemi Informativi (IBM Italy) raises concerns over Chinese-linked cyber ops in Europe, including Salt Typhoon. In late April 2026, the Italian cybersecurity landscape was shaken by a significant breach targeting Sistemi Informativi, a company wholly owned by IBM Italy that provides IT infrastructure management for key public and private institutions. The [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">April 2026 breach at Sistemi Informativi (IBM Italy) raises concerns over Chinese-linked cyber ops in Europe, including Salt Typhoon.<gwmw style="display:none;"></gwmw></h2>
+
+
+
+<p>In late April 2026, the Italian cybersecurity landscape was shaken by a significant breach targeting Sistemi Informativi, a company wholly owned by IBM Italy that provides IT infrastructure management for key public and private institutions. The incident, first <a href="https://www.repubblica.it/tecnologia/2026/05/03/news/esclusivo_pa_italiana_e_non_solo_attaccata_da_un_gruppo_di_hacker_cinesi-425320702/">reported by <em>La Repubblica</em></a>, has raised fresh concerns about the growing reach of Chinese-linked cyber operations in Europe.</p>
+
+
+
+<p>Sistemi Informativi is central to Italy’s digital infrastructure, managing systems for public agencies and key industries. Its outage quickly raised alarms among cybersecurity authorities and critical infrastructure operators.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>IBM confirmed the security breach through an official statement, acknowledging that it had “identified and contained a cybersecurity incident” and had activated incident response protocols involving both in-house and external specialists. The company said systems are now stable and services restored, but gave no details on the breach’s scope. Its website stayed offline for hours during containment.</p>
+
+
+
+<p>While forensic investigations are still ongoing, multiple intelligence sources cited by <em>La Repubblica</em> point to the China-linked cyber espionage group <a href="https://securityaffairs.com/tag/salt-typhoon" type="post_tag" id="15416">Salt Typhoon</a>. If confirmed, this would mark one of the most ambitious cyberattacks on the backbone of Italy’s public infrastructure in recent years.</p>
+
+
+
+<p>Salt Typhoon has been active since at least 2019, but its operations have escalated sharply over the past two years. The group has built a reputation as one of the most capable APTs associated with Chinese state interests, showing advanced operational discipline, a modular toolkit of custom malware, and a strategic focus on telecommunications, defense logistics, and critical infrastructure.</p>
+
+
+
+<p>Salt Typhoon’s hallmark is its technical precision. Rather than relying on social engineering or mass phishing, it infiltrates networks through supply-chain vulnerabilities and zero-day exploits. In recent operations documented by researchers, the group leveraged flaws in <a href="https://securityaffairs.com/183653/apt/china-linked-salt-typhoon-breaches-european-telecom-via-citrix-exploit.html" type="post" id="183653">Citrix</a> and Cisco systems to infiltrate <a href="https://securityaffairs.com/183653/apt/china-linked-salt-typhoon-breaches-european-telecom-via-citrix-exploit.html" type="post" id="183653">European telecom providers</a>, compromising backbone networks and data relays.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Salt Typhoon breached multiple organizations since early 2025, including <a href="https://securityaffairs.com/tag/viasat" type="post_tag" id="12716">Viasat</a>, <a href="https://securityaffairs.com/179278/apt/china-linked-apt-salt-typhoon-targets-canadian-telecom-companies.html">Canadian telecom firms</a>, the U.S. Army National Guard, and <a href="https://securityaffairs.com/181677/apt/dutch-intelligence-warns-that-china-linked-apt-salt-typhoon-targeted-local-critical-infrastructure.html" type="post" id="181677">Dutch government networks</a>. Across all these incidents runs a consistent pattern: prolonged data exfiltration, silent observation, and compromise of infrastructure with the potential for command execution at scale.</p>
+
+
+
+<p>If Salt Typhoon targeted Sistemi Informativi, the impact could be serious. As a key IT provider for Italian institutions, its systems could expose sensitive data and connections, allowing attackers to map critical parts of the country’s digital infrastructure.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The attack highlights a key weakness: reliance on third-party providers for national systems. Compromising one integrator can open access to many government databases, a tactic often linked to Salt Typhoon.</p>
+
+
+
+<p>The Sistemi Informativi breach highlights that IT providers are now critical infrastructure and key targets. Cyber warfare has moved to networks, using exploits and AI-driven attacks. To stay resilient, Italy and Europe need not only stronger defenses but also better coordination between governments, industry, and intelligence.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong>&nbsp;–&nbsp;hacking,&nbsp;Salt Typhoon)</strong><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191638</post-id>	</item>
+		<item>
+		<title>SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 95</title>
+		<link>https://securityaffairs.com/191623/malware/security-affairs-malware-newsletter-round-95.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Sun, 03 May 2026 15:38:40 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191623</guid>
+
+					<description><![CDATA[Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter fast16 &#124; Mystery ShadowBrokers Reference Reveals High-Precision Software Sabotage 5 Years Before Stuxnet  73 Open VSX Sleeper Extensions Linked to GlassWorm Show New Malware Activations&#160;&#160; An alarm clock you can&#8217;t ignore: How CapFix attacks [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape</h2>
+
+
+
+<p>Malware Newsletter</p>
+
+
+
+<p><a href="https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/">fast16 | Mystery ShadowBrokers Reference Reveals High-Precision Software Sabotage 5 Years Before Stuxnet</a> </p>
+
+
+
+<p><a href="https://socket.dev/blog/73-open-vsx-sleeper-extensions-glassworm">73 Open VSX Sleeper Extensions Linked to GlassWorm Show New Malware Activations</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://ptsecurity.com/research/pt-esc-threat-intelligence/an-alarm-you-can-t-ignore-how-capfix-attacks-russian-organizations/">An alarm clock you can&#8217;t ignore: How CapFix attacks Russian organizations</a><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><a href="https://zenox.ai/en/lofystealer-malware-mirando-jogadores-de-minecraft/">LofyStealer: Malware targeting Minecraft players</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://www.reversinglabs.com/blog/claude-promptmink-malware-crypto">Claude adds malware to crypto agent</a>&nbsp;</p>
+
+
+
+<p><a href="https://www.securonix.com/blog/deepdoor-python-backdoor-and-credential-stealer/">Deep#Door Stealer: Stealthy Python Backdoor and Credential Stealer Leveraging Tunneling, Multi-Layer Persistence, and In-Memory Surveillance Capabilities</a></p>
+
+
+
+<p><a href="https://www.acronis.com/en/tru/posts/poisoning-the-well-ai-supply-chain-attacks-on-hugging-face-and-openclaw/">Poisoning the well: AI supply chain attacks on Hugging Face and OpenClaw</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://www.ox.security/blog/lightning-python-package-shai-hulud-supply-chain-attack/">8.3M Downloads Compromised: Lightning &amp; Intercom-Client Infected in Latest Shai-Hulud Attack</a></p>
+
+
+
+<p><a href="https://socket.dev/blog/sap-cap-npm-packages-supply-chain-attack">TeamPCP-Linked Supply Chain Attack Hits SAP CAP and Cloud MTA npm Packages</a>&nbsp;&nbsp; &nbsp;</p>
+
+
+
+<p><a href="https://arxiv.org/abs/2604.27302">Static Attribution of Android Residential Proxy Malware Using Graph Kernels</a></p>
+
+
+
+<p><a href="https://arxiv.org/abs/2604.26692">Towards Quantum Optimised Malware Containment</a></p>
+
+
+
+<p><a href="https://arxiv.org/abs/2604.23812">SeqShield: A Behavioral Analysis Approach to Uncover Rootkits</a></p>
+
+
+
+<p><a href="https://www.mdpi.com/2624-800X/6/3/82">Evolving IoT Botnet Threats and Practical Honeypot Observation: A Summary Review and Experimental Study</a></p>
+
+
+
+<p><a href="https://www.mdpi.com/2079-9292/15/9/1934">Beyond Pattern Matching: A Cognitive-Driven Framework for DGA Detection via Dual-Perspective Anomaly Perception</a> </p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, <a href="https://securityaffairs.com/190123/malware/security-affairs-malware-newsletter-round-90.html">newsletter</a>)</strong><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191623</post-id>	</item>
+		<item>
+		<title>U.S. CISA adds a flaw in WebPros cPanel to its Known Exploited Vulnerabilities catalog</title>
+		<link>https://securityaffairs.com/191613/hacking/u-s-cisa-adds-a-flaw-in-webpros-cpanel-to-its-known-exploited-vulnerabilities-catalog.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Sun, 03 May 2026 14:39:51 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[CISA]]></category>
+		<category><![CDATA[cPanel]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Known Exploited Vulnerabilities Catalog]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[WebPros cPanel]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191613</guid>
+
+					<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in WebPros cPanel to its Known Exploited Vulnerabilities catalog The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a flaw in Microsoft Defender, tracked as CVE-2026-41940 (CVSS score of 9.3), to its Known Exploited Vulnerabilities (KEV) catalog. cPanel is a widely used web hosting control panel that lets [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in WebPros cPanel to its Known Exploited Vulnerabilities catalog</h2>
+
+
+
+<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) <a href="https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog">added</a> a flaw in Microsoft Defender, tracked as <a href="https://www.cve.org/CVERecord?id=CVE-2026-41940" target="_blank" rel="noreferrer noopener">CVE-2026-41940</a> (CVSS score of 9.3), to its <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">Known Exploited Vulnerabilities (KEV) catalog</a>.</p>
+
+
+
+<p><a href="https://securityaffairs.com/tag/cpanel">cPanel</a> is a widely used web hosting control panel that lets users manage websites and servers through a graphical interface instead of command-line tools.</p>
+
+
+
+<p>Cybersecurity experts at watchTowr first <a href="https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/">disclosed</a> the flaw earlier this week and released a tool to help defenders identify vulnerable hosts in their estates.</p>
+
+
+
+<p><em>&#8220;As we stated above, in-the-wild exploitation has already begun, according to KnownHost.&#8221; reads the <a href="https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/">advisory</a> by watchTowr. &#8220;Therefore, we&#8217;re releasing our <a href="https://github.com/watchtowrlabs/watchTowr-vs-cPanel-WHM-AuthBypass-to-RCE.py?ref=labs.watchtowr.com">Detection Artifact Generator</a> to enable defenders to identify vulnerable hosts in their estates.&#8221;</em></p>
+
+
+
+<p>CVE-2026-41940 is an authentication bypass flaw affecting cPanel and WHM versions after 11.40. A weakness in the login flow allows remote attackers to skip or manipulate authentication checks, granting access to the control panel without valid credentials. This could let attackers manage hosting settings, access sensitive data, or take control of the server.</p>
+
+
+
+<p>According to the Shadowserver Foundation, thousands of instances may be exposed. </p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">Attention! cPanel/WHM CVE-2026-41940 attacks ongoing, with at least 44K IPs likely compromised &amp; seen scanning our honeypots on 2026-04-30.  Follow latest guidance to track for compromise &amp; patch: <a href="https://t.co/z4sRvdaBwt">https://t.co/z4sRvdaBwt</a> <br><br>See Public Dashboard for stats: <a href="https://t.co/qFz265JDIK">https://t.co/qFz265JDIK</a> <a href="https://t.co/m1aZvFEVlU">pic.twitter.com/m1aZvFEVlU</a></p>&mdash; The Shadowserver Foundation (@Shadowserver) <a href="https://twitter.com/Shadowserver/status/2050208472386396568?ref_src=twsrc%5Etfw">May 1, 2026</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div></figure>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">44K unique IP number is based on cPanel spike of devices seen scanning/running exploits/brute force attacks against our honeypot sensors.<a href="https://t.co/SINYf136HI">https://t.co/SINYf136HI</a> <a href="https://t.co/sPEp41IVoa">pic.twitter.com/sPEp41IVoa</a></p>&mdash; The Shadowserver Foundation (@Shadowserver) <a href="https://twitter.com/Shadowserver/status/2050208475154657311?ref_src=twsrc%5Etfw">May 1, 2026</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div></figure>
+
+
+
+<p>cPanel and watchTowr released tools to detect compromise and vulnerable hosts. Exploits date back to February. Namecheap warned customers of temporary access limits to mitigate risk.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>According to&nbsp;<a href="https://cyber.dhs.gov/bod/22-01/" target="_blank" rel="noreferrer noopener">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a>, FCEB agencies have to address the identified vulnerabilities by the due date to protect their networks against attacks exploiting the flaws in the catalog.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Experts also recommend that private organizations review the&nbsp;<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noreferrer noopener">Catalog</a>&nbsp;and address the vulnerabilities in their infrastructure.</p>
+
+
+
+<p>CISA orders federal agencies to fix the vulnerability by May 3, 2026.</p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, US CISA <a href="https://securityaffairs.com/165513/security/cisa-adds-windows-rejetto-http-file-server-bugs-known-exploited-vulnerabilities-catalog.html">Known Exploited Vulnerabilities catalog</a>)</strong><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191613</post-id>	</item>
+		<item>
+		<title>Security Affairs newsletter Round 575 by Pierluigi Paganini – INTERNATIONAL EDITION</title>
+		<link>https://securityaffairs.com/191607/breaking-news/security-affairs-newsletter-round-575-by-pierluigi-paganini-international-edition.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Sun, 03 May 2026 13:49:09 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Newsletter]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191607</guid>
+
+					<description><![CDATA[A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including the international press. Two US cybersecurity experts sentenced in ransomware case, third awaits July ruling Trellix discloses the breach [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></h2>
+
+
+
+<p>Enjoy a new round of the weekly SecurityAffairs newsletter, including the international press.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><a href="https://securityaffairs.com/191591/cyber-crime/two-us-cybersecurity-experts-sentenced-in-ransomware-case-third-awaits-july-ruling.html">Two US cybersecurity experts sentenced in ransomware case, third awaits July ruling</a></td></tr><tr><td><a href="https://securityaffairs.com/191584/data-breach/trellix-discloses-the-breach-of-a-code-repository.html">Trellix discloses the breach of a code repository</a></td></tr><tr><td><a href="https://securityaffairs.com/191567/malware/new-deepdoor-rat-uses-stealth-and-persistence-to-target-windows.html">New Deep#Door RAT uses stealth and persistence to target Windows</a></td></tr><tr><td><a href="https://securityaffairs.com/191556/cyber-crime/digital-attacks-drive-a-new-wave-of-cargo-theft-fbi-says.html">Digital attacks drive a new wave of cargo theft, FBI says</a></td></tr><tr><td><a href="https://securityaffairs.com/191536/cyber-crime/carding-service-jerrys-store-leak-exposes-345000-stolen-payment-cards.html">Carding service Jerry’s Store leak exposes 345,000 stolen payment cards</a></td></tr><tr><td><a href="https://securityaffairs.com/191532/ai/anthropic-launches-claude-security-to-counter-rapid-ai-powered-exploits.html">Anthropic launches Claude Security to counter rapid AI-Powered exploits</a></td></tr><tr><td><a href="https://securityaffairs.com/191527/security/sonicwall-patches-three-sonicos-flaws-in-gen-6-7-and-8-firewalls-patch-them-now.html">SonicWall patches three SonicOS flaws in Gen 6, 7 and 8 firewalls. Patch them now</a></td></tr><tr><td><a href="https://securityaffairs.com/191519/hacking/copy-fail-new-linux-bug-enables-root-via-page-cache-corruption.html">Copy Fail: New Linux bug enables Root via page‑cache corruption</a></td></tr><tr><td><a href="https://securityaffairs.com/191515/social-networks/agents-claims-on-whatsapp-access-spark-security-concerns.html">Agent’s claims on WhatsApp access spark security concerns</a></td></tr><tr><td><a href="https://securityaffairs.com/191511/laws-and-regulations/meta-accused-of-violating-dsa-by-failing-to-safeguard-minors.html">Meta accused of violating DSA by failing to safeguard minors</a></td></tr><tr><td><a href="https://securityaffairs.com/191500/cyber-crime/large-scale-roblox-hacking-operation-shut-down-by-ukrainian-authorities.html">Large-scale Roblox hacking operation shut down by Ukrainian authorities</a></td></tr><tr><td><a href="https://securityaffairs.com/191483/hacking/cve-2026-42208-litellm-bug-exploited-36-hours-after-its-disclosure.html">CVE-2026-42208: LiteLLM bug exploited 36 hours after its disclosure</a></td></tr><tr><td><a href="https://securityaffairs.com/191475/security/internet-censorship-index-reveals-russias-lead-and-widespread-content-blocking.html">Internet censorship index reveals Russia’s lead and widespread content blocking</a></td></tr><tr><td><a href="https://securityaffairs.com/191465/security/all-supported-cpanel-versions-hit-by-critical-auth-bug-now-patched.html">All supported cPanel versions hit by critical auth bug, now patched</a></td></tr><tr><td><a href="https://securityaffairs.com/191442/security/u-s-cisa-adds-microsoft-windows-shell-and-connectwise-screenconnect-flaws-to-its-known-exploited-vulnerabilities-catalog.html">U.S. CISA adds Microsoft Windows Shell and ConnectWise ScreenConnect flaws to its Known Exploited Vulnerabilities catalog</a></td></tr><tr><td><a href="https://securityaffairs.com/191448/security/shinyhunters-exploit-anodot-incident-to-target-vimeo.html">ShinyHunters exploit Anodot incident to target Vimeo</a></td></tr><tr><td><a href="https://securityaffairs.com/191434/security/cve-2026-3854-github-flaw-enables-remote-code-execution.html">CVE-2026-3854 GitHub flaw enables remote code execution</a></td></tr><tr><td><a href="https://securityaffairs.com/191425/intelligence/signal-phishing-campaign-targets-german-officials-in-suspected-russian-operation.html">Signal Phishing Campaign Targets German Officials in Suspected Russian Operation</a></td></tr><tr><td><a href="https://securityaffairs.com/191414/security/microsoft-fixes-entra-id-flaw-enabling-privilege-escalation.html">Microsoft fixes Entra ID flaw enabling privilege escalation</a></td></tr><tr><td><a href="https://securityaffairs.com/191398/malware/new-android-spyware-morpheus-linked-to-italian-surveillance-firm.html">New Android spyware Morpheus linked to Italian surveillance firm</a></td></tr><tr><td><a href="https://securityaffairs.com/191408/security/ncsc-launches-silentglass-a-plug-in-device-to-secure-hdmi-and-displayport-links.html">NCSC launches SilentGlass, a plug-in device to secure HDMI and DisplayPort links</a></td></tr><tr><td><a href="https://securityaffairs.com/191391/cyber-crime/medtronic-discloses-security-incident-after-shinyhunters-claimed-theft-of-9m-records.html">Medtronic discloses security incident after ShinyHunters claimed theft of 9M+ records</a></td></tr><tr><td><a href="https://securityaffairs.com/191347/intelligence/chinese-spy-posed-as-researcher-in-spear-phishing-campaign-targeting-nasa-to-steal-defense-software.html">Chinese spy posed as researcher in spear-phishing campaign targeting NASA to steal defense software</a></td></tr><tr><td><a href="https://securityaffairs.com/191383/security/linkedin-browsergate.html">LINKEDIN BROWSERGATE</a></td></tr><tr><td><a href="https://securityaffairs.com/191374/security/firefox-bug-cve-2026-6770-enabled-cross-site-tracking-and-tor-fingerprinting.html">Firefox bug CVE-2026-6770 enabled cross-site tracking and Tor fingerprinting</a></td></tr><tr><td><a href="https://securityaffairs.com/191325/malware/fast16-pre-stuxnet-malware-that-targeted-precision-engineering-software.html">Fast16: Pre-Stuxnet malware that targeted precision engineering software</a></td></tr><tr><td><a href="https://securityaffairs.com/191368/apt/italy-moves-to-extradite-chinese-national-to-the-u-s-over-hacking-charges.html">Italy moves to extradite Chinese national to the U.S. over hacking charges</a></td></tr><tr><td><a href="https://securityaffairs.com/191360/data-breach/u-s-utility-giant-itron-discloses-a-security-breach.html">U.S. utility giant Itron discloses a security breach</a></td></tr><tr><td><a href="https://securityaffairs.com/191343/hacking/critical-crowdstrike-logscale-bug-could-have-allowed-file-access-but-no-exploitation-was-observed.html">Critical CrowdStrike LogScale bug could have allowed file access, but no exploitation was observed</a></td></tr><tr><td><a href="https://securityaffairs.com/191318/apt/gopherwhisper-new-china-linked-apt-targets-mongolia-with-go-based-malware.html">GopherWhisper: new China-linked APT targets Mongolia with Go-based malware</a></td></tr><tr><td><a href="https://securityaffairs.com/191294/cyber-crime/trigona-ransomware-adopts-custom-tool-to-steal-data-and-evade-detection.html">Trigona ransomware adopts custom tool to steal data and evade detection</a></td></tr></tbody></table></figure>
+
+
+
+<p><strong>International Press – Newsletter</strong></p>
+
+
+
+<p><strong>Cybercrime<a></a></strong></p>
+
+
+
+<p><a href="https://www.infoblox.com/blog/threat-intelligence/hold-the-phone-international-revenue-share-fraud-driven-by-fake-captchas/">Hold the Phone! International Revenue Share Fraud Driven by Fake CAPTCHAs</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://therecord.media/vimeo-blames-security-incident-on-anodot-breach">Video site Vimeo blames security incident on Anodot breach</a></p>
+
+
+
+<p><a href="https://gp.gov.ua/en/posts/na-lvivshhini-zatrimano-xakersku-grupu-yaka-zlamuvala-igrovi-akaunti-i-otrimala-maize-10-mln-grn-pributku-vid-yix-prodazu-v-rosiyu">A hacker group was detained in Lviv Oblast, which hacked game accounts and received almost UAH 10 million in profit from their sale in Russia</a>&nbsp;</p>
+
+
+
+<p><a href="https://cybernews.com/security/jerrys-store-vibecode-exposes-stolen-credit-cards/">Scammers vibecode server to verify stolen credit cards, leak details of 345K cards</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://www.ic3.gov/PSA/2026/PSA260430">Cyber-Enabled Strategic Cargo Theft Surging</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/">Anti-DDoS Firm Heaped Attacks on Brazilian ISPs</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://www.justice.gov/opa/pr/two-americans-who-attacked-multiple-us-victims-using-alphv-blackcat-ransomware-sentenced">Two Americans Who Attacked Multiple U.S. Victims Using ALPHV BlackCat Ransomware Sentenced to Prison</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://www.securityweek.com/ai-fuels-industrial-cybercrime-as-time-to-exploit-shrinks-to-hours/">AI Fuels ‘Industrial’ Cybercrime as Time-to-Exploit Shrinks to Hours</a><strong>&nbsp;&nbsp; </strong><strong></strong></p>
+
+
+
+<p><strong>Malware</strong><strong></strong></p>
+
+
+
+<p><a href="https://socket.dev/blog/73-open-vsx-sleeper-extensions-glassworm">73 Open VSX Sleeper Extensions Linked to GlassWorm Show New Malware Activations</a>  <gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><a href="https://zenox.ai/en/lofystealer-malware-mirando-jogadores-de-minecraft/">LofyStealer: Malware targeting Minecraft players</a>  <gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><a href="https://www.securonix.com/blog/deepdoor-python-backdoor-and-credential-stealer/">Deep#Door Stealer: Stealthy Python Backdoor and Credential Stealer Leveraging Tunneling, Multi-Layer Persistence, and In-Memory Surveillance Capabilities</a></p>
+
+
+
+<p><a href="https://www.acronis.com/en/tru/posts/poisoning-the-well-ai-supply-chain-attacks-on-hugging-face-and-openclaw/">Poisoning the well: AI supply chain attacks on Hugging Face and OpenClaw</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://www.ox.security/blog/lightning-python-package-shai-hulud-supply-chain-attack/">8.3M Downloads Compromised: Lightning &amp; Intercom-Client Infected in Latest Shai-Hulud Attack</a><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Hacking</strong></p>
+
+
+
+<p><a href="https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/">We found a stable Firefox identifier linking all your private Tor identities</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://www.silverfort.com/blog/agent-id-administrator-scope-overreach-service-principal-takeover-in-entra-id/">Agent ID Administrator scope overreach: Service Principal takeover in Entra ID</a>&nbsp;</p>
+
+
+
+<p><a href="https://www.wiz.io/blog/github-rce-vulnerability-cve-2026-3854">Securing GitHub: Wiz Research uncovers Remote Code Execution in GitHub.com and GitHub Enterprise Server (CVE-2026-3854)</a></p>
+
+
+
+<p><a href="https://www.sysdig.com/blog/cve-2026-42208-targeted-sql-injection-against-litellms-authentication-path-discovered-36-hours-following-vulnerability-disclosure">CVE-2026-42208: Targeted SQL injection against LiteLLM&#8217;s authentication path discovered 36 hours following vulnerability disclosure</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://xint.io/blog/copy-fail-linux-distributions">Copy Fail: 732 Bytes to Root on Every Major Linux Distribution</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://www.shielder.com/blog/2026/04/inspektor-gadget-security-audit/">Inspektor Gadget Security Audit</a></p>
+
+
+
+<p><a href="https://andreafortuna.org/2026/04/29/living-off-the-orchard-understanding-loobins-macos-attack-techniques/">Living off the orchard: understanding LOOBins and native macOS attack techniques</a>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://claude.com/blog/claude-security-public-beta">Claude Security is now in public beta</a>&nbsp;&nbsp;</p>
+
+
+
+<p><strong>Intelligence and Information Warfare</strong></p>
+
+
+
+<p><a href="https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/">fast16 | Mystery ShadowBrokers Reference Reveals High-Precision Software Sabotage 5 Years Before Stuxnet</a>&nbsp;</p>
+
+
+
+<p><a href="https://oig.nasa.gov/news/nasa-investigators-expose-a-chinese-national-phishing-for-defense-software/">NASA Investigators Expose a Chinese National Phishing for Defense Software</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://www.reuters.com/world/china/italy-extradite-suspected-chinese-hacker-wanted-by-us-authorities-says-source-2026-04-26/">Italy to extradite suspected Chinese hacker wanted by US authorities, says source</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://ptsecurity.com/research/pt-esc-threat-intelligence/an-alarm-you-can-t-ignore-how-capfix-attacks-russian-organizations/">An alarm clock you can&#8217;t ignore: How CapFix attacks Russian organizations</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://apnews.com/article/germany-netherlands-signal-phishing-russia-espionage-2ab1bac973919bf1e49997b7892bd276">Germany suspects Russia is behind Signal phishing that targeted top officials</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://thebulletin.org/2026/04/a-conflict-of-attrition-irans-bet-on-asymmetric-warfare/">A conflict of attrition: Iran’s bet on asymmetric warfare</a>&nbsp; &nbsp;&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://www.trendmicro.com/en_us/research/26/d/inside-shadow-earth-053.html">Inside Shadow-Earth-053: A China-Aligned Cyberespionage Campaign Against Government and Defense Sectors in Asia</a>&nbsp;&nbsp;</p>
+
+
+
+<p><strong>Cybersecurity</strong></p>
+
+
+
+<p><a href="https://arstechnica.com/tech-policy/2026/04/palantir-employees-are-talking-about-companys-descent-into-fascism/">Palantir employees are talking about company’s “descent into fascism”</a></p>
+
+
+
+<p><a href="https://www.ncsc.gov.uk/news/world-first-ncsc-engineered-device-secures-vulnerable-display-links">World-first NCSC-engineered device secures vulnerable display links</a>&nbsp;</p>
+
+
+
+<p><a href="https://www.nature.com/articles/d41586-026-01054-1">‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://www.goproxies.com/resources/blog/global-internet-censorship-analysis">The Global Internet Censorship Index 2026</a>&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_26_920">Commission preliminarily finds Meta in breach of Digital Services Act for failing to prevent minors under 13 from using Instagram and Facebook</a></p>
+
+
+
+<p><a href="https://therecord.media/tennessee-bans-cryptocurrency-atms-over-scams">Tennessee becomes second state to ban cryptocurrency ATMs over scam concerns</a>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</p>
+
+
+
+<p><a href="https://www.techspot.com/news/112232-federal-agent-whatsapp-encryption-lie-investigation-shut-down.html">A federal agent said WhatsApp&#8217;s encryption</a></p>
+
+
+
+<p><a href="https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html">Trellix Confirms Source Code Breach With Unauthorized Repository Access</a></p>
+
+
+
+<p><a href="https://bughunters.google.com/blog/evolving-the-android-chrome-vrps-for-the-ai-era">Evolving the Android &amp; Chrome VRPs for the AI Era</a>&nbsp;&nbsp;</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, newsletter)</strong><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191607</post-id>	</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Object Caching 48/60 objects using Memcached
+Page Caching using Memcached (Page is feed) 
+Database Caching 10/24 queries in 0.021 seconds using Memcached (Request-wide modification query)
+
+Served from: securityaffairs.com @ 2026-05-05 09:03:07 by W3 Total Cache
+-->

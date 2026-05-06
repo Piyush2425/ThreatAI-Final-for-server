@@ -66,3 +66,93 @@ def normalize_actors(actors: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         List of normalized threat actor profiles
     """
     return [normalize_actor(actor) for actor in actors]
+
+
+def normalize_mitre_groups(groups: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Normalize MITRE ATT&CK group records into the actor schema."""
+    normalized = []
+    for group in groups or []:
+        group_id = group.get('group_id') or ''
+        name = group.get('group_name') or ''
+        description = group.get('description') or ''
+        created = group.get('created') or ''
+        modified = group.get('modified') or ''
+
+        associated = [g for g in (group.get('associated_groups') or []) if g]
+        software_used = [s.get('name') for s in (group.get('software_used') or []) if s.get('name')]
+        software_details = []
+        for software in group.get('software_used') or []:
+            software_name = software.get('name') or ''
+            software_id = software.get('id') or ''
+            software_type = software.get('type') or ''
+            software_desc = software.get('description') or ''
+            if software_name:
+                label = software_name
+                if software_id:
+                    label = f"{software_id}: {software_name}"
+                details = [label]
+                if software_type:
+                    details.append(f"type={software_type}")
+                if software_desc:
+                    details.append(software_desc)
+                software_details.append(" | ".join(details))
+
+        techniques = []
+        technique_details = []
+        for technique in group.get('techniques_used') or []:
+            tech_id = technique.get('technique_id') or ''
+            tech_name = technique.get('name') or ''
+            if tech_id and tech_name:
+                techniques.append(f"{tech_id}: {tech_name}")
+            elif tech_name:
+                techniques.append(tech_name)
+            elif tech_id:
+                techniques.append(tech_id)
+
+            if tech_id or tech_name:
+                details = []
+                if tech_id and tech_name:
+                    details.append(f"{tech_id}: {tech_name}")
+                elif tech_name:
+                    details.append(tech_name)
+                else:
+                    details.append(tech_id)
+                tech_desc = technique.get('description') or ''
+                if tech_desc:
+                    details.append(tech_desc)
+                subtechniques = technique.get('sub_techniques') or []
+                subtechnique_labels = []
+                for sub in subtechniques:
+                    sub_id = sub.get('id') or ''
+                    sub_name = sub.get('name') or ''
+                    if sub_id and sub_name:
+                        subtechnique_labels.append(f"{sub_id}: {sub_name}")
+                    elif sub_name:
+                        subtechnique_labels.append(sub_name)
+                    elif sub_id:
+                        subtechnique_labels.append(sub_id)
+                if subtechnique_labels:
+                    details.append("Sub-techniques: " + ", ".join(subtechnique_labels))
+                technique_details.append(" | ".join(details))
+
+        actor = {
+            'id': group_id,
+            'name': name,
+            'primary_name': name,
+            'aliases': associated,
+            'countries': [],
+            'description': description,
+            'tools': software_used,
+            'software_used': software_details,
+            'ttps': techniques,
+            'techniques_used': technique_details,
+            'information_sources': ["MITRE ATT&CK"],
+            'first_seen': created,
+            'last_updated': modified,
+            'source_system': 'mitre',
+            'source_ids': [group_id] if group_id else [],
+        }
+
+        normalized.append(normalize_actor(actor))
+
+    return normalized

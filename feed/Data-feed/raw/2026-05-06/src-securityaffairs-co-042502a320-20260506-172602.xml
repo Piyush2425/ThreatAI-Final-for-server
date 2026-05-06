@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Security Affairs</title>
+	<atom:link href="https://securityaffairs.com/feed" rel="self" type="application/rss+xml" />
+	<link>https://securityaffairs.com/</link>
+	<description>Read, think, share … Security is everyone&#039;s responsibility</description>
+	<lastBuildDate>Wed, 06 May 2026 14:19:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+<site xmlns="com-wordpress:feed-additions:1">29506073</site>	<item>
+		<title>Iranian cyber espionage disguised as a Chaos Ransomware attack</title>
+		<link>https://securityaffairs.com/191765/breaking-news/iranian-cyber-espionage-disguised-as-a-chaos-ransomware-attack.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 14:19:46 +0000</pubDate>
+				<category><![CDATA[APT]]></category>
+		<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Intelligence]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191765</guid>
+
+					<description><![CDATA[Iran-linked APT MuddyWater used ransomware-style tactics to mask espionage, combining phishing, credential theft, data exfiltration, and extortion without encryption. A newly discovered cyber intrusion attributed to the Iran-linked APT MuddyWater (aka SeedWorm, TEMP.Zagros, Mango Sandstorm, TA450, and Static Kitten) reveals how state-sponsored attackers are increasingly leveraging ransomware tactics to disguise espionage operations. The campaign, uncovered by security researchers at Rapid7, blended [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Iran-linked APT MuddyWater used ransomware-style tactics to mask espionage, combining phishing, credential theft, data exfiltration, and extortion without encryption.</h2>
+
+
+
+<p>A newly discovered cyber intrusion attributed to the Iran-linked APT <a href="https://securityaffairs.com/tag/muddywater" type="post_tag" id="7402">MuddyWater</a> (aka <a href="https://securityaffairs.co/wordpress/78827/apt/seedworm-attacks.html" target="_blank" rel="noreferrer noopener">SeedWorm</a>, <a href="https://securityaffairs.co/wordpress/70453/hacking/temp-zagros-phishing.html">TEMP.Zagros</a>, <a href="https://securityaffairs.com/145952/apt/iranian-apt-papercut-exploitation.html">Mango Sandstorm</a>, <a href="https://securityaffairs.com/161042/apt/iran-ta450-rmm-atera.html">TA450</a>, and <a href="https://securityaffairs.co/wordpress/134876/apt/mercury-exploit-log4shell-flaw.html">Static Kitten</a>) reveals how state-sponsored attackers are increasingly leveraging ransomware tactics to disguise espionage operations. The campaign, uncovered by security researchers at Rapid7, blended social engineering, credential theft, data exfiltration, and extortion under the guise of a ransomware incident — but with no evidence of actual file encryption.</p>
+
+
+
+<p>The attack unfolded in early 2026 and initially appeared to be a routine ransomware case. Victims were led to believe they were dealing with the Chaos ransomware group, which operates a leak site for stolen data. However, further investigation showed no ransomware had been deployed. Instead, the attackers relied on espionage tradecraft — lateral movement, credential harvesting, and information theft — consistent with MuddyWater’s long-standing intelligence-gathering profile.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;In early 2026, a sophisticated intrusion initially appearing to be a standard Chaos ransomware attack was assessed to be consistent with a targeted state-sponsored operation. While the threat actor operated under the banner of the Chaos ransomware-as-a-service (RaaS) group, forensic analysis revealed the incident was a &#8220;false flag&#8221; masquerade.&#8221; reads the <a href="https://www.rapid7.com/blog/post/tr-muddying-tracks-state-sponsored-shadow-behind-chaos-ransomware/">report</a> published by Rapid7. &#8220;Technical artifacts, including a specific code-signing certificate and Command-and-Control (C2) infrastructure, suggest with moderate confidence that this activity is linked to MuddyWater (Seedworm), an Iranian Advanced Persistent Threat (APT) affiliated with the Ministry of Intelligence and Security (MOIS).&#8221;</em></p>
+
+
+
+<p>Rapid7’s analysis shows that the threat actors gained initial access through social engineering tactics, exploiting trust in corporate communications tools. Attackers used Microsoft Teams to contact employees directly, posing as internal IT staff or business associates. Through these conversations, they persuaded users to begin screen-sharing sessions, giving the attackers direct visibility into corporate desktops and systems.</p>
+
+
+
+<p>Once connected, the hackers executed reconnaissance commands, accessed files related to VPN configurations, and tricked employees into writing their credentials into locally saved text files. In at least one case, they installed the AnyDesk remote access tool to maintain a foothold in the organization’s network.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>After establishing initial access, the threat actors utilized RDP sessions and DWAgent, another remote management tool, to maintain persistence. From there, they launched secondary payloads, harvested more credentials, and exfiltrated sensitive internal information.</p>
+
+
+
+<p><em>&#8220;From there, the TA established persistence using remote access tools such as DWAgent and AnyDesk, before deploying additional payloads and further control of the environment.&#8221; reads the report. &#8220;Following this, the TA exfiltrated data from the compromised environment and subsequently contacted the victim via email, claiming data theft and initiating ransom negotiations.&#8221;</em></p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-14.png?ssl=1"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="940" height="722" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-14.png?resize=940%2C722&#038;ssl=1" alt="" class="wp-image-191766" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-14.png?w=940&amp;ssl=1 940w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-14.png?resize=300%2C230&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-14.png?resize=768%2C590&amp;ssl=1 768w" sizes="(max-width: 940px) 100vw, 940px" /></a></figure>
+
+
+
+<p>As part of the deception, MuddyWater operatives sent extortion emails to employees, claiming to have stolen confidential data and threatening to leak it unless a ransom was paid. They directed victims to the Chaos ransomware site, where the organization was indeed listed as a “new victim.” </p>
+
+
+
+<p>However, when the supposed ransom “note” could not be located, the threat actors released the stolen data publicly, revealing that the true objective was data theft, not financial gain.</p>
+
+
+
+<p>Rapid7 concluded that the entire ransomware scenario was a smokescreen designed to mislead defenders. “The inclusion of extortion and negotiation elements likely aimed to focus response teams on the immediate impact, delaying detection of persistence mechanisms implanted through remote access tools,” the researchers wrote.</p>
+
+
+
+<p>The recent campaign spotted by Rapid7 highlights a broader trend in which nation‑state actors blend espionage with criminal aesthetics to mislead victims and deflect investigators. By adopting the look and feel of a ransomware attack, complete with fake negotiation email threads and presence on an established leak site, MuddyWater obscured its true intent: long-term infiltration and intelligence collection.</p>
+
+
+
+<p>Rapid7 assessed the attribution to MuddyWater with “moderate confidence,” citing both technical overlap and contextual consistency. The researchers noted that the incident does not represent a strategic shift toward ransomware operations, but rather an evolution in <strong>deception and misdirection techniques</strong> designed to complicate attribution and response.</p>
+
+
+
+<p>By masquerading as a financially motivated actor, the Iranian APT hoped to divert attention and prolong access to compromised networks. The tactic underscores how modern cyber espionage is no longer confined to covert surveillance, it now borrows the tools, language, and theatrics of cybercrime to hide in plain sight.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The episode serves as a warning to defenders: not every ransomware attack is what it seems. When state-backed adversaries like MuddyWater adopt the same playbook as criminal gangs, distinguishing espionage from extortion becomes one of cybersecurity’s most urgent challenges.</p>
+
+
+
+<p><em>&#8220;The use of a RaaS framework in this context may enable the actor to blur distinctions between state-sponsored activity and financially motivated cybercrime, thereby complicating attribution.&#8221; concludes the report. &#8220;Furthermore, the inclusion of extortion and negotiation elements could serve to focus defensive efforts on immediate impact, likely delaying the identification of underlying persistence mechanisms established via remote access tools such as DWAgent or AnyDesk.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The first <a href="https://securityaffairs.co/wordpress/73563/apt/muddywater-campaign-powershell-backdoor.html">MuddyWater</a> campaign was <a href="https://securityaffairs.co/wordpress/65663/hacking/muddywater-attacks.html">observed</a> in late 2017, when the APT group targeted entities in the Middle East.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Experts named the campaign ‘MuddyWater’ due to the difficulty in attributing a wave of attacks between February and October 2017, targeting entities in Saudi Arabia, Iraq, Israel, the United Arab Emirates, Georgia, India, Pakistan, Turkey, and the United States. Over the years, the group has evolved by adding new attack techniques to its arsenal and has also targeted European and North American countries.</p>
+
+
+
+<p>The group’s victims are mainly in the telecommunications, government (IT services), and oil sectors.</p>
+
+
+
+<p>In January 2022, US Cyber Command (USCYBERCOM)&nbsp;<a href="https://securityaffairs.co/wordpress/126664/apt/muddywater-linked-to-iran-mois.html">officially linked</a>&nbsp;the MuddyWater APT group to Iran’s Ministry of Intelligence and Security (MOIS).</p>
+
+
+
+<p>The MuddyWater APT has targeted several organizations in the U.S. and Canada since early February 2026. Victims include a U.S. bank, an airport, nonprofits, and a software supplier to the defense and aerospace sectors with operations in Israel. The previously unknown backdoor Dindoor relies on the Deno runtime to execute JavaScript and TypeScript code and was signed with a certificate issued to “Amy Cherne.”</p>
+
+
+
+<p>The researchers also observed an attempt to exfiltrate data from a targeted software company using Rclone to a Wasabi Technologies cloud storage bucket, though it’s unclear if the transfer succeeded. The experts also spotted a separate Python backdoor, dubbed Fakeset, on U.S. airport and nonprofit networks, signed with certificates tied to <a href="https://securityaffairs.com/tag/seedworm">Seedworm</a>. The malware was hosted on Backblaze servers, and shared certificates with other Seedworm-linked malware families, suggesting the Iranian group was behind the intrusions.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Recent activity linked to Iranian cyber actors shows a mix of espionage, disruption, and influence operations. The pro-Palestinian hacktivist group <a href="https://securityaffairs.com/tag/handala" type="post_tag" id="16654">Handala</a> has targeted Israeli officials and energy firms through phishing, data theft, ransomware, and leak campaigns, claiming breaches of organizations in Israel and the Gulf. Meanwhile, the Iranian APT Seedworm conducted spear-phishing attacks against academics, NGOs, and government entities to gather intelligence. Another group, Marshtreader, scanned vulnerable cameras in Israel for reconnaissance during regional tensions.</p>
+
+
+
+<p>In March, the Iran-linked APT targeted U.S. organizations, deploying the new <a href="https://securityaffairs.com/189060/apt/iran-linked-muddywater-deploys-dindoor-malware-against-u-s-organizations.html">Dindoor backdoor</a> across sectors including banks, airports, and nonprofits, Broadcom’s Symantec Threat Hunter Team revealed.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Iran)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191765</post-id>	</item>
+		<item>
+		<title>Apache fixes critical HTTP/2 double-free flaw CVE-2026-23918 enabling RCE</title>
+		<link>https://securityaffairs.com/191759/security/apache-fixes-critical-http-2-double-free-flaw-cve-2026-23918-enabling-rce.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 11:00:06 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Apache]]></category>
+		<category><![CDATA[CVE-2026-23918]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191759</guid>
+
+					<description><![CDATA[Apache fixed several flaws in HTTP Server, including CVE-2026-23918 (CVSS score of 8.8), a double-free bug in HTTP/2 that could allow remote code execution. The Apache Software Foundation has released updates to fix multiple vulnerabilities in its HTTP Server, including CVE-2026-23918 (CVSS score of 8.8). The issue involves a “double free” error in HTTP/2 handling [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Apache fixed several flaws in HTTP Server, including CVE-2026-23918 (CVSS score of 8.8), a double-free bug in HTTP/2 that could allow remote code execution.</h2>
+
+
+
+<p>The Apache Software Foundation has released updates to fix multiple vulnerabilities in its HTTP Server, including <a href="https://lists.apache.org/thread/otwt07gfnp6x2b58hnbghgs9r4ovy3yf">CVE-2026-23918</a> (CVSS score of 8.8). The issue involves a “double free” error in HTTP/2 handling that could potentially lead to remote code execution. </p>
+
+
+
+<p>Researchers Bartlomiej Dmitruk, from striga.ai, and Stanislaw Strzalkowski from isec.pl discovered the vulnerability.</p>
+
+
+
+<p><em>&#8220;Double Free and possible RCE vulnerability in Apache HTTP Server with the HTTP/2 protocol.&#8221; <a href="https://lists.apache.org/thread/otwt07gfnp6x2b58hnbghgs9r4ovy3yf">reads the advisory</a>.</em></p>
+
+
+
+<p>The vulnerability impacts version 2.4.66 and is resolved in version 2.4.67.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><a href="https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html">According to TheHackerNews</a>, CVE-2026-23918 is a double-free flaw in Apache httpd 2.4.66’s mod_http2, triggered by a crafted HTTP/2 sequence that causes the same stream to be cleaned up twice, leading to memory corruption. This can easily result in denial of service, crashing worker processes with minimal effort. In certain setups, especially those using APR with mmap (common on Debian systems and official Docker images), it may also be exploited for remote code execution. </p>
+
+
+
+<p>The attack requires specific conditions and some additional steps, but a working proof of concept exists. Notably, MPM prefork is not affected, though the widespread use of HTTP/2 increases exposure. <gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong>&nbsp;–&nbsp;hacking,&nbsp;newsletter)</strong><strong></strong><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191759</post-id>	</item>
+		<item>
+		<title>Palo Alto Networks PAN-OS flaw exploited for remote code execution</title>
+		<link>https://securityaffairs.com/191748/security/palo-alto-networks-pan-os-flaw-exploited-for-remote-code-execution.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 08:52:21 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[CVE-2026-0300]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Palo Alto Networks]]></category>
+		<category><![CDATA[PAN-OS]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191748</guid>
+
+					<description><![CDATA[Palo Alto Networks warns of a critical PAN-OS flaw (CVE-2026-0300) that is under active attack, allowing unauthenticated remote code execution. Palo Alto Networks has warned that a critical PAN-OS vulnerability, tracked as CVE-2026-0300 (CVSS score of 9.3), is actively exploited in the wild. The flaw is a buffer overflow that allows unauthenticated remote code execution, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Palo Alto Networks warns of a critical PAN-OS flaw (CVE-2026-0300) that is under active attack, allowing unauthenticated remote code execution.</h2>
+
+
+
+<p>Palo Alto Networks has warned that a critical PAN-OS vulnerability, tracked as CVE-2026-0300 (CVSS score of 9.3), is actively exploited in the wild. The flaw is a buffer overflow that allows unauthenticated remote code execution, especially when the User-ID portal is exposed to the internet. </p>
+
+
+
+<p><em>&#8220;A buffer overflow vulnerability in the User-ID<img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Authentication Portal (aka Captive Portal) service of Palo Alto Networks PAN-OS software allows an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Series and VM-Series firewalls by sending specially crafted packets.&#8221; reads the <a href="https://security.paloaltonetworks.com/CVE-2026-0300">advisory</a> published by Palo Alto Networks. &#8220;The risk of this issue is greatly reduced if you secure access to the User-ID<img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Authentication Portal per the <a href="https://knowledgebase.paloaltonetworks.com/KCSArticleDetail?id=kA14u000000CqbiCAC" target="_blank" rel="noreferrer noopener">best practice guidelines</a> by restricting access to only trusted internal IP addresses.&#8221;</em></p>
+
+
+
+<p>Below is the list of impacted products:</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><th class="has-text-align-center" data-align="center">Versions</th><th class="has-text-align-center" data-align="center">Affected</th><th class="has-text-align-center" data-align="center">Unaffected</th></tr><tr><td><a href="https://www.paloaltonetworks.com/network-security/cloud-ngfw" target="_blank" rel="noreferrer noopener">Cloud NGFW</a></td><td>None</td><td>All</td></tr><tr><td><a href="https://www.paloaltonetworks.com/network-security/pan-os" target="_blank" rel="noreferrer noopener">PAN-OS 12.1</a></td><td>&lt; 12.1.4-h5<br>&lt; 12.1.7</td><td>&gt;= 12.1.4-h5 (ETA: 05/13)<br>&gt;= 12.1.7 (ETA: 05/28)</td></tr><tr><td><a href="https://www.paloaltonetworks.com/network-security/pan-os" target="_blank" rel="noreferrer noopener">PAN-OS 11.2</a></td><td>&lt; 11.2.4-h17<br>&lt; 11.2.7-h13<br>&lt; 11.2.10-h6<br>&lt; 11.2.12</td><td>&gt;= 11.2.4-h17 (ETA: 05/28)<br>&gt;= 11.2.7-h13 (ETA: 05/13)<br>&gt;= 11.2.10-h6 (ETA: 05/13)<br>&gt;= 11.2.12 (ETA: 05/28)</td></tr><tr><td><a href="https://www.paloaltonetworks.com/network-security/pan-os" target="_blank" rel="noreferrer noopener">PAN-OS 11.1</a></td><td>&lt; 11.1.4-h33<br>&lt; 11.1.6-h32<br>&lt; 11.1.7-h6<br>&lt; 11.1.10-h25<br>&lt; 11.1.13-h5<br>&lt; 11.1.15</td><td>&gt;= 11.1.4-h33 (ETA: 05/13)<br>&gt;= 11.1.6-h32 (ETA: 05/13)<br>&gt;= 11.1.7-h6 (ETA: 05/28)<br>&gt;= 11.1.10-h25 (ETA: 05/13)<br>&gt;= 11.1.13-h5 (ETA: 05/13)<br>&gt;= 11.1.15 (ETA: 05/28)</td></tr><tr><td><a href="https://www.paloaltonetworks.com/network-security/pan-os" target="_blank" rel="noreferrer noopener">PAN-OS 10.2</a></td><td>&lt; 10.2.7-h34<br>&lt; 10.2.10-h36<br>&lt; 10.2.13-h21<br>&lt; 10.2.16-h7<br>&lt; 10.2.18-h6</td><td>&gt;= 10.2.7-h34 (ETA: 05/28)<br>&gt;= 10.2.10-h36 (ETA: 05/13)<br>&gt;= 10.2.13-h21 (ETA: 05/28)<br>&gt;= 10.2.16-h7 (ETA: 05/28)<br>&gt;= 10.2.18-h6 (ETA: 05/13)</td></tr><tr><td><a href="https://www.paloaltonetworks.com/sase/access" target="_blank" rel="noreferrer noopener">Prisma Access</a></td><td>None</td><td>All<gwmw style="display:none;"></gwmw></td></tr></tbody></table></figure>
+
+
+
+<p>The cybersecurity vendor states that the issue doesn&#8217;t impact Prisma Access, Cloud NGFW and Panorama appliances.</p>
+
+
+
+<p>Palo Alto Networks says the flaw is being exploited in a limited way, mainly against systems where the User-ID Authentication Portal is exposed to the public internet.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The flaw remains unpatched, with fixes expected from May 13, 2026. It affects PA-Series and VM-Series firewalls using the User-ID Authentication Portal. Palo Alto Networks notes risk is much lower for organizations that follow best practices, like limiting access to trusted internal networks only.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;Limited exploitation has been observed targeting Palo Alto Networks User-ID<img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Authentication Portals that are exposed to untrusted IP addresses and/or the public internet.&#8221; concludes the advisory. &#8220;Customers following standard security best practices, such as restricting sensitive portals to trusted internal networks are at a greatly reduced risk.&#8221;</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, PAN-OS)</strong><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191748</post-id>	</item>
+		<item>
+		<title>Malicious PyTorch Lightning update hits AI supply chain security</title>
+		<link>https://securityaffairs.com/191732/ai/malicious-pytorch-lightning-update-hits-ai-supply-chain-security.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 07:04:22 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[info stealer]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[pypi]]></category>
+		<category><![CDATA[PyTorch Lightning]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[ShaiWorm]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191732</guid>
+
+					<description><![CDATA[A malicious PyTorch Lightning update (v2.6.3) on PyPI spread briefly, stealing credentials and raising major concerns about AI supply chain security. A malicious update of the PyTorch Lightning library exposed developers to credential theft and remote compromise. Attackers uploaded version 2.6.3 to the Python Package Index (PyPI), where it spread among developers before maintainers removed [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">A malicious PyTorch Lightning update (v2.6.3) on PyPI spread briefly, stealing credentials and raising major concerns about AI supply chain security.</h2>
+
+
+
+<p>A malicious update of the PyTorch Lightning library exposed developers to credential theft and remote compromise. Attackers uploaded version 2.6.3 to the Python Package Index (PyPI), where it spread among developers before maintainers removed it at the end of April. </p>
+
+
+
+<p>PyTorch Lightning is an open-source framework built on top of PyTorch that simplifies how developers train and deploy deep learning models.</p>
+
+
+
+<p>Given the library’s popularity in AI development, the incident raised serious concerns about the security of software supply chains.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The compromised package executed hidden code as soon as developers imported it. It launched a background process, downloaded a JavaScript runtime (Bun), and ran a large, heavily obfuscated payload. Microsoft identified the malware as ShaiWorm, a credential stealer designed to extract sensitive information from infected systems.</p>
+
+
+
+<p><em>&#8220;<code>lightning==2.6.3</code> (published on PyPI as <code>py3-none-any</code> wheel) contains a hidden execution chain that silently downloads a JavaScript runtime (Bun) and executes an 11.4 MB heavily obfuscated JavaScript payload upon <code>import lightning</code>. This payload contains credential-stealing functionality targeting cloud providers, browsers, and environment files.&#8221; <a href="https://github.com/Lightning-AI/pytorch-lightning/issues/21689">reads the advisory</a>.</em></p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">Microsoft Defender detected and protected customers against a new software supply chain compromise affecting the &quot;pytorch-lightning&quot; package and immediately reported the issue to the repository maintainers for takedown: <a href="https://t.co/yDdIftxQRE">https://t.co/yDdIftxQRE</a>.<br><br>At the time the compromised…</p>&mdash; Microsoft Threat Intelligence (@MsftSecIntel) <a href="https://twitter.com/MsftSecIntel/status/2050414202259472521?ref_src=twsrc%5Etfw">May 2, 2026</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div></figure>
+
+
+
+<p>The malware targeted a wide range of data. It searched for .env files, API keys, GitHub tokens, and credentials stored in browsers like Chrome, Firefox, and Brave. It also collected access keys for major cloud platforms, including AWS, Azure, and Google Cloud. Beyond data theft, the malware allowed attackers to execute arbitrary commands on the system, effectively giving them full control over compromised environments.</p>
+
+
+
+<p>Lightning AI quickly warned users about the risk. The company advised anyone who used version 2.6.3 to rotate all credentials and secrets immediately. It removed the malicious release and replaced it with a safe version. At the same time, Microsoft Defender detected and blocked the threat on affected endpoints, limiting its spread to a relatively small number of systems.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>It is still unclear how attackers managed to insert the backdoor. Lightning AI continues to examine whether a compromised developer account, build system, or third-party dependency enabled the attack. The company also audits other recent releases to ensure no additional malicious code remains.</p>
+
+
+
+<p><em>&#8220;Observed activity remains limited to a small number of devices and appear contained to a narrow set of environments.&#8221; states Microsoft. &#8220;We are also investigating container-based telemetry and registry-related signals that may indicate potential compromise in some scenarios.&#8221;</em></p>
+
+
+
+<p>This incident shows how attackers increasingly target trusted components in the AI and Python ecosystems. Widely used libraries offer an efficient entry point, allowing attackers to reach many developers at once. It highlights the need for stronger safeguards, including dependency verification, runtime monitoring, and stricter controls around software distribution and updates.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, PyTorch Lightning)</strong></p>
+
+
+
+<p><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191732</post-id>	</item>
+		<item>
+		<title>U.S. court sentences Karakurt ransomware negotiator to 8.5 years</title>
+		<link>https://securityaffairs.com/191722/cyber-crime/u-s-court-sentences-karakurt-ransomware-negotiator-to-8-5-years.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 20:06:20 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[Deniss Zolotarjovs]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Karakurt ransomware]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191722</guid>
+
+					<description><![CDATA[Deniss Zolotarjovs was sentenced to 8.5 years in the U.S. after pleading guilty to money laundering and fraud tied to ransomware. Deniss Zolotarjovs, a Latvian national linked to the Karakurt ransomware gang, has been sentenced to 8.5 years in U.S. prison, marking a significant step in efforts to combat global ransomware operations. &#8220;A Latvian national [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Deniss Zolotarjovs was sentenced to 8.5 years in the U.S. after pleading guilty to money laundering and fraud tied to ransomware.</h2>
+
+
+
+<p><a href="https://securityaffairs.com/167466/uncategorized/karakurt-cybercrime-gang-member-arrested.html" type="post" id="167466">Deniss Zolotarjovs</a>, a Latvian national linked to the <a href="https://securityaffairs.com/167466/uncategorized/karakurt-cybercrime-gang-member-arrested.html" type="post" id="167466">Karakurt ransomware</a> gang, has been sentenced to 8.5 years in U.S. prison, marking a significant step in efforts to combat global ransomware operations.</p>
+
+
+
+<p><em>&#8220;A Latvian national was sentenced today to 102 months in prison for his role in a major Russian ransomware organization that stole from and extorted over 54 companies.&#8221; reads the <a href="https://www.justice.gov/opa/pr/member-prolific-russian-ransomware-group-sentenced-prison">press release</a> published by DoJ.</em></p>
+
+
+
+<p>In August 2024, the man was charged with money laundering, wire fraud, and extortion. He was arrested in Georgia in December 2023 and extradited to the U.S. in 2014.<gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p> In 2025, he pleaded guilty to money laundering and wire fraud conspiracy.  <gwmw style="display:none;"></gwmw>Rather than carrying out technical intrusions, Zolotarjovs acted as a negotiator and strategist. </p>
+
+
+
+<p>He analyzed stolen data, set ransom demands, and communicated directly with victims, earning about 10% of ransom payments through cryptocurrency laundering. Prosecutors described him as a key intermediary within a broader cybercrime ecosystem tied to former members of the Conti ransomware group.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Between 2021 and 2023, the group targeted over 54 organizations, causing over $56 million in losses. Victims included businesses, government entities, and even a pediatric healthcare provider. </p>
+
+
+
+<p><em>&#8220;According to court documents, Deniss Zolotarjovs (Денисс Золотарёвс), 35, of Moscow, Russia, was a member of a ransomware organization led by former leaders of the Conti ransomware group. Brands used to identify the organization in ransom notes to their victims during the time of his involvement include Conti, Karakurt, Royal, TommyLeaks, SchoolBoys Ransomware, and Akira, among others.&#8221; continues the press release. &#8220;During the time of Zolotarjovs’s active participation in the organization, approximately June 2021 to August 2023, the organization stole data from over 54 companies, including many in the United States. &#8220;</em></p>
+
+
+
+<p>In one case, Zolotarjovs suggested leaking children’s medical data to pressure payment, highlighting the coercive tactics used. Another attack disrupted a U.S. 911 emergency dispatch system, underscoring the real-world impact of these operations.</p>
+
+
+
+<p><em>&#8220;In one attack on a pediatric healthcare company, Zolotarjovs deliberately leveraged children’s health information for extortion.&#8221; DoJ states. &#8220;When he failed in extracting a ransom from this victim, he urged coconspirators to be “DESTROYERS” and to leak or sell copies of these pediatric health records to sow fear among future victims.&#8221;</em></p>
+
+
+
+<p>Authorities say the case reflects the increasingly organized and professional nature of ransomware groups, which operate like businesses with defined roles such as negotiators, operators, and data brokers. It also demonstrates growing international cooperation, particularly between U.S. agencies and Georgian authorities, in tracking and prosecuting cybercriminals.</p>
+
+
+
+<p>Officials from the Federal Bureau of Investigation emphasized that this sentencing sends a strong message: even individuals operating within Russia-linked cybercrime networks can be identified, pursued, and brought to justice. The case highlights both the human cost of ransomware attacks and the expanding reach of global law enforcement in tackling cyber extortion.</p>
+
+
+
+<p>“With this sentence, a cruel, ruthless, and dangerous international cybercriminal is now behind bars,” said Assistant Attorney General A. Tysen Duva of the Justice Department’s Criminal Division. “Deniss Zolotarjovs helped his ransomware gang profit from hacks of dozens of companies, and even on a government entity whose 911 system was forced offline. He also used stolen children’s health information to increase his leverage to extort victim payments. The Criminal Division will continue to investigate and prosecute international hackers and extortionists from around the world, no matter where they live or operate.”<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Accenture researchers first detailed the activity of the sophisticated financially motivated threat actor in December 2021. The group’s activity was first spotted in June 2021, but the group has been more active in Q3 2021.</p>
+
+
+
+<p>Zolotarjovs is the first member of the Karakurt group to be sentenced in the United States.</p>
+
+
+
+<p>Most of the known victims are based in North America, while the remaining are in Europe. </p>
+
+
+
+<p>The analysis of the attack chain associated with this threat actor revealed that it primarily leverages VPN credentials to gain initial access to the target’s network.</p>
+
+
+
+<p>In the initial attacks, the group gained persistence by using the popular post-exploitation tool Cobalt Strike. Later, the group switched on the VPN IP pool or AnyDesk software to establish persistence and avoid detection.</p>
+
+
+
+<p>Once access is gained to the target network, the group used various tools to escalate privileges, including Mimikatz or PowerShell to steal <em>ntds.dit</em> that contains Active Directory data.</p>
+
+
+
+<p>However, the threat group in most attacks escalated privileges using previously obtained credentials.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>For data exfiltration the group used 7zip and WinZip for compression, as well as Rclone or FileZilla (SFTP) to upload data to Mega.io cloud storage.</p>
+
+
+
+<p>The Karakurt cyber extortion group typically gave victims one week to pay a ransom, which ranges from $25,000 to $13 million in Bitcoin. This information comes from a joint alert issued by the FBI, CISA, the Department of the Treasury, and FinCEN.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Karakurt ransomware)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191722</post-id>	</item>
+		<item>
+		<title>Vimeo confirms breach via third-party vendor impacts 119K users</title>
+		<link>https://securityaffairs.com/191715/data-breach/vimeo-confirms-breach-via-third-party-vendor-impacts-119k-users.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 18:14:53 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Data Breach]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[ShinyHunters]]></category>
+		<category><![CDATA[Vimeo]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191715</guid>
+
+					<description><![CDATA[Hackers stole data of 119,000 Vimeo users in April. The breach, linked to a third‑party vendor, exposed personal details. Vimeo confirmed a data breach after the ShinyHunters gang stole personal information of 119,000 users in April 2026. According to Have I Been Pwned, the attackers accessed user data through a compromise at Anodot, a third‑party [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Hackers stole data of 119,000 Vimeo users in April. The breach, linked to a third‑party vendor, exposed personal details.</h2>
+
+
+
+<p>Vimeo confirmed a <a href="https://securityaffairs.com/191448/security/shinyhunters-exploit-anodot-incident-to-target-vimeo.html" type="post" id="191448">data breach</a> after the <a href="https://securityaffairs.com/tag/shinyhunters" type="post_tag" id="11035">ShinyHunters</a> gang stole personal information of 119,000 users in April 2026. According to Have I Been Pwned, the attackers accessed user data through a compromise at Anodot, a third‑party analytics vendor. </p>
+
+
+
+<p><em>&#8220;In April 2026, the ShinyHunters extortion group <a href="https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/" target="_blank" rel="noreferrer noopener">listed Vimeo on their extortion portal as part of their &#8220;pay or leak&#8221; campaign</a>. They subsequently published hundreds of gigabytes of data, predominantly consisting of video titles, technical data and metadata.&#8221; <a href="https://haveibeenpwned.com/Breach/Vimeo">reported Have I Been Pwned</a>.&#8221;The data also included 119k unique email addresses, sometimes accompanied by names. <a href="https://vimeo.com/blog/post/anodot-third-party-security-incident" target="_blank" rel="noreferrer noopener">Vimeo attributed the exposure</a> to a breach of Anodot, a third-party analytics vendor, and advised the incident does not include &#8220;Vimeo video content, valid user login credentials, or payment card information&#8221;.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Vimeo confirmed that the security incident is linked to a breach at Anodot. An unauthorized actor accessed some Vimeo user and customer data, mainly technical information, video titles, metadata, and in some cases email addresses.</p>
+
+
+
+<p><em>&#8220;Vimeo is aware of a security incident affecting Anodot, a third-party analytics vendor used by Vimeo and many other companies. The Google Threat Intelligence report associated with the unauthorized actor claiming responsibility for the Anodot incident can be found at <a href="https://cloud.google.com/blog/topics/threat-intelligence/expansion-shinyhunters-saas-data-theft" target="_blank" rel="noreferrer noopener">this link</a>.&#8221; reads the <a href="https://vimeo.com/blog/post/anodot-third-party-security-incident">notice</a> on the security incident published by the company.</em></p>
+
+
+
+<p><em>We have identified that, as a result of the Anodot breach, an unauthorized actor accessed certain Vimeo user and customer data. Our initial findings suggest that the databases accessed primarily contain technical data, video titles and metadata, and, in some cases, customer email addresses.&#8221;</em></p>
+
+
+
+<p>The company said no video content, login credentials, or payment data were exposed, and services were not disrupted. In response, Vimeo disabled Anodot access, removed the integration, engaged external security experts, and notified law enforcement.</p>
+
+
+
+<p>The investigation is still ongoing, and updates will be shared as more details emerge.</p>
+
+
+
+<p>After Vimeo&#8217;s disclosure, the ShinyHunters cybercrime group leaked a 106GB archive of stolen documents on its Tor data leak site.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-13.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="757" height="422" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-13.png?resize=757%2C422&#038;ssl=1" alt="" class="wp-image-191717" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-13.png?w=757&amp;ssl=1 757w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-13.png?resize=300%2C167&amp;ssl=1 300w" sizes="(max-width: 757px) 100vw, 757px" /></a></figure>
+
+
+
+<p>ShinyHunters is a well-known name in the cybercriminal ecosystem. The group is associated with a broader loosely connected network often referred to as “<a href="https://securityaffairs.com/tag/the-com">the Com</a>,” made up largely of young, English-speaking individuals. Their operations typically focus on stealing data from large organizations and using leak sites to pressure victims into paying ransoms in cryptocurrency.</p>
+
+
+
+<p>ShinyHunters has recently targeted major companies and organizations, leaking data when ransom demands fail. Victims include the <a href="https://securityaffairs.com/190095/data-breach/shinyhunters-claims-the-hack-of-the-european-commission.html">European Commission</a>, <a href="https://securityaffairs.com/187927/uncategorized/odido-confirms-massive-breach-6-2-million-customers-impacted.html">Odido</a>, <a href="https://securityaffairs.com/187988/data-breach/fintech-firm-figure-disclosed-data-breach-after-employee-phishing-attack.html">Figure</a>, <a href="https://securityaffairs.com/188046/data-breach/shinyhunters-leaked-600k-canada-goose-customer-records-but-the-firm-denies-it-was-breached.html">Canada Goose</a>, <a href="https://securityaffairs.com/190796/data-breach/shinyhunters-claim-the-hack-of-rockstar-games-breach-and-started-leaking-data.html" type="post" id="190796">Rockstar</a>, and <a href="https://securityaffairs.com/187340/data-breach/shinyhunters-claims-2-million-crunchbase-records-company-confirms-breach.html">SoundCloud</a>. The group primarily uses social engineering, especially voice phishing, to steal credentials and access SaaS platforms like <a href="https://securityaffairs.com/182159/cyber-crime/fbi-warns-of-salesforce-attacks-by-unc6040-and-unc6395-groups.html">Salesforce</a>, <a href="https://securityaffairs.com/152803/data-breach/okta-support-system-breached.html">Okta</a>, and Microsoft 365. <gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Vimeo)</strong><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191715</post-id>	</item>
+		<item>
+		<title>Critical Android vulnerability CVE-2026-0073 fixed by Google</title>
+		<link>https://securityaffairs.com/191710/breaking-news/critical-android-vulnerability-cve-2026-0073-fixed-by-google.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 14:06:33 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[CVE-2026-0073]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191710</guid>
+
+					<description><![CDATA[Google patched a critical Android flaw (CVE‑2026‑0073) that lets attackers run code remotely without user action. Google released a security update for Android to address a critical remote code execution flaw, tracked as CVE‑2026‑0073, in the System component. The bug allowed attackers to run code as the shell user without needing extra permissions, or any [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Google patched a critical Android flaw (CVE‑2026‑0073) that lets attackers run code remotely without user action.</h2>
+
+
+
+<p>Google released a security update for Android to address a critical remote code execution flaw, tracked as CVE‑2026‑0073, in the System component. The bug allowed attackers to run code as the shell user without needing extra permissions, or any user interaction. </p>
+
+
+
+<p>The patch prevents potential full device compromise from remote exploitation.</p>
+
+
+
+<p><em>&#8220;The vulnerability in this section could lead to remote (proximal/adjacent) code execution as the shell user with no additional execution privileges needed. User interaction is not needed for exploitation.&#8221; <a href="https://source.android.com/docs/security/bulletin/2026/2026-05-01">reads the advisory</a>.</em></p>
+
+
+
+<p>The flaw impacts ‘adbd’ (Android Debug Bridge daemon), the background process on an Android device that enables communication with a computer through the Android Debug Bridge (ADB) tool.</p>
+
+
+
+<p>Google is not aware of any public exploits for this issue or of attacks in the wild exploiting CVE-2026-0073.</p>
+
+
+
+<p>In March, Google confirmed that another vulnerability, tracked as <a href="https://securityaffairs.com/188823/security/android-devices-hit-by-exploited-qualcomm-flaw-cve-2026-21385.html" type="post" id="188823">CVE-2026-21385</a> (CVSS score of 7.8), in open-source Qualcomm component has been actively exploited.</p>
+
+
+
+<p>The flaw is a buffer over-read in the Graphics component that could allow attackers to access sensitive memory data, underscoring ongoing risks to Android users.</p>
+
+
+
+<p>The company did not disclose technical details about the attacks exploiting this vulnerability.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Google)</strong></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191710</post-id>	</item>
+		<item>
+		<title>Microsoft warns of global campaign stealing auth tokens from 35K users</title>
+		<link>https://securityaffairs.com/191695/security/microsoft-warns-of-global-campaign-stealing-auth-tokens-from-35k-users.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 09:10:53 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[AiTM]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191695</guid>
+
+					<description><![CDATA[Microsoft revealed a phishing campaign hitting 35,000 users in 26 countries, stealing login tokens via fake code-of-conduct emails and legit services. Microsoft disclosed a major phishing campaign that targeted over 35,000 users across 26 countries in mid-April 2026. Attackers used fake “code of conduct” emails sent through legitimate platforms to trick recipients into visiting bogus [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Microsoft revealed a phishing campaign hitting 35,000 users in 26 countries, stealing login tokens via fake code-of-conduct emails and legit services.</h2>
+
+
+
+<p>Microsoft disclosed a major phishing campaign that targeted over 35,000 users across 26 countries in mid-April 2026. </p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-10.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="1024" height="288" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-10.png?resize=1024%2C288&#038;ssl=1" alt="" class="wp-image-191699" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-10.png?resize=1024%2C288&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-10.png?resize=300%2C85&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-10.png?resize=768%2C216&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-10.png?resize=1536%2C433&amp;ssl=1 1536w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-10.png?w=1800&amp;ssl=1 1800w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p>Attackers used fake “code of conduct” emails sent through legitimate platforms to trick recipients into visiting bogus sites that stole authentication tokens. <gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;The campaign targeted tens of thousands of users, primarily in the United States, and directed them through several stages of CAPTCHA and intermediate staging pages designed to reinforce legitimacy while filtering out automated defenses.&#8221; reads the report <a href="https://www.microsoft.com/en-us/security/blog/2026/05/04/breaking-the-code-multi-stage-code-of-conduct-phishing-campaign-leads-to-aitm-token-compromise/">published</a> by Microsoft. &#8220;The lures in this campaign used polished, enterprise-style HTML templates with structured layouts and preemptive authenticity statements, making them appear more credible than typical phishing emails and increasing their plausibility as legitimate internal communications. &#8220;</em></p>
+
+
+
+<p>Most victims (92%) were in the U.S., mainly in healthcare and finance.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-11.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="288" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-11.png?resize=1024%2C288&#038;ssl=1" alt="" class="wp-image-191700" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-11.png?resize=1024%2C288&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-11.png?resize=300%2C85&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-11.png?resize=768%2C216&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-11.png?resize=1536%2C433&amp;ssl=1 1536w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-11.png?w=1800&amp;ssl=1 1800w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p>Attackers used alarming, time-sensitive messages to pressure victims into action, leading them to a fake but legitimate-looking sign-in page. This adversary‑in‑the‑middle (<a href="https://securityaffairs.com/tag/aitm" type="post_tag" id="14094">AiTM</a>) phishing flow let attackers intercept authentication tokens in real time, bypassing weak MFA. Microsoft urges training, anti-phishing tools, secure browsers, and SmartScreen protections to defend against such threats.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The phishing campaign impersonated internal compliance and regulatory departments, using subject lines like “Internal case log issued under conduct policy” to create urgency and legitimacy. Attackers distributed emails via a legitimate email delivery service, embedding links in PDF attachments that led to attacker-controlled domains such as <em>acceptable-use-policy-calendly[.]de</em>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-12.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="898" height="1024" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-12.png?resize=898%2C1024&#038;ssl=1" alt="" class="wp-image-191702" style="aspect-ratio:0.8769697562885387;width:601px;height:auto" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-12.png?resize=898%2C1024&amp;ssl=1 898w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-12.png?resize=263%2C300&amp;ssl=1 263w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-12.png?resize=768%2C876&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-12.png?w=960&amp;ssl=1 960w" sizes="auto, (max-width: 898px) 100vw, 898px" /></a></figure>
+</div>
+
+
+<p>After completing fake Cloudflare CAPTCHAs, victims were asked to “Review &amp; Sign” documents and then redirected to a deceptive Microsoft sign-in page. This final step launched an adversary‑in‑the‑middle (AiTM) attack chain that proxied authentication and captured tokens, giving immediate access to user accounts despite multifactor authentication. </p>
+
+
+
+<p><em>&#8220;Following these steps, users were redirected to a third site hosting the final stage of the attack. Analysis of the underlying code indicates that the final destination varied depending on whether the user accessed the workflow from a mobile device or a desktop system.&#8221; continues the report.</em></p>
+
+
+
+<p>The campaign’s structure mimicked legitimate workflow and compliance verification processes, making detection difficult. Microsoft described it as “one of the most sophisticated code-of-conduct‑themed credential theft operations observed to date,” confirming that the attackers’ methods reflected a high degree of operational planning and technical adaptability.</p>
+
+
+
+<p>Microsoft recommends a layered approach to reduce risk. Organizations should review Exchange Online Protection and Defender for Office 365 settings, enable features like Zero-hour Auto Purge, Safe Links, and Safe Attachments, and use network protection and SmartScreen-enabled browsers.</p>
+
+
+
+<p>User awareness training and phishing simulations are key, along with manual monitoring and removal of suspicious emails. Strong authentication is essential, including MFA or passwordless methods, plus conditional access for privileged accounts.</p>
+
+
+
+<p>Finally, enabling automated attack disruption in Defender XDR can help detect and contain threats quickly, limiting their impact.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, phishing)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191695</post-id>	</item>
+		<item>
+		<title>Educational tech firm Instructure data breach may have impacted 9,000 schools</title>
+		<link>https://securityaffairs.com/191686/cyber-crime/educational-tech-firm-instructure-data-breach-may-have-impacted-9000-schools.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 07:48:31 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Data Breach]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[Instructure]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[ShinyHunters]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191686</guid>
+
+					<description><![CDATA[Instructure, maker of the Canvas learning platform, is investigating a cyber incident that exposed users’ personal data. Instructure is a U.S.-based educational technology company best known for developing Canvas, one of the world’s most widely used learning management systems (LMS).  The U.S. firm confirrmed a cybersecurity incident that exposed users’ personal information. The company is working with external [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Instructure, maker of the Canvas learning platform, is investigating a cyber incident that exposed users’ personal data.</h2>
+
+
+
+<p>Instructure is a U.S.-based educational technology company best known for developing Canvas, one of the world’s most widely used learning management systems (LMS). </p>
+
+
+
+<p>The U.S. firm confirrmed a cybersecurity incident that exposed users’ personal information. The company is working with external cybersecurity experts and law enforcement to investigate the breach. Canvas is widely used by schools and universities to manage courses, assignments, and online learning, raising concerns about student and staff data security.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The company says the security incident appears to be contained while investigations continue. Instructure revoked privileged credentials and access tokens, deployed security patches, rotated some keys as a precaution, and increased monitoring across systems.</p>
+
+
+
+<p><em>&#8220;Out of an abundance of caution, we rotated certain keys, even though there is no evidence they were misused &#8211; Implemented increased monitoring across all platforms.&#8221; reads the <a href="https://status.instructure.com/history">Incident Report</a>. &#8220;While we continue actively investigating, thus far, indications are that the information involved consists of certain identifying information of users at affected institutions, such as names, email addresses, and student ID numbers, as well as messages among users. At this time, we have found no evidence that passwords, dates of birth, government identifiers, or financial information were involved.&#8221;</em></p>
+
+
+
+<p>So far, the exposed data likely includes user identifiers such as names, email addresses, student ID numbers, and some user messages. The company states that there is currently no evidence that passwords, dates of birth, government IDs, or financial data were affected.</p>
+
+
+
+<p>The educational technology firm continues to monitor the situation and will notify institutions if new findings emerge, while updating its status page and working to strengthen system security.</p>
+
+
+
+<p>Instructure did not share details about the attack, however, the <a href="https://securityaffairs.com/tag/shinyhunters" type="post_tag" id="11035">ShinyHunters</a> extortion group claimed responsibility for the attack and added the company to its Tor data leak site.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-9.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="447" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-9.png?resize=1024%2C447&#038;ssl=1" alt="" class="wp-image-191689" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-9.png?resize=1024%2C447&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-9.png?resize=300%2C131&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-9.png?resize=768%2C335&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-9.png?resize=1536%2C671&amp;ssl=1 1536w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-9.png?w=1608&amp;ssl=1 1608w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;Nearly 9,000 schools worldwide affected. 275 million individuals data ranging from students, teachers, and other staff containing PII. Several billions of private messages among students and teachers and students and other students involved, containing personal conversations and other PII. Your Salesforce instance was also breached and a lot more other data is involved. <strong>Pay or Leak.</strong>&#8221; the group wrote on its leak site. &#8220;This is a final warning to reach out by 6 May 2026 before we leak along with several annoying (digital) problems that&#8217;ll come your way. <strong>Make the right decision, don&#8217;t be the next headline.</strong>,&#8221; reads the data leak site.</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, data breach)</strong><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191686</post-id>	</item>
+		<item>
+		<title>MOVEit automation flaws could enable full system compromise</title>
+		<link>https://securityaffairs.com/191681/security/moveit-automation-flaws-could-enable-full-system-compromise.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 21:32:10 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[CVE-2026-4670]]></category>
+		<category><![CDATA[CVE-2026-5174]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[MOVEit]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Progress]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191681</guid>
+
+					<description><![CDATA[Progress fixes critical MOVEit Automation flaws, including an authentication bypass bug that could let attackers gain unauthorized access to systems. Progress Software addressed two vulnerabilities in MOVEit Automation, a critical authentication bypass flaw tracked as CVE-2026-4670 and a privilege escalation issue tracked as CVE-2026-5174. If exploited, these bugs could allow attackers to gain unauthorized access [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Progress fixes critical MOVEit Automation flaws, including an authentication bypass bug that could let attackers gain unauthorized access to systems.</h2>
+
+
+
+<p>Progress Software addressed two vulnerabilities in MOVEit Automation, a critical authentication bypass flaw tracked as CVE-2026-4670 and a privilege escalation issue tracked as CVE-2026-5174. If exploited, these bugs could allow attackers to gain unauthorized access or elevate privileges.</p>
+
+
+
+<p>MOVEit Automation is an enterprise managed file transfer (MFT) solution developed by Progress Software. <gwmw style="display: none; background-color: transparent;"></gwmw>It’s designed to securely move, schedule, and automate file transfers between systems, applications, and partners, without needing custom scripts.</p>
+
+
+
+<p>MOVEit Automation is widely used to manage and automate file transfers in enterprise environments. </p>
+
+
+
+<p><em>&#8220;Critical and high vulnerabilities in MOVEit Automation may allow authentication bypass and privilege escalation through the service backend command port interfaces&#8221; <a href="https://community.progress.com/s/article/MOVEit-Automation-Critical-Security-Alert-Bulletin-April-2026-CVE-2026-4670-CVE-2026-5174">reads the advisory</a>.  &#8220;Exploitation may lead to unauthorized access, administrative control, and data exposure.&#8221;</em></p>
+
+
+
+<p>The vulnerabilities impact the following versions:</p>
+
+
+
+<ul class="wp-block-list">
+<li>MOVEit Automation &lt;= 2025.1.4</li>
+
+
+
+<li>MOVEit Automation &lt;= 2025.0.8</li>
+
+
+
+<li>MOVEit Automation &lt;= 2024.1.7</li>
+</ul>
+
+
+
+<p>Airbus SecLab researchers Anaïs Gantet, Delphine Gourdou, Quentin Liddell, and Matteo Ricordeau discovered and reported the vulnerabilities. </p>
+
+
+
+<p>According to the advisory, no workarounds are available.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Flaws like this are especially dangerous because they can be weaponized quickly and at scale once discovered.</p>
+
+
+
+<p>A vulnerability such as an authentication bypass or privilege escalation can let attackers gain access to many systems in a short time, especially when the affected software is widely used in enterprises. Once a working exploit exists, it often gets reused in large automated campaigns, not just targeted attacks.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>This is what happened in past incidents involving ransomware groups like Clop ransomware group. They repeatedly abused vulnerabilities in file transfer systems (like <a href="https://securityaffairs.com/149921/hacking/massive-moveit-campaign-campaign.html">MOVEit in 2023</a>) to steal data from hundreds of organizations at once, before victims even had time to patch.</p>
+
+
+
+<p>In August 2023, cybersecurity firm Emsisoft <a href="https://securityaffairs.com/149921/hacking/massive-moveit-campaign-campaign.html">shared</a> disconcerting details about a massive hacking campaign conducted by the <a href="https://securityaffairs.com/tag/cl0p-ransomware" type="post_tag" id="15791">Cl0p ransomware</a> group that targeted the <a href="https://securityaffairs.com/147264/cyber-crime/clop-testing-moveit-transfer-bug-2021.html">MOVEit Transfer file</a> transfer platform designed by Progress Software Corporation.</p>
+
+
+
+<p>According to the experts, the attacks impacted approximately 1,000 Organizations and 60,144,069 individuals. The Cl0p ransomware gang exploited the zero-day vulnerability <a href="https://securityaffairs.com/146998/security/cisa-moveit-transfer-0day-catalog.html">CVE-2023-34362</a> to hack the platforms used by organizations worldwide and steal their data.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>That’s why these bugs are high-risk: they don’t just affect one company, they can become the entry point for mass exploitation, data theft, and ransomware extortion campaigns worldwide.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, MOVEit Automation)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191681</post-id>	</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Object Caching 49/60 objects using Memcached
+Page Caching using Memcached (Page is feed) 
+Database Caching 10/25 queries in 0.015 seconds using Memcached (Request-wide modification query)
+
+Served from: securityaffairs.com @ 2026-05-06 17:03:50 by W3 Total Cache
+-->

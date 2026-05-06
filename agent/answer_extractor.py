@@ -98,7 +98,11 @@ class AnswerExtractor:
     def _extract_tactics(self, evidence: List[Dict[str, Any]], query: str) -> Dict[str, Any]:
         """Extract tactics, techniques, and procedures (TTPs)."""
         tactics = []
+        techniques = []
+        software = []
         seen = set()
+        seen_techniques = set()
+        seen_software = set()
 
         def split_items(text: str) -> List[str]:
             if not text:
@@ -132,10 +136,35 @@ class AnswerExtractor:
                     'source': source
                 })
                 seen.add(cleaned.lower())
+
+        def add_unique(collection: List[Dict[str, Any]], seen_set: set, value: str, source: str, key_name: str):
+            cleaned = value.strip()
+            if not cleaned:
+                return
+            key = cleaned.lower()
+            if key in seen_set:
+                return
+            collection.append({
+                key_name: cleaned,
+                'source': source,
+            })
+            seen_set.add(key)
+
+        def split_block(text: str) -> List[str]:
+            if not text:
+                return []
+            return [part.strip() for part in re.split(r'\s*\|\|\s*|\s*\|\s*|\s*,\s*', text) if part.strip()]
+
+        def extract_labeled_section(text: str, label: str) -> List[str]:
+            match = re.search(rf'{re.escape(label)}\s*:\s*([^\n]+)', text, re.IGNORECASE)
+            if not match:
+                return []
+            return split_block(match.group(1))
         
         for chunk in evidence:
             text = chunk['text'].lower()
             metadata = chunk.get('metadata', {})
+            original_text = chunk.get('text', '')
 
             if metadata.get('source_field') in ['ttps', 'tactics']:
                 for item in split_items(chunk['text']):
@@ -145,6 +174,18 @@ class AnswerExtractor:
             if embedded_ttps:
                 for item in split_items(embedded_ttps.group(1)):
                     add_tactic(item, 'entity_profile', chunk['text'])
+
+            embedded_techniques = extract_labeled_section(original_text, 'Techniques Used')
+            for item in embedded_techniques:
+                add_unique(techniques, seen_techniques, item, metadata.get('source_field', 'entity_profile'), 'technique')
+
+            embedded_software = extract_labeled_section(original_text, 'Software Used')
+            for item in embedded_software:
+                add_unique(software, seen_software, item, metadata.get('source_field', 'entity_profile'), 'software')
+
+            if metadata.get('source_field') == 'tools':
+                for item in split_items(chunk['text']):
+                    add_unique(software, seen_software, item, 'tools', 'software')
             
             # Look for common TTP patterns
             patterns = [
@@ -168,6 +209,8 @@ class AnswerExtractor:
                     add_tactic(tactic, metadata.get('source_field', 'description'), chunk['text'])
         
         summary = self._format_tactics_summary(tactics, query)
+        if techniques or software:
+            summary += "\n\n" + self._format_tactics_techniques_summary(techniques, software)
         
         return {
             'extracted_info': tactics,
@@ -930,6 +973,19 @@ class AnswerExtractor:
         for tactic in tactics[:8]:
             summary_lines.append(f"- {tactic['tactic']}")
         return "\n".join(summary_lines).strip()
+
+    def _format_tactics_techniques_summary(self, techniques: List[Dict], software: List[Dict]) -> str:
+        """Format techniques and software details into a summary."""
+        lines = []
+        if techniques:
+            lines.append("**MITRE Techniques**")
+            for entry in techniques[:8]:
+                lines.append(f"- {entry['technique']}")
+        if software:
+            lines.append("**Tools / Software**")
+            for entry in software[:8]:
+                lines.append(f"- {entry['software']}")
+        return "\n".join(lines).strip()
     
     def _format_associations_summary(self, associations: List[Dict], query: str, full_context: List[str] = None) -> str:
         """Format associations into evidence-based summary."""

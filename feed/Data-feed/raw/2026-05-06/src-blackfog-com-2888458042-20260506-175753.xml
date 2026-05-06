@@ -1,0 +1,201 @@
+ <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/" >
+
+<channel>
+	<title>BlackFog</title>
+	<atom:link href="https://www.blackfog.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.blackfog.com</link>
+	<description>AI Security for Data Exfiltration, Shadow AI and Ransomware Prevention</description>
+	<lastBuildDate>Wed, 06 May 2026 15:57:36 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>The State of Ransomware: April 2026</title>
+		<link>https://www.blackfog.com/the-state-of-ransomware-april-2026/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 13:22:22 +0000</pubDate>
+				<category><![CDATA[The State Of Ransomware]]></category>
+		<category><![CDATA[2026]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Research]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=69149</guid>
+
+					<description><![CDATA[BlackFog's state of ransomware April 2026 measures publicly disclosed and non-disclosed attacks globally.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>BlackFog Q1 2026 Ransomware Report: Only 1 in 9 Ransomware Attacks Made Public as Data Exfiltration Hits 96%</title>
+		<link>https://www.blackfog.com/blackfog-q1-2026-ransomware-report-press-release/</link>
+		
+		<dc:creator><![CDATA[Brenda Robb]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 13:00:43 +0000</pubDate>
+				<category><![CDATA[Press Release]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=69139</guid>
+
+					<description><![CDATA[BlackFog Q1 2026 Ransomware Report reveals only 1 in 9 attacks are disclosed as data exfiltration hits 96% worldwide.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>2026 Q1 Ransomware Report</title>
+		<link>https://www.blackfog.com/2026-q1-ransomware-report/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 13:00:20 +0000</pubDate>
+				<category><![CDATA[Ransomware Reports]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=69119</guid>
+
+					<description><![CDATA[BlackFog’s 2026 Q1 Ransomware Report - Ransomware Remains Relentless with Data Exfiltration Holding at 96%]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Shadow AI and Governance: Why Traditional Control Is Failing CISOs</title>
+		<link>https://www.blackfog.com/shadow-ai-and-governance-why-traditional-control-is-failing-cisos/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Fri, 01 May 2026 10:20:36 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Exfiltration]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=69098</guid>
+
+					<description><![CDATA[Shadow AI and Governance: Why traditional controls are failing CISOs as AI adoption accelerates, increasing risk and reducing visibility.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Oracle Breach: What Happened and Why It Matters</title>
+		<link>https://www.blackfog.com/oracle-breach-what-happened-and-why-it-matters/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Tue, 28 Apr 2026 06:00:34 +0000</pubDate>
+				<category><![CDATA[Data Exfiltration]]></category>
+		<category><![CDATA[Breach]]></category>
+		<category><![CDATA[Exploits]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68568</guid>
+
+					<description><![CDATA[The 2025 Oracle breach exposed millions of records across three separate incidents. Learn how attackers got in, which industries were hit, and how to protect your organization.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What Is An Integrity Data Breach?</title>
+		<link>https://www.blackfog.com/what-is-an-integrity-data-breach/</link>
+		
+		<dc:creator><![CDATA[Brenda Robb]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:44:08 +0000</pubDate>
+				<category><![CDATA[Concepts]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68566</guid>
+
+					<description><![CDATA[Find out what an integrity data breach involves, how it differs from data loss and why it's vital for businesses to be aware of the potential risks.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>How Quickly Should A Suspected Data Breach Be Reported?</title>
+		<link>https://www.blackfog.com/when-should-a-suspected-data-breach-be-reported/</link>
+		
+		<dc:creator><![CDATA[Brenda Robb]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:41:42 +0000</pubDate>
+				<category><![CDATA[Concepts]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68562</guid>
+
+					<description><![CDATA[Data breach reporting deadlines can be tight. Learn when firms must report a suspected data breach, who must be informed and the risks of delay.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What Are The 5 Most Common Sources Of Data Leaks On The Internet?</title>
+		<link>https://www.blackfog.com/5-common-sources-of-data-leaks-on-the-internet/</link>
+		
+		<dc:creator><![CDATA[Brenda Robb]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:37:09 +0000</pubDate>
+				<category><![CDATA[Concepts]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68559</guid>
+
+					<description><![CDATA[Understanding how these five common sources of data leaks occur and how they can be prevented is an essential part of a data security strategy.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What Are The Latest Major Data Breaches And What Was Leaked?</title>
+		<link>https://www.blackfog.com/latest-major-data-breaches-and-what-was-leaked/</link>
+		
+		<dc:creator><![CDATA[Brenda Robb]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:32:15 +0000</pubDate>
+				<category><![CDATA[Concepts]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68556</guid>
+
+					<description><![CDATA[These ten major data breaches from 2025 highlight the worldwide scale of cybersecurity incidents in the past year.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>How Can A Company Develop An Effective Data Breach Response Plan?</title>
+		<link>https://www.blackfog.com/develop-an-effective-data-breach-response-plan/</link>
+		
+		<dc:creator><![CDATA[Brenda Robb]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:28:45 +0000</pubDate>
+				<category><![CDATA[Concepts]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68553</guid>
+
+					<description><![CDATA[Learn how to build an effective data breach response plan with clear roles, rapid detection, containment procedures and tested communication protocols.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What Are The Essential Steps To Take Immediately After A Data Breach?</title>
+		<link>https://www.blackfog.com/essential-steps-immediately-after-a-data-breach/</link>
+		
+		<dc:creator><![CDATA[Brenda Robb]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:25:20 +0000</pubDate>
+				<category><![CDATA[Concepts]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68550</guid>
+
+					<description><![CDATA[Follow these key steps in the immediate aftermath of discovering a data breach to minimize the chances of severe damage.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>5 Recent Examples of Security Breach Incidents And What Businesses Must Learn From Them</title>
+		<link>https://www.blackfog.com/5-recent-examples-of-security-breach-incidents/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:19:40 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Network Protection]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68546</guid>
+
+					<description><![CDATA[What can businesses take from five of last year's biggest data breaches to ensure they don't become the next victim?]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

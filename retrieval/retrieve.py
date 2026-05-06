@@ -47,7 +47,7 @@ class EvidenceRetriever:
             logger.warning(f"Could not initialize BM25 retriever: {e}")
             self.bm25_retriever = None
     
-    def retrieve(self, query: str, top_k: int = 5, similarity_threshold: float = 0.6) -> List[Dict[str, Any]]:
+    def retrieve(self, query: str, top_k: int = 5, similarity_threshold: float = 0.3) -> List[Dict[str, Any]]:
         """
         Retrieve evidence chunks using hybrid search (BM25 + Vector).
         
@@ -156,6 +156,16 @@ class EvidenceRetriever:
                 if len(evidence) >= top_k:
                     break
 
+        # If broad query returned nothing, keep top ranked evidence instead of failing empty.
+        if not evidence and combined_results:
+            for chunk, score in combined_results[:top_k]:
+                chunk_with_score = chunk.copy()
+                chunk_with_score['similarity_score'] = score
+                chunk_with_score['query_type'] = query_type.value
+                if parsed_query:
+                    chunk_with_score['matched_actors'] = parsed_query.get('actors', [])
+                evidence.append(chunk_with_score)
+
         # Ensure last_updated is included for matched actors when available
         if parsed_query and parsed_query.get('actors') and self.alias_resolver:
             for actor in parsed_query.get('actors', []):
@@ -200,6 +210,77 @@ class EvidenceRetriever:
             'response_mode': response_mode,
             'parsed_query': parsed_query
         }
+
+    def retrieve_with_filters(
+        self,
+        query: str,
+        attributes: Optional[Dict[str, Any]] = None,
+        top_k: int = 5,
+        similarity_threshold: float = 0.4,
+    ) -> Dict[str, Any]:
+        """Retrieve evidence using attribute filters from MCP extraction."""
+        attributes = attributes or {}
+
+        where = {}
+        countries = attributes.get('country') or []
+        if isinstance(countries, str):
+            countries = [countries]
+        if countries:
+            where['country_primary'] = {'$eq': countries[0]}
+
+        source_system = attributes.get('source_system') or ''
+        if source_system:
+            where['source_system'] = {'$eq': source_system}
+
+        query_embedding = self.embedder.embed_text(query)
+        vector_results = self.vector_store.search(query_embedding.tolist(), k=top_k * 3, where=where or None)
+
+        filtered = []
+        for chunk, score in vector_results:
+            metadata = chunk.get('metadata', {})
+            if not self._passes_attribute_filters(metadata, attributes):
+                continue
+            if score < similarity_threshold:
+                continue
+            chunk_with_score = chunk.copy()
+            chunk_with_score['similarity_score'] = score
+            filtered.append(chunk_with_score)
+            if len(filtered) >= top_k:
+                break
+
+        return {
+            'evidence': filtered,
+            'response_mode': 'adaptive',
+            'parsed_query': {'attributes': attributes},
+            'retrieval_mode': 'mcp_filtered'
+        }
+
+    def _passes_attribute_filters(self, metadata: Dict[str, Any], attributes: Dict[str, Any]) -> bool:
+        """Apply attribute filters against chunk metadata lists."""
+        def _normalize_list(value):
+            if isinstance(value, list):
+                return [str(v).lower() for v in value if str(v).strip()]
+            if isinstance(value, str) and value.strip():
+                return [value.lower()]
+            return []
+
+        def _matches(list_value, requested):
+            requested_list = _normalize_list(requested)
+            if not requested_list:
+                return True
+            metadata_list = _normalize_list(list_value)
+            return any(req in metadata_list for req in requested_list)
+
+        if not _matches(metadata.get('attack_methods'), attributes.get('attack_methods')):
+            return False
+        if not _matches(metadata.get('target_sectors'), attributes.get('target_sectors')):
+            return False
+        if not _matches(metadata.get('tactics'), attributes.get('tactics')):
+            return False
+        if not _matches(metadata.get('observed_sectors'), attributes.get('observed_sectors')):
+            return False
+
+        return True
 
     def _normalize_query_for_actors(self, query: str, actors: List[Dict[str, str]]) -> str:
         """Replace matched actor aliases in the query with canonical primary names."""
@@ -361,10 +442,32 @@ class EvidenceRetriever:
                             'aliases': [a.strip() for a in metadata.get('aliases', '').split(',') if a.strip()],
                             'countries': [c.strip() for c in metadata.get('countries', '').split(',') if c.strip()],
                             'information_sources': [s.strip() for s in metadata.get('information_sources', '').split(',') if s.strip()],
+                            'source_system': metadata.get('source_system', ''),
+                            'last_activity': metadata.get('last_activity', ''),
                         }
                     }
                     if 'name_giver' in metadata:
                         chunk['metadata']['name_giver'] = metadata['name_giver']
+                    if metadata.get('attack_methods'):
+                        chunk['metadata']['attack_methods'] = [
+                            m.strip() for m in metadata.get('attack_methods', '').split(',') if m.strip()
+                        ]
+                    if metadata.get('target_sectors'):
+                        chunk['metadata']['target_sectors'] = [
+                            s.strip() for s in metadata.get('target_sectors', '').split(',') if s.strip()
+                        ]
+                    if metadata.get('tactics'):
+                        chunk['metadata']['tactics'] = [
+                            t.strip() for t in metadata.get('tactics', '').split(',') if t.strip()
+                        ]
+                    if metadata.get('observed_sectors'):
+                        chunk['metadata']['observed_sectors'] = [
+                            s.strip() for s in metadata.get('observed_sectors', '').split(',') if s.strip()
+                        ]
+                    if metadata.get('observed_countries'):
+                        chunk['metadata']['observed_countries'] = [
+                            c.strip() for c in metadata.get('observed_countries', '').split(',') if c.strip()
+                        ]
                     all_chunks.append(chunk)
             
             logger.info(f"Retrieved {len(all_chunks)} chunks for {primary_actor}")

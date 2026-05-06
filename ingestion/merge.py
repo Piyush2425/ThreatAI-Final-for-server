@@ -142,3 +142,63 @@ def merge_canonical_with_raw(canonical: List[Dict[str, Any]], raw: List[Dict[str
 
     logger.info("Merged raw fields into canonical actors")
     return merged_actors
+
+
+def _actor_key(name: str) -> str:
+    return (name or '').strip().lower()
+
+
+def merge_mitre_with_canonical(canonical: List[Dict[str, Any]], mitre: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Merge MITRE group data into canonical actors when names overlap."""
+    by_name = {}
+    by_alias = {}
+    for actor in canonical:
+        primary = _actor_key(actor.get('primary_name') or actor.get('name'))
+        if primary:
+            by_name[primary] = actor
+        for alias in actor.get('aliases', []) or []:
+            key = _actor_key(alias)
+            if key:
+                by_alias[key] = actor
+
+    merged = list(canonical)
+    for mitre_actor in mitre:
+        primary = _actor_key(mitre_actor.get('primary_name') or mitre_actor.get('name'))
+        target = None
+        if primary:
+            target = by_name.get(primary) or by_alias.get(primary)
+
+        if not target:
+            merged.append(mitre_actor)
+            continue
+
+        target['aliases'] = _merge_list(target.get('aliases'), mitre_actor.get('aliases'))
+        target['tools'] = _merge_list(target.get('tools'), mitre_actor.get('tools'))
+        target['ttps'] = _merge_list(target.get('ttps'), mitre_actor.get('ttps'))
+        target['campaigns'] = _merge_list(target.get('campaigns'), mitre_actor.get('campaigns'))
+        target['operations'] = _merge_list(target.get('operations'), mitre_actor.get('operations'))
+        target['observed_sectors'] = _merge_list(target.get('observed_sectors'), mitre_actor.get('observed_sectors'))
+        target['observed_countries'] = _merge_list(target.get('observed_countries'), mitre_actor.get('observed_countries'))
+
+        target['information_sources'] = _merge_list(
+            target.get('information_sources'),
+            mitre_actor.get('information_sources') or ["MITRE ATT&CK"]
+        )
+
+        target['source_ids'] = _merge_list(target.get('source_ids'), mitre_actor.get('source_ids'))
+
+        if mitre_actor.get('description') and mitre_actor.get('description') not in (target.get('description') or ''):
+            if target.get('description'):
+                target['description'] = f"{target['description']}\n\nMITRE ATT&CK: {mitre_actor['description']}"
+            else:
+                target['description'] = mitre_actor['description']
+
+        if not target.get('first_seen') and mitre_actor.get('first_seen'):
+            target['first_seen'] = mitre_actor.get('first_seen')
+        if not target.get('last_updated') and mitre_actor.get('last_updated'):
+            target['last_updated'] = mitre_actor.get('last_updated')
+
+        target['source_system'] = 'multi'
+
+    logger.info("Merged MITRE group data into canonical actors")
+    return merged

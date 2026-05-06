@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:atom="http://www.w3.org/2005/Atom"
+        >
+
+<channel>
+        <title>BleepingComputer</title>
+
+        <link>https://www.bleepingcomputer.com/</link>
+        <description>BleepingComputer - All Stories</description>
+        <pubDate>Wed, 06 May 2026 17:57:31 GMT</pubDate>
+        <generator>https://www.bleepingcomputer.com/</generator>
+        <language>en</language>
+        <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
+        
+ <item>
+        <title>DAEMON Tools devs confirm breach, release malware-free version</title>
+        <link>https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/</link>
+        <pubDate>Wed, 06 May 2026 12:43:30 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/</guid>
+        <description><![CDATA[Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Why ransomware attacks succeed even when backups exist</title>
+        <link>https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/</link>
+        <pubDate>Wed, 06 May 2026 10:04:14 -0400</pubDate>
+        <dc:creator>Sponsored by Acronis</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/</guid>
+        <description><![CDATA[Backups don't fail because they're missing, they fail because attackers destroy them first. Acronis explains how ransomware targets backup systems before encryption, leaving no path to recovery. [...]]]></description>
+ </item>
+
+ <item>
+        <title>MuddyWater hackers use Chaos ransomware as a decoy in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/</link>
+        <pubDate>Wed, 06 May 2026 09:02:52 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/</guid>
+        <description><![CDATA[The MuddyWater Iranian hackers disguised their operations as a Chaos ransomware attack, relying on  Microsoft Teams social engineering to gain access and establish persistence. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Webinar: Why network incidents escalate and how to fix response gaps</title>
+        <link>https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/</link>
+        <pubDate>Wed, 06 May 2026 08:56:32 -0400</pubDate>
+        <dc:creator>BleepingComputer</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/</guid>
+        <description><![CDATA[Most network incidents don't escalate due to a lack of alerts; they escalate when response breaks down. This webinar explores how to fix gaps in triage, enrichment, and coordination. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Palo Alto Networks warns of firewall RCE zero-day exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/</link>
+        <pubDate>Wed, 06 May 2026 05:18:16 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/</guid>
+        <description><![CDATA[Palo Alto Networks warned customers today that a critical-severity unpatched vulnerability in the PAN-OS User-ID Authentication Portal is being exploited in attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New stealthy Quasar Linux malware targets software developers</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/</link>
+        <pubDate>Tue, 05 May 2026 18:01:39 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Linux]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/</guid>
+        <description><![CDATA[A previously undocumented Linux implant named Quasar Linux (QLNX) is targeting developers' systems with a mix of rootkit, backdoor, and credential-stealing capabilities. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Instructure hacker claims data theft from 8,800 schools, universities</title>
+        <link>https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/</link>
+        <pubDate>Tue, 05 May 2026 17:20:23 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/</guid>
+        <description><![CDATA[The hacker behind a breach at education technology giant Instructure claims to have stolen 280 million data records for students and staff from 8,809 colleges, school districts, and online education platforms. [...]]]></description>
+ </item>
+
+ <item>
+        <title>DAEMON Tools trojanized in supply-chain attack to deploy backdoor</title>
+        <link>https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/</link>
+        <pubDate>Tue, 05 May 2026 15:21:18 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/</guid>
+        <description><![CDATA[Hackers trojanized installers for the DAEMON Tools software and since April 8, delivered a backdoor to thousands of systems that downloaded the product from the official website. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Student hacked Taiwan high-speed rail to trigger emergency brakes</title>
+        <link>https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/</link>
+        <pubDate>Tue, 05 May 2026 13:34:09 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/</guid>
+        <description><![CDATA[A 23-year-old university student in Taiwan was arrested for interfering with the TETRA communication system used by the country's high-speed railway network (THSR). [...]]]></description>
+ </item>
+
+ <item>
+        <title>FTC to ban data broker Kochava from selling Americans’ location data</title>
+        <link>https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/</link>
+        <pubDate>Tue, 05 May 2026 10:39:53 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/</guid>
+        <description><![CDATA[The FTC will ban data broker Kochava and its subsidiary, Collective Data Solutions (CDS), from selling location data without consumers' explicit consent to settle charges alleging that it sold precise geolocation data collected from hundreds of millions of mobile devices. [...]]]></description>
+ </item>
+
+ <item>
+        <title>The EOL Blind Spot in Your CVE Feed: What SCA Tools Miss</title>
+        <link>https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss/</link>
+        <pubDate>Tue, 05 May 2026 10:00:10 -0400</pubDate>
+        <dc:creator>Sponsored by HeroDevs</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss/</guid>
+        <description><![CDATA[Critical vulnerabilities can exist in open source software your scanners don't check. HeroDevs reveals how EOL software creates blind spots in CVE feeds and SCA tools, and how you can receive a free end-of-life scan for your projects. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Vimeo data breach exposes personal information of 119,000 people</title>
+        <link>https://www.bleepingcomputer.com/news/security/vimeo-data-breach-exposes-personal-information-of-119-000-people/</link>
+        <pubDate>Tue, 05 May 2026 09:03:46 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/vimeo-data-breach-exposes-personal-information-of-119-000-people/</guid>
+        <description><![CDATA[The ShinyHunters extortion gang stole personal information belonging to over 119,000 people after hacking the Vimeo online video platform in April, according to data breach notification service Have I Been Pwned. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Google now offers up to $1.5 million for some Android exploits</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-now-offers-up-to-15-million-for-some-android-exploits/</link>
+        <pubDate>Tue, 05 May 2026 07:24:48 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-now-offers-up-to-15-million-for-some-android-exploits/</guid>
+        <description><![CDATA[Google overhauls its Android and Chrome vulnerability rewards programs, offering bounties of up to $1.5 million for the most difficult exploits while scaling back payouts for flaws that artificial intelligence (AI) has made easier to find. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Karakurt extortion gang ‘cold case’ negotiator gets 8.5 years in prison</title>
+        <link>https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/</link>
+        <pubDate>Tue, 05 May 2026 06:13:17 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/</guid>
+        <description><![CDATA[A Latvian national extradited to the United States was sentenced to 8.5 years in prison for his "cold case" negotiator role in the Russian Karakurt ransomware group. [...]]]></description>
+ </item>
+
+ <item>
+        <title>CloudZ malware abuses Microsoft Phone Link to steal SMS and OTPs</title>
+        <link>https://www.bleepingcomputer.com/news/security/cloudz-malware-abuses-microsoft-phone-link-to-steal-sms-and-otps/</link>
+        <pubDate>Tue, 05 May 2026 06:03:52 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cloudz-malware-abuses-microsoft-phone-link-to-steal-sms-and-otps/</guid>
+        <description><![CDATA[A new version of the CloudZ remote access tool (RAT) is deploying a previously unseen malicious plugin called Pheno that hijacks the Microsoft Phone Link connection to steal sensitive codes from mobile devices. [...]]]></description>
+ </item>
+
+</channel>
+</rss>

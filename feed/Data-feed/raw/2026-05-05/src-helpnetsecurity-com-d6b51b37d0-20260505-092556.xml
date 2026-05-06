@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Help Net Security</title>
+	<atom:link href="https://www.helpnetsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.helpnetsecurity.com/</link>
+	<description>Daily information security news with a focus on enterprise security.</description>
+	<lastBuildDate>Tue, 05 May 2026 08:34:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://img.helpnetsecurity.com/wp-content/uploads/2019/09/09093400/cropped-hns2-32x32.png</url>
+	<title>Help Net Security</title>
+	<link>https://www.helpnetsecurity.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>North Korean hackers trojanize gaming platform to spy on ethnic Koreans in China</title>
+		<link>https://www.helpnetsecurity.com/2026/05/05/china-scarcruft-supply-chain-attack/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 09:00:31 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[attack]]></category>
+		<category><![CDATA[cybercrime]]></category>
+		<category><![CDATA[ESET]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[North Korea]]></category>
+		<category><![CDATA[online gaming]]></category>
+		<category><![CDATA[supply chain attacks]]></category>
+		<category><![CDATA[threats]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=369157</guid>
+
+					<description><![CDATA[<p>A gaming platform built for ethnic Koreans in China has been serving backdoored Windows and Android software to its users since late 2024. The platform, sqgame[.]net, hosts traditional card and board games for a community that sits along the North Korean border and includes many refugees and defectors. ESET researchers tied the operation to ScarCruft, a North Korea-aligned espionage group also tracked as APT37 and Reaper, which has been active since at least 2012. How &#8230; <a href="https://www.helpnetsecurity.com/2026/05/05/china-scarcruft-supply-chain-attack/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/05/china-scarcruft-supply-chain-attack/">North Korean hackers trojanize gaming platform to spy on ethnic Koreans in China</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Meta adds proof-based security to encrypted backups</title>
+		<link>https://www.helpnetsecurity.com/2026/05/05/meta-whatsapp-messenger-encrypted-backups-update/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 08:34:10 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[backup]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[Facebook Messenger]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[WhatsApp]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=369193</guid>
+
+					<description><![CDATA[<p>Meta has updated its infrastructure for protecting password-based and end-to-end encrypted backups, introducing over-the-air fleet key distribution for Messenger and a commitment to publishing evidence of secure fleet deployments. How encrypted backups work These updates build on the company’s HSM-based Backup Key Vault, which provides end-to-end encrypted backups for WhatsApp and Messenger. The system protects users’ backed-up message history with a recovery code stored in tamper-resistant hardware security modules (HSMs) that are inaccessible to Meta, &#8230; <a href="https://www.helpnetsecurity.com/2026/05/05/meta-whatsapp-messenger-encrypted-backups-update/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/05/meta-whatsapp-messenger-encrypted-backups-update/">Meta adds proof-based security to encrypted backups</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Can your coding style predict whether your code is vulnerable?</title>
+		<link>https://www.helpnetsecurity.com/2026/05/05/research-code-stylometry-vulnerability-detection/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 05:00:49 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[code analysis]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[research]]></category>
+		<category><![CDATA[software development]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=369003</guid>
+
+					<description><![CDATA[<p>Developers leave fingerprints in the code they write. Naming choices, indentation patterns, preferred APIs, and the way someone structures a loop or handles a pointer all carry traces of individual habit. Researchers have used these stylistic signals for years to identify the authors of anonymous code samples, sometimes with surprising accuracy. A team at the University of Massachusetts Dartmouth is now applying the same idea to a different question: can stylistic patterns also reveal which &#8230; <a href="https://www.helpnetsecurity.com/2026/05/05/research-code-stylometry-vulnerability-detection/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/05/research-code-stylometry-vulnerability-detection/">Can your coding style predict whether your code is vulnerable?</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>One in four MCP servers opens AI agent security to code execution risk</title>
+		<link>https://www.helpnetsecurity.com/2026/05/05/ai-agent-security-skills-blind-spots/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 04:30:16 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data]]></category>
+		<category><![CDATA[enterprise]]></category>
+		<category><![CDATA[framework]]></category>
+		<category><![CDATA[report]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=368955</guid>
+
+					<description><![CDATA[<p>Enterprise deployments of AI agents lean on two extension mechanisms that introduce risk at different layers of the stack. MCP servers expose deterministic code functions with structured, loggable invocations. Skills load textual instruction sets directly into a model&#8217;s reasoning context, where their effect depends on conversational state and cannot be enumerated the way source code can. Noma Security&#8217;s new whitepaper draws a line between the two and argues that most organizations have governed only the &#8230; <a href="https://www.helpnetsecurity.com/2026/05/05/ai-agent-security-skills-blind-spots/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/05/ai-agent-security-skills-blind-spots/">One in four MCP servers opens AI agent security to code execution risk</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Cybersecurity jobs available right now: May 5, 2026</title>
+		<link>https://www.helpnetsecurity.com/2026/05/05/cybersecurity-jobs-available-right-now-may-5-2026/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 04:00:20 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[cybersecurity jobs]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=369069</guid>
+
+					<description><![CDATA[<p>Armis Security Specialist HCLTech &#124; Ireland &#124; On-site &#8211; View job details As an Armis Security Specialist, you will manage and optimize the Armis deployment to strengthen security across lab, OT, and IoT environments. You will maintain device visibility, refine policies and detections, and integrate Armis with other tools to improve monitoring and reduce false positives. You will identify vulnerabilities in lab devices, support remediation plans with IT and research teams, and develop procedures for &#8230; <a href="https://www.helpnetsecurity.com/2026/05/05/cybersecurity-jobs-available-right-now-may-5-2026/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/05/cybersecurity-jobs-available-right-now-may-5-2026/">Cybersecurity jobs available right now: May 5, 2026</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Critical MOVEit Automation auth bypass vulnerability fixed (CVE-2026-4670)</title>
+		<link>https://www.helpnetsecurity.com/2026/05/04/critical-moveit-automation-auth-bypass-vulnerability-fixed-cve-2026-4670/</link>
+		
+		<dc:creator><![CDATA[Zeljka Zorz]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 14:58:24 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[enterprise]]></category>
+		<category><![CDATA[file-sharing]]></category>
+		<category><![CDATA[Progress]]></category>
+		<category><![CDATA[security update]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=369180</guid>
+
+					<description><![CDATA[<p>Progress Software has fixed a critical authentication bypass (CVE-2026-4670) and a privilege escalation (CVE-2026-5174) vulnerability in MOVEit Automation, exploitation of which &#8220;may lead to unauthorized access, administrative control, and data exposure.&#8221; The vulnerabilities were reported privately by Airbus researchers and there&#8217;s no mention of them being leveraged by attackers in the wild. Still, performing an upgrade to a fixed version is &#8220;strongly&#8221; advised. CVE-2026-4670 and CVE-2026-5174 Progress Software&#8217;s MOVEit Transfer, an enterprise managed file transfer &#8230; <a href="https://www.helpnetsecurity.com/2026/05/04/critical-moveit-automation-auth-bypass-vulnerability-fixed-cve-2026-4670/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/04/critical-moveit-automation-auth-bypass-vulnerability-fixed-cve-2026-4670/">Critical MOVEit Automation auth bypass vulnerability fixed (CVE-2026-4670)</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Penske Logistics launches platform for real-time supply chain visibility</title>
+		<link>https://www.helpnetsecurity.com/2026/05/04/penske-logistics-supply-chain-insight-platform/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 13:49:57 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=369148</guid>
+
+					<description><![CDATA[<p>Penske Logistics has announced the launch of Supply Chain Insight, a secure technology platform and mobile application that provides customers with a real-time view of their supply chain operations across transportation and warehousing. Supply chain leaders are under increased pressure to drive greater operational efficiency in the face of rising fuel costs, evolving regulations and economic challenges. Organizations are looking for a competitive edge to navigate uncertain times and achieve measurable cost savings and efficiencies. &#8230; <a href="https://www.helpnetsecurity.com/2026/05/04/penske-logistics-supply-chain-insight-platform/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/04/penske-logistics-supply-chain-insight-platform/">Penske Logistics launches platform for real-time supply chain visibility</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>DigiCert breached via malicious screensaver file</title>
+		<link>https://www.helpnetsecurity.com/2026/05/04/digicert-breach-code-signing-certificates-malware/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 13:46:15 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[breach]]></category>
+		<category><![CDATA[DigiCert]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Microsoft Defender]]></category>
+		<category><![CDATA[Social engineering]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=369023</guid>
+
+					<description><![CDATA[<p>A targeted social engineering attack against DigiCert’s support channel led to the compromise of internal systems and the unauthorized issuance of EV Code Signing certificates. DigiCert is a global Certificate Authority (CA) providing digital trust services, specializing in TLS/SSL certificates, PKI management, and IoT security. According to DigiCert’s incident report, a threat actor contacted the support team via a customer chat channel and delivered a malicious ZIP file disguised as a customer screenshot, which contained &#8230; <a href="https://www.helpnetsecurity.com/2026/05/04/digicert-breach-code-signing-certificates-malware/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/04/digicert-breach-code-signing-certificates-malware/">DigiCert breached via malicious screensaver file</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Operant AI Endpoint Protector secures AI agents and MCP tools</title>
+		<link>https://www.helpnetsecurity.com/2026/05/04/operant-ai-endpoint-protector-secures-ai-agents-and-mcp-tools/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 13:34:04 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=369137</guid>
+
+					<description><![CDATA[<p>Operant AI has launched Operant Endpoint Protector, a new addition to its AI Defense Platform that enables enterprise IT and security teams to discover, detect, and defend against threats across every AI tool, coding agent, and Model Context Protocol (MCP)-connected workflow used by employees, directly at the endpoint where most consequential AI activity takes place. Securing the endpoint Across every enterprise, employees in HR, finance, legal, customer service, engineering, and operations are interacting with AI &#8230; <a href="https://www.helpnetsecurity.com/2026/05/04/operant-ai-endpoint-protector-secures-ai-agents-and-mcp-tools/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/04/operant-ai-endpoint-protector-secures-ai-agents-and-mcp-tools/">Operant AI Endpoint Protector secures AI agents and MCP tools</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Owl IRD enables one-way forensic data transfer for incident response teams</title>
+		<link>https://www.helpnetsecurity.com/2026/05/04/owl-cyber-defense-incident-response-diode-ird/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 13:22:27 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[Owl Cyber Defense Solutions]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=369128</guid>
+
+					<description><![CDATA[<p>Owl Cyber Defense has announced the launch of its Incident Response Diode (IRD), a pocket-sized protocol filtering diode (PFD) designed for incident response and forensics teams. The Owl IRD was developed to help users securely move evidence from compromised endpoints into trusted analysis environments without adding risk. The Owl IRD will be made available to select customers for field testing. When an endpoint is compromised, responders must race against the clock to pull critical data &#8230; <a href="https://www.helpnetsecurity.com/2026/05/04/owl-cyber-defense-incident-response-diode-ird/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/04/owl-cyber-defense-incident-response-diode-ird/">Owl IRD enables one-way forensic data transfer for incident response teams</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

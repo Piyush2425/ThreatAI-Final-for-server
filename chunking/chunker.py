@@ -53,6 +53,57 @@ class SemanticChunker:
                 related.append(parts[0])
         
         return list(set(related))  # Remove duplicates
+
+    def _infer_attack_methods(self, actor: Dict[str, Any]) -> List[str]:
+        text = (actor.get('description') or '').lower()
+        tools = [str(t).lower() for t in (actor.get('tools') or [])]
+        ttps = [str(t).lower() for t in (actor.get('ttps') or [])]
+        combined = " ".join([text] + tools + ttps)
+
+        patterns = {
+            'phishing': ['phishing', 'spear-phishing', 'spear phishing', 'credential harvesting'],
+            'malware': ['malware', 'trojan', 'backdoor', 'rat', 'implant'],
+            'ransomware': ['ransomware', 'ransom'],
+            'exploit': ['exploit', 'zero-day', '0-day', 'cve'],
+            'credential_theft': ['credential dumping', 'credential theft', 'mimikatz'],
+            'watering_hole': ['watering hole', 'watering-hole'],
+        }
+
+        methods = []
+        for method, keywords in patterns.items():
+            if any(keyword in combined for keyword in keywords):
+                methods.append(method)
+
+        return methods
+
+    def _infer_target_sectors(self, actor: Dict[str, Any]) -> List[str]:
+        text = (actor.get('description') or '').lower()
+        targets = [str(t).lower() for t in (actor.get('targets') or [])]
+        observed = [str(s).lower() for s in (actor.get('observed_sectors') or [])]
+        combined = " ".join([text] + targets + observed)
+
+        patterns = {
+            'finance': ['bank', 'finance', 'financial', 'crypto', 'payment'],
+            'defense': ['defense', 'military', 'armed forces'],
+            'government': ['government', 'federal', 'state agency'],
+            'energy': ['energy', 'power grid', 'utility', 'oil', 'gas'],
+            'healthcare': ['health', 'hospital', 'medical', 'healthcare'],
+            'technology': ['tech', 'software', 'it', 'telecom'],
+        }
+
+        sectors = []
+        for sector, keywords in patterns.items():
+            if any(keyword in combined for keyword in keywords):
+                sectors.append(sector)
+
+        return sectors
+
+    def _extract_tactics(self, actor: Dict[str, Any]) -> List[str]:
+        tactics = actor.get('tactics') or []
+        if tactics:
+            return [str(t).strip() for t in tactics if str(t).strip()]
+        ttps = actor.get('ttps') or []
+        return [str(t).strip() for t in ttps if str(t).strip()]
     
     def chunk_actor(self, actor: Dict[str, Any]) -> List[Dict[str, Any]]:
         """
@@ -89,6 +140,12 @@ class SemanticChunker:
         counter_operations = actor.get('counter_operations') or actor.get('counter-operations') or []
         description = actor.get('description', '')
         information_sources = actor.get('information_sources', [])
+        source_system = actor.get('source_system') or 'canonical'
+        if isinstance(source_system, list):
+            source_system = ','.join(str(s) for s in source_system if s)
+        source_ids = actor.get('source_ids', [])
+        techniques_used = actor.get('techniques_used') or []
+        software_used = actor.get('software_used') or []
         sponsor = actor.get('sponsor') or actor.get('sponsorship')
         name_giver = actor.get('name_giver') or actor.get('name-giver')
         last_updated = (
@@ -96,6 +153,11 @@ class SemanticChunker:
             or actor.get('last_card_change')
             or actor.get('last-card-change')
         )
+
+        attack_methods = self._infer_attack_methods(actor)
+        target_sectors = self._infer_target_sectors(actor)
+        tactics = self._extract_tactics(actor)
+        country_primary = countries[0] if countries else ''
         
         # Extract related actors from description
         related_actors = self._extract_related_actors(description)
@@ -133,6 +195,12 @@ class SemanticChunker:
 
         if ttps:
             text_parts.append(f"TTPs: {', '.join(str(t) for t in ttps)}")
+
+        if techniques_used:
+            text_parts.append(f"Techniques Used: {' || '.join(str(t) for t in techniques_used)}")
+
+        if software_used:
+            text_parts.append(f"Software Used: {' || '.join(str(s) for s in software_used)}")
 
         if campaigns:
             text_parts.append(f"Campaigns: {' | '.join(str(c) for c in campaigns)}")
@@ -173,7 +241,21 @@ class SemanticChunker:
                 'primary_name': primary_name,
                 'aliases': aliases,
                 'countries': countries,
-                'information_sources': information_sources
+                'country_primary': country_primary,
+                'information_sources': information_sources,
+                'source_ids': source_ids,
+                    'source_ids': source_ids,
+                    'source_ids': source_ids,
+                    'source_ids': source_ids,
+                'source_system': source_system,
+                'attack_methods': attack_methods,
+                'target_sectors': target_sectors,
+                'tactics': tactics,
+                'techniques_used': techniques_used,
+                'software_used': software_used,
+                'observed_sectors': observed_sectors,
+                'observed_countries': observed_countries,
+                'last_activity': last_updated or ''
             }
         }
         if name_giver:
@@ -195,6 +277,16 @@ class SemanticChunker:
                     'primary_name': primary_name,
                     'aliases': aliases,
                     'countries': countries,
+                    'country_primary': country_primary,
+                    'source_system': source_system,
+                    'attack_methods': attack_methods,
+                    'target_sectors': target_sectors,
+                    'tactics': tactics,
+                    'techniques_used': techniques_used,
+                    'software_used': software_used,
+                    'observed_sectors': observed_sectors,
+                    'observed_countries': observed_countries,
+                    'last_activity': last_updated or ''
                 }
             }
             if name_giver:
@@ -214,6 +306,16 @@ class SemanticChunker:
                     'primary_name': primary_name,
                     'aliases': aliases,
                     'countries': countries,
+                    'country_primary': country_primary,
+                    'source_system': source_system,
+                    'attack_methods': attack_methods,
+                    'target_sectors': target_sectors,
+                    'tactics': tactics,
+                    'techniques_used': techniques_used,
+                    'software_used': software_used,
+                    'observed_sectors': observed_sectors,
+                    'observed_countries': observed_countries,
+                    'last_activity': last_updated or ''
                 }
             }
             if name_giver:
@@ -247,6 +349,16 @@ class SemanticChunker:
                     'primary_name': primary_name,
                     'aliases': aliases,
                     'countries': countries,
+                    'country_primary': country_primary,
+                    'source_system': source_system,
+                    'attack_methods': attack_methods,
+                    'target_sectors': target_sectors,
+                    'tactics': tactics,
+                    'techniques_used': techniques_used,
+                    'software_used': software_used,
+                    'observed_sectors': observed_sectors,
+                    'observed_countries': observed_countries,
+                    'last_activity': last_updated or ''
                 }
             }
             if name_giver:

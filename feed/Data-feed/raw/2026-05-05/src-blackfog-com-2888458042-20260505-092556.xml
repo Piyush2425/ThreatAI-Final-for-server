@@ -1,0 +1,203 @@
+ <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/" >
+
+<channel>
+	<title>BlackFog</title>
+	<atom:link href="https://www.blackfog.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.blackfog.com</link>
+	<description>AI Security for Data Exfiltration, Shadow AI and Ransomware Prevention</description>
+	<lastBuildDate>Fri, 01 May 2026 10:20:36 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>Shadow AI and Governance: Why Traditional Control Is Failing CISOs</title>
+		<link>https://www.blackfog.com/shadow-ai-and-governance-why-traditional-control-is-failing-cisos/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Fri, 01 May 2026 10:20:36 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Exfiltration]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=69098</guid>
+
+					<description><![CDATA[Shadow AI and Governance: Why traditional controls are failing CISOs as AI adoption accelerates, increasing risk and reducing visibility.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Oracle Breach: What Happened and Why It Matters</title>
+		<link>https://www.blackfog.com/oracle-breach-what-happened-and-why-it-matters/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Tue, 28 Apr 2026 06:00:34 +0000</pubDate>
+				<category><![CDATA[Data Exfiltration]]></category>
+		<category><![CDATA[Breach]]></category>
+		<category><![CDATA[Exploits]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68568</guid>
+
+					<description><![CDATA[The 2025 Oracle breach exposed millions of records across three separate incidents. Learn how attackers got in, which industries were hit, and how to protect your organization.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What Is An Integrity Data Breach?</title>
+		<link>https://www.blackfog.com/what-is-an-integrity-data-breach/</link>
+		
+		<dc:creator><![CDATA[Brenda Robb]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:44:08 +0000</pubDate>
+				<category><![CDATA[Concepts]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68566</guid>
+
+					<description><![CDATA[Find out what an integrity data breach involves, how it differs from data loss and why it's vital for businesses to be aware of the potential risks.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>How Quickly Should A Suspected Data Breach Be Reported?</title>
+		<link>https://www.blackfog.com/when-should-a-suspected-data-breach-be-reported/</link>
+		
+		<dc:creator><![CDATA[Brenda Robb]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:41:42 +0000</pubDate>
+				<category><![CDATA[Concepts]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68562</guid>
+
+					<description><![CDATA[Data breach reporting deadlines can be tight. Learn when firms must report a suspected data breach, who must be informed and the risks of delay.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What Are The 5 Most Common Sources Of Data Leaks On The Internet?</title>
+		<link>https://www.blackfog.com/5-common-sources-of-data-leaks-on-the-internet/</link>
+		
+		<dc:creator><![CDATA[Brenda Robb]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:37:09 +0000</pubDate>
+				<category><![CDATA[Concepts]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68559</guid>
+
+					<description><![CDATA[Understanding how these five common sources of data leaks occur and how they can be prevented is an essential part of a data security strategy.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What Are The Latest Major Data Breaches And What Was Leaked?</title>
+		<link>https://www.blackfog.com/latest-major-data-breaches-and-what-was-leaked/</link>
+		
+		<dc:creator><![CDATA[Brenda Robb]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:32:15 +0000</pubDate>
+				<category><![CDATA[Concepts]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68556</guid>
+
+					<description><![CDATA[These ten major data breaches from 2025 highlight the worldwide scale of cybersecurity incidents in the past year.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>How Can A Company Develop An Effective Data Breach Response Plan?</title>
+		<link>https://www.blackfog.com/develop-an-effective-data-breach-response-plan/</link>
+		
+		<dc:creator><![CDATA[Brenda Robb]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:28:45 +0000</pubDate>
+				<category><![CDATA[Concepts]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68553</guid>
+
+					<description><![CDATA[Learn how to build an effective data breach response plan with clear roles, rapid detection, containment procedures and tested communication protocols.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What Are The Essential Steps To Take Immediately After A Data Breach?</title>
+		<link>https://www.blackfog.com/essential-steps-immediately-after-a-data-breach/</link>
+		
+		<dc:creator><![CDATA[Brenda Robb]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:25:20 +0000</pubDate>
+				<category><![CDATA[Concepts]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68550</guid>
+
+					<description><![CDATA[Follow these key steps in the immediate aftermath of discovering a data breach to minimize the chances of severe damage.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>5 Recent Examples of Security Breach Incidents And What Businesses Must Learn From Them</title>
+		<link>https://www.blackfog.com/5-recent-examples-of-security-breach-incidents/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:19:40 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Network Protection]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68546</guid>
+
+					<description><![CDATA[What can businesses take from five of last year's biggest data breaches to ensure they don't become the next victim?]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>6 Hidden Consequences Of Data Breach Incidents Businesses Must Prepare For</title>
+		<link>https://www.blackfog.com/6-hidden-consequences-of-data-breach-incidents/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:14:34 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Network Protection]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68542</guid>
+
+					<description><![CDATA[The consequences of data breach incidents go far beyond immediate financial losses. Make sure you're aware of these six costly ongoing issues.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Key Things Businesses Must Know About Data Breach Compensation</title>
+		<link>https://www.blackfog.com/data-breach-compensation-key-things-businesses/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:10:44 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Network Protection]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68538</guid>
+
+					<description><![CDATA[Data breach compensation explained: when customers can claim, the risks to businesses and how to reduce legal exposure.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Essential Lessons Businesses Should Learn From The NPD Breach</title>
+		<link>https://www.blackfog.com/lessons-businesses-should-learn-from-npd-breach/</link>
+		
+		<dc:creator><![CDATA[Rebecca Harpur]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 11:04:46 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Network Protection]]></category>
+		<guid isPermaLink="false">https://www.blackfog.com/?p=68534</guid>
+
+					<description><![CDATA[Learn what happened in the NPD breach, what data was exposed and the key lessons businesses should take to reduce the risk of a similar incident.]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

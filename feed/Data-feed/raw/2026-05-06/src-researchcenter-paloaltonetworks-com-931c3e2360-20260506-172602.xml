@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+        >
+
+<channel>
+    <title>Palo Alto Networks Blog</title>
+    <atom:link href="https://www.paloaltonetworks.com/blog/feed/" rel="self" type="application/rss+xml" />
+    <link>https://www.paloaltonetworks.com/blog/</link>
+    <description>Palo Alto Networks Blog</description>
+    <lastBuildDate>Wed, 06 May 2026 00:15:42 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>
+	hourly    </sy:updatePeriod>
+    <sy:updateFrequency>
+	1    </sy:updateFrequency>
+    <generator>https://wordpress.org/?v=6.9.1</generator>
+    <item>
+	<title>39 Seconds — That&#039;s How Long It Takes to Lose Your Data</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/05/how-long-it-takes-to-lose-data/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/05/how-long-it-takes-to-lose-data/#respond</comments>
+	    
+	<dc:creator><![CDATA[Dena De Angelo]]></dc:creator>
+	<pubDate>Wed, 06 May 2026 13:00:21 +0000</pubDate>
+		<dcterms:extent>5</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/05/threat-vector-rsa_Wendi_blog.jpg" type="image/jpeg"  length="527445"/>
+	    		<category><![CDATA[Interview]]></category>
+		<category><![CDATA[Points of View]]></category>
+		<category><![CDATA[RSA]]></category>
+		<category><![CDATA[Threat Vector]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=358432</guid>
+
+	    		<description><![CDATA[<p>Speed is the new cyber perimeter. Wendi Whitmore, CISO at Palo Alto Networks, explains how to fight machine-speed attacks and secure AI systems to build robust cyber resilience with AI-powered defense.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/05/how-long-it-takes-to-lose-data/">39 Seconds — That&#039;s How Long It Takes to Lose Your Data</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<p>Not hours. Not days. It takes thirty-nine seconds from initial access to data exfiltration.</p>
+<p>That stat, pulled from Unit 42<sup>®</sup> research, isn't hypothetical. It's what defenders are up against right now, while most organizations are still building security teams around manual detection and response workflows that were never designed to operate at machine speed.</p>
+<p>Wendi Whitmore, Chief Security Intelligence Officer at Palo Alto Networks, put it plainly in a recent conversation on the <a href="https://thecyberwire.com/podcasts/threat-vector/111/notes" rel="nofollow,noopener" >Threat Vector podcast</a>, recorded live at RSA this year:</p>
+<blockquote>
+<p style="text-align: center;">If you're applying a manual detection and response capability, you are going to be beat by the attacker every day.</p>
+</blockquote>
+<p>It's the kind of sentence that should make security budgets move faster.</p>
+<h2><a id="post-358432-_5hgdsgkx7uwf"></a> The Threat Landscape Doesn't Wait for Organizational Consensus</h2>
+<p>Whitmore has spent nearly 25 years tracking nation-state actors, and she's unequivocal about what's changed. The adversaries today aren't just better funded and more sophisticated. They're faster, and increasingly AI-powered.</p>
+<p>Consider what's converging right now:</p>
+<p>Chinese nation-state groups like Volt Typhoon and Salt Typhoon have been operating with near-surgical patience inside critical infrastructure, leveraging existing administrative tools to avoid detection. Volt Typhoon is focused on military prepositioning in power grids, water systems and telecommunications. Salt Typhoon has been systematically collecting intelligence from those same networks. Neither group announces itself with novel malware. They disappear into environments using the tools already there.</p>
+<p>Meanwhile, threat actors tied to Iran are operating with entirely different objectives: tactical disruption and destruction. And financially motivated cybercriminal groups are automating ransomware campaigns at a pace that has compressed attack timelines from weeks to minutes.</p>
+<p>Every CISO is being asked to defend against all of them simultaneously, while also managing their organization's AI expansion, and doing it without adding headcount.</p>
+<h2><a id="post-358432-_mhbhj6nf959v"></a> Speed Is the New Perimeter</h2>
+<p>When Whitmore references the 39-second exfiltration window, she's pointing at something structural, not just alarming. It reflects how completely the attacker's operational tempo has shifted.</p>
+<p>The 72-minute data breach figure from Unit 42 Incident Response data is equally striking: From initial access to full data theft in the time it takes to sit through a decent movie. A 400-times year-over-year increase in exfiltration speed isn't a trend. It's a fundamental change in the physics of an attack.</p>
+<p>"There is no way that we are going to defeat these adversaries if we are working at manual speed," Whitmore explained. The answer isn't just more analysts. It's fighting AI with AI, letting machines handle the volume and velocity, so humans can focus on the problems that actually require human judgment.</p>
+<h2><a id="post-358432-_uben44rvef2d"></a> Two Sides of the Same AI Problem</h2>
+<p>Here's where the conversation gets more nuanced and more important.</p>
+<p>Most of the AI-in-security conversation focuses on the offensive side: adversaries using generative AI to craft convincing phishing lures, accelerate reconnaissance and automate attack sequences. That's real, and it's accelerating.</p>
+<p>But Whitmore raised the other half of the problem, one that gets far less attention: The attack surface that organizations are creating by deploying AI without securing it.</p>
+<blockquote>
+<p style="text-align: center;">Innovation of AI doesn't so far outpace the security of AI.</p>
+</blockquote>
+<p>This is the outcome she wants to see. Right now, that's not what's happening. Business pressure to deploy AI quickly is outrunning the security architecture required to protect it. Every new AI deployment touching production data, cloud APIs and enterprise systems expands the attack surface. Shadow AI, prompt injection, model poisoning: These are not future threat vectors. They're present tense.</p>
+<p>The distinction Whitmore draws is useful: AI for cybersecurity (faster detection, automated response, reduced analyst burden) needs to advance in parallel with cybersecurity for AI (securing the models, prompts and data pipelines that organizations are building on). One without the other creates exactly the kind of asymmetry attackers will exploit.</p>
+<h2><a id="post-358432-_rkc0w45256lk"></a> Visibility Is Where It Starts</h2>
+<p>Whether the conversation is about defending against nation-state actors or securing AI deployments, Whitmore keeps returning to the same foundation of visibility.</p>
+<p>Not complexity. Not more tools. Visibility is a single, unified view of what's happening across endpoints, networks, cloud and AI systems, that’s fast enough to matter when the window is measured in seconds, not days.</p>
+<p>For SOC teams, that means being able to detect and contain a threat before a compromise of one system becomes an enterprise-wide event. For CISOs thinking about AI governance, it means understanding what's being deployed, what's being prompted, and where the data is going before an incident surfaces for them.</p>
+<p>The organizations Whitmore sees succeeding aren't the ones with the largest security budgets. They're the ones with the clearest picture of their environment, and the architecture to act on it in real time.</p>
+<h2><a id="post-358432-_d1z0ojhr87eb"></a> The Win Looks Different Now</h2>
+<p>Perhaps the most important reframe in the conversation is that the objective is no longer to prevent every attack. That goal is not achievable against adversaries operating at AI speed with nation-state resources.</p>
+<p>The win is resilience. Detecting fast and containing fast. Keeping one compromised endpoint from becoming an enterprise-wide breach.</p>
+<p>That shift in framing, from prevention to rapid recovery, has significant implications for how security teams are built, how AI is integrated into workflows, and how CISOs make the case for investment to leadership that still thinks in terms of keeping attackers out.</p>
+<p>The adversaries already know the perimeter is gone. The question is whether your defense strategy has caught up.</p>
+<h2><a id="post-358432-_pmrfy2rrh9io"></a> Want to Dig in More?</h2>
+<p><a id="post-358432-_ctb9ca7ltlzq"></a> Listen to the <a href="https://thecyberwire.com/podcasts/threat-vector/111/notes" rel="nofollow,noopener" >full interview here. </a></p>
+<h5><a id="post-358432-_dnu4bclivqd1"></a>The Unit 42 2026 Global Incident Response Report goes deep on the threat trends shaping how modern attacks unfold. If you want the data behind the headlines, start here. <a href="/resources/research/unit-42-incident-response-report">Download the Report →</a></h5>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/05/how-long-it-takes-to-lose-data/">39 Seconds — That&#039;s How Long It Takes to Lose Your Data</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/05/how-long-it-takes-to-lose-data/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">358432</post-id>    </item>
+        <item>
+	<title>The Dangerous Momentum of Autodownload Phishing</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/05/dangerous-momentum-autodownload-phishing/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/05/dangerous-momentum-autodownload-phishing/#respond</comments>
+	    
+	<dc:creator><![CDATA[Roni Yehanov]]></dc:creator>
+	<pubDate>Tue, 05 May 2026 21:10:08 +0000</pubDate>
+		<dcterms:extent>7</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/05/GettyImages-141339288-edit-scaled.jpg" type="image/jpeg"  length="252213"/>
+	    		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Points of View]]></category>
+		<category><![CDATA[Products and Services]]></category>
+		<category><![CDATA[Cortex Email Security Module]]></category>
+		<category><![CDATA[Phishing]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=358388</guid>
+
+	    		<description><![CDATA[<p>Learn how attackers weaponize SaaS auto-download links and rotating phishing lures to deliver RMM malware. See how Cortex Email Security stops this forced-momentum attack.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/05/dangerous-momentum-autodownload-phishing/">The Dangerous Momentum of Autodownload Phishing</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<p>Modern phishing campaigns are no longer trying to convince users. They are trying to outrun them. By forcing an automatic progression from click to download, attackers eliminate the moment of hesitation entirely by forcing files to download instantly using trusted cloud platforms like Dropbox and Google Drive.</p>
+<p>Detecting when these legitimate SaaS auto-download features are being weaponized is an immense challenge for traditional defenses. This is exactly where Cortex<sup>®</sup> Email Security steps in. By combining deep static analysis with advanced behavioral intelligence, the module can distinguish in this attack between a benign file share and a malicious, forced-momentum trigger.</p>
+<p>This technical detection is vital because while the autodownload method is the primary cause of infection, its effectiveness relies on a clever strategy, using a wide range of changing social engineering lures. By alternating between lures like 'Invoices' or 'Quotes,' attackers rotate their themes to catch a wider variety of victims. This strategy allows attackers to convert trusted email links into rapid, dangerous file executions that effectively evade standard security measures.</p>
+<h3><a id="post-358388-_r2h1opwb03yh"></a><strong>How Forced Momentum Drives Auto-Downloads</strong></h3>
+<p>The core of this attack leverages the infrastructure of real SaaS providers to eliminate the user's preview buffer. Typically, cloud sharing directs users to a webpage for file examination. In this campaign, however, forced-download parameters (such as ?dl=1 on Dropbox) are used instead. To ensure the victim executes the file once it lands on their machine, attackers hide the danger behind "visual anchors." By using double extensions like PDF and .EXE, the threat actor exploits default settings in certain operating systems that hide known extensions. The user's eyes stop at the familiar ".PDF" or ".ZIP," leading them to believe the file is a harmless document rather than a malicious executable.</p>
+<p>When the targeted victim clicks the link in the email, it triggers an immediate file download in the browser, effectively bypassing any intermediary steps.</p>
+<h2><a id="post-358388-_kmo1m7xnop09"></a><strong>Attack Flow: From Email to Execution</strong></h2>
+<ul>
+<li>The Bait<strong>:</strong> A highly personalized email arrives, using a trusted cloud link (like Dropbox) to lower the victim's guard.</li>
+<li>The Trap<strong>:</strong> Clicking the link skips the usual "preview" screen and instantly drops a file onto the victim's computer.</li>
+<li>The Disguise<strong>:</strong> The file is cleverly named to look like a safe PDF or document, hiding its true identity as a harmful program.</li>
+<li>The Lock<strong>:</strong> In many cases, the attacker ensures only the intended victim can open the file, preventing security tools from scanning it first.</li>
+<li>The Takeover<strong>:</strong> Once the victim opens the file, the attacker gains remote access to the system.</li>
+</ul>
+<figure id="attachment_358389" aria-describedby="caption-attachment-358389" style="width: 799px" class="wp-caption aligncenter"><img fetchpriority="high" decoding="async" class="wp-image-358389" src="/blog/wp-content/uploads/2026/05/word-image-358388-1.png" alt="Attack flow chart, from email to execution." width="799" height="1198" srcset="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/05/word-image-358388-1.png 1024w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/05/word-image-358388-1-230x345.png 230w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/05/word-image-358388-1-500x750.png 500w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/05/word-image-358388-1-768x1152.png 768w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/05/word-image-358388-1-200x300.png 200w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/05/word-image-358388-1-27x40.png 27w" sizes="(max-width: 799px) 100vw, 799px" /><figcaption id="caption-attachment-358389" class="wp-caption-text">Multi-step attack flow, starting from targeted phishing email, to bypass security and establish persistence.</figcaption></figure>
+<h3><a id="post-358388-_kqu3q7skdojc"></a><strong>The Library of Lures Strategy</strong></h3>
+<p>To fuel the autodownload machine, attackers employ a flexible strategy by switching between various social engineering themes. This <a href="/cyberpedia/what-is-spear-phishing">spear phishing</a> campaign targets specific inboxes, such as "Orders," to exploit professional routines. Some common lures found in this campaign include:</p>
+<ul>
+<li><strong>Financial Urgency<em> –</em></strong> Fake "Invoices" or "Receipts" that induce anxiety. These often set close-day payment deadlines, pressuring recipients to click quickly.</li>
+<li><strong>Business Operations</strong> – "Quote Requests" or "Purchase Orders" that exploit professional habits.</li>
+<li><strong>Deceptive Naming</strong> – Concealing the download as a safe document, using display text like "invoice.pdf" in the email body to hide the underlying Dropbox URL.</li>
+</ul>
+<h4><a id="post-358388-_uvq94sxyh0sq"></a>Government Domain Impersonation</h4>
+<p>Attackers often leverage high-authority lures designed to paralyze a user's critical thinking. In one sophisticated wave, we observed threats impersonating a government entity by exploiting the high-reputation, official government domain. By borrowing the reputational authority associated with official infrastructure, the attacker successfully maneuvered an "Unidentified Payment Notice" past standard "Untrusted Sender" filters. To the recipient, the email carries the weight of a sanctioned document. Fearing legal or financial ramifications, they feel a heightened sense of urgency to click "View Invoice" to resolve the issue immediately.</p>
+<h4><a id="post-358388-_m7ymtnqggb37"></a>Employee Impersonation</h4>
+<p>When government authority isn’t the angle, attackers shift to impersonating internal staff. In one case, the sender’s display name was spoofed to match a real employee in the target organization. Attackers rely on a “Momentum of Trust” tied to familiar names to overwhelm user judgment. Even when a generic Gmail address is used, users, especially those on mobile devices, rarely pause to check the underlying headers.</p>
+<h4><a id="post-358388-_v36p7icdw5kl"></a>Internal Trust Amplification ("Human Relay")</h4>
+<p>The most effective aspect of this campaign occurs through Internal Laundering, where the threat shifts from external suspicion to a <em>trusted</em> internal message. This was observed when a Finance Department employee received a "Quote Analysis" file and, believing it to be a valid inquiry, mistakenly forwarded the link to the Procurement department.</p>
+<p>At that stage, the attack no longer depended on deception, it propagated through trusted human workflows. These various tactics illustrate the sophistication and adaptability of phishing campaigns and highlight the importance of vigilance in email security.</p>
+<h2><a id="post-358388-_i08x5p3lxg9r"></a>How We Uncovered a Single Threat Actor</h2>
+<p>Although the lures appeared diverse, a deeper technical analysis revealed that they were all orchestrated by a single, coordinated threat actor.</p>
+<p>By mapping the campaign, we uncovered a significant pattern: Each autodownload link pointed to a different file hash to evade signature detection, but all unique executables were ultimately associated with the same parent installer hash.</p>
+<p>The file was identified as a specific Remote Monitoring and Management (RMM) executable, an administrative software used to manage computers remotely. Because RMM tools are legitimate, they often trigger fewer alerts than traditional Trojans. This allows the attacker to maintain persistent access under the guise of “authorized” system activity.</p>
+<h3><a id="post-358388-_1t87euju8g8j"></a><strong>How Cortex Email Security Addresses the Threat</strong></h3>
+<p>To defend against a campaign that emphasizes speed and rotation, behavioral analysis is essential.</p>
+<p>The Cortex<sup>®</sup> Email Security Module addresses this threat:</p>
+<ul>
+<li><strong>Advanced URL Analysis – </strong>Detection of forced-download parameters, combined with delivery of high-risk files via URLs.</li>
+<li><strong>Deep Metadata Correlation</strong> <strong>–</strong> Correlating sender identity with behavioral anomalies to flag threats that traditional scanners might overlook.</li>
+<li><strong>LLM-Based Intent Analysis</strong> <strong>–</strong> Classifying phishing themes (invoice, payment, quote) despite variation.</li>
+</ul>
+<p>The security engine triggers an alert by synthesizing LLM analysis with real-time email telemetry, global threat intelligence and behavioral signals.</p>
+<h2><a id="post-358388-_fulvpdcjydua"></a>Securing the Click</h2>
+<p>The combination of autodownload links and rotating lures is crafted to exploit user momentum and the "psychology of trust."</p>
+<p>This campaign represents a shift from deception to acceleration. Attackers no longer need perfect lures, they only need to remove friction. Defenders must evolve accordingly, focusing not only on what a link is, but on what it forces a user to do.</p>
+<p>Palo Alto Networks <a href="/cortex/advanced-email-security">Cortex Advanced Email Security</a> was built for this evolution. By moving beyond static file analysis to identify the behavioral "red flags" of autodownloads and forced-momentum URLs, we provide the visibility needed to stop these attacks before they reach the device.</p>
+<p>The module examines email metadata, content, and behavior to uncover hidden malicious intent and sophisticated impersonation, including AI-crafted threats. By assigning precise risk scores to every detection, the system filters out the noise, allowing analysts to move past alert fatigue and focus on the most critical threats first.</p>
+<p>Indicators of compromise discovered during this research <a href="https://github.com/PaloAltoNetworks/Indicators/blob/main/Indicators_for_The_Dangerous_Momentum_of_Auto-Download_Phishing.txt" rel="nofollow,noopener" >are detailed on Unit 42’s GitHib instance</a>.</p>
+<hr />
+<p><strong>FAQs</strong></p>
+<ol>
+<li><strong>Why is the "Auto-Download" parameter so effective?</strong> It removes the "moment of doubt." By bypassing the preview page, the attacker forces the file onto the computer instantly, prompting the user to "Open" it out of habit.</li>
+<li><strong>How does the use of rotating lures benefit the attacker?</strong> It maximizes both psychological and technical success. People have different "blind spots" (e.g., finance professionals are likely to click on invoices), and variety increases the chances of finding a template that can bypass specific customers' security filters.</li>
+<li><strong>Why might a sandbox fail to catch the malicious file?</strong> Because the link was "Identity-Bound." To the scanner, the link appeared to lead to a harmless error page (cloaking), resulting in a false negative.</li>
+</ol>
+<p>Cloaking involves showing different content to security scanners than what is presented to the victim. By using Identity-Bound access, the file only reveals itself to the intended target.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/05/dangerous-momentum-autodownload-phishing/">The Dangerous Momentum of Autodownload Phishing</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/05/dangerous-momentum-autodownload-phishing/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">358388</post-id>    </item>
+        <item>
+	<title>Enhancing AI-Driven Defense with Anthropic’s Claude Opus 4.7</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/04/ai-driven-defense-anthropics-claude-opus/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/04/ai-driven-defense-anthropics-claude-opus/#respond</comments>
+	    
+	<dc:creator><![CDATA[Simone Gammeri]]></dc:creator>
+	<pubDate>Thu, 30 Apr 2026 17:00:56 +0000</pubDate>
+		<dcterms:extent>2</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/AdobeStock_635540028-3-scaled.jpeg" type="image/jpeg"  length="658689"/>
+	    		<category><![CDATA[AI Security]]></category>
+		<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Partners]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Claude Opus]]></category>
+		<category><![CDATA[Unit 42 Frontier AI Defense]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=358007</guid>
+
+	    		<description><![CDATA[<p>Palo Alto Networks enhances AI-Driven Defense using Anthropic's Claude Opus 4.7. Outpace automated threats and rapidly find and fix vulnerabilities with Unit 42 Frontier AI Defense.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/ai-driven-defense-anthropics-claude-opus/">Enhancing AI-Driven Defense with Anthropic’s Claude Opus 4.7</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<p><a href="/perspectives/weaponized-intelligence/">As Frontier AI crosses new thresholds</a>, the landscape for both attackers and defenders is shifting. At Palo Alto Networks, we are committed to <a href="/blog/2026/04/defenders-guide-frontier-ai-impact-cybersecurity/">ensuring defenders maintain the advantage</a>.</p>
+<p>To deliver this critical edge, our <a href="/blog/2026/04/introducing-unit-42-frontier-ai-defense/">Unit 42 Frontier AI Defense</a> will now leverage Anthropic’s Claude Security, powered by Opus 4.7. By integrating one of the world’s most advanced AI models, we are empowering our customers to outpace automated threats. Through Frontier AI Defense, organizations can rapidly assess their security posture, remediate vulnerabilities and harden their infrastructure against next-generation, AI-driven attacks.</p>
+<p>We are utilizing Claude Security’s deep technical reasoning to enable our customers to find and fix vulnerabilities with unprecedented speed. This includes:</p>
+<ol>
+<li><strong>AI-Driven Exposure Analysis –</strong> Identifying complex exploit chains that turn minor findings into critical risks.</li>
+<li><strong>Scalable Application Analysis –</strong> Performing deep-stack code reviews at a scale and depth previously unavailable.</li>
+<li><strong>Agentic Defense – </strong>Powering autonomous workflows that detect and remediate threats at machine speed, backed by human oversight.</li>
+</ol>
+<p>Palo Alto Networks is also participating in Anthropic's Cyber Verification Program, which credentials security teams for legitimate defensive use of frontier models.</p>
+<p>The threat timeline is accelerating. Within months, AI-driven attack capabilities will become a standard fixture of the threat landscape. Palo Alto Networks is dedicated to ensuring our global customers are equipped with the modern frontier AI models necessary to stay secure both today and tomorrow.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/ai-driven-defense-anthropics-claude-opus/">Enhancing AI-Driven Defense with Anthropic’s Claude Opus 4.7</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/04/ai-driven-defense-anthropics-claude-opus/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">358007</post-id>    </item>
+        <item>
+	<title>Unit 42 Expands Frontier AI Defense with Armadin Partnership</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/04/unit-42-frontier-ai-defense-armadin-partnership/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/04/unit-42-frontier-ai-defense-armadin-partnership/#respond</comments>
+	    
+	<dc:creator><![CDATA[Simone Gammeri and Sam Rubin]]></dc:creator>
+	<pubDate>Thu, 30 Apr 2026 13:00:19 +0000</pubDate>
+		<dcterms:extent>2</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/AdobeStock_321371261-edit-Op2-8-scaled.jpg" type="image/jpeg"  length="553183"/>
+	    		<category><![CDATA[AI Security]]></category>
+		<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Partners]]></category>
+		<category><![CDATA[Products and Services]]></category>
+		<category><![CDATA[Unit 42]]></category>
+		<category><![CDATA[Armadin]]></category>
+		<category><![CDATA[Unit 42 Frontier AI Defense]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=358026</guid>
+
+	    		<description><![CDATA[<p>Unit 42 and Armadin partner to expand Frontier AI Defense. Get autonomous, AI-driven offensive security assessments and decision-grade proof of exploitable risk.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/unit-42-frontier-ai-defense-armadin-partnership/">Unit 42 Expands Frontier AI Defense with Armadin Partnership</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<p>Frontier AI is changing what is possible for attackers. To meet this escalating threat, Palo Alto Networks is teaming up with <a href="https://www.armadin.com/" rel="nofollow,noopener" >Armadin</a>, the new offensive security company founded by Kevin Mandia. This partnership expands our newly introduced <a href="/unit42/ai-advantage">Unit 42 Frontier AI Defense</a> service, scaling our ability to identify and remediate AI-driven exposures, and accelerating protection across the enterprise.</p>
+<p>Over the past few weeks, we’ve spoken with hundreds of CISOs who universally feel the urgency on the frontlines. Security leaders need to know exactly where they stand against the AI-driven attacks happening right now, and the ones coming in the next six months.</p>
+<h2><a id="post-358026-_lvaneumg184k"></a>Expanding Frontier AI Defense — The External AI Hyperattack Assessment</h2>
+<p>For organizations seeking to actively pressure-test their perimeter, this partnership introduces an autonomous, AI-driven offensive assessment of your external attack surface.</p>
+<p>This added layer identifies real attack paths and proves exploitability across internet-facing assets. The platform begins with passive discovery, validating publicly exposed assets, cloud resources and secrets. Next, Armadin deploys a coordinated swarm of autonomous AI attack agents, operating at machine speed across your external footprint.</p>
+<p>These agents execute active reconnaissance, launch attacks and exploit vulnerabilities in parallel, using over 50,000 templates. Upon initial access, the swarm simulates post-exploitation behavior to demonstrate impact, logging every attack chain as decision-grade evidence of exploitable risk.</p>
+<h2><a id="post-358026-_qgo35fvopg28"></a>Decision-Grade Proof of Exploitable Risk</h2>
+<p>With this added layer of autonomous simulation, Unit 42 Frontier AI Defense provides an even more rigorous, pressure-tested view of an organization's external attack surface. This allows our experts to accurately simulate the tradecraft of the most capable, AI-equipped threat actors, compressing complex attack lifecycles from days into minutes.</p>
+<p>AI may change what is possible for attackers, but in the hands of defenders, it becomes a decisive advantage. This partnership is another important step in making sure that advantage stays with the defenders.</p>
+<p>A member of <a href="https://www.anthropic.com/glasswing" rel="nofollow,noopener" >Project Glasswing</a> and OpenAI’s <a href="https://openai.com/index/accelerating-cyber-defense-ecosystem/" rel="nofollow,noopener" >Trusted Access for Cyber</a> (TAC) program, Palo Alto Networks remains the only company equipped to deliver this strategic level of partnership through Unit 42 Frontier AI Defense and the <a href="/blog/2026/04/ai-ecosystem-edge-introducing-frontier-ai-alliance/">Frontier AI Alliance</a>, driven to integrate cutting-edge technologies into our products and services.</p>
+<p><a href="/unit42/ai-advantage">Get started with Unit 42 Frontier AI Defense today</a>.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/unit-42-frontier-ai-defense-armadin-partnership/">Unit 42 Expands Frontier AI Defense with Armadin Partnership</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/04/unit-42-frontier-ai-defense-armadin-partnership/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">358026</post-id>    </item>
+        <item>
+	<title>Securing and Governing AI Agents At Scale Through A Unified AI Gateway</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/04/securing-and-governing-ai-agents-at-scale-through-a-unified-ai-gateway/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/04/securing-and-governing-ai-agents-at-scale-through-a-unified-ai-gateway/#respond</comments>
+	    
+	<dc:creator><![CDATA[Anand Oswal]]></dc:creator>
+	<pubDate>Thu, 30 Apr 2026 08:00:33 +0000</pubDate>
+		<dcterms:extent>7</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/03/AdobeStock_1246251272_800x600.png" type="image/png"  length="555759"/>
+	    		<category><![CDATA[AI Security]]></category>
+		<category><![CDATA[Prisma AIRS]]></category>
+		<category><![CDATA[Secure AI]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=358187</guid>
+
+	    		<description><![CDATA[<p>Palo Alto Networks acquires Portkey, integrating its AI Gateway into Prisma AIRS. Get the unified control plane to securely govern and operationalize autonomous AI agents.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/securing-and-governing-ai-agents-at-scale-through-a-unified-ai-gateway/">Securing and Governing AI Agents At Scale Through A Unified AI Gateway</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<h2>Palo Alto Networks Announces Intent to Acquire Portkey</h2>
+<p><span style="font-weight: 400;">The era of the AI Enterprise has arrived. Today, </span><a href="https://www.gartner.com/en/newsroom/press-releases/2025-10-29-gartner-survey-finds-45-percent-of-martech-leaders-say-existing-vendor-offered-ai-agents-fail-to-meet-their-expectations-of-promised-business-performance#:~:text=The%20survey%20revealed%20that%20AI%20agent%20adoption%20is%20now%20widespread%2C%20with%2081%25%20either%20piloting%20or%20fully%20implementing%20these%20solutions.%20Just%201%25%20of%20respondents%20neither%20have%20AI%20agent%20initiatives%20currently%20nor%20have%20any%20plans%20to%20invest%20in%20GenAI%20initiatives%2C%20highlighting%20the%20technology%E2%80%99s%20near%2Duniversal%20appeal" rel="nofollow,noopener" ><span style="font-weight: 400;">81%</span></a><span style="font-weight: 400;"> of enterprises are piloting the use of AI agents or have fully implemented AI agent solutions. We aren't just talking about smart chatbots. We are talking about autonomous agents that execute.</span></p>
+<p><span style="font-weight: 400;">By leveraging APIs and MCP servers, these agents navigate complex workflows, access sensitive data and make real-time, business-critical decisions. The question is no longer </span><i><span style="font-weight: 400;">if</span></i><span style="font-weight: 400;"> companies will adopt AI agents, but </span><i><span style="font-weight: 400;">how</span></i><span style="font-weight: 400;"> to securely operationalize them without putting the brakes on innovation. </span></p>
+<h3>The Challenge: Expanding Attack Surfaces</h3>
+<p><span style="font-weight: 400;">AI agents are creating a new and largely invisible attack surface. The risk is not just their independence, but the lack of visibility and accountability. Without a centralized enforcement layer for operational and security controls, every team that deploys an agent may unintentionally expose the enterprise to unauthorized data access and heightened security risks.</span></p>
+<p><span style="font-weight: 400;">To solve this, Palo Alto Networks</span><span style="font-weight: 400;"> is redefining security for the agentic era. We recently introduced </span><a href="/prisma/agent-security"><b>Prisma</b><b> AIRS<sup>&#x2122;</sup> 3.0</b></a><span style="font-weight: 400;">, the industry’s first platform to secure the entire agentic AI lifecycle. Today, we are accelerating that momentum by announcing our intent to acquire </span><a href="/company/press/2026/palo-alto-networks-to-acquire-portkey-to-secure-the-rise-of-ai-agents"><b>Portkey</b></a><span style="font-weight: 400;">, a pioneer in AI Gateways. </span></p>
+<h3>The Prisma AIRS AI Gateway: From Chaos to Control<i> </i></h3>
+<p><span style="font-weight: 400;">Upon closing, we will integrate Portkey’s </span><span style="font-weight: 400;">full-feature </span><span style="font-weight: 400;">AI Gateway into Prisma AIRS as the single </span><b>unified control plane enterprises need to operationalize and secure AI apps and agents at scale</b><span style="font-weight: 400;">. </span><span style="font-weight: 400;"><br />
+</span></p>
+<p><span style="font-weight: 400;">Moving from “chaos to control” requires a centralized approach to governance. Currently, many AI initiatives are hindered by fragmented security and a lack of oversight. The AI Gateway solves this by providing a unified vantage point where organizations can enforce consistent policies across all models and agents, ensuring every interaction is identified, authenticated and authorized in real time within a single governing framework.</span></p>
+<p><span style="font-weight: 400;">The Prisma AIRS AI Gateway will establish a mission-critical control plane for the agentic enterprise, enabling teams to move autonomous workloads from development into at-scale production with confidence. With operational features like a unified API to LLMs, an agent registry, semantic routing and caching, the AI Gateway equips enterprises with complete control in one platform. By serving as a centralized enforcement point at the center of Prisma AIRS for all agent traffic, the AI Gateway will provide critical security functions, including Agent Artifact scanning, automated Red Teaming and Runtime Security needed to monitor behavior, route requests and mitigate risks in real time. Crucially, the AI Gateway will reinforce Agent Identity Security via CyberArk, applying strict protocols to ensure every autonomous action is authenticated and governed by least-privilege controls.</span></p>
+<p><span style="font-weight: 400;">Our vision is for the Prisma AIRS AI Gateway to serve as the industry blueprint for enterprises in the agentic era. By making security a foundational component of the operational lifecycle, we are empowering enterprises to build and govern an AI ecosystem that is secure by design.</span></p>
+<p>&nbsp;</p>
+<p><img decoding="async" class="aligncenter wp-image-357885" src="/blog/wp-content/uploads/2026/04/Prisma-AIRS-500x500.jpg" alt="Secure All Agents with the Prisma AIRS AI Gateway" width="600" height="600" /></p>
+<p>&nbsp;</p>
+<h3>Why Portkey? The Pioneer in AI Gateways</h3>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><b>Battle-Tested:</b><span style="font-weight: 400;"> Portkey’s AI Gateway is already supporting the demands of the modern enterprise, at scale, with several Fortune 500 customers, processing trillions of tokens per month with the low latency that is required for agent-to-agent communication. This ensures that agentic security does not come at the cost of developer speed or application performance. </span></li>
+<li style="font-weight: 400;" aria-level="1"><b>Architectural Simplicity: </b><span style="font-weight: 400;">Portkey offers plug-and-play capabilities with just </span><em>three</em><span style="font-weight: 400;"> lines of code required to implement the AI Gateway. The AI Gateway, powered by unified APIs, also provides </span><span style="font-weight: 400;">secure access to over 3,000 LLMs, MCP servers and agents, giving enterprises a flying start to building and executing with AI agents. </span></li>
+<li style="font-weight: 400;" aria-level="1"><b>Better Together: </b><span style="font-weight: 400;">Palo Alto Networks and Portkey’s joint vision is to make Prisma AIRS the most ubiquitous platform for AI security. With exceptional AI security by Palo Alto Networks combined with Portkey’s AI Gateway, we will offer a comprehensive AI Security platform.</span></li>
+</ul>
+<p><img decoding="async" class="aligncenter wp-image-357989 size-full" src="/blog/wp-content/uploads/2026/04/Project-Potter-Infographic-v2.jpg" alt="Prisma AIRS comprehensive AI App and agent security platform." width="1920" height="1080" srcset="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/Project-Potter-Infographic-v2.jpg 1920w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/Project-Potter-Infographic-v2-230x129.jpg 230w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/Project-Potter-Infographic-v2-500x281.jpg 500w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/Project-Potter-Infographic-v2-768x432.jpg 768w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/Project-Potter-Infographic-v2-1536x864.jpg 1536w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/Project-Potter-Infographic-v2-510x287.jpg 510w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/Project-Potter-Infographic-v2-71x40.jpg 71w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/Project-Potter-Infographic-v2-533x300.jpg 533w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
+<h2>What’s Next?</h2>
+<p><span style="font-weight: 400;">The era of AI Enterprises is here. We’re making sure it is secure by design. The complexity of managing agents and securing them has long created friction in enterprises. Following the close of the acquisition, and with the integration of Portkey into Prisma AIRS, we will remove the trade-off between agent autonomy and authority. We are ensuring that as businesses accelerate into the era of autonomous agents, the security architecture isn’t just keeping up, it is setting the pace. </span></p>
+<p><i><span style="font-weight: 400;">See a demo of the new standard in AI Security – </span></i><a href="https://start.paloaltonetworks.com/prisma-airs-demo.html"><span style="font-weight: 400;">Prisma AIRS</span></a><span style="font-weight: 400;"> </span></p>
+<p><b>Forward-Looking Statements</b></p>
+<p><i><span style="font-weight: 400;">This blog contains forward-looking statements that involve risks, uncertainties, and assumptions, including, but not limited to, statements regarding the anticipated benefits and impact of the proposed acquisition of Portkey on Palo Alto Networks, Portkey and their customers. There are a significant number of factors that could cause actual results to differ materially from statements made in this blog, including, but not limited to: the effect of the announcement of the proposed acquisition on the parties’ commercial relationships and workforce; the ability to satisfy the conditions to the closing of the acquisition; the ability to consummate the proposed acquisition on a timely basis or at all; significant and/or unanticipated difficulties, liabilities or expenditures relating to proposed transaction, risks related to disruption of management time from ongoing business operations due to the proposed acquisition and the ongoing integration of other recent acquisitions; our ability to effectively operate Portkey's operations and business following the closing, integrate Portkey’s business and products into our products following the closing, and realize the anticipated synergies in the transaction in a timely manner or at all; changes in the fair value of our contingent consideration liability associated with acquisitions; developments and changes in general market, political, economic and business conditions; failure of our platformization product offerings; risks associated with managing our growth; risks associated with new product, subscription and support offerings; shifts in priorities or delays in the development or release of new product or subscription or other offerings or the failure to timely develop and achieve market acceptance of new products and subscriptions, as well as existing products, subscriptions and support offerings; failure of our product offerings or business strategies in general; defects, errors, or vulnerabilities in our products, subscriptions or support offerings; our customers’ purchasing decisions and the length of sales cycles; our ability to attract and retain new customers; developments and changes in general market, political, economic, and business conditions; our competition; our ability to acquire and integrate other companies, products, or technologies in a successful manner; our debt repayment obligations; and our share repurchase program, which may not be fully consummated or enhance shareholder value, and any share repurchases which could affect the price of our common stock.</span></i></p>
+<p><i><span style="font-weight: 400;">Additional risks and uncertainties that could affect our financial results are included under the captions "Risk Factors" and "Management's Discussion and Analysis of Financial Condition and Results of Operations" in our Quarterly Report on Form 10-Q filed with the SEC on February 18, 2026, which is available on our website at investors.paloaltonetworks.com and on the SEC's website at www.sec.gov. Additional information will also be set forth in other filings that we make with the SEC from time to time. All forward-looking statements in this blog are based on information available to us as of the date hereof, and we do not assume any obligation to update the forward-looking statements provided to reflect events that occur or circumstances that exist after the date on which they were made.</span></i></p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/securing-and-governing-ai-agents-at-scale-through-a-unified-ai-gateway/">Securing and Governing AI Agents At Scale Through A Unified AI Gateway</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/04/securing-and-governing-ai-agents-at-scale-through-a-unified-ai-gateway/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">358187</post-id>    </item>
+        <item>
+	<title>Palo Alto Networks and Google Cloud</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/04/google-cloud-expand-strategic-collaboration-secure-ai-enterprise/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/04/google-cloud-expand-strategic-collaboration-secure-ai-enterprise/#respond</comments>
+	    
+	<dc:creator><![CDATA[Jaimin Patel]]></dc:creator>
+	<pubDate>Wed, 22 Apr 2026 16:00:33 +0000</pubDate>
+		<dcterms:extent>6</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/GettyImages-136905676-edit-scaled.jpg" type="image/jpeg"  length="720867"/>
+	    		<category><![CDATA[AI Security]]></category>
+		<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Partners]]></category>
+		<category><![CDATA[Products and Services]]></category>
+		<category><![CDATA[Agentic AI]]></category>
+		<category><![CDATA[Cloud NGFW]]></category>
+		<category><![CDATA[Google Cloud Next]]></category>
+		<category><![CDATA[Prisma AIRS]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=357204</guid>
+
+	    		<description><![CDATA[<p>Palo Alto Networks and Google Cloud Secure the AI Enterprise. See 4 new integrations, including Prisma AIRS, announced at Cloud Next '26.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/google-cloud-expand-strategic-collaboration-secure-ai-enterprise/">Palo Alto Networks and Google Cloud</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<h1>Expand Strategic Collaboration to Secure the AI Enterprise</h1>
+<p>The transition from generative AI to <em>agentic AI</em> represents one of the most significant shifts in the history of enterprise technology. As organizations move from simple chatbots to autonomous agents that can execute business processes, the attack surface isn't just changing, it's exploding.</p>
+<p>At <a href="https://register.paloaltonetworks.com/google-cloud-next">Google Cloud Next 2026</a> in Las Vegas, Palo Alto Networks is proud to announce a series of groundbreaking integrations with Google Cloud. These innovations are designed to do more than just monitor the new AI-driven landscape; they are built to secure it by design. AI deployment is currently outpacing AI governance. By embedding our security platform into Google Cloud’s infrastructure, we are giving today’s enterprises the foundation to become the autonomous organizations of tomorrow.</p>
+<p>Here is a look at the four major milestones of our partnership being unveiled this week.</p>
+<h2><a id="post-357204-_64058v84sbcf"></a>Secure AI Agents with Google Cloud + Prisma AIRS</h2>
+<p>As autonomous AI agents become the new enterprise standard, security can no longer be an afterthought; it must be architectural. By integrating Prisma AIRS&#x2122; natively with Google Cloud Gemini Enterprise Agent Platform, we provide the proactive defenses required to govern complex agentic workflows. This integration ensures that as you scale your autonomous workforce, your security scales with it, providing comprehensive operational integrity without hindering the speed of innovation.</p>
+<p>We are delivering capabilities across three critical pillars:</p>
+<ul>
+<li><strong>Protecting Agent-Specific Runtime Risks</strong>: In an agentic ecosystem, the primary risk is unauthorized or a destructive action taken by the AI agents themselves. Prisma AIRS secures the <em>"agent-to-tool" interface</em>, preventing poisoned context from triggering malicious scripts or destructive actions. The solution monitors agent execution in real-time, so agents cannot leak sensitive credentials or tool schemas, maintaining the boundary between agents and their access to enterprise data.</li>
+<li><strong>Securing the GenAI Application Surface</strong>: Modern AI applications and agents require a secure-by-design approach. Prisma AIRS AI Runtime Security&#x2122; provides prevention of more than 30 adversarial prompt injection and jailbreak techniques, as well as malicious code and URLs within LLM outputs. Prisma AIRS utilizes over <em>1,000 predefined patterns out of the box</em> and ML-powered Enterprise DLP to stop sensitive data leakage.</li>
+<li><strong>Enforcing Enterprise AI Safety and Grounding</strong>: Trust in AI is built on the consistency and safety of its output. Prisma AIRS allows organizations to define safety policies in natural language and filter toxic content across <em>eight distinct categories</em> to protect brand reputation. Using contextual grounding, Prisma AIRS can prevent misleading outputs that contradict internal RAG data, keeping agents tied to real facts.</li>
+</ul>
+<p>This integration ensures that as you scale your autonomous workforce, your security posture scales with it, providing operational integrity without hindering the speed of innovation.</p>
+<h2>Security-as-Code for Prisma AIRS Integration with Application Design Center (ADC)</h2>
+<p>The traditional <em>bolt-on</em> approach to security is no longer viable in a cloud-first world. Google Cloud’s <a href="https://docs.cloud.google.com/application-design-center/docs/overview" rel="nofollow,noopener" >Application Design Center</a> (ADC) is revolutionizing how applications are built, using an intuitive canvas and natural language via <strong>Gemini Code Assist</strong>.</p>
+<p>Palo Alto Networks is announcing that it will be published as a template within the Application Design Center, providing more capabilities to engineering teams:</p>
+<ul>
+<li><strong>Drag-and-Drop Security –</strong> Visually "snap" VM-Series firewalls and Prisma AIRS AI protections directly into network flows.</li>
+<li><strong>AI-Driven Architecture –</strong> Use natural language prompts to generate secure-by-default, multiregion architectures.</li>
+<li><strong>Simultaneous Deployment –</strong> Deploy entire application stacks and security services in a single, unified workflow, ensuring protection is present from the very first minute of deployment.</li>
+</ul>
+<h2><a id="post-357204-_tt6sc340s3rz"></a>Zero-Day Protection at Scale with Advanced Malware Sandboxing for Google Cloud NGFW Enterprise</h2>
+<p>The battle against malware has shifted to the cloud. Modern attacks are faster, more evasive and capable of bypassing traditional defenses.</p>
+<p>That is why we are excited to announce <strong>Advanced WildFire<sup>®</sup></strong>, powered by Palo Alto Networks, natively integrated into <strong>Google Cloud NGFW Enterprise</strong>, delivering AI-driven malware prevention directly within Google Cloud environments.</p>
+<p>This integration embeds inline sandboxing and real-time threat intelligence directly into Google Cloud’s distributed firewall to stop advanced and unknown threats before they impact workloads, enabling:</p>
+<ul>
+<li><strong>Secure Detonation –</strong> Suspicious files are safely executed in a controlled sandbox environment to uncover hidden and unknown threats.</li>
+<li><strong>Inline Traffic Inspection –</strong> Inbound and outbound traffic is analyzed in real time to prevent lateral movement of malicious payloads across cloud environments.</li>
+<li><strong>AI-Driven Threat Prevention –</strong> Leverages global threat intelligence by Palo Alto Networks to block zero-day threats before they compromise workloads.</li>
+</ul>
+<p>With Advanced WildFire embedded directly into Google Cloud NGFW Enterprise, organizations can extend consistent protection across their cloud infrastructure while maintaining operational simplicity.</p>
+<p><em>Cloud NGFW Enterprise Advanced Malware Sandboxing will be available in Public Preview soon.</em></p>
+<h2><a id="post-357204-_e3rudh3mv05n"></a>Defining the Future with the Google Cloud Marketplace</h2>
+<p>Palo Alto Networks has joined the <strong>Google Cloud Marketplace Agent-as-a-Service</strong> as a launch partner to introduce the <strong>Prisma AIRS Model Security agent</strong>. Operating as an Agent-as-a-Service, this solution scans AI models for vulnerabilities and policy noncompliance before they reach production.</p>
+<p>Available in the Agent Gallery inside Gemini Enterprise, this marketplace offering runs entirely within the customer’s own Google Cloud environment, providing both new and existing Prisma AIRS users a seamless and simple deployment experience inside Gemini Enterprise.</p>
+<h2><a id="post-357204-_gb5frjryi73o"></a>Securing AI Innovation at Scale</h2>
+<p>The collaboration between Palo Alto Networks and Google Cloud is built on a shared vision: Security should be an accelerator for innovation, not a bottleneck. As we look toward the future of the AI-powered enterprise, our commitment remains to provide the most robust, platform-driven security for every workload, every agent and every interaction.</p>
+<p><strong>Want to see these integrations in action?</strong> Contact your Palo Alto Networks representative to learn more about how we are securing the future of the cloud together. If you’re attending Google Cloud Next 2026, join us at these sponsored sessions:</p>
+<ul>
+<li>Wednesday, April 22 @ 12:30 PM - 1:15 PM<br />
+<a href="https://www.googlecloudevents.com/next-vegas/session-library?session_id=3902758&amp;name=the-ai-ready-enterprise-securing-access-and-data-in-an-ai-first-world" rel="nofollow,noopener" >The AI-Ready Enterprise: Securing Access and Data in an AI-first World</a></li>
+<li>Thursday, April 23 @ 9:15 AM - 10:00 AM<br />
+<a href="https://www.googlecloudevents.com/next-vegas/session-library?session_id=3902757&amp;name=securing-agentic-ai-at-scale-what-google-and-palo-alto-networks-are-building-together" rel="nofollow,noopener" >Securing and managing Agentic AI at scale: What Google and Palo Alto Networks are building together</a><br />
+<em>Munish Khetrapal, vice president of Cloud Engagement, GCP - Palo Alto Networks<br />
+Mike Buratowski, deputy chief information security officer - The Home Depot </em><strong><br />
+</strong></li>
+<li>Thursday, April 23 @ 9:15 AM - 10:00 AM<br />
+<a href="https://www.googlecloudevents.com/next-vegas/session-library?session_id=3902759&amp;name=the-agentic-era-governing-an-invisible-ai-workforce" rel="nofollow,noopener" >The agentic era: Governing an invisible AI workforce</a></li>
+<li>Thursday, April 23 @ 12:00 PM - 12:45 PM<strong><br />
+</strong><a href="https://www.googlecloudevents.com/next-vegas/session-library?session_id=3902761&amp;name=the-ai-attack-surface-defending-the-modern-ai-powered-enterprise" rel="nofollow,noopener" >The AI Attack Surface: Strategizing Defense for the modern AI-Powered Enterprise</a></li>
+</ul>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/google-cloud-expand-strategic-collaboration-secure-ai-enterprise/">Palo Alto Networks and Google Cloud</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/04/google-cloud-expand-strategic-collaboration-secure-ai-enterprise/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">357204</post-id>    </item>
+        <item>
+	<title>Scaling AI Agents with Confidence</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/04/scaling-ai-agents-with-confidence/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/04/scaling-ai-agents-with-confidence/#respond</comments>
+	    
+	<dc:creator><![CDATA[Munish Khetrapal]]></dc:creator>
+	<pubDate>Wed, 22 Apr 2026 15:59:35 +0000</pubDate>
+		<dcterms:extent>4</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/GettyImages-524759829-edit-5-scaled.jpg" type="image/jpeg"  length="202496"/>
+	    		<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Partners]]></category>
+		<category><![CDATA[Products and Services]]></category>
+		<category><![CDATA[Awards]]></category>
+		<category><![CDATA[Google Cloud]]></category>
+		<category><![CDATA[Google Cloud Next]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=357220</guid>
+
+	    		<description><![CDATA[<p>Palo Alto Networks wins Global Technology Google Cloud Partner of the Year Award! Our Google Cloud, Google Cloud Next partnership delivers AI-driven security.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/scaling-ai-agents-with-confidence/">Scaling AI Agents with Confidence</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<h1>The Google Cloud and Palo Alto Networks Partnership</h1>
+<p>As AI agents move into business-critical environments, they are transforming everything from security operations to internal workflows. However, scaling these AI applications introduces unprecedented hurdles for security executives, from detecting "shadow AI" and unsanctioned usage to governing complex nonhuman identities across multimodel environments.</p>
+<p>To overcome these challenges, organizations need more than just tools; they need a layered architecture built on a foundation of platformization. The long-standing partnership between Palo Alto Networks and Google Cloud provides this essential framework, offering customers:</p>
+<ul>
+<li><strong>Integrated Security Ecosystems:</strong> Seamlessly manage the full agent lifecycle with visibility and observability across your entire AI infrastructure.</li>
+<li><strong>Jointly Engineered Solutions: </strong>Leverage over 80 co-engineered integrations designed to eliminate the tradeoff between a cloud-native experience and best-in-class security.</li>
+<li><strong>Proven Scale and Performance: </strong>Benefit from a partnership that has already delivered impactful, AI-driven solutions to protect joint customers from evolving threats.</li>
+</ul>
+<p>Google Cloud Marketplace enables customers to discover, try, buy and use industry-leading applications that have been validated to run on Google Cloud. Palo Alto Networks has closed $2.4 billion in GCP bookings, helping address evolving customer needs, such as simplified procurement and seamless deployment.</p>
+<p>Kevin Ichhpurani, President, Global Partner Ecosystem at Google Cloud:</p>
+<blockquote><p>We’re pleased to celebrate Palo Alto Networks as our Global Technology Partner of the Year… Palo Alto Networks has consistently delivered impactful, AI-driven security solutions that help Google Cloud customers better protect their organizations from evolving threats.</p></blockquote>
+<p>The extensive, long-standing collaboration between Palo Alto Networks and Google Cloud includes jointly engineered offerings, built on 80 solution integrations that help customers build, run and secure AI-enhanced cloud infrastructure and applications with end-to-end protection.</p>
+<h2>Palo Alto Networks Wins 2026 Global Technology Google Cloud Partner of the Year Award</h2>
+<p>At Google Cloud Next, Palo Alto Networks has been recognized with four 2026 Google Cloud Partner of the Year awards. By partnering with Google Cloud, we help customers securely leverage the power of the cloud and AI-driven growth with comprehensive cloud-native security offerings. Wins included the following:</p>
+<ul>
+<li><strong>Global Technology</strong></li>
+<li><strong>Marketplace: Technology</strong></li>
+<li><strong>Marketplace: Security</strong></li>
+<li><strong>Security: Artificial Intelligence</strong></li>
+</ul>
+<p>These Partner of the Year Awards underscore our <a href="/blog/2026/04/google-cloud-expand-strategic-collaboration-secure-ai-enterprise/">expanding partnership with Google Cloud</a>. We share a mutual dedication to improve cloud, network security and AI observability, as well as the progress we’ve made in protecting our joint customers from today’s and tomorrow’s cyberthreats.</p>
+<p>By combining our industry-leading security engineering with Google Cloud’s industry-leading cloud infrastructure and services, we’re providing advanced protection for every stage of a customer’s digital journey. We want customers to feel secure from the formative steps of lifting workloads into the cloud, to expanding digital innovation across platforms, to reaching new levels of business scale and velocity.</p>
+<p>Protecting these journeys requires alignment and modernization of infrastructure (lift and shift), applications (refactoring) and user access models (zero trust). It requires an advanced AI drive security operations transformation across all IT domains, leveraging machine learning and sophisticated models to minimize human interventions and unguarded sides.</p>
+<p>Our relationship with Google Cloud is based on a deep engineering relationship, yielding integrated solutions that help customers achieve better digital outcomes. Our partnership can help your organization eliminate tradeoffs between a cloud-native experience and best-in-class security. We have more than 80 co-engineered integrations, helping to improve and protect hybrid workers, cloud migrations and application modernization efforts.</p>
+<p>We remain committed to our goals of outpacing cyberthreats, helping customers at every stage of their cloud journey, and creating a world where tomorrow is more secure than today.</p>
+<p>Whether you’re just beginning your cloud journey or managing complex transformational projects, our jointly engineered, AI-driven solutions are designed to deliver seamless, scalable security. Explore the dynamic partnership between <a href="/partners/nextwave-for-csp/google-cloud-and-palo-alto-networks">Palo Alto Networks and Google Cloud</a>. Join us at <a href="https://register.paloaltonetworks.com/google-cloud-next">Google Cloud Next '26</a> in Las Vegas from April 22-24 to discover how to secure your development lifecycle from code to cloud.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/scaling-ai-agents-with-confidence/">Scaling AI Agents with Confidence</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/04/scaling-ai-agents-with-confidence/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">357220</post-id>    </item>
+        <item>
+	<title>Palo Alto Networks Joins DNS-OARC as a Platinum Member</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/04/joins-dns-oarc-platinum-member/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/04/joins-dns-oarc-platinum-member/#respond</comments>
+	    
+	<dc:creator><![CDATA[Srinivas Avasarala and Phil Regnauld]]></dc:creator>
+	<pubDate>Wed, 22 Apr 2026 13:00:05 +0000</pubDate>
+		<dcterms:extent>3</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/AdobeStock_640765504-3-scaled.jpeg" type="image/jpeg"  length="328843"/>
+	    		<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[DNS-OARC]]></category>
+		<category><![CDATA[internet security]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=357106</guid>
+
+	    		<description><![CDATA[<p>Palo Alto Networks joining DNS-OARC as a Platinum Member to collaborate on DNS research and security and improve internet resilience.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/joins-dns-oarc-platinum-member/">Palo Alto Networks Joins DNS-OARC as a Platinum Member</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<p>Palo Alto Networks recently joined the DNS-OARC community as a Platinum Member. Together, our organizations share a commitment to advancing collaboration in research and operational excellence across the global DNS ecosystem. DNS is critical to both internet infrastructure and security, and this collaboration facilitates the sharing of real-world insights among researchers and practitioners.</p>
+<h2><a id="post-357106-_dxin2oc7enb9"></a>Our Contribution</h2>
+<p>We help organizations secure their digital environment with a comprehensive portfolio of cybersecurity solutions spanning Network, Cloud, Security Operations, AI and Identity. Trusted by more than 70,000 customers worldwide and informed by Unit 42<sup>®</sup> Threat Intelligence, their AI-driven platforms help organizations reduce complexity, modernize with confidence, and securely enable innovation.</p>
+<p>As a Platinum Member, our subject matter experts will actively participate in the DNS-OARC community by engaging in discussions and contributing to research on evolving DNS threats and network challenges. The growing intersection of DNS and security makes access to intelligence and experience increasingly important. It strengthens the community’s ability to respond to emerging challenges and improves resilience across the internet.</p>
+<p>Through our participation, our customers will gain stronger protection informed by community-driven intelligence and real-world operational insight. These learnings are continuously integrated into our threat intelligence and security capabilities. Our participation signals our support for DNS-OARC’s mission of fostering open dialogue and shared learning across the DNS ecosystem. This collaboration helps bridge DNS operations with broader security practices, improving coordination between operators, researchers and security practitioners.</p>
+<h2><a id="post-357106-_7viam1vo67t4"></a>Our Commitment to the DNS-OARC and Global Communities</h2>
+<p>Collaboration between our organizations strengthens the connection among DNS operations and modern security practices by bringing together operational insight and a global community dedicated to advancing the internet’s resilience.</p>
+<p>For the DNS-OARC community, our commitment enhances knowledge sharing around evolving DNS threats, large-scale network operations and practical approaches to emerging challenges.</p>
+<p>For organizations and customers, it reinforces a stronger alignment between DNS infrastructure and security, expands access to community-driven intelligence and supports more resilient, well-informed defenses.</p>
+<p><strong>Tong Zhao, Senior Manager of DNS Security Engineering, Palo Alto Networks:</strong></p>
+<blockquote><p>We recognize the critical role of DNS-OARC in DNS operations and research. The teams from Palo Alto Networks believe that our DNS-OARC membership aligns perfectly with our goals. We are eager to participate in and contribute to the DNS community.</p></blockquote>
+<p>Our partnership with the DNC-OARC highlights the value of open collaboration in helping both the community and its participants stay ahead of an increasingly complex threat landscape. To learn more about how our expertise and insights support DNS-OARC’s mission to improve the security and stability of the internet’s DNS, visit <a href="https://www.dns-oarc.net/" rel="nofollow,noopener" >DNS-OARC</a>.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/joins-dns-oarc-platinum-member/">Palo Alto Networks Joins DNS-OARC as a Platinum Member</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/04/joins-dns-oarc-platinum-member/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">357106</post-id>    </item>
+        <item>
+	<title>The AI Ecosystem Edge — Introducing Our Frontier AI Alliance</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/04/ai-ecosystem-edge-introducing-frontier-ai-alliance/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/04/ai-ecosystem-edge-introducing-frontier-ai-alliance/#respond</comments>
+	    
+	<dc:creator><![CDATA[Simone Gammeri]]></dc:creator>
+	<pubDate>Fri, 17 Apr 2026 19:00:34 +0000</pubDate>
+		<dcterms:extent>2</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/AdobeStock_321371261-edit-Op2-7-scaled.jpg" type="image/jpeg"  length="553183"/>
+	    		<category><![CDATA[AI Governance]]></category>
+		<category><![CDATA[AI Security]]></category>
+		<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Company & Culture]]></category>
+		<category><![CDATA[Frontier AI Defense]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=357015</guid>
+
+	    		<description><![CDATA[<p>Frontier AI accelerates cyberattacks. Palo Alto Networks and the Frontier AI Alliance deliver an industry-standard, unified defense for enterprise AI resilience.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/ai-ecosystem-edge-introducing-frontier-ai-alliance/">The AI Ecosystem Edge — Introducing Our Frontier AI Alliance</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<h3>Acting swiftly with intent, together with Accenture, Deloitte, IBM, NTT DATA and PwC</h3>
+<p>With the imminent release of unbounded frontier models, the barrier to entry for sophisticated cyberattacks has vanished. Anthropic’s Mythos represents a 50% leap in coding capability over previous models. It’s a leap that, as <a href="/blog/2026/04/defenders-guide-frontier-ai-impact-cybersecurity/">Lee Klarich stated</a>, translates into autonomous agents capable of both surfacing a massive surge of vulnerabilities and exploiting them faster than we’ve ever seen or imagined.</p>
+<p>In this new era, business continuity requires more than just better tools; it requires a unified ecosystem of experts capable of orchestrating a defense that matches this new pace of attack.</p>
+<p>As we drive the industry standard for addressing these emerging risks with our <a href="/blog/2026/04/introducing-unit-42-frontier-ai-defense/">Unit 42<sup>®</sup> Frontier AI Defense</a>, we’ve united an alliance of global transformation leaders, starting with Accenture, Deloitte, IBM, NTT DATA and PwC, and will continue to scale these alliances to ensure every enterprise has a rapid path to AI resilience.</p>
+<p><img loading="lazy" decoding="async" class="wp-image-357032 aligncenter" src="/blog/wp-content/uploads/2026/04/image-42-e1776450838359-230x67.png" alt="Frontier AI Alliance: Palo Alto Networks, Accenture, Deloitte, IBM, NTT Data, pwc." width="670" height="195" srcset="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/image-42-e1776450838359-230x67.png 230w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/image-42-e1776450838359-500x145.png 500w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/image-42-e1776450838359-768x222.png 768w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/image-42-e1776450838359-510x148.png 510w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/image-42-e1776450838359-138x40.png 138w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/image-42-e1776450838359-650x188.png 650w, https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/image-42-e1776450838359.png 960w" sizes="auto, (max-width: 670px) 100vw, 670px" /></p>
+<p>By combining the world’s most advanced AI security platform with deep industry expertise, we are delivering the security assessment and rapid protection needed to help customers stop emerging threats and keep their business resilient.</p>
+<div class="nav-carousel">
+        <div class="quotes-carousel">
+            <div class="quotes active">
+                <p><strong>Rex Thexton,<br> Chief Technology Officer, Accenture Cybersecurity:</strong></p>
+                <blockquote><p>As AI-driven attacks accelerate to machine speed, organizations must rethink how they protect critical assets. Together with Palo Alto Networks, we're helping clients automate protection and reduce risk. By enabling an autonomous defense posture that detects and responds in minutes, we can empower organizations to scale their AI innovation with confidence.</p></blockquote>
+            </div>
+            <div class="quotes">
+                <p><strong>Deborah Golden,<br> principal, Deloitte:</strong></p>
+                <blockquote><p>As AI-driven threats accelerate, our mission is to help clients move even faster. By combining Deloitte's implementation experience with Palo Alto Networks' AI blueprint, we are rapidly delivering more complete security coverage to clients with near-real-time responsiveness, turning potential vulnerabilities into a foundation for resilient innovation.</p></blockquote>
+            </div>
+            <div class="quotes">
+                <p><strong>Mark Hughes,<br> Global Managing Partner of Cybersecurity Services, IBM Consulting:</strong></p>
+                <blockquote><p>In an environment where frontier models let attackers move faster than ever, organizations need defenses that can keep up. Joining the Frontier AI Alliance strengthens our commitment to helping organizations prepare for this new class of agentic, machine speed threats. IBM Autonomous Security plus Palo Alto Networks technologies bring together interoperable, vendor-agnostic digital workers that operate across an organization's full security stack, enabling security programs to act as a system rather than a collection of disconnected tools.</p></blockquote>
+            </div>
+            <div class="quotes">
+                <p><strong>Sandip Gupta,<br> Head of Global Strategic Alliances, NTT DATA:</strong></p>
+                <blockquote><p>Frontier AI is reshaping the economics of cyber defense. As threat actors move faster and operate with greater automation, organizations need a more resilient and adaptive approach to protecting business continuity. Through the Frontier AI Alliance, NTT DATA is combining Palo Alto Networks' innovation with its global cybersecurity solutions and deep industry experience to help clients close critical security gaps, reduce complexity and strengthen resilience against AI-powered threats.</p></blockquote>
+            </div>
+            <div class="quotes">
+                <p><strong>Morgan Adamski,<br> Principal and Cyber, Data, &amp; Technology Risk Leader, PwC:</strong></p>
+                <blockquote><p>As AI-enabled cyber risk accelerates in both speed and scale, organizations cannot remediate issues fast enough through traditional approaches. Palo Alto Networks Unit 42 Frontier AI Defense combines Palo Alto Networks innovation in vulnerability discovery with PwC's expertise to prioritize what matters, accelerate remediation, and build governance and resilience frameworks that operate at machine speed.</p></blockquote>
+            </div>
+        </div>
+        <div class="nav" aria-label="carousel">
+            <button onclick="changeSlide(-1)" class="glider-p" aria-label="go to previous" aria-disabled="true"></button>
+            <span>01/05</span>
+            <button onclick="changeSlide(1)" class="glider-n" aria-label="go to next" aria-disabled="false"></button>
+        </div>
+    </div>
+<p>By engaging directly with Palo Alto Networks, or working with our partners through the Frontier AI Alliance, our customers can move past the complexity of building an AI-ready defense from scratch and gain:</p>
+<ul>
+<li>Accelerated Immunity: Go from a high-exposure state to a hardened posture using a prevalidated AI Defense Blueprint, delivering coverage in weeks, not years.</li>
+<li>On-Demand Expertise: Our partners provide the specialized prompting and verification required to make the latest AI Frontier models work for the defender.</li>
+<li>Operational Resilience: While Unit 42 provides the Frontier AI Exposure Analysis, our ecosystem partners provide the boots on the ground to remediate those findings and leverage our product portfolio to deliver AI-readiness to your enterprise.</li>
+</ul>
+<p>The threat of Mythos-class models is imminent, but the path to resilience is clear. Whether you are looking for an immediate strategic assessment or a deep operational overhaul, the Frontier AI Alliance is ready to move at the speed of your business.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/ai-ecosystem-edge-introducing-frontier-ai-alliance/">The AI Ecosystem Edge — Introducing Our Frontier AI Alliance</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/04/ai-ecosystem-edge-introducing-frontier-ai-alliance/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">357015</post-id>    </item>
+        <item>
+	<title>Defender&#039;s Guide to the Frontier AI Impact on Cybersecurity</title>
+	<link>https://www.paloaltonetworks.com/blog/2026/04/defenders-guide-frontier-ai-impact-cybersecurity/</link>
+	    		<comments>https://www.paloaltonetworks.com/blog/2026/04/defenders-guide-frontier-ai-impact-cybersecurity/#respond</comments>
+	    
+	<dc:creator><![CDATA[Lee Klarich]]></dc:creator>
+	<pubDate>Fri, 17 Apr 2026 13:51:12 +0000</pubDate>
+		<dcterms:extent>7</dcterms:extent>
+	<enclosure url="https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/04/PANW-Unit42-AIAdvantage-e1776433374428.jpg" type="image/jpeg"  length="237669"/>
+	    		<category><![CDATA[AI Governance]]></category>
+		<category><![CDATA[AI Security]]></category>
+		<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Points of View]]></category>
+		<category><![CDATA[Products and Services]]></category>
+		<category><![CDATA[Unit 42 Frontier AI Defense]]></category>
+	<guid isPermaLink="false">https://www.paloaltonetworks.com/blog/?p=356996</guid>
+
+	    		<description><![CDATA[<p>Frontier AI models accelerate attacks. Learn the three-phase framework: Assessment, Protection, Platformization. Modernize security operations and match machine speed.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/defenders-guide-frontier-ai-impact-cybersecurity/">Defender&#039;s Guide to the Frontier AI Impact on Cybersecurity</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></description>
+						<content:encoded><![CDATA[<p>The release of the newest frontier AI models marks <a href="/perspectives/weaponized-intelligence/">a turning point for cybersecurity</a>. Palo Alto Networks has conducted early testing of the latest frontier AI models, including Anthropic’s Mythos model as part of <a href="https://www.anthropic.com/glasswing" rel="nofollow,noopener" >Project Glasswing</a> and OpenAI’s latest models as part of <a href="https://openai.com/index/accelerating-cyber-defense-ecosystem/" rel="nofollow,noopener" >Trusted Access for Cyber</a> program. The conclusion is clear: They are extraordinarily capable at finding vulnerabilities and generating corresponding exploits.</p>
+<p>This generational improvement in coding ability directly translates to a significant advance in vulnerability discovery and exploit generation. These capabilities, however guardrailed, will not stay contained. Similar advances will appear across other major AI labs, Chinese models, and open source models. Attackers will find the seams in those guardrails. They will use advanced AI to discover zero-day vulnerabilities at scale, generate exploits in near real time, and develop autonomous attack agents unlike anything the industry has faced.</p>
+<p>Within six months, advanced AI models with deep cybersecurity capabilities will become commonplace. Organizations that have not put appropriate safeguards in place will face an entirely new class of risk across their enterprise and critical infrastructure.</p>
+<h2><a id="post-356996-_hywktaqby7vq"></a>Frontier AI: A Quantum Leap in Code Fluency</h2>
+<p>As you have probably already seen, the latest unbounded models like Mythos represent roughly a 50% improvement in coding efficiency over Anthropic’s previous leading model. Palo Alto Networks has had early access to unbounded models and we’ve been able to leverage this vast improvement in coding to a quantum leap in scanning and offensive capability.</p>
+<p>Hundreds of our best security engineers have been assessing these capabilities and developing best practices for using it effectively. The results revealed several core truths:</p>
+<ul>
+<li><em>Vulnerability discovery at scale</em>: Frontier AI is exceptionally effective at identifying vulnerabilities in code. In less than three weeks, it accomplished the equivalent of a full year’s worth of penetration testing effort.</li>
+<li><em>Attack path determination</em>: Perhaps more impressive than finding individual vulnerabilities, Frontier AI excels at vulnerability chaining, combining multiple lower-severity issues into critical-level exploit paths. For example, linking two medium-severity and one low-severity vulnerability into a single critical exploit.</li>
+<li><em>Full-stack logic analysis</em>: Frontier AI can analyze the full exposure surface of applications, including SaaS and public-facing platforms, identifying logic-based vulnerabilities that traditional tools miss.</li>
+</ul>
+<h2><a id="post-356996-_1hfq80uqokqu"></a>Impacts on the Cyber Landscape</h2>
+<p>Attackers have been using LLMs for years, but based on our testing of frontier AI models, there are three key areas where they will have a significant impact on the cybersecurity landscape:</p>
+<ol>
+<li><em>The Vulnerability Deluge</em>: Frontier AI models will dramatically accelerate the rate at which vulnerabilities are discovered, by defenders and attackers alike. This will be particularly acute in open source and critically, the flood of patches that follows will itself create risk. Every patch that is not applied immediately becomes a known, targetable vulnerability. Organizations will need to accelerate and automate their patching programs, rethink how they prioritize and apply patches, and ensure best-in-class protections are in place to mitigate vulnerability until they can be remediated.</li>
+<li><em>Rise of Inside-Out Attacks</em>: Recent supply chain attacks on tools like LiteLLM and Trivy demonstrate a growing pattern where attacks land adversaries inside an organization’s infrastructure, bypassing multiple conventional attack steps and reducing the number of prevention opportunities available to defenders. The rapid deployment of AI infrastructure has made this problem more acute as the AI supply chain, including runtime environments, communication infrastructure, and model dependencies, is often insufficiently protected. While open source usage and patching practices must become significantly more robust, organizations will need structural containment of potential attacks through zero trust, identity modernization, outbound connection restrictions and lateral movement protections.</li>
+<li><em>Faster AI-Assisted Attack Cycles</em>: I expect the most consequential shift with frontier AI models is the move from AI-assisted to AI-driven attacks. Attackers will build autonomous attack agents that dramatically compress attack cycle times. What once took days or weeks of skilled manual effort will soon be executed in minutes. This democratization of advanced attack capabilities means that defenders must match that speed with near-real-time detection and response, which is only possible with extensive AI and automation throughout security operations. Organizations whose Mean Time to Detection and Mean Time to Response are not measured in low single-digit minutes will be outpaced.</li>
+</ol>
+<h2><a id="post-356996-_235pv6hjhjlw"></a>The Defenders Guide: Assessment, Protection, Platformization</h2>
+<p>The framework for defending against AI-driven threats is not completely new, but the standard for execution must be absolute. Organizations that are “mostly protected” are effectively unprotected. What follows is a phased approach – assessment, protection and platformization – that organizations should pursue in parallel to close gaps before attackers exploit them.</p>
+<p><strong>Assessment:</strong> Every organization should use the latest AI models to assess its entire code and application landscape and build a comprehensive asset and exposure inventory.</p>
+<p>Key priorities:</p>
+<ul>
+<li>Leverage AI models to identify vulnerabilities across your codebase, applications and infrastructure before attackers do.</li>
+<li>Evaluate exposure with full context, including how vulnerabilities chain together to form critical exploit paths.</li>
+<li>Audit your open source supply chain, including AI infrastructure, runtime environments and model dependencies.</li>
+<li>Map your current sensor coverage. Detection, prevention and telemetry gaps represent critical blind spots.</li>
+</ul>
+<p><strong>Protect &amp; Remediation: </strong>Remediating and reducing exposure is table-stakes. What in the past may have been difficult due to cross-organizational friction of finding and fixing at pace should now be accelerated with the c-suite attention of these new AI models. But this must go further and extend to comprehensive deployment of best-in-class attack prevention capabilities where the new standard is 100% coverage and optimization.</p>
+<ul>
+<li>XDR everywhere, with emphasis on real-time ML-based detection and prevention of attacks; all hosts on prem and cloud included.</li>
+<li>Agentic endpoint security to secure wide-scale adoption of vibe coding and AI security across the enterprise (e.g. Prisma AIRS and our recent acquisition of Koi is now a necessity for securing the agentic endpoint).</li>
+<li>With an average of 85% of work now happening in the browser, secure enterprise browsers with real-time security become a must-have for attack prevention.</li>
+<li>Zero trust and identity security are foundational to securing every user and every connection.</li>
+</ul>
+<p><strong>Real-Time Security Operations:</strong> With attack cycle times shrinking rapidly, the legacy approach to security operations simply doesn’t work. Disparate tools analyzing data in silos overlaid with manual processes must be replaced with AI and automation throughout. Cortex XSIAM, our AI-driven SOC platform, is what I consider to be the gold standard for how to take a next-generation approach to deliver MTTD and MTTR in single digit minutes.</p>
+<ul>
+<li>Attack detections must be AI/ML driven to detect even frequently-changing and novel attacks at scale.</li>
+<li>These AI detections must operate against a wide range of 1st party and 3rd party data sources – a best in class AI SOC must operate on ALL relevant data sources.</li>
+<li>Automation both natively integrated and throughout the SOC lifecycle is necessary to achieve single digit MTTR; this automation will increasingly be agentic.</li>
+<li>This must be delivered as a platform to remove the seams and gaps between point solutions.</li>
+</ul>
+<h2><a id="post-356996-_mftxthxx0x9a"></a>We’re Here to Help</h2>
+<p>Achieving this level of resilience requires the right platforms and the right expertise.</p>
+<p>To help you navigate this shift, we are introducing <a href="/unit42/ai-advantage" target="_blank" rel="noopener">Unit 42 Frontier AI Defense</a>. This new offering is designed to discover and remediate your current exposure before attackers do, strengthen controls that reduce exposure and contain impact and modernize operations so teams can detect and respond at machine speed.</p>
+<p>This is the moment we’ve been preparing for. The threat has never been more sophisticated, but the path forward has never been clearer, and we’re here to partner with you on what comes next.</p>
+<p>The post <a href="https://www.paloaltonetworks.com/blog/2026/04/defenders-guide-frontier-ai-impact-cybersecurity/">Defender&#039;s Guide to the Frontier AI Impact on Cybersecurity</a> appeared first on <a href="https://www.paloaltonetworks.com/blog">Palo Alto Networks Blog</a>.</p>
+]]></content:encoded>
+			    
+	    		<wfw:commentRss>https://www.paloaltonetworks.com/blog/2026/04/defenders-guide-frontier-ai-impact-cybersecurity/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	    
+	    
+	    <post-id xmlns="com-wordpress:feed-additions:1">356996</post-id>    </item>
+    </channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Page Caching using Disk: Enhanced (Page is feed) 
+
+Served from: www.paloaltonetworks.com @ 2026-05-06 10:26:33 by W3 Total Cache
+-->
