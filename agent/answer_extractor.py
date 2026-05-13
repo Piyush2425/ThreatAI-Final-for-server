@@ -132,20 +132,23 @@ class AnswerExtractor:
             if cleaned and cleaned.lower() not in seen:
                 tactics.append({
                     'tactic': cleaned,
+                    'description': evidence_text[:240] + '...' if len(evidence_text) > 240 else evidence_text,
                     'evidence': evidence_text[:200] + '...' if len(evidence_text) > 200 else evidence_text,
                     'source': source
                 })
                 seen.add(cleaned.lower())
 
-        def add_unique(collection: List[Dict[str, Any]], seen_set: set, value: str, source: str, key_name: str):
+        def add_unique(collection: List[Dict[str, Any]], seen_set: set, value: str, source: str, key_name: str, evidence_text: str = ''):
             cleaned = value.strip()
             if not cleaned:
                 return
             key = cleaned.lower()
             if key in seen_set:
                 return
+            description = evidence_text[:240] + '...' if evidence_text and len(evidence_text) > 240 else (evidence_text or f"Description unavailable for {cleaned}")
             collection.append({
                 key_name: cleaned,
+                'description': description,
                 'source': source,
             })
             seen_set.add(key)
@@ -185,15 +188,15 @@ class AnswerExtractor:
 
             embedded_techniques = split_labeled_entries(original_text, 'Techniques Used')
             for item in embedded_techniques:
-                add_unique(techniques, seen_techniques, item, metadata.get('source_field', 'entity_profile'), 'technique')
+                add_unique(techniques, seen_techniques, item, metadata.get('source_field', 'entity_profile'), 'technique', original_text)
 
             embedded_software = split_labeled_entries(original_text, 'Software Used')
             for item in embedded_software:
-                add_unique(software, seen_software, item, metadata.get('source_field', 'entity_profile'), 'software')
+                add_unique(software, seen_software, item, metadata.get('source_field', 'entity_profile'), 'software', original_text)
 
             if metadata.get('source_field') == 'tools':
                 for item in split_items(chunk['text']):
-                    add_unique(software, seen_software, item, 'tools', 'software')
+                    add_unique(software, seen_software, item, 'tools', 'software', chunk['text'])
             
             # Look for common TTP patterns
             patterns = [
@@ -432,6 +435,7 @@ class AnswerExtractor:
                 tools.append({
                     'tool': cleaned,
                     'type': 'malware/tool',
+                    'description': f"Evidence-derived tool mention: {cleaned}",
                     'source': source
                 })
                 seen.add(cleaned.lower())
@@ -1114,9 +1118,9 @@ class AnswerExtractor:
         if not tools:
             return "No specific tools or malware were identified in the available data."
         
-        tool_names = [t['tool'] for t in tools[:8]]
         summary = "**Tools & Malware**\n"
-        summary += ", ".join(tool_names)
+        for tool in tools[:8]:
+            summary += f"- {tool['tool']} - {tool.get('description') or 'Description unavailable'}\n"
         return summary
 
     def _format_vulnerabilities_summary(self, vulnerabilities: List[Dict], query: str) -> str:
@@ -1129,7 +1133,7 @@ class AnswerExtractor:
 
         summary = "**Exploited Vulnerabilities**\n"
         for finding in vulnerabilities[:8]:
-            summary += f"- {finding['vulnerability']}\n"
+            summary += f"- {finding['vulnerability']} - {finding.get('context') or 'Description unavailable'}\n"
         return summary.strip()
     
     def _format_origin_summary(self, origin: Dict, query: str) -> str:

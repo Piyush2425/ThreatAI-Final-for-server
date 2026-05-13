@@ -71,6 +71,11 @@ def normalize_actors(actors: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 def normalize_mitre_groups(groups: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """Normalize MITRE ATT&CK group records into the actor schema."""
     normalized = []
+
+    def _ensure_description(text: str, fallback: str) -> str:
+        cleaned = (text or '').strip()
+        return cleaned if cleaned else fallback
+
     for group in groups or []:
         group_id = group.get('group_id') or ''
         name = group.get('group_name') or ''
@@ -93,8 +98,7 @@ def normalize_mitre_groups(groups: List[Dict[str, Any]]) -> List[Dict[str, Any]]
                 details = [label]
                 if software_type:
                     details.append(f"type={software_type}")
-                if software_desc:
-                    details.append(software_desc)
+                details.append(_ensure_description(software_desc, "Description unavailable from MITRE source"))
                 software_details.append(" | ".join(details))
 
         techniques = []
@@ -118,8 +122,7 @@ def normalize_mitre_groups(groups: List[Dict[str, Any]]) -> List[Dict[str, Any]]
                 else:
                     details.append(tech_id)
                 tech_desc = technique.get('description') or ''
-                if tech_desc:
-                    details.append(tech_desc)
+                details.append(_ensure_description(tech_desc, "Description unavailable from MITRE source"))
                 subtechniques = technique.get('sub_techniques') or []
                 subtechnique_labels = []
                 for sub in subtechniques:
