@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:atom="http://www.w3.org/2005/Atom"
+        >
+
+<channel>
+        <title>BleepingComputer</title>
+
+        <link>https://www.bleepingcomputer.com/</link>
+        <description>BleepingComputer - All Stories</description>
+        <pubDate>Wed, 13 May 2026 06:13:12 GMT</pubDate>
+        <generator>https://www.bleepingcomputer.com/</generator>
+        <language>en</language>
+        <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
+        
+ <item>
+        <title>US govt seeks Instructure testimony on massive Canvas cyberattack</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/</link>
+        <pubDate>Tue, 12 May 2026 19:09:55 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/</guid>
+        <description><![CDATA[The U.S. House Committee on Homeland Security is calling on Instructure executives to testify about two cyberattacks by the ShinyHunters extortion group that targeted the company's Canvas platform, allowing threat actors to steal student data and disrupt schools during final exams. [...]]]></description>
+ </item>
+
+ <item>
+        <title>UK fines water supplier $1.3M for exposing data of 664k customers</title>
+        <link>https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/</link>
+        <pubDate>Tue, 12 May 2026 16:17:19 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/</guid>
+        <description><![CDATA[The Information Commissioner's Office has fined South Staffordshire Water Plc and parent company South Staffordshire Plc £963,900 ($1.3 million) over a cyberattack that exposed the personal data of 663,887 customers and employees. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Webinar: Fixing the gaps in network incident response</title>
+        <link>https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/</link>
+        <pubDate>Tue, 12 May 2026 15:46:04 -0400</pubDate>
+        <dc:creator>BleepingComputer</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/</guid>
+        <description><![CDATA[IT teams often struggle to quickly coordinate responses across disparate systems during network incidents. This upcoming webinar explores how automation and AI-assisted workflows can reduce response times and help prevent outages. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Signal adds security warnings for social engineering, phishing attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/</link>
+        <pubDate>Tue, 12 May 2026 15:40:31 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/</guid>
+        <description><![CDATA[Signal has introduced new in-app confirmations and warning messages as additional safeguards against phishing and social engineering attempts that could lead to various forms of fraud. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft releases Windows 10 KB5087544 extended security update</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5087544-extended-security-update/</link>
+        <pubDate>Tue, 12 May 2026 14:58:34 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5087544-extended-security-update/</guid>
+        <description><![CDATA[Microsoft has released the Windows 10 KB5087544 extended security update to fix the May 2026 Patch Tuesday vulnerabilities and resolve an issue with the new Remote Desktop warnings. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Fortinet warns of critical RCE flaws in FortiSandbox and FortiAuthenticator</title>
+        <link>https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/</link>
+        <pubDate>Tue, 12 May 2026 14:23:09 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/</guid>
+        <description><![CDATA[Fortinet has released security patches for two critical vulnerabilities in FortiSandbox and FortiAuthenticator that could enable attackers to run commands or arbitrary code. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 11 KB5089549 &amp; KB5087420 cumulative updates released</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089549-and-kb5087420-cumulative-updates-released/</link>
+        <pubDate>Tue, 12 May 2026 14:09:12 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089549-and-kb5087420-cumulative-updates-released/</guid>
+        <description><![CDATA[Microsoft has released Windows 11 KB5089549 and KB5087420 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft May 2026 Patch Tuesday fixes 120 flaws, no zero-days</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2026-patch-tuesday-fixes-120-flaws-no-zero-days/</link>
+        <pubDate>Tue, 12 May 2026 14:08:06 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2026-patch-tuesday-fixes-120-flaws-no-zero-days/</guid>
+        <description><![CDATA[Today is Microsoft's May 2026 Patch Tuesday, with security updates for 120 flaws and no zero-days disclosed this month. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Škoda warns of customer data breach after online shop hack</title>
+        <link>https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/</link>
+        <pubDate>Tue, 12 May 2026 13:07:01 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/</guid>
+        <description><![CDATA[Škoda Auto, a wholly owned subsidiary of the Volkswagen Group, has disclosed a data breach after attackers hacked its online shop and stole the personal information of an undisclosed number of customers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Android 17 to expand banking scam call and privacy protections</title>
+        <link>https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/</link>
+        <pubDate>Tue, 12 May 2026 13:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/</guid>
+        <description><![CDATA[Android 17, expected to roll out next month, will introduce several security and privacy features focused on device theft, threat detection, and banking scam calls. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Shai Hulud attack ships signed malicious TanStack, Mistral npm packages</title>
+        <link>https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/</link>
+        <pubDate>Tue, 12 May 2026 07:29:36 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/</guid>
+        <description><![CDATA[Hundreds of packages across npm and PyPI have been compromised in a new Shai-Hulud supply-chain campaign delivering credential-stealing malware targeting developers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>SAP fixes critical vulnerabilities in Commerce Cloud and S/4HANA</title>
+        <link>https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/</link>
+        <pubDate>Tue, 12 May 2026 07:04:55 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/</guid>
+        <description><![CDATA[SAP has released the May 2026 security updates addressing 15 vulnerabilities across multiple products, including two critical flaws in the Commerce Cloud enterprise-grade e-commerce platform and the S/4HANA ERP suite. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Instructure reaches 'agreement' with ShinyHunters to stop data leak</title>
+        <link>https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/</link>
+        <pubDate>Tue, 12 May 2026 05:23:56 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/</guid>
+        <description><![CDATA[Instructure, the edtech giant behind the widely popular Canvas learning management system (LMS), has reached an "agreement" with the ShinyHunters extortion group to prevent the data stolen in a recent breach from being leaked online. [...]]]></description>
+ </item>
+
+ <item>
+        <title>GM agrees to $12.75M California settlement over sale of drivers’ data</title>
+        <link>https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/</link>
+        <pubDate>Mon, 11 May 2026 18:40:34 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Legal]]></category>
+
+        <category><![CDATA[Government]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/</guid>
+        <description><![CDATA[California Attorney General Rob Bonta announced a proposed $12.75 million settlement agreement with General Motors (GM) over allegations that the company violated the California Consumer Privacy Act (CCPA). [...]]]></description>
+ </item>
+
+ <item>
+        <title>Official CheckMarx Jenkins package compromised with infostealer</title>
+        <link>https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/</link>
+        <pubDate>Mon, 11 May 2026 18:03:06 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/</guid>
+        <description><![CDATA[Checkmarx warned over the weekend that a rogue version of its Jenkins Application Security Testing (AST) plugin had been published on the Jenkins Marketplace. [...]]]></description>
+ </item>
+
+</channel>
+</rss>

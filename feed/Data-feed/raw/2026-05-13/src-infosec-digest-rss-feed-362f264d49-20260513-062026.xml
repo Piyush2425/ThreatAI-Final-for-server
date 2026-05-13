@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>InfoSec Digest Archives - Blogs</title>
+	<atom:link href="https://www.tsfactory.com/forums/blogs/category/infosec-digest/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.tsfactory.com/forums/blogs/category/infosec-digest/</link>
+	<description>TSFactory</description>
+	<lastBuildDate>Tue, 31 Mar 2026 08:48:02 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://www.tsfactory.com/forums/blogs/wp-content/uploads/sites/16/2020/02/tsflogo_favicon.png</url>
+	<title>InfoSec Digest Archives - Blogs</title>
+	<link>https://www.tsfactory.com/forums/blogs/category/infosec-digest/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Hacking Myths vs Reality</title>
+		<link>https://www.tsfactory.com/forums/blogs/hacking-myths-vs-reality/</link>
+		
+		<dc:creator><![CDATA[Chelsie Wyatt]]></dc:creator>
+		<pubDate>Tue, 31 Mar 2026 08:35:10 +0000</pubDate>
+				<category><![CDATA[InfoSec Digest]]></category>
+		<guid isPermaLink="false">https://www.tsfactory.com/forums/blogs/?p=1272</guid>
+
+					<description><![CDATA[<p>Hacking Myths vs Reality Hacking has long been surrounded by mystery, often shaped more by movies and pop culture than by reality. From dramatic scenes of hooded figures typing furiously in dark rooms to instant access to highly secure systems, the portrayal of hacking is often exaggerated and misleading. In reality, cybersecurity and hacking are [&#8230;]</p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/hacking-myths-vs-reality/">Hacking Myths vs Reality</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h2><b>Hacking Myths vs Reality</b></h2>
+<p><span style="font-weight: 400;">Hacking has long been surrounded by mystery, often shaped more by movies and pop culture than by reality. From dramatic scenes of hooded figures typing furiously in dark rooms to instant access to highly secure systems, the portrayal of hacking is often exaggerated and misleading. In reality, cybersecurity and hacking are far more complex, methodical, and, in many cases, less glamorous than people. This article separates common hacking myths from the real-world truth.</span></p>
+<h2><b>Myth 1: Hacking Happens Instantly</b></h2>
+<p><span style="font-weight: 400;">Reality:</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">In movies, hackers break into systems within seconds. In real life, hacking is usually a slow and deliberate process. Ethical hackers and cybercriminals alike spend hours, days, or even weeks gathering information, scanning systems, and testing vulnerabilities before gaining access.</span></p>
+<p><span style="font-weight: 400;">Successful attacks often involve multiple stages, including reconnaissance, exploitation, and maintaining access , not just a single click.</span></p>
+<h2><b>Myth 2: Hackers Always Wear Hoodies and Work Alone</b></h2>
+<p><span style="font-weight: 400;">Reality:</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">The “lone hacker in a hoodie” stereotype is largely fictional. While some individuals do work independently, many cyberattacks are carried out by organized groups or even state-sponsored teams.</span></p>
+<p><span style="font-weight: 400;">These groups operate like businesses, with defined roles such as developers, analysts, and social engineers.</span></p>
+<h2><b>Myth 3: Only Highly Skilled Geniuses Can Hack</b></h2>
+<p><span style="font-weight: 400;">Reality:</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">While advanced hacking does require expertise, many attacks rely on simple techniques and widely available tools. For example, phishing attacks or password guessing don’t always require deep technical knowledge.</span></p>
+<p><span style="font-weight: 400;">In fact, many successful breaches happen because of human error rather than sophisticated hacking techniques.</span></p>
+<h2><b>Myth 4: Antivirus Software Provides Complete Protection</b></h2>
+<p><span style="font-weight: 400;">Reality:</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">Antivirus software is an important layer of security, but it is not foolproof. Modern cyber threats, such as zero-day exploits and advanced persistent threats, can bypass traditional defenses.</span></p>
+<p><span style="font-weight: 400;">Effective cybersecurity requires a layered approach, including firewalls, intrusion detection systems, regular updates, and user awareness.</span></p>
+<h2><b>Myth 5: Strong Passwords Are Enough</b></h2>
+<p><span style="font-weight: 400;">Reality:</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">Even strong passwords can be compromised through data breaches, phishing, or credential stuffing. While complex passwords help, they are no longer sufficient on their own.</span></p>
+<p><span style="font-weight: 400;">Multi-factor authentication (MFA) adds an essential extra layer of security and is now considered a best practice.</span></p>
+<h2><b>Myth 6: Hacking Is Always Illegal</b></h2>
+<p><span style="font-weight: 400;">Reality:</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">Not all hacking is malicious. Ethical hacking, also known as penetration testing, is a legitimate and essential part of cybersecurity. Organizations hire ethical hackers to identify and fix vulnerabilities before attackers can exploit them.</span></p>
+<p><span style="font-weight: 400;">This practice helps strengthen systems and protect sensitive data.</span></p>
+<h2><b>Myth 7: Small Businesses Aren’t Targets</b></h2>
+<p><span style="font-weight: 400;">Reality:</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">Many people believe hackers only target large corporations, but small businesses are often more vulnerable due to weaker security measures.</span></p>
+<p><span style="font-weight: 400;">Attackers frequently target smaller organizations because they are easier to breach and still provide valuable data.</span></p>
+<h2><b>Myth 8: Cybersecurity Is Only an IT Problem</b></h2>
+<p><span style="font-weight: 400;">Reality:</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">Cybersecurity is a shared responsibility across an organization. Employees at all levels play a critical role in maintaining security, especially when it comes to recognizing phishing attempts and following best practices.</span></p>
+<p><span style="font-weight: 400;">Human behavior is often the weakest link in security.</span></p>
+<h2><b>Myth 9: Once You’re Hacked, There’s Nothing You Can Do</b></h2>
+<p><span style="font-weight: 400;">Reality:</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">While a cyberattack can be serious, organizations can recover with proper incident response plans. Quick action such as isolating affected systems, notifying stakeholders, and restoring backups can minimize damage.</span></p>
+<p><span style="font-weight: 400;">Preparation and response planning are key to resilience.</span></p>
+<h2><b>Myth 10: Hackers Only Target Financial Data</b></h2>
+<p><span style="font-weight: 400;">Reality:</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">Hackers target a wide range of data, including personal information, intellectual property, login credentials, and even access to systems for future attacks.</span></p>
+<p><span style="font-weight: 400;">In many cases, data is stolen not just for immediate profit but for long-term exploitation.</span></p>
+<h2><b>Conclusion</b></h2>
+<p><span style="font-weight: 400;">The world of hacking is far more nuanced than popular myths suggest. While movies and media often dramatize cyberattacks, the reality is rooted in strategy, patience, and often simple human mistakes.</span></p>
+<p><span style="font-weight: 400;">Understanding the difference between myths and reality is essential for improving cybersecurity awareness. By recognizing real threats and adopting best practices—such as using multi-factor authentication, staying informed, and maintaining strong security habits—individuals and organizations can better protect themselves in an increasingly digital world.</span></p>
+<p><b>Monitoring Remote Sessions</b></p>
+<p><span style="font-weight: 400;">Security monitoring is crucial for preventing ransomware attacks as it enables early detection, identification of vulnerabilities, monitoring for anomalies, data protection, and compliance with regulatory requirements. </span></p>
+<p><a href="https://www.tsfactory.com/"><span style="font-weight: 400;">RecordTS</span> </a><span style="font-weight: 400;">will record Windows remote sessions reliably and securely for RDS, Citrix and VMware systems. Scalable from small offices with one server to enterprise networks with tens of thousands of desktops and servers, RecordTS integrates seamlessly with the native environment.</span></p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/hacking-myths-vs-reality/">Hacking Myths vs Reality</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>What is a HIPAA Violation?</title>
+		<link>https://www.tsfactory.com/forums/blogs/what-is-a-hipaa-violation/</link>
+		
+		<dc:creator><![CDATA[Chelsie Wyatt]]></dc:creator>
+		<pubDate>Tue, 03 Mar 2026 10:16:52 +0000</pubDate>
+				<category><![CDATA[InfoSec Digest]]></category>
+		<guid isPermaLink="false">https://www.tsfactory.com/forums/blogs/?p=1256</guid>
+
+					<description><![CDATA[<p>What Is a HIPAA Violation? A HIPAA violation occurs when a covered entity (like a healthcare provider, health plan, or healthcare clearinghouse) or a business associate fails to follow the privacy, security, or breach notification rules set out under the Health Insurance Portability and Accountability Act (HIPAA). These rules are designed to protect individuals’ Protected [&#8230;]</p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/what-is-a-hipaa-violation/">What is a HIPAA Violation?</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><b>What Is a HIPAA Violation?</b></p>
+<p><span style="font-weight: 400;">A HIPAA violation occurs when a covered entity (like a healthcare provider, health plan, or healthcare clearinghouse) or a business associate fails to follow the privacy, security, or breach notification rules set out under the Health Insurance Portability and Accountability Act (HIPAA). These rules are designed to protect individuals’ Protected Health Information (PHI)  including medical records, health histories, and other sensitive data. </span></p>
+<p><span style="font-weight: 400;">Failure to comply can be expensive with the HIPAA violation fines range from $100 to over $4 million. There are two types of HIPAA violations &#8211; civil or criminal and each of them has a different fine structure that is explained below.</span></p>
+<p><b>Civil HIPAA Penalties</b></p>
+<p><span style="font-weight: 400;"><a href="https://www.ama-assn.org/practice-management/hipaa/hipaa-violations-enforcement">Civil penalties</a> apply when a HIPPA violation occurs without malicious intent. In these cases, the individual may have acted unknowingly, carelessly, or without fully understanding the requirements of HIPAA. Penalties are assessed based on the level of negligence involved and may include the following:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Unknowing violation: If the individual was unaware that a HIPAA violation occurred, fines may be $100 per violation.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Reasonable cause: If there was a valid reason for the action and no willful neglect, fines may start at $1,000 per violation.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Willful neglect (corrected): If the violation resulted from willful neglect but was later corrected, fines may be at least $10,000 per violation.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Willful neglect (not corrected): If the individual acted with willful neglect and failed to correct the issue, fines may be $50,000 or more per violation.</span></li>
+</ul>
+<p><b>Criminal HIPAA Penalties</b></p>
+<p><span style="font-weight: 400;">Criminal HIPAA penalties apply when a violation is committed with malicious or intentional intent. These penalties are significantly more severe than civil penalties and may include fines and imprisonment:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Knowingly obtaining or disclosing PHI: Fines of up to $50,000 and up to one year in prison.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Violations under false pretenses: Fines of up to $100,000 and up to five years in prison.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Violations for personal gain or harm: If PHI is sold or used to harm a patient, penalties can reach $250,000 in fines and up to ten years in prison.</span></li>
+</ul>
+<p>&nbsp;</p>
+<table class="table table-hover">
+<tbody>
+<tr>
+<td><span style="font-weight: 400;">Penalty Tier</span></td>
+<td><span style="font-weight: 400;">Culpability </span></td>
+<td><span style="font-weight: 400;">Minimum Penalty per Violation</span></td>
+<td><span style="font-weight: 400;">Maximum Penalty per Violation</span></td>
+<td><span style="font-weight: 400;">Annual Penalty Cap</span></td>
+</tr>
+<tr>
+<td><span style="font-weight: 400;">Tier 1</span></td>
+<td><span style="font-weight: 400;">Lack of Knowledge</span></td>
+<td><span style="font-weight: 400;">$145</span></td>
+<td><span style="font-weight: 400;">$36,505.50</span></td>
+<td><span style="font-weight: 400;">$36,505.50</span></td>
+</tr>
+<tr>
+<td><span style="font-weight: 400;">Tier 2</span></td>
+<td><span style="font-weight: 400;">Reasonable Cause</span></td>
+<td><span style="font-weight: 400;">$1,461</span></td>
+<td><span style="font-weight: 400;">$73,011</span></td>
+<td><span style="font-weight: 400;">$146,053</span></td>
+</tr>
+<tr>
+<td><span style="font-weight: 400;">Tier 3</span></td>
+<td><span style="font-weight: 400;">Willful Neglect</span></td>
+<td><span style="font-weight: 400;">$14,602</span></td>
+<td><span style="font-weight: 400;">$73,011</span></td>
+<td><span style="font-weight: 400;">$365,052</span></td>
+</tr>
+<tr>
+<td><span style="font-weight: 400;">Tier 4</span></td>
+<td><span style="font-weight: 400;">Willful neglect (not corrected within 30 days</span></td>
+<td><span style="font-weight: 400;">$73,011</span></td>
+<td><span style="font-weight: 400;">$2,190,294</span></td>
+<td><span style="font-weight: 400;">$2,190,294</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><b>Examples of HIPPA Violations </b></p>
+<p>&nbsp;</p>
+<ol>
+<li><b>   Misplacing (losing) work devices</b></li>
+</ol>
+<p><span style="font-weight: 400;">Mobile devices serve various purposes for their users, and for employees working in the healthcare industry, they are a tool that offers them convenience and more productive processes. Mobile devices can be used to access medical records, contact clients, and schedule appointments, among many other tasks. </span></p>
+<p><span style="font-weight: 400;">While this makes them exceptionally convenient for the modern medical industry, it also makes them a target. If your company’s devices store PHI, and you lose them, that will be classified as a HIPAA violation, resulting in you having to pay fines. </span></p>
+<ol start="2">
+<li><b> Inadequate security training</b></li>
+</ol>
+<p><span style="font-weight: 400;">An aspect of remaining HIPAA-compliant is to educate your team members on the importance of cybersecurity and how to exercise HIPAA regulations within your company operations. Organizations that do not invest in high-quality employee training are more likely to succumb to other HIPAA violations and cyber threats. </span></p>
+<ol start="3">
+<li><b> Leveraging technologies that do not conform with HIPAA compliance</b></li>
+</ol>
+<p><span style="font-weight: 400;">According to HIPAA’s Security Rule, healthcare organizations are obligated to deploy “administrative, technical, and physical safeguards for protecting e-PHI”. In other words, you must only use technological solutions that deploy innovative cybersecurity measures to protect data and patient information within the workplace and while it is in transit.</span></p>
+<p><span style="font-weight: 400;">Failing to use these sorts of tools (for example, a specific software application) can constitute a HIPAA violation because the solution does not meet HIPAA’s criteria for effective PHI management.</span></p>
+<ol start="4">
+<li><b> Unauthorized access to sensitive information</b></li>
+</ol>
+<p><span style="font-weight: 400;">One of the more common HIPAA violations, unauthorized access involves an entity breaching protocols to access information within your network. Unauthorized access often occurs in several ways such as the use of stolen credentials, the installation of malicious software, losing an unprotected work device, and more.  </span></p>
+<p><span style="font-weight: 400;">In the eyes of the OCR, data privacy is foundational to HIPAA compliance. Regardless of one’s intention for accessing the information, only authorized personnel should be privy to the data.   </span></p>
+<ol start="5">
+<li><b> Defying the Breach Notification Rule</b></li>
+</ol>
+<p><span style="font-weight: 400;">Simply put, the Breach Notification Rule is a HIPAA requirement that specifies that HIPAA-covered entities and their corresponding business associates must report all security breach incidents. Generally speaking, the timeframe for issuing a report is 60 days, though the specific time you are required to make the notification to the HHS depends on the violation’s number of victims. Not reporting violations on time is a common occurrence.</span></p>
+<ol start="6">
+<li><b> Exposing PHI to unauthorized parties</b></li>
+</ol>
+<p><span style="font-weight: 400;">Data privacy is important for healthcare organizations, as the information they have can be used to exploit patients. This HIPAA violation relates to the Privacy Rule- the part of HIPAA that deals with the protection of patient information and its disclosure. </span></p>
+<p><span style="font-weight: 400;">Outside of data breaches, PHI can be exposed to unauthorized personnel in several ways. This includes:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Passing along incorrect information.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Conducting classified conversations in public settings, within earshot of others.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Mishandling PHI.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Disclosing PHI after the patient has revoked their permission.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Data leaks after sensitive devices were lost or stolen.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Disclosing PHI without considering the minimum necessary rule</span></li>
+</ul>
+<ol start="7">
+<li><b> Incorrectly disposing of PHI</b></li>
+</ol>
+<p><span style="font-weight: 400;">Once the PHI of a patient is not needed or the period where it must be kept within your network has passed, HIPAA-covered entities must destroy the record permanently. This can be done through the shredding of paper records and the permanent deletion of digital information. Any device that contains PHI should also be destroyed to ensure that its data cannot be retrieved by others and used for malicious purposes.</span></p>
+<p><b>Conclusion</b></p>
+<p><span style="font-weight: 400;">HIPAA penalties are designed to reflect the seriousness of a violation and the intent behind it. While civil penalties address unintentional or negligent actions, criminal penalties are reserved for deliberate and malicious misuse of protected health information. Understanding these distinctions emphasizes the importance of HIPAA compliance, proper training, and timely corrective actions to protect patient privacy and avoid severe legal and financial consequences.</span></p>
+<p><b>Monitoring Remote Sessions</b></p>
+<p><span style="font-weight: 400;">Security monitoring is crucial for preventing ransomware attacks as it enables early detection, identification of vulnerabilities, monitoring for anomalies, data protection, and compliance with regulatory requirements. </span></p>
+<p><a href="https://www.tsfactory.com/"><span style="font-weight: 400;">RecordTS </span></a><span style="font-weight: 400;">will record Windows remote sessions reliably and securely for RDS, Citrix and VMware systems. Scalable from small offices with one server to enterprise networks with tens of thousands of desktops and servers, RecordTS integrates seamlessly with the native environment.</span></p>
+<p>&nbsp;</p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/what-is-a-hipaa-violation/">What is a HIPAA Violation?</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Blockchain in Cybersecurity &#8211; Will It Really Make the Internet More Secure?</title>
+		<link>https://www.tsfactory.com/forums/blogs/top-uses-of-blockchain-in-cybersecurity/</link>
+		
+		<dc:creator><![CDATA[Chelsie Wyatt]]></dc:creator>
+		<pubDate>Tue, 20 Jan 2026 10:27:06 +0000</pubDate>
+				<category><![CDATA[InfoSec Digest]]></category>
+		<guid isPermaLink="false">https://www.tsfactory.com/forums/blogs/?p=1180</guid>
+
+					<description><![CDATA[<p>Top Uses of Blockchain in Cybersecurity &#8211; And Will It Really Make the Internet More Secure? As cyberattacks grow more sophisticated and data breaches become almost routine, organizations are rethinking how trust and security are built into the internet. Traditional cybersecurity models rely heavily on centralized control, firewalls, databases and authorities that, if compromised, can [&#8230;]</p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/top-uses-of-blockchain-in-cybersecurity/">Blockchain in Cybersecurity &#8211; Will It Really Make the Internet More Secure?</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><b>Top Uses of Blockchain in Cybersecurity &#8211; And Will It Really Make the Internet More Secure?</b></p>
+<p><span style="font-weight: 400;">As cyberattacks grow more sophisticated and data breaches become almost routine, organizations are rethinking how trust and security are built into the internet. Traditional cybersecurity models rely heavily on centralized control, firewalls, databases and authorities that, if compromised, can expose millions of users at once.</span></p>
+<p><span style="font-weight: 400;">Blockchain technology proposes a different approach. By decentralizing trust and embedding security at the protocol level, blockchain has emerged as a promising tool in modern cybersecurity strategies. But how practical is it, and can it truly make the internet more secure?</span></p>
+<p><span style="font-weight: 400;">Let’s explore the top uses of blockchain in cybersecurity and examine its real-world impact.</span></p>
+<p><b>Top Uses of Blockchain in Cybersecurity</b></p>
+<ol>
+<li><b> Decentralized Identity Management</b></li>
+</ol>
+<p><span style="font-weight: 400;">One of the most promising applications of blockchain in cybersecurity is decentralized identity (DID).</span></p>
+<p><span style="font-weight: 400;">This innovative approach fundamentally alters the way we think about digital identity. By leveraging blockchain, individuals can create and manage their own identities, deciding what information to share and with whom. This not only enhances privacy but also reduces the risk of large-scale data breaches that have plagued centralised systems. Moreover, it opens up new possibilities for seamless, secure authentication across various platforms and services, potentially eliminating the need for multiple usernames and passwords.</span></p>
+<p><b>Security benefits:</b></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Reduces password-based attacks and phishing</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Eliminates large identity databases that hackers target</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Gives users control over what data they share</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">This model significantly lowers the risk of mass credential breaches</span></li>
+</ul>
+<ol start="2">
+<li><b> Tamper-Proof Data Integrity</b></li>
+</ol>
+<p><span style="font-weight: 400;">Blockchain’s immutability makes it ideal for protecting sensitive data from unauthorized modification.</span></p>
+<p><span style="font-weight: 400;">Once data is recorded on a blockchain, it cannot be altered without consensus from the network, making tampering highly visible and practically infeasible. In practice, this means that every action, transaction, or change within a system can be recorded in a way that is virtually impossible to manipulate. This level of transparency is particularly crucial in industries where regulatory compliance is paramount, such as finance or healthcare. It allows for real-time monitoring of activities, swift detection of anomalies, and provides an unassailable record for forensic analysis in the event of a security breach.</span></p>
+<p><span style="font-weight: 400;">Use cases include:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Protecting system logs</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Securing legal and compliance records</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Preserving evidence in digital forensics</span></li>
+</ul>
+<p><span style="font-weight: 400;">This is particularly valuable in environments where data integrity is more important than data secrecy.</span></p>
+<ol start="3">
+<li><b> Secure IoT Networks</b></li>
+</ol>
+<p><span style="font-weight: 400;">Internet of Things (IoT) devices are notorious for weak security and limited processing power. Blockchain can help by enabling decentralized authentication and communication between devices. For example, Freight transportation moving freight is a complex process involving different parties with different priorities. An IoT-enabled blockchain can store the temperatures, position, arrival times and status of shipping containers as they move.</span></p>
+<p><span style="font-weight: 400;">How blockchain helps IoT security:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Devices can authenticate without a central server</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Eliminates single points of failure</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Prevents unauthorized device access</span></li>
+</ul>
+<p><span style="font-weight: 400;">This approach reduces the risk of large-scale botnet attacks like those seen in recent years.</span></p>
+<ol start="4">
+<li><b> Improved Supply Chain Security</b></li>
+</ol>
+<p><span style="font-weight: 400;">Cyberattacks increasingly target software and hardware supply chains. Blockchain provides a transparent and verifiable ledger of transactions and updates across the entire chain. For industries dealing with sensitive or high-value goods, such as pharmaceuticals or luxury items, this level of traceability is invaluable. It not only protects against counterfeiting but also ensures the integrity of the product throughout its lifecycle, from manufacture to end-user.</span></p>
+<p><b>Security advantages:</b></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Verifiable software updates</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Detection of counterfeit or malicious components</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">End-to-end traceability</span></li>
+</ul>
+<p><span style="font-weight: 400;">This makes it harder for attackers to insert malicious code without detection.</span></p>
+<ol start="5">
+<li><b> Distributed Denial-of-Service (DDoS) Mitigation</b></li>
+</ol>
+<p><span style="font-weight: 400;">Traditional systems rely on centralized servers that are vulnerable to DDoS attacks. Blockchain-based architectures distribute data and services across many nodes. This decentralisation allows for a more robust defence mechanism against DDoS attacks, which have become increasingly common and sophisticated. By spreading the load across multiple nodes, the network can absorb and mitigate the impact of an attack, ensuring that services remain operational even under duress. This is particularly vital for businesses that rely on continuous online presence, as it safeguards their reputation and customer trust.</span></p>
+<p><b>Result:</b></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">No single target for attackers</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Improved resilience and uptime</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Faster recovery from attacks</span></li>
+</ul>
+<p><span style="font-weight: 400;">While blockchain alone doesn’t stop DDoS attacks, it significantly reduces their effectiveness.</span></p>
+<ol start="6">
+<li><b> Secure Sharing of Threat Intelligence</b></li>
+</ol>
+<p><span style="font-weight: 400;">Cybersecurity depends on sharing threat data,IP addresses, malware signatures, attack patterns but trust between organizations is often limited. Blockchain enables secure, verifiable sharing of threat intelligence without relying on a single authority. By leveraging blockchain for threat intelligence, organisations can create a reliable repository of information that is resistant to tampering.</span></p>
+<p><b>Benefits include:</b></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Data authenticity verification</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Transparent contribution tracking</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Reduced misinformation</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">This can improve collective defense across industries.</span></li>
+</ul>
+<p><b>Will Blockchain Really Make the Internet More Secure?</b></p>
+<p><span style="font-weight: 400;">The answer is yes but with important limitations.</span></p>
+<p><b>What Blockchain Does Well</b></p>
+<ul>
+<li><span style="font-weight: 400;">Eliminates single points of failure</span></li>
+<li><span style="font-weight: 400;">Enhances transparency and auditability</span></li>
+<li><span style="font-weight: 400;">Reduces reliance on centralized trust</span></li>
+<li><span style="font-weight: 400;">Strengthens data integrity and identity security</span></li>
+</ul>
+<p><b>Where Blockchain Falls Short</b></p>
+<ul>
+<li><span style="font-weight: 400;">Smart contracts can contain vulnerabilities</span></li>
+<li><span style="font-weight: 400;">Scalability and performance remain challenges</span></li>
+<li><span style="font-weight: 400;">Poor key management can lead to irreversible losses</span></li>
+<li><span style="font-weight: 400;">Blockchain does not prevent bad data from being entered</span></li>
+<li><span style="font-weight: 400;">In other words, blockchain improves structural security, but it does not eliminate human error, software bugs or poor system design.</span></li>
+</ul>
+<p><b>Blockchain Is Not a Silver Bullet</b></p>
+<p><span style="font-weight: 400;">It’s important to understand that blockchain is not a replacement for traditional cybersecurity measures such as encryption, access control, or monitoring systems. </span></p>
+<p><span style="font-weight: 400;">Instead, it acts as a trust layer best used in scenarios where:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Multiple parties don’t fully trust each other</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Data integrity is critical</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Transparency is required</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Centralized control creates unacceptable risk</span></li>
+</ul>
+<p><span style="font-weight: 400;">In many cases, a hybrid model combining blockchain with conventional security technologies offers the strongest protection.</span></p>
+<p><b>Conclusion</b></p>
+<p><span style="font-weight: 400;">Blockchain has the potential to significantly improve cybersecurity by reshaping how trust, identity, and data integrity are handled online. Its strongest value lies not in preventing every attack, but in reducing systemic weaknesses that attackers repeatedly exploit.</span></p>
+<p><span style="font-weight: 400;">Will blockchain make the internet completely secure? No.</span></p>
+<p><span style="font-weight: 400;">Will it make parts of the internet more resilient, transparent, and trustworthy? Absolutely.</span></p>
+<p><span style="font-weight: 400;">As cybersecurity threats continue to evolve, blockchain is likely to become an important piece of the security puzzle used thoughtfully, selectively, and alongside proven security practices.</span></p>
+<p><b>Monitoring Remote Sessions</b></p>
+<p><span style="font-weight: 400;">Security monitoring is crucial for preventing ransomware attacks as it enables early detection, identification of vulnerabilities, monitoring for anomalies, data protection, and compliance with regulatory requirements. </span></p>
+<p><span style="font-weight: 400;"><a href="https://www.tsfactory.com/">RecordTS</a> will record Windows remote sessions reliably and securely for RDS, Citrix and VMware systems. Scalable from small offices with one server to enterprise networks with tens of thousands of desktops and servers, RecordTS integrates seamlessly with the native environment.</span></p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/top-uses-of-blockchain-in-cybersecurity/">Blockchain in Cybersecurity &#8211; Will It Really Make the Internet More Secure?</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Top 10 Data Breaches of 2025</title>
+		<link>https://www.tsfactory.com/forums/blogs/top-10-data-breaches-of-2025/</link>
+		
+		<dc:creator><![CDATA[Chelsie Wyatt]]></dc:creator>
+		<pubDate>Thu, 18 Dec 2025 10:34:20 +0000</pubDate>
+				<category><![CDATA[InfoSec Digest]]></category>
+		<guid isPermaLink="false">https://www.tsfactory.com/forums/blogs/?p=1171</guid>
+
+					<description><![CDATA[<p>Top 10 Data Breaches of 2025 The year 2025 marked one of the most volatile periods in cybersecurity history, with data breaches reaching unprecedented scale and sophistication across industries. From retail giants and financial platforms to media organizations and critical healthcare networks, attackers exploited vulnerabilities in cloud systems, third-party vendors and aging digital infrastructure to [&#8230;]</p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/top-10-data-breaches-of-2025/">Top 10 Data Breaches of 2025</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><b>Top 10 Data Breaches of 2025</b></p>
+<p><span style="font-weight: 400;">The year 2025 marked one of the most volatile periods in cybersecurity history, with data breaches reaching unprecedented scale and sophistication across industries. From retail giants and financial platforms to media organizations and critical healthcare networks, attackers exploited vulnerabilities in cloud systems, third-party vendors and aging digital infrastructure to access millions of personal records worldwide. These incidents not only exposed sensitive information but also triggered executive upheavals, regulatory scrutiny, and a renewed urgency for stronger digital resilience. Together, 2025’s largest breaches paint a stark picture of an evolving threat landscape and the growing challenges of safeguarding data in an increasingly interconnected world.</span></p>
+<p><b>16 Million Passwords Leaked</b></p>
+<p><span style="font-weight: 400;">Date: June 2025</span></p>
+<p><span style="font-weight: 400;">Impact: 16 billion credentials</span></p>
+<p><span style="font-weight: 400;">One of the largest credential-stuffing datasets ever assembled emerged in June, aggregating stolen credentials from infostealer malware, historical breaches, and massive password reuse across platforms such as Google, Apple, and Facebook. While this wasn’t a singular attack but rather cumulative records discovered since the beginning of the year, it still highlights the importance of good security practices. </span></p>
+<p><span style="font-weight: 400;">Key takeaway: Passwords alone are obsolete. MFA and credential hygiene are mandatory, not optional.</span></p>
+<p><b>SK Telecom Malware Intrusion</b></p>
+<p><span style="font-weight: 400;">Date: April 2025</span></p>
+<p><span style="font-weight: 400;">Impact: 27 million users</span></p>
+<p><span style="font-weight: 400;">Attackers deployed a stealthy Linux-based RAT (BPFDoor) across 28 servers, exploiting the Berkeley Packet Filter (BPF) mechanism in the Linux kernel to monitor and manipulate network traffic. SIM data, IMSI numbers, and authentication keys were exposed. The breach was believed to be the work of an advanced persistent threat (APT) group, potentially linked to Chinese or North Korean actors, although definitive attribution has not been established.</span></p>
+<p><span style="font-weight: 400;">SK Telecom was fined $96.9M, and the attack was attributed to state-sponsored APT actors.</span></p>
+<p><span style="font-weight: 400;">Key takeaway: Advanced threats exploit low-level visibility gaps &#8211; Linux servers and telecom stacks are not exempt.</span></p>
+<p><b>Red Hat GitLab Repository Breach</b></p>
+<p><span style="font-weight: 400;">Date: October 2025</span></p>
+<p><span style="font-weight: 400;">Impact: 570 GB, 28,000 repositories</span></p>
+<p><span style="font-weight: 400;">Threat group Crimson Collective exfiltrated sensitive data across thousands of internal repositories, leaking credentials, API keys, VPN configs, and customer infrastructure details tied to major enterprises and government agencies. The attackers claimed to have exfiltrated 570GB of compressed data from over 28,000 repositories, including sensitive Customer Engagement Reports (CERs) affecting approximately 800 organizations worldwide.</span></p>
+<p><span style="font-weight: 400;">Key takeaway: Source control platforms are high-value targets when access isn’t continuously audited.</span></p>
+<p><b>Qantas Data Breach</b></p>
+<p><span style="font-weight: 400;">Date: June 2025</span></p>
+<p><span style="font-weight: 400;">Impact: 5.7 million records</span></p>
+<p><span style="font-weight: 400;">A third-party Salesforce integration was exploited to access customer personally identifiable information (PII) and frequent flyer data. The attack was confirmed after ransom demands went unpaid and was claimed by Scattered Lapsus$ Hunters. The airline was one of more than 40 firms globally caught up in the hack, reported to contain up to 1bn customer records.</span></p>
+<p><span style="font-weight: 400;">Key takeaway: Your third-party stack defines your real attack surface.</span></p>
+<p><b>Allianz Life Breach</b></p>
+<p><span style="font-weight: 400;">Date: July 2025</span></p>
+<p><span style="font-weight: 400;">Impact: 2.8 million records</span></p>
+<p><span style="font-weight: 400;">Attackers used social engineering to access Salesforce, a cloud-based CRM, then leveraged legitimate Salesforce admin features to export sensitive customer data. Contained within 24 hours, but damage was already done. The ShinyHunters threat group is notorious for advanced vishing attacks that exploit human error to gain Salesforce CRM access, bypassing technical defences.</span></p>
+<p><span style="font-weight: 400;">Key takeaway: “Legitimate access” is the most dangerous access when abused.</span></p>
+<p><b>TransUnion Breach</b></p>
+<p><span style="font-weight: 400;">Date: July 2025</span></p>
+<p><span style="font-weight: 400;">Impact: 4.4 million records</span></p>
+<p><span style="font-weight: 400;">Sensitive personal information belonging to 4.4 million customers, including their names and Social Security numbers, was exposed in a data breach on credit bureau TransUnion which was yet another cyber attack targeting companies&#8217; Salesforce databases. Sensitive personal information belonging to 4.4 million customers, including their names and Social Security numbers, was exposed in a data breach on credit bureau TransUnion, in what is believed to be the latest in a string of attacks targeting companies&#8217; Salesforce databases.</span></p>
+<p><span style="font-weight: 400;">Key takeaway: APIs are silent data exfiltration channels when misconfigured.</span></p>
+<p><b>Farmers Insurance Breach</b></p>
+<p><span style="font-weight: 400;">Date: August 2025</span></p>
+<p><span style="font-weight: 400;">Impact: 1.1 million records</span></p>
+<p><span style="font-weight: 400;">A third-party vendor’s overprivileged Salesforce integration enabled data extraction at scale. Public disclosure was delayed for nearly three months. The third-party vendor had monitoring tools in place, which allowed the vendor to quickly detect the activity and take appropriate containment measures, including blocking the unauthorized actor.</span></p>
+<p><span style="font-weight: 400;">Key takeaway: Vendor access must be treated as internal risk and governed accordingly.</span></p>
+<p><b>Yale New Haven Health System Breach</b></p>
+<p><span style="font-weight: 400;">Date: March 2025</span></p>
+<p><span style="font-weight: 400;">Impact: 5.5 million patients</span></p>
+<p><span style="font-weight: 400;">Yale New Haven Health System (YNHHS) experienced a massive data breach in March 2025, affecting over 5.5 million individuals, exposing sensitive data like names, Social Security numbers, and health info, stemming from a misconfigured storage server, leading to significant investigations, class-action lawsuits, and an $18 million settlement for victims, as reported in late 2025.</span></p>
+<p><span style="font-weight: 400;">Key takeaway: Healthcare data is only as secure as the weakest external service.</span></p>
+<p><b>Blue Shield of California Exposure</b></p>
+<p><span style="font-weight: 400;">Date: April 2025</span></p>
+<p><span style="font-weight: 400;">Impact: 4.7 million records</span></p>
+<p><span style="font-weight: 400;">Blue Shield of California experienced a major data breach (not a traditional hack) where misconfigured Google Analytics tools shared private health info (PHI) of 4.7M members with Google Ads from April 2021 to January 2024, including names, plan details, claim dates, and &#8220;Find a Doctor&#8221; searches, but not SSNs or financial data, leading to potential ad targeting and class action lawsuits, prompting Blue Shield to halt the sharing and notify members.</span></p>
+<p><span style="font-weight: 400;">Key takeaway: Client-side tracking and analytics tools can be breach vectors.</span></p>
+<p><b>Marks &amp; Spencer Ransomware Attack</b></p>
+<p><span style="font-weight: 400;">Date: April 2025</span></p>
+<p><span style="font-weight: 400;">Impact: £300 million in losses</span></p>
+<p><span style="font-weight: 400;">Marks &amp; Spencer (M&amp;S) suffered a major ransomware attack, attributed to the Scattered Spider/DragonForce group, starting in April 2025, which crippled its online sales for months, emptied some store shelves, cost millions in lost revenue (estimated £300m hit), and involved data theft, prompting warnings about phishing for customers. Attackers used social engineering via a third-party IT supplier (Tata Consultancy Services) to breach the network, deploying DragonForce ransomware for double extortion (encryption + data theft).</span></p>
+<p><span style="font-weight: 400;">Key takeaway: Identity compromise is the gateway to ransomware.</span></p>
+<p><span style="text-decoration: underline;"><b>Monitoring Remote Sessions</b></span></p>
+<p><span style="font-weight: 400;">Security monitoring is crucial for preventing ransomware attacks as it enables early detection, identification of vulnerabilities, monitoring for anomalies, data protection, and compliance with regulatory requirements. </span></p>
+<p><a href="https://www.tsfactory.com/"><span style="font-weight: 400;">RecordTS</span></a><span style="font-weight: 400;"> will record Windows remote sessions reliably and securely for RDS, Citrix and VMware systems. Scalable from small offices with one server to enterprise networks with tens of thousands of desktops and servers, RecordTS integrates seamlessly with the native environment.</span></p>
+<p>&nbsp;</p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/top-10-data-breaches-of-2025/">Top 10 Data Breaches of 2025</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Digital ID: the Pitfalls &#038; How to Build a Better Path Forward</title>
+		<link>https://www.tsfactory.com/forums/blogs/digital-id-the-pitfalls-how-to-build-a-better-path-forward/</link>
+		
+		<dc:creator><![CDATA[Chelsie Wyatt]]></dc:creator>
+		<pubDate>Wed, 03 Dec 2025 10:20:31 +0000</pubDate>
+				<category><![CDATA[InfoSec Digest]]></category>
+		<guid isPermaLink="false">https://www.tsfactory.com/forums/blogs/?p=1165</guid>
+
+					<description><![CDATA[<p>Digital ID: the Pitfalls &#38; How to Build a Better Path Forward Digital identity systems promise convenience, security, and smoother access to services. From unlocking your phone to proving your age online, they’re becoming woven into everyday life. But as societies move closer to fully digitized identity infrastructures, it’s essential to examine the risks lurking [&#8230;]</p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/digital-id-the-pitfalls-how-to-build-a-better-path-forward/">Digital ID: the Pitfalls &#038; How to Build a Better Path Forward</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><b>Digital ID: the Pitfalls &amp; How to Build a Better Path Forward</b></p>
+<p><span style="font-weight: 400;">Digital identity systems promise convenience, security, and smoother access to services. From unlocking your phone to proving your age online, they’re becoming woven into everyday life. But as societies move closer to fully digitized identity infrastructures, it’s essential to examine the risks lurking beneath the surface.</span></p>
+<p><span style="font-weight: 400;">The following outlines the most significant pitfalls of digital ID, their implications and the measures that can be taken to avoid them.</span></p>
+<p><b>What is Digital ID</b></p>
+<p><span style="font-weight: 400;">A digital ID is the electronic equivalent of an individual&#8217;s identity card. A digital ID can be presented electronically to prove an individual&#8217;s identity and their right to access information or services online.</span></p>
+<p><span style="font-weight: 400;">Digital IDs, also known as digital certificates, are electronic documents that use a digital signature to bind together a public key with an identity &#8211; this information can be a person&#8217;s name or the name of an organization, etc. The certificate is used to confirm that a public key belongs to a specific individual. A Digital ID is issued by a Certification Authority (CA) and signed with the CA&#8217;s private key.</span></p>
+<p><b>Around the World</b></p>
+<p><span style="font-weight: 400;">More than four years have passed since Apple announced that its Wallet app could store digital US driver’s licenses, a move that was widely viewed as a turning point for mobile identity. But nationwide adoption has lagged far behind the early hype.</span></p>
+<p><span style="font-weight: 400;">At the time of the announcement, only two U.S. states had signed on. Today, that number has grown, but not by much: just 11 additional states, along with Puerto Rico, now issue licenses compatible with Apple Wallet. Competing platforms haven’t fared significantly better. The Android-based digital ID initiative within the Google Wallet app supports 10 states, while the identity feature in Samsung Wallet works with six. About 25 states in the U.S. now either are piloting or have already launched a mobile driver’s license program.</span></p>
+<p><span style="font-weight: 400;">The fragmentation extends beyond tech-company partnerships. Some states absent from any major wallet ecosystem, New York among them, have launched their own standalone digital ID apps for both iOS and Android and with mixed reviews. </span></p>
+<p><span style="font-weight: 400;">Canada, meanwhile, has yet to introduce digital driver’s licenses in any province. The federal government is evaluating a voluntary nationwide digital ID framework, but no timeline has been announced.</span></p>
+<p><span style="font-weight: 400;">Australian states such as New South Wales, Queensland, and Victoria already issue digital driver’s licenses. In Europe, preparations are underway for legislation that would require a unified digital identity standard across all EU member states. Several Asian countries have similarly moved ahead with standardized digital-ID infrastructure. The Nordic region continues to lead with established systems including Estonia’s e-ID and Sweden’s BankID.</span></p>
+<p><span style="font-weight: 400;">In the UK, Gov.UK has not yet been launched but it could eventually allow citizens to store their digital ID &#8211; including name, date of birth, nationality and residence status, and a photo &#8211; on their smartphones.</span></p>
+<p><b>The Pitfalls </b><b></b></p>
+<p><b>1. Data Centralization: A Single Point of Failure</b></p>
+<p><span style="font-weight: 400;">Digital ID systems often require individuals to share extensive personal information, which is stored in centralized databases vulnerable to hacking, abuse, or government overreach. The more centralized and interoperable these systems become, the more they create a single point of failure &#8211; a target-rich environment for cybercriminals and a powerful tool for state surveillance. </span></p>
+<p><span style="font-weight: 400;">A breach doesn’t just expose one password; it can unravel an entire digital life. Centralization also raises surveillance concerns, especially when systems interface with public institutions like those overseen by the <a href="https://commission.europa.eu/topics/digital-economy-and-society/european-digital-identity_en">European Commission</a>. Without strong safeguards, the same architecture that enables frictionless access can enable frictionless monitoring.</span></p>
+<p><b></b><b>2. Every Login Leaves a Footprint</b></p>
+<p><span style="font-weight: 400;">Unlike a physical ID check, which usually leaves no record, a digital ID authentication can generate metadata each time it is used. This metadata may include the time, location, and purpose of the interaction. Over time, these records can create a detailed profile of a person’s behavior. Even when companies such as Apple prioritize user privacy within their ecosystems, the very nature of digital verification means that some level of data footprint is inevitable. These traces can be stored, analyzed, and potentially misused.</span></p>
+<p><b>3. Biometrics Are Passwords You Cannot Change</b></p>
+<p><span style="font-weight: 400;">Biometric information, such as fingerprints and facial scans, is increasingly integrated into digital identity frameworks because it offers convenience and speed. However, biometrics introduce a serious downside: they cannot be changed if they are stolen or compromised. As deepfake technologies and spoofing techniques become more sophisticated, this permanence becomes a significant vulnerability. Tools embedded in widely used devices produced by companies like Samsung amplify the scale of potential biometric exposure. Once a biometric identifier is leaked, it remains compromised indefinitely.</span></p>
+<p><b>4. Digital Identity Risks Leaving People Behind</b></p>
+<p><span style="font-weight: 400;">Digital ID systems assume that users have access to reliable technology. Many people do not own smartphones, do not have stable internet connections or are not comfortable navigating digital platforms. If governments or businesses make digital identity mandatory, these individuals could be excluded from essential services such as banking, healthcare, or travel. The convenience offered to many could unintentionally create obstacles for those who are already vulnerable.</span></p>
+<p><b>Building a Better Path Forward</b></p>
+<p><span style="font-weight: 400;">Digital identity can offer enormous benefits, but only if it is designed and implemented with care. A responsible digital-ID future requires systems that prioritize privacy, minimize data collection, and avoid unnecessary centralization. It should also include open standards, independent audits, and clear legislation that prevents any broadening of its remit. Offline alternatives must remain available so that no one is excluded, and users must be educated about how digital identity works and what risks it carries.</span></p>
+<p><span style="font-weight: 400;">Digital identity can indeed make life easier, but convenience should never come at the cost of security, autonomy, or fairness. With thoughtful planning and meaningful safeguards, societies can embrace digital identity without sacrificing the rights and protections that matter most.</span></p>
+<p><b>Monitoring Remote Sessions</b></p>
+<p><span style="font-weight: 400;">Security monitoring is crucial for preventing ransomware attacks as it enables early detection, identification of vulnerabilities, monitoring for anomalies, data protection, and compliance with regulatory requirements. </span></p>
+<p><span style="font-weight: 400;">RecordTS will record Windows remote sessions reliably and securely for RDS, Citrix and VMware systems. Scalable from small offices with one server to enterprise networks with tens of thousands of desktops and servers, <a href="https://www.tsfactory.com/">RecordTS</a> integrates seamlessly with the native environment.</span></p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/digital-id-the-pitfalls-how-to-build-a-better-path-forward/">Digital ID: the Pitfalls &#038; How to Build a Better Path Forward</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to Calculate Data Breaches </title>
+		<link>https://www.tsfactory.com/forums/blogs/how-to-calculate-data-breaches/</link>
+		
+		<dc:creator><![CDATA[Chelsie Wyatt]]></dc:creator>
+		<pubDate>Tue, 04 Nov 2025 11:02:51 +0000</pubDate>
+				<category><![CDATA[InfoSec Digest]]></category>
+		<guid isPermaLink="false">https://www.tsfactory.com/forums/blogs/?p=1134</guid>
+
+					<description><![CDATA[<p>How to Calculate Data Breaches  The cost of a data breach depends on an organization’s size, industry, and readiness &#8211; ranging from minor downtime for a small business to massive losses or fines for larger, data-sensitive organizations. What is a Data Breach? The cost of a data breach is shaped by multiple direct and indirect [&#8230;]</p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/how-to-calculate-data-breaches/">How to Calculate Data Breaches </a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h1><b>How to Calculate Data Breaches </b></h1>
+<p><b>The cost of a data breach depends on an organization’s size, industry, and readiness &#8211; ranging from minor downtime for a small business to massive losses or fines for larger, data-sensitive organizations.</b></p>
+<hr />
+<h1><b>What is a Data Breach?</b></h1>
+<p><span style="font-weight: 400;">The </span><b>cost of a data breach</b><span style="font-weight: 400;"> is shaped by multiple direct and indirect factors that together determine the financial, operational, and reputational impact on an organization. These costs can vary greatly depending on the industry, size of the organization, and how well-prepared it is to respond. </span></p>
+<p><span style="font-weight: 400;">A small HVAC business barely notices and lost nothing but the cost of the owners’ time after a breach. A high end clothing store loses hundreds of thousands from not making sales for a day. A hospital may have huge fines due to data exfiltration.</span></p>
+<p><span style="font-weight: 400;">Each year, IBM publishes its </span><a href="https://www.ibm.com/security/data-breach"><span style="font-weight: 400;">Cost of a Data Breach Report</span></a><span style="font-weight: 400;">, where, based on analyzed data from companies and organizations in different sectors, it estimates the cost of a data breach per record. </span></p>
+<p><span style="font-weight: 400;">The following interesting conclusions, among others, can be drawn from the data in these reports:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The </span><b>cost of a data breach had the largest increase in 2021</b><span style="font-weight: 400;"> from $3.86M in 2020 to $4.24M in 2021.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The </span><b>cost per register increased 10.3%</b><span style="font-weight: 400;"> from 2020 ($146 per registration) to 2021 ($161 per registration), increasing from 14.2% in 2017.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The </span><b>Top 5 countries/regions</b><span style="font-weight: 400;"> with the highest cost per breach are: USA, Middle East, Canada, Germany and Japan.</span></li>
+<li style="font-weight: 400;" aria-level="1"><b>By sector, Healthcare is the most affected</b><span style="font-weight: 400;"> over the last 11 years, increasing by 29.5% from 2020 to 2021. In the Top 5, followed by Finance, Pharmaceuticals, Technology and Energy.</span></li>
+</ul>
+<hr />
+<h1><b>What Are the Top Causes of Data Breaches?</b></h1>
+<ol>
+<li><b> Human Error</b></li>
+<li><b> Phishing and Social Engineering</b></li>
+<li><b> Weak or Stolen Passwords</b></li>
+<li><b> Malware and Ransomware</b></li>
+<li><b> Insider Threats</b></li>
+<li><b> Unpatched Software and System Vulnerabilities</b></li>
+<li><b> Misconfigured Cloud Services</b></li>
+<li><b>Third-Party Vendor Compromise</b></li>
+<li><b>Physical Theft or Loss of Devices</b></li>
+<li><b>Advanced Persistent Threats (APTs)</b></li>
+</ol>
+<h1><b>Key Factors that Form the Total Cost of a Data Breach</b></h1>
+<h3 data-start="138" data-end="181"><strong data-start="142" data-end="179">1. Detection and Escalation Costs</strong></h3>
+<p data-start="182" data-end="480">These are the expenses associated with identifying, investigating, and containing a breach. They include forensic analysis, incident response, and security assessments needed to determine the scope and source of the attack. The longer a breach goes undetected, the higher these costs tend to climb.</p>
+<h3 data-start="182" data-end="480"><strong data-start="491" data-end="516">2. Notification Costs</strong></h3>
+<p data-start="519" data-end="795">Organizations are legally required to inform affected customers, regulators, and sometimes the public about a data breach. Costs include preparing notifications, call centers, legal consultations, and public relations efforts to manage communication and maintain transparency.</p>
+<h3 data-start="802" data-end="841"><strong data-start="806" data-end="839">3. Post-Breach Response Costs</strong></h3>
+<p data-start="842" data-end="1121">After a breach, companies must focus on remediation and support for affected individuals. This includes credit monitoring services, identity theft protection, compensation, and customer retention efforts. These costs aim to rebuild trust and reduce long-term reputational damage.</p>
+<h3 data-start="1128" data-end="1160"><strong data-start="1132" data-end="1158">4. Lost Business Costs</strong></h3>
+<p data-start="1161" data-end="1437">Lost business often represents the largest portion of breach-related expenses. Downtime, disrupted operations, and loss of customer confidence can all result in significant revenue loss. Reputational harm may also lead to decreased customer loyalty and market share over time.</p>
+<h3 data-start="1444" data-end="1483"><strong data-start="1448" data-end="1481">5. Regulatory and Legal Costs</strong></h3>
+<p data-start="1484" data-end="1777">Violations of data protection laws can lead to hefty fines, penalties, and lawsuits. Legal costs include settlements, litigation, and compliance improvements required by regulators. These can escalate quickly, especially in industries with strict privacy standards like healthcare and finance.</p>
+<h3 data-start="1784" data-end="1816"><strong data-start="1788" data-end="1814">6. Reputational Damage</strong></h3>
+<p data-start="1817" data-end="2103">A breach can severely damage public trust and brand reputation. Customers may question an organization’s ability to protect their data, leading to churn and negative publicity. Restoring reputation often requires substantial investment in marketing, transparency, and improved security.</p>
+<h3 data-start="2110" data-end="2163"><strong data-start="2114" data-end="2161">7. Security and Infrastructure Improvements</strong></h3>
+<p data-start="2164" data-end="2432">Following a breach, organizations typically invest heavily in upgrading security systems, training staff, and enhancing monitoring capabilities. While these improvements strengthen resilience, they add to the total cost of recovery and prevention for future incidents.</p>
+<h1 data-start="2164" data-end="2432"><strong>Contextual Factors That Influence Total Cost</strong></h1>
+<hr />
+<p><span style="font-weight: 400;">Certain variables significantly affect the magnitude of a breach’s financial impact:</span></p>
+<table class="table table-hover">
+<tbody>
+<tr>
+<td><b>Factor</b></td>
+<td><b>Impact</b></td>
+</tr>
+<tr>
+<td><b>Industry</b></td>
+<td><span style="font-weight: 400;">Heavily regulated sectors (healthcare, finance) face higher costs.</span></td>
+</tr>
+<tr>
+<td><b>Type of Data Compromised</b></td>
+<td><span style="font-weight: 400;">PII (personally identifiable info) and financial data cost more than non-sensitive data.</span></td>
+</tr>
+<tr>
+<td><b>Number of Records Breached</b></td>
+<td><span style="font-weight: 400;">Costs scale with the number of affected records.</span></td>
+</tr>
+<tr>
+<td><b>Incident Response Preparedness</b></td>
+<td><span style="font-weight: 400;">Companies with incident response plans and teams lower total costs.</span></td>
+</tr>
+<tr>
+<td><b>Use of AI and Automation in Security</b></td>
+<td><span style="font-weight: 400;">Faster detection and response reduce overall breach impact.</span></td>
+</tr>
+<tr>
+<td><b>Third-Party Involvement</b></td>
+<td><span style="font-weight: 400;">Breaches caused by vendors or partners often increase complexity and cost.</span></td>
+</tr>
+<tr>
+<td><b>Time to Identify and Contain</b></td>
+<td><span style="font-weight: 400;">Longer detection and containment times correlate with significantly higher costs.</span></td>
+</tr>
+</tbody>
+</table>
+<h1><b>Conclusion</b></h1>
+<p><span style="font-weight: 400;">Calculating a data breach isn’t just technical &#8211; it’s a multidimensional process blending financial, qualitative, and regulatory insights to build stronger, more resilient digital defenses.</span></p>
+<h1><b>Monitoring Remote Sessions</b></h1>
+<p><span style="font-weight: 400;">Security monitoring is crucial for preventing ransomware attacks as it enables early detection, identification of vulnerabilities, monitoring for anomalies, data protection, and compliance with regulatory requirements. </span></p>
+<p><span style="font-weight: 400;"><a href="https://www.tsfactory.com/">RecordTS</a> will record Windows remote sessions reliably and securely for RDS, Citrix and VMware systems. Scalable from small offices with one server to enterprise networks with tens of thousands of desktops and servers, RecordTS integrates seamlessly with the native environment.</span></p>
+<p>&nbsp;</p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/how-to-calculate-data-breaches/">How to Calculate Data Breaches </a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>5 HIPAA Best Practices Security Leaders Can’t Afford to Overlook</title>
+		<link>https://www.tsfactory.com/forums/blogs/5-hipaa-best-practices-security-leaders-cant-afford-to-overlook/</link>
+		
+		<dc:creator><![CDATA[Chelsie Wyatt]]></dc:creator>
+		<pubDate>Wed, 08 Oct 2025 09:33:11 +0000</pubDate>
+				<category><![CDATA[InfoSec Digest]]></category>
+		<guid isPermaLink="false">https://www.tsfactory.com/forums/blogs/?p=1123</guid>
+
+					<description><![CDATA[<p>5 HIPAA Best Practices Security Leaders Can’t Afford to Overlook For CISOs in healthcare, HIPAA compliance isn’t just about regulatory checkboxes,  it’s about safeguarding the trust at the core of the patient–provider relationship. Every security decision has clinical and business implications. A ransomware attack can delay surgeries. A lost laptop can trigger federal investigations. A [&#8230;]</p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/5-hipaa-best-practices-security-leaders-cant-afford-to-overlook/">5 HIPAA Best Practices Security Leaders Can’t Afford to Overlook</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h1><b>5 HIPAA Best Practices Security Leaders Can’t Afford to Overlook</b></h1>
+<p><span style="font-weight: 400;">For CISOs in healthcare, HIPAA compliance isn’t just about regulatory checkboxes,  it’s about safeguarding the trust at the core of the patient–provider relationship. Every security decision has clinical and business implications. A ransomware attack can delay surgeries. A lost laptop can trigger federal investigations. A single phishing email can expose millions of records.</span></p>
+<p><span style="font-weight: 400;">That means security leaders need more than policies on paper, they need a living, breathing security program aligned with HIPAA and resilient against today’s threat landscape.</span></p>
+<h3><b>What Is HIPAA?</b></h3>
+<p><span style="font-weight: 400;">HIPAA, created in 1996, was meant to streamline the flow of healthcare information and protect the privacy and security of sensitive patient data. Its regulations are aimed at protecting <a href="https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html">Protected Health Information</a> (PHI) in a time when digitalization and interconnected systems are prevalent in the healthcare sector.</span></p>
+<h3><b>Key components of HIPAA include:</b></h3>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The Privacy Rule: Sets standards for how Protected Health Information (PHI) should be used and disclosed.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The Security Rule: Outlines technical, physical, and administrative safeguards for electronic PHI (ePHI).</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The Breach Notification Rule: Requires healthcare entities to notify affected individuals and authorities in the event of a breach.</span></li>
+</ul>
+<p><span style="font-weight: 400;">Failure to comply with HIPAA can result in severe fines, loss of public trust, and even criminal charges.</span></p>
+<h3><b>Here are five best practices that every CISO should ensure are operationalized within their organization.</b></h3>
+<h3><span style="font-weight: 400;">1. Enforce Access Discipline</span></h3>
+<p><span style="font-weight: 400;">HIPAA’s “minimum necessary” requirement should be treated as a strategic control, not just compliance language. CISOs should mandate role-based access control (RBAC) and extend it with multi-factor authentication (MFA) to all systems managing PHI. Regular access recertification and offboarding processes must be automated where possible to minimize insider risk exposure. </span></p>
+<h3><span style="font-weight: 400;">2. Standardize and Scale Encryption</span></h3>
+<p><span style="font-weight: 400;">CISOs should treat encryption not as a defensive feature, but as a core compliance and business enabler, especially as interoperability and third-party integrations expand. Equally important is centralized key management: fragmented practices create operational blind spots and weaken incident response. </span></p>
+<h3><span style="font-weight: 400;">3. Operationalize Monitoring and Auditing</span></h3>
+<p><span style="font-weight: 400;">HIPAA requires auditability, but regulators increasingly expect continuous monitoring. CISOs should direct investments into SIEM and UEBA (User and Entity Behavior Analytics) capabilities to detect anomalies in real time, supported by comprehensive log management. Scheduled penetration tests and internal audits validate not just technical controls, but also the organization’s ability to evidence compliance during OCR inquiries. This isn’t just about passing audits; it’s about proving resilience.</span></p>
+<h3><span style="font-weight: 400;">4. Institutionalize Incident Response</span></h3>
+<p><span style="font-weight: 400;">An incident response plan on paper is meaningless if it hasn’t been tested. CISOs should lead the charge in developing a HIPAA-compliant breach notification process that aligns with both federal timelines and state-specific disclosure requirements. Regular tabletop exercises should include executive leadership and clinical stakeholders, since breaches have operational, legal, and reputational dimensions. When &#8211; not if &#8211; a security event occurs, response speed and communication clarity will define the outcome.</span></p>
+<h3><span style="font-weight: 400;">5. Treat Workforce Training as Risk Management</span></h3>
+<p><span style="font-weight: 400;">Human error remains the top root cause of HIPAA violations. Annual compliance modules won’t cut it. CISOs should sponsor a continuous workforce education program that includes adaptive training, simulated phishing campaigns, and scenario-based exercises. Messaging should be aligned with organizational culture: staff need to understand that protecting PHI is not just a compliance duty, but a patient safety issue.</span></p>
+<h3><strong>Conclusion </strong></h3>
+<p><span style="font-weight: 400;">HIPAA provides the regulatory baseline, but it’s not a strategy. Effective CISOs view compliance as a byproduct of a well-structured security program, not the end goal. By embedding these five best practices into the organization’s governance framework, security leaders can simultaneously satisfy regulators, reduce breach risk, and strengthen the trust patients place in their providers.</span></p>
+<p><span style="font-weight: 400;">In healthcare, cybersecurity isn’t abstract — it’s mission-critical. And CISOs sit at the nexus of compliance, risk, and patient care.</span></p>
+<h3><b>Monitoring Remote Sessions</b></h3>
+<p><span style="font-weight: 400;">Security monitoring is crucial for preventing ransomware attacks as it enables early detection, identification of vulnerabilities, monitoring for anomalies, data protection, and compliance with regulatory requirements. </span></p>
+<p><span style="font-weight: 400;"><a href="https://www.tsfactory.com/">RecordTS</a> will record Windows remote sessions reliably and securely for RDS, Citrix and VMware systems. Scalable from small offices with one server to enterprise networks with tens of thousands of desktops and servers, RecordTS integrates seamlessly with the native environment.</span></p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/5-hipaa-best-practices-security-leaders-cant-afford-to-overlook/">5 HIPAA Best Practices Security Leaders Can’t Afford to Overlook</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Cybersecurity on a Budget: A Small Business Survival Guide</title>
+		<link>https://www.tsfactory.com/forums/blogs/cybersecurity-on-a-budget-a-small-business-survival-guide/</link>
+		
+		<dc:creator><![CDATA[Chelsie Wyatt]]></dc:creator>
+		<pubDate>Tue, 16 Sep 2025 12:43:46 +0000</pubDate>
+				<category><![CDATA[InfoSec Digest]]></category>
+		<guid isPermaLink="false">https://www.tsfactory.com/forums/blogs/?p=1112</guid>
+
+					<description><![CDATA[<p>Cybersecurity on a Budget: A Small Business Survival Guide Introduction Running a small business is hard enough without worrying about hackers. But here’s the reality: 43% of cyberattacks target small businesses and many never recover. Despite high awareness, most small businesses still believe they’re too small to be attractive targets for threat actors. Although 79% [&#8230;]</p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/cybersecurity-on-a-budget-a-small-business-survival-guide/">Cybersecurity on a Budget: A Small Business Survival Guide</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h1><img fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-1131" src="https://www.tsfactory.com/forums/blogs/wp-content/uploads/sites/16/2025/09/Cybersecurity-on-a-Budget-A-Small-Business-Survival-Guide.png" alt="" width="800" height="2000" srcset="https://www.tsfactory.com/forums/blogs/wp-content/uploads/sites/16/2025/09/Cybersecurity-on-a-Budget-A-Small-Business-Survival-Guide.png 800w, https://www.tsfactory.com/forums/blogs/wp-content/uploads/sites/16/2025/09/Cybersecurity-on-a-Budget-A-Small-Business-Survival-Guide-120x300.png 120w, https://www.tsfactory.com/forums/blogs/wp-content/uploads/sites/16/2025/09/Cybersecurity-on-a-Budget-A-Small-Business-Survival-Guide-410x1024.png 410w, https://www.tsfactory.com/forums/blogs/wp-content/uploads/sites/16/2025/09/Cybersecurity-on-a-Budget-A-Small-Business-Survival-Guide-768x1920.png 768w, https://www.tsfactory.com/forums/blogs/wp-content/uploads/sites/16/2025/09/Cybersecurity-on-a-Budget-A-Small-Business-Survival-Guide-614x1536.png 614w" sizes="(max-width: 800px) 100vw, 800px" /></h1>
+<h1><b>Cybersecurity on a Budget: </b></h1>
+<h1><b>A Small Business Survival Guide </b><b>Introduction</b></h1>
+<p><span style="font-weight: 400;">Running a small business is hard enough without worrying about hackers. But here’s the reality: </span><a href="https://www.salford.ac.uk/business/greater-manchester-cyber-foundry/cybersecurity-isnt-a-priority-for-smes-right-change-your-strategy#:~:text=Cyber%20security%20statistics%20show%20that,of%20business%20within%20six%20months."><span style="font-weight: 400;">43% of cyberattacks target small businesses</span></a><span style="font-weight: 400;"> and many never recover. Despite high awareness, most small businesses still believe they’re too small to be attractive targets for threat actors. </span><a href="https://www.coalitioninc.com/en-gb/blog/security-labs/small-business-cybersecurity-study-june"><span style="font-weight: 400;">Although 79% of small businesses experienced at least one cyber attack in the last five years, 64% still don’t think they&#8217;re an attractive target for threat actors.</span></a><span style="font-weight: 400;"> High concern and real experience are not enough for small business leaders to see themselves as high-risk. </span></p>
+<p><span style="font-weight: 400;">Massive IT budgets and enterprise-level software isn&#8217;t always necessary. With the right approach, small organizations can build strong cybersecurity on a budget.</span></p>
+<p><span style="font-weight: 400;">Here’s a step-by-step guide.</span></p>
+<h2><b>1. Strong Passwords &amp; Multi-Factor Authentication (MFA)</b></h2>
+<p><span style="font-weight: 400;">Passwords are the first line of defense. Weak ones are like leaving the front door unlocked.</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Use unique, strong passwords for every account.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Store them in a password manager like </span><b>Bitwarden</b><span style="font-weight: 400;"> or </span><b>KeePass</b><span style="font-weight: 400;"> (free).</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Turn on </span><b>MFA</b><span style="font-weight: 400;"> for email, banking, payroll, and admin accounts.</span></li>
+</ul>
+<p><b>Cost:</b><span style="font-weight: 400;"> $0</span><span style="font-weight: 400;"><br />
+</span><b>Impact:</b><span style="font-weight: 400;"> High</span></p>
+<h2><b>2. Keep Software &amp; Devices Updated</b></h2>
+<p><span style="font-weight: 400;">Outdated software is a hacker’s best friend.</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Enable automatic updates on computers, phones, and apps.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Update routers and office equipment regularly.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Replace unsupported systems like Windows 7.</span></li>
+</ul>
+<p><b>Cost:</b><span style="font-weight: 400;"> $0</span><span style="font-weight: 400;"><br />
+</span><b>Impact:</b><span style="font-weight: 400;"> High</span></p>
+<h2><b>3. Use Free &amp; Affordable Cybersecurity Tools</b></h2>
+<p><span style="font-weight: 400;">Solid protection doesn’t need expensive tools. </span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><b>Windows Defender</b><span style="font-weight: 400;"> (built-in antivirus).</span></li>
+<li style="font-weight: 400;" aria-level="1"><b>Malwarebytes Free</b><span style="font-weight: 400;"> for extra scans.</span></li>
+<li style="font-weight: 400;" aria-level="1"><b>OpenDNS (Cisco Umbrella Free)</b><span style="font-weight: 400;"> for safer web browsing.</span></li>
+<li style="font-weight: 400;" aria-level="1"><b>Cloudflare Free Tier</b><span style="font-weight: 400;"> for website security and DDoS protection.</span></li>
+</ul>
+<p><span style="font-weight: 400;"> </span><b>Cost:</b><span style="font-weight: 400;"> Mostly free</span><span style="font-weight: 400;"><br />
+</span> <b>Impact:</b><span style="font-weight: 400;"> Strong</span></p>
+<h2><b>4. Back Up Business Data</b></h2>
+<p><span style="font-weight: 400;">Data loss from ransomware or accidents can be devastating.</span></p>
+<ul>
+<li><span style="font-weight: 400;">Follow the </span><b>3-2-1 rule</b><span style="font-weight: 400;">: 3 copies, 2 formats, 1 offsite.</span></li>
+<li><span style="font-weight: 400;">Use free cloud options like Google Drive or OneDrive.</span></li>
+<li><span style="font-weight: 400;">Consider low-cost cloud backups (e.g., Backblaze).</span></li>
+<li><span style="font-weight: 400;">Test backups regularly.</span></li>
+</ul>
+<p><b>Cost:</b><span style="font-weight: 400;"> Free–Low</span><span style="font-weight: 400;"><br />
+</span><b>Impact:</b><span style="font-weight: 400;"> Critical</span></p>
+<h2><b>5. Train Teams to Spot Threats</b></h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Employees are the </span><b>human firewall</b><span style="font-weight: 400;">.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Teach staff how to recognize phishing emails.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Encourage a “</span><b>pause before you click</b><span style="font-weight: 400;">” culture.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Use free resources like the </span><a href="https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/basics"><span style="font-weight: 400;">FTC’s Cybersecurity Guide</span></a><span style="font-weight: 400;">.</span></li>
+</ul>
+<p><b>Cost:</b><span style="font-weight: 400;"> Free</span><span style="font-weight: 400;"><br />
+</span><b>Impact:</b><span style="font-weight: 400;"> Huge</span></p>
+<h2><b>6. Secure Business Networks</b></h2>
+<p><span style="font-weight: 400;">Wi-Fi is a common entry point for attackers.</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Change default router passwords.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Use WPA2 or WPA3 encryption.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Create a separate </span><b>guest Wi-Fi</b><span style="font-weight: 400;"> for customers.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Disable unused remote access features.</span></li>
+</ul>
+<p><b>Cost:</b><span style="font-weight: 400;"> Free</span><span style="font-weight: 400;"><br />
+</span><b>Impact:</b><span style="font-weight: 400;"> Strong</span></p>
+<h2><b>7. Create a Simple Incident Response Plan</b></h2>
+<p><span style="font-weight: 400;">If something goes wrong, a plan keeps businesses running.</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Document who to call (IT, bank, law enforcement).</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Include steps like resetting passwords and restoring backups.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Store a printed copy offline.</span></li>
+</ul>
+<p><b>Cost:</b><span style="font-weight: 400;"> Free (just time to prepare)</span><span style="font-weight: 400;"><br />
+</span><b>Impact:</b><span style="font-weight: 400;"> Essential</span></p>
+<h2><b>8. Monitor Remote Sessions</b></h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><a href="https://www.tsfactory.com/"><span style="font-weight: 400;">TSFactory</span></a><span style="font-weight: 400;"> monitoring for anomalies.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Security monitoring is crucial for preventing ransomware.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Enables early detection.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Compliance with regulatory requirements.</span></li>
+</ul>
+<p><b>Cost:</b><span style="font-weight: 400;"> Low</span><span style="font-weight: 400;"><br />
+</span><b>Impact:</b><span style="font-weight: 400;"> Essential</span></p>
+<h2><strong>9. Monitor for Breaches &amp; Leaks</strong></h2>
+<p>Even strong passwords can be stolen in data breaches. Be proactive.</p>
+<ul>
+<li>Use Have I Been Pwned to check if business emails were leaked.</li>
+<li>Set up alerts to get notified if new breaches include your email domain.</li>
+<li>Change passwords immediately if compromised.</li>
+</ul>
+<p><strong>Cost:</strong> Free<br />
+<strong>Impact:</strong> Early warning system</p>
+<h2><strong>10. Limit Employee Access (Principle of Least Privilege)</strong></h2>
+<p>The fewer people who have access, the smaller your attack surface.</p>
+<ul>
+<li>Give employees access only to the systems they need.</li>
+<li>Remove old or unused accounts promptly.</li>
+<li>Monitor admin accounts and logins for unusual activity.</li>
+</ul>
+<p><strong>Cost:</strong> Free<br />
+<strong>Impact:</strong> Reduces insider and accidental risks</p>
+<h2><b>Final Thoughts</b></h2>
+<p><span style="font-weight: 400;">Cybersecurity doesn’t have to be expensive. By focusing on passwords, updates, free tools, backups, staff training, and network security, organizations can reduce risks dramatically &#8211; without draining budgets. </span></p>
+<p><span style="font-weight: 400;">Remember: protecting a business now is far cheaper than recovering from a breach later.</span></p>
+<p>&nbsp;</p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/cybersecurity-on-a-budget-a-small-business-survival-guide/">Cybersecurity on a Budget: A Small Business Survival Guide</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Insider Bank Attacks: A Hidden Threat to Financial Institutions</title>
+		<link>https://www.tsfactory.com/forums/blogs/insider-bank-attacks-a-hidden-threat-to-financial-institutions/</link>
+		
+		<dc:creator><![CDATA[Chelsie Wyatt]]></dc:creator>
+		<pubDate>Thu, 21 Aug 2025 09:26:33 +0000</pubDate>
+				<category><![CDATA[InfoSec Digest]]></category>
+		<guid isPermaLink="false">https://www.tsfactory.com/forums/blogs/?p=1072</guid>
+
+					<description><![CDATA[<p>Insider Bank Attacks: A Hidden Threat to Financial Institutions Banks are often thought of as fortresses of security, where advanced technology, regulatory oversight, and strong internal controls prevent fraud and theft. However, some of the most devastating financial crimes have not come from the outside, but from within. These cases highlight the scale of damage [&#8230;]</p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/insider-bank-attacks-a-hidden-threat-to-financial-institutions/">Insider Bank Attacks: A Hidden Threat to Financial Institutions</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><b>Insider Bank Attacks: A Hidden Threat to Financial Institutions</b></p>
+<p><span style="font-weight: 400;">Banks are often thought of as fortresses of security, where advanced technology, regulatory oversight, and strong internal controls prevent fraud and theft. However, some of the most devastating financial crimes have not come from the outside, but from within. These cases highlight the scale of damage insiders can cause, the systemic weaknesses they exploit, and the lessons financial institutions must learn to strengthen their defences.</span></p>
+<p><b>The Punjab National Bank Scam (2018)</b></p>
+<p><span style="font-weight: 400;">The Punjab National Bank (PNB) scam in India remains one of the largest insider fraud cases in banking history. In 2018, it was discovered that two mid-level employees at PNB’s Mumbai branch colluded with diamond merchants Nirav Modi and Mehul Choksi to issue unauthorized Letters of Undertaking (LoUs) through the SWIFT messaging system. These LoUs, which served as guarantees, allowed the merchants to secure large overseas loans without proper collateral or approval from the bank’s credit department.</span></p>
+<p><span style="font-weight: 400;">What made this fraud possible was the deliberate circumvention of internal checks. The employees bypassed the bank’s core banking system, ensuring that the fraudulent LoUs never appeared in official records. As a result, the scam went undetected for several years, during which the merchants accumulated credit amounting to over $1.8 billion. When the fraud eventually came to light, it sent shockwaves through the Indian banking sector, raising questions about oversight, internal auditing, and the overreliance on trust within large institutions.</span></p>
+<p><b>Jérôme Kerviel and Société Générale (2008)</b></p>
+<p><span style="font-weight: 400;">In 2008, French bank Société Générale reported losses of nearly €4.9 billion due to the unauthorized activities of a single trader, Jérôme Kerviel. Kerviel had once worked in the bank’s middle office, where he gained intimate knowledge of the institution’s risk management and compliance mechanisms. Using this knowledge, he entered fictitious trades designed to offset his real positions, thus concealing the enormous risks he was taking.</span></p>
+<p><span style="font-weight: 400;">Although Kerviel’s actions were not motivated by personal enrichment in the traditional sense, he did not siphon money into personal accounts, his deliberate manipulation of systems and violation of trading limits constituted a profound insider attack. The losses Société Générale suffered remain among the largest ever caused by rogue trading.</span></p>
+<p><b>The Bangladesh Bank Heist (2016)</b></p>
+<p><span style="font-weight: 400;">The Bangladesh Bank heist is often described as a cyberattack, but insider involvement, or at least insider negligence, appears to have played a role. In February 2016, hackers attempted to steal nearly $1 billion from Bangladesh Bank’s account at the Federal Reserve Bank of New York. By sending fraudulent SWIFT transfer requests, the attackers managed to successfully divert $81 million to accounts in the Philippines, where it was laundered through casinos.</span></p>
+<p><span style="font-weight: 400;">Investigations into the attack revealed that the perpetrators had unusually detailed knowledge of the bank’s SWIFT infrastructure and operational routines. This raised suspicions that insiders either assisted the attackers directly or failed to follow security protocols that would have stopped the fraud. While much of the focus has been on the international cybercrime syndicate behind the heist, the case also illustrates how insider vulnerabilities, whether through collusion or carelessness, can magnify external threats.</span></p>
+<p><b>Morgan Stanley</b></p>
+<p><span style="font-weight: 400;">In 2015, Morgan Stanley, one of the largest financial service companies in the world, was forced to pay a $1M penalty for failing to protect their customers’ records. This was after the company lost $730,000 in customer records to hackers. It was reported in a post published on Pastebin, where six million account records of Morgan Stanley clients were being offered. In the following weeks, a new post was shared on a website pointing to the Speedcoin platform. It featured a teaser of real records from 900 different accounts and provided a link for people interested in purchasing more. This activity was traced to Galen Marsh, an individual who was employed in the private wealth management division of Morgan Stanley. </span></p>
+<p><span style="font-weight: 400;">It was reported that Marsh conducted a total of approximately 6,000 unauthorized searches in the computer systems, and thereby obtained confidential client information, including names, addresses, telephone numbers, account numbers, fixed-income investment information, and account values, totaling approximately $730,000, from client accounts for about three years. Marsh uploaded the confidential client information to a personal server at his home. Ironically enough, the investigators confirmed that Marsh’s home-server was hacked, the very same server that was used by Marsh to exfiltrate customer data from Morgan Stanley.</span></p>
+<p><b>Insider Data Theft at Wachovia (2000s)</b></p>
+<p><span style="font-weight: 400;">Not all insider bank attacks involve billions of dollars or high-profile traders. Some are more subtle but equally damaging to trust in financial institutions. In the early 2000s, Wachovia Bank, which later merged into Wells Fargo, faced scandals when employees were caught stealing and selling sensitive customer information to organized crime rings. The stolen data included account numbers, Social Security information, and personal details that enabled widespread identity theft.</span></p>
+<p><span style="font-weight: 400;">The financial losses from this data theft were significant, but the greater damage lay in reputational harm. Customers whose identities were stolen often faced years of difficulties repairing their credit, and Wachovia faced regulatory scrutiny over its lax internal security. This case demonstrates that insider attacks can occur at any level of a bank, from traders handling billions to frontline employees handling customer accounts. In both cases, the outcome is the same: erosion of trust and financial harm.</span></p>
+<p><b>Employees Most Likely to be Insider Threats</b></p>
+<p><span style="font-weight: 400;">Those who steal data on purpose, on the other hand, can have different motives, from taking vengeance on their employers to simply gaining financial profit. The individuals most likely to steal data are:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><b>Departing employees. </b><span style="font-weight: 400;">When someone retires or gets fired, they may take the company’s valuable data with them despite all the NDAs they’ve signed.</span></li>
+<li style="font-weight: 400;" aria-level="1"><b>Disgruntled employees.</b><span style="font-weight: 400;"> If a team member is mad at their employer for some reason, they may try to harm the company to get revenge.</span></li>
+<li style="font-weight: 400;" aria-level="1"><b>Employees conducting industrial espionage.</b><span style="font-weight: 400;"> Whether it’s to make money selling your secrets or to get a better job at a competing company, these quiet spies will do their best to take what they want.</span></li>
+</ul>
+<p><b>Lessons Learned</b></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><b>Trust without verification is dangerous. </b><span style="font-weight: 400;">In each case, institutions placed too much faith in their employees and too little emphasis on independent auditing and monitoring. </span></li>
+<li style="font-weight: 400;" aria-level="1"><b>Insider knowledge is a double-edged sword. </b><span style="font-weight: 400;">While employees need access to perform their duties, that access can be weaponized when oversight is weak. </span></li>
+<li style="font-weight: 400;" aria-level="1"><b>Technology alone is not enough. </b><span style="font-weight: 400;">Automated systems like SWIFT or risk monitoring tools can be manipulated by those who know how they function. Finally, culture matters. A banking culture that prioritizes profits or speed over compliance can create an environment where insider attacks flourish.</span></li>
+</ul>
+<p><b>How to Protect an Organization from Insider Threats</b></p>
+<p><span style="font-weight: 400;">While well trained users can be your security front line, you still need technology as your last line of defense. User Activity Monitoring allows you to monitor users to verify that their actions meet good security practices. If a malicious outsider gains access to their log-in information, or if an insider chooses to take advantage of their system access, you will have a record of the suspicious activity.</span></p>
+<p><span style="font-weight: 400;">If your business is like most others, you don’t have the budget to stand up your own security operations center. But that doesn’t remove the need for around-the-clock monitoring and intelligence that will help you investigate incidents and minimize attacks.</span></p>
+<p><span style="font-weight: 400;">In the spirit of preserving your data, session recording software offers a way to protect your organization. Visit </span><a href="http://www.tsfactory.com"><span style="font-weight: 400;">www.tsfactory.com</span></a><span style="font-weight: 400;"> to learn more about how we can help you prevent data insider threats and theft.</span></p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/insider-bank-attacks-a-hidden-threat-to-financial-institutions/">Insider Bank Attacks: A Hidden Threat to Financial Institutions</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>What is Ransomware-as-a-Service (RaaS)?</title>
+		<link>https://www.tsfactory.com/forums/blogs/ransomware-as-a-service/</link>
+		
+		<dc:creator><![CDATA[Chelsie Wyatt]]></dc:creator>
+		<pubDate>Fri, 01 Aug 2025 11:34:38 +0000</pubDate>
+				<category><![CDATA[InfoSec Digest]]></category>
+		<guid isPermaLink="false">https://www.tsfactory.com/forums/blogs/?p=1066</guid>
+
+					<description><![CDATA[<p>Ransomware-as-a-Service Ransomware attacks have evolved from one-off, opportunistic hacks into a mature criminal industry — and at the heart of this transformation is Ransomware-as-a-Service (RaaS). This underground business model has lowered the barrier to entry for cybercrime, enabling even non-technical criminals to launch sophisticated ransomware campaigns. RaaS kits allow affiliates lacking the skill or time [&#8230;]</p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/ransomware-as-a-service/">What is Ransomware-as-a-Service (RaaS)?</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><b>Ransomware-as-a-Service</b></p>
+<p><span style="font-weight: 400;">Ransomware attacks have evolved from one-off, opportunistic hacks into a mature criminal industry — and at the heart of this transformation is Ransomware-as-a-Service (RaaS). This underground business model has lowered the barrier to entry for cybercrime, enabling even non-technical criminals to launch sophisticated ransomware campaigns.</span></p>
+<p><span style="font-weight: 400;">RaaS kits allow affiliates lacking the skill or time to develop their own ransomware variant to be up and running quickly and affordably. They are easy to find on the dark web, where they are advertised in the same way that goods are advertised on the legitimate web.</span></p>
+<p><span style="font-weight: 400;">A RaaS kit may include 24/7 support, bundled offers, user reviews, forums and other features identical to those offered by legitimate SaaS providers. The price of RaaS kits ranges from $40 per month to several thousand dollars – trivial amounts, considering that the average ransom demand in 2024 was $2.73 million, according to Sophos. A threat actor doesn’t need every attack to be successful in order to become rich.</span></p>
+<ol>
+<li><b> Subscription Model</b></li>
+</ol>
+<p><span style="font-weight: 400;">Affiliates pay a monthly or annual fee for access to the ransomware kit, infrastructure, and updates. Pricing can range from a few hundred to several thousand dollars per month, depending on features like stealth, speed, and encryption strength.</span></p>
+<p><span style="font-weight: 400;">Example: A $500/month subscription granting access to the latest ransomware build plus 24/7 “support.”</span></p>
+<p><span style="font-weight: 400;">Advantage for criminals: Predictable, recurring income stream for the RaaS developers.</span></p>
+<ol start="2">
+<li><b> Affiliate/Profit-Sharing Model</b></li>
+</ol>
+<p><span style="font-weight: 400;">The most common RaaS structure. Affiliates use the ransomware for free or a small setup fee, then share a percentage of each ransom with the developers.</span></p>
+<p><span style="font-weight: 400;">Typical splits: 70/30 or 80/20 (affiliate gets the larger share).</span></p>
+<p><span style="font-weight: 400;">Example: A $1 million ransom payment might yield $800k to the affiliate and $200k to the developer.</span></p>
+<p><span style="font-weight: 400;">Advantage: Low barrier to entry for affiliates, high earning potential for developers if affiliates succeed.</span></p>
+<ol start="3">
+<li><b> One-Time License Fee</b></li>
+</ol>
+<p><span style="font-weight: 400;">Affiliates purchase the ransomware kit outright for a single payment. After that, they own and operate it without further revenue sharing.</span></p>
+<p><span style="font-weight: 400;">Example: A one-time $5,000 payment for a fully functional ransomware package.</span></p>
+<p><span style="font-weight: 400;">Advantage: Instant, lump-sum income for developers — but no ongoing revenue unless they sell new versions later.</span></p>
+<ol start="4">
+<li><b> Hybrid Model</b></li>
+</ol>
+<p><span style="font-weight: 400;">Combines aspects of the above models. Affiliates might pay a smaller monthly subscription plus a reduced profit-sharing percentage, or a partial upfront license fee with ongoing royalties.</span></p>
+<p><span style="font-weight: 400;">Example: $200/month subscription plus 20% of each ransom collected.</span></p>
+<p><span style="font-weight: 400;">Advantage: Developers get both steady income and a cut of big payouts.</span></p>
+<p><span style="font-weight: 400;">Some RaaS platforms also run “bug bounty”–style incentives for affiliates, rewarding them for finding better infection vectors or bypassing new security measures — another sign of how professionalized this criminal market has become.</span></p>
+<p><b>Ransomware as a Service (RaaS) Examples</b></p>
+<p><span style="font-weight: 400;">There is an abundance of ransomware as a service in circulation, and while cyber professionals are aware of and tracking many different groups, it’s important to be on guard and prepared for anything. </span></p>
+<p><b>LockBit</b></p>
+<p><span style="font-weight: 400;">This ransomware emerged in June 2021 and exploits SMB and PowerShell to spread malware through a compromised network. It claims to have the fastest market encryption and has compromised over 50 organizations across different industries.</span></p>
+<p><b>BlackCat</b></p>
+<p><span style="font-weight: 400;">Also known as ALPHV, BlackCat is coded in the Rust programming language and is easy to compile against different operating architectures. This ransomware is dangerous as it’s highly customizable and easy to individualize.</span></p>
+<p><b>Hive</b></p>
+<p><span style="font-weight: 400;">First observed in June 2021, the Hive RaaS group pressures victims to pay by releasing details of the attack on different leak sites and even social media, including the date and time of attacks and a countdown to information leaks.</span></p>
+<p><b>Dharma</b></p>
+<p><span style="font-weight: 400;">First identified in 2016, Dharma targets victims through malware attachments in phishing emails. Several other ransomware groups have used Dharma as source code.</span></p>
+<h2><b>Defending Against Ransomware-as-a-Service</b></h2>
+<p><span style="font-weight: 400;">Ransomware is especially insidious because there is no singular root cause for the attack. Ransomware itself refers to the malware that is injected to encrypt and possibly exfiltrate data, not the method used to do that. While there are common TTPs in ransomware every organisation should be aware of and monitor for, a major way to prevent ransomware attacks is to monitor for precursors.</span></p>
+<ol>
+<li><span style="font-weight: 400;"> Conduct Basic File Backups. </span></li>
+</ol>
+<p><span style="font-weight: 400;">This small act can make a major difference if a ransomware attack occurs, as it defends against double extortion. According to </span><a href="https://arcticwolf.com/resources/blog-uk/breaking-down-ransomware-as-a-service-raas/"><span style="font-weight: 400;">Arctic Wolf</span></a><span style="font-weight: 400;"> , in 68% of ransomware incidents, reliable backups aided in the recovery process — in many cases removing the need for a payout by providing an alternate path to sufficient recovery.</span></p>
+<ol start="2">
+<li><span style="font-weight: 400;"> Secure the Cloud</span></li>
+</ol>
+<p><span style="font-weight: 400;">Not only can the cloud offer initial access to threat actors, but as data storage and operational applications expand to the cloud, it’s likely threat actors will find their way there. Understanding your responsibility in cloud security, as well as staying on top of misconfigurations, can go a long way in hardening this part of the attack surface.</span></p>
+<ol start="3">
+<li><span style="font-weight: 400;"> Enforce Identity and Access Controls</span></li>
+</ol>
+<p><span style="font-weight: 400;">Identity is an emerging battleground, and not only are credentials a growing root cause of initial access, but Remote Desktop Protocol (RDP) and compromised VPN credentials are the leading root causes of ransomware and intrusions. </span></p>
+<ol start="4">
+<li><span style="font-weight: 400;"> Conduct Risk-Based Vulnerability Management</span></li>
+</ol>
+<p><span style="font-weight: 400;">It’s often known, unpatched vulnerabilities that allow threat actors to gain access to a network or system, and with the number of critical vulnerabilities continuing to increase year over year, continuous vulnerability management is no longer optional for organisations.</span></p>
+<ol start="5">
+<li><span style="font-weight: 400;"> Invest in 24×7 Monitoring</span></li>
+</ol>
+<p><span style="font-weight: 400;">There are two key components to preventing and stopping a ransomware attack – visibility into your environment and the ability to swiftly detect anomalies. </span></p>
+<ol start="6">
+<li><span style="font-weight: 400;"> User Awareness and Training</span></li>
+</ol>
+<p><span style="font-weight: 400;">MDR services often include training employees about ransomware risks and best practices to avoid falling victim to phishing and other social engineering techniques commonly used in ransomware campaigns. Phishing simulation training is one example of what an MDR provider can offer to strengthen your weakest link in RaaS attacks: your end users.</span></p>
+<h2><b>Monitoring Remote Sessions</b></h2>
+<p><span style="font-weight: 400;">Security monitoring is crucial for preventing ransomware attacks as it enables early detection, identification of vulnerabilities, monitoring for anomalies, data protection, and compliance with regulatory requirements. </span></p>
+<p><a href="https://www.tsfactory.com/"><span style="font-weight: 400;">RecordTS</span></a><span style="font-weight: 400;"> will record Windows remote sessions reliably and securely for RDS, Citrix and VMware systems. Scalable from small offices with one server to enterprise networks with tens of thousands of desktops and servers, RecordTS integrates seamlessly with the native environment.</span></p>
+<p>&nbsp;</p>
+<p>The post <a href="https://www.tsfactory.com/forums/blogs/ransomware-as-a-service/">What is Ransomware-as-a-Service (RaaS)?</a> appeared first on <a href="https://www.tsfactory.com/forums/blogs">Blogs</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

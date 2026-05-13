@@ -155,11 +155,19 @@ class AnswerExtractor:
                 return []
             return [part.strip() for part in re.split(r'\s*\|\|\s*|\s*\|\s*|\s*,\s*', text) if part.strip()]
 
-        def extract_labeled_section(text: str, label: str) -> List[str]:
+        def split_labeled_entries(text: str, label: str) -> List[str]:
             match = re.search(rf'{re.escape(label)}\s*:\s*([^\n]+)', text, re.IGNORECASE)
             if not match:
                 return []
-            return split_block(match.group(1))
+            return [part.strip() for part in re.split(r'\s*\|\|\s*', match.group(1)) if part.strip()]
+
+        def format_descriptive_entry(entry: str) -> str:
+            parts = [part.strip() for part in re.split(r'\s*\|\s*', entry) if part.strip()]
+            if not parts:
+                return entry.strip()
+            if len(parts) == 1:
+                return parts[0]
+            return f"{parts[0]} - {'; '.join(parts[1:])}"
         
         for chunk in evidence:
             text = chunk['text'].lower()
@@ -175,11 +183,11 @@ class AnswerExtractor:
                 for item in split_items(embedded_ttps.group(1)):
                     add_tactic(item, 'entity_profile', chunk['text'])
 
-            embedded_techniques = extract_labeled_section(original_text, 'Techniques Used')
+            embedded_techniques = split_labeled_entries(original_text, 'Techniques Used')
             for item in embedded_techniques:
                 add_unique(techniques, seen_techniques, item, metadata.get('source_field', 'entity_profile'), 'technique')
 
-            embedded_software = extract_labeled_section(original_text, 'Software Used')
+            embedded_software = split_labeled_entries(original_text, 'Software Used')
             for item in embedded_software:
                 add_unique(software, seen_software, item, metadata.get('source_field', 'entity_profile'), 'software')
 
@@ -971,7 +979,11 @@ class AnswerExtractor:
         
         summary_lines = ["**Tactics & Techniques**", "Evidence-based summary:"]
         for tactic in tactics[:8]:
-            summary_lines.append(f"- {tactic['tactic']}")
+            line = f"- {tactic['tactic']}"
+            evidence = (tactic.get('evidence') or '').strip()
+            if evidence:
+                line += f" - {evidence[:180].rstrip()}"
+            summary_lines.append(line)
         return "\n".join(summary_lines).strip()
 
     def _format_tactics_techniques_summary(self, techniques: List[Dict], software: List[Dict]) -> str:
@@ -980,12 +992,22 @@ class AnswerExtractor:
         if techniques:
             lines.append("**MITRE Techniques**")
             for entry in techniques[:8]:
-                lines.append(f"- {entry['technique']}")
+                lines.append(f"- {self._format_descriptive_text(entry.get('technique', ''))}")
         if software:
             lines.append("**Tools / Software**")
             for entry in software[:8]:
-                lines.append(f"- {entry['software']}")
+                lines.append(f"- {self._format_descriptive_text(entry.get('software', ''))}")
         return "\n".join(lines).strip()
+
+    def _format_descriptive_text(self, text: str) -> str:
+        """Render a stored entry as a readable label plus details when present."""
+        cleaned = (text or '').strip()
+        if not cleaned:
+            return ''
+        parts = [part.strip() for part in re.split(r'\s*\|\s*', cleaned) if part.strip()]
+        if len(parts) <= 1:
+            return cleaned
+        return f"{parts[0]} - {'; '.join(parts[1:])}"
     
     def _format_associations_summary(self, associations: List[Dict], query: str, full_context: List[str] = None) -> str:
         """Format associations into evidence-based summary."""

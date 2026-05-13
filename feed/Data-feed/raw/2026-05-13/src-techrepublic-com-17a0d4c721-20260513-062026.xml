@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Security Archives - TechRepublic</title>
+	<atom:link href="https://www.techrepublic.com/rssfeeds/topic/security/" rel="self" type="application/rss+xml" />
+	<link>https://www.techrepublic.com/topic/security/</link>
+	<description>News, Tips, and Advice for Technology Professionals</description>
+	<lastBuildDate>Tue, 12 May 2026 18:47:19 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>Over 1 Million Baby Monitors, Security Cameras Exposed Through Meari Flaws</title>
+		<link>https://www.techrepublic.com/article/news-meari-iot-baby-monitor-camera-vulnerabilities/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 18:47:19 +0000</pubDate>
+				<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[baby monitors]]></category>
+		<category><![CDATA[cloudedge]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[iot security]]></category>
+		<category><![CDATA[meari technology]]></category>
+		<category><![CDATA[security cameras]]></category>
+		<category><![CDATA[smart home security]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358903</guid>
+
+					<description><![CDATA[<p>Meari IoT flaws reportedly exposed baby monitor images, camera activity, and device data across more than 1 million connected devices.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-meari-iot-baby-monitor-camera-vulnerabilities/">Over 1 Million Baby Monitors, Security Cameras Exposed Through Meari Flaws</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google Says Hackers Used AI to Build Zero-Day Exploit</title>
+		<link>https://www.techrepublic.com/article/news-google-hackers-ai-zero-day-exploit/</link>
+		
+		<dc:creator><![CDATA[Kezia Jungco]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 12:56:06 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Enterprise Software]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[2fa]]></category>
+		<category><![CDATA[ai]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[enterprise security]]></category>
+		<category><![CDATA[exploit]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[threat intelligence]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<category><![CDATA[zero day]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358844</guid>
+
+					<description><![CDATA[<p>Google says hackers used AI to help build a zero-day exploit targeting 2FA, raising concerns about AI-assisted hacking.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-google-hackers-ai-zero-day-exploit/">Google Says Hackers Used AI to Build Zero-Day Exploit</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>FCC Robocall Crackdown Raises Privacy Concerns Over Mandatory ID Checks</title>
+		<link>https://www.techrepublic.com/article/news-fcc-robocall-crackdown-privacy-id-checks/</link>
+		
+		<dc:creator><![CDATA[Aminu Abdullahi]]></dc:creator>
+		<pubDate>Mon, 11 May 2026 18:35:18 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Tech Regulation]]></category>
+		<category><![CDATA[brendan carr]]></category>
+		<category><![CDATA[caller id]]></category>
+		<category><![CDATA[consumer protection]]></category>
+		<category><![CDATA[fcc]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[robocalls]]></category>
+		<category><![CDATA[stir shaken]]></category>
+		<category><![CDATA[telecom]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358663</guid>
+
+					<description><![CDATA[<p>The FCC’s proposed robocall crackdown could force carriers to verify customer identities, raising privacy concerns over anonymous phone use.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-fcc-robocall-crackdown-privacy-id-checks/">FCC Robocall Crackdown Raises Privacy Concerns Over Mandatory ID Checks</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Mac Users Warned Over Fake Claude Install Instructions</title>
+		<link>https://www.techrepublic.com/article/news-claude-mac-download-google-ads-malware/</link>
+		
+		<dc:creator><![CDATA[Liz Ticong]]></dc:creator>
+		<pubDate>Mon, 11 May 2026 18:28:55 +0000</pubDate>
+				<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[anthropic]]></category>
+		<category><![CDATA[claude]]></category>
+		<category><![CDATA[claude.ai]]></category>
+		<category><![CDATA[google ads]]></category>
+		<category><![CDATA[infostealer]]></category>
+		<category><![CDATA[mac malware]]></category>
+		<category><![CDATA[macos security]]></category>
+		<category><![CDATA[malvertising]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358657</guid>
+
+					<description><![CDATA[<p>Hackers are using Google Ads and Claude shared chats to target Mac users with fake setup instructions that can install malware.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-claude-mac-download-google-ads-malware/">Mac Users Warned Over Fake Claude Install Instructions</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>1.8 Billion Gmail Users May Want to Check This AI Privacy Setting</title>
+		<link>https://www.techrepublic.com/article/news-google-gmail-ai-personalization-privacy-settings/</link>
+		
+		<dc:creator><![CDATA[Esther Shein]]></dc:creator>
+		<pubDate>Mon, 11 May 2026 16:13:12 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Chatbots]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ai privacy]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<category><![CDATA[email security]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[Gmail]]></category>
+		<category><![CDATA[Google Workspace]]></category>
+		<category><![CDATA[lori greiner]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358634</guid>
+
+					<description><![CDATA[<p>Google’s new Gmail AI personalization features are raising privacy concerns. Here’s what users should know and how to review smart settings.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-google-gmail-ai-personalization-privacy-settings/">1.8 Billion Gmail Users May Want to Check This AI Privacy Setting</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What It Costs to Hire a Hacker on the Dark Web in 2026</title>
+		<link>https://www.techrepublic.com/article/what-it-costs-to-hire-a-hacker-on-the-dark-web/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Mon, 11 May 2026 05:00:04 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[dark web]]></category>
+		<category><![CDATA[hackers]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[<p>See how much it costs to hire a hacker or buy data on the Dark Web in 2026.</p>
+<p>The post <a href="https://www.techrepublic.com/article/what-it-costs-to-hire-a-hacker-on-the-dark-web/">What It Costs to Hire a Hacker on the Dark Web in 2026</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>ShinyHunters Extorts Universities in New Instructure Canvas Hack</title>
+		<link>https://www.techrepublic.com/article/news-shinyhunters-canvas-portal-defacement/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Fri, 08 May 2026 21:15:10 +0000</pubDate>
+				<category><![CDATA[APAC]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[canvas]]></category>
+		<category><![CDATA[cyberattack]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[editors picks]]></category>
+		<category><![CDATA[education cybersecurity]]></category>
+		<category><![CDATA[extortion]]></category>
+		<category><![CDATA[instructure]]></category>
+		<category><![CDATA[saas security]]></category>
+		<category><![CDATA[shinyhunters]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358522</guid>
+
+					<description><![CDATA[<p>ShinyHunters-linked attackers defaced Canvas portals, disrupting finals week access and exposing SaaS security risks for schools.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-shinyhunters-canvas-portal-defacement/">ShinyHunters Extorts Universities in New Instructure Canvas Hack</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AWS Rex Is a Big Step for Agentic AI Security, But Not the Final Layer</title>
+		<link>https://www.techrepublic.com/article/news-aws-rex-agentic-ai-data-security-gap/</link>
+		
+		<dc:creator><![CDATA[Tim Freestone]]></dc:creator>
+		<pubDate>Fri, 08 May 2026 20:19:48 +0000</pubDate>
+				<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Tech Industry]]></category>
+		<category><![CDATA[agentic ai]]></category>
+		<category><![CDATA[ai security]]></category>
+		<category><![CDATA[AWS]]></category>
+		<category><![CDATA[cedar policy]]></category>
+		<category><![CDATA[compliance]]></category>
+		<category><![CDATA[data security]]></category>
+		<category><![CDATA[prompt injection]]></category>
+		<category><![CDATA[rex]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358515</guid>
+
+					<description><![CDATA[<p>AWS Rex adds runtime guardrails for agentic AI, but security leaders still need data-layer controls to satisfy compliance and audit demands.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-aws-rex-agentic-ai-data-security-gap/">AWS Rex Is a Big Step for Agentic AI Security, But Not the Final Layer</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google Play Scam Apps Hit 7.3M Downloads with Fake Call Logs</title>
+		<link>https://www.techrepublic.com/article/news-callphantom-google-play-scam/</link>
+		
+		<dc:creator><![CDATA[Liz Ticong]]></dc:creator>
+		<pubDate>Fri, 08 May 2026 18:57:17 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[android apps]]></category>
+		<category><![CDATA[app store fraud]]></category>
+		<category><![CDATA[callphantom]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[eset research]]></category>
+		<category><![CDATA[google play]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<category><![CDATA[scam apps]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358478</guid>
+
+					<description><![CDATA[<p>ESET found 28 CallPhantom scam apps on Google Play that promised fake call logs and had reached more than 7.3 million downloads before being removed.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-callphantom-google-play-scam/">Google Play Scam Apps Hit 7.3M Downloads with Fake Call Logs</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Millions of Windows PCs Face a Secure Boot Update Deadline in 2026</title>
+		<link>https://www.techrepublic.com/article/news-windows-secure-boot-certificates-2026/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Fri, 08 May 2026 16:21:59 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Developer]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[extended security updates]]></category>
+		<category><![CDATA[secure boot]]></category>
+		<category><![CDATA[uefi]]></category>
+		<category><![CDATA[windows]]></category>
+		<category><![CDATA[windows 10]]></category>
+		<category><![CDATA[Windows 11]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358460</guid>
+
+					<description><![CDATA[<p>Microsoft Secure Boot certificates from 2011 begin expiring in June 2026. Here’s how to check whether your Windows PC has the 2023 update.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-windows-secure-boot-certificates-2026/">Millions of Windows PCs Face a Secure Boot Update Deadline in 2026</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>6 Best VPNs for the UK in 2026</title>
+		<link>https://www.techrepublic.com/article/best-vpns-uk/</link>
+		
+		<dc:creator><![CDATA[Drew Robb]]></dc:creator>
+		<pubDate>Fri, 08 May 2026 15:41:57 +0000</pubDate>
+				<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Top Products]]></category>
+		<category><![CDATA[United Kingdom]]></category>
+		<category><![CDATA[best UK VPN]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4240597</guid>
+
+					<description><![CDATA[<p>VPN capabilities and performance levels differ from place to place. Which VPNs are best for U.K. users and expats in 2026?</p>
+<p>The post <a href="https://www.techrepublic.com/article/best-vpns-uk/">6 Best VPNs for the UK in 2026</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The 7 Best Endpoint Encryption Software Choices in 2026</title>
+		<link>https://www.techrepublic.com/article/encryption-software/</link>
+		
+		<dc:creator><![CDATA[Jonathan Kalibbala]]></dc:creator>
+		<pubDate>Fri, 08 May 2026 14:50:36 +0000</pubDate>
+				<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Top Products]]></category>
+		<category><![CDATA[Advanced Encryption Package]]></category>
+		<category><![CDATA[AxCrypt Premium]]></category>
+		<category><![CDATA[bitlocker]]></category>
+		<category><![CDATA[Encryption software]]></category>
+		<category><![CDATA[ESET PROTECT Complete]]></category>
+		<category><![CDATA[nordlocker]]></category>
+		<category><![CDATA[Trend Micro Endpoint Encryption]]></category>
+		<category><![CDATA[veracrypt]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=3959444</guid>
+
+					<description><![CDATA[<p>This is a comprehensive list of the best encryption software and tools in 2026, covering their features, pricing and more. Use this guide to determine your best fit.</p>
+<p>The post <a href="https://www.techrepublic.com/article/encryption-software/">The 7 Best Endpoint Encryption Software Choices in 2026</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>CISA Warning: High-Severity Linux Flaw Puts Unpatched Systems at Risk</title>
+		<link>https://www.techrepublic.com/article/news-linux-kernel-vulnerability-root-access-cisa-warning/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Wed, 06 May 2026 17:02:57 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Developer]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[CISA]]></category>
+		<category><![CDATA[cve]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[linux kernel]]></category>
+		<category><![CDATA[patch management]]></category>
+		<category><![CDATA[privilege escalation]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358248</guid>
+
+					<description><![CDATA[<p>CISA warns that the nine-year-old Linux Copy Fail flaw is being actively exploited, allowing local attackers to gain root access on affected systems.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-linux-kernel-vulnerability-root-access-cisa-warning/">CISA Warning: High-Severity Linux Flaw Puts Unpatched Systems at Risk</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New WhatsApp Flaws Could Affect Billions of Users After Meta Security Patch</title>
+		<link>https://www.techrepublic.com/article/news-whatsapp-users-update-meta-security-flaws/</link>
+		
+		<dc:creator><![CDATA[Kezia Jungco]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 17:38:38 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[Social Media]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<category><![CDATA[security updates]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+		<category><![CDATA[whatsapp]]></category>
+		<category><![CDATA[windows security]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358165</guid>
+
+					<description><![CDATA[<p>Meta patched two WhatsApp flaws affecting iOS, Android, and Windows users, including bugs tied to risky files, links, and Reels previews.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-whatsapp-users-update-meta-security-flaws/">New WhatsApp Flaws Could Affect Billions of Users After Meta Security Patch</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google AppSheet Abuse Helped Phish 30,000 Facebook Accounts</title>
+		<link>https://www.techrepublic.com/article/news-google-appsheet-facebook-phishing-accountdumpling/</link>
+		
+		<dc:creator><![CDATA[Joseph Ofonagoro]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 16:46:16 +0000</pubDate>
+				<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Social Media]]></category>
+		<category><![CDATA[accountdumpling]]></category>
+		<category><![CDATA[credential theft]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[google appsheet]]></category>
+		<category><![CDATA[guardio]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[phishing]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358159</guid>
+
+					<description><![CDATA[<p>Hackers abused Google AppSheet to send Meta phishing emails, compromising 30,000 Facebook business accounts across 50 countries.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-google-appsheet-facebook-phishing-accountdumpling/">Google AppSheet Abuse Helped Phish 30,000 Facebook Accounts</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google Update: Android Flaw Could Put Billions of Devices at Risk</title>
+		<link>https://www.techrepublic.com/article/news-google-android-zero-click-rce-patch/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 16:29:02 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[cve-2026-0073]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[mobile security]]></category>
+		<category><![CDATA[rce vulnerability]]></category>
+		<category><![CDATA[remote code execution]]></category>
+		<category><![CDATA[zero-click vulnerability]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358155</guid>
+
+					<description><![CDATA[<p>Google patched an Android zero-click RCE flaw affecting multiple versions. Here’s what IT teams should know and how to reduce mobile risk.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-google-android-zero-click-rce-patch/">Google Update: Android Flaw Could Put Billions of Devices at Risk</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What If Your Digital Footprint Could Shrink?</title>
+		<link>https://www.techrepublic.com/article/surfshark-one-incogni-2-year-plan/</link>
+		
+		<dc:creator><![CDATA[TechRepublic Academy]]></dc:creator>
+		<pubDate>Tue, 05 May 2026 13:23:51 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[TR Academy]]></category>
+		<category><![CDATA[antivirus]]></category>
+		<category><![CDATA[identity protection]]></category>
+		<category><![CDATA[incogni]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[surfshark]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358129</guid>
+
+					<description><![CDATA[<p>Get Surfshark One+ with Incogni for $91.99 (reg. $500.40) and cover VPN, alerts, antivirus, and data removal.</p>
+<p>The post <a href="https://www.techrepublic.com/article/surfshark-one-incogni-2-year-plan/">What If Your Digital Footprint Could Shrink?</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft Defender Bug Triggers False Malware Alerts for DigiCert Certificates</title>
+		<link>https://www.techrepublic.com/article/news-microsoft-defender-digicert-certificates-false-positive/</link>
+		
+		<dc:creator><![CDATA[Ken Underhill]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 21:12:38 +0000</pubDate>
+				<category><![CDATA[Cybersecurity]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[code signing]]></category>
+		<category><![CDATA[digicert]]></category>
+		<category><![CDATA[endpoint security]]></category>
+		<category><![CDATA[false positive]]></category>
+		<category><![CDATA[malware detection]]></category>
+		<category><![CDATA[Microsoft Defender]]></category>
+		<category><![CDATA[root certificates]]></category>
+		<category><![CDATA[windows security]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4358083</guid>
+
+					<description><![CDATA[<p>Microsoft fixed a Defender false positive that flagged legitimate DigiCert certificates as malware, disrupting Windows trust stores for some IT teams.</p>
+<p>The post <a href="https://www.techrepublic.com/article/news-microsoft-defender-digicert-certificates-false-positive/">Microsoft Defender Bug Triggers False Malware Alerts for DigiCert Certificates</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>5 Best VPNs for Android in 2026</title>
+		<link>https://www.techrepublic.com/article/best-vpn-for-android/</link>
+		
+		<dc:creator><![CDATA[Luis Millares]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 19:22:15 +0000</pubDate>
+				<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4210755</guid>
+
+					<description><![CDATA[<p>Explore the best VPNs for Android devices in 2026. Find out which VPN offers the best security, speed and features for your Android device.</p>
+<p>The post <a href="https://www.techrepublic.com/article/best-vpn-for-android/">5 Best VPNs for Android in 2026</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The 7 Best iPhone VPNs in 2026</title>
+		<link>https://www.techrepublic.com/article/best-vpn-for-iphone/</link>
+		
+		<dc:creator><![CDATA[Franklin Okeke]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 19:12:47 +0000</pubDate>
+				<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[iPhone VPN]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">https://www.techrepublic.com/?p=4133049</guid>
+
+					<description><![CDATA[<p>Which VPN works best on iPhones? Use our guide to compare the pricing and features of the 7 best VPNs for iPhone in 2026.</p>
+<p>The post <a href="https://www.techrepublic.com/article/best-vpn-for-iphone/">The 7 Best iPhone VPNs in 2026</a> appeared first on <a href="https://www.techrepublic.com">TechRepublic</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

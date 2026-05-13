@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Canary Trap</title>
+	<atom:link href="https://canarytrap.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://canarytrap.com/</link>
+	<description>Vulnerability &#38; Penetration Testing</description>
+	<lastBuildDate>Mon, 04 May 2026 16:00:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+	<item>
+		<title>How Preemptive Security Is Shifting Cybersecurity Beyond Detection</title>
+		<link>https://canarytrap.com/preemptive-security/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Mon, 04 May 2026 16:00:07 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Attack Surface]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[Offensive Security]]></category>
+		<category><![CDATA[Preemptive Security]]></category>
+		<category><![CDATA[Risk Reduction]]></category>
+		<category><![CDATA[Threat Detection]]></category>
+		<category><![CDATA[Threat Intelligence]]></category>
+		<category><![CDATA[Threat Prevention]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3499</guid>
+
+					<description><![CDATA[<p>Preemptive security is redefining cybersecurity by shifting the focus from detecting attacks to stopping them before they happen. As threat actors move faster and become more sophisticated, traditional models centered on detection and response are no longer sufficient to reduce real risk. Relying solely on alerts and incident response means organizations are often reacting after [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/preemptive-security/">How Preemptive Security Is Shifting Cybersecurity Beyond Detection</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Preemptive security is redefining cybersecurity by shifting the focus from detecting attacks to stopping them before they happen. As threat actors move faster and become more sophisticated, traditional models centered on detection and response are no longer sufficient to reduce real risk.</span></p>
+<p><span style="font-weight: 400;">Relying solely on alerts and incident response means organizations are often reacting after an attacker has already gained a foothold. Even when the response is fast, the damage may already be done. This has exposed a fundamental limitation in detection-driven strategies, which prioritize visibility but don’t always prevent compromise.</span></p>
+<p><span style="font-weight: 400;">To address this gap, organizations are adopting preemptive approaches that aim to disrupt attacks earlier in their lifecycle. By combining predictive analytics, automation, and threat intelligence, security teams can identify patterns of malicious behavior before they escalate into active incidents. This allows for earlier intervention and reduces the likelihood of successful exploitation.</span></p>
+<p><span style="font-weight: 400;">Prevention also involves actively reducing the attack surface. Strengthening configurations, eliminating known vulnerabilities, and limiting exposure points all play a role in minimizing opportunities for attackers. In this model, security becomes less about reacting to alerts and more about continuously eliminating risk.</span></p>
+<p><span style="font-weight: 400;">Techniques such as deception and disruption further enhance this approach by interfering with attacker activity before objectives are achieved. Instead of waiting for alerts to trigger a response, organizations can proactively mislead, block, or slow adversaries, making attacks more difficult to execute.</span></p>
+<p><span style="font-weight: 400;">As cybersecurity continues to evolve, the focus is shifting toward preventing incidents rather than managing them after the fact. This transition reflects a broader recognition that cyber resilience depends not just on how quickly organizations respond, but on how effectively they can stop attacks from succeeding in the first place.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Siddiqui, Laiba. 2026. “Preemptive Cybersecurity in 2026: How It Works.” </span><i><span style="font-weight: 400;">Splunk.</span></i><span style="font-weight: 400;"> February 5. </span></p>
+<p><b>READ: </b><a href="https://bit.ly/4e3YhXa" target="_blank" rel="noopener"><b>https://bit.ly/4e3YhXa</b></a></p>
+<p>The post <a href="https://canarytrap.com/preemptive-security/">How Preemptive Security Is Shifting Cybersecurity Beyond Detection</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Canary Trap’s Bi-Weekly Cyber Roundup</title>
+		<link>https://canarytrap.com/cyber-roundup-april-29/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Wed, 29 Apr 2026 16:06:27 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Canary Trap]]></category>
+		<category><![CDATA[Cyber Roundup]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[Digital Defense]]></category>
+		<category><![CDATA[Latest News]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3489</guid>
+
+					<description><![CDATA[<p>Welcome to the latest edition of the “Bi-Weekly Cyber Roundup” by Canary Trap. At Canary Trap, it is our mission to keep you up-to-date with the most crucial news in the world of cybersecurity and this bi-weekly publication is your gateway to the latest news. This week’s roundup highlights the growing convergence of cybercrime, geopolitics, [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/cyber-roundup-april-29/">Canary Trap’s Bi-Weekly Cyber Roundup</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Welcome to the latest edition of the “Bi-Weekly Cyber Roundup” by Canary Trap. At Canary Trap, it is our mission to keep you up-to-date with the most crucial news in the world of cybersecurity and this bi-weekly publication is your gateway to the latest news.</span></p>
+<p><span style="font-weight: 400;">This week’s roundup highlights the growing convergence of cybercrime, geopolitics, and legal accountability. We examine a confirmed breach at a French government agency now tied to data sale activity, a guilty plea linked to the BlackCat ransomware ecosystem, and emerging techniques that weaponize Windows Defender itself. We also explore how lawmakers are escalating their response to ransomware attacks on hospitals, and conclude with a look at the destructive Lotus data wiper targeting Venezuela’s energy and utilities sector.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>French Government Agency Confirms Breach as Hacker Offers to Sell Data</b></li>
+</ul>
+<p><span style="font-weight: 400;">France’s national agency responsible for issuing and managing official identity documents, Agence Nationale des Titres Sécurisés (ANTS), has disclosed a cybersecurity incident that may have exposed personal data belonging to users of its online portal.</span></p>
+<p><span style="font-weight: 400;">ANTS, which operates under the French Ministry of the Interior and oversees services such as passports, driver’s licenses, and national ID cards, detected the breach on April 15, 2026. While the investigation remains ongoing, the agency confirmed that data linked to both individual and professional accounts on its platform may have been compromised. The scope of the incident, including the total number of affected individuals, has not yet been publicly disclosed.</span></p>
+<p><span style="font-weight: 400;">According to ANTS, the potentially exposed information includes login identifiers, full names, email addresses, and dates of birth. In some cases, additional data such as postal addresses, places of birth, phone numbers, and unique account identifiers may also have been accessed. The agency emphasized that the compromised data does not provide direct access to its systems or user accounts. However, it acknowledged that the information could be leveraged in phishing or social engineering campaigns.</span></p>
+<p><span style="font-weight: 400;">Authorities have been notified, including France’s data protection regulator (CNIL), the Paris Public Prosecutor, and the national cybersecurity agency (ANSSI). ANTS has also begun notifying individuals identified as potentially impacted and warned that any sale or misuse of the data would constitute a criminal offense.</span></p>
+<p><span style="font-weight: 400;">Shortly after the disclosure, a threat actor operating under the alias “breach3d” claimed responsibility for the attack on underground forums, alleging possession of up to 19 million records. The actor stated that the dataset includes personal and account-related information, such as contact details, demographic data, and civil status. While the data has reportedly been offered for sale, there is no confirmation that it has been widely distributed.</span></p>
+<p><span style="font-weight: 400;">ANTS has advised users to remain vigilant, particularly regarding unsolicited communications that appear to originate from the agency. Although no immediate action is required, heightened awareness is recommended to mitigate the risk of follow-on attacks.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Ransomware Negotiator Pleads Guilty to BlackCat Scheme</b></li>
+</ul>
+<p><span style="font-weight: 400;">A former ransomware negotiator has pleaded guilty to collaborating with the BlackCat/ALPHV ransomware group in a series of attacks targeting U.S. organizations in 2023, according to the U.S. Department of Justice. The case highlights an insider threat scenario in which a trusted cybersecurity professional leveraged privileged access to aid cybercriminal operations.</span></p>
+<p><span style="font-weight: 400;">Angelo Martino, 41, based in Florida, admitted to working with BlackCat actors beginning in April 2023 while employed at a U.S.-based incident response firm. In his role, Martino had access to sensitive information related to ransomware negotiations. He exploited this position by sharing confidential client data, including insurance policy limits and negotiation strategies, with the attackers, enabling them to maximize ransom demands without the knowledge or consent of either his employer or the affected organizations. In return, Martino received financial compensation from the threat actors.</span></p>
+<p><span style="font-weight: 400;">Martino also conspired with two other cybersecurity professionals, Ryan Goldberg and Kevin Martin, to deploy BlackCat ransomware against multiple U.S. victims between April and November 2023. In one instance, the group successfully extorted approximately $1.2 million in Bitcoin, which they then divided and laundered. Authorities have since seized roughly $10 million in assets connected to Martino, including cryptocurrency and high-value physical assets.</span></p>
+<p><span style="font-weight: 400;">All three individuals have pleaded guilty to extortion-related charges and face potential sentences of up to 20 years in prison. Their respective employers confirmed cooperation with law enforcement and stated that the individuals acted in violation of company policies and ethical standards.</span></p>
+<p><span style="font-weight: 400;">The case underscores the risks associated with insider threats in cybersecurity, particularly when individuals have access to highly sensitive operational and financial data. Industry experts emphasize the importance of enforcing strict separation of duties within incident response processes. Specifically, dividing responsibilities between negotiation, payment handling, and remediation can reduce the risk of conflicts of interest and limit opportunities for abuse.</span></p>
+<p><span style="font-weight: 400;">Additionally, the incident reinforces the need for organizations to apply zero trust principles not only to systems but also to third-party service providers. Even trusted cybersecurity partners should operate under least-privilege access models, with clear oversight and controls in place.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Exploits Turn Windows Defender Into Attacker Tool</b></li>
+</ul>
+<p><span style="font-weight: 400;">Threat actors are actively leveraging a set of publicly available proof-of-concept (PoC) exploits to manipulate Microsoft Defender’s core protection mechanisms, effectively turning the security platform against the environments it is designed to secure. These exploits, known as BlueHammer, RedSun, and UnDefend, target weaknesses in Defender’s privileged workflows, enabling attackers to escalate privileges and degrade detection capabilities once initial access is achieved.</span></p>
+<p><span style="font-weight: 400;">BlueHammer exploits a time-of-check to time-of-use (TOCTOU) flaw in Defender’s signature update process (tracked as CVE-2026-33825). By abusing a race condition during file remediation, attackers can redirect file operations and gain SYSTEM-level access without relying on kernel exploits or memory corruption. Microsoft addressed this vulnerability in its April 2026 security updates, but the remaining techniques extend beyond that patch.</span></p>
+<p><span style="font-weight: 400;">RedSun operates in a similar manner but targets a different component, Defender’s TieringEngineService. It can be triggered using an EICAR test string, a benign marker commonly used to validate antivirus functionality. When Defender attempts remediation, the exploit hijacks the process and executes attacker-controlled code with SYSTEM privileges. Notably, RedSun has been observed working even on fully patched systems, highlighting a broader issue in how Defender handles privileged file operations.</span></p>
+<p><span style="font-weight: 400;">The third exploit, UnDefend, is designed to be deployed post-compromise. Rather than triggering obvious failures, it subtly interferes with Defender’s update mechanisms, preventing the platform from receiving current threat intelligence while continuing to report a healthy status. This allows attackers to persist undetected while gradually weakening endpoint defenses.</span></p>
+<p><span style="font-weight: 400;">Security researchers have observed these exploits being used in targeted, hands-on attacks. Adversaries are staging binaries in low-profile directories such as Downloads or Pictures and using lightly modified PoC code to evade detection. The techniques themselves are not highly complex, but they are effective, demonstrating how moderately skilled attackers can weaponize publicly available research once they gain a foothold.</span></p>
+<p><span style="font-weight: 400;">Fundamentally, these exploits expose systemic weaknesses in Defender’s trust model. Each technique abuses how the platform performs privileged file operations without sufficiently validating execution paths. As a result, Defender, operating within the system’s trust boundary, can be manipulated into executing malicious actions on behalf of the attacker.</span></p>
+<p><span style="font-weight: 400;">While exploitation is straightforward once access is obtained, the primary barrier remains initial entry. Observed incidents often began with compromised VPN credentials lacking multi-factor authentication. From there, escalation to SYSTEM-level access becomes trivial.</span></p>
+<p><span style="font-weight: 400;">Mitigation efforts should focus on both patching and hardening. Organizations are advised to apply Microsoft’s April 2026 updates, enforce multi-factor authentication across all remote access points, restrict execution from user-writable directories, and implement independent detection layers that do not rely solely on endpoint security agents.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Lawmakers Ponder Terrorism Designations and Homicide Charges Over Hospital Ransomware Attacks</b></li>
+</ul>
+<p><span style="font-weight: 400;">U.S. lawmakers are increasingly considering stronger legal consequences for ransomware attacks targeting healthcare organizations, reflecting growing concern over the real-world impact of such incidents. During a recent House Homeland Security Committee hearing, policymakers explored whether these attacks should be treated as more severe crimes, including potential classification as acts of terrorism or, in extreme cases, grounds for homicide charges when loss of life can be linked to an attack.</span></p>
+<p><span style="font-weight: 400;">Cynthia Kaiser, a former senior FBI cyber official and now with Halcyon’s ransomware research center, proposed both approaches. She argued that existing legal frameworks may already support harsher penalties but have not yet been fully applied in this context. Designating ransomware attacks as terrorism could enable broader enforcement measures, including sanctions and travel restrictions, while clearer Department of Justice guidance could open the door to prosecuting cases involving patient deaths.</span></p>
+<p><span style="font-weight: 400;">The discussion reflects a sharp rise in ransomware incidents targeting healthcare. According to FBI data cited during the hearing, attacks against the sector nearly doubled, increasing from 238 in 2024 to 460 in 2025, making healthcare the most frequently targeted industry. The operational disruptions caused by these attacks, ranging from system outages to delayed care, have heightened concerns about patient safety.</span></p>
+<p><span style="font-weight: 400;">Some lawmakers expressed strong support for more aggressive deterrence. Representative Michael Guest emphasized that penalties should reflect the severity of targeting critical healthcare infrastructure, particularly in light of recent attacks that forced clinic closures in his home state of Mississippi.</span></p>
+<p><span style="font-weight: 400;">The idea of linking ransomware to terrorism is not new but has gained renewed traction. Previous legislative efforts and policy discussions have examined this connection, though formal implementation has been limited. At the same time, research continues to underscore the potential human cost: a 2023 study suggested ransomware attacks on hospitals may have contributed to patient deaths, while a 2020 case in Germany prompted a negligent homicide investigation, though no charges were ultimately filed.</span></p>
+<p><span style="font-weight: 400;">These proposals align with broader shifts in U.S. cyber policy toward a more assertive stance against threat actors. As ransomware groups continue to target critical services, lawmakers appear increasingly willing to explore legal frameworks that better reflect the potential consequences of these attacks.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>New Lotus Data Wiper Used Against Venezuelan Energy, Utility Firms</b></li>
+</ul>
+<p><span style="font-weight: 400;">Cybersecurity researchers have identified a previously undocumented data-wiping malware, dubbed *Lotus*, used in targeted attacks against energy and utilities organizations in Venezuela. Unlike ransomware, the malware appears to have no financial motive; instead, it is engineered for maximum destruction, rendering compromised systems completely unrecoverable.</span></p>
+<p><span style="font-weight: 400;">Analysis by Kaspersky indicates that the attack chain is deliberate and methodical. Initial access is followed by the execution of preparatory batch scripts designed to weaken system defenses, disrupt normal operations, and coordinate activity across networked environments. These scripts disable services, lock out users, terminate sessions, and sever network connectivity, effectively isolating systems prior to the destructive phase. </span></p>
+<p><span style="font-weight: 400;">Once the environment is destabilized, the attackers begin preliminary wiping actions using legitimate system utilities. Tools such as *diskpart*, *robocopy*, and *fsutil* are leveraged to overwrite data, fill available disk space, and hinder recovery efforts. This staged approach ensures that by the time the primary payload is deployed, restoration options are already significantly degraded. </span></p>
+<p><span style="font-weight: 400;">The final payload, Lotus, operates at a low level, interacting directly with physical drives. It removes recovery mechanisms, deletes restore points, clears filesystem activity logs, and overwrites disk sectors rather than just logical files. The malware also repeatedly cycles through wiping routines to ensure data destruction is comprehensive and irreversible. </span></p>
+<p><span style="font-weight: 400;">The campaign’s timing suggests a potential link to regional geopolitical tensions in late 2025, including disruptions affecting critical infrastructure such as the state-owned oil company Petróleos de Venezuela (PDVSA), although no definitive attribution has been established.</span></p>
+<p><span style="font-weight: 400;">From a defensive standpoint, the activity highlights several early warning indicators, including unusual service manipulation, widespread account changes, network interface shutdowns, and unexpected use of administrative utilities. As with other destructive malware campaigns, maintaining validated offline backups remains one of the most effective safeguards against total data loss.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">References:</span></p>
+<p><a href="https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/</span></a></p>
+<p><a href="https://www.darkreading.com/insider-threats/ransomware-negotiator-pleads-guilty-blackcat-scheme" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.darkreading.com/insider-threats/ransomware-negotiator-pleads-guilty-blackcat-scheme</span></a></p>
+<p><a href="https://www.darkreading.com/cyberattacks-data-breaches/exploits-turn-windows-defender-attacker-tool" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.darkreading.com/cyberattacks-data-breaches/exploits-turn-windows-defender-attacker-tool</span></a></p>
+<p><a href="https://cyberscoop.com/lawmakers-ponder-terrorism-designations-homicide-charges-over-hospital-ransomware-attacks/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://cyberscoop.com/lawmakers-ponder-terrorism-designations-homicide-charges-over-hospital-ransomware-attacks/</span></a></p>
+<p><a href="https://www.bleepingcomputer.com/news/security/new-lotus-data-wiper-used-against-venezuelan-energy-utility-firms/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.bleepingcomputer.com/news/security/new-lotus-data-wiper-used-against-venezuelan-energy-utility-firms/</span></a></p>
+<p>The post <a href="https://canarytrap.com/cyber-roundup-april-29/">Canary Trap’s Bi-Weekly Cyber Roundup</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Security Operations Center Capabilities and the Rise of Offensive Testing</title>
+		<link>https://canarytrap.com/security-operations-center/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 16:01:41 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Continuous Testing]]></category>
+		<category><![CDATA[Cyber Resilience]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[Incident Response]]></category>
+		<category><![CDATA[Offensive SOC]]></category>
+		<category><![CDATA[Offensive Testing]]></category>
+		<category><![CDATA[Penetration Testing]]></category>
+		<category><![CDATA[Security Operations Center]]></category>
+		<category><![CDATA[Security Strategy]]></category>
+		<category><![CDATA[SOC]]></category>
+		<category><![CDATA[Threat Detection]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3484</guid>
+
+					<description><![CDATA[<p>Security Operations Center (SOC) capabilities are evolving beyond detection and response, expanding into continuous offensive testing. As organizations face increasingly dynamic threats, traditional SOC models that focus solely on monitoring and alerting are no longer sufficient. Modern security strategies are integrating offensive practices into SOC operations. Instead of waiting for alerts, teams are beginning to [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/security-operations-center/">Security Operations Center Capabilities and the Rise of Offensive Testing</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Security Operations Center (SOC) capabilities are evolving beyond detection and response, expanding into continuous offensive testing. As organizations face increasingly dynamic threats, traditional SOC models that focus solely on monitoring and alerting are no longer sufficient.</span></p>
+<p><span style="font-weight: 400;">Modern security strategies are integrating offensive practices into SOC operations. Instead of waiting for alerts, teams are beginning to proactively identify weaknesses and simulate attack scenarios using the same visibility and tooling traditionally reserved for defense. This shift allows organizations to uncover vulnerabilities in real time and validate security controls under realistic conditions.</span></p>
+<p><span style="font-weight: 400;">A key driver of this evolution is the move toward continuous testing. Rather than relying on periodic penetration tests, organizations are adopting ongoing, event-driven approaches that align more closely with how threats actually emerge. This enables faster identification of exposure and more immediate remediation.</span></p>
+<p><span style="font-weight: 400;">This transformation is also reshaping collaboration across security functions. Offensive and defensive roles are becoming more interconnected, with insights from simulated attacks feeding directly into detection and response improvements. The result is a more adaptive and responsive security posture.</span></p>
+<p><span style="font-weight: 400;">As SOC capabilities expand into offensive domains, the focus shifts from reacting to threats to actively uncovering them. This evolution reflects a broader trend toward continuous validation, where security is not just monitored, but constantly tested against real-world attack scenarios.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Dale, Chris. 2025. “Continuous Penetration Testing and the Rise of the Offensive SOC ” </span><i><span style="font-weight: 400;">SANS Institute.</span></i><span style="font-weight: 400;"> February 5. </span></p>
+<p>&nbsp;</p>
+<p><b>READ: </b><a href="https://bit.ly/4tgSoKo" target="_blank" rel="noopener"><b>https://bit.ly/4tgSoKo</b></a></p>
+<p>The post <a href="https://canarytrap.com/security-operations-center/">Security Operations Center Capabilities and the Rise of Offensive Testing</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Why Red Teaming Builds Better Defenders</title>
+		<link>https://canarytrap.com/red-teaming-better-defenders/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 16:09:04 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Blue Teaming]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[Defensive Security]]></category>
+		<category><![CDATA[Incident Response]]></category>
+		<category><![CDATA[Offesive Security]]></category>
+		<category><![CDATA[Red Teaming]]></category>
+		<category><![CDATA[Threat Detection]]></category>
+		<category><![CDATA[Threat Simulation]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3473</guid>
+
+					<description><![CDATA[<p>Red teaming plays a critical role in helping defenders develop the attacker mindset needed to face modern threats. As cyberattacks grow more sophisticated, relying solely on tools and predefined controls is no longer enough to protect complex environments. Through simulated attacks and real-world techniques, red teaming exposes how adversaries identify weaknesses, exploit vulnerabilities, and move [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/red-teaming-better-defenders/">Why Red Teaming Builds Better Defenders</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Red teaming plays a critical role in helping defenders develop the attacker mindset needed to face modern threats. As cyberattacks grow more sophisticated, relying solely on tools and predefined controls is no longer enough to protect complex environments.</span></p>
+<p><span style="font-weight: 400;">Through simulated attacks and real-world techniques, red teaming exposes how adversaries identify weaknesses, exploit vulnerabilities, and move through systems undetected. This practical insight allows defenders to shift from theoretical risk to understanding how breaches actually occur.</span></p>
+<p><span style="font-weight: 400;">By gaining exposure to offensive methods, security teams improve their ability to detect and respond to threats. Familiarity with attack techniques and behaviors helps defenders (blue team) identify blind spots, prioritize meaningful alerts, and act more effectively during incidents.</span></p>
+<p><span style="font-weight: 400;">Red teaming also provides hands-on experience that strengthens defensive capabilities. Observing how attacks unfold in realistic scenarios builds the skills needed to respond under pressure, something that compliance-driven approaches alone cannot achieve.</span></p>
+<p><span style="font-weight: 400;">Ultimately, red teaming enables organizations to translate offensive insight into stronger defenses. By adopting an attacker mindset, defenders can build more adaptive, resilient, and effective security strategies.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">OffSec Team. 2025. “Blue Team vs Red Team: Should Defenders Learn Offensive Skills?” </span><i><span style="font-weight: 400;">OffSec.</span></i><span style="font-weight: 400;"> December 16. </span></p>
+<p>&nbsp;</p>
+<p><b>READ: </b><a href="https://bit.ly/4tsxCrz" target="_blank" rel="noopener"><b>https://bit.ly/4tsxCrz</b></a></p>
+<p>The post <a href="https://canarytrap.com/red-teaming-better-defenders/">Why Red Teaming Builds Better Defenders</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Canary Trap’s Bi-Weekly Cyber Roundup</title>
+		<link>https://canarytrap.com/cyber-roundup-april-15/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Wed, 15 Apr 2026 15:59:59 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Cyber Resilience]]></category>
+		<category><![CDATA[Cyber Roundup]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[Digital Defense]]></category>
+		<category><![CDATA[Latest News]]></category>
+		<category><![CDATA[Offensive Security]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3461</guid>
+
+					<description><![CDATA[<p>Welcome to the latest edition of the “Bi-Weekly Cyber Roundup” by Canary Trap. At Canary Trap, it is our mission to keep you up-to-date with the most crucial news in the world of cybersecurity and this bi-weekly publication is your gateway to the latest news. This week’s roundup highlights the growing impact of cyber threats [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/cyber-roundup-april-15/">Canary Trap’s Bi-Weekly Cyber Roundup</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Welcome to the latest edition of the “Bi-Weekly Cyber Roundup” by Canary Trap. At Canary Trap, it is our mission to keep you up-to-date with the most crucial news in the world of cybersecurity and this bi-weekly publication is your gateway to the latest news.</span></p>
+<p><span style="font-weight: 400;">This week’s roundup highlights the growing impact of cyber threats across healthcare, critical infrastructure, and widely used platforms. We examine a disruptive cyberattack on a Massachusetts hospital, Russia-linked Forest Blizzard activity leveraging home routers for espionage, and a stealthy IoT-focused botnet campaign. We also cover a ransomware incident affecting a Dutch healthcare software provider, along with active exploitation of a critical vulnerability in Ninja Forms that puts thousands of WordPress sites at risk of full compromise.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Massachusetts Hospital Diverts Ambulances as Cyberattack Causes Disruption</b></li>
+</ul>
+<p><span style="font-weight: 400;">Signature Healthcare, a regional provider based in Brockton, Massachusetts, recently experienced a cyber incident that significantly disrupted operations and forced the diversion of ambulance traffic. The organization operates Brockton Hospital, a 200-bed community facility, as well as Signature Medical Group, which includes more than 150 physicians across multiple locations.</span></p>
+<p><span style="font-weight: 400;">The incident was identified on Monday, prompting the organization to activate its incident response protocols and shift to downtime procedures to maintain patient safety and continuity of care. While inpatient services and emergency walk-in care remained operational, ambulance diversions continued into Tuesday, reflecting ongoing strain on critical systems.</span></p>
+<p><span style="font-weight: 400;">Although core medical services such as surgeries and procedures were not impacted, several disruptions were reported. Chemotherapy infusion services were temporarily suspended, with affected patients notified of delays. Additional service interruptions were observed across urgent care locations and physician practices. Retail pharmacy operations were also affected, while some locations reopened for consultations, they were unable to process prescriptions due to system limitations.</span></p>
+<p><span style="font-weight: 400;">At this stage, Signature Healthcare has not confirmed whether the incident involved ransomware, and no threat actor has publicly claimed responsibility. However, it is not uncommon for ransomware groups to delay attribution, often revealing victims only after negotiations have stalled in an effort to increase pressure.</span></p>
+<p><span style="font-weight: 400;">This incident reflects a broader and ongoing trend of cyberattacks targeting healthcare organizations globally. Such attacks frequently disrupt clinical operations and, in some cases, lead to large-scale data breaches. In more severe instances, cyber incidents have been linked to patient safety risks, including reported fatalities in the United States, Germany, and the United Kingdom. The situation underscores the critical importance of resilience planning in environments where operational disruption can have direct consequences for human life.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Russian Forest Blizzard Hackers Hijack Home Routers for Global Spying</b></li>
+</ul>
+<p><span style="font-weight: 400;">A threat group linked to Russian military intelligence, commonly tracked as Forest Blizzard (also known as Fancy Bear), has been observed leveraging thousands of compromised home and small office routers to support a large-scale cyber espionage operation. According to findings published by Microsoft Threat Intelligence on April 7, the campaign has been active since at least August 2025, though its scale and sophistication have only recently come into focus.</span></p>
+<p><span style="font-weight: 400;">The operation primarily targets Small Office/Home Office (SOHO) networking devices, which often lack enterprise-grade security controls. By compromising these routers, the attackers are able to manipulate Domain Name System (DNS) processes, effectively rerouting internet traffic through infrastructure under their control. This technique, known as DNS hijacking, allows the group to silently intercept and monitor user activity. Researchers noted that the attackers are using legitimate tools such as dnsmasq to manage traffic redirection, enabling persistent and low-visibility surveillance across a broad set of victims.</span><span style="font-weight: 400;"><br />
+</span></p>
+<p><span style="font-weight: 400;">Microsoft attributes part of the activity to a subgroup identified as Storm-2754, which appears to be using the compromised devices to build a covert proxy network. This infrastructure supports both passive intelligence gathering and more active intrusion techniques, including Adversary-in-the-Middle (AiTM) attacks. In these scenarios, attackers position themselves between users and legitimate services to capture credentials, session tokens, and sensitive communications.</span></p>
+<p><span style="font-weight: 400;">The campaign has affected more than 5,000 consumer devices and at least 200 organizations globally. Notably, the attackers have targeted Microsoft Outlook Web Access to intercept email traffic, with confirmed compromises involving government entities in Africa. Key sectors impacted include energy, telecommunications, and information technology.</span></p>
+<p><span style="font-weight: 400;">This activity highlights a growing risk associated with unsecured edge devices, particularly in hybrid and remote work environments. Even when corporate networks are well-defended, compromised home infrastructure can expose access credentials and sensitive data.</span></p>
+<p><span style="font-weight: 400;">To mitigate these risks, Microsoft recommends enforcing multi-factor authentication (MFA) and adopting passwordless authentication where possible. Organizations are also advised to limit reliance on consumer-grade networking equipment for business operations and ensure that all devices are regularly updated and properly secured.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Evasive Masjesu DDoS Botnet Targets IoT Devices</b></li>
+</ul>
+<p><span style="font-weight: 400;">Trellix researchers have conducted an in-depth analysis of *Masjesu*, a botnet engineered to carry out large-scale distributed denial-of-service (DDoS) attacks by compromising Internet of Things (IoT) devices. Active since at least 2023, Masjesu has been marketed primarily via Telegram, where its operator promotes its ability to generate high-volume attacks reaching hundreds of gigabytes. The messaging targets both Chinese- and English-speaking audiences, indicating a broad, international customer base.</span></p>
+<p><span style="font-weight: 400;">Although the operator’s current Telegram channel has a relatively modest following, earlier channels were reportedly removed for policy violations, suggesting a wider underlying user network. Analysis of attack telemetry shows that the majority of infected devices are located in Vietnam, with additional concentrations in countries such as Brazil, India, Iran, Kenya, and Ukraine. The distribution across multiple autonomous systems indicates a decentralized infrastructure rather than reliance on a single hosting provider.</span></p>
+<p><span style="font-weight: 400;">Technically, Masjesu demonstrates considerable flexibility, with support for multiple CPU architectures including ARM, MIPS, x86, and others commonly found in IoT environments. It propagates by exploiting known vulnerabilities in a range of devices, including D-Link and Netgear routers, GPON and Huawei gateways, DVR systems, and exposed UPnP services.</span></p>
+<p><span style="font-weight: 400;">Once deployed, the malware establishes persistence through several mechanisms. It disguises itself by mimicking legitimate system processes, modifies execution paths, and creates scheduled tasks to ensure regular execution. It also employs basic defensive measures, such as terminating competing processes and restricting access to shared directories, likely to maintain exclusive control of the infected system.</span></p>
+<p><span style="font-weight: 400;">Masjesu maintains communication with its command-and-control infrastructure using encrypted configuration data that is decrypted at runtime. Through this channel, operators can issue commands to launch a wide variety of DDoS attack types, including TCP, UDP, HTTP, and protocol-specific floods.</span></p>
+<p><span style="font-weight: 400;">Overall, Masjesu reflects the continued evolution of IoT botnets, combining broad device compatibility, resilient persistence techniques, and flexible attack capabilities to sustain large-scale, distributed attack operations.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Dutch Healthcare Software Vendor Goes Dark After Ransomware Attack</b></li>
+</ul>
+<p><span style="font-weight: 400;">A ransomware attack has disrupted operations at Dutch healthcare software provider ChipSoft, a company whose systems support approximately 80% of hospitals in the Netherlands. The incident, first identified on April 7, 2026, forced the company’s website offline and prompted an ongoing investigation into the scope and impact of the breach.</span></p>
+<p><span style="font-weight: 400;">The attack was confirmed by Z-CERT, the Netherlands’ cybersecurity response organization for the healthcare sector, which is currently coordinating with ChipSoft, affected healthcare institutions, and relevant partners. While the threat actor behind the intrusion has not yet been identified, authorities are working to assess the extent of the compromise and any potential risks to connected systems.</span></p>
+<p><span style="font-weight: 400;">Despite the disruption to ChipSoft’s public-facing services, most hospitals have been able to maintain access to patient portals and continue operations. However, the level of dependency on ChipSoft’s software varies across institutions. According to local reporting, 11 hospitals have taken systems offline as a precaution, with the majority being organizations that rely more heavily on the platform for core clinical and administrative functions.</span></p>
+<p><span style="font-weight: 400;">Z-CERT has advised healthcare organizations to proactively monitor their environments for unusual activity, particularly network anomalies that could indicate lateral movement or further compromise. Institutions are also encouraged to report suspicious findings to support broader incident response efforts. Strengthening incident response capabilities, improving system visibility, and implementing comprehensive disaster recovery planning are essential steps to mitigate the operational and clinical risks associated with such attacks.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Hackers Targeting Ninja Forms Vulnerability That Exposes WordPress Sites to Takeover</b></li>
+</ul>
+<p><span style="font-weight: 400;">A critical vulnerability has been identified in the File Uploads add-on for the Ninja Forms WordPress plugin, exposing tens of thousands of websites to potential full compromise. According to cybersecurity firm Defiant, the issue affects an estimated 50,000 deployments, with active exploitation attempts already observed in the wild.</span></p>
+<p><span style="font-weight: 400;">Tracked as CVE-2026-0740 and assigned a CVSS score of 9.8, the flaw stems from insufficient validation of uploaded files. Specifically, the add-on fails to properly verify file types and does not sanitize filenames before storing them on the server. This oversight allows attackers to upload malicious files, such as PHP scripts, disguised as legitimate uploads.</span></p>
+<p><span style="font-weight: 400;">Because the vulnerability does not enforce strict controls on file naming or destination paths, it also introduces the risk of path traversal. This enables attackers to place files in sensitive directories, including the webroot, significantly increasing the likelihood of successful exploitation.</span></p>
+<p><span style="font-weight: 400;">In practical terms, an unauthenticated attacker can leverage this weakness to upload and execute malicious code on the target server, resulting in remote code execution. This could allow the deployment of web shells, providing persistent access and effectively granting full control over the compromised website.</span></p>
+<p><span style="font-weight: 400;">The vulnerability was discovered by security researcher Sélim Lanouar through the Wordfence bug bounty program and reported in January. He was awarded $2,145 for the finding.</span></p>
+<p><span style="font-weight: 400;">Given the severity of the issue and evidence of ongoing exploitation attempts, users are strongly advised to update to version 3.3.27 of the File Uploads add-on immediately, as all earlier versions remain vulnerable.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">References:</span></p>
+<p><a href="https://www.securityweek.com/massachusetts-hospital-diverts-ambulances-as-cyberattack-causes-disruption/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.securityweek.com/massachusetts-hospital-diverts-ambulances-as-cyberattack-causes-disruption/</span></a></p>
+<p><a href="https://hackread.com/russian-forest-blizzard-hackers-hijack-home-routers/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://hackread.com/russian-forest-blizzard-hackers-hijack-home-routers/</span></a></p>
+<p><a href="https://www.securityweek.com/evasive-masjesu-ddos-botnet-targets-iot-devices/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.securityweek.com/evasive-masjesu-ddos-botnet-targets-iot-devices/</span></a></p>
+<p><a href="https://www.theregister.com/2026/04/08/chipsoft_ransomware/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.theregister.com/2026/04/08/chipsoft_ransomware/</span></a></p>
+<p><a href="https://www.securityweek.com/hackers-targeting-critical-ninja-forms-bug-that-exposes-wordpress-sites-to-takeover/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.securityweek.com/hackers-targeting-critical-ninja-forms-bug-that-exposes-wordpress-sites-to-takeover/</span></a></p>
+<p>The post <a href="https://canarytrap.com/cyber-roundup-april-15/">Canary Trap’s Bi-Weekly Cyber Roundup</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Red Team and Blue Team: Better Together</title>
+		<link>https://canarytrap.com/red-team-blue-team-better-together/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Mon, 13 Apr 2026 15:59:58 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Attack Simulation]]></category>
+		<category><![CDATA[Blue Team]]></category>
+		<category><![CDATA[Continuous Testing]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[Incident Response]]></category>
+		<category><![CDATA[Purple Teaming]]></category>
+		<category><![CDATA[Red Team]]></category>
+		<category><![CDATA[Security Teams]]></category>
+		<category><![CDATA[Threat Detection]]></category>
+		<category><![CDATA[Threat Simulation]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3456</guid>
+
+					<description><![CDATA[<p>Red team and blue team collaboration is evolving as organizations move away from isolated exercises toward continuous, integrated security practices. Traditional approaches often position offensive and defensive teams as separate functions, limiting the ability to detect and respond to real-world threats effectively. Modern security strategies emphasize breaking down these silos. Instead of operating independently, red [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/red-team-blue-team-better-together/">Red Team and Blue Team: Better Together</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Red team and blue team collaboration is evolving as organizations move away from isolated exercises toward continuous, integrated security practices. Traditional approaches often position offensive and defensive teams as separate functions, limiting the ability to detect and respond to real-world threats effectively.</span></p>
+<p><span style="font-weight: 400;">Modern security strategies emphasize breaking down these silos. Instead of operating independently, red and blue teams are expected to work in alignment, sharing insights and coordinating efforts to strengthen overall security posture. This shift reflects the growing complexity of the threat landscape, where static testing and periodic assessments are no longer sufficient.</span></p>
+<p><span style="font-weight: 400;">A key best practice is adopting continuous testing models that simulate real-world attack scenarios. These simulations allow both teams to engage simultaneously, enabling defenders to respond in real time while attackers refine their techniques. This dynamic interaction improves detection capabilities and exposes gaps that would otherwise remain hidden.</span></p>
+<p><span style="font-weight: 400;">Another critical element is the use of structured feedback loops. After each exercise, teams analyze outcomes together, identifying what worked, what failed, and how defenses can be improved. This collaborative review process ensures that lessons learned translate into measurable security improvements.</span></p>
+<p><span style="font-weight: 400;">Aligning objectives is also essential. Red and blue teams must move beyond competing goals and instead focus on shared outcomes, such as reducing risk exposure and improving resilience. This includes establishing common metrics and integrating findings into broader security strategies.</span></p>
+<p><span style="font-weight: 400;">As organizations adopt continuous, collaborative approaches, red and blue teams become part of a unified effort to manage exposure and strengthen defenses. This effective collaboration between teams is now a core requirement for keeping pace with modern threats.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Buogioukas, Dimitrios. 2025. “Red, Blue, and now AI: Rethinking Cybersecurity Training for the 2026 Threat Landscape.” </span><i><span style="font-weight: 400;">CyberScoop.</span></i><span style="font-weight: 400;"> October 14. </span></p>
+<p>&nbsp;</p>
+<p><b>READ: </b><a href="https://bit.ly/3PJb7Qt" target="_blank" rel="noopener"><b>https://bit.ly/3PJb7Qt</b></a></p>
+<p>The post <a href="https://canarytrap.com/red-team-blue-team-better-together/">Red Team and Blue Team: Better Together</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Canary Trap CEO Derek Nugent for Cyber Defense Radio</title>
+		<link>https://canarytrap.com/cyber-defense-radio-interview/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Thu, 09 Apr 2026 16:11:05 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Penetration Testing]]></category>
+		<category><![CDATA[Canary Trap]]></category>
+		<category><![CDATA[Cyber Defense]]></category>
+		<category><![CDATA[Cyber Defense Radio]]></category>
+		<category><![CDATA[Derek Nugent]]></category>
+		<category><![CDATA[Detection]]></category>
+		<category><![CDATA[Hot Seat Podcast]]></category>
+		<category><![CDATA[Offensive Security]]></category>
+		<category><![CDATA[Proactive Security]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3442</guid>
+
+					<description><![CDATA[<p>Detection Doesn’t Stop Attackers. It Tells You They’re There. On a recent episode of the Hot Seat podcast on Cyber Defense Radio, our CEO Derek Nugent joined host Annabelle Thomas to discuss how modern cybersecurity strategies are evolving beyond traditional detection. One insight stood out clearly. As Derek explained: “Detection is always a key component. [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/cyber-defense-radio-interview/">Canary Trap CEO Derek Nugent for Cyber Defense Radio</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><strong>Detection Doesn’t Stop Attackers. It Tells You They’re There.</strong></p>
+<p><span style="font-weight: 400;">On a recent episode of the </span><i><span style="font-weight: 400;">Hot Seat</span></i><span style="font-weight: 400;"> podcast on Cyber Defense Radio, our CEO </span><b>Derek Nugent</b><span style="font-weight: 400;"> joined host</span><b> Annabelle Thomas</b><span style="font-weight: 400;"> to discuss how modern cybersecurity strategies are evolving beyond traditional detection.</span></p>
+<p><span style="font-weight: 400;">One insight stood out clearly.</span></p>
+<p><span style="font-weight: 400;">As Derek explained: </span><i><span style="font-weight: 400;">“Detection is always a key component. Unless you’re testing your controls, you won’t detect what isn’t already visible.”</span></i></p>
+<p><span style="font-weight: 400;">Many organizations have invested heavily in detection capabilities, building layers of tools designed to generate alerts, surface anomalies, and improve visibility across their environments. However, detection alone does not guarantee protection. Without continuous validation, those controls can create blind spots that attackers are quick to exploit.</span></p>
+<p><span style="font-weight: 400;">This is where offensive security becomes essential.</span></p>
+<p><span style="font-weight: 400;">Through penetration testing, red teaming, and web application security assessments, organizations can move beyond passive detection and actively evaluate how their defenses perform under real-world conditions. These approaches simulate true adversarial behavior, revealing how attackers move laterally, escalate privileges, and identify pathways that may not be visible through standard monitoring.</span></p>
+<p><span style="font-weight: 400;">“You need to take what you already know and use it to close gaps before attackers do.” Derek also pointed out.</span></p>
+<p><span style="font-weight: 400;">Testing detection controls in this way does more than uncover vulnerabilities. It strengthens detection logic, reduces false positives, and helps security teams focus on meaningful signals rather than noise.</span></p>
+<p><span style="font-weight: 400;">As environments grow more complex, with cloud infrastructure, AI integrations, and interconnected systems expanding the attack surface, continuous testing becomes a critical component of an effective cybersecurity program.</span></p>
+<p><span style="font-weight: 400;">At </span><b>Canary Trap</b><span style="font-weight: 400;">, we help organizations bridge the gap between detection and protection by integrating offensive security into proactive, continuous testing strategies. The goal is not only to identify weaknesses, but to ensure that detection capabilities are tested, validated, and continuously improved.</span></p>
+<p><span style="font-weight: 400;">If your organization is investing in detection but unsure how those controls perform under real pressure, this conversation offers valuable insight into how to close that gap.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Listen to the full </span><i><span style="font-weight: 400;">Hot Seat</span></i><span style="font-weight: 400;"> episode on Cyber Defense Radio to explore how deception, detection, and offensive security work together to reduce risk.</span></p>
+<p>&nbsp;</p>
+<p><a href="https://cyberdefenseradio.com/canarytrap-derek-nugent/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://cyberdefenseradio.com/canarytrap-derek-nugent/</span></a></p>
+<p>The post <a href="https://canarytrap.com/cyber-defense-radio-interview/">Canary Trap CEO Derek Nugent for Cyber Defense Radio</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Cyber Insurance: Why Proof Is Now Required</title>
+		<link>https://canarytrap.com/cyber-insurance-proof/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Mon, 06 Apr 2026 16:00:02 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Backup Testing]]></category>
+		<category><![CDATA[Cyber Insurance]]></category>
+		<category><![CDATA[Cyber Resilience]]></category>
+		<category><![CDATA[MFA]]></category>
+		<category><![CDATA[Risk Management]]></category>
+		<category><![CDATA[Security Controls]]></category>
+		<category><![CDATA[Security Validation]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3434</guid>
+
+					<description><![CDATA[<p>Cyber insurance is becoming more rigorous as insurers demand proof that security controls are not only in place, but actively working. Organizations can no longer rely on self-reported information during underwriting or renewal. Instead, they are expected to provide clear evidence that their defenses are effective, consistently enforced, and capable of responding to real threats. [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/cyber-insurance-proof/">Cyber Insurance: Why Proof Is Now Required</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Cyber insurance is becoming more rigorous as insurers demand proof that security controls are not only in place, but actively working. Organizations can no longer rely on self-reported information during underwriting or renewal. Instead, they are expected to provide clear evidence that their defenses are effective, consistently enforced, and capable of responding to real threats.</span></p>
+<p><span style="font-weight: 400;">This shift is driven by ongoing losses from ransomware and other cyber incidents, which have exposed gaps between what organizations claim and what they can actually defend. As a result, insurers are tightening requirements and placing greater emphasis on validation.</span></p>
+<p><span style="font-weight: 400;">Policyholders are now being asked to demonstrate key security capabilities, including multi-factor authentication, endpoint protection, and incident response readiness. Backup strategies, in particular, are under increased scrutiny, with insurers expecting not just the presence of backups, but proof that they are regularly tested and can be successfully restored.</span></p>
+<p><span style="font-weight: 400;">The underwriting process is also becoming more technical. Insurers are seeking documentation, logs, and in some cases third-party verification to confirm that controls are functioning as intended. This reflects a broader move toward evidence-based risk assessment, where coverage decisions are tied to measurable security performance rather than stated policies.</span></p>
+<p><span style="font-weight: 400;">As expectations continue to evolve, organizations must take a more proactive approach to security validation. Demonstrating that controls work in practice, not just in theory, is becoming essential to securing and maintaining cyber insurance coverage.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Kerner, Sean Michael. 2026. “What CIOs Need to Know About Cyber Risk Insurance Issues” </span><i><span style="font-weight: 400;">TechTarget.</span></i><span style="font-weight: 400;"> January 14. </span></p>
+<p>&nbsp;</p>
+<p><b>READ: </b><a href="https://bit.ly/4bHIH1W" target="_blank" rel="noopener"><b>https://bit.ly/4bHIH1W</b></a></p>
+<p>The post <a href="https://canarytrap.com/cyber-insurance-proof/">Cyber Insurance: Why Proof Is Now Required</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Cyber Defense Magazine Interview</title>
+		<link>https://canarytrap.com/cyber-defense-magazine-interview/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Thu, 02 Apr 2026 15:58:17 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Penetration Testing]]></category>
+		<category><![CDATA[Canary Trap]]></category>
+		<category><![CDATA[CEO]]></category>
+		<category><![CDATA[Cyber Defense Magazine]]></category>
+		<category><![CDATA[Cyber Jungle]]></category>
+		<category><![CDATA[Derek Nugent]]></category>
+		<category><![CDATA[Interview]]></category>
+		<category><![CDATA[Offensive Security]]></category>
+		<category><![CDATA[Offensive Testing]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3409</guid>
+
+					<description><![CDATA[<p>You’re Navigating a Jungle With a Static Map 🗺️ In a recent piece for Cyber Defense Magazine, our CEO Derek Nugent describes today’s cybersecurity environment as a jungle, and the comparison becomes more accurate the closer you look. The terrain doesn’t stay still. New applications are deployed, AI systems gain access to sensitive workflows, and [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/cyber-defense-magazine-interview/">Cyber Defense Magazine Interview</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><strong>You’re Navigating a Jungle With a Static Map <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f5fa.png" alt="🗺" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></p>
+<p><span style="font-weight: 400;">In a recent piece for </span><i><span style="font-weight: 400;">Cyber Defense Magazine</span></i><span style="font-weight: 400;">, our CEO </span><b>Derek Nugent</b><span style="font-weight: 400;"> describes today’s cybersecurity environment as a jungle, and the comparison becomes more accurate the closer you look.</span></p>
+<p><span style="font-weight: 400;">The terrain doesn’t stay still. New applications are deployed, AI systems gain access to sensitive workflows, and integrations connect systems that were never designed to interact. Over time, the environment reshapes itself, not through dramatic changes, but through subtle shifts that create new and often invisible attack paths.</span></p>
+<p><span style="font-weight: 400;">Most of those paths are never intentionally designed. They emerge through growth, speed, and complexity.</span></p>
+<p><span style="font-weight: 400;">That’s where attackers operate. Not by breaking through hardened perimeters, but by moving through what already exists, trusted connections, inherited permissions, and untested assumptions. By the time a path becomes visible, it’s often because it has already been used.</span></p>
+<p><span style="font-weight: 400;">Navigating this kind of environment requires more than visibility. It requires understanding how systems behave under real-world attack conditions.</span></p>
+<p><span style="font-weight: 400;">That’s where offensive security testing becomes essential.</span></p>
+<p><span style="font-weight: 400;">Penetration testing and red team exercises uncover how these hidden paths form, how far they extend, and what an attacker can actually reach across modern environments.</span></p>
+<p><span style="font-weight: 400;">Because in a landscape that continuously reshapes itself, the greatest risk isn’t what you can see. It’s what’s already taking form beneath the surface.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Read the full piece in the link below:</span></p>
+<p><a href="https://www.cyberdefensemagazine.com/the-cyber-jungle/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.cyberdefensemagazine.com/the-cyber-jungle/</span></a></p>
+<p>The post <a href="https://canarytrap.com/cyber-defense-magazine-interview/">Cyber Defense Magazine Interview</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Canary Trap’s Bi-Weekly Cyber Roundup</title>
+		<link>https://canarytrap.com/cyber-roundup-april-1/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2026 16:33:34 +0000</pubDate>
+				<category><![CDATA[Industry News]]></category>
+		<category><![CDATA[Canary Trap]]></category>
+		<category><![CDATA[Cyber Roundup]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[Digital Defense]]></category>
+		<category><![CDATA[Latest News]]></category>
+		<guid isPermaLink="false">https://canarytrap.com/?p=3369</guid>
+
+					<description><![CDATA[<p>Welcome to the latest edition of the “Bi-Weekly Cyber Roundup” by Canary Trap. At Canary Trap, it is our mission to keep you up-to-date with the most crucial news in the world of cybersecurity and this bi-weekly publication is your gateway to the latest news. This week’s cybersecurity roundup highlights a series of high-impact incidents [&#8230;]</p>
+<p>The post <a href="https://canarytrap.com/cyber-roundup-april-1/">Canary Trap’s Bi-Weekly Cyber Roundup</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">Welcome to the latest edition of the “Bi-Weekly Cyber Roundup” by Canary Trap. At Canary Trap, it is our mission to keep you up-to-date with the most crucial news in the world of cybersecurity and this bi-weekly publication is your gateway to the latest news.</span></p>
+<p><span style="font-weight: 400;">This week’s cybersecurity roundup highlights a series of high-impact incidents spanning data breaches, nation-state concerns, and evolving attack techniques. We cover the Navia breach affecting HackerOne employee data, new FCC restrictions on foreign-made routers, and a large-scale device code phishing campaign targeting Microsoft 365 environments. We also examine a critical TP-Link router vulnerability and review claims from Lapsus$ regarding a potential breach of AstraZeneca.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Recent Navia Data Breach Impacts HackerOne Employee Data</b></li>
+</ul>
+<p><span style="font-weight: 400;">A data breach at U.S.-based benefits provider Navia Benefit Solutions has exposed the personal information of nearly 300 employees of HackerOne, underscoring the ongoing risks associated with third-party service providers. The incident is part of a broader compromise affecting approximately 2.7 million individuals whose data was managed by Navia.</span></p>
+<p><span style="font-weight: 400;">According to Navia, unauthorized access to its systems occurred between December 22, 2025, and January 15, 2026, with suspicious activity detected on January 23. The breach has been attributed to a likely Broken Object Level Authorization (BOLA) vulnerability, which allowed attackers to access sensitive records. Exposed data may include names, dates of birth, Social Security numbers, contact details, and information related to employee benefit programs such as FSAs, HRAs, and COBRA enrollment. While Navia stated that no financial or claims data was compromised, the nature of the exposed information presents a heightened risk for phishing and social engineering attacks.</span></p>
+<p><span style="font-weight: 400;">HackerOne confirmed that 287 of its employees were impacted. However, the company raised concerns about delayed notification, noting that although Navia issued breach notices dated February 20, they were not received until March. This lag has drawn attention to gaps in incident communication and transparency, particularly critical when downstream organizations must respond quickly to protect affected individuals.</span></p>
+<p><span style="font-weight: 400;">In response, HackerOne has initiated its own investigation and is working with Navia to better understand the root cause and scope of the breach. The company is also reassessing Navia’s security posture and evaluating whether to continue the relationship, signaling a broader need for stricter vendor risk management practices.</span></p>
+<p><span style="font-weight: 400;">Navia has reported the incident to federal law enforcement, enhanced its internal security controls, and is offering 12 months of identity protection and credit monitoring services to those affected. While the company stated there is currently no evidence of misuse of the stolen data, such assurances are often preliminary and do not eliminate future risk.</span></p>
+<p><span style="font-weight: 400;">This incident highlights a persistent challenge in cybersecurity: even organizations with mature security programs remain exposed through third-party dependencies. It reinforces the importance of continuous monitoring, vendor due diligence, and timely breach disclosure to mitigate downstream impact.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>FCC Bans New Routers Made Outside the U.S. Over National Security Risks</b></li>
+</ul>
+<p><span style="font-weight: 400;">The U.S. Federal Communications Commission (FCC) has expanded its “Covered List” to include all foreign-manufactured consumer-grade routers, effectively prohibiting the authorization and future import of such devices into the United States. The move follows a determination by an Executive Branch, which concluded that routers produced outside the U.S. present significant national security and cybersecurity risks.</span></p>
+<p><span style="font-weight: 400;">At the core of this decision is concern over supply chain integrity. The assessment highlights that the overwhelming reliance on foreign-made routers in American homes introduces systemic vulnerabilities, including the potential for embedded backdoors, unauthorized access, and large-scale surveillance. Compromised devices could enable threat actors to conduct data exfiltration, launch botnet attacks, or gain footholds in sensitive networks, including those tied to government and critical infrastructure.</span></p>
+<p><span style="font-weight: 400;">The report also references activity from state-sponsored threat groups such as Flax Typhoon, Volt Typhoon, and Salt Typhoon, which have previously targeted U.S. sectors including energy, communications, transportation, and water systems. These campaigns underscore the strategic risk posed by insecure networking hardware at scale.</span></p>
+<p><span style="font-weight: 400;">Importantly, the FCC’s action is forward-looking. Devices already approved and currently in use are not affected. However, any new foreign-made consumer routers will no longer be eligible for FCC authorization, effectively barring their legal sale and import moving forward.</span></p>
+<p><span style="font-weight: 400;">There is a limited pathway for exceptions. Specific router models may still receive approval if vetted and cleared by agencies such as the Department of Homeland Security (DHS) or the Department of Defense, provided they meet stringent security requirements and are deemed not to pose unacceptable risks.</span></p>
+<p><span style="font-weight: 400;">Overall, the decision reflects a broader shift toward securing technology supply chains and reducing dependency on potentially untrusted foreign hardware, particularly in areas that underpin national infrastructure and digital resilience.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Device Code Phishing Hits 340+ Microsoft 365 Orgs Across Five Countries via OAuth Abuse</b></li>
+</ul>
+<p><span style="font-weight: 400;">Cybersecurity researchers have identified a large-scale device code phishing campaign targeting Microsoft 365 accounts across more than 340 organizations in the United States, Canada, Australia, New Zealand, and Germany. First observed on February 19, 2026, the activity has rapidly intensified, reflecting both the scalability and effectiveness of the technique.</span></p>
+<p><span style="font-weight: 400;">At the core of the campaign is the abuse of Microsoft’s OAuth device authorization flow. Unlike traditional credential phishing, this method tricks users into entering a legitimate device code on Microsoft’s official authentication page. Once the victim completes the login process, including multi-factor authentication, the attacker gains access and refresh tokens tied to the session. Critically, these tokens can remain valid even after a password reset, allowing persistent access to compromised accounts.</span></p>
+<p><span style="font-weight: 400;">Attackers are leveraging Cloudflare Workers to host intermediary phishing infrastructure and redirect victims through multiple layers of legitimate services, including Cisco, Trend Micro, and Mimecast redirect links, to evade detection. Ultimately, captured sessions are funneled to attacker-controlled infrastructure hosted on Railway, a platform-as-a-service provider, effectively transforming it into a credential harvesting backend.</span></p>
+<p><span style="font-weight: 400;">Victims are lured through a variety of pretexts, including construction bids, DocuSign-themed messages, voicemail alerts, and Microsoft Forms pages. Notably, instead of requiring users to manually enter a code provided in an email, some phishing pages dynamically generate and display the device code directly, streamlining the attack flow and increasing the likelihood of success.</span></p>
+<p><span style="font-weight: 400;">The campaign has impacted a broad range of sectors, including construction, financial services, healthcare, government, and legal organizations, suggesting opportunistic targeting rather than a focus on a specific industry. A significant portion of the malicious activity has been traced to a small cluster of Railway-hosted IP addresses, which account for the majority of observed authentication events.</span></p>
+<p><span style="font-weight: 400;">Researchers have linked this activity to a phishing-as-a-service (PhaaS) platform known as EvilTokens, which recently emerged on Telegram. The platform offers tooling to automate phishing campaigns, generate redirect links, and bypass spam filters, alongside operational support for affiliates, highlighting the continued commoditization of advanced attack techniques.</span></p>
+<p><span style="font-weight: 400;">This campaign aligns with a broader trend observed since early 2025, where threat actors, including several Russia-aligned groups, have increasingly adopted device code phishing due to its ability to exploit trusted authentication workflows.</span></p>
+<p><span style="font-weight: 400;">Given the use of legitimate Microsoft infrastructure and trusted cloud services, detection remains challenging. Organizations are advised to monitor authentication logs for suspicious sign-ins, particularly from Railway-associated IP addresses, revoke compromised tokens, and implement stricter access controls to mitigate risk.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>TP-Link Warns Users to Patch Critical Router Authentication Bypass Flaw</b></li>
+</ul>
+<p><span style="font-weight: 400;">TP-Link has released security updates addressing multiple vulnerabilities in its Archer NX router series, including a critical flaw that could allow attackers to bypass authentication and gain full control over affected devices.</span></p>
+<p><span style="font-weight: 400;">The most severe issue, tracked as CVE-2025-15517, impacts several models, including the Archer NX200, NX210, NX500, and NX600. The vulnerability stems from a missing authentication check within the router’s HTTP server, enabling unauthenticated attackers to access endpoints intended only for authorized users. Exploitation could allow malicious actors to perform privileged actions such as uploading firmware or modifying device configurations without credentials.</span></p>
+<p><span style="font-weight: 400;">In addition to this flaw, TP-Link patched a hardcoded cryptographic key vulnerability (CVE-2025-15605) that could allow authenticated users to decrypt and manipulate configuration files. Two further command injection vulnerabilities (CVE-2025-15518 and CVE-2025-15519) were also addressed, which could enable attackers with administrative access to execute arbitrary system commands.</span></p>
+<p><span style="font-weight: 400;">TP-Link has strongly urged users to update their firmware immediately, emphasizing that failure to do so leaves devices exposed to potential compromise.</span></p>
+<p><span style="font-weight: 400;">These issues follow a pattern of ongoing security concerns for the vendor. In September, TP-Link issued patches for a previously disclosed flaw that had gone unaddressed for months and allowed attackers to intercept traffic and manipulate DNS queries. Additionally, multiple TP-Link vulnerabilities have been cataloged by CISA as actively exploited, including older flaws leveraged by botnets to compromise routers at scale.</span></p>
+<p><span style="font-weight: 400;">The continued discovery of critical vulnerabilities, combined with regulatory scrutiny, including a lawsuit filed by the Texas Attorney General alleging misleading security claims, highlights the increasing pressure on network device manufacturers to improve security practices and timely patch management.</span><b></b></p>
+<ul>
+<li aria-level="1"><b>Cybercrime Group Lapsus$ Claims the Hack of Pharma Giant AstraZeneca</b></li>
+</ul>
+<p><span style="font-weight: 400;">The cybercrime group Lapsus$ has claimed responsibility for a breach of pharmaceutical giant AstraZeneca, alleging the theft of approximately 3GB of internal data. According to reports circulating on dark web forums and data leak sites associated with the group, the compromised information includes credentials, authentication tokens, internal source code (spanning technologies such as Java, Angular, and Python), and employee-related data. AstraZeneca has not yet confirmed the incident.</span></p>
+<p><span style="font-weight: 400;">While the presence of credentials and tokens raises immediate concerns, the broader risk lies in how such data could be operationalized. Even in the absence of plaintext passwords or patient data, exposure of internal codebases and infrastructure-related information can significantly aid threat actors in mapping environments, identifying vulnerabilities, and crafting targeted phishing or follow-on intrusion campaigns. This type of access can serve as a foundation for deeper compromise, including lateral movement and potential disruption of business-critical systems.</span></p>
+<p><span style="font-weight: 400;">Security analysts note that the structure and scope of the alleged dataset suggest more than a superficial leak. If validated, it would indicate meaningful internal exposure, potentially affecting development pipelines, access controls, and system architecture. For an organization like AstraZeneca, which operates in a highly sensitive sector involving intellectual property and critical research, such a breach could carry both operational and strategic implications.</span></p>
+<p><span style="font-weight: 400;">The claim aligns with Lapsus$’s known tactics, which often involve breaching high-profile organizations and leveraging stolen data for extortion or resale. The group has a history of targeting entities where reputational impact and data sensitivity increase pressure to respond.</span></p>
+<p><span style="font-weight: 400;">At this stage, the incident remains unverified, and caution is warranted in interpreting the claims. However, the situation underscores the continued targeting of healthcare and pharmaceutical organizations, not only for patient data but also for intellectual property and internal systems that can be exploited for financial or strategic gain.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">References:</span></p>
+<p><a href="https://securityaffairs.com/189969/data-breach/recent-navia-data-breach-impacts-hackerone-employee-data.html" target="_blank" rel="noopener"><span style="font-weight: 400;">https://securityaffairs.com/189969/data-breach/recent-navia-data-breach-impacts-hackerone-employee-data.html</span></a></p>
+<p><a href="https://www.securityweek.com/fcc-bans-new-foreign-made-consumer-routers-over-national-security-risks/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.securityweek.com/fcc-bans-new-foreign-made-consumer-routers-over-national-security-risks/</span></a></p>
+<p><a href="https://thehackernews.com/2026/03/device-code-phishing-hits-340-microsoft.html" target="_blank" rel="noopener"><span style="font-weight: 400;">https://thehackernews.com/2026/03/device-code-phishing-hits-340-microsoft.html</span></a></p>
+<p><a href="https://www.bleepingcomputer.com/news/security/tp-link-warns-users-to-patch-critical-router-auth-bypass-flaw/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.bleepingcomputer.com/news/security/tp-link-warns-users-to-patch-critical-router-auth-bypass-flaw/</span></a></p>
+<p><a href="https://securityaffairs.com/189936/data-breach/cybercrime-group-lapsus-claims-the-hack-of-pharma-giant-astrazeneca.html" target="_blank" rel="noopener"><span style="font-weight: 400;">https://securityaffairs.com/189936/data-breach/cybercrime-group-lapsus-claims-the-hack-of-pharma-giant-astrazeneca.html</span></a></p>
+<p>The post <a href="https://canarytrap.com/cyber-roundup-april-1/">Canary Trap’s Bi-Weekly Cyber Roundup</a> appeared first on <a href="https://canarytrap.com">Canary Trap</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

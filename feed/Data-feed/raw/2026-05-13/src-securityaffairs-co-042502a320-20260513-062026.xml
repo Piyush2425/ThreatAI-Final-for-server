@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Security Affairs</title>
+	<atom:link href="https://securityaffairs.com/feed" rel="self" type="application/rss+xml" />
+	<link>https://securityaffairs.com/</link>
+	<description>Read, think, share … Security is everyone&#039;s responsibility</description>
+	<lastBuildDate>Tue, 12 May 2026 19:49:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+<site xmlns="com-wordpress:feed-additions:1">29506073</site>	<item>
+		<title>Hackers accessed BWH Hotels reservation system for months</title>
+		<link>https://securityaffairs.com/192038/data-breach/hackers-accessed-bwh-hotels-reservation-system-for-months.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 19:47:27 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Data Breach]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[BWH Hotels]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=192038</guid>
+
+					<description><![CDATA[BWH Hotels says hackers accessed guest reservation data, including names and contacts, for over six months across multiple hotel brands. BWH Hotels disclosed a data breach, with threat actors having had access to guest reservation data for more than six months. The incident exposed names and contact details of an undisclosed number of guests. BWH [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">BWH Hotels says hackers accessed guest reservation data, including names and contacts, for over six months across multiple hotel brands.</h2>
+
+
+
+<p>BWH Hotels disclosed a data breach, with threat actors having had access to guest reservation data for more than six months. The incident exposed names and contact details of an undisclosed number of guests. </p>
+
+
+
+<p>BWH Hotels is one of the world’s largest hotel networks, operating more than 4,000 hotels in over 100 countries. The group was created from the evolution of Best Western and today manages a multi-brand portfolio ranging from budget to luxury hospitality.</p>
+
+
+
+<p>The hospitality group included brands such as Best Western Hotels &amp; Resorts, WorldHotels, and Sure Hotels.</p>
+
+
+
+<p>BWH Hotels disclosed that hackers accessed a reservation system between October 2025 and April 2026, exposing guest contact details and stay information. </p>
+
+
+
+<p><em>&#8220;We are writing to let you know that on April 22, 2026, we identified unauthorized activity in one of our web applications that houses certain guest reservation data.&#8221; reads the <a href="https://www.reddit.com/r/bestwestern/comments/1t7dg8d/security_breach_of_bwh_booking_portal/">data breach notification</a> sent to the affected customers. &#8220;We have learned that certain guests’ names, email addresses, telephone numbers, and/or home addresses, along with other reservation details (e.g., reservation numbers, dates of stay, and any special requests) for reservations in our system were accessed by an unauthorized third‑party between October 14, 2025 and April 22, 2026, including yours.&#8221; </em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The company pointed out that payment data was not stored in the affected system and therefore was not compromised. </p>
+
+
+
+<p><em>&#8220;Importantly, payment and other financial information was not stored in the affected system and therefore was not accessed.&#8221; continutes the notification.</em></p>
+
+
+
+<p>After discovering the intrusion, BWH took the application offline, revoked access, and hired external cybersecurity experts to support the investigation and strengthen protections. </p>
+
+
+
+<p>Guests were also warned to watch for phishing emails, texts, calls, or fake booking messages exploiting the stolen reservation data.</p>
+
+
+
+<p>BWH Hotels urged guests to stay alert for phishing emails, fake booking pages, and suspicious payment requests following the breach. </p>
+
+
+
+<p>The company recommends customers to verify website addresses before entering payment details and contact their bank immediately if financial data was shared with scammers. </p>
+
+
+
+<p>BWH also apologized for the incident and provided support through its data protection office.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>At this time, no known cybercriminal group has claimed responsibility for the attack targeting BWH Hotels.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong>&nbsp;–&nbsp;hacking,&nbsp;data breach)</strong><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">192038</post-id>	</item>
+		<item>
+		<title>The world&#8217;s most &#8220;Dangerous&#8221; AI, Anthropic’s Mythos, found only one flaw in curl</title>
+		<link>https://securityaffairs.com/192029/hacking/the-worlds-most-dangerous-ai-anthropics-mythos-found-only-one-flaw-in-curl.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 14:47:55 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[cURL]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=192029</guid>
+
+					<description><![CDATA[Anthropic’s AI found five vulnerabilities in curl, but only one low-severity issue proved to be a real vulnerability. In April, Anthropic made considerable noise announcing Mythos, a new artificial intelligence model described as so effective at identifying vulnerabilities in code as to be, in the company&#8217;s own words, &#8220;dangerously good.&#8221; So good, in fact, that [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Anthropic’s AI found five vulnerabilities in curl, but only one low-severity issue proved to be a real vulnerability.</h2>
+
+
+
+<p>In April, Anthropic made considerable noise announcing <a href="https://securityaffairs.com/tag/claude-mythos" type="post_tag" id="16757">Mythos</a>, a new artificial intelligence model described as so effective at identifying vulnerabilities in code as to be, in the company&#8217;s own words, &#8220;dangerously good.&#8221; So good, in fact, that Anthropic decided against releasing it to the general public, instead distributing access to a small group of major organizations to give them time to patch their most critical flaws before the model reached everyone else.</p>
+
+
+
+<p>The industry reacted with a degree of alarm. Thousands of zero-days identified in a matter of weeks, software security as we knew it thrown into question, the script had all the ingredients of a viral tech story. And so it became one.</p>
+
+
+
+<p>Then Daniel Stenberg weighed in. Stenberg is the creator and lead developer of curl, the data transfer library present on over twenty billion devices, every smartphone, every connected car, every server on the planet uses curl in one way or another. Through the Linux Foundation&#8217;s Alpha Omega project, he too was granted access, indirectly, via a third party, to a Mythos analysis of curl&#8217;s codebase. The result? The model analyzed 176,000 lines of C code and returned five vulnerabilities it described, with notable self-assurance, as &#8220;confirmed.&#8221;</p>
+
+
+
+<p><em>&#8220;curl is currently 176,000 lines of C code when we exclude blank lines. The source code consists of 660,000 words, which is 12% more words than the entire English edition of the novel War and Peace.&#8221; <a href="https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/">wrote Stenberg</a>. &#8220;The report concluded it found <strong>five</strong> “Confirmed security vulnerabilities”. I think using the term confirmed is a little amusing when the AI says it confidently by itself. Yes, the AI thinks they are confirmed, but the curl security team has a slightly different take.</em></p>
+
+
+
+<p><em>Five issues felt like nothing as we had expected an extensive list. Once my curl security team fellows and I had poked on the this short list for a number of hours and dug into the details, we had trimmed the list down and were left with one confirmed vulnerability. The other four were three false positives (they highlighted shortcomings that are documented in API documentation) and the fourth we deemed “just a bug”.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Three of them turned out to be false positives, behaviors already documented in the API documentation, and one was simply a bug, not a security issue. A single real vulnerability remained, rated low severity, scheduled to be included in the curl 8.21.0 release in late June. </p>
+
+
+
+<p>Daniel Stenberg concluded that the hype around Anthropic’s Mythos AI looked more like marketing, as he saw no major advantage over existing security tools.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;My personal conclusion can however not end up with anything else than that the big hype around this model so far was primarily marketing. I see no evidence that this setup finds issues to any particular higher or more advanced degree than the other tools have done before Mythos.&#8221; he added.</em></p>
+
+
+
+<p>curl is not an ordinary codebase. As Stenberg himself notes, and as the Mythos report openly acknowledges at the very top of its analysis: &#8220;curl is one of the most fuzzed and audited C codebases in existence (OSS-Fuzz, Coverity, CodeQL, multiple paid audits). Finding anything in the hot paths (HTTP/1, TLS, URL parsing core) is unlikely.&#8221; In the months prior, other AI-powered tools, Zeropath, AISLE, OpenAI&#8217;s Codex Security, had already produced somewhere between two and three hundred bugfixes in the codebase, including a dozen or more confirmed CVEs. Mythos arrived late, on ground that had already been extensively turned over.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>There is also the Mozilla comparison. Mythos found over 270 <a href="https://securityaffairs.com/189131/ai/anthropic-claude-opus-ai-model-discovers-22-firefox-bugs.html">vulnerabilities in Firefox</a>, a result that genuinely impressed the browser&#8217;s security team. But Mozilla also made clear that every bug the model identified could have been found by elite human researchers. The value was not in the unreachability of the findings, but in the speed: closing the window between attacker discovery and vendor patch.</p>
+
+
+
+<p>Stenberg, for his part, does not dismiss AI tooling in general, quite the opposite. </p>
+
+
+
+<p>&#8220;AI powered code analyzers are significantly better at finding security flaws and mistakes in source code than any traditional code analyzers did in the past,&#8221; he wrote. </p>
+
+
+
+<p>The argument is narrower: that Mythos, at least on curl, did not demonstrate meaningful superiority over what already exists.</p>
+
+
+
+<p>Daniel Stenberg did not directly interact with Anthropic’s Mythos AI and only reviewed a generated report, limiting a full evaluation of the model’s capabilities. While the AI found just one low-severity flaw in curl’s heavily audited codebase, the results neither confirm the industry hype nor completely dismiss the technology. The test suggests AI vulnerability research may be useful, but current claims about revolutionary capabilities still appear overstated.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;Any project that has not scanned their source code with AI powered tooling will likely find huge number of flaws, bugs and possible vulnerabilities with this new generation of tools.&#8221; Stenberg concluded.</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Anthropic)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">192029</post-id>	</item>
+		<item>
+		<title>Attackers exploit cPanel CVE-2026-41940 to deploy Filemanager Backdoor</title>
+		<link>https://securityaffairs.com/192013/cyber-crime/attackers-exploit-cpanel-cve-2026-41940-to-deploy-filemanager-backdoor.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 11:41:28 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cPanel]]></category>
+		<category><![CDATA[CVE-2026-41940]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[Filemanager]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=192013</guid>
+
+					<description><![CDATA[Attackers are exploiting cPanel flaw CVE-2026-41940 to install the Filemanager backdoor and gain unauthorized admin access. Cybercriminals are actively exploiting the critical cPanel vulnerability CVE-2026-41940 (CVSS score of 9.3) to deploy a backdoor called Filemanager on compromised servers. cPanel&#160;is a widely used web hosting control panel that lets users manage websites and servers through a [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Attackers are exploiting cPanel flaw CVE-2026-41940 to install the Filemanager backdoor and gain unauthorized admin access.</h2>
+
+
+
+<p>Cybercriminals are actively exploiting the critical cPanel vulnerability <a href="https://securityaffairs.com/191613/hacking/u-s-cisa-adds-a-flaw-in-webpros-cpanel-to-its-known-exploited-vulnerabilities-catalog.html" type="post" id="191613">CVE-2026-41940</a> (CVSS score of 9.3) to deploy a backdoor called Filemanager on compromised servers. </p>
+
+
+
+<p><a href="https://securityaffairs.com/tag/cpanel">cPanel</a>&nbsp;is a widely used web hosting control panel that lets users manage websites and servers through a graphical interface instead of command-line tools.</p>
+
+
+
+<p>Cybersecurity experts at watchTowr first&nbsp;<a href="https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/">disclosed</a>&nbsp;the flaw earlier this week and released a tool to help defenders identify vulnerable hosts in their estates.</p>
+
+
+
+<p><em>“As we stated above, in-the-wild exploitation has already begun, according to KnownHost.” reads the&nbsp;<a href="https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/">advisory</a>&nbsp;by watchTowr. “Therefore, we’re releasing our&nbsp;<a href="https://github.com/watchtowrlabs/watchTowr-vs-cPanel-WHM-AuthBypass-to-RCE.py?ref=labs.watchtowr.com">Detection Artifact Generator</a>&nbsp;to enable defenders to identify vulnerable hosts in their estates.”</em></p>
+
+
+
+<p>CVE-2026-41940 is an authentication bypass flaw affecting cPanel and WHM versions after 11.40. A weakness in the login flow allows remote attackers to skip or manipulate authentication checks, granting access to the control panel without valid credentials. This could let attackers manage hosting settings, access sensitive data, or take control of the server.</p>
+
+
+
+<p>According to the Shadowserver Foundation, thousands of instances may be exposed. </p>
+
+
+
+<p>cPanel and watchTowr released tools to detect compromise and vulnerable hosts. Exploits date back to February. Namecheap warned customers of temporary access limits to mitigate risk.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>QiAnXin XLab researchers linked the attacks to a threat actor known as Mr_Rot13.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Since its public disclosure on April 28, researchers have observed widespread exploitation linked to cryptomining, ransomware, botnets, and backdoor deployments. More than 2,000 malicious IPs worldwide have reportedly targeted the flaw, with activity traced mainly to Germany, the U.S., Brazil, and the Netherlands.</p>
+
+
+
+<p>The issue has already been tied to attacks against Southeast Asian government and military institutions, where hackers allegedly stole 4.37 GB of sensitive data.</p>
+
+
+
+<p>Researchers also uncovered a new Go-based malware called “Payload,” which installs SSH keys, malicious PHP and JavaScript code, steals credentials, and sends stolen data to attackers through Telegram before deploying a remote-control trojan named Filemanager.</p>
+
+
+
+<p><em>&#8220;On May 4, while sorting through the malicious payloads delivered via the CVE-2026-41940 vulnerability, we discovered a new and distinctive infector. This infector is written in Go, with a project named &#8220;Payload,&#8221; and it embeds a large amount of Turkish-language log messages, which appear to be AI-generated.&#8221; reads the <a href="https://blog.xlab.qianxin.com/mr_rot13-the-elusive-6-year-hacker-group-weaponizing-critical-cpanel-flaws-for-backdoor-deployment/"><strong>report</strong></a> published QiAnXin XLab. &#8220;Its main functions are: implanting an SSH public key, malicious PHP, and JS code into the compromised cPanel system, stealing login credentials, sending the stolen information back to a Telegram group controlled by the attackers, and ultimately deploying a remote-control trojan named &#8220;filemanager.&#8221;&#8221;</em></p>
+
+
+
+<p>Threat analysts linked the campaign to a suspected long-running group called Mr_Rot13, which appears to have operated covertly since at least 2020 using the same infrastructure and hidden command-and-control systems.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Researchers analyzed a malicious “Payload” infector used in attacks exploiting the critical cPanel flaw CVE-2026-41940. The malware downloads and runs a backdoor called Filemanager from attacker-controlled servers, then deletes traces of the installer. </p>
+
+
+
+<p><em>&#8220;The malicious script delivered by Mr_rot13 via CVE-2026-41940 is shown below. Its function is to request a malicious payload named Update from the download server <code>cp.dene.[de.com</code>, and run it continuously in the background using the nohup command (typically used together with &amp;).&#8221; continues the report.</em></p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-33.png?ssl=1"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="911" height="313" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-33.png?resize=911%2C313&#038;ssl=1" alt="" class="wp-image-192022" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-33.png?w=911&amp;ssl=1 911w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-33.png?resize=300%2C103&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-33.png?resize=768%2C264&amp;ssl=1 768w" sizes="(max-width: 911px) 100vw, 911px" /></a></figure>
+
+
+
+<p>Written in Go and likely generated with AI assistance, the malware changes root passwords, installs SSH keys, deploys PHP webshells, injects malicious JavaScript into cPanel login pages, steals credentials, and exfiltrates sensitive data.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The attackers also used Telegram bots as a backup channel to receive stolen information. Analysts linked the infrastructure to a long-running threat actor called Mr_Rot13, active since at least 2020. The malware supports Linux, Windows, and macOS systems and appears designed for persistent remote access and credential theft.<gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Researchers discovered a PHP backdoor named helper.php linked to the Mr_Rot13 threat group and uploaded to VirusTotal in 2022 with no antivirus detections. The malware hid malicious code inside a legitimate WordPress file using XOR string obfuscation and communicated with the domain wrned.com, extending the group’s activity timeline back several years.</p>
+
+
+
+<p>The backdoor collected data such as URLs, IP addresses, parameters, and user-agent details, then sent them to a remote command-and-control server. Although researchers could not fully decrypt the final payload, the analysis confirmed that WordPress sites were likely a major target of the operation.</p>
+
+
+
+<p><em>&#8220;Over the six years from 2020 to the present, the detection rate of Mr_Rot13&#8217;s related samples and infrastructure across security products has remained extremely low.&#8221; concludes the QiAnXin XLab&#8217;s report. &#8220;Given that this threat activity is still ongoing and that the cPanel vulnerability involved is highly critical, we have written this threat brief specifically to share our findings with the security community, in order to work together to safeguard cybersecurity.&#8221; </em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, cPanel)</strong><gwmw style="display: none; background-color: transparent;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">192013</post-id>	</item>
+		<item>
+		<title>WannaCry, the ransomware attack that changed the history of cybersecurity</title>
+		<link>https://securityaffairs.com/192015/malware/wannacry-the-ransomware-attack-that-changed-the-history-of-cybersecurity.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 09:31:21 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber warfare]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[wannacry ransomware]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=192015</guid>
+
+					<description><![CDATA[WannaCry showed how unpatched flaws and leaked cyber tools can cripple global systems, reshaping cybersecurity defenses worldwide. In memory of the day the digital world was shaken, but learned to fight back. The WannaCry ransomware attack represents one of the most significant events in recent cybersecurity history, not only for its global scale but also [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">WannaCry showed how unpatched flaws and leaked cyber tools can cripple global systems, reshaping cybersecurity defenses worldwide.</h2>
+
+
+
+<p><em>In memory of the day the digital world was shaken, but learned to fight back.</em></p>
+
+
+
+<p>The <strong><a href="https://securityaffairs.com/59154/intelligence/wannacry-nsa-powered-ransomware-cyberattack.html" type="post" id="59154">WannaCry ransomware</a> </strong>attack represents one of the most significant events in recent cybersecurity history, not only for its global scale but also for the technical and geopolitical implications it raised. Analyzing its history means understanding how known vulnerabilities, advanced tools, and delays in mitigation can converge into an event capable of disrupting critical infrastructure worldwide.</p>
+
+
+
+<p>WannaCry emerged on May 12, 2017 by exploiting a vulnerability in the SMBv1 protocol of Microsoft Windows (<a href="https://nvd.nist.gov/vuln/detail/cve-2017-0144">CVE-2017-0144</a> aka <a href="https://securityaffairs.com/tag/eternalblue" type="post_tag" id="6577">EternalBlue</a>). This vulnerability, which was addressed by the Microsoft security patch <strong><a href="https://learn.microsoft.com/it-it/security-updates/securitybulletins/2017/ms17-010">MS17-010</a></strong> in March 2017, allowed remote code execution without authentication. The most critical detail is that the exploit used, known as EternalBlue, was not developed by common cybercriminals but derived from offensive tools attributed to the National Security Agency (NSA), later leaked by the hacker group <a href="https://securityaffairs.com/57951/hacking/shadow-brokers-solaris-exploits.html" type="post" id="57951">Shadow Brokers</a>.</p>
+
+
+
+<p>This combination made WannaCry particularly effective. It was not a traditional ransomware spread via phishing, but a worm capable of autonomously propagating within networks.</p>
+
+
+
+<p>On that day in May, WannaCry began spreading rapidly, infecting over 200,000 systems in more than 150 countries within hours. Among the countries most affected were Spain, United Kingdom, United States, China, Portugal, Vietnam, Russia, and Ukraine, with particular impact on British hospital IT systems and Spanish telecommunications networks.</p>
+
+
+
+<p>Italy was also affected by the attack, and the case was handled by the CNAIPIC, the cybercrime operations center of the Polizia Postale. The speed of propagation was largely due to the widespread presence of unpatched systems, especially outdated Windows versions like Windows XP.<gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p><strong>Infection mechanism and behavior</strong></p>
+
+
+
+<p>Once inside a system, WannaCry encrypted files using strong cryptographic algorithms and displayed a ransom demand in <strong>Bitcoin</strong>. The requested payment was relatively low, around $300, but increased over time to pressure victims into paying quickly.</p>
+
+
+
+<p>From a technical perspective, the real innovation was its automated lateral movement. Using EternalBlue, the malware scanned networks for other vulnerable systems and replicated itself without human interaction. This behavior made it more similar to a classic worm than to traditional ransomware.</p>
+
+
+
+<p>A crucial moment in WannaCry’s history was the accidental discovery of a “<a href="https://securityaffairs.com/61657/cyber-crime/marcus-hutchins-arrested.html" type="post" id="61657">kill switch</a>.” Security researcher Marcus Hutchins (aka MalwareTech), while analyzing the code, noticed that the malware attempted to connect to an unregistered domain (<em>hxxp://www[.]iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea[.]com</em>).</p>
+
+
+
+<p>By registering that domain, he effectively slowed and partially stopped the worm’s global spread. This mechanism was likely intended as an anti-analysis technique, but it ended up playing a key role in mitigating the attack.</p>
+
+
+
+<p><strong>Attribution and lessons learned</strong></p>
+
+
+
+<p>Subsequent investigations attributed the attack to groups linked to North Korea, particularly the <strong>Lazarus Group</strong>. This attribution, supported by several governments including the United States and the United Kingdom, highlighted how cyber warfare tools can be repurposed in criminal or hybrid operations.</p>
+
+
+
+<p>The WannaCry case also sparked intense debate about how governments manage software vulnerabilities. The fact that an intelligence-grade exploit escaped control and was used globally exposed the risks associated with stockpiling cyber weapons.</p>
+
+
+
+<p>WannaCry marked a turning point in how cyber risk is perceived. It demonstrated that failing to apply security patches can lead to systemic consequences. Microsoft had released the necessary security update months before the attack, yet many organizations had not implemented it.</p>
+
+
+
+<p>Another key lesson concerns network segmentation. The worm’s ability to move laterally exposed weaknesses in internal infrastructures that lacked proper isolation controls.</p>
+
+
+
+<p>Finally, WannaCry emphasized the importance of international cooperation in cyber incident response. The timely sharing of technical information helped limit the damage and enabled faster development of countermeasures.</p>
+
+
+
+<p>Years later, WannaCry remains a landmark case showing how known vulnerabilities, advanced tools, and organizational shortcomings can combine into a devastating cyberattack. It was neither the most sophisticated nor the most profitable ransomware, but it was undoubtedly one of the most impactful.</p>
+
+
+
+<p>Its legacy is still visible today in modern security practices, which place greater emphasis on patch management, network resilience, and preparedness for large-scale attacks.</p>
+
+
+
+<p><strong>About the author: Salvatore Lombardo</strong>&nbsp;(<strong>X&nbsp;<a href="https://twitter.com/Slvlombardo">@Slvlombardo</a></strong>)</p>
+
+
+
+<p>Electronics engineer and Clusit member, for some time now, espousing the principle of conscious education, he has been writing for several online magazine on information security. He is also the author of the book “La Gestione della Cyber Security nella Pubblica Amministrazione”. “Education improves awareness” is his slogan.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, ransomware)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">192015</post-id>	</item>
+		<item>
+		<title>Android banking Trojan TrickMo evolves using TON network for C2</title>
+		<link>https://securityaffairs.com/192003/malware/android-banking-trojan-trickmo-evolves-using-ton-network-for-c2.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 06:53:14 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Android trojan]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[TrickMo]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=192003</guid>
+
+					<description><![CDATA[ThreatFabric found a new TrickMo Android trojan focused on stealth and persistence, moving its command-and-control traffic to the TON network. Security researchers at ThreatFabric have recently identified a new version of TrickMo, a dangerous Android banking trojan that shows how malware operators are focusing less on flashy new features and more on improving stealth, flexibility, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">ThreatFabric found a new TrickMo Android trojan focused on stealth and persistence, moving its command-and-control traffic to the TON network.</h2>
+
+
+
+<p>Security researchers at ThreatFabric have recently identified a new version of TrickMo, a dangerous Android banking trojan that shows how malware operators are focusing less on flashy new features and more on improving stealth, flexibility, and long-term control over infected devices.</p>
+
+
+
+<p><em>“The variant is a direct evolution of the previously documented TrickMo: the on-device feature set is largely unchanged, but the platform underneath has been deliberately re-engineered for stealth, resilience and operator reach.&#8221; reads the <a href="https://www.threatfabric.com/blogs/new-trickmo-variant-device-take-over-malware-targeting-banking-fintech-wallet-auth-app" type="link" id="https://www.threatfabric.com/blogs/new-trickmo-variant-device-take-over-malware-targeting-banking-fintech-wallet-auth-app">report</a> published by ThreatFabric. &#8220;The most visible change is at the network layer, where the bot&#8217;s command-and-control traffic has been moved off the conventional internet entirely and onto The Open Network (TON).” </em></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-31.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="1024" height="576" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-31.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-192005" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-31.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-31.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-31.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-31.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-31.png?w=1920&amp;ssl=1 1920w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p>Instead of creating completely new malware families, attackers are redesigning existing platforms to survive longer, avoid detection, and give operators more control.</p>
+
+
+
+<p>The latest TrickMo variant was discovered between January and February 2026 during campaigns targeting banking and cryptocurrency wallet users in France, Italy, and Austria. Researchers believe this updated version is gradually replacing older TrickMo variants already active in the wild. While many of its visible features remain similar, the malware’s internal structure has changed significantly.</p>
+
+
+
+<p>An interesting aspect of TrickMo is its modular design. The main application acts mostly as a launcher and persistence layer, while additional malicious functionality is downloaded later as separate modules. This architecture gives attackers flexibility because new features can be added without reinstalling the malware.</p>
+
+
+
+<p>One of the most important updates involves how TrickMo communicates with its operators. Traditionally, malware relies on standard internet infrastructure such as domains and public servers for command-and-control communication. This new version has abandoned that approach almost entirely.</p>
+
+
+
+<p>The Open Network (TON) is a legitimate blockchain platform. Researchers said TrickMo C operators abused its infrastructure, without involvement or responsibility from the TON project.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>“The most significant change is the migration of command-and-control traffic onto The Open Network (TON).” continues the report. &#8220;The single largest architectural change in TrickMo is that the bot no longer reaches its operator over the conventional internet. The primary command-and-control transport has been moved onto The Open Network (TON) — a decentralised peer-to-peer overlay network originally built for Telegram, with its own routing and naming layer (ADNL). Hosts inside TON are not addressed by DNS or by IPs in the public routing table; they are addressed by opaque base32 strings under a .adnl pseudo-TLD which the TON network resolves through its own decentralised infrastructure.&#8221;</em></p>
+
+
+
+<p>This makes detection and takedown efforts far more difficult because the infrastructure does not rely on the traditional DNS system.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-32.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="1024" height="576" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-32.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-192006" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-32.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-32.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-32.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-32.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-32.png?w=1920&amp;ssl=1 1920w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p>The malware even includes an embedded TON proxy running locally on the infected phone. All communications pass through this proxy, helping traffic blend in with legitimate TON activity. From a defender’s perspective, malicious traffic becomes much harder to distinguish from normal encrypted network usage.</p>
+
+
+
+<p>Beyond communication upgrades, TrickMo still performs the classic banking trojan functions that make it so dangerous. Once accessibility permissions are granted, attackers can remotely interact with the device in real time. The malware can display fake banking login pages, capture keystrokes, intercept SMS verification codes, monitor notifications, record screens, and remotely control the phone.</p>
+
+
+
+<p>However, the newest variant expands far beyond simple banking fraud. Researchers discovered advanced networking capabilities built directly into the malware. Operators can now perform DNS lookups, ping systems, trace routes, and run HTTP requests directly from the infected device. This effectively turns compromised phones into reconnaissance tools inside corporate or home networks.</p>
+
+
+
+<p>What makes this threat especially worrying is its professional evolution. TrickMo is no longer just a banking trojan stealing credentials. It is becoming a flexible cybercrime platform capable of remote surveillance, network pivoting, fraud support, and future feature expansion.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;The largest functional addition in this variant, and the change that justifies framing the family as a managed foothold rather than a banking trojan, is a <strong>network-operative subsystem</strong>.&#8221; states the report. &#8220;Five operator commands run network primitives from the device&#8217;s vantage point and return the results upstream:</em></p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>Command</td><td>Description</td></tr><tr><td>curl</td><td>Full curl-CLI HTTP probe (any method, headers, body)</td></tr><tr><td>dnslookup</td><td>Platform-resolver DNS lookup for any hostname</td></tr><tr><td>ping</td><td>ICMP echo via the platform&#8217;s /system/bin/ping&nbsp;</td></tr><tr><td>telnet</td><td>TCP-connect probe with timeout, multi-port supported&nbsp;</td></tr><tr><td>traceroute</td><td>Route trace via the platform&#8217;s /system/bin/traceroute&nbsp;</td></tr></tbody></table></figure>
+
+
+
+<p>Even more concerning is the addition of SSH tunneling and SOCKS5 proxy features. These tools allow attackers to route traffic through the victim’s own internet connection. In practice, this means cybercriminals can make fraudulent activity appear as if it originates directly from the victim’s device and IP address.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>“This latest variant also expands the operational role of infected devices through SSH tunnelling and authenticated SOCKS5 proxying, effectively turning compromised phones into programmable network pivots and traffic-exit nodes whose connections originate from the victim’s own network environment.” states Threat Fabric.</em></p>
+
+
+
+<p>This capability significantly increases the value of infected devices for cybercriminal operations.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Researchers also found signs that TrickMo operators are preparing for future capabilities. The malware contains inactive components linked to NFC permissions and a hooking framework called Pine. Although these features are not currently active, they suggest the developers are building a platform ready for future updates, possibly targeting contactless payment systems or deeper application manipulation.</p>
+
+
+
+<p>As Android security continues to improve, malware developers are responding with smarter architectures, decentralized communications, and modular attack frameworks. TrickMo’s evolution demonstrates that the future of mobile malware is not necessarily louder or more visible — it is quieter, more persistent, and far more adaptable.</p>
+
+
+
+<p><em>“Overall, Trickmo can be seen as a ‘reborn’ threat: not entirely new, but refined and adapted to remain effective in a more secure and scrutinized mobile environment.” concludes the report.</em></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, malware)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">192003</post-id>	</item>
+		<item>
+		<title>Identity security firm SailPoint discloses GitHub repository breach</title>
+		<link>https://securityaffairs.com/191997/data-breach/identity-security-firm-sailpoint-discloses-github-repository-breach.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Mon, 11 May 2026 18:05:16 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Data Breach]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[SailPoint]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191997</guid>
+
+					<description><![CDATA[SailPoint disclosed a GitHub repository breach on April 20. The company contained the incident and said no customer data was affected. SailPoint is a cybersecurity company that provides identity security and identity governance solutions for enterprises. Its products help organizations manage and control user access to systems, applications, and sensitive data. SailPoint revealed a cybersecurity [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">SailPoint disclosed a GitHub repository breach on April 20. The company contained the incident and said no customer data was affected.</h2>
+
+
+
+<p>SailPoint is a cybersecurity company that provides identity security and identity governance solutions for enterprises. Its products help organizations manage and control user access to systems, applications, and sensitive data.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>SailPoint revealed a cybersecurity incident involving its GitHub repositories that occurred on April 20. The identity management firm said it quickly contained the breach with the help of a third-party cybersecurity firm. The company confirmed the attack did not impact customer data or its production and staging environments. </p>
+
+
+
+<p><em>&#8220;On April 20, 2026, we detected unauthorized access to a subset of our GitHub repositories. Our incident response team quickly terminated the unauthorized activity and resolved the issue. The root cause was a vulnerability in a third-party application, which has been remediated.&#8221;</em> <em>reads the <a href="https://www.sec.gov/ix?doc=/Archives/edgar/data/2030781/000162828026033016/sail-20260508.htm#fact-identifier-5">FORM 8-K</a> filed with the U.S. Securities and Exchange Commission (SEC)..</em></p>
+
+
+
+<p><em>&#8220;Based on our investigation, supported by a third-party cybersecurity response firm, we found no evidence that customer data in our production or staging environments were accessed or that our services were interrupted.&#8221; </em></p>
+
+
+
+<p>SailPoint did not disclose further details about the security breach or the type of data that may have been compromised.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>SailPoint said it directly notified affected customers and currently sees no need for further customer action.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, SailPoint)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191997</post-id>	</item>
+		<item>
+		<title>Google warns artificial intelligence is accelerating cyberattacks and zero-day exploits</title>
+		<link>https://securityaffairs.com/191984/ai/google-warns-artificial-intelligence-is-accelerating-cyberattacks-and-zero-day-exploits.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Mon, 11 May 2026 14:06:29 +0000</pubDate>
+				<category><![CDATA[APT]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Reports]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<category><![CDATA[zero-Day]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191984</guid>
+
+					<description><![CDATA[Google says hackers now use AI to create exploits, automate attacks, evade defenses, and target AI supply chains at scale. Artificial intelligence is rapidly changing the cyber threat landscape, and a new report from the Google Cloud Threat Intelligence team highlights how attackers already use AI to improve vulnerability exploitation and gain initial access to [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Google says hackers now use AI to create exploits, automate attacks, evade defenses, and target AI supply chains at scale.</h2>
+
+
+
+<p>Artificial intelligence is rapidly changing the cyber threat landscape, and a new report from the <a href="https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access?utm_source=chatgpt.com">Google Cloud Threat Intelligence team</a> highlights how attackers already use AI to improve vulnerability exploitation and gain initial access to cloud environments.</p>
+
+
+
+<p>The report shows a clear shift in attacker behavior. Attackers now target software flaws and cloud services more than stolen credentials or phishing, making vulnerability exploitation a top entry method.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>One of the most important findings concerns the growing role of AI in offensive operations. Attackers no longer use AI only to write phishing emails or automate repetitive tasks. They now experiment with AI systems capable of <a href="https://securityaffairs.com/191087/ai/the-us-nsa-is-using-anthropics-claude-mythos-despite-supply-chain-risk.html" type="post" id="191087">identifying vulnerabilities</a>, generating exploit code, and accelerating attack chains.</p>
+
+
+
+<p>Google researchers warn that the industry is entering a new phase of AI-enabled cybercrime. The report notes that threat actors increasingly integrate AI throughout the attack lifecycle, from reconnaissance to exploitation and malware development. </p>
+
+
+
+<p><em>&#8220;AI-enabled malware, such as <a href="https://securityaffairs.com/tag/promptspy" type="post_tag" id="16587">PROMPTSPY</a>, signal a shift toward autonomous attack orchestration, where models interpret system states to dynamically generate commands and manipulate victim environments.&#8221; reads the <a href="https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access">report</a> published by Google. &#8220;Our analysis of this malware reveals previously unreported capabilities and use cases for its integration with AI. This approach allows threat actors to offload operational tasks to AI for scaled and adaptive activity.&#8221;</em></p>
+
+
+
+<p>Researchers warn that threat actors no longer use AI only to improve productivity. Cybercriminals and state-backed groups now test AI systems that can adapt during attacks, automate decisions, accelerate operations, and support tasks once handled only by human operators, marking a major shift in modern cyber operations.</p>
+
+
+
+<p>The report also describes how attackers exploit newly disclosed vulnerabilities much faster than before. In some cases, criminals start scanning the internet for exposed systems within hours or days after security researchers publish technical details. That acceleration leaves defenders with very little time to patch systems before attackers strike.</p>
+
+
+
+<p>Google identified the first known AI-developed zero-day exploit tied to a planned mass attack. Chinese and North Korean actors also show strong interest in using AI to discover vulnerabilities.</p>
+
+
+
+<p><em>&#8220;For the first time, GTIG has identified a threat actor using a zero-day exploit that we believe was developed with AI. The criminal threat actor planned to use it in a mass exploitation event but our proactive counter discovery may have prevented its use.&#8221; continues the report. &#8220;Threat actors associated with the People’s Republic of China (PRC) and the Democratic People&#8217;s Republic of Korea (DPRK) have also demonstrated significant interest in capitalizing on AI for vulnerability discovery. &#8220;</em></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-29.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="615" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-29.png?resize=1024%2C615&#038;ssl=1" alt="artificial intelligence vulnerabilities discovery" class="wp-image-191991" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-29.png?resize=1024%2C615&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-29.png?resize=300%2C180&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-29.png?resize=768%2C461&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-29.png?resize=1536%2C922&amp;ssl=1 1536w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/05/image-29.png?w=2048&amp;ssl=1 2048w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p>Google found that attackers increasingly use software flaws to breach cloud environments, targeting APIs, SaaS apps, developer platforms, and AI services.</p>
+
+
+
+<p>AI plays an important role in this acceleration. Large language models (LLMs) help attackers analyze technical documentation, understand proof-of-concept exploits, and generate malicious scripts faster than traditional methods allowed. Researchers increasingly fear that AI could reduce the technical barrier required to launch sophisticated attacks.</p>
+
+
+
+<p>The report highlighted another critical issue: attackers increasingly target the broader AI ecosystem rather than AI models alone. Exposed API keys, insecure integrations, excessive permissions, and vulnerable third-party tools create new attack surfaces.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Recent investigations revealed cases where exposed Google Cloud API keys unintentionally granted access to Gemini AI services after configuration changes. Security researchers found thousands of publicly exposed keys that attackers could abuse to access sensitive AI endpoints or generate massive cloud costs. </p>
+
+
+
+<p>Google also expanded its detection capabilities to monitor AI-related threats inside cloud environments. The company now tracks suspicious activity involving AI services, including abnormal service account usage, unusual AI API calls, malicious binaries, reverse shells, and data exfiltration attempts targeting AI workloads. </p>
+
+
+
+<p><em>&#8220;Adversaries like &#8220;<a href="https://securityaffairs.com/tag/teampcp" type="post_tag" id="16716">TeamPCP</a>&#8221; (aka UNC6780) have begun targeting AI environments and software dependencies as an initial access vector. These supply chain attacks result in multiple types of machine learning (ML)-focused risks outlined in the <a href="https://saif.google/secure-ai-framework/risks" target="_blank" rel="noreferrer noopener">Secure AI Framework (SAIF) taxonomy</a>, namely Insecure Integrated Component (IIC) and Rogue Actions (RA).&#8221; continues the report. &#8220;Our analysis of forensic data associated with these attacks reveals threats actors attempting to pivot from compromised AI software to broader network environments for initial access and to engage in disruptive activities, such as ransomware deployment and extortion.&#8221;</em></p>
+
+
+
+<p>The report states that software-based entry has become one of the dominant intrusion methods in cloud attacks. This trend reflects the increasing difficulty of stealing credentials from organizations that adopted MFA and stronger identity protections. Attackers instead focus on unpatched software, insecure APIs, and third-party integrations. </p>
+
+
+
+<p>Another major concern involves autonomous AI-assisted attacks. Researchers and security companies already documented early cases where AI systems conducted reconnaissance, vulnerability scanning, and exploitation with limited human supervision. Anthropic recently disclosed an incident involving an AI-orchestrated <a href="https://securityaffairs.com/184666/hacking/anthropic-china-backed-hackers-launch-first-large-scale-autonomous-ai-cyberattack.html" type="post" id="184666">cyberattack allegedly linked to a state-sponsored Chinese group</a>. According to the company, the attackers used AI tools for reconnaissance, credential theft, and data exfiltration. </p>
+
+
+
+<p>Although fully autonomous cyberattacks remain limited, Google researchers believe the trend will continue. AI systems increasingly support attackers by shortening operational timelines and improving scalability.</p>
+
+
+
+<p>The report also examined how threat actors interact with generative AI systems. Google found that many attackers attempt to bypass AI safety protections using jailbreak prompts and prompt engineering techniques. However, most attempts remain unsophisticated and rely on publicly available methods rather than advanced AI manipulation. </p>
+
+
+
+<p>Importantly, the report stressed that AI does not replace traditional attack techniques. Many successful breaches still originate from common security failures such as misconfigurations, exposed services, weak access controls, and poor patch management. A separate report from Wiz found that basic security mistakes still contribute to most cloud breaches. </p>
+
+
+
+<p>The researchers also emphasized that defenders can use AI to strengthen security operations. AI tools already help analysts process telemetry, prioritize alerts, identify suspicious patterns, and accelerate incident response. However, the same technologies remain available to attackers.</p>
+
+
+
+<p>One of the clearest warnings from the report appears in the statement that the cloud threat landscape is rapidly shifting. That shift no longer concerns only malware or phishing. It involves the convergence of AI, cloud infrastructure, automation, and software exploitation into a faster and more scalable attack model. </p>
+
+
+
+<p>The overall message from Google’s analysis is clear: organizations can no longer treat AI security as a future problem. Attackers already use AI to improve operations, accelerate exploitation, and target cloud ecosystems. Companies must strengthen vulnerability management, secure APIs and AI integrations, monitor third-party relationships, and reduce exposure windows before attackers exploit them.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Artificial intelligence)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191984</post-id>	</item>
+		<item>
+		<title>Crimenetwork returns after takedown, dismantled again by German authorities</title>
+		<link>https://securityaffairs.com/191969/cyber-crime/crimenetwork-returns-after-takedown-dismantled-again-by-german-authorities.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Mon, 11 May 2026 11:25:26 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Crimenetwork]]></category>
+		<category><![CDATA[Cybercrime]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191969</guid>
+
+					<description><![CDATA[German police shut down a revived Crimenetwork marketplace with 22,000 users and 100+ sellers months after the original takedown. German police dismantled a resurrected version of the German-language cybercrime marketplace Crimenetwork, just months after the original platform was taken down. The second iteration of the site had already attracted more than 22,000 users and over [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">German police shut down a revived Crimenetwork marketplace with 22,000 users and 100+ sellers months after the original takedown.</h2>
+
+
+
+<p>German police dismantled a resurrected version of the German-language cybercrime marketplace Crimenetwork, just months after the <a href="https://securityaffairs.com/171658/cyber-crime/german-authorities-shut-down-crimenetwork.html" type="post" id="171658">original platform was taken down</a>. The second iteration of the site had already attracted more than 22,000 users and over 100 sellers, showing how quickly underground markets can recover when operators are able to rebuild their infrastructure.</p>
+
+
+
+<p><em>&#8220;Before being shut down by law enforcement at the end of 2024, &#8220;Crimenetwork&#8221; was for many years one of the central marketplaces of the German-speaking underground economy. The relaunch of the platform offered a similarly wide range of illegal goods and services, including stolen data, drugs, and forged documents. The relaunch most recently boasted over 22,000 users and more than 100 vendors.&#8221; reads the <a href="https://www.bka.de/DE/Presse/Listenseite_Pressemitteilungen/2026/Presse2026/260508_PM_Crimenetwork.html">announcement </a>by BKA. &#8220;Users of the new platform used cryptocurrencies such as Bitcoin, Litecoin, and Monero to conduct their transactions. During the operation, law enforcement secured extensive evidence suggesting the platform generated revenue exceeding €3.6 million.&#8221;</em></p>
+
+
+
+<p>According to German authorities, the marketplace was being used to trade a broad range of illegal goods and services, including stolen personal data, drugs, forged documents, and other criminal offerings. Payments were made through cryptocurrencies such as Bitcoin, Litecoin, and Monero, making it easier for users to hide financial trails and move funds across borders. Investigators believe the platform generated more than €3.6 million in revenue before it was shut down.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Crimenetwork had originally been dismantled in December 2024. Since 2012, Crimenetwork facilitated the sale of illegal goods and services, including drugs, forged documents, hacking tools, and stolen data. The platform served as a hub for cybercriminals to trade and coordinate illegal operations.</p>
+
+
+
+<p>At the time, police described it as the largest German-speaking criminal marketplace. Investigators estimated that more than $100 million in cryptocurrency had passed through the platform between 2018 and 2024, underlining the scale of the business and the level of trust it had built within the criminal underground.</p>
+
+
+
+<p>In late 2024, police arrested a 29-year-old alleged admin of the marketplace, seized €1M in assets, and charged him with enabling sales of drugs, stolen data, and illegal services. He is not in custody.</p>
+
+
+
+<p>Public Prosecutor’s Office in Frankfurt carried out the operation am Main, the Central Office for Combating Cybercrime (ZIT), and the Federal Criminal Police Office (BKA).<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>What makes the latest takedown important is not only the shutdown itself, but also the arrest linked to the operation. Police said a 35-year-old German citizen suspected of being the administrator was detained in Mallorca by Spanish authorities. That arrest is significant because it suggests investigators were able to move beyond the platform’s technical infrastructure and identify a person directly involved in running it.</p>
+
+
+
+<p>In addition to the arrest, law enforcement seized around €194,000 in assets connected to the marketplace. Authorities also obtained extensive user and transaction records, which are now being analyzed to better understand the criminal network behind the site and possibly identify vendors, buyers, and support actors who remained active on the platform.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The Crimenetwork case is a good reminder that online crime markets are often resilient. When one site is taken down, a successor may appear soon after on new servers, with a new interface and the same criminal audience. That happened here: the original platform was removed, but a new version emerged days later and quickly regained users and sellers.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Still, the case also shows that repeated law-enforcement pressure can make these markets harder to sustain. A marketplace is not just software. It depends on administrators, payment handling, trust systems, and a stable community of vendors and buyers. Once police start seizing data, freezing assets, and arresting people behind the scenes, rebuilding becomes much harder.</p>
+
+
+
+<p>German police have been increasingly active against this type of infrastructure. The Crimenetwork operation fits into a broader pattern of investigations targeting cybercrime forums, darknet shops, and other illicit marketplaces that serve as distribution hubs for stolen data and fraud tools. These actions matter because marketplaces like this do not just sell illegal products; they help professionalize cybercrime by giving offenders a place to meet, trade, and scale their operations.</p>
+
+
+
+<p>Other successful German police actions against online crime marketplaces show the same approach: follow the money, collect transaction data, identify the administrators, and work with foreign partners when suspects or servers are abroad. That combination has repeatedly led to arrests and seizures that weaken the ecosystem behind the platforms.</p>
+
+
+
+<p>In April 2022, German authorities shut down <a href="https://securityaffairs.com/129866/cyber-crime/german-police-shut-down-hydra-market.html">Hydra</a>, one of the world’s largest dark web marketplace. The seizure of the Hydra Market is the result of an international investigation conducted by the Central Office for Combating Cybercrime (ZIT) in partnership with U.S. law enforcement authorities since August 2021.<gwmw style="display: none; background-color: transparent;"></gwmw></p>
+
+
+
+<p>Hydra was a top Russian Darknet market famous among Russian speaking users that have been active since 2015.</p>
+
+
+
+<p>According to the authorities, its sales amounted to at least 1.23 billion euros in 2020 alone. The German police seized approximately EUR 23 million worth of Bitcoin. The German authorities reported that around 17 million customers and over 19,000 seller accounts were registered on the Hydra Market.</p>
+
+
+
+<p>The key lesson from Crimenetwork is clear. Shutting down a site is important, but the real disruption comes when investigators also remove the people, funds, and data that keep it alive. Without that pressure, a marketplace can return almost immediately. With it, the cost of rebuilding rises sharply.</p>
+
+
+
+<p>For law enforcement, that makes marketplace disruption less of a one-time operation and more of a long campaign. For the criminal underground, it is a warning that even a revived platform may not stay online for long.</p>
+
+
+
+<p><strong>Follow me on Twitter:&nbsp;</strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong>&nbsp;and&nbsp;</strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><strong></strong></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, cybercrime)</strong></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191969</post-id>	</item>
+		<item>
+		<title>U.S. CISA adds a flaw in BerriAI LiteLLM to its Known Exploited Vulnerabilities catalog</title>
+		<link>https://securityaffairs.com/191964/security/u-s-cisa-adds-a-flaw-in-berriai-litellm-to-its-known-exploited-vulnerabilities-catalog.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Mon, 11 May 2026 09:14:46 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[BerriAI LiteLLM]]></category>
+		<category><![CDATA[CISA]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Known Exploited Vulnerabilities Catalog]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191964</guid>
+
+					<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in BerriAI LiteLLM to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a flaw in BerriAI LiteLLM, tracked as CVE-2026-42208 (CVSS score of 9.3), to its Known Exploited Vulnerabilities (KEV) catalog. At the end of April, attackers rapidly exploited the critical [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in BerriAI LiteLLM to its Known Exploited Vulnerabilities catalog.</h2>
+
+
+
+<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) <a href="https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog">added</a> a flaw in BerriAI LiteLLM, tracked as <a href="https://www.cve.org/CVERecord?id=CVE-2026-42208">CVE-2026-42208</a> (CVSS score of 9.3), to its <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">Known Exploited Vulnerabilities (KEV) catalog</a>.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>At the end of April, attackers <a href="https://securityaffairs.com/191483/hacking/cve-2026-42208-litellm-bug-exploited-36-hours-after-its-disclosure.html">rapidly exploited</a> the critical vulnerability in <a href="https://github.com/BerriAI/litellm">LiteLLM</a> Python package just days after it became public. The vulnerability, an SQL injection in the proxy API key verification process, lets attackers access and potentially modify database data.</p>
+
+
+
+<p>Instead of safely passing the key as a parameter, it directly inserts the user-supplied value into a database query. This unsafe practice opens the door to SQL injection.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>An attacker doesn’t need valid credentials. By sending a specially crafted Authorization header to an API endpoint (such as&nbsp;<code>/chat/completions</code>), they can manipulate the query executed by the database. Because the request flows through an error-handling path, the malicious input still reaches the vulnerable query.</p>
+
+
+
+<p><em>“A database query used during proxy API key checks mixed the caller-supplied key value into the query text instead of passing it as a separate parameter. An unauthenticated attacker could send a specially crafted&nbsp;<code>Authorization</code>&nbsp;header to any LLM API route (for example&nbsp;<code>POST /chat/completions</code>) and reach this query through the proxy’s error-handling path.”&nbsp;<a href="https://github.com/BerriAI/litellm/security/advisories/GHSA-r75f-5x8p-qvmc">reads the&nbsp;BerriAI’s advisory</a>. “An attacker could read data from the proxy’s database and may be able to modify it, leading to unauthorised access to the proxy and the credentials it manages.”</em></p>
+
+
+
+<p>Researchers observed real-world attacks targeting sensitive information stored in database tables, highlighting how quickly disclosed flaws can turn into active threats.</p>
+
+
+
+<p>The flaw affects LiteLLM versions 1.81.16 to 1.83.6 and was fixed in 1.83.7 on April 19, 2026. The Sysdig Threat Research Team reported that attackers began exploiting it about 36 hours after disclosure.</p>
+
+
+
+<p><em>“The Sysdig Threat Research Team (TRT) observed the first exploitation attempt 36 hours and seven minutes after the advisory was published to the global database.” reads the&nbsp;<a href="https://www.sysdig.com/blog/cve-2026-42208-targeted-sql-injection-against-litellms-authentication-path-discovered-36-hours-following-vulnerability-disclosure">report</a>&nbsp;published by Sysdig. “The traffic the Sysdig TRT captured was not a generic SQLmap spray, which is very common in SQL injection attacks, but a deliberate, and likely customized, enumeration of the production LiteLLM schema, targeting the three tables that hold the highest-value secrets: virtual API keys, stored provider credentials, and the proxy’s environment-variable configuration.</em></p>
+
+
+
+<p>The attacker showed strong knowledge of LiteLLM’s database structure and quickly mapped table schemas, but researchers saw no signs of data theft or further compromise.</p>
+
+
+
+<p><em>“We did not see follow-through, however. There were no authenticated calls using exfiltrated keys, no virtual-key minting via&nbsp;<code>/key/generate</code>, and no chained reuse of provider credentials.” continues the report. “The novelty of this finding is the speed and precision of the schema-enumeration attempt, not a confirmed compromise.”</em></p>
+
+
+
+<p>Sysdig published indicators of compromise for attacks exploiting this vulnerability.</p>
+
+
+
+<p>Users who can’t upgrade their installs are suggested to enable <strong>disable_error_logs: true</strong> in general settings to block the attack path and reduce exposure.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>According to&nbsp;<a href="https://cyber.dhs.gov/bod/22-01/" target="_blank" rel="noreferrer noopener">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a>, FCEB agencies have to address the identified vulnerabilities by the due date to protect their networks against attacks exploiting the flaws in the catalog.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Experts also recommend that private organizations review the&nbsp;<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noreferrer noopener">Catalog</a>&nbsp;and address the vulnerabilities in their infrastructure.</p>
+
+
+
+<p>CISA orders federal agencies to fix the vulnerability by May 11, 2026.</p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, US CISA <a href="https://securityaffairs.com/165513/security/cisa-adds-windows-rejetto-http-file-server-bugs-known-exploited-vulnerabilities-catalog.html">Known Exploited Vulnerabilities catalog</a>)</strong><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191964</post-id>	</item>
+		<item>
+		<title>Instagram removed end-to-end encryption for DMs. What should users do?</title>
+		<link>https://securityaffairs.com/191941/security/instagram-removed-end-to-end-encryption-for-dms-what-should-users-do.html</link>
+		
+		<dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+		<pubDate>Mon, 11 May 2026 07:04:51 +0000</pubDate>
+				<category><![CDATA[Breaking News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[End-to-end Encryption]]></category>
+		<category><![CDATA[Hacking]]></category>
+		<category><![CDATA[hacking news]]></category>
+		<category><![CDATA[information security news]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[IT Information Security]]></category>
+		<category><![CDATA[Pierluigi Paganini]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[Security Affairs]]></category>
+		<category><![CDATA[Security News]]></category>
+		<guid isPermaLink="false">https://securityaffairs.com/?p=191941</guid>
+
+					<description><![CDATA[Instagram removes direct messages (DM) end-to-end encryption May 8, 2026, letting Meta access chats. Users should download backups amid privacy concerns and U.S. law pressure. Starting May 8, 2026, Instagram users who previously enabled end-to-end encryption in direct messages will lose that protection, marking a significant shift in how private conversations are handled on the [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h2 class="wp-block-heading">Instagram removes direct messages (DM) end-to-end encryption May 8, 2026, letting Meta access chats. Users should download backups amid privacy concerns and U.S. law pressure.</h2>
+
+
+
+<p>Starting May 8, 2026, Instagram users who previously enabled end-to-end encryption in direct messages will lose that protection, marking a significant shift in how private conversations are handled on the platform. </p>
+
+
+
+<p><em>&#8220;End-to-end encrypted messaging on Instagram is no longer supported as of 8 May 2026.&#8221; reads the <a href="https://help.instagram.com/491565145294150/?helpref=uf_share&amp;cms_id=491565145294150">announcement</a>.</em></p>
+
+
+
+<ul class="wp-block-list">
+<li><em>If you have chats that are affected by this change, you will see instructions on how you can download any media or messages that you may want to keep.</em><gwmw style="display:none;"></gwmw></li>
+
+
+
+<li><em>If you&#8217;re on an older version of Instagram, you may also need to update the app before you can download your affected chats.</em><gwmw style="display:none;"></gwmw></li>
+</ul>
+
+
+
+<p><em>For Meta&#8217;s other end-to-end encrypted chat options, take a look at <a href="https://www.whatsapp.com/" target="_blank" rel="noreferrer noopener">WhatsApp</a>&#8220;</em></p>
+
+
+
+<p>The change gives Meta the technical ability to access message content that was previously readable only by senders and recipients.</p>
+
+
+
+<p>Users who previously used encrypted chats are being prompted to download their message history before the feature disappears, with in-app guidance provided.</p>
+
+
+
+<p>However, once downloaded, those backups lose protection if uploaded to cloud services such as Google Drive or iCloud, since they would then exist in unencrypted form.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>End-to-end encryption (E2EE) ensures only the sender and recipient can read messages or data. Even the service provider hosting the communication cannot access the content because it is encrypted on the sender’s device and only decrypted on the recipient’s device.</p>
+
+
+
+<p>Instagram introduced optional encrypted messaging in 2023.</p>
+
+
+
+<p>Meta has justified the decision by pointing to low usage and the complexity of maintaining separate messaging systems. Users who previously used encrypted chats are being prompted to download their message history before the feature disappears, with in-app guidance provided. </p>
+
+
+
+<p><em>&#8220;In a statement to The Verge, Meta spokesperson Dina El-Kassaby Luce says the platform is discontinuing the feature because “very few people” were using E2EE in their DMs.&#8221; <a href="https://www.theverge.com/tech/894752/instagram-end-to-end-encryption">reported</a> The Verge.</em></p>
+
+
+
+<p>Experts are unsure what will happen to old encrypted Instagram chats after the change. They may become regular chats or become inaccessible, so users are advised to export and store backups locally instead of in the cloud.</p>
+
+
+
+<p>The timing of the change has drawn attention because it comes just days before the final compliance phase of the U.S. Take It Down Act, a law signed in 2025 requiring platforms to remove non-consensual intimate images, including AI-generated deepfakes, within 48 hours of notification.</p>
+
+
+
+<p><em>&#8220;Platforms cannot remove harmful content they cannot see. The Take It Down Act, signed by President Donald Trump in May 2025, requires companies to remove non-consensual deepfake images within 48 hours of a victim’s report. Enforcing that law requires platforms to have access to content. End-to-end encryption makes that access impossible.&#8221; <a href="https://www.fox32chicago.com/news/meta-can-read-your-instagram-dms-starting-friday-one-step-could-protect-you">reported</a> Fox32 Chicago. &#8220;By removing the feature, Instagram positions itself to comply ahead of the May 19 deadline.&#8221; </em></p>
+
+
+
+<p>The law requires companies to build enforcement systems by May 19, 2026. While Meta has not explicitly linked the two developments, analysts note that removing encryption makes it easier for platforms to detect and moderate harmful content at scale.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>For Instagram users affected by the change, the immediate recommendation is simple: download any encrypted chat history before May 8. After that date, the option may disappear entirely.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Security experts also emphasize avoiding cloud backups for exported messages if privacy is the goal. Local storage is considered safer, though still dependent on device security.</p>
+
+
+
+<p>More broadly, the shift highlights a recurring tension in large social platforms: balancing regulatory compliance, safety moderation, and user privacy. As governments push for faster removal of harmful content online, encryption continues to be a central point of conflict.</p>
+
+
+
+<p><strong>Follow me on Twitter: </strong><a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a><strong> and </strong><a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a><strong> and </strong><a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a><strong></strong></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> – hacking, Instagram)</strong></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">191941</post-id>	</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Object Caching 46/56 objects using Memcached
+Page Caching using Memcached (Page is feed) 
+Database Caching 1/25 queries in 0.020 seconds using Memcached (Request-wide modification query)
+
+Served from: securityaffairs.com @ 2026-05-13 06:07:27 by W3 Total Cache
+-->

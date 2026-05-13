@@ -1462,6 +1462,16 @@ RESPONSE:
                 t for t in by_field.get('ttps', [])
                 if t and not re.match(r'^(https?://|//)', t.strip())
             ]
+
+            def format_descriptive_text(text: str) -> str:
+                cleaned = (text or '').strip()
+                if not cleaned:
+                    return ''
+                parts = [part.strip() for part in re.split(r'\s*\|\s*', cleaned) if part.strip()]
+                if len(parts) <= 1:
+                    return cleaned
+                return f"{parts[0]} - {'; '.join(parts[1:])}"
+
             if tactic_items or technique_items or ttps_items:
                 summary_parts.append("\n**Techniques & Tactics**\n")
                 if tactic_items:
@@ -1469,7 +1479,7 @@ RESPONSE:
                     summary_parts.append("- **Tactics:** " + ', '.join(tactic_items[:12]) + f"{cites}\n")
                 if technique_items:
                     cites = self._format_citations(self._citation_ids_for_chunks(by_field_chunks.get('techniques_used', []), source_index))
-                    summary_parts.append("- **MITRE Techniques:** " + ', '.join(technique_items[:8]) + f"{cites}\n")
+                    summary_parts.append("- **MITRE Techniques:** " + ', '.join(format_descriptive_text(item) for item in technique_items[:8]) + f"{cites}\n")
                 if ttps_items:
                     cites = self._format_citations(self._citation_ids_for_chunks(by_field_chunks.get('ttps', []), source_index))
                     summary_parts.append("- **Techniques / TTPs:** " + ', '.join(ttps_items[:12]) + f"{cites}\n")
@@ -1480,7 +1490,7 @@ RESPONSE:
                     summary_parts.append("- **Tools & Malware:** " + ', '.join(tools[:12]) + f"{cites}\n")
                 if software_used:
                     cites = self._format_citations(self._citation_ids_for_chunks(by_field_chunks.get('software_used', []), source_index))
-                    summary_parts.append("- **Software Details:** " + ', '.join(software_used[:6]) + f"{cites}\n")
+                    summary_parts.append("- **Software Details:** " + ', '.join(format_descriptive_text(item) for item in software_used[:6]) + f"{cites}\n")
                 if ttps_items:
                     cites = self._format_citations(self._citation_ids_for_chunks(by_field_chunks.get('ttps', []), source_index))
                     summary_parts.append("- **TTPs:** " + ', '.join(ttps_items[:12]) + f"{cites}\n")

@@ -1,0 +1,1824 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Marco Ramilli</title>
+	<atom:link href="https://marcoramilli.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://marcoramilli.com</link>
+	<description></description>
+	<lastBuildDate>Tue, 29 Oct 2024 09:57:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://marcoramilli.com/wp-content/uploads/2024/09/cropped-logoRamilli-32x32.png</url>
+	<title>Marco Ramilli</title>
+	<link>https://marcoramilli.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>i-SOON Data Leak: Key Points</title>
+		<link>https://marcoramilli.com/i-soon-data-leak-key-points/</link>
+					<comments>https://marcoramilli.com/i-soon-data-leak-key-points/#respond</comments>
+		
+		<dc:creator><![CDATA[Marco Ramilli]]></dc:creator>
+		<pubDate>Mon, 26 Feb 2024 08:18:14 +0000</pubDate>
+				<category><![CDATA[Attack]]></category>
+		<category><![CDATA[apt]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<guid isPermaLink="false">https://marcoramilli.com/i-soon-data-leak-key-points/</guid>
+
+					<description><![CDATA[Introduction i-SOON (上海安洵), a prominent contractor for various Chinese government agencies such [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h3 class="wp-block-heading">Introduction</h3>
+
+
+
+<p>i-SOON (上海安洵), a prominent contractor for various Chinese government agencies such as the Ministry of Public Security, Ministry of State Security, and People’s Liberation Army, experienced a significant data breach during the weekend of Feb 16th. The breach has shed light on the internal workings of a state-affiliated hacking contractor, although the source and motivations behind the leak remain undisclosed. Verification of the leaked documents is ongoing, yet they corroborate existing public threat intelligence.</p>
+
+
+
+<p>This breach offers unprecedented insight into China's evolving cyber espionage landscape, showcasing how governmental directives drive a competitive market of independent hackers-for-hire. Despite concerns over low employee compensation and reports of office gambling, i-SOON's operations appear linked to compromises affecting at least 14 governments, pro-democracy groups in Hong Kong, universities, and NATO.</p>
+
+
+
+<p>The leaked documents unveil client lists and targeted entities, highlighting i-SOON's pursuit of low-value hacking contracts across multiple government agencies. This revelation challenges assumptions based on historical targeting by Advanced Persistent Threats associated with Chinese contractors.</p>
+
+
+
+<p>Utilizing machine translation, analysts swiftly analyzed the leaked data, democratizing access beyond specialized experts. However, understanding the nuanced relationships within the data demands domain expertise. While geographically-focused analysis remains invaluable, the lowered entry barrier enables broader scrutiny of complex patterns and relationships.</p>
+
+
+
+<p>In conclusion, the i-SOON data leak not only exposes the intricacies of state-affiliated cyber operations but also underscores the evolving landscape of cybersecurity intelligence analysis.</p>
+
+
+
+<h3 class="wp-block-heading">My Keypoints</h3>
+
+
+
+<ol class="wp-block-list">
+<li>Original Repository: <a href="https://github.com/I-S00N/I-S00N" target="_blank" rel="noopener">HERE</a></li>
+
+
+
+<li>Translated Version: <a href="https://github.com/mttaggart/I-S00N/" target="_blank" rel="noopener">HERE</a> (internal chats, business pitches, documentation on tools, products and process)</li>
+
+
+
+<li>The i-SOON data contains various files, some of which seem to be documentation or technical business proposals outlining a wide array of products with diverse capabilities. Among these are:
+<ul class="wp-block-list">
+<li>Malware tailored for operating systems such as Windows, macOS, Linux, iOS, and Android.</li>
+
+
+
+<li>A platform designed for the collection and analysis of email data.</li>
+
+
+
+<li>A tool intended for hacking into Outlook accounts.</li>
+
+
+
+<li>A platform for monitoring activity on Twitter.</li>
+
+
+
+<li>A reconnaissance platform utilizing OSINT (Open-Source Intelligence) data.</li>
+
+
+
+<li>Physical hardware devices intended for on-premises hacking, often targeting WiFi networks.</li>
+
+
+
+<li>Communication equipment utilizing a network similar to Tor, aimed at facilitating secure communication for agents operating internationally.</li>
+</ul>
+</li>
+
+
+
+<li>The leaked information looks like to include multiple target lists (<a href="https://github.com/mttaggart/I-S00N/blob/main/0/01cdc26f-e773-4ad7-8808-d04abf16aae7_1_0.png" target="_blank" rel="noopener">HERE</a> and <a href="https://github.com/mttaggart/I-S00N/blob/main/0/01cdc26f-e773-4ad7-8808-d04abf16aae7_2_0.png" target="_blank" rel="noopener">HERE</a>), encompassing several governments such as Pakistan, India, Malaysia, Turkey, Egypt, France, Cambodia, Indonesia, Vietnam, Myanmar, the Philippines, and Afghanistan. Additionally, targets include NATO, universities, and the pro-democracy movement in Hong Kong.</li>
+
+
+
+<li>i-SOON looks like to be connected to APT41</li>
+</ol>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2024-02-26-alle-09.49.28-1024x663.png" alt="" class="wp-image-20076"/><figcaption class="wp-element-caption">From i-SOON leak via <a href="https://blog.bushidotoken.net/2024/02/lessons-from-isoon-leaks.html" target="_blank" rel="noopener">BushidoToken</a></figcaption></figure>
+</div>
+
+
+<h3 class="wp-block-heading">Interesting i-SOON Overlaps</h3>
+
+
+
+<p>According to Bushidotokens (<a href="https://blog.bushidotoken.net/2024/02/lessons-from-isoon-leaks.html" target="_blank" rel="noopener">HERE</a>) the data leak includes several overlaps and connections to known threat actors already been discovered and analyzed in the past years. </p>
+
+
+
+<p>One connection was with the threat group POISON CARP, identified through an IP address (74.120.172[.]10) hosting a phishing site (mailnotes[.]online). This site was cited in CitizenLab's <a href="https://citizenlab.ca/2019/09/poison-carp-tibetan-groups-targeted-with-1-click-mobile-exploits/" target="_blank" rel="noopener">report</a> on Tibetan groups targeted with mobile exploits, aligning with Chinese MPS operations supported by i-SOON.</p>
+
+
+
+<p>Another connection emerged in Chinese court documents linking i-SOON to Chengdu 404, a commercial spying firm, after a <a href="https://nattothoughts.substack.com/p/i-soon-another-company-in-the-apt41" target="_blank" rel="noopener">dispute over intellectual property</a>.</p>
+
+
+
+<p>Additionally, a link to the APT group JACKPOT PANDA was found via an IP address (8.218.67[.]52) from the leak, referenced in Trend Micro's <a href="https://www.trendmicro.com/en_sg/research/22/l/probing-weaponized-chat-applications-abused-in-supply-chain-atta.html" target="_blank" rel="noopener">report</a> on chat applications used in supply-chain attacks. This aligns with i-SOON's focus on targeting the online gambling industry.</p>
+
+
+
+<p>Further investigation revealed ties to ShadowPad and Winnti malware families, referenced in i-SOON's product whitepapers and the US Justice Department's indictment of <a href="https://www.justice.gov/opa/pr/seven-international-cyber-defendants-including-apt41-actors-charged-connection-computer" target="_blank" rel="noopener">APT41</a> and Chengdu404. These malware families have been associated with various Chinese cyber-espionage campaigns. </p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2024-02-26-alle-10.04.56-1024x500.png" alt="" class="wp-image-20082"/><figcaption class="wp-element-caption">i-SOON overlaps Map from <a href="https://blog.bushidotoken.net/2024/02/lessons-from-isoon-leaks.html" target="_blank" rel="noopener">BushidoToken</a></figcaption></figure>
+
+
+
+<p>NB: AI Tools has been used to build fluent English and section translations.</p>
+
+
+
+<h3 class="wp-block-heading">Great Resources</h3>
+
+
+
+<p>SentinelLabs Blog Post: <a href="https://www.sentinelone.com/labs/unmasking-i-soon-the-leak-that-revealed-chinas-cyber-operations/?ref=marcoramilli.com">Unmasking I-Soon | The Leak That Revealed China’s Cyber Operations</a><br>Unit42 Blog Post:  <a href="https://unit42.paloaltonetworks.com/i-soon-data-leaks/?ref=marcoramilli.com">Data From Chinese Security Services Company i-Soon Linked to Previous Chinese APT Campaigns</a><br>BushidoToken Blog Post: <a href="https://blog.bushidotoken.net/2024/02/lessons-from-isoon-leaks.html" target="_blank" rel="noopener">Lessons from the iSOON Leaks</a><br>Suggested Reading, it provides much broader view (including geo-political and International Affairs considerations): <a href="https://news.risky.biz/risky-biz-briefing-the-i-soon-data-leak/?ref=marcoramilli.com">The i-SOON Data Leak</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://marcoramilli.com/i-soon-data-leak-key-points/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>X Gold Badges: a new proliferating market</title>
+		<link>https://marcoramilli.com/x-gold-badges-a-new-proliferating-market/</link>
+					<comments>https://marcoramilli.com/x-gold-badges-a-new-proliferating-market/#respond</comments>
+		
+		<dc:creator><![CDATA[Marco Ramilli]]></dc:creator>
+		<pubDate>Mon, 08 Jan 2024 07:54:24 +0000</pubDate>
+				<category><![CDATA[Attack]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[CyberTools]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[cybertools]]></category>
+		<guid isPermaLink="false">https://marcoramilli.com/x-gold-badges-a-new-proliferating-market/</guid>
+
+					<description><![CDATA[When I saw a threat actor hijacking the X account of Google's [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>When I saw a threat actor hijacking the X account of Google's Mandiant division and promoting a cryptocurrency scam I suddenly became curious about this new prominent trend. Indeed this attack was just one of many happened during the past few weeks (<a href="https://dailycoin.com/hacker-cracks-certiks-twitter-account-shares-phishing-link/" target="_blank" rel="noopener">HERE</a>).</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2024-01-08-alle-09.00.52.png" alt="" class="wp-image-15296" style="width:323px;height:auto"/></figure>
+</div>
+
+
+<h3 class="wp-block-heading">A new black market trend</h3>
+
+
+
+<p>Establishing a presence on a prominent social media platform, formerly recognized as Twitter (now referred to as X), is pivotal for cultivating brand identity and visibility. The influence wielded by a tweet bearing the coveted blue checkmark is widely acknowledged. Initially tied to a stringent verification process, these badges underwent a transformation following Elon Musk's acquisition of Twitter, allowing them to be openly purchased.</p>
+
+
+
+<p>Presently, the landscape has evolved, with Twitter introducing a range of paid features. Entities can not only procure the standard blue checkmark but can also elevate their status with the 'Gold' tag for organizations and the 'Grey' designation for NGOs and government bodies. This trio of distinctions (blue, gold, and grey) is accessible through a monthly subscription model.</p>
+
+
+
+<p>In the shadowy realms of dark web forums and marketplaces, a specialized section closely monitors activities related to social media transactions. Recent observations reveal a surge in postings within these domains, where threat actors are actively peddling accounts boasting Twitter Gold verification. Intriguingly, parallel advertisements have surfaced on Telegram channels, indicating a widespread proliferation of nefarious schemes that hinge upon the possession of a Twitter Gold account. This burgeoning trend demands vigilant attention to preempt potential malicious campaigns.</p>
+
+
+
+<p>According with CloudSEK report (<a href="https://www.cloudsek.com/whitepapers-reports/gold-rush-on-the-dark-web-threat-actors-target-x-twitter-gold-accounts" target="_blank" rel="noopener">HERE</a>) the prices may varies in range depending of the sold social media, the "badge level" and the number of followers.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2024-01-08-alle-09.15.12-1024x407.png" alt="" class="wp-image-15299"/><figcaption class="wp-element-caption">From CloudSEK Report (<a href="https://www.cloudsek.com/whitepapers-reports/gold-rush-on-the-dark-web-threat-actors-target-x-twitter-gold-accounts" target="_blank" rel="noopener">HERE</a>)</figcaption></figure>
+
+
+
+<p>Various threat actors operating across both the visible and obscured layers of the internet have asserted claims related to the acquisition of Twitter Gold accounts. Noteworthy instances include:</p>
+
+
+
+<p>One actor disclosed to our informant an offering of 15 dormant accounts on a weekly basis, to be subsequently upgraded to gold subscriptions by the buyer. This equates to over 720 accounts annually, each priced at USD 35, accumulating to slightly over USD 500 for 15 corporate and inactive Twitter accounts.</p>
+
+
+
+<p>Additional advertisements explicitly listed the companies available for purchase. Depending on the brand and followers associated with these accounts, those adorned with a gold badge were priced between USD 1200 and USD 2000.</p>
+
+
+
+<p>Facilitating these transactions is a middleman, responsible for verifying the authenticity of the accounts from sellers and ensuring the transfer of funds from the buyer.</p>
+
+
+
+<p>Sellers also provide the option to boost the followers of the purchased accounts, offering an increase ranging from 30,000 to 50,000 followers for as low as USD 135.</p>
+
+
+
+<p>Buyers are afforded the ability to add multiple affiliates free of charge. However, after surpassing a specified number of affiliates linked to an existing gold account for X, the purchaser is obligated to pay USD 50 per affiliate. This stipulation indicates that the sub-account is intricately associated or affiliated with the primary Gold account of X.</p>
+
+
+
+<h3 class="wp-block-heading">Used Techniques</h3>
+
+
+
+<p>The attacker use the following techniques in oder to provide the access to social media:</p>
+
+
+
+<p>1- <strong>Advertisers</strong>, often individuals, manually generate accounts, undergo the verification process, and present them as 'ready to use' for their clientele. This method is particularly attractive to individuals with criminal intent seeking a pseudo-identity while avoiding direct attribution to their actions.</p>
+
+
+
+<p>2- <strong>Cybercriminals</strong> employ brute force tactics on existing accounts, utilizing generic username and password combinations from readily available lists. Cybercrime forums offer an array of tools and pre-configured setups for free. Prominent tools in this category include <span style="text-decoration: underline;">Open Bullet, SilverBullet, and SentryMBA</span>.</p>
+
+
+
+<p>3- <strong>Malware</strong> specializing in information theft operates within a centralized<strong> botnet network</strong>. This malware extracts credentials from compromised devices, and the harvested data is subsequently validated based on the buyers' specifications. These criteria may include the nature of the account (individual or corporate), the number of followers, region-specific accounts, and more.</p>
+
+
+
+<h3 class="wp-block-heading">Sentry MBA</h3>
+
+
+
+<p>Now let's take a closer look to Sentry MBA one of the most used tool to (brute) force Accounts. </p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2024-01-08-alle-09.27.58-1024x550.png" alt="" class="wp-image-15305"/><figcaption class="wp-element-caption">SentryMBA v1.5.0</figcaption></figure>
+
+
+
+<p>Sentry MBA stands out as an automated tool wielded by cyber adversaries to seize control of user accounts across major websites. Its utilization allows criminals to efficiently assess the validity of millions of usernames and passwords on a specific target platform. This tool has gained notable traction, evidenced by the Shape Security research team encountering Sentry MBA attack attempts on nearly every website under their protection.</p>
+
+
+
+<p>Unlike historical practices where cybercriminals needed a mastery of intricate web technologies for online attacks, Sentry MBA streamlines the process with its point-and-click graphical user interface. This accessibility, coupled with online support forums and thriving underground marketplaces, has democratized cybercrime, enabling a broader spectrum of individuals to partake without requiring advanced technical skills, specialized equipment, or insider knowledge.</p>
+
+
+
+<p>Sentry MBA incorporates sophisticated features that circumvent common web application defenses. For instance, it can overcome preventative controls, such as IP blacklists or rate limiting, by leveraging proxies to distribute the attack across numerous IP addresses. Additionally, it can evade detective controls, like referrer checks, by manipulating the "referer" header value. Central to Sentry MBA attacks are "combo" lists, which comprise usernames and passwords.</p>
+
+
+
+<p>The tool exploits the widespread practice of password reuse among internet users. If the combo list contains credentials previously valid on other platforms due to breaches or phishing techniques, the attack is termed "credential stuffing." This approach persists as a prevalent threat, as highlighted by Verizon's 2015 data breach report, which identifies stolen credentials as the most common attack action against web applications.</p>
+
+
+
+<p>Credential stuffing attacks pose a formidable challenge to mitigation efforts, primarily because they target online user interface elements, such as login pages, inherently open to all internet traffic. In a notable case, cybercriminals utilizing Sentry MBA targeted the stored-value card program of a major retail corporation, with automation accounting for over 91% of the traffic on the company's login page. Despite the implementation of established best practices for online security, the corporation incurred online fraud losses exceeding $25 million annually.</p>
+
+
+
+<h3 class="wp-block-heading">Anatomy of a Sentry MBA Attack </h3>
+
+
+
+<p>1<strong>. Targeting and Attack Refinement</strong></p>
+
+
+
+<p>The initiation of a Sentry MBA attack involves configuring the tool to understand the intricacies of the target's login page. A dedicated "config" file encompasses essential elements such as the login page URL, field markers for form navigation, and rules for valid password constructions. Working configurations for various websites are readily available on forums dedicated to such activities. Once armed with a basic working configuration, attackers leverage Sentry MBA tools to optimize and test the attack setup against the live target website. This includes configuring the tool to recognize keywords associated with the website's responses to login attempts, defeating CAPTCHA challenges through optical character recognition or a database of possible CAPTCHA images and answers.</p>
+
+
+
+<p><strong>2. Automated Account Checking</strong></p>
+
+
+
+<p>Optimized site configurations pave the way for automated account checking. Attackers only need to introduce their "combo" file (comprising usernames and passwords) and a "proxy" file to Sentry MBA to initiate the assault. Combo files can be acquired from various sources on the Darknet and open web, offering lists of stolen usernames and passwords. Proxy files, which consist of computers used by Sentry MBA to mask the attack's origin, are also readily available. Proxies play a pivotal role in undermining common application defense strategies such as IP reputation filtering and rate limiting. Compromised computers used as proxies constantly change, rendering IP blacklists ineffective. Proxies also thwart rate limiting defenses by making login attempts appear to originate from a multitude of different computers.</p>
+
+
+
+<p><strong>3. Monetization</strong></p>
+
+
+
+<p>Upon obtaining working credentials, cybercriminals seek ways to monetize their success. One prevalent strategy involves transferring stored-value gift card balances from compromised accounts to cards controlled by the cybercriminal. Platforms like giift.com, giftcardzen.com, and cardpool.com facilitate the conversion of fraudulent cards into cash or merchandise, providing an avenue for illicit financial gain.</p>
+
+
+
+<p>In essence, Sentry MBA orchestrates a well-coordinated attack by refining configurations, automating account checking with combo files and proxies, and ultimately enabling cybercriminals to profit from the compromised credentials. This nuanced process underscores the sophisticated nature of credential stuffing attacks and emphasizes the need for robust security measures to counteract these threats.</p>
+
+
+
+<h3 class="wp-block-heading">Conclusion</h3>
+
+
+
+<p><br>In conclusion, the ever-evolving landscape of cyber threats necessitates an ongoing commitment to understanding and countering the strategies employed by attackers. The present era witnesses the emergence of a concerning trend: the proliferation of a new dark market phenomenon. This phenomenon strategically capitalizes on the introduction of payment badges a year ago, serving as a deceptive lure for unsuspecting users. The subtlety of these tactics underscores the need for heightened awareness and proactive cybersecurity measures.</p>
+
+
+
+<p>Simultaneously, the realm of cybercrime is witnessing a significant surge in the adoption of automation tools and techniques. This development catapults cybercriminals to a new echelon of sophistication, enabling them to efficiently target a massive number of victims. The intersection of these trends underscores the dynamic nature of the cybersecurity landscape, where adversaries continually adapt and refine their methods.</p>
+
+
+
+<p>In response, the cybersecurity community must remain vigilant, leveraging advanced technologies and collaborative efforts to stay ahead of evolving threats. By fostering a proactive and adaptive approach, we can collectively fortify our defenses and mitigate the impact of these sophisticated cyber challenges on individuals, organizations, and the digital ecosystem at large.</p>
+
+
+
+<p>But being a target does not means be a victim, stay tuned and stay informed. <br>If you want to know more about Cyber Threat Intelligence, you may decide to subscribe <a href="https://marcoramilli.com/cyber-threat-intelligence-feeds/">HERE</a>.</p>
+
+
+
+<p>For this post I did used the power of AI adapt my text in a better English format.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://marcoramilli.com/x-gold-badges-a-new-proliferating-market/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Technical Data Sheet: LOCKBIT 3.0</title>
+		<link>https://marcoramilli.com/technical-data-sheet-lockbit-3-0/</link>
+					<comments>https://marcoramilli.com/technical-data-sheet-lockbit-3-0/#respond</comments>
+		
+		<dc:creator><![CDATA[Marco Ramilli]]></dc:creator>
+		<pubDate>Wed, 20 Dec 2023 05:28:21 +0000</pubDate>
+				<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Targeted Attacks]]></category>
+		<guid isPermaLink="false">https://marcoramilli.com/technical-data-sheet-lockbit-3-0/</guid>
+
+					<description><![CDATA[LOCKBIT 3.0 is a notorious Ransomware Group that was first identified on [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>LOCKBIT 3.0 is a notorious Ransomware Group that was first identified on 09 Dec, 2022. Operating with various aliases and suspected to be involved in a range of cyber activities, this group poses a significant threat in the cybersecurity landscape.</p>
+
+
+
+<p>Further monitoring tasks and for having more analyses on the cyber threat panorama, consider to subscribe to personal <a href="https://marcoramilli.com/cyber-threat-intelligence-feeds/">Cyber  Intelligence Feeds</a> .</p>
+
+
+
+<section>
+        <h2>Basic Info</h2>
+        <ul>
+            <li><strong>Name:</strong> LOCKBIT 3.0</li>
+            <li><strong>Aliases:</strong> -</li>
+            <li><strong>First seen:</strong> 09 Dec, 2022</li>
+            <li><strong>Suspected aliases:</strong> -</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Engagements</h2>
+        <ul>
+            <li><strong>Active Channels:</strong></li>
+            <li>lockbitapt6vx57t3eeqj - REDACTED - nygvokja5uuccip4ykyd.onion</li>
+            <li>lockbitapt2d73krlbewgv27tqul - REDACTED - 6rkyieto7u4ncead.onion</li>
+            <li>lockbitapt2yfbt7lchxejug47kmqvqqxvvjpqkmevv4l3azl3gy6pyd.onion</li>
+            <li>pa32ymaeu62yo5th5mrai - REDACTED - 2carjliarodltmqcqd.onion</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Targets</h2>
+        <div>
+            <h3>COUNTRY</h3>
+            <ul>
+                <li>Argentina</li>
+                <li>Australia</li>
+                <li>Austria</li>
+                <li>Barbados</li>
+                <li>Belgium</li>
+                <li>Brazil</li>
+                <li>Bulgaria</li>
+                <li>Canada</li>
+                <li>Chile</li>
+                <li>China</li>
+                <li>Colombia</li>
+                <li>Cyprus</li>
+                <li>Czech Republic</li>
+                <li>Ecuador</li>
+                <li>Egypt</li>
+                <li>Fiji</li>
+                <li>Finland</li>
+                <li>France</li>
+                <li>Germany</li>
+                <li>Greece</li>
+                <li>Guatemala</li>
+                <li>Haiti</li>
+                <li>Iceland</li>
+                <li>India</li>
+                <li>Indonesia</li>
+                <li>Iran</li>
+                <li>Israel</li>
+                <li>Italy</li>
+                <li>Jamaica</li>
+                <li>Japan</li>
+                <li>Jordan</li>
+                <li>Kuwait</li>
+                <li>Lebanon</li>
+                <li>Luxembourg</li>
+                <li>Malaysia</li>
+                <li>Mexico</li>
+                <li>Monaco</li>
+                <li>Myanmar</li>
+                <li>Namibia</li>
+                <li>Netherlands</li>
+                <li>Nicaragua</li>
+                <li>Norway</li>
+                <li>Oman</li>
+                <li>Pakistan</li>
+                <li>Panama</li>
+                <li>Paraguay</li>
+                <li>Peru</li>
+                <li>Philippines</li>
+                <li>Portugal</li>
+                <li>Qatar</li>
+                <li>Saudi Arabia</li>
+                <li>Senegal</li>
+                <li>Singapore</li>
+                <li>South Africa</li>
+                <li>South Korea</li>
+                <li>Spain</li>
+                <li>Sweden</li>
+                <li>Switzerland</li>
+                <li>Taiwan</li>
+                <li>Thailand</li>
+                <li>Trinidad and Tobago</li>
+                <li>Tunisia</li>
+                <li>Turkey</li>
+                <li>UAE</li>
+                <li>UK</li>
+                <li>USA</li>
+                <li>United States</li>
+                <li>Uruguay</li>
+                <li>Vietnam</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>INDUSTRY</h3>
+            <ul>
+                <li>Accounting</li>
+                <li>Agriculture & Farming</li>
+                <li>Airlines & Aviation</li>
+                <li>Architecture & Planning</li>
+                <li>Arts & Crafts</li>
+                <li>Automotive</li>
+                <li>Aviation & Aerospace</li>
+                <li>Banking & Mortgage</li>
+                <li>Biotechnology</li>
+                <li>Broadcast Media</li>
+                <li>Building and construction</li>
+                <li>Business Supplies & Equipment</li>
+                <li>Chemical Manufacturing</li>
+                <li>Chemicals</li>
+                <li>Civic & Social Organization</li>
+                <li>Civil Engineering</li>
+                <li>Computer & Network Security</li>
+                <li>Computer Hardware</li>
+                <li>Computer Software/Engineering</li>
+                <li>Consumer Electronics</li>
+                <li>Consumer Goods</li>
+                <li>Consumer Services</li>
+                <li>Dairy</li>
+                <li>Design</li>
+                <li>E-commerce & Online Stores</li>
+                <li>Education</li>
+                <li>Electrical & Electronic Manufacturing</li>
+                <li>Energy & Utilities</li>
+                <li>Environmental Services</li>
+                <li>Events Services</li>
+                <li>Executive Office</li>
+                <li>Facilities Services</li>
+                <li>Farming</li>
+                <li>Fashion & Apparel</li>
+                <li>Financial Services</li>
+                <li>Food & Beverages</li>
+                <li>Food Production</li>
+                <li>Furniture</li>
+                <li>Government & Public Sector</li>
+                <li>Government Administration</li>
+                <li>Government Relations</li>
+                <li>Health & Fitness</li>
+                <li>Healthcare & Pharmaceuticals</li>
+                <li>Higher Education/Acadamia</li>
+                <li>Hospital & Health Care</li>
+                <li>Hospitality & Tourism</li>
+                <li>Import & Export</li>
+                <li>Individual & Family Services</li>
+                <li>Industrial Automation</li>
+                <li>Information Services</li>
+                <li>Information Technology (IT) Services</li>
+                <li>Insurance</li>
+                <li>Investment Management, Hedge Fund & Private Equity</li>
+                <li>Judiciary</li>
+                <li>Law Enforcement</li>
+                <li>Law Practice & Law Firms</li>
+                <li>Legal Services</li>
+                <li>Legislative Office</li>
+                <li>Leisure & Travel</li>
+                <li>Luxury Goods & Jewelry</li>
+                <li>Machinery</li>
+                <li>Machinery Manufacturing</li>
+                <li>Management Consulting</li>
+                <li>Manufacturing</li>
+                <li>Manufacturing & Industrial Products</li>
+                <li>Maritime</li>
+                <li>Marketing, Advertising & Sales</li>
+                <li>Mechanical or Industrial Engineering</li>
+                <li>Medical Equipment Manufacturing</li>
+                <li>Medical Practice</li>
+                <li>Mental Health Care</li>
+                <li>Mining/Metals</li>
+                <li>Museums & Institutions</li>
+                <li>Music</li>
+                <li>Nanotechnology</li>
+                <li>Network & Telecommunications</li>
+                <li>Non-profit & Social Organizations</li>
+                <li>Non-profit Organizations</li>
+                <li>Oil & Gas</li>
+                <li>Other</li>
+                <li>Outsourcing & Offshoring</li>
+                <li>Package & Freight Delivery</li>
+                <li>Packaging & Containers</li>
+                <li>Paper & Forest Products</li>
+                <li>Photography</li>
+                <li>Plastics</li>
+                <li>Political Organization</li>
+                <li>Printing</li>
+                <li>Professional Services</li>
+                <li>Public Safety</li>
+                <li>Publishing Industry</li>
+                <li>Real Estate</li>
+                <li>Real Estate & Property Management</li>
+                <li>Religious Institutions</li>
+                <li>Research Industry</li>
+                <li>Restaurants</li>
+                <li>Retail Industry</li>
+                <li>Security & Investigations</li>
+                <li>Semiconductors</li>
+                <li>Software Development</li>
+                <li>Sporting Goods</li>
+                <li>Sports</li>
+                <li>Textiles</li>
+                <li>Think Tanks</li>
+                <li>Transportation & Logistics</li>
+                <li>Warehousing</li>
+                <li>Wholesale</li>
+            </ul>
+        </div>
+    </section>
+
+
+
+<p>(AI-Powered)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://marcoramilli.com/technical-data-sheet-lockbit-3-0/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Technical Data Sheet: NoName057(16)</title>
+		<link>https://marcoramilli.com/technical-data-sheet-noname05716/</link>
+					<comments>https://marcoramilli.com/technical-data-sheet-noname05716/#respond</comments>
+		
+		<dc:creator><![CDATA[Marco Ramilli]]></dc:creator>
+		<pubDate>Fri, 15 Dec 2023 12:46:25 +0000</pubDate>
+				<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[cybercrime]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<guid isPermaLink="false">https://marcoramilli.com/technical-data-sheet-noname05716/</guid>
+
+					<description><![CDATA[NoName057(16) is a notorious hacktivist group with a primary focus on targeting [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>NoName057(16) is a notorious hacktivist group with a primary focus on targeting 8-10 victims daily. Operating on a global scale, this group engages in cyber activities to promote its ideological agenda.</p>
+
+
+
+<p>Further monitoring tasks and for having more analyses on the cyber threat panorama, consider to subscribe to personal <a href="https://marcoramilli.com/cyber-threat-intelligence-feeds/">Cyber  Intelligence Feeds</a> .</p>
+
+
+
+<p>(AI-Powered)</p>
+
+
+
+<div>
+  <h2>Category</h2>
+  <ul>
+    <li>Hacktivists</li>
+    <li>Payment Exchange</li>
+  </ul>
+</div>
+
+<div>
+  <h2>Engagements</h2>
+  <p>NoName057(16) is actively involved in various channels and portals to carry out its operations.</p>
+  <h3>Active Channels</h3>
+  <ol>
+    <li>://t.me/nonamREDACTED</li>
+    <li>://t.me/nonREDACTED6engchat</li>
+    <li>://t.me/nonamREDACTEDng</li>
+    <li>://t.me/c/12REDACTED110</li>
+    <li>://t.me/REDACTEDCC</li>
+  </ol>
+</div>
+
+<div>
+  <h2>Targets</h2>
+  <h3>Countries</h3>
+  <ul>
+    <li>Albania</li>
+    <li>Australia</li>
+    <li>Austria</li>
+    <li>Belgium</li>
+    <li>Bulgaria</li>
+    <li>Canada</li>
+    <li>Croatia</li>
+    <li>Czech Republic</li>
+    <li>Denmark</li>
+    <li>Estonia</li>
+    <li>Finland</li>
+    <li>France</li>
+    <li>Germany</li>
+    <li>Greece</li>
+    <li>India</li>
+    <li>Ireland</li>
+    <li>Italy</li>
+    <li>Latvia</li>
+    <li>Lithuania</li>
+    <li>Luxembourg</li>
+    <li>Malta</li>
+    <li>Netherlands</li>
+    <li>New Zealand</li>
+    <li>Norway</li>
+    <li>Poland</li>
+    <li>Portugal</li>
+    <li>Romania</li>
+    <li>Slovakia</li>
+    <li>Slovenia</li>
+    <li>Spain</li>
+    <li>Sweden</li>
+    <li>Switzerland</li>
+    <li>UK</li>
+    <li>USA</li>
+    <li>Ukraine</li>
+  </ul>
+  <h3>Industries</h3>
+  <p>NoName057(16) targets a wide array of industries, including but not limited to:</p>
+  <ul>
+    <li>Airlines & Aviation</li>
+    <li>Automotive</li>
+    <li>Aviation & Aerospace</li>
+    <li>Banking & Mortgage</li>
+    <li>Broadcast Media</li>
+    <li>Building and Construction</li>
+    <li>Business and Economic Development</li>
+    <li>Capital Markets/Hedge Fund/Private Equity</li>
+    <li>Civic & Social Organization</li>
+    <li>Civil Engineering</li>
+    <li>Computer & Network Security</li>
+    <li>Consumer Services</li>
+    <li>Defense & Space</li>
+    <li>E-commerce & Online Stores</li>
+    <li>Education</li>
+    <li>Electrical & Electronic Manufacturing</li>
+    <li>Energy & Utilities</li>
+    <li>Entertainment & Movie Production</li>
+    <li>Environmental Services</li>
+    <li>Events Services</li>
+    <li>Executive Office</li>
+    <li>Facilities Services</li>
+    <li>Farming</li>
+    <li>Financial Services</li>
+    <li>Fishery</li>
+    <li>Government & Public Sector</li>
+    <li>Government Administration</li>
+    <li>Government Relations</li>
+    <li>Higher Education/Academia</li>
+    <li>Hospital & Health Care</li>
+    <li>Hospitality & Tourism</li>
+    <li>Information Services</li>
+    <li>Information Technology (IT) Services</li>
+    <li>Insurance</li>
+    <li>International Affairs</li>
+    <li>International Trade & Development</li>
+    <li>Investment Management, Hedge Fund & Private Equity</li>
+    <li>Judiciary</li>
+    <li>Law Enforcement</li>
+    <li>Legislative Office</li>
+    <li>Leisure & Travel</li>
+    <li>Machinery Manufacturing</li>
+    <li>Management Consulting</li>
+    <li>Manufacturing</li>
+    <li>Manufacturing & Industrial Products</li>
+    <li>Maritime</li>
+    <li>Media Production</li>
+    <li>Military Industry</li>
+    <li>Mining/Metals</li>
+    <li>Network & Telecommunications</li>
+    <li>Newspapers & Journalism</li>
+    <li>Non-profit & Social Organizations</li>
+    <li>Oil & Gas</li>
+    <li>Online Publishing</li>
+    <li>Package & Freight Delivery</li>
+    <li>Political Organization</li>
+    <li>Professional Services</li>
+    <li>Professional Training</li>
+    <li>Public Relations/PR</li>
+    <li>Public Safety</li>
+    <li>Publishing Industry</li>
+    <li>Railroad Manufacture</li>
+    <li>Recreational Facilities & Services</li>
+    <li>Research Industry</li>
+    <li>Retail Industry</li>
+    <li>Shipbuilding</li>
+    <li>Social Media & Online Social Networking</li>
+    <li>Software Development</li>
+    <li>Translation & Localization</li>
+    <li>Transportation & Logistics</li>
+    <li>Warehousing</li>
+  </ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://marcoramilli.com/technical-data-sheet-noname05716/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Rising of Protestware During Times of War</title>
+		<link>https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/</link>
+					<comments>https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/#respond</comments>
+		
+		<dc:creator><![CDATA[Marco Ramilli]]></dc:creator>
+		<pubDate>Mon, 20 Nov 2023 11:23:23 +0000</pubDate>
+				<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[cybercrime]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[reverse engineering]]></category>
+		<guid isPermaLink="false">https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/</guid>
+
+					<description><![CDATA[In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>In the ever-evolving landscape of cybersecurity threats, a disconcerting phenomenon has emerged, challenging the conventional notions of malicious software. Enter "protestware" — a term that sends shivers down the spines of cybersecurity experts and individuals alike. Unlike traditional malware, protestware isn't designed with the sole purpose of exploiting vulnerabilities or stealing sensitive information. Instead, it leverages its malicious intent to advance a particular ideological or political agenda, leaving victims caught in the crossfire of virtual activism.</p>
+
+
+
+<h4 class="wp-block-heading">Protestware Example</h4>
+
+
+
+<p>One of the last and most exiting protestware sample comes from npm ( <a href="https://www.npmjs.com/package/e2eakarev?activeTab=code" target="_blank" rel="noopener">HERE</a> ), the notorious javasripts repository manager. In particular the package named: <em>e2eakarev</em> implements a simple but significative stereotype of this emerging type of Malicious Unwanted Software. Once the "victim" install the package.json through <em>npm install</em>, it drives the installation process in the following way:</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2023-11-18-alle-19.34.15.png" alt="" class="wp-image-12479"/></figure>
+
+
+
+<p>The file index.js is run in post-installation process. The index.js is implemented by the following code</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2023-11-18-alle-19.37.47-1024x526.png" alt="" class="wp-image-12481" style="width:840px;height:auto"/></figure>
+
+
+
+<p>Basically it queries ipgeolocation.io (though the apikey: fa845b4108e34abe981624d400f18a5d ) to check if the packet is installed in Israel. If the IP source address match the Israel IP-code base then it prints directly to the console "PROTEST_MESSAGE". The printed message follows in the code (which is available <a href="https://web.archive.org/web/20231118184323/https://www.npmjs.com/package/e2eakarev?activeTab=code" target="_blank" rel="noopener">here</a>) if you want to read it.</p>
+
+
+
+<h4 class="wp-block-heading">Not all the Protestware are the same</h4>
+
+
+
+<p>While <em>e2eakarev</em> was a not destructive piece of Malware, many other protestware still behave like wipers (take a look to <a href="https://github.com/open-source-peace/protestware-list/blob/main/protestware.md" target="_blank" rel="noopener">this github repo</a>) . For example<em> node-ipc</em> implements a nice piece of protestware which wipes out victims files. Indeed if any victims are using IP in Russia or Belarus, all their files will be wiped entirely with a heart emoji. Manually set a 25% probability at the beginning of the timeout, so that this thing looks more like a floating bug than something intentional. This affects the package node-ipc from 10.1.1 and before 10.1.3. From versions 11.0.0 onwards, instead of having malicious code directly in the source of this package.</p>
+
+
+
+<p>However many of them like <em>peacenotwar</em> (<a href="https://web.archive.org/web/20220317095621/https://github.com/RIAEvangelist/peacenotwar" target="_blank" rel="noopener">here</a>) really impress for their messages and for the ability to propagate them in external drives or even on network drive like OneDrive.</p>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
+<pre class="wp-block-code"><code>import fs from 'fs';
+import find from './service/findFiles.js';
+import read from './service/readFile.js';
+import { homedir } from 'os';
+
+
+var Desktops = `${homedir}/Desktop/`;
+var OneDrive = `${homedir}/OneDrive/`;
+var OneDriveDesktops = `${homedir}/OneDrive/Desktop/`;
+
+var DesktopFileExists=find(Desktops,'WITH-LOVE-FROM-AMERICA.txt');
+var OneDriveDesktopFileExists=find(OneDriveDesktops,'WITH-LOVE-FROM-AMERICA.txt');
+var OneDriveFileExists=find(OneDrive,'WITH-LOVE-FROM-AMERICA.txt');
+
+
+function deliverAPeacefulMessage(path,message){
+    try{
+        fs.writeFile(
+            path, 
+            message,
+            function(err){
+                //its all good
+            }
+        );
+    }catch(err){
+        //thats ok
+    }
+}
+
+//let's be polite and only do this once.
+//hopefully once is all it takes.
+if(!DesktopFileExists?.length&amp;&amp;!OneDriveFileExists?.length&amp;&amp;!OneDriveDesktopFileExists?.length){
+    var thinkaboutit='WITH-LOVE-FROM-AMERICA.txt';
+
+    var WITH_LOVE_FROM_AMERICA=read(`./${thinkaboutit}`);
+
+    deliverAPeacefulMessage(`${Desktops}${thinkaboutit}`,WITH_LOVE_FROM_AMERICA);
+    deliverAPeacefulMessage(`${OneDriveDesktops}${thinkaboutit}`,WITH_LOVE_FROM_AMERICA);
+    deliverAPeacefulMessage(`${OneDrive}${thinkaboutit}`,WITH_LOVE_FROM_AMERICA);
+}
+
+var whatWeWant='♥';
+
+export {
+    whatWeWant as default,
+    whatWeWant
+}</code></pre>
+</div>
+</div>
+
+
+
+<p>This module will add a message of peace on your users' desktops, and it will only do it if it does not already exist just to be polite. Affected versions of this package are vulnerable to Undesired Behavior. It creates files on users' desktops and OneDrive.</p>
+
+
+
+<h4 class="wp-block-heading">Conclusions</h4>
+
+
+
+<p>As we conclude our exploration into the realm of protestware in 2023, it's evident that the landscape of cyber threats is becoming increasingly complex and nuanced. The rise of this unique form of malicious software underscores the dynamic nature of cybersecurity challenges, transcending traditional motives of financial gain or data theft.</p>
+
+
+
+<p>The symbiotic relationship between technology and activism has birthed a new frontier where virtual protests manifest in the form of code, infiltrating systems with the intent to disrupt and spread discord. While the motivations behind protestware may be rooted in ideological or political convictions, its consequences are felt far beyond the digital realm.</p>
+
+
+
+<p>As individuals and organizations grapple with the evolving threat landscape, it's crucial to adapt strategies and fortify defenses against this emerging menace. Cybersecurity measures must evolve to encompass not only the traditional concerns of data privacy and system integrity but also the socio-political dimensions that protestware introduces.</p>
+
+
+
+<p>In the ongoing battle against protestware, knowledge remains our most potent weapon. By staying informed and proactive, we can collectively build a resilient defense against this distinctive breed of cyber threat, ensuring a safer and more secure digital future for all.</p>
+
+
+
+<p>DISCLAIMER: I employed artificial intelligence to accurately revise and rephrase sections of this blog post.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://marcoramilli.com/the-rising-of-protestware-during-times-of-war/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Amazing Books Podcast</title>
+		<link>https://marcoramilli.com/amazing-books-podcast/</link>
+					<comments>https://marcoramilli.com/amazing-books-podcast/#respond</comments>
+		
+		<dc:creator><![CDATA[Marco Ramilli]]></dc:creator>
+		<pubDate>Mon, 16 Oct 2023 10:41:04 +0000</pubDate>
+				<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[podcast]]></category>
+		<category><![CDATA[Research]]></category>
+		<guid isPermaLink="false">https://marcoramilli.com/amazing-books-podcast/</guid>
+
+					<description><![CDATA[Hi folks,today I'm proud to share another episode of the "Amazing Books [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Hi folks,<br>today I'm proud to share another episode of the "Amazing Books Podcast" where my AI Conductors talk about one of my favorite and just discovered (thanks to Federico) books: Inspired by Marty Cagan.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/AI-PODCAST.png" alt="" class="wp-image-12371" style="aspect-ratio:1;width:250px;height:auto"/></figure>
+</div>
+
+
+<p>If you want to listen to more episodes check them out here: <a href="https://marcoramilli.substack.com/s/amazing-books-podcast/archive?sort=new" target="_blank" rel="noopener">The Amazing Book Podcast</a></p>
+
+
+
+<h4 class="wp-block-heading">Book Summary (by AI)</h4>
+
+
+
+<p>"Inspired: How to Create Products Customers Love" by Marty Cagan is a comprehensive guide to product management and the art of building successful and innovative products. Cagan draws on his extensive experience in product management at companies like Netscape and eBay to provide valuable insights and practical advice for product managers and those involved in product development.</p>
+
+
+
+<p>The book begins by highlighting the importance of a strong product management team and its role in creating products that customers truly love. Cagan emphasizes that successful products are not the result of luck but of a well-defined and rigorous process. He stresses the importance of having a dedicated product manager who can act as the "CEO of the product" and be responsible for its success.</p>
+
+
+
+<p>Cagan introduces the concept of "empowered product teams," emphasizing that cross-functional teams consisting of product managers, designers, and engineers should have the autonomy and ownership to make decisions and drive the product forward. He stresses the importance of these teams working closely with customers, understanding their needs, and continuously iterating to deliver value.</p>
+
+
+
+<p>One of the core principles of "Inspired" is the concept of "validated learning." Cagan explains that building a successful product requires constant feedback and validation from customers. He introduces the Lean Product Process, a framework that involves building a Minimum Viable Product (MVP) to test hypotheses, measure results, and learn from customer feedback. This iterative approach allows product teams to make informed decisions and pivot when necessary.</p>
+
+
+
+<p>Cagan also delves into the importance of customer-centric product development. He discusses the significance of understanding and empathizing with customers, as well as creating personas and user stories to guide product development. By putting customers at the center of the product development process, organizations can ensure that they are building solutions that truly address their needs.</p>
+
+
+
+<p>The book explores the challenges and complexities of prioritizing features and making trade-offs. Cagan introduces the "Kano Model," which categorizes features into different buckets based on their impact on customer satisfaction. This model helps product managers make informed decisions about which features to prioritize and invest in.</p>
+
+
+
+<p>Cagan also provides insights into product design and user experience, stressing the importance of collaboration between designers and engineers. He highlights the need for design to be an integral part of the product development process from the beginning, rather than a superficial layer added later.</p>
+
+
+
+<p>The book delves into the critical topic of scaling product development. Cagan explains how to maintain the pace of innovation and quality as a company grows. He emphasizes the need to maintain small, agile teams and to focus on continuous improvement. He also discusses the role of product leadership and how leaders can set the vision and create a product-focused culture within the organization.</p>
+
+
+
+<p>Throughout "Inspired," Cagan provides real-world examples and case studies from well-known companies, illustrating how they have successfully implemented the principles and practices he advocates.</p>
+
+
+
+<p>In summary, "Inspired" by Marty Cagan is a valuable resource for anyone involved in product management and development. It provides a structured and practical approach to creating products that customers love, emphasizing the importance of empowered teams, customer-centricity, validated learning, and effective prioritization. Cagan's insights, backed by his extensive experience, offer a roadmap for building successful and innovative products in today's competitive market. This book is an indispensable guide for product managers, designers, engineers, and anyone looking to make an impact in the world of product development.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://marcoramilli.com/amazing-books-podcast/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Understanding and Defending Against Microsoft 365 Attacks</title>
+		<link>https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/</link>
+					<comments>https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/#respond</comments>
+		
+		<dc:creator><![CDATA[Marco Ramilli]]></dc:creator>
+		<pubDate>Fri, 29 Sep 2023 05:53:06 +0000</pubDate>
+				<category><![CDATA[cybersecurity]]></category>
+		<guid isPermaLink="false">https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/</guid>
+
+					<description><![CDATA[As the use of Microsoft 365 continues to grow, cyber attackers are [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>As the use of Microsoft 365 continues to grow, cyber attackers are increasingly targeting its cloud-based infrastructure. In this extensive post, we will delve into the realm of new Microsoft 365 attacks, exploring the attackers' methods of gaining persistence within the Microsoft 365 cloud, and provide detailed countermeasures and best practices to enhance your organization's security posture.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/aaa1.jpeg" alt="" class="wp-image-12318"/><figcaption class="wp-element-caption">AI Generated (StableDiffusion). Prompt: A hand drawn sketch black and white of a Microsoft Windows logo, hight definition, full logo</figcaption></figure>
+
+
+
+<h3 class="wp-block-heading">Unraveling Attackers' Persistence in Microsoft 365 Cloud</h3>
+
+
+
+<p>To bolster our understanding of Microsoft 365 attacks, let's explore how attackers establish persistence within the cloud.</p>
+
+
+
+<p>According to the <strong>CSO Online</strong> article[^1], attackers employ various techniques to gain persistence, with one of the most intriguing being the abuse of connected apps. By utilizing legitimate applications that are authorized within the Microsoft 365 environment, threat actors can maintain persistent access while evading traditional security controls.</p>
+
+
+
+<p>Connected apps, such as mail plugins, Microsoft Teams integrations, or third-party applications authorized to access Microsoft 365 APIs, can be exploited by attackers to establish a foothold. By compromising or creating malicious connected apps, attackers can bypass security measures and gain ongoing access to sensitive data.</p>
+
+
+
+<h3 class="wp-block-heading">Enhancing Microsoft 365 Security: Best Practices and Configurations</h3>
+
+
+
+<p>Now let's explore countermeasures and best practices that can help secure your Microsoft 365 environment, addressing the threat of new attacks and eliminating the attackers' ability to maintain persistence.</p>
+
+
+
+<h4 class="wp-block-heading">1. Enable Microsoft Audit Logs</h4>
+
+
+
+<p>Enabling Microsoft Audit Logs is a crucial step in identifying and investigating suspicious activities in your Microsoft 365 environment. Follow these steps to activate Audit Logs:</p>
+
+
+
+<ol class="is-style-checkbox wp-block-list">
+<li>Sign in to the Microsoft 365 Security &amp; Compliance Center.</li>
+
+
+
+<li>Navigate to <strong>Search &amp; Investigation</strong> → <strong>Audit log search</strong>.</li>
+
+
+
+<li>Select <strong>Start recording user and admin activities</strong>.</li>
+
+
+
+<li>Define the audit log settings based on your organization's needs.</li>
+
+
+
+<li>Click <strong>Save</strong> to enable audit logging in your environment.</li>
+</ol>
+
+
+
+<h4 class="wp-block-heading">2. Enable and Enhance Microsoft Security Logs</h4>
+
+
+
+<p>In addition to Microsoft Audit Logs, it is essential to enable and enrich Microsoft Security Logs to detect and mitigate security threats effectively. Here's how to achieve that:</p>
+
+
+
+<ol class="is-style-checkbox wp-block-list">
+<li>Access the Microsoft 365 Security &amp; Compliance Center.</li>
+
+
+
+<li>Go to <strong>Search &amp; Investigation</strong> → <strong>Audit log search</strong>.</li>
+
+
+
+<li>Click on <strong>Start recording user and admin activities</strong>.</li>
+
+
+
+<li>Configure the audit log settings according to your security requirements.</li>
+
+
+
+<li>Ensure that logs capture relevant security events such as sign-in activities, suspicious file activities, data exfiltration attempts, and administrator actions.</li>
+
+
+
+<li>Click <strong>Save</strong> to apply the changes and activate the enhanced Microsoft Security Logs.</li>
+</ol>
+
+
+
+<p>By enabling and leveraging these logs, you can gain comprehensive visibility into activities and events within your Microsoft 365 environment, facilitating effective incident response and threat hunting.</p>
+
+
+
+<h4 class="wp-block-heading">3. Implement and Enforce Conditional Access Policies</h4>
+
+
+
+<p>Conditional Access is a powerful feature that allows you to control access to your Microsoft 365 environment based on specific conditions and requirements. Configure the following steps to implement Conditional Access:</p>
+
+
+
+<ol class="is-style-checkbox wp-block-list">
+<li>Navigate to the Microsoft 365 admin center.</li>
+
+
+
+<li>Go to <strong>Azure Active Directory</strong> → <strong>Conditional Access</strong>.</li>
+
+
+
+<li>Define the desired conditions and requirements for accessing your Microsoft 365 environment (e.g., enforcing multi-factor authentication, restricting access based on location or device type).</li>
+
+
+
+<li>Carefully review the configured policies and ensure they align with your organization's security needs.</li>
+
+
+
+<li>Save the policies to enforce them in your environment.</li>
+</ol>
+
+
+
+<h4 class="wp-block-heading">4. Employ Cloud App Security and Threat Protection</h4>
+
+
+
+<p>Microsoft Cloud App Security (MCAS) is a crucial tool for enhancing security within your Microsoft 365 environment. By leveraging MCAS, you can gain deeper visibility into app usage, enforce security policies for cloud-based applications, and effectively combat potential threats. Some steps to implement MCAS are as follows:</p>
+
+
+
+<ol class="is-style-checkbox wp-block-list">
+<li>Access the Microsoft 365 Security &amp; Compliance Center.</li>
+
+
+
+<li>Navigate to <strong>Threat management</strong> → <strong>Policies</strong>.</li>
+
+
+
+<li>Enable and configure policy settings to leverage Microsoft Cloud App Security effectively.</li>
+
+
+
+<li>Define required actions for potential threats, such as blocking suspicious activities, enforcing data loss prevention (DLP), or launching investigations.</li>
+
+
+
+<li>Save the policy to activate Microsoft Cloud App Security within your environment.</li>
+</ol>
+
+
+
+<h4 class="wp-block-heading">Suggestions for Useful Applications</h4>
+
+
+
+<p>To further enhance the security of your Microsoft 365 cloud, consider integrating additional security applications and services. Here are some recommendations:</p>
+
+
+
+<ol class="is-style-checkbox wp-block-list">
+<li><strong>Cloud Access Security Brokers (CASB)</strong>: CASB solutions, such as Symantec CloudSOC or Microsoft Cloud App Security, provide granular visibility and control over cloud applications, ensuring data protection and compliance.</li>
+
+
+
+<li><strong>Identity and Access Management (IAM)</strong>: IAM tools like Okta or Azure Active Directory, help manage user identities, enforce strong authentication, and streamline access controls.</li>
+
+
+
+<li><strong>Email Security Gateways</strong>: Supplementing the built-in email security features of Microsoft 365 with solutions like Mimecast or Proofpoint adds an extra layer of protection against advanced email threats, including phishing attacks and malware.</li>
+
+
+
+<li><strong>Endpoint Protection</strong>: Deploying robust endpoint protection solutions such as CrowdStrike, SentinelONe, Yoroi Kanwa or Microsoft Defender for Endpoint helps defend against advanced threats, including those targeted at the endpoint devices accessing your Microsoft 365 environment.</li>
+</ol>
+
+
+
+<p>Implementing these applications along with a robust security framework will provide layered protection and ensure comprehensive security within your Microsoft 365 cloud environment.</p>
+
+
+
+<h4 class="wp-block-heading">Conclusion</h4>
+
+
+
+<p>This post delved into the realm of new Microsoft 365 attacks and examined how attackers establish persistence within the cloud. By understanding their tactics, organizations can effectively defend against these evolving threats.</p>
+
+
+
+<p>To safeguard your Microsoft 365 environment, it is crucial to implement countermeasures and adopt best practices such as enabling Microsoft Audit Logs, enhancing Security Logs, implementing and enforcing Conditional Access Policies, and employing tools like Microsoft Cloud App Security. Additionally, integrating useful applications like CASB, IAM, email security gateways, and endpoint protection solutions enhances the overall security posture.</p>
+
+
+
+<p>Embrace a holistic approach to security, regularly update your defenses, educate users about security best practices, and keep abreast of the latest security trends and recommendations. By proactively protecting your Microsoft 365 environment, you can mitigate risks and safeguard your organization's sensitive data.</p>
+
+
+
+<p>PS: I've been using AI for editing and improving English reading, and it has been cool !</p>
+
+
+
+<p><strong>References:</strong><br>
+[^1]: CSO Online. "The Most Dangerous and Interesting Microsoft 365 Attacks." <a href="https://www.csoonline.com/article/571155/the-most-dangerous-and-interesting-microsoft-365-attacks.html" target="_blank" rel="noopener">Link to Article</a><br>
+[^2]: Huntress. "Legitimate Apps as Traitorware for Persistent Microsoft 365 Compromise." <a href="https://www.huntress.com/blog/legitimate-apps-as-traitorware-for-persistent-microsoft-365-compromise" target="_blank" rel="noopener">Link to Article</a><br>
+[^3]: Sherweb Blog. "Microsoft 365 Tenants: How to Protect and Secure Your Business." <a href="https://www.sherweb.com/blog/office-365/microsoft-365-tenants/" target="_blank" rel="noopener">Link to Article</a><br>
+[^4]: Microsoft 365 Security. "Microsoft 365 Security." <a href="https://learn.microsoft.com/en-us/microsoft-365/security/?view=o365-worldwide" target="_blank" rel="noopener">Link to Document</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://marcoramilli.com/understanding-and-defending-against-microsoft-365-attacks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Malware Persistence Locations: Windows and Linux</title>
+		<link>https://marcoramilli.com/malware-persistence-locations-windows-and-linux/</link>
+					<comments>https://marcoramilli.com/malware-persistence-locations-windows-and-linux/#respond</comments>
+		
+		<dc:creator><![CDATA[Marco Ramilli]]></dc:creator>
+		<pubDate>Sat, 23 Sep 2023 02:25:54 +0000</pubDate>
+				<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[CyberTools]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[Malware Analysis]]></category>
+		<category><![CDATA[reverse engineering]]></category>
+		<category><![CDATA[Targeted Attacks]]></category>
+		<guid isPermaLink="false">https://marcoramilli.com/malware-persistence-locations-windows-and-linux/</guid>
+
+					<description><![CDATA[Malware persistence is a crucial aspect of cyber threats that often goes [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Malware persistence is a crucial aspect of cyber threats that often goes unnoticed by unsuspecting users. In the realm of cybersecurity, it refers to the ability of malicious software to establish a foothold on a targeted system, allowing it to maintain its presence over an extended period. This persistence is achieved through various covert techniques, enabling the malware to evade detection and removal attempts. Understanding the significance of malware persistence is essential for individuals and organizations alike, as it enables them to mitigate risks by implementing effective security measures. By comprehending the intricacies of this relentless adversary, we can better equip ourselves to combat the ever-evolving landscape of cyber threats.</p>
+
+
+
+<h4 class="wp-block-heading">Most Known Widows Persistence Locations</h4>
+
+
+
+<p>Malicious software employs various techniques and locations to establish a long-term presence on compromised systems, evading detection and making removal attempts challenging. Here are some of the most common Windows persistence locations used by malware, along with a brief explanation and a source code snippet showcasing each technique:</p>
+
+
+
+<p><strong>1. Registry Run Keys</strong></p>
+
+
+
+<p>Explanation: Malware can add entries to specific registry keys responsible for launching programs during system startup. For example:</p>
+
+
+
+<div class="wp-block-group has-global-padding"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<pre class="wp-block-code"><code># Add malicious entry to HKCU Run key
+Set-ItemProperty -Path 'HKCU:SoftwareMicrosoftWindowsCurrentVersionRun' -Name 'Malware' -Value 'C:Malware.exe'
+</code></pre>
+</div></div>
+
+
+
+<p><strong>2. Startup Folder</strong></p>
+
+
+
+<p>Explanation: By placing a shortcut or executable in the Startup folder, malware ensures it runs automatically after user login. For example (VBScript):</p>
+
+
+
+<div class="wp-block-group has-global-padding"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<pre class="wp-block-code"><code>' Create shortcut to malware and place it in the Startup folder
+Set Shell = CreateObject("WScript.Shell")
+StartupFolder = Shell.SpecialFolders("Startup")
+ShortcutPath = StartupFolder &amp; "Malware.lnk"
+
+Set Shortcut = Shell.CreateShortcut(ShortcutPath)
+Shortcut.TargetPath = "C:Malware.exe"
+Shortcut.Save
+</code></pre>
+</div></div>
+
+
+
+<p><strong>3. Windows Services</strong></p>
+
+
+
+<p>Explanation: Malware can disguise itself as a legitimate Windows service, running in the background and executing malicious actions. For exmaple (C#):</p>
+
+
+
+<div class="wp-block-group has-global-padding"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<pre class="wp-block-code"><code>// Install malware as a Windows service
+using System;
+using System.ServiceProcess;
+
+public partial class MalwareService : ServiceBase
+{
+    protected override void OnStart(string&#91;] args)
+    {
+        // Malicious actions here
+    }
+
+    protected override void OnStop()
+    {
+        // Clean up and exit
+    }    
+}
+</code></pre>
+</div></div>
+
+
+
+<p><strong>4. Scheduled Tasks</strong></p>
+
+
+
+<p>Explanation: Malware can create scheduled tasks that run at specific times or events, ensuring persistence and periodic execution. For example (PowerShell):</p>
+
+
+
+<div class="wp-block-group has-global-padding"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<pre class="wp-block-code"><code># Create scheduled task to execute malware
+$Action = New-ScheduledTaskAction -Execute 'C:Malware.exe'
+$Trigger = New-ScheduledTaskTrigger -AtStartup
+Register-ScheduledTask -Action $Action -Trigger $Trigger -TaskName 'MalwareTask'
+</code></pre>
+</div></div>
+
+
+
+<p><strong>5. Browser Extensions</strong></p>
+
+
+
+<p>Explanation: Malicious browser extensions can be installed, allowing malware to remain active and interact with users' browsing sessions. For example (JavaScript):</p>
+
+
+
+<div class="wp-block-group has-global-padding"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<pre class="wp-block-code"><code>// Malicious browser extension code
+chrome.runtime.onInstalled.addListener(function() {
+    // Execute malicious actions here
+});
+</code></pre>
+</div></div>
+
+
+
+<p><strong>6. AppInit_DLLs</strong></p>
+
+
+
+<p>Explanation: By modifying the AppInit_DLLs registry value, malware can inject itself into every process that loads a DLL, enabling persistent malicious behavior. For example (C++):</p>
+
+
+
+<div class="wp-block-group has-global-padding"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<pre class="wp-block-code"><code>// Modify AppInit_DLLs registry value to load malware DLL
+HKEY hKey;
+RegOpenKey(HKEY_LOCAL_MACHINE, TEXT("SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows"), &amp;hKey);
+RegSetValueEx(hKey, TEXT("AppInit_DLLs"), 0, REG_SZ, (LPBYTE)"C:\Malware.dll", 14);
+RegCloseKey(hKey);
+</code></pre>
+</div></div>
+
+
+
+<p><strong>7. Rootkit Techniques</strong></p>
+
+
+
+<p>Explanation: Advanced malware may use rootkit techniques to hide its presence from the operating system, making it extremely difficult to detect or remove. Rootkit techniques involve complex manipulation of system internals, and their implementation cannot be adequately covered in this short code snippet.</p>
+
+
+
+<h4 class="wp-block-heading">Most Known Linux Persistence Locations</h4>
+
+
+
+<p>Here are some of the most common Linux persistence locations used by malware along with a brief explanation and a source code snippet showcasing each technique:</p>
+
+
+
+<p><strong>1. Cron Jobs</strong></p>
+
+
+
+<p>Explanation: Malware can create cron jobs, which are scheduled tasks that automatically run at specific intervals. By adding a malicious command to the cron table, malware ensures its persistence. For example:</p>
+
+
+
+<div class="wp-block-group has-global-padding"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<pre class="wp-block-code"><code># Add a malicious cron job
+echo "* * * * * /usr/bin/malware" &gt;&gt; /etc/crontab
+</code></pre>
+</div></div>
+
+
+
+<p><strong>2. Systemd Units</strong></p>
+
+
+
+<p>Explanation: Malware can create systemd units, which are service files that define how a service should be started, stopped, and maintained. By creating a systemd unit, malware ensures its automatic execution. For example:</p>
+
+
+
+<div class="wp-block-group has-global-padding"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<pre class="wp-block-code"><code># Create a malicious systemd unit
+&#91;Unit]
+Description=Malware
+
+&#91;Service]
+ExecStart=/usr/bin/malware
+
+&#91;Install]
+WantedBy=multi-user.target
+</code></pre>
+</div></div>
+
+
+
+<p><strong>3. Startup Scripts</strong></p>
+
+
+
+<p>Explanation: Malware can modify startup scripts, which are executed during the boot process. By inserting a malicious command into a startup script, malware ensures its execution upon system startup. For example:</p>
+
+
+
+<div class="wp-block-group has-global-padding"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<pre class="wp-block-code"><code># Insert a malicious command into a startup script
+echo "/usr/bin/malware" &gt;&gt; /etc/rc.local
+</code></pre>
+</div></div>
+
+
+
+<p><strong>4. User Init Scripts</strong></p>
+
+
+
+<p>Explanation: Malware can modify user-specific initialization scripts, which are executed when a user logs in. By adding a malicious command to the user's init script, malware ensures its persistence upon user login. For example:</p>
+
+
+
+<div class="wp-block-group has-global-padding"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<pre class="wp-block-code"><code># Add a malicious command to a user's init script
+echo "/usr/bin/malware" &gt;&gt; ~/.bashrc
+</code></pre>
+</div></div>
+
+
+
+<p><strong>5. Shared Object Injection</strong></p>
+
+
+
+<p>Explanation: Malware can modify shared object files to inject malicious code into legitimate executables. By manipulating shared libraries, malware ensures its code is executed whenever the respective program is run. For example:</p>
+
+
+
+<div class="wp-block-group has-global-padding"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<pre class="wp-block-code"><code># Inject malicious code into a shared object file
+gcc -shared -fPIC -o /usr/lib/libmylib.so /path/to/malware.c
+echo "/usr/lib/libmylib.so" &gt;&gt; /etc/ld.so.preload
+</code></pre>
+</div></div>
+
+
+
+<p><strong>6. /etc/profile and /etc/bash.bashrc Modifications</strong></p>
+
+
+
+<p>Explanation: Malware can modify system-wide profile and bashrc files to execute malicious commands whenever a user logs in. By adding malicious code to these files, malware ensures its persistence for all users. For example:</p>
+
+
+
+<div class="wp-block-group has-global-padding"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<pre class="wp-block-code"><code># Modify /etc/profile to include a malicious command
+echo "/usr/bin/malware" &gt;&gt; /etc/profile
+
+# Modify /etc/bash.bashrc to include a malicious command
+echo "/usr/bin/malware" &gt;&gt; /etc/bash.bashrc
+</code></pre>
+</div></div>
+
+
+
+<p><strong>7. /etc/ld.so.preload Manipulation</strong></p>
+
+
+
+<p>Explanation: Malware can modify the ld.so.preload file to specify shared libraries that should be loaded before others. By adding a malicious library to this file, malware ensures its code is executed by any program using the dynamic linker. For example:</p>
+
+
+
+<div class="wp-block-group has-global-padding"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<pre class="wp-block-code"><code># Manipulate /etc/ld.so.preload to load a malicious library
+echo "/usr/lib/libmymalware.so" &gt;&gt; /etc/ld.so.preload
+</code></pre>
+</div></div>
+
+
+
+<h4 class="wp-block-heading">Conclusions</h4>
+
+
+
+<p>These are just a few examples of the numerous persistence locations used by malware in both Microsoft Windows and in most common Linux systems derived from my own analysis experience. It is crucial for individuals and organizations to proactively implement robust security measures and regularly update their systems to defend against evolving threats. Understanding these persistence techniques empowers us to better combat the relentless adversaries present in the ever-evolving landscape of cyber threats. </p>
+
+
+
+<p>I did used AI as a tool to help me in writing some piece of code, and it has been cool !</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://marcoramilli.com/malware-persistence-locations-windows-and-linux/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Leading the uncertainty: the decision-driven approach</title>
+		<link>https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/</link>
+					<comments>https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/#respond</comments>
+		
+		<dc:creator><![CDATA[Marco Ramilli]]></dc:creator>
+		<pubDate>Thu, 14 Sep 2023 11:13:44 +0000</pubDate>
+				<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[leadership]]></category>
+		<category><![CDATA[research]]></category>
+		<category><![CDATA[experience]]></category>
+		<guid isPermaLink="false">https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/</guid>
+
+					<description><![CDATA[Many of my readers know me as a cybersecurity expert. More than [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Many of my readers know me as a cybersecurity expert. More than 12 years of blogging on "security stuff", malware analyses, cyber attack attributions, new tools and a personal (public <a href="https://marcoramilli.com/cyber-threat-trends/">here</a>) cybersecurity observatory contributed a lot to push me into this specific direction. However during the past 10 years I did play many different roles. I am a founder, a CEO, I've been managing direct and indirect M&amp;A processes. I had to merge different business cultures and managing amazing and super-talented teams. </p>
+
+
+
+<h4 class="wp-block-heading">Leadership</h4>
+
+
+
+<p>Throughout my prior experiences, I have encountered various types of leadership. Some notable ones include <strong>Bureaucratic</strong> <strong>leadership</strong>, <strong>Transformational</strong> <strong>leadership</strong>, and <strong>Transactional</strong> <strong>leadership</strong>. However, in recent years, there has been a growing interest in <strong>"data-driven" leadership</strong>. This approach is based on the idea <em>that having access to perfect information would lead to making the best decisions.</em> But what I've learn on my own is a little difference.</p>
+
+
+
+<p><strong>Bureaucratic leadership</strong> is a leadership style that focuses on following established procedures and rules. Leaders who adopt this style prioritize structure, hierarchy, and adherence to established protocols. They ensure that tasks are performed according to set guidelines and that everyone knows their roles and responsibilities. This leadership style is commonly seen in organizations with strict regulations and processes.</p>
+
+
+
+<p><strong>Transformational leadership</strong> is a leadership style that inspires and motivates followers to go beyond their self-interests and work towards a collective purpose. Leaders who adopt this style are charismatic and have a clear vision for the future. They empower their followers, encourage innovation and creativity, and foster an environment of growth and development. Transformational leaders inspire their team members to reach their full potential and achieve </p>
+
+
+
+<p><strong>Transactional leadership</strong> is a leadership style that focuses on exchange and negotiation between leaders and their followers. Leaders who adopt this style set clear expectations, define roles and responsibilities, and establish rewards and consequences based on performance. They use a transactional approach, emphasizing agreements and contracts with their team members. Transactional leaders provide guidance and supervision, and they reward or punish based on the achievement of set targets and goals.exceptional results.</p>
+
+
+
+<p>Leaders in every organization are faced with the crucial task of making decisions. Whether they choose to implement Leadership A, B, or C, decision-making plays a fundamental role. In today's world, two primary approaches to decision-making have emerged: data-driven leadership and decision-driven leadership. These methodologies empower leaders to make informed choices based on careful analysis and structured decision-making processes.</p>
+
+
+
+<p><strong>Data-driven</strong> leadership is a concept that emphasizes the importance of relying on data before making decisions. Individuals who embrace this approach place a strong emphasis on checking and analyzing data before formulating any response. This ensures that decisions are well-informed and based on evidence (image taken from <a href="https://uxdesign.cc/from-data-driven-to-decision-driven-bac9a8842423" target="_blank" rel="noopener">here</a>).</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2023-09-12-alle-14.30.27.png" alt="" class="wp-image-12182"/></figure>
+</div>
+
+
+<p>On the flip side, those primarily engaged in <strong>decision</strong>-<strong>driven</strong> data analysis leadership direct their attention towards "The decision to be made". This approach emphasizes the need to seek data with a clear purpose, as well as the process of uncovering insights from the unknown rather than relying solely on what is already known. These distinctions underline the significant differences between the two models.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2023-09-12-alle-14.35.24.png" alt="" class="wp-image-12183"/></figure>
+</div>
+
+
+<p>Data-driven analytics and decision-driven principles may both rely on data, but they approach decision-making from different perspectives. In a recent article on the UX Collective blog, Kyle Byrd provides a concise summary of <strong>decision-driven</strong> leadership, which I have included below without any alterations. You can find the original article <a href="https://uxdesign.cc/from-data-driven-to-decision-driven-bac9a8842423" target="_blank" rel="noopener">here</a>.</p>
+
+
+
+<p>1.  Framing questions over finding ‘answers’<br>2. Gathering&nbsp;<em>enough</em>&nbsp;information to decide is more important than complete information<br>3. Exploring unknowns instead of optimizing knowns — avoiding pre-mature convergence by going “wide first, then narrow’<br>4. Identifying data blindspots (data that could impact a decision isn’t available)<br>5. Recognizing historical data may not model future events</p>
+
+
+
+<p>I believe in today's fast-paced and ever-changing world, the ability to adapt is far more important than striving for perfection or optimization. Rather than solely focusing on finding the missing pieces of a puzzle ( having the best data available), it is crucial to develop a deep understanding of the dynamic environments we navigate (market changes). By embracing this mindset, we can navigate the complexities that arise, allowing us to be more agile and responsive to the challenges that come our way. This approach recognizes that <strong>uncertainty</strong> is a <strong>given</strong>, and <strong>encourages</strong> us to <strong>continually</strong> <strong>learn</strong>, <strong>grow</strong>, and <strong>adjust</strong> accordingly. Our success lies not in trying to control every outcome, but rather in our ability to thrive amidst the unknown.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>In radically uncertain environments, we interpret novel situations, establish ‘<em>what’s going on here</em>’, construct a cohesive narrative with incomplete information, and make decisions.</p>
+<cite>Kyle Byrd (on medium)</cite></blockquote>
+
+
+
+<p>On my point of view this is the real essence of freedom, the pure charism of complexity: to be adaptive and not optimized. <em>Data are very important to build your knowledge base but without the right insights and own contributions it's still hard to take right decisions.</em></p>
+
+
+
+
+
+<h4 class="wp-block-heading">Decision-Driven Leadership will drive our future ?</h4>
+
+
+
+<p>In this era of data accessibility and advanced reporting, the challenge lies not in obtaining answers, but rather in navigating the uncharted territories, asking the right questions, and encouraging emergent insights. With the power of AI at our disposal, the days of struggling with cumbersome dashboards are fading away. Now, answers to complex questions that previously required extensive exploration are just a simple prompt away. Rather than fixating on predefined targets, the focus shifts towards embracing the unknown, fostering curiosity, and mastering the unexpected. </p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p id="d5c3"><em>“Successful decision‐makers balance data, experience, and intuition. They quickly sort through information, apply judgment, and are fierce interrogators of data to cultivate sharp insights. They know there is more to decision‐making than just the data. They resist being intoxicated by information.</em></p>
+
+
+
+<p id="946b"><em>Instead, they apply first‐order principles to understand what the decision really is, why it must be taken, and to what end. They then seek the relevant data to help make that decision. In short, they make informed decisions with incomplete information.”</em></p>
+<cite><a href="https://www.amazon.com/Decisions-Over-Decimals-Intuition-Information/dp/111989848X?utm_source=blueprint.beehiiv.com&amp;utm_medium=newsletter&amp;utm_campaign=from-data-driven-to-decision-driven" target="_blank" rel="noopener">Decisions Over Decimals: Striking the Balance between Intuition nd Information</a> writes</cite></blockquote>
+
+
+
+<p>Having knowledge is undoubtedly a crucial foundation. However, it is the ability to derive insights, exercise sound judgment, take calculated risks, and ask pertinent questions that truly sets a leader apart. Especially in today's dynamic and ever-changing world, these qualities serve as the primary guiding principles for effective leadership.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://marcoramilli.com/leading-the-uncertainty-the-decision-driven-approach/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>2023 Breaches and Incidents: Personal Notes</title>
+		<link>https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/</link>
+					<comments>https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/#respond</comments>
+		
+		<dc:creator><![CDATA[Marco Ramilli]]></dc:creator>
+		<pubDate>Thu, 22 Jun 2023 11:34:44 +0000</pubDate>
+				<category><![CDATA[Attack]]></category>
+		<category><![CDATA[Cyber Crime]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[cybercrime]]></category>
+		<category><![CDATA[CyberSecurity]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<category><![CDATA[report]]></category>
+		<category><![CDATA[Research]]></category>
+		<guid isPermaLink="false">https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/</guid>
+
+					<description><![CDATA[Introduction In today's digital landscape, the prevalence of cyber threats and incidents [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h4 class="wp-block-heading">Introduction</h4>
+
+
+
+<p>In today's digital landscape, the prevalence of cyber threats and incidents has become a significant concern for individuals, organizations, and governments alike. I have had the opportunity to explore numerous vendor reports in the past months and gain insights into the evolving nature of breaches and incidents. Through my research, I have discovered a multitude of interest findings, highlighting the relentless persistence and sophistication of cybercriminals. Many things are changing and for that I've decided to bring you the followings takeaways.</p>
+
+
+
+<p>By analyzing these reports, it becomes clear that breaches and incidents are not isolated occurrences but rather an ongoing battle in the realm of cybersecurity. The information gathered highlights the critical need for robust security measures, constant monitoring, and proactive incident response strategies to safeguard digital assets from malicious actors. As we delve further into this blog post, we will explore the specific findings and recommendations outlined in these reports, aiming to provide insights and practical advice to help individuals and organizations navigate the complex cybersecurity landscape.</p>
+
+
+
+<h4 class="wp-block-heading">Actors</h4>
+
+
+
+<p>The main threat actors involved in data breaches are <strong>External</strong> to the victim. Less then <strong>20%</strong> of actors are internal, which means they are eligible for intentional attack as well as unintentional attack (is. errors, stolen devices, weak credentials)</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2023-06-12-alle-09.37.26.png" alt="" class="wp-image-11852"/><figcaption class="wp-element-caption">Threat Actors in Data Breaches</figcaption></figure>
+</div>
+
+
+<p>The main reason threat actors are attacking victim is by far "<strong>money</strong>". They are <strong>Financially</strong> motivated in mostly cases which emphasize the importance of being part of a bigger and organized industry (organized crime)</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2023-06-12-alle-09.35.09.png" alt="" class="wp-image-11850"/><figcaption class="wp-element-caption">Threat Actor Motivation in Data Breaches</figcaption></figure>
+</div>
+
+
+<p>While organized crime is the principal threat actor, "non-nation state or State-affiliated" threat actor is the second most common threat actors. In this category we include Noname*, KillNet and other "war sympathetic groups". </p>
+
+
+
+<h4 class="wp-block-heading">Actions</h4>
+
+
+
+<p>To my surprise, as someone who has become accustomed to viewing ransomware as the primary threat actor action, this year has witnessed a gradual but noteworthy shift. Ransomware is no longer at the forefront of attacker actions; instead, it has slipped into the second position. What we are observing predominantly in the current landscape is the prominence of <strong>stolen</strong> <strong>credentials</strong> as the principal action undertaken by threat actors.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2023-06-12-alle-09.30.39.png" alt="" class="wp-image-11848"/><figcaption class="wp-element-caption">Top Action performed by actors in data breaches</figcaption></figure>
+</div>
+
+
+<p>Traditionally, ransomware has garnered significant attention due to its disruptive and financially driven nature. However, recent trends suggest that threat actors are increasingly focusing on exploiting compromised credentials as their preferred method of attack. This shift can be attributed to several factors, including the rise of sophisticated phishing campaigns, data breaches resulting in massive credential leaks, and the monetization potential of stolen login information.</p>
+
+
+
+<p>The implications of this shift are far-reaching and demand heightened attention from both individuals and organizations. Stolen credentials provide threat actors with an entry point to compromise sensitive systems, gain unauthorized access to valuable data, and even facilitate lateral movement within networks. Moreover, the aftermath of such breaches can be catastrophic, leading to financial losses, reputational damage, and legal ramifications.</p>
+
+
+
+<p>Another intriguing observation that has emerged is the resurgence of "<strong>Exploit</strong> <strong>Vulnerabilities</strong>," which had been somewhat overlooked until this year. The primary reason for this resurgence can be attributed to the prevalence of various remote code execution vulnerabilities, or more broadly, remote exploitable vulnerabilities. These vulnerabilities have captured significant attention in the cybersecurity landscape, ranging from<strong> well-known instances like Log4j</strong> (very abused during the 2022) to more recent RCE.</p>
+
+
+
+<h4 class="wp-block-heading">Assets</h4>
+
+
+
+<p>In the realm of data breaches, it is evident that a significant portion of the compromised assets primarily consists of <strong>servers</strong> and <strong>general</strong> <strong>IT</strong> <strong>infrastructure</strong>. These critical components form the backbone of organizations' digital operations and are often targeted by threat actors seeking to gain unauthorized access or exploit vulnerabilities. The compromise of servers and IT infrastructure can have severe consequences, ranging from service disruptions to the potential exposure of sensitive information.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2023-06-12-alle-09.59.12.png" alt="" class="wp-image-11857"/><figcaption class="wp-element-caption">Compromised Assents in Data Breaches</figcaption></figure>
+</div>
+
+
+<p>However, following closely in the list of compromised assets are <strong>personal</strong> <strong>information</strong> and data pertaining to individuals. This includes a range of personally identifiable information (<strong>PII</strong>) such as email addresses, names, surnames, phone numbers, addresses, and user logs. The targeting of personal data highlights the value placed on this information by threat actors, who seek to exploit it for various malicious purposes, such as identity theft, phishing attacks, or even selling it on the dark web.</p>
+
+
+
+<p>The inclusion of personal information in data breaches raises significant concerns regarding privacy and security. The exposure of such sensitive data not only poses risks to individuals' personal lives but also has broader implications for organizations responsible for safeguarding this information. The fallout from these breaches can result in financial losses, reputational damage, legal consequences, and erosion of trust among stakeholders.</p>
+
+
+
+<h4 class="wp-block-heading">Attributes</h4>
+
+
+
+<p>Data breaches encompass a wide range of compromised information, and understanding the nature of the data involved is crucial in comprehending the extent of the breach's impact. Analysis of various data breach incidents reveals that the principal category of compromised data is related to <strong>individuals</strong>, constituting approximately <strong>36%</strong> of the total. This includes personally identifiable information (<strong>PII</strong>) such as names, addresses, email addresses, phone numbers, and other personal details that can be exploited for identity theft, fraud, or other malicious activities.</p>
+
+
+
+<p>Another significant portion, accounting for around <strong>28% </strong>of breached data, comprises <strong>credential</strong> <strong>information</strong>. These credentials can encompass usernames, passwords, security tokens, or any other form of authentication data that grants access to various accounts or systems. The compromise of credentials poses a severe threat, as attackers can misuse them to gain unauthorized access to sensitive information or carry out fraudulent activities, potentially causing significant harm to individuals and organizations alike.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2023-06-12-alle-10.14.04.png" alt="" class="wp-image-11863"/><figcaption class="wp-element-caption">Top Confidentiality data varieties in breaches</figcaption></figure>
+</div>
+
+
+<p>Furthermore, <strong>internal system information</strong> constitutes approximately <strong>18% </strong>of the data found in data breaches. This category encompasses details regarding assets, networks, servers, and other internal infrastructure components. The compromise of internal system information poses a significant risk to organizations, as it can lead to unauthorized access, system disruptions, data manipulation, or even complete control of critical infrastructure.</p>
+
+
+
+<h4 class="wp-block-heading">Ransomware Transaction Focus</h4>
+
+
+
+<p>While it is evident that all cyber incidents have a negative impact on the victims, affecting their reputation, operations, and availability, an interesting observation emerges when analyzing data breach incidents. <strong>Surprisingly, approximately 93% of data breach incidents do not directly result in financial losses</strong>. This implies that the majority of data breaches have non-monetary consequences, such as reputational damage or operational disruptions, rather than immediate financial implications.</p>
+
+
+
+<p>However, <strong>it is crucial to note that the remaining 7% of data breach incidents do result in financial losses, primarily because the affected organizations admit to paying a ransom</strong>. This indicates that a small but significant portion of victims opt to give in to the demands of ransomware attackers, resulting in a financial impact. According to data from the FBI's Internet Crime Complaint Center (IC3), the average ransom transaction amount was around <strong>$10,000</strong> last year. However, in 5% of cases, the average ransom payment significantly surpassed this figure, reaching a staggering<strong> $1.2 million</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2023-06-12-alle-10.49.36.png" alt="" class="wp-image-11867"/><figcaption class="wp-element-caption">Median Transaction size for Ransomware based on FBI IC3 compaints</figcaption></figure>
+</div>
+
+
+<p>While the average ransom transaction may not appear excessively high, it is important to acknowledge the existence of the upper echelon of payments in the 5% of cases. For those unfortunate enough to fall within this subset, the financial burden becomes far more substantial, exceeding $1.2 million. This highlights the unpredictable nature of ransomware attacks, where the financial implications can vary drastically depending on the specific circumstances and demands.</p>
+
+
+
+<p>Therefore, it is crucial for organizations to approach data breaches and ransomware incidents with utmost vigilance, even if the average ransom amount appears relatively moderate. The potential financial consequences of paying a ransom should not be underestimated, especially for those who find themselves in the minority facing exorbitant demands. By implementing robust security measures, maintaining data backups, and adopting proactive incident response strategies, organizations can better protect themselves against the debilitating effects of data breaches and minimize the risk of falling victim to costly ransom demands.</p>
+
+
+
+<h4 class="wp-block-heading">Main Financial Loss Focus</h4>
+
+
+
+<p>When discussing financial losses resulting from cyber attacks, it becomes evident that social engineering remains one of the most prevalent and influential techniques used by attackers. Social engineering involves manipulating individuals or exploiting their trust to deceive them into performing certain actions, such as making fraudulent payments. Among the various types of social engineering attacks, one of the most significant contributors to financial loss is Pretexting, also known as  <strong>Business</strong> <strong>Email</strong> <strong>Compromise</strong> (BEC) fraud, accounting for approximately <strong>35%</strong> of reported occurrences.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2023-06-12-alle-11.08.59.png" alt="" class="wp-image-11870"/><figcaption class="wp-element-caption">First Cause of Financial Loss in Social Engineering</figcaption></figure>
+</div>
+
+
+<p>Pretexting involves the creation of a false narrative or scenario to deceive individuals into revealing sensitive information or making unauthorized transactions. Attackers often impersonate trusted entities, such as business partners, executives, or vendors, to trick victims into divulging confidential information or transferring funds to fraudulent accounts. This deceptive tactic can result in substantial financial losses for targeted organizations.</p>
+
+
+
+<p><strong>Phishing</strong> attacks rank second in terms of financial impact, accounting for <strong>approximately 28%</strong> of reported cases. Phishing involves the use of fraudulent emails, messages, or websites that appear legitimate to trick individuals into revealing personal information, login credentials, or financial details. Once obtained, this information can be exploited for various fraudulent activities, including unauthorized transactions or identity theft.</p>
+
+
+
+<p>The usage of <strong>stolen credentials</strong> follows closely behind, constituting approximately<strong> 23%</strong> of reported cases. In this scenario, attackers acquire login credentials through various means, such as data breaches or phishing attacks, and then utilize the stolen credentials to gain unauthorized access to systems or accounts. This unauthorized access can lead to financial loss through fraudulent transactions, unauthorized account access, or unauthorized changes to financial data.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" src="https://marcoramilli.com/wp-content/uploads/2024/03/Screenshot-2023-06-12-alle-11.33.13.png" alt="" class="wp-image-11875"/><figcaption class="wp-element-caption">Median Transaction size for BEC in years, according to FBI IC3</figcaption></figure>
+</div>
+
+
+<p>Contrary to popular perception, <strong>ransomware</strong> attacks account for<strong> only around 10%</strong> of cases in which attackers lure victims and subsequently activate ransomware on their machines. Ransomware attacks involve the encryption of victim's files or systems, holding them hostage until a ransom is paid. While these attacks can be financially devastating, they are relatively less prevalent compared to other social engineering techniques.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://marcoramilli.com/2023-breaches-and-incidents-personal-notes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

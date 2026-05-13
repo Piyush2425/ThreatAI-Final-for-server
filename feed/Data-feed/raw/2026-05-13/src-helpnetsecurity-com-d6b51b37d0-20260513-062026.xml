@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Help Net Security</title>
+	<atom:link href="https://www.helpnetsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.helpnetsecurity.com/</link>
+	<description>Daily information security news with a focus on enterprise security.</description>
+	<lastBuildDate>Wed, 13 May 2026 05:59:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://img.helpnetsecurity.com/wp-content/uploads/2019/09/09093400/cropped-hns2-32x32.png</url>
+	<title>Help Net Security</title>
+	<link>https://www.helpnetsecurity.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>NetSPI AI-powered Continuous Pentesting identifies high-impact vulnerabilities</title>
+		<link>https://www.helpnetsecurity.com/2026/05/13/netspi-ai-powered-continuous-pentesting-offerings/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Wed, 13 May 2026 05:59:30 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[NetSPI]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=370503</guid>
+
+					<description><![CDATA[<p>NetSPI launched AI-powered Continuous Pentesting offerings, designed to help organizations continuously identify, validate and reduce risk across dynamic external and cloud environments. Organizations are managing an expanding number of potential entry points as new internet-facing resources, including cloud assets, applications, APIs, and AI-centric assets, are introduced. Each deployment can create new risk, making it harder for security teams to maintain a view of exposure without continuous, validated insight. NetSPI’s Continuous Pentesting offerings include Continuous External &#8230; <a href="https://www.helpnetsecurity.com/2026/05/13/netspi-ai-powered-continuous-pentesting-offerings/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/13/netspi-ai-powered-continuous-pentesting-offerings/">NetSPI AI-powered Continuous Pentesting identifies high-impact vulnerabilities</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Sandyaa: Open-source autonomous security bug hunter</title>
+		<link>https://www.helpnetsecurity.com/2026/05/13/sandyaa-open-source-autonomous-security-bug-hunter/</link>
+		
+		<dc:creator><![CDATA[Mirko Zorz]]></dc:creator>
+		<pubDate>Wed, 13 May 2026 05:30:42 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=370012</guid>
+
+					<description><![CDATA[<p>Source code auditing has traditionally relied on static analyzers that flag long lists of potential issues, leaving engineers to sort bugs from noise. A new open-source project from offensive-security firm SecureLayer7 takes a different route, using LLMs to read a codebase, trace how data moves through it, and produce working exploit code for the vulnerabilities it confirms. Their open-source tool, called Sandyaa, was released under an MIT license. How the auditor operates Sandyaa accepts either &#8230; <a href="https://www.helpnetsecurity.com/2026/05/13/sandyaa-open-source-autonomous-security-bug-hunter/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/13/sandyaa-open-source-autonomous-security-bug-hunter/">Sandyaa: Open-source autonomous security bug hunter</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The hidden risk of non-human identities in AI adoption</title>
+		<link>https://www.helpnetsecurity.com/2026/05/13/hidden-risk-non-human-identities-ai-adoption/</link>
+		
+		<dc:creator><![CDATA[Help Net Security]]></dc:creator>
+		<pubDate>Wed, 13 May 2026 05:00:10 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Expert analysis]]></category>
+		<category><![CDATA[Expert corner]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Delinea]]></category>
+		<category><![CDATA[identity management]]></category>
+		<category><![CDATA[non-human identities]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=370095</guid>
+
+					<description><![CDATA[<p>An employee with persistent, unsupervised admin access across critical systems, with no audit trail, no clear owner, and no regular access reviews, would raise immediate concern in most organizations. Yet non-human identities and AI agents are often granted that same kind of persistent, broadly privileged access. As AI adoption grows, that gap is becoming harder to ignore. NHIs today encompass far more than traditional service accounts and API keys. They also often include AI agents &#8230; <a href="https://www.helpnetsecurity.com/2026/05/13/hidden-risk-non-human-identities-ai-adoption/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/13/hidden-risk-non-human-identities-ai-adoption/">The hidden risk of non-human identities in AI adoption</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Researchers open-source a Wi-Fi cyber range for security training</title>
+		<link>https://www.helpnetsecurity.com/2026/05/13/wi-fi-cyber-range-security/</link>
+		
+		<dc:creator><![CDATA[Mirko Zorz]]></dc:creator>
+		<pubDate>Wed, 13 May 2026 04:30:14 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[access point]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[IEEE]]></category>
+		<category><![CDATA[networking]]></category>
+		<category><![CDATA[research]]></category>
+		<category><![CDATA[wireless]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=370174</guid>
+
+					<description><![CDATA[<p>Wireless security training programs lean heavily on generic network labs, with Wi-Fi appearing as a checkbox alongside Bluetooth, Zigbee, and cellular. Hands-on environments dedicated to IEEE 802.11 are uncommon, even as Wi-Fi remains the default on-ramp to corporate networks and a recurring entry point for attackers. A new paper from researchers at the Norwegian University of Science and Technology and the University of the Aegean takes aim at that gap with a cyber range built &#8230; <a href="https://www.helpnetsecurity.com/2026/05/13/wi-fi-cyber-range-security/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/13/wi-fi-cyber-range-security/">Researchers open-source a Wi-Fi cyber range for security training</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Android pushes new scam, theft, and AI protections in 2026 update wave</title>
+		<link>https://www.helpnetsecurity.com/2026/05/13/google-android-security-2026/</link>
+		
+		<dc:creator><![CDATA[Sinisa Markovic]]></dc:creator>
+		<pubDate>Wed, 13 May 2026 03:40:42 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[account protection]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[authentication]]></category>
+		<category><![CDATA[banks]]></category>
+		<category><![CDATA[biometrics]]></category>
+		<category><![CDATA[fraud]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[security update]]></category>
+		<category><![CDATA[smartphones]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=370489</guid>
+
+					<description><![CDATA[<p>Phone scammers spoofing bank caller IDs have driven an estimated $980 million in annual losses worldwide, according to Europol. Android&#8217;s 2026 security roadmap takes direct aim at that pattern with a verified call system built in partnership with banks, alongside a wider set of protections covering app behavior, device theft, location data, and on-device AI processing. Verified financial calls A new feature called verified financial calls will check incoming calls against the official app of &#8230; <a href="https://www.helpnetsecurity.com/2026/05/13/google-android-security-2026/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/13/google-android-security-2026/">Android pushes new scam, theft, and AI protections in 2026 update wave</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Fedora Hummingbird brings the container security model to a Linux host OS</title>
+		<link>https://www.helpnetsecurity.com/2026/05/13/fedora-hummingbird-linux/</link>
+		
+		<dc:creator><![CDATA[Anamarija Pogorelec]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 22:30:26 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[containers]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[Fedora]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[operating system]]></category>
+		<category><![CDATA[Red Hat]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=370449</guid>
+
+					<description><![CDATA[<p>Container image security pipelines have spent the past several years pushing toward minimal footprints, hermetic builds, and continuous CVE remediation. The Fedora Project is now applying that same approach to the host operating system. At Red Hat Summit 2026, Fedora announced Fedora Hummingbird, a container-based rolling Linux distribution delivered as an OCI image. &#8220;The Linux market has split: IT operations teams need the decades-long stability of Red Hat Enterprise Linux, while builders, both human and &#8230; <a href="https://www.helpnetsecurity.com/2026/05/13/fedora-hummingbird-linux/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/13/fedora-hummingbird-linux/">Fedora Hummingbird brings the container security model to a Linux host OS</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft May 2026 Patch Tuesday: Many fixes, but no zero-days</title>
+		<link>https://www.helpnetsecurity.com/2026/05/12/microsoft-may-2026-patch-tuesday/</link>
+		
+		<dc:creator><![CDATA[Zeljka Zorz]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 19:03:16 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Automox]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[MS Office]]></category>
+		<category><![CDATA[Tenable]]></category>
+		<category><![CDATA[Trend Micro]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[Windows Server]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=370476</guid>
+
+					<description><![CDATA[<p>Microsoft has marked May 2026 Patch Tuesday by releasing fixes for 120+ CVE-numbered vulnerabilities, none of which (for a change) are actively exploited or have been publicly disclosed. Still, some deserve more consideration and should be addressed sooner than others. Patches to prioritize For Satnam Narang, senior staff research engineer at Tenable, the four critical remote code execution bugs in Microsoft Word stand out in this release, and especially the two (CVE-2026-40361, CVE-2026-40364) that have &#8230; <a href="https://www.helpnetsecurity.com/2026/05/12/microsoft-may-2026-patch-tuesday/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/12/microsoft-may-2026-patch-tuesday/">Microsoft May 2026 Patch Tuesday: Many fixes, but no zero-days</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>SAP unveils Autonomous Enterprise for AI-driven business operations</title>
+		<link>https://www.helpnetsecurity.com/2026/05/12/sap-autonomous-enterprise-business-workflows/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 16:29:13 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[SAP]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=370436</guid>
+
+					<description><![CDATA[<p>SAP introduced the Autonomous Enterprise to help enhance the world’s most critical business workflows, so that humans and AI work together to meet the accelerating demands of global business profitably, strategically and safely. “For the mission-critical processes of our customers, ‘almost right’ just isn’t good enough,” said Christian Klein, CEO of SAP SE. “By uniting SAP Business AI Platform with SAP Autonomous Suite, we anchor AI agents in the business processes, data and governance so &#8230; <a href="https://www.helpnetsecurity.com/2026/05/12/sap-autonomous-enterprise-business-workflows/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/12/sap-autonomous-enterprise-business-workflows/">SAP unveils Autonomous Enterprise for AI-driven business operations</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Exaforce raises $125 million to respond to AI-powered attacks</title>
+		<link>https://www.helpnetsecurity.com/2026/05/12/exaforce-funding-125-million-series-b/</link>
+		
+		<dc:creator><![CDATA[Industry News]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 15:46:29 +0000</pubDate>
+				<category><![CDATA[Industry news]]></category>
+		<category><![CDATA[Exaforce]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=370421</guid>
+
+					<description><![CDATA[<p>Exaforce announced a $125 million Series B financing round, one of the largest ever in the emerging AI SOC space. The round includes participation from HarbourVest, Peak XV, Mayfield, Khosla Ventures, Seligman Ventures and AICONIC. The new capital will help Exaforce scale its AI-native security operations platform, deepen its real-time reasoning capabilities, and expand globally. Coming just one year after its $75 million Series A, the round brings Exaforce&#8217;s total funding to $200 million. AI &#8230; <a href="https://www.helpnetsecurity.com/2026/05/12/exaforce-funding-125-million-series-b/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/12/exaforce-funding-125-million-series-b/">Exaforce raises $125 million to respond to AI-powered attacks</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Stealthy hackers exploit cPanel flaw in active backdoor campaign (CVE-2026-41940)</title>
+		<link>https://www.helpnetsecurity.com/2026/05/12/cpanel-vulnerability-exploited-backdoor-cve-2026-41940/</link>
+		
+		<dc:creator><![CDATA[Zeljka Zorz]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 15:44:50 +0000</pubDate>
+				<category><![CDATA[Don't miss]]></category>
+		<category><![CDATA[Hot stuff]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[backdoor]]></category>
+		<category><![CDATA[cPanel]]></category>
+		<category><![CDATA[cybercrime]]></category>
+		<category><![CDATA[Japan]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<category><![CDATA[web shell]]></category>
+		<guid isPermaLink="false">https://www.helpnetsecurity.com/?p=370423</guid>
+
+					<description><![CDATA[<p>Security researchers at XLab have outlined an active attack campaign targeting CVE-2026-41940, the recently disclosed vulnerability in cPanel &#038; WHM, and have linked it to a stealthy hacking group that has been operating largely undetected for years. The vulnerability allows an attacker to log into a cPanel server without a username or password, effectively handing them administrator control over the cPanel host system, its configurations and databases, and the websites it manages. The attack campaign &#8230; <a href="https://www.helpnetsecurity.com/2026/05/12/cpanel-vulnerability-exploited-backdoor-cve-2026-41940/" rel="nofollow">More <span class="meta-nav">&#8594;</span></a></p>
+<p>The post <a href="https://www.helpnetsecurity.com/2026/05/12/cpanel-vulnerability-exploited-backdoor-cve-2026-41940/">Stealthy hackers exploit cPanel flaw in active backdoor campaign (CVE-2026-41940)</a> appeared first on <a href="https://www.helpnetsecurity.com">Help Net Security</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SecurityWeek</title>
+	<atom:link href="https://www.securityweek.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.securityweek.com/</link>
+	<description>Cybersecurity News, Insights &#38; Analysis</description>
+	<lastBuildDate>Wed, 13 May 2026 03:58:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg</url>
+	<title>SecurityWeek</title>
+	<link>https://www.securityweek.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Microsoft Patches 137 Vulnerabilities</title>
+		<link>https://www.securityweek.com/microsoft-patches-137-vulnerabilities/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 18:07:39 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Patch Tuesday]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<category><![CDATA[Windows]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46432</guid>
+
+					<description><![CDATA[<p>Fresh security updates resolve critical flaws in Azure, Windows, Dynamics 365, and the SSO Plugin for Jira &#038; Confluence.</p>
+<p>The post <a href="https://www.securityweek.com/microsoft-patches-137-vulnerabilities/">Microsoft Patches 137 Vulnerabilities</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Exaforce Raises $125 Million for Agentic SOC Platform</title>
+		<link>https://www.securityweek.com/exaforce-raises-125-million-for-agentic-soc-platform/</link>
+		
+		<dc:creator><![CDATA[SecurityWeek News]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 17:23:00 +0000</pubDate>
+				<category><![CDATA[Cybersecurity Funding]]></category>
+		<category><![CDATA[agentic SOC]]></category>
+		<category><![CDATA[Exaforce]]></category>
+		<category><![CDATA[funding]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46431</guid>
+
+					<description><![CDATA[<p>Exaforce has raised a total of $200 million and plans on using the latest investment for product development and international expansion. </p>
+<p>The post <a href="https://www.securityweek.com/exaforce-raises-125-million-for-agentic-soc-platform/">Exaforce Raises $125 Million for Agentic SOC Platform</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Adobe Patches 52 Vulnerabilities in 10 Products</title>
+		<link>https://www.securityweek.com/adobe-patches-52-vulnerabilities-in-10-products/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 16:47:21 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[Adobe]]></category>
+		<category><![CDATA[Patch Tuesday]]></category>
+		<category><![CDATA[patches]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46430</guid>
+
+					<description><![CDATA[<p>While none of the flaws have been exploited in the wild, many of them could lead to arbitrary code execution.</p>
+<p>The post <a href="https://www.securityweek.com/adobe-patches-52-vulnerabilities-in-10-products/">Adobe Patches 52 Vulnerabilities in 10 Products</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>White Circle Raises $11 Million for AI Control Platform</title>
+		<link>https://www.securityweek.com/white-circle-raises-11-million-for-ai-control-platform/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 15:40:21 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Cybersecurity Funding]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[funding]]></category>
+		<category><![CDATA[White Circle]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46429</guid>
+
+					<description><![CDATA[<p>The startup will invest in accelerating product development, hiring new talent, and expanding its customer base.</p>
+<p>The post <a href="https://www.securityweek.com/white-circle-raises-11-million-for-ai-control-platform/">White Circle Raises $11 Million for AI Control Platform</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>BWH Hotels Says Hackers Had Access to Reservation Data for 6 Months</title>
+		<link>https://www.securityweek.com/bwh-hotels-says-hackers-had-access-to-reservation-data-for-6-months/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 14:30:00 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[BWH Hotels]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[hotel]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46427</guid>
+
+					<description><![CDATA[<p>Threat actors obtained names and contact information for an unspecified number of BWH Hotels guests. </p>
+<p>The post <a href="https://www.securityweek.com/bwh-hotels-says-hackers-had-access-to-reservation-data-for-6-months/">BWH Hotels Says Hackers Had Access to Reservation Data for 6 Months</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Free OnlyFans Lure Used to Spread Cross-Platform CRPx0 Malware</title>
+		<link>https://www.securityweek.com/free-onlyfans-lure-used-to-spread-cross-platform-crpx0-malware/</link>
+		
+		<dc:creator><![CDATA[Kevin Townsend]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 13:46:49 +0000</pubDate>
+				<category><![CDATA[Malware & Threats]]></category>
+		<category><![CDATA[CRPx0]]></category>
+		<category><![CDATA[malware]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46425</guid>
+
+					<description><![CDATA[<p>CRPx0 is a complex, stealthy malware campaign that targets macOS and Windows systems, and appears to have Linux capabilities in development.</p>
+<p>The post <a href="https://www.securityweek.com/free-onlyfans-lure-used-to-spread-cross-platform-crpx0-malware/">Free OnlyFans Lure Used to Spread Cross-Platform CRPx0 Malware</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Deal Reached With Hackers to Delete Data Stolen From the Canvas Educational Platform</title>
+		<link>https://www.securityweek.com/deal-reached-with-hackers-to-delete-data-stolen-from-the-canvas-educational-platform/</link>
+		
+		<dc:creator><![CDATA[Associated Press]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 13:26:46 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[Incident Response]]></category>
+		<category><![CDATA[Canvas]]></category>
+		<category><![CDATA[education]]></category>
+		<category><![CDATA[Instructure]]></category>
+		<category><![CDATA[ransom payment]]></category>
+		<category><![CDATA[ShinyHunters]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46424</guid>
+
+					<description><![CDATA[<p>The company that operates online learning system Canvas said it struck a deal with hackers to delete the data they pilfered in a cyberattack that created chaos for students, many of them in the middle of finals.</p>
+<p>The post <a href="https://www.securityweek.com/deal-reached-with-hackers-to-delete-data-stolen-from-the-canvas-educational-platform/">Deal Reached With Hackers to Delete Data Stolen From the Canvas Educational Platform</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>West Pharmaceutical Services Hit by Disruptive Ransomware Attack</title>
+		<link>https://www.securityweek.com/west-pharmaceutical-services-hit-by-disruptive-ransomware-attack/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 12:59:49 +0000</pubDate>
+				<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[healthcare]]></category>
+		<category><![CDATA[West Pharmaceutical Services]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46422</guid>
+
+					<description><![CDATA[<p>The company took systems offline globally after hackers exfiltrated data and deployed file-encrypting ransomware.</p>
+<p>The post <a href="https://www.securityweek.com/west-pharmaceutical-services-hit-by-disruptive-ransomware-attack/">West Pharmaceutical Services Hit by Disruptive Ransomware Attack</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Apple Patches Dozens of Vulnerabilities in macOS, iOS</title>
+		<link>https://www.securityweek.com/apple-patches-dozens-of-vulnerabilities-in-macos-ios/</link>
+		
+		<dc:creator><![CDATA[Eduard Kovacs]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 12:37:21 +0000</pubDate>
+				<category><![CDATA[Mobile & Wireless]]></category>
+		<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[macOS]]></category>
+		<category><![CDATA[patches]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46420</guid>
+
+					<description><![CDATA[<p>The tech giant has also ported the patch for a recent deleted chats recovery issue to older versions of iOS.</p>
+<p>The post <a href="https://www.securityweek.com/apple-patches-dozens-of-vulnerabilities-in-macos-ios/">Apple Patches Dozens of Vulnerabilities in macOS, iOS</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>SAP Patches Critical S/4HANA, Commerce Vulnerabilities</title>
+		<link>https://www.securityweek.com/sap-patches-critical-s-4hana-commerce-vulnerabilities/</link>
+		
+		<dc:creator><![CDATA[Ionut Arghire]]></dc:creator>
+		<pubDate>Tue, 12 May 2026 12:13:41 +0000</pubDate>
+				<category><![CDATA[Vulnerabilities]]></category>
+		<category><![CDATA[SAP]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<guid isPermaLink="false">https://www.securityweek.com/?p=46419</guid>
+
+					<description><![CDATA[<p>The flaws could allow attackers to inject malicious code, leading to information disclosure and code execution.</p>
+<p>The post <a href="https://www.securityweek.com/sap-patches-critical-s-4hana-commerce-vulnerabilities/">SAP Patches Critical S/4HANA, Commerce Vulnerabilities</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>
